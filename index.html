@@ -421,101 +421,59 @@
     setInterval(updateClock, 1000);
     updateClock();
 
-    // 2. 비동기 API 호출로 미국 국채 금리 및 VIX 실시간 자동 갱신
+    // 2. data.json을 통한 미국 국채 및 VIX 실시간 동기화
     async function fetchMacroRates() {
       const timeLabel = document.getElementById('api-timestamp');
       const syncLabel = document.getElementById('rate-sync-label');
-
-      // 단일 심볼 데이터 패치 함수 (공개 프록시 경유)
-      async function getQuote(symbol) {
-        const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(symbol)}?interval=1d&range=5d`;
-        const proxyUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`;
-        const res = await fetch(proxyUrl, { cache: 'no-store' });
-        if (!res.ok) throw new Error(`HTTP error ${res.status}`);
-        const data = await res.json();
-        const meta = data.chart.result[0].meta;
-        const price = meta.regularMarketPrice;
-        const prevClose = meta.chartPreviousClose || meta.previousClose;
-        const changePct = prevClose ? ((price - prevClose) / prevClose) * 100 : 0;
-        return { price, changePct };
-      }
 
       function updateCard(valId, chgId, price, changePct, isYield = true) {
         const valEl = document.getElementById(valId);
         const chgEl = document.getElementById(chgId);
         if (!valEl || !chgEl) return;
 
-        valEl.innerText = isYield ? `${price.toFixed(2)}%` : price.toFixed(2);
+        valEl.innerText = isYield ? `${Number(price).toFixed(2)}%` : Number(price).toFixed(2);
         const sign = changePct >= 0 ? '+' : '';
-        chgEl.innerText = `${sign}${changePct.toFixed(2)}%`;
+        chgEl.innerText = `${sign}${Number(changePct).toFixed(2)}%`;
         chgEl.className = `y-change ${changePct >= 0 ? 'up' : 'down'}`;
       }
 
       try {
-        timeLabel.innerText = "데이터 요청 중...";
+        timeLabel.innerText = "네이버 데이터 동기화 중...";
 
-        // 야후 파이낸스 벤치마크 심볼 병렬 호출
-        // ^FVX(5Y), ^TNX(10Y), ^TYX(30Y), ^VIX(VIX), 2YY=F(2Y)
-        const [d5y, d10y, d30y, dvix, d2y] = await Promise.allSettled([
-          getQuote('^FVX'),
-          getQuote('^TNX'),
-          getQuote('^TYX'),
-          getQuote('^VIX'),
-          getQuote('2YY=F')
-        ]);
+        // 캐시 방지를 위해 타임스탬프 쿼리 부착
+        const res = await fetch(`./data.json?t=${Date.now()}`);
+        if (!res.ok) throw new Error("data.json not found");
+        const data = await res.json();
 
-        let y10 = 4.78;
-        let y2 = 4.32;
+        // 만기별 국채금리 렌더링
+        updateCard('val-2y', 'chg-2y', data.us2y.value, data.us2y.change, true);
+        updateCard('val-5y', 'chg-5y', data.us5y.value, data.us5y.change, true);
+        updateCard('val-10y', 'chg-10y', data.us10y.value, data.us10y.change, true);
+        updateCard('val-30y', 'chg-30y', data.us30y.value, data.us30y.change, true);
+        updateCard('val-vix', 'chg-vix', data.vix.value, data.vix.change, false);
 
-        if (d10y.status === 'fulfilled') {
-          // CBOE 금리 지수는 10배수로 제공되는 경우가 있어 보정
-          y10 = d10y.value.price > 15 ? d10y.value.price / 10 : d10y.value.price;
-          updateCard('val-10y', 'chg-10y', y10, d10y.value.changePct, true);
-        }
-
-        if (d5y.status === 'fulfilled') {
-          const y5 = d5y.value.price > 15 ? d5y.value.price / 10 : d5y.value.price;
-          updateCard('val-5y', 'chg-5y', y5, d5y.value.changePct, true);
-        }
-
-        if (d30y.status === 'fulfilled') {
-          const y30 = d30y.value.price > 15 ? d30y.value.price / 10 : d30y.value.price;
-          updateCard('val-30y', 'chg-30y', y30, d30y.value.changePct, true);
-        }
-
-        if (dvix.status === 'fulfilled') {
-          updateCard('val-vix', 'chg-vix', dvix.value.price, dvix.value.changePct, false);
-        }
-
-        if (d2y.status === 'fulfilled') {
-          y2 = d2y.value.price > 15 ? d2y.value.price / 10 : d2y.value.price;
-          updateCard('val-2y', 'chg-2y', y2, d2y.value.changePct, true);
-        }
-
-        // 장단기 금리차 (10Y - 2Y) 동적 계산 (단위: bp)
-        const spreadBp = Math.round((y10 - y2) * 100);
+        // 스프레드 렌더링
         const spreadEl = document.getElementById('val-spread');
         const spreadChgEl = document.getElementById('chg-spread');
         if (spreadEl && spreadChgEl) {
-          spreadEl.innerText = `${spreadBp >= 0 ? '+' : ''}${spreadBp} bp`;
-          spreadEl.className = `y-val ${spreadBp >= 0 ? 'up' : 'warn'}`;
-          spreadChgEl.innerText = spreadBp >= 0 ? "정상화 (우상향)" : "역전 지속 (경기침체 경고)";
-          spreadChgEl.className = `y-change ${spreadBp >= 0 ? 'up' : 'down'}`;
+          const bp = data.spread.value;
+          spreadEl.innerText = `${bp >= 0 ? '+' : ''}${bp} bp`;
+          spreadEl.className = `y-val ${bp >= 0 ? 'up' : 'warn'}`;
+          spreadChgEl.innerText = data.spread.status;
+          spreadChgEl.className = `y-change ${bp >= 0 ? 'up' : 'down'}`;
         }
 
-        const now = new Date();
-        timeLabel.innerText = `API 갱신: ${now.toLocaleTimeString('ko-KR')}`;
-        syncLabel.innerText = "API 실시간 연동 완료";
+        timeLabel.innerText = `최근 동기화: ${data.updated_at}`;
+        syncLabel.innerText = "네이버 증권 실시간 연동";
       } catch (err) {
-        console.warn("API 호출 실패 또는 오프라인 모드:", err);
-        timeLabel.innerText = "기준 종가 유지 (오프라인/대체 모드)";
-        syncLabel.innerText = "로컬 캐시 모드";
+        console.warn("로컬 data.json 로드 대기 중:", err);
+        timeLabel.innerText = "기준치 표시 중 (데이터 대기)";
+        syncLabel.innerText = "기본 모드";
       }
     }
 
-    // 초기 로딩 시 비동기 갱신 실행 (5분 주기로 백그라운드 재호출)
     fetchMacroRates();
-    setInterval(fetchMacroRates, 300000);
+    setInterval(fetchMacroRates, 60000); // 1분 주기 갱신
 
     // 3. 퀴즈 토글
     function toggleQuiz() {
