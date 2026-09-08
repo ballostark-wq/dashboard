@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08 19:05:29",
+  "updated_at": "2026-09-08 20:06:03",
   "us2y": {
     "value": 4.37,
     "change": -0.29
@@ -21,8 +21,8 @@
     "status": "정상화 (우상향)"
   },
   "vix": {
-    "value": 15.53,
-    "change": 1.5
+    "value": 15.57,
+    "change": 1.76
   },
   "tech_news": [
     {
@@ -145,6 +145,16 @@
     ],
     "domestic": [
       {
+        "title": "美 3년물 국채 입찰에 양호한 수요…수익률 예상 하회",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433971",
+        "date": "09-09 04:33"
+      },
+      {
+        "title": "18개 해운 강국 협의체 \"그림자 선단 확대로 해운 질서 붕괴 중\"",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433970",
+        "date": "09-09 04:32"
+      },
+      {
         "title": "이란, 美 스마트 무인 잠수정 포획 주장",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433965",
         "date": "09-09 02:04"
@@ -158,16 +168,6 @@
         "title": "달러-원, 뉴욕장서 1,340원 초반대 거래",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433956",
         "date": "09-08 23:32"
-      },
-      {
-        "title": "英 국채 30년물 발행 금리 5.8168%…28년만에 최고",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433955",
-        "date": "09-08 23:19"
-      },
-      {
-        "title": "이란 대통령 \"침략자 후회할 때까지 저항할 것\"",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433954",
-        "date": "09-08 23:00"
       }
     ]
   },
@@ -223,83 +223,83 @@
       "detail": "10Y-2Y 스프레드가 +42 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.81",
-      "title": "닥터 코퍼 $6.81선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.77",
+      "title": "닥터 코퍼 $6.77선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.81",
-          "chg": "+3.18%",
+          "val": "$6.77",
+          "chg": "+2.58%",
           "up": true
         },
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,421.1",
-          "chg": "-0.20%",
+          "val": "$4,406.3",
+          "chg": "-0.53%",
           "up": false
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$66.59",
-          "chg": "+0.82%",
+          "val": "$66.36",
+          "chg": "+0.47%",
           "up": true
         }
       ],
       "bullets": [
-        "구리 $6.81/lb (+3.18%) - AI 전력망 설비 수요 반영",
-        "금 $4,421/oz, 은 $66.59/oz - 통화가치 헤지"
+        "구리 $6.77/lb (+2.58%) - AI 전력망 설비 수요 반영",
+        "금 $4,406/oz, 은 $66.36/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,341원 | 엔/달러 ¥153.8",
-      "title": "원/달러 1,340.7원선과 엔/달러 ¥153.8",
+      "badge": "원/달러 1,342원 | 엔/달러 ¥154.0",
+      "title": "원/달러 1,342.5원선과 엔/달러 ¥154.0",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,340.7원",
-          "chg": "-0.32%",
+          "val": "1,342.5원",
+          "chg": "-0.08%",
           "up": false
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "98.84pt",
-          "chg": "-0.32%",
+          "val": "98.86pt",
+          "chg": "-0.30%",
           "up": false
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥153.79",
-          "chg": "-1.54%",
-          "up": false
-        }
-      ],
-      "bullets": [
-        "달러 인덱스 98.84pt - 미국 성장 우위 지속",
-        "엔/달러 153.79엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
-      ],
-      "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
-    },
-    "oil": {
-      "badge": "WTI $93.77",
-      "title": "WTI 배럴당 $93.77선 박스권 안정",
-      "metrics": [
-        {
-          "id": "wti",
-          "name": "WTI 원유",
-          "val": "$93.77",
-          "chg": "+2.50%",
+          "val": "¥153.97",
+          "chg": "+0.08%",
           "up": true
         }
       ],
       "bullets": [
-        "WTI 선물 $93.77/배럴 - 에너지 원가 압박 경감",
+        "달러 인덱스 98.86pt - 미국 성장 우위 지속",
+        "엔/달러 153.97엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+      ],
+      "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
+    },
+    "oil": {
+      "badge": "WTI $93.6",
+      "title": "WTI 배럴당 $93.6선 박스권 안정",
+      "metrics": [
+        {
+          "id": "wti",
+          "name": "WTI 원유",
+          "val": "$93.60",
+          "chg": "+2.32%",
+          "up": true
+        }
+      ],
+      "bullets": [
+        "WTI 선물 $93.6/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -307,32 +307,32 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.81,
-      "change": 3.18
+      "price": 6.77,
+      "change": 2.58
     },
     "gold": {
-      "price": 4421.1,
-      "change": -0.2
+      "price": 4406.3,
+      "change": -0.53
     },
     "silver": {
-      "price": 66.59,
-      "change": 0.82
+      "price": 66.36,
+      "change": 0.47
     },
     "wti": {
-      "price": 93.77,
-      "change": 2.5
+      "price": 93.6,
+      "change": 2.32
     },
     "usdkrw": {
-      "price": 1340.72,
-      "change": -0.32
+      "price": 1342.45,
+      "change": -0.08
     },
     "dxy": {
-      "price": 98.84,
-      "change": -0.32
+      "price": 98.86,
+      "change": -0.3
     },
     "usdjpy": {
-      "price": 153.79,
-      "change": -1.54
+      "price": 153.97,
+      "change": 0.08
     }
   },
   "history_20d": {
@@ -595,131 +595,131 @@
       },
       {
         "date": "09-08",
-        "copper": 6.81,
-        "gold": 4421.1,
-        "silver": 66.59
+        "copper": 6.77,
+        "gold": 4406.3,
+        "silver": 66.36
       }
     ],
     "fx": [
       {
-        "date": "08-11",
-        "usdkrw": 1412.18,
-        "dxy": 99.82,
-        "usdjpy": 159.26
-      },
-      {
         "date": "08-12",
         "usdkrw": 1416.46,
-        "dxy": 100.01,
+        "dxy": 99.82,
         "usdjpy": 159.33
       },
       {
         "date": "08-13",
         "usdkrw": 1416.85,
-        "dxy": 99.96,
+        "dxy": 100.01,
         "usdjpy": 159.43
       },
       {
         "date": "08-16",
         "usdkrw": 1415.37,
-        "dxy": 99.67,
+        "dxy": 99.96,
         "usdjpy": 159.22
       },
       {
         "date": "08-17",
         "usdkrw": 1414.73,
-        "dxy": 99.64,
+        "dxy": 99.67,
         "usdjpy": 159.34
       },
       {
         "date": "08-18",
         "usdkrw": 1413.58,
-        "dxy": 99.65,
+        "dxy": 99.64,
         "usdjpy": 159.55
       },
       {
         "date": "08-19",
         "usdkrw": 1389.4,
-        "dxy": 98.83,
+        "dxy": 99.65,
         "usdjpy": 158.28
       },
       {
         "date": "08-20",
         "usdkrw": 1390.79,
-        "dxy": 98.9,
+        "dxy": 98.83,
         "usdjpy": 158.88
       },
       {
         "date": "08-23",
         "usdkrw": 1384.98,
-        "dxy": 98.8,
+        "dxy": 98.9,
         "usdjpy": 158.9
       },
       {
         "date": "08-24",
         "usdkrw": 1380.76,
-        "dxy": 99.0,
+        "dxy": 98.8,
         "usdjpy": 159.14
       },
       {
         "date": "08-25",
         "usdkrw": 1381.49,
-        "dxy": 98.92,
+        "dxy": 99.0,
         "usdjpy": 159.22
       },
       {
         "date": "08-26",
         "usdkrw": 1383.49,
-        "dxy": 99.17,
+        "dxy": 98.92,
         "usdjpy": 159.26
       },
       {
         "date": "08-27",
         "usdkrw": 1380.45,
-        "dxy": 99.16,
+        "dxy": 99.17,
         "usdjpy": 159.32
       },
       {
         "date": "08-30",
         "usdkrw": 1377.11,
-        "dxy": 99.7,
+        "dxy": 99.16,
         "usdjpy": 160.12
       },
       {
         "date": "08-31",
         "usdkrw": 1366.62,
-        "dxy": 99.43,
+        "dxy": 99.7,
         "usdjpy": 159.75
       },
       {
         "date": "09-01",
         "usdkrw": 1372.86,
-        "dxy": 99.67,
+        "dxy": 99.43,
         "usdjpy": 160.2
       },
       {
         "date": "09-02",
         "usdkrw": 1358.39,
-        "dxy": 99.56,
+        "dxy": 99.67,
         "usdjpy": 158.92
       },
       {
         "date": "09-03",
         "usdkrw": 1355.41,
-        "dxy": 99.0,
+        "dxy": 99.56,
         "usdjpy": 155.66
       },
       {
         "date": "09-06",
         "usdkrw": 1345.06,
-        "dxy": 99.16,
+        "dxy": 99.0,
         "usdjpy": 156.2
       },
       {
+        "date": "09-07",
+        "usdkrw": 1343.57,
+        "dxy": 99.16,
+        "usdjpy": 153.85
+      },
+      {
         "date": "09-08",
-        "usdkrw": 1340.72,
-        "dxy": 98.84,
-        "usdjpy": 153.79
+        "usdkrw": 1342.45,
+        "dxy": 98.86,
+        "usdjpy": 153.97
       }
     ],
     "oil": [
@@ -820,8 +820,8 @@
       },
       {
         "date": "09-08",
-        "wti": 93.77,
-        "change": 2.5
+        "wti": 93.6,
+        "change": 2.32
       }
     ]
   },
