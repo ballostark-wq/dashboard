@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08 14:06:55",
+  "updated_at": "2026-09-08 15:07:02",
   "us2y": {
     "value": 4.37,
     "change": -0.29
@@ -21,8 +21,8 @@
     "status": "정상화 (우상향)"
   },
   "vix": {
-    "value": 15.63,
-    "change": 2.16
+    "value": 15.38,
+    "change": 0.52
   },
   "tech_news": [
     {
@@ -133,17 +133,27 @@
         "date": "09-08 19:37"
       },
       {
-        "title": "[전자신문] 호남대 앵커사업단, 백운초서 '기후위기·장애인권감수성 교육' 운영",
-        "link": "https://www.etnews.com/20260908000410",
-        "date": "09-08 23:01"
+        "title": "[전자신문] 호남대 앵커사업단 로컬관광 서포터즈, 서구 치평동 '골목 그린 위크'서 부스 운영",
+        "link": "https://www.etnews.com/20260908000416",
+        "date": "09-08 23:25"
       },
       {
-        "title": "[전자신문] [BEYOND DGIST] 세상을 바꾸는 기술 창업, 차세대 '유니콘' 향해 뛴다〈4〉바이어스",
-        "link": "https://www.etnews.com/20260906000019",
-        "date": "09-08 23:00"
+        "title": "[전자신문] 국립목포대, 산업부 '바이오특화단지 AI 제조혁신 과제' 선정",
+        "link": "https://www.etnews.com/20260908000415",
+        "date": "09-08 23:24"
       }
     ],
     "domestic": [
+      {
+        "title": "달러-원, 뉴욕장서 1,340원 초반대 거래",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433956",
+        "date": "09-08 23:32"
+      },
+      {
+        "title": "英 국채 30년물 발행 금리 5.8168%…28년만에 최고",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433955",
+        "date": "09-08 23:19"
+      },
       {
         "title": "이란 대통령 \"침략자 후회할 때까지 저항할 것\"",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433954",
@@ -158,16 +168,6 @@
         "title": "美 8월 NFIB 소기업 낙관지수 98.7…전달 대비 하락",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433951",
         "date": "09-08 22:26"
-      },
-      {
-        "title": "IRS 금리 상승…장단기 구간 온도차",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433947",
-        "date": "09-08 18:45"
-      },
-      {
-        "title": "[채권-마감] 국제유가 급등에 장 막판 약세 전환…국고 3년 0.1bp↑",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433946",
-        "date": "09-08 18:42"
       }
     ]
   },
@@ -236,70 +236,70 @@
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,449.3",
-          "chg": "+0.44%",
+          "val": "$4,440.1",
+          "chg": "+0.23%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$66.92",
-          "chg": "+1.32%",
+          "val": "$66.72",
+          "chg": "+1.01%",
           "up": true
         }
       ],
       "bullets": [
         "구리 $6.86/lb (+3.94%) - AI 전력망 설비 수요 반영",
-        "금 $4,449/oz, 은 $66.92/oz - 통화가치 헤지"
+        "금 $4,440/oz, 은 $66.72/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,341원 | 엔/달러 ¥153.9",
-      "title": "원/달러 1,341.5원선과 엔/달러 ¥153.9",
+      "badge": "원/달러 1,342원 | 엔/달러 ¥154.1",
+      "title": "원/달러 1,342.2원선과 엔/달러 ¥154.1",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,341.5원",
-          "chg": "-0.27%",
+          "val": "1,342.2원",
+          "chg": "-0.21%",
           "up": false
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "98.86pt",
-          "chg": "-0.30%",
+          "val": "98.83pt",
+          "chg": "-0.33%",
           "up": false
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥153.88",
-          "chg": "-1.49%",
+          "val": "¥154.14",
+          "chg": "-1.32%",
           "up": false
         }
       ],
       "bullets": [
-        "달러 인덱스 98.86pt - 미국 성장 우위 지속",
-        "엔/달러 153.88엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 98.83pt - 미국 성장 우위 지속",
+        "엔/달러 154.14엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $93.24",
-      "title": "WTI 배럴당 $93.24선 박스권 안정",
+      "badge": "WTI $92.74",
+      "title": "WTI 배럴당 $92.74선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$93.24",
-          "chg": "+1.92%",
+          "val": "$92.74",
+          "chg": "+1.38%",
           "up": true
         }
       ],
       "bullets": [
-        "WTI 선물 $93.24/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $92.74/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -311,28 +311,28 @@
       "change": 3.94
     },
     "gold": {
-      "price": 4449.3,
-      "change": 0.44
+      "price": 4440.1,
+      "change": 0.23
     },
     "silver": {
-      "price": 66.92,
-      "change": 1.32
+      "price": 66.72,
+      "change": 1.01
     },
     "wti": {
-      "price": 93.24,
-      "change": 1.92
+      "price": 92.74,
+      "change": 1.38
     },
     "usdkrw": {
-      "price": 1341.47,
-      "change": -0.27
+      "price": 1342.18,
+      "change": -0.21
     },
     "dxy": {
-      "price": 98.86,
-      "change": -0.3
+      "price": 98.83,
+      "change": -0.33
     },
     "usdjpy": {
-      "price": 153.88,
-      "change": -1.49
+      "price": 154.14,
+      "change": -1.32
     }
   },
   "history_20d": {
@@ -596,8 +596,8 @@
       {
         "date": "09-08",
         "copper": 6.86,
-        "gold": 4449.3,
-        "silver": 66.92
+        "gold": 4440.1,
+        "silver": 66.72
       }
     ],
     "fx": [
@@ -717,9 +717,9 @@
       },
       {
         "date": "09-08",
-        "usdkrw": 1341.47,
-        "dxy": 98.86,
-        "usdjpy": 153.88
+        "usdkrw": 1342.18,
+        "dxy": 98.83,
+        "usdjpy": 154.14
       }
     ],
     "oil": [
@@ -820,8 +820,8 @@
       },
       {
         "date": "09-08",
-        "wti": 93.24,
-        "change": 1.92
+        "wti": 92.74,
+        "change": 1.38
       }
     ]
   },
