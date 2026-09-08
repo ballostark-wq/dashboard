@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08 09:06:22",
+  "updated_at": "2026-09-08 10:06:26",
   "us2y": {
     "value": 4.37,
     "change": -0.29
@@ -21,8 +21,8 @@
     "status": "정상화 (우상향)"
   },
   "vix": {
-    "value": 15.91,
-    "change": 3.99
+    "value": 15.54,
+    "change": 1.57
   },
   "tech_news": [
     {
@@ -135,29 +135,29 @@
     ],
     "domestic": [
       {
+        "title": "IRS 금리 상승…장단기 구간 온도차",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433947",
+        "date": "09-08 18:45"
+      },
+      {
+        "title": "[채권-마감] 국제유가 급등에 장 막판 약세 전환…국고 3년 0.1bp↑",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433946",
+        "date": "09-08 18:42"
+      },
+      {
+        "title": "[외환-마감] \"연금 환헤지 중단, 단기저점 신호\"…결제수요에 1,340원대 중반",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433945",
+        "date": "09-08 18:37"
+      },
+      {
+        "title": "FX스와프, 지준일 앞두고 상승…美 경제 지표 경계감",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433944",
+        "date": "09-08 18:24"
+      },
+      {
         "title": "MUFG \"달러-엔, 단기적으로 151.50엔까지 하락 전망\"",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433938",
         "date": "09-08 17:10"
-      },
-      {
-        "title": "\"예상 밖 고환율, 경제양극화 심화…세심한 정책 필요\"",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433937",
-        "date": "09-08 17:09"
-      },
-      {
-        "title": "[도쿄환시] 달러-엔, BOJ 금리인상 가속 관측에 하락 지속",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433924",
-        "date": "09-08 15:57"
-      },
-      {
-        "title": "사라 헌터 RBA 부총재보, 금리 추가 인상 가능성 시사(상보)",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433923",
-        "date": "09-08 15:56"
-      },
-      {
-        "title": "日 국채 5년물 입찰서 응찰률 3.42배…12개월 평균 하회(상보)",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433916",
-        "date": "09-08 15:10"
       }
     ]
   },
@@ -213,83 +213,83 @@
       "detail": "10Y-2Y 스프레드가 +42 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.76",
-      "title": "닥터 코퍼 $6.76선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.8",
+      "title": "닥터 코퍼 $6.8선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.76",
-          "chg": "+2.42%",
+          "val": "$6.80",
+          "chg": "+3.03%",
           "up": true
         },
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,436.3",
-          "chg": "+0.15%",
+          "val": "$4,449.1",
+          "chg": "+0.44%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$66.47",
-          "chg": "+0.64%",
+          "val": "$66.74",
+          "chg": "+1.04%",
           "up": true
         }
       ],
       "bullets": [
-        "구리 $6.76/lb (+2.42%) - AI 전력망 설비 수요 반영",
-        "금 $4,436/oz, 은 $66.47/oz - 통화가치 헤지"
+        "구리 $6.8/lb (+3.03%) - AI 전력망 설비 수요 반영",
+        "금 $4,449/oz, 은 $66.74/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,344원 | 엔/달러 ¥154.1",
-      "title": "원/달러 1,343.8원선과 엔/달러 ¥154.1",
+      "badge": "원/달러 1,342원 | 엔/달러 ¥154.0",
+      "title": "원/달러 1,342.4원선과 엔/달러 ¥154.0",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,343.8원",
-          "chg": "-0.10%",
+          "val": "1,342.4원",
+          "chg": "-0.20%",
           "up": false
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "98.98pt",
-          "chg": "-0.18%",
+          "val": "98.94pt",
+          "chg": "-0.22%",
           "up": false
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥154.06",
-          "chg": "-1.37%",
+          "val": "¥153.99",
+          "chg": "-1.41%",
           "up": false
         }
       ],
       "bullets": [
-        "달러 인덱스 98.98pt - 미국 성장 우위 지속",
-        "엔/달러 154.06엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 98.94pt - 미국 성장 우위 지속",
+        "엔/달러 153.99엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $94.63",
-      "title": "WTI 배럴당 $94.63선 박스권 안정",
+      "badge": "WTI $93.72",
+      "title": "WTI 배럴당 $93.72선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$94.63",
-          "chg": "+3.44%",
+          "val": "$93.72",
+          "chg": "+2.45%",
           "up": true
         }
       ],
       "bullets": [
-        "WTI 선물 $94.63/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $93.72/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -297,32 +297,32 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.76,
-      "change": 2.42
+      "price": 6.8,
+      "change": 3.03
     },
     "gold": {
-      "price": 4436.3,
-      "change": 0.15
+      "price": 4449.1,
+      "change": 0.44
     },
     "silver": {
-      "price": 66.47,
-      "change": 0.64
+      "price": 66.74,
+      "change": 1.04
     },
     "wti": {
-      "price": 94.63,
-      "change": 3.44
+      "price": 93.72,
+      "change": 2.45
     },
     "usdkrw": {
-      "price": 1343.78,
-      "change": -0.1
+      "price": 1342.38,
+      "change": -0.2
     },
     "dxy": {
-      "price": 98.98,
-      "change": -0.18
+      "price": 98.94,
+      "change": -0.22
     },
     "usdjpy": {
-      "price": 154.06,
-      "change": -1.37
+      "price": 153.99,
+      "change": -1.41
     }
   },
   "history_20d": {
@@ -585,9 +585,9 @@
       },
       {
         "date": "09-08",
-        "copper": 6.76,
-        "gold": 4436.3,
-        "silver": 66.47
+        "copper": 6.8,
+        "gold": 4449.1,
+        "silver": 66.74
       }
     ],
     "fx": [
@@ -707,9 +707,9 @@
       },
       {
         "date": "09-08",
-        "usdkrw": 1343.78,
-        "dxy": 98.98,
-        "usdjpy": 154.06
+        "usdkrw": 1342.38,
+        "dxy": 98.94,
+        "usdjpy": 153.99
       }
     ],
     "oil": [
@@ -810,8 +810,8 @@
       },
       {
         "date": "09-08",
-        "wti": 94.63,
-        "change": 3.44
+        "wti": 93.72,
+        "change": 2.45
       }
     ]
   },
