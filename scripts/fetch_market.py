@@ -40,7 +40,7 @@ def load_existing_data():
                 " 유효합니다."
             ),
         },
-        "tech_news": [],
+        "feeds": {"fed": [], "global": [], "tech": [], "domestic": []},
     }
     if os.path.exists("data.json"):
         try:
@@ -115,41 +115,56 @@ def fetch_vix():
     return None
 
 
-def fetch_etnews_rss():
-    """전자신문 속보 RSS 피드 수집 (최신 6건)"""
-    url = "https://rss.etnews.com/Section902.xml"
-    news_list = []
+def clean_date_str(pub_date):
+    """다양한 RSS 날짜 포맷을 간결한 MM-DD HH:MM 형식으로 정규화"""
+    if not pub_date:
+        return ""
+    clean = pub_date.strip()
+    for fmt in [
+        "%a, %d %b %Y %H:%M:%S %z",
+        "%a, %d %b %Y %H:%M:%S GMT",
+        "%a, %d %b %Y %H:%M:%S",
+        "%Y-%m-%d %H:%M:%S",
+    ]:
+        try:
+            dt = datetime.strptime(clean[:25].strip(), fmt)
+            return dt.strftime("%m-%d %H:%M")
+        except Exception:
+            pass
+    return clean[:16]
+
+
+def fetch_rss_feed(url, max_items=5, encoding=None):
+    """범용 XML RSS 파서 (오류 발생 시에도 안전하게 빈 배열 반환)"""
+    items = []
     try:
         res = requests.get(url, headers=HEADERS, timeout=10)
         if res.status_code == 200:
+            if encoding:
+                res.encoding = encoding
+            # XML 루트 파싱
             root = ET.fromstring(res.content)
-            for item in root.findall(".//item")[:6]:
+            for item in root.findall(".//item")[:max_items]:
                 title = item.findtext("title", "")
                 link = item.findtext("link", "")
                 pub_date = item.findtext("pubDate", "")
 
-                # HTML 엔티티 디코딩 및 정제
+                title = re.sub(r"<[^>]+>", "", title)
                 title = html.unescape(title).strip()
-                # 날짜 포맷 간소화 (예: 'Tue, 08 Sep 2026 10:30:00 +0900' -> '09-08 10:30')
-                clean_date = ""
-                try:
-                    dt = datetime.strptime(
-                        pub_date[:25].strip(), "%a, %d %b %Y %H:%M:%S"
-                    )
-                    clean_date = dt.strftime("%m-%d %H:%M")
-                except Exception:
-                    clean_date = pub_date[:16]
 
-                news_list.append(
-                    {"title": title, "link": link.strip(), "date": clean_date}
-                )
+                if title and link:
+                    items.append({
+                        "title": title,
+                        "link": link.strip(),
+                        "date": clean_date_str(pub_date),
+                    })
     except Exception as e:
-        print(f"전자신문 RSS 수집 예외: {e}")
-    return news_list
+        print(f"RSS 수집 예외 ({url}): {e}")
+    return items
 
 
 def generate_macro_briefing(y10, y2, spread_bp, vix_val):
-    """실시간 수치 기반 매크로 레짐 및 장전 투자 전략 지능형 생성"""
+    """지표 기반 매크로 레짐 브리핑 합성"""
     if vix_val < 16.0:
         regime = "Risk-on 우위"
         vix_status = "VIX 안정세로 시스템 리스크가 통제된 우호적 환경"
@@ -165,7 +180,6 @@ def generate_macro_briefing(y10, y2, spread_bp, vix_val):
         if spread_bp >= 0
         else "수익률 곡선 역전 지속"
     )
-
     title = f"10Y {y10}%선 공방과 VIX({vix_val}) 안정: {regime} 차별화 장세"
 
     bullets = [
@@ -211,7 +225,7 @@ def main():
     if vix:
         data["vix"] = vix
 
-    # 3. 장단기 금리차
+    # 3. 장단기 스프레드
     y10 = data.get("us10y", {}).get("value", 4.78)
     y2 = data.get("us2y", {}).get("value", 4.32)
     spread_bp = round((y10 - y2) * 100)
@@ -220,12 +234,40 @@ def main():
         "status": "정상화 (우상향)" if spread_bp >= 0 else "역전 (침체경보)",
     }
 
-    # 4. 전자신문 실시간 RSS 수집
-    news = fetch_etnews_rss()
-    if news:
-        data["tech_news"] = news
+    # 4. 4대 트레이딩 RSS 피드 수집
+    if "feeds" not in data:
+        data["feeds"] = {}
 
-    # 5. 장전 시황 매크로 브리핑 자동 합성
+    # 4-1. 미 연준(FRB) 보도자료/성명
+    fed_items = fetch_rss_feed(
+        "https://www.federalreserve.gov/feeds/press_all.xml", max_items=5
+    )
+    if fed_items:
+        data["feeds"]["fed"] = fed_items
+
+    # 4-2. 마켓워치(MarketWatch) 실시간 글로벌 속보
+    global_items = fetch_rss_feed(
+        "https://feeds.content.dowjones.io/public/rss/mw_realtimeheadlines",
+        max_items=5,
+    )
+    if global_items:
+        data["feeds"]["global"] = global_items
+
+    # 4-3. 전자신문(ETNews) 테크/반도체
+    tech_items = fetch_rss_feed(
+        "https://rss.etnews.com/Section902.xml", max_items=5
+    )
+    if tech_items:
+        data["feeds"]["tech"] = tech_items
+
+    # 4-4. 연합인포맥스 채권/외환
+    infomax_items = fetch_rss_feed(
+        "https://news.einfomax.co.kr/rss/S1N16.xml", max_items=5
+    )
+    if infomax_items:
+        data["feeds"]["domestic"] = infomax_items
+
+    # 5. 매크로 브리핑 합성
     vix_val = data.get("vix", {}).get("value", 15.30)
     data["macro_briefing"] = generate_macro_briefing(
         y10, y2, spread_bp, vix_val
@@ -236,7 +278,7 @@ def main():
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-    print("data.json 동기화 완료 (뉴스 + 매크로 브리핑 포함)")
+    print("4대 RSS 피드 및 매크로 브리핑 동기화 완료!")
 
 
 if __name__ == "__main__":
