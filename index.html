@@ -120,7 +120,6 @@
       color: #64748b;
     }
 
-    /* 상단 탭 바 */
     .feed-tab-bar {
       display: flex;
       align-items: center;
@@ -146,7 +145,6 @@
     .feed-tab.active { background: rgba(56, 189, 248, 0.2); border-color: #38bdf8; color: #38bdf8; }
     .feed-tab.macro-active { background: rgba(16, 185, 129, 0.2); border-color: #34d399; color: #34d399; }
 
-    /* 네이버 바로가기 버튼 */
     .naver-link-btn {
       background: rgba(3, 199, 90, 0.15);
       border: 1px solid rgba(3, 199, 90, 0.4);
@@ -207,7 +205,7 @@
       color: #38bdf8;
     }
 
-    /* 최우선 실제 데이터 스트립 (Data-First Metric Row) */
+    /* 실시간 원천 데이터 칩 */
     .metric-strip {
       display: flex;
       flex-wrap: wrap;
@@ -279,14 +277,38 @@
     .card-history { grid-column: span 2; cursor: pointer; }
     .card-history .card-tag { background: rgba(168, 85, 247, 0.2); color: #d8b4fe; }
 
-    /* CME FedWatch 테이블 */
-    .fedwatch-summary-box { background: rgba(30, 41, 59, 0.5); border: 1px solid rgba(96, 165, 250, 0.3); border-radius: 8px; padding: 10px; margin-bottom: 14px; }
-    .fw-table { width: 100%; border-collapse: collapse; font-size: 0.75rem; margin-top: 6px; }
-    .fw-table th, .fw-table td { padding: 6px 8px; text-align: center; border-bottom: 1px solid #1e293b; }
-    .fw-table th { background: #020617; color: #94a3b8; font-weight: 600; }
-    .fw-bar-wrapper { display: flex; height: 6px; border-radius: 3px; overflow: hidden; background: #334155; margin-top: 4px; }
-    .fw-bar-cut { background: #38bdf8; }
-    .fw-bar-hold { background: #64748b; }
+    /* 서랍 내 20영업일 히스토리 스크롤 테이블 스타일 */
+    .history-table-container {
+      background: #020617;
+      border: 1px solid #1e293b;
+      border-radius: 8px;
+      margin: 12px 0;
+      max-height: 240px;
+      overflow-y: auto;
+    }
+    .hist-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.72rem;
+      text-align: right;
+    }
+    .hist-table th, .hist-table td {
+      padding: 6px 10px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+    .hist-table th {
+      position: sticky;
+      top: 0;
+      background: #090e1f;
+      color: #94a3b8;
+      font-weight: 700;
+      z-index: 2;
+    }
+    .hist-table td:first-child, .hist-table th:first-child {
+      text-align: left;
+      font-weight: 700;
+      color: #cbd5e1;
+    }
 
     @media (max-width: 1024px) {
       .yield-grid { grid-template-columns: repeat(3, 1fr); }
@@ -302,7 +324,7 @@
 
     /* 서랍 */
     .drawer {
-      position: fixed; top: 0; right: 0; width: 100%; max-width: 520px; height: 100%;
+      position: fixed; top: 0; right: 0; width: 100%; max-width: 580px; height: 100%;
       background: #0b1329; border-left: 1px solid #1e293b; box-shadow: -10px 0 30px rgba(0,0,0,0.7);
       z-index: 100; transform: translateX(100%); transition: transform 0.25s ease;
       padding: 24px; display: flex; flex-direction: column; justify-content: space-between;
@@ -317,13 +339,12 @@
 </head>
 <body>
 
-  <!-- 헤더 -->
   <header>
     <div class="brand">
       <span style="font-size: 1.4rem;">📊</span>
       <div>
         <h1>글로벌 매크로 레짐 & 테크 인텔리전스</h1>
-        <p>네이버 증권 시장지표 연동 · 4대 매크로 실시간 데이터 스트립 · CME FedWatch</p>
+        <p>네이버 증권 시장지표 연동 · 4대 매크로 20일 시계열 분석 · CME FedWatch</p>
       </div>
     </div>
     <div class="header-status">
@@ -401,10 +422,10 @@
     </div>
   </section>
 
-  <!-- 메인 그리드 (좌우 4-Quadrant 대칭 구조) -->
+  <!-- 메인 그리드 -->
   <main class="dashboard-grid">
 
-    <!-- 타일 1: 4대 매크로 레짐 (실제 데이터 스트립 최우선 배치) -->
+    <!-- 타일 1: 4대 매크로 레짐 (실시간 수치 리스트업) -->
     <div class="card card-macro-grid">
       <div>
         <div class="feed-tab-bar">
@@ -416,11 +437,10 @@
             <button class="feed-tab" onclick="switchMacroTab('oil')">🛢️ 유가</button>
           </div>
           <a href="https://stock.naver.com/market/marketindex" target="_blank" rel="noopener noreferrer" class="naver-link-btn">
-            <span>네이버 증권 시장지표 ↗</span>
+            <span>네이버 시장지표 ↗</span>
           </a>
         </div>
 
-        <!-- 2x2 쿼드런트 뷰 -->
         <div id="macro-quadrant-view" class="quadrant-grid">
           <!-- 1. 국채수익률 -->
           <div class="quadrant-box" onclick="openDrawer('macro_bonds')">
@@ -428,7 +448,6 @@
               <span>🏛️ 1. 국채수익률</span>
               <span class="m-badge" id="mbadge-bonds">동기화 중</span>
             </div>
-            <!-- 실시간 원천 데이터 칩 최우선 리스트업 -->
             <div class="metric-strip" id="mstrip-bonds">
               <span style="font-size:0.65rem; color:#64748b;">데이터 로딩 중...</span>
             </div>
@@ -484,16 +503,13 @@
           </div>
         </div>
 
-        <!-- 단일 탭 확대 뷰 -->
         <div id="macro-single-view" class="single-view">
           <div id="macro-single-content" style="background:#020617; border:1px solid #1e293b; border-radius:8px; padding:14px;"></div>
         </div>
       </div>
       <div class="card-footer">
         <span>출처: 네이버 증권 시장지표 & 야후 선물</span>
-        <a href="https://stock.naver.com/market/marketindex" target="_blank" rel="noopener noreferrer" style="color:#03c75a; text-decoration:none; font-weight:700;">
-          네이버 시장지표 전체보기 ↗
-        </a>
+        <span style="color:#34d399; cursor:pointer;" onclick="openDrawer('macro_bonds')">영역 클릭 시 20일 히스토리 &rarr;</span>
       </div>
     </div>
 
@@ -607,14 +623,18 @@
 
   </main>
 
-  <!-- 상세 서랍 -->
+  <!-- 상세 서랍 (데이터 칩 + 20일 시계열 스크롤 테이블 지원) -->
   <aside id="drawer" class="drawer">
     <div class="drawer-content-scroll">
       <div class="drawer-header">
         <span id="drawer-tag" class="card-tag" style="background:#1e293b; color:#e2e8f0; margin-bottom:0;"></span>
         <button class="close-btn" onclick="closeDrawer()">&times;</button>
       </div>
-      <h2 id="drawer-title" style="font-size: 1.15rem; font-weight: 700; margin-bottom: 16px; color:#fff;"></h2>
+      <h2 id="drawer-title" style="font-size: 1.15rem; font-weight: 700; margin-bottom: 12px; color:#fff;"></h2>
+      
+      <!-- 서랍 상단 실시간 데이터 칩 스트립 -->
+      <div id="drawer-metric-strip" class="metric-strip" style="display:none; margin-bottom:14px;"></div>
+
       <div id="drawer-body" style="font-size: 0.8rem; line-height: 1.6; color: #cbd5e1;"></div>
     </div>
     <div style="padding-top: 14px; border-top: 1px solid #1e293b;">
@@ -636,6 +656,7 @@
 
     let cachedFeeds = { fed: [], global: [], tech: [], domestic: [] };
     let cachedMacroReviews = null;
+    let cachedHistory20d = null;
     let cachedFedwatch = null;
 
     async function fetchDashboardData() {
@@ -674,10 +695,13 @@
           spreadChgEl.className = `y-change ${bp >= 0 ? 'up' : 'down'}`;
         }
 
-        // 2. 4대 매크로 레짐 렌더링 (실제 데이터 스트립 최우선 렌더링)
+        // 2. 4대 매크로 리뷰 및 20일 히스토리 캐시
         if (data.macro_reviews) {
           cachedMacroReviews = data.macro_reviews;
           renderMacroQuadrants();
+        }
+        if (data.history_20d) {
+          cachedHistory20d = data.history_20d;
         }
 
         // 3. 4대 RSS 피드
@@ -698,7 +722,6 @@
       }
     }
 
-    // 실제 데이터 칩(Data Strip) + 분석 코멘트 렌더링
     function renderMacroQuadrants() {
       if (!cachedMacroReviews) return;
       const m = cachedMacroReviews;
@@ -716,7 +739,6 @@
         if (b) b.innerText = item.badge;
         if (t) t.innerText = item.title;
 
-        // 실제 수치 칩 우선 렌더링
         if (strip && item.metrics) {
           strip.innerHTML = item.metrics.map(mt => `
             <div class="metric-chip">
@@ -727,7 +749,6 @@
           `).join('');
         }
 
-        // 코멘트 불릿 렌더링
         if (ul && item.bullets) {
           ul.innerHTML = item.bullets.map(txt => `<li>${txt}</li>`).join('');
         }
@@ -755,7 +776,6 @@
               <h3 style="font-size:0.95rem; color:#fff;">${item.title}</h3>
               <span class="m-badge">${item.badge}</span>
             </div>
-            <!-- 확대 뷰에서도 원천 데이터 스트립 먼저 출력 -->
             <div class="metric-strip" style="margin-bottom:12px;">
               ${item.metrics.map(mt => `
                 <div class="metric-chip">
@@ -831,145 +851,203 @@
       }
     }
 
-    fetchDashboardData();
-    setInterval(fetchDashboardData, 60000);
+    // 20일 히스토리 테이블 HTML 생성기 (역순 정렬: 최신 날짜가 위로 오도록)
+    function buildHistoryTable(category) {
+      if (!cachedHistory20d || !cachedHistory20d[category]) {
+        return '<p style="font-size:0.75rem; color:#64748b;">히스토리 데이터를 불러오는 중입니다...</p>';
+      }
+      const rawList = cachedHistory20d[category];
+      const list = [...rawList].reverse(); // 최신일 우선
 
-    // 슬라이드 서랍
-    const notes = {
-      macro_bonds: {
-        tag: "🏛️ 매크로 심층: 미국채 수익률 곡선",
-        getTitle: () => cachedMacroReviews ? cachedMacroReviews.bonds.title : "미국채 금리 커브 분석",
-        getBody: () => `
-          <div style="background:#020617; border:1px solid #1e293b; padding:12px; border-radius:8px; margin-bottom:14px;">
-            <strong style="color:#34d399; font-size:0.75rem; display:block; margin-bottom:6px;">📌 커브 스티프닝 & 듀레이션</strong>
-            <p style="font-size:0.75rem; color:#cbd5e1; line-height:1.5;">
-              ${cachedMacroReviews ? cachedMacroReviews.bonds.detail : '장기 금리 상방 압력과 단기 금리 안정이 맞물리며 우상향 정상화 국면에 있습니다.'}
-            </p>
+      if (category === 'bonds') {
+        const rows = list.map(item => `
+          <tr>
+            <td>${item.date}</td>
+            <td style="color:#c7d2fe; font-weight:700;">${item.us10y.toFixed(2)}%</td>
+            <td style="color:#94a3b8;">${item.us2y.toFixed(2)}%</td>
+            <td class="${item.spread >= 0 ? 'up' : 'warn'}" style="font-weight:800;">${item.spread >= 0 ? '+' : ''}${item.spread} bp</td>
+          </tr>
+        `).join('');
+        return `
+          <div class="history-table-container">
+            <table class="hist-table">
+              <thead>
+                <tr><th>일자</th><th>10년물</th><th>2년물</th><th>스프레드</th></tr>
+              </thead>
+              <tbody>${rows}</tbody>
+            </table>
           </div>
-          <a href="https://stock.naver.com/market/marketindex" target="_blank" rel="noopener noreferrer" style="display:inline-block; background:rgba(3,199,90,0.15); border:1px solid #03c75a; color:#03c75a; text-decoration:none; padding:6px 10px; border-radius:6px; font-size:0.75rem; font-weight:700;">
-            네이버 증권 시장지표 원문 확인 ↗
-          </a>
-        `
-      },
-      macro_commodities: {
-        tag: "🪙 매크로 심층: 원자재 (구리·금·은)",
-        getTitle: () => cachedMacroReviews ? cachedMacroReviews.commodities.title : "원자재 & 닥터 코퍼 분석",
-        getBody: () => `
-          <div style="background:#020617; border:1px solid #1e293b; padding:12px; border-radius:8px; margin-bottom:14px;">
-            <strong style="color:#fbbf24; font-size:0.75rem; display:block; margin-bottom:6px;">📌 닥터 코퍼의 선행 신호</strong>
-            <p style="font-size:0.75rem; color:#cbd5e1; line-height:1.5;">
-              ${cachedMacroReviews ? cachedMacroReviews.commodities.detail : '구리 가격 상승은 전통 인프라뿐 아니라 AI 데이터센터와 전력망 투자를 반영합니다.'}
-            </p>
+        `;
+      } else if (category === 'commodities') {
+        const rows = list.map(item => `
+          <tr>
+            <td>${item.date}</td>
+            <td style="color:#38bdf8; font-weight:700;">$${item.copper.toFixed(2)}</td>
+            <td style="color:#fbbf24; font-weight:700;">$${item.gold.toLocaleString()}</td>
+            <td style="color:#cbd5e1;">$${item.silver.toFixed(2)}</td>
+          </tr>
+        `).join('');
+        return `
+          <div class="history-table-container">
+            <table class="hist-table">
+              <thead>
+                <tr><th>일자</th><th>구리 ($/lb)</th><th>금 ($/oz)</th><th>은 ($/oz)</th></tr>
+              </thead>
+              <tbody>${rows}</tbody>
+            </table>
           </div>
-        `
-      },
-      macro_fx: {
-        tag: "💵 매크로 심층: 외환(FX) & 달러 인덱스",
-        getTitle: () => cachedMacroReviews ? cachedMacroReviews.fx.title : "환율 및 달러 인덱스 분석",
-        getBody: () => `
-          <div style="background:#020617; border:1px solid #1e293b; padding:12px; border-radius:8px; margin-bottom:14px;">
-            <strong style="color:#38bdf8; font-size:0.75rem; display:block; margin-bottom:6px;">📌 달러화와 외국인 수급</strong>
-            <p style="font-size:0.75rem; color:#cbd5e1; line-height:1.5;">
-              ${cachedMacroReviews ? cachedMacroReviews.fx.detail : '원/달러 환율 상단 저항선 형성은 국내 수출 대형주 실적 방어와 외국인 패시브 수급에 영향을 줍니다.'}
-            </p>
+        `;
+      } else if (category === 'fx') {
+        const rows = list.map(item => `
+          <tr>
+            <td>${item.date}</td>
+            <td style="color:#34d399; font-weight:700;">${item.usdkrw.toFixed(1)}원</td>
+            <td style="color:#38bdf8; font-weight:700;">${item.dxy.toFixed(2)}pt</td>
+          </tr>
+        `).join('');
+        return `
+          <div class="history-table-container">
+            <table class="hist-table">
+              <thead>
+                <tr><th>일자</th><th>원/달러 환율</th><th>달러인덱스 (DXY)</th></tr>
+              </thead>
+              <tbody>${rows}</tbody>
+            </table>
           </div>
-        `
-      },
-      macro_oil: {
-        tag: "🛢️ 매크로 심층: 유가 & 인플레이션",
-        getTitle: () => cachedMacroReviews ? cachedMacroReviews.oil.title : "WTI 유가 및 에너지 분석",
-        getBody: () => `
-          <div style="background:#020617; border:1px solid #1e293b; padding:12px; border-radius:8px; margin-bottom:14px;">
-            <strong style="color:#f43f5e; font-size:0.75rem; display:block; margin-bottom:6px;">📌 에너지 마진 스퀴즈 완화</strong>
-            <p style="font-size:0.75rem; color:#cbd5e1; line-height:1.5;">
-              ${cachedMacroReviews ? cachedMacroReviews.oil.detail : '유가 안정세는 제조업체의 비용 부담을 낮춰 테크 중심의 실적 장세를 지속시킵니다.'}
-            </p>
+        `;
+      } else if (category === 'oil') {
+        const rows = list.map(item => `
+          <tr>
+            <td>${item.date}</td>
+            <td style="color:#f43f5e; font-weight:700;">$${item.wti.toFixed(2)}</td>
+            <td class="${item.change >= 0 ? 'up' : 'down'}" style="font-weight:700;">${item.change >= 0 ? '+' : ''}${item.change.toFixed(2)}%</td>
+          </tr>
+        `).join('');
+        return `
+          <div class="history-table-container">
+            <table class="hist-table">
+              <thead>
+                <tr><th>일자</th><th>WTI 선물 ($/배럴)</th><th>전일대비 등락</th></tr>
+              </thead>
+              <tbody>${rows}</tbody>
+            </table>
           </div>
-        `
-      },
-      fedwatch: {
-        tag: "🏛️ CME FedWatch 최근 5일 기준금리 전망",
-        getTitle: () => `차기 FOMC 기준금리 확률 변화 추이 (${cachedFedwatch ? cachedFedwatch.meeting_date : '2026-09-16'})`,
-        getBody: () => {
-          const fw = cachedFedwatch || {
-            current_target: "3.75%-4.00%",
-            history: [
-              { date: "09-02 (D-4)", cut_25: 32.0, hold: 68.0 },
-              { date: "09-03 (D-3)", cut_25: 35.5, hold: 64.5 },
-              { date: "09-04 (D-2)", cut_25: 38.0, hold: 62.0 },
-              { date: "09-05 (D-1)", cut_25: 40.0, hold: 60.0 },
-              { date: "09-08 (오늘)", cut_25: 41.5, hold: 58.5 }
-            ]
-          };
+        `;
+      }
+      return '';
+    }
 
-          const rows = fw.history.map(h => `
-            <tr>
-              <td style="font-weight:700; color:#e2e8f0;">${h.date}</td>
-              <td style="color:#38bdf8; font-weight:700;">${h.cut_25}%</td>
-              <td style="color:#94a3b8; font-weight:700;">${h.hold}%</td>
-              <td style="width: 120px;">
-                <div class="fw-bar-wrapper">
-                  <div class="fw-bar-cut" style="width: ${h.cut_25}%;"></div>
-                  <div class="fw-bar-hold" style="width: ${h.hold}%;"></div>
-                </div>
-              </td>
-            </tr>
+    // 슬라이드 서랍 오픈 함수 (데이터 스트립 + 20영업일 히스토리 테이블 바인딩)
+    function openDrawer(key) {
+      const tagEl = document.getElementById('drawer-tag');
+      const titleEl = document.getElementById('drawer-title');
+      const stripEl = document.getElementById('drawer-metric-strip');
+      const bodyEl = document.getElementById('drawer-body');
+
+      stripEl.style.display = 'none';
+      stripEl.innerHTML = '';
+
+      if (key.startsWith('macro_')) {
+        const cat = key.replace('macro_', '');
+        const item = cachedMacroReviews ? cachedMacroReviews[cat] : null;
+
+        const catNames = {
+          bonds: '🏛️ 매크로 심층: 미국채 수익률 곡선 (20일 추이)',
+          commodities: '🪙 매크로 심층: 원자재 (구리·금·은 20일 추이)',
+          fx: '💵 매크로 심층: 외환(FX) & 달러인덱스 (20일 추이)',
+          oil: '🛢️ 매크로 심층: WTI 유가 & 에너지 (20일 추이)'
+        };
+
+        tagEl.innerText = catNames[cat] || "매크로 지표 심층";
+        titleEl.innerText = item ? item.title : "지표 상세 분석";
+
+        // 서랍 상단 실시간 데이터 칩 스트립 표출
+        if (item && item.metrics) {
+          stripEl.style.display = 'flex';
+          stripEl.innerHTML = item.metrics.map(mt => `
+            <div class="metric-chip">
+              <span class="metric-chip-name">${mt.name}</span>
+              <span class="metric-chip-val">${mt.val}</span>
+              <span class="metric-chip-chg ${mt.up ? 'up' : 'down'}">${mt.chg}</span>
+            </div>
           `).join('');
-
-          return `
-            <div class="fedwatch-summary-box">
-              <div style="display:flex; justify-content:space-between; margin-bottom:6px; font-size:0.75rem;">
-                <span>기준금리: <strong>${fw.current_target}</strong></span>
-                <span style="color:#38bdf8;">■ 25bp 인하</span>
-                <span style="color:#94a3b8;">■ 동결</span>
-              </div>
-              <table class="fw-table">
-                <thead>
-                  <tr>
-                    <th>날짜 (추이)</th>
-                    <th>25bp 인하</th>
-                    <th>동결</th>
-                    <th>확률 게이지</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  ${rows}
-                </tbody>
-              </table>
-            </div>
-            <div style="margin-top:14px;">
-              <a href="https://www.cmegroup.com/ko/markets/interest-rates/cme-fedwatch-tool.html" target="_blank" rel="noopener noreferrer" style="display:inline-block; background:#1e293b; border:1px solid #3b82f6; color:#60a5fa; text-decoration:none; padding:8px 12px; border-radius:6px; font-size:0.75rem; font-weight:600;">
-                CME FedWatch Tool 공식 웹페이지 바로가기 ↗
-              </a>
-            </div>
-          `;
         }
-      },
-      language: {
-        tag: "비즈니스 & 마켓 표현",
-        getTitle: () => "'Liquidity vortex' — 유동성 소용돌이",
-        getBody: () => `
+
+        // 20일 히스토리 스크롤 테이블 + 분석 텍스트 + 바로가기 버튼 결합
+        bodyEl.innerHTML = `
+          <div style="margin-bottom:8px;">
+            <span style="font-size:0.75rem; font-weight:700; color:#94a3b8;">📅 최근 20영업일 시계열 히스토리 (스크롤 지원)</span>
+          </div>
+          ${buildHistoryTable(cat)}
+
+          <div style="background:#020617; border:1px solid #1e293b; padding:12px; border-radius:8px; margin: 14px 0;">
+            <strong style="color:#34d399; font-size:0.75rem; display:block; margin-bottom:6px;">📌 트레이딩 데스크 분석 코멘트</strong>
+            <p style="font-size:0.75rem; color:#cbd5e1; line-height:1.5;">
+              ${item ? item.detail : '지표 데이터를 수신 중입니다.'}
+            </p>
+          </div>
+
+          <a href="https://stock.naver.com/market/marketindex" target="_blank" rel="noopener noreferrer" style="display:inline-block; background:rgba(3,199,90,0.15); border:1px solid #03c75a; color:#03c75a; text-decoration:none; padding:7px 12px; border-radius:6px; font-size:0.75rem; font-weight:700;">
+            네이버 증권 시장지표 원문 바로가기 ↗
+          </a>
+        `;
+      } else if (key === 'fedwatch') {
+        tagEl.innerText = "🏛️ CME FedWatch 최근 5일 기준금리 전망";
+        const fw = cachedFedwatch || {
+          meeting_date: "2026-09-16 (차기 FOMC)",
+          current_target: "3.75%-4.00%",
+          history: []
+        };
+        titleEl.innerText = `차기 FOMC 기준금리 확률 추이 (${fw.meeting_date})`;
+        bodyEl.innerHTML = `
+          <div style="background:#020617; border:1px solid #1e293b; padding:12px; border-radius:8px; margin-bottom:14px;">
+            <div style="display:flex; justify-content:space-between; font-size:0.75rem; margin-bottom:6px;">
+              <span>기준금리: <strong>${fw.current_target}</strong></span>
+              <span style="color:#38bdf8;">■ 25bp 인하</span>
+              <span style="color:#94a3b8;">■ 동결</span>
+            </div>
+            <table class="hist-table" style="text-align:center;">
+              <thead>
+                <tr><th style="text-align:center;">일자</th><th>25bp 인하</th><th>동결</th><th>확률 게이지</th></tr>
+              </thead>
+              <tbody>
+                ${fw.history.map(h => `
+                  <tr>
+                    <td style="font-weight:700; color:#e2e8f0; text-align:center;">${h.date}</td>
+                    <td style="color:#38bdf8; font-weight:700;">${h.cut_25}%</td>
+                    <td style="color:#94a3b8; font-weight:700;">${h.hold}%</td>
+                    <td style="width: 100px;">
+                      <div style="display:flex; height:6px; border-radius:3px; overflow:hidden; background:#334155;">
+                        <div style="background:#38bdf8; width:${h.cut_25}%;"></div>
+                        <div style="background:#64748b; width:${h.hold}%;"></div>
+                      </div>
+                    </td>
+                  </tr>
+                `).join('')}
+              </tbody>
+            </table>
+          </div>
+          <a href="https://www.cmegroup.com/ko/markets/interest-rates/cme-fedwatch-tool.html" target="_blank" rel="noopener noreferrer" style="display:inline-block; background:#1e293b; border:1px solid #3b82f6; color:#60a5fa; text-decoration:none; padding:7px 12px; border-radius:6px; font-size:0.75rem; font-weight:600;">
+            CME FedWatch Tool 공식 웹페이지 ↗
+          </a>
+        `;
+      } else if (key === 'language') {
+        tagEl.innerText = "비즈니스 & 마켓 표현";
+        titleEl.innerText = "'Liquidity vortex' — 유동성 소용돌이";
+        bodyEl.innerHTML = `
           <p style="margin-bottom:12px;">특정 주도 섹터가 시장 전체 유동성을 흡수해 타 업종이 소외되는 현상입니다.</p>
           <div style="background:#020617; border:1px solid #1e293b; padding:10px; border-radius:8px;">
             <strong>"The semiconductor rally has created a liquidity vortex, draining capital from defensive sectors."</strong>
           </div>
-        `
-      },
-      history: {
-        tag: "산업사 & 사이클 분석",
-        getTitle: () => "고금리·고유가 국면 속 '실적 장세' 법칙",
-        getBody: () => `
+        `;
+      } else if (key === 'history') {
+        tagEl.innerText = "산업사 & 사이클 분석";
+        titleEl.innerText = "고금리·고유가 국면 속 '실적 장세' 법칙";
+        bodyEl.innerHTML = `
           <p style="margin-bottom:10px;">유가와 금리가 동반 상승할 때 주식시장은 판가 전가력을 갖춘 독점적 기술주 위주로 차별화되었습니다.</p>
-        `
+        `;
       }
-    };
 
-    function openDrawer(key) {
-      const item = notes[key];
-      if (!item) return;
-      document.getElementById('drawer-tag').innerText = item.tag;
-      document.getElementById('drawer-title').innerText = item.getTitle();
-      document.getElementById('drawer-body').innerHTML = item.getBody();
       document.getElementById('drawer').classList.add('open');
       document.getElementById('overlay').classList.add('show');
     }
@@ -990,6 +1068,9 @@
         btn.innerText = '정답 가리기';
       }
     }
+
+    fetchDashboardData();
+    setInterval(fetchDashboardData, 60000);
   </script>
 </body>
 </html>
