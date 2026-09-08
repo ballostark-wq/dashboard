@@ -15,7 +15,7 @@ HEADERS = {
 
 
 def load_existing_data():
-    """기존 data.json 안전장치 및 백업 데이터 유지"""
+    """기존 data.json 안전장치"""
     default_data = {
         "updated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         "us2y": {"value": 4.32, "change": 0.03},
@@ -56,7 +56,7 @@ def load_existing_data():
 
 
 def fetch_yahoo_quote(symbol):
-    """야후 파이낸스 공개 차트 API에서 실시간 시세 및 전일대비 등락률 수집"""
+    """야후 파이낸스 공개 API 시세 및 변동률 수집"""
     url = f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?interval=1d&range=5d"
     try:
         res = requests.get(url, headers=HEADERS, timeout=10)
@@ -166,12 +166,16 @@ def fetch_rss(url, max_items=5, prefix="", encoding=None):
     return items
 
 
-def generate_realtime_macro_reviews(y10_data, y2_data, spread_bp, ind):
-    """실제 수집된 실시간 수치에 기반한 지능형 매크로 분석 생성"""
+def generate_macro_reviews_with_metrics(
+    y10_data, y2_data, spread_bp, ind, naver_rates
+):
+    """실제 원천 데이터 리스트(Metrics)를 최우선 배치하고 코멘트 결합"""
     y10 = y10_data.get("value", 4.78)
     y10_chg = y10_data.get("change", 0.0)
     y2 = y2_data.get("value", 4.32)
     y2_chg = y2_data.get("change", 0.0)
+    y30 = naver_rates.get("us30y", {}).get("value", 4.95)
+    y30_chg = naver_rates.get("us30y", {}).get("change", 0.0)
 
     cop = ind.get("copper", {"price": 4.62, "change": 0.85})
     gold = ind.get("gold", {"price": 2685.4, "change": 0.32})
@@ -180,103 +184,164 @@ def generate_realtime_macro_reviews(y10_data, y2_data, spread_bp, ind):
     krw = ind.get("usdkrw", {"price": 1382.50, "change": 0.25})
     dxy = ind.get("dxy", {"price": 103.85, "change": -0.12})
 
-    # 1. 국채 수익률 곡선 동적 리뷰
-    curve_state = "커브 스티프닝(정상화)" if spread_bp >= 0 else "커브 역전(침체경보)"
+    # 1. 국채수익률
+    curve_state = "정상화 (우상향)" if spread_bp >= 0 else "역전 (침체경보)"
     bonds = {
-        "badge": f"10Y {y10}% ({y10_chg:+.2f}%) | {spread_bp:+d}bp",
-        "title": f"미 국채 10년물 {y10}%선 공방과 {curve_state}",
+        "badge": f"스프레드 {spread_bp:+d} bp",
+        "title": f"미국채 10년물 {y10}%선 공방과 {curve_state}",
+        "metrics": [
+            {
+                "name": "10년물",
+                "val": f"{y10:.2f}%",
+                "chg": f"{y10_chg:+.2f}%",
+                "up": y10_chg >= 0,
+            },
+            {
+                "name": "2년물",
+                "val": f"{y2:.2f}%",
+                "chg": f"{y2_chg:+.2f}%",
+                "up": y2_chg >= 0,
+            },
+            {
+                "name": "30년물",
+                "val": f"{y30:.2f}%",
+                "chg": f"{y30_chg:+.2f}%",
+                "up": y30_chg >= 0,
+            },
+            {
+                "name": "10Y-2Y차",
+                "val": f"{spread_bp:+d} bp",
+                "chg": curve_state,
+                "up": spread_bp >= 0,
+            },
+        ],
         "bullets": [
             (
-                f"10년물 {y10}%({y10_chg:+.2f}%), 2년물"
-                f" {y2}%({y2_chg:+.2f}%)로 스프레드 {spread_bp:+d} bp 형성"
+                f"10년물 {y10}%와 2년물 {y2}% 형성으로 장단기차 {spread_bp:+d} bp"
+                " 유지"
             ),
-            (
-                "통화정책 민감 구간인 2년물 안정세 속 장기물 기간"
-                " 프리미엄(Term Premium) 유지"
-            ),
+            "단기 통화정책 안정세 속 재정 적자 발행에 따른 장기물 기간 프리미엄",
         ],
         "detail": (
-            f"현재 장단기 금리차는 {spread_bp:+d} bp로, 장기 금리가 단기 금리를"
-            " 상회하며 경기 침체 리스크 완화 국면을 가리킵니다. 발행 물량 소화에"
-            " 따른 장기채 변동성 구간이므로 듀레이션 과확대보다는 단기 바벨"
-            " 전략이 안정적입니다."
+            f"10Y-2Y 스프레드가 {spread_bp:+d} bp를 기록하며 채권시장은 경기"
+            " 침체 회피에 무게를 두고 있습니다. 무리한 듀레이션 확대보다는 2~3년물"
+            " 중심의 바벨 전략이 적합합니다."
         ),
     }
 
-    # 2. 원자재 동적 리뷰 (실제 가격 삽입)
+    # 2. 원자재
     cop_dir = "강세" if cop["change"] >= 0 else "조정"
-    gold_dir = "상승" if gold["change"] >= 0 else "하락"
     commodities = {
-        "badge": f"구리 ${cop['price']} ({cop['change']:+.1f}%) | 금 ${gold['price']:,.0f}",
-        "title": f"닥터 코퍼 ${cop['price']}/lb {cop_dir}와 금·은의 인플레 헤지",
+        "badge": f"구리 ${cop['price']}",
+        "title": f"닥터 코퍼 ${cop['price']}선 {cop_dir} 및 귀금속 헤지 수요",
+        "metrics": [
+            {
+                "name": "구리(동)",
+                "val": f"${cop['price']:.2f}",
+                "chg": f"{cop['change']:+.2f}%",
+                "up": cop["change"] >= 0,
+            },
+            {
+                "name": "금(Gold)",
+                "val": f"${gold['price']:,.1f}",
+                "chg": f"{gold['change']:+.2f}%",
+                "up": gold["change"] >= 0,
+            },
+            {
+                "name": "은(Silver)",
+                "val": f"${silver['price']:.2f}",
+                "chg": f"{silver['change']:+.2f}%",
+                "up": silver["change"] >= 0,
+            },
+        ],
         "bullets": [
             (
-                f"구리(Copper): ${cop['price']}/lb ({cop['change']:+.2f}%) -"
+                f"구리(Copper) ${cop['price']}/lb ({cop['change']:+.2f}%) -"
                 f" 글로벌 인프라·AI 전력망 설비 수요 반영 ({cop_dir})"
             ),
             (
-                f"금: ${gold['price']:,.1f}/oz ({gold['change']:+.2f}%), 은:"
-                f" ${silver['price']}/oz ({silver['change']:+.2f}%) - 통화가치"
-                f" 헤지 {gold_dir}"
+                f"금 ${gold['price']:,.0f}/oz, 은 ${silver['price']}/oz - 통화가치"
+                " 희석 우려에 대한 헤지 수요 지속"
             ),
         ],
         "detail": (
-            f"실물 경기의 바로미터인 구리가 ${cop['price']}선에서"
-            f" {cop['change']:+.2f}% 움직이며 인프라 사이클 기대감을"
-            " 유지하고 있습니다. 금·은의 하방 지지력은 시스템적 위험보다 글로벌"
-            " 부채와 유동성 공급에 따른 화폐가치 방어 수요가 유입되고 있음을"
-            " 시사합니다."
+            f"실물 경기 선행지표인 구리가 ${cop['price']}선에서"
+            f" {cop['change']:+.2f}% 흐름을 보이며 인프라 증설 기대를"
+            " 견인하고 있습니다. 금·은의 동반 지지력은 유동성 방어 수요가"
+            " 유효함을 나타냅니다."
         ),
     }
 
-    # 3. 환율 동적 리뷰 (실제 원/달러 및 DXY 삽입)
-    dxy_dir = "상승" if dxy["change"] >= 0 else "약세"
-    krw_dir = "원화 약세" if krw["change"] >= 0 else "원화 강세"
+    # 3. 환율
+    krw_state = "원화 약세" if krw["change"] >= 0 else "원화 강세"
     fx = {
-        "badge": f"원/달러 {krw['price']:,.1f}원 | DXY {dxy['price']}",
-        "title": f"달러 인덱스 {dxy['price']}pt {dxy_dir}와 원/달러 {krw['price']:,.0f}원선 공방",
+        "badge": f"원/달러 {krw['price']:,.0f}원",
+        "title": f"원/달러 {krw['price']:,.1f}원선 등락과 DXY {dxy['price']}pt 지지",
+        "metrics": [
+            {
+                "name": "원/달러",
+                "val": f"{krw['price']:,.1f}원",
+                "chg": f"{krw['change']:+.2f}%",
+                "up": krw["change"] >= 0,
+            },
+            {
+                "name": "달러인덱스",
+                "val": f"{dxy['price']:.2f}pt",
+                "chg": f"{dxy['change']:+.2f}%",
+                "up": dxy["change"] >= 0,
+            },
+        ],
         "bullets": [
             (
-                f"달러 인덱스(DXY): {dxy['price']}pt ({dxy['change']:+.2f}%) -"
-                " 주요국 대비 미국 상대성장 우위 반영"
+                f"달러 인덱스(DXY) {dxy['price']}pt ({dxy['change']:+.2f}%) -"
+                " 미국 상대성장 우위로 달러 하방 경직성"
             ),
             (
-                f"원/달러 환율: {krw['price']:,.1f}원 ({krw['change']:+.2f}%) -"
-                f" {krw_dir} 구간 속 외국인 증시 수급 민감도 점검"
+                f"원/달러 환율 {krw['price']:,.1f}원 ({krw['change']:+.2f}%) -"
+                f" {krw_state} 구간 속 외국인 패시브 수급 주시"
             ),
         ],
         "detail": (
-            f"달러 인덱스가 {dxy['price']}선에서 등락하며 급격한 약세 전환은"
-            f" 제한되는 모습입니다. 원/달러 환율 {krw['price']:,.1f}원선은 수출"
-            " 대형주(반도체, 자동차)의 원화 환산 마진을 지지하는 반면 외국인의"
-            " 지수 추종 패시브 자금 유출입의 임계선으로 작용합니다."
+            f"원/달러 환율 {krw['price']:,.1f}원선은 반도체 등 수출 대형주의"
+            " 원화 환산 실적을 방어하는 완충 역할을 합니다. DXY 103선 지지는"
+            " 연준의 신중한 금리 인하 경로를 반영합니다."
         ),
     }
 
-    # 4. 유가 동적 리뷰 (실제 WTI 가격 삽입)
+    # 4. 유가
     oil_status = (
         "박스권 안정"
         if wti["price"] < 80.0
         else "상방 압력 경계"
     )
     oil = {
-        "badge": f"WTI ${wti['price']} ({wti['change']:+.2f}%)",
-        "title": f"WTI 배럴당 ${wti['price']}선 등락과 {oil_status}",
+        "badge": f"WTI ${wti['price']}",
+        "title": f"WTI 배럴당 ${wti['price']}선과 {oil_status}",
+        "metrics": [
+            {
+                "name": "WTI 원유",
+                "val": f"${wti['price']:.2f}",
+                "chg": f"{wti['change']:+.2f}%",
+                "up": wti["change"] >= 0,
+            },
+            {
+                "name": "유가 국면",
+                "val": oil_status,
+                "chg": "에너지 마진 안정",
+                "up": True,
+            },
+        ],
         "bullets": [
             (
                 f"WTI 원유 선물: ${wti['price']}/배럴 ({wti['change']:+.2f}%) -"
-                " 에너지발 공급망 비용 부담 완화 추세"
+                " 공급망 비용 스퀴즈 압박 경감"
             ),
-            (
-                f"지정학적 리스크 프리미엄 축소 속 ${wti['price']}선 안착으로"
-                " 헤드라인 CPI 자극 제한"
-            ),
+            "에너지 가격 안정세로 헤드라인 인플레이션 자극 제한",
         ],
         "detail": (
-            f"유가가 배럴당 ${wti['price']} 수준을 기록함에 따라 하드웨어"
-            " 제조업체들의 원가 마진 스퀴즈(Margin Squeeze) 우려가"
-            " 제한적입니다. 원자재발 인플레이션 충격이 낮아진 환경은 테크주의"
-            " 실적 중심 랠리를 지탱하는 핵심 배경입니다."
+            f"유가가 배럴당 ${wti['price']} 수준으로 안정됨에 따라 제조업체의"
+            " 원가 마진 스퀴즈 위험이 축소되었습니다. 이는 IT 하드웨어주 중심의"
+            " 실적 장세를 뒷받침하는 핵심 요인입니다."
         ),
     }
 
@@ -291,7 +356,7 @@ def generate_realtime_macro_reviews(y10_data, y2_data, spread_bp, ind):
 def main():
     data = load_existing_data()
 
-    # 1. 네이버 국채금리 갱신
+    # 1. 네이버 국채금리 수집
     rates = fetch_naver_rates()
     for k, v in rates.items():
         data[k] = v
@@ -304,7 +369,7 @@ def main():
         "status": "정상화 (우상향)" if spread_bp >= 0 else "역전 (침체경보)",
     }
 
-    # 2. VIX 및 실시간 글로벌 지표 수집
+    # 2. VIX 및 실시간 지표 수집
     vix = fetch_yahoo_quote("^VIX")
     if vix:
         data["vix"] = vix
@@ -313,10 +378,10 @@ def main():
         data["indicators"] = {}
 
     indicators_map = {
-        "copper": "HG=F",  # 구리 선물 ($/lb)
-        "gold": "GC=F",  # 금 선물 ($/oz)
-        "silver": "SI=F",  # 은 선물 ($/oz)
-        "wti": "CL=F",  # WTI 원유 ($/배럴)
+        "copper": "HG=F",  # 구리 ($/lb)
+        "gold": "GC=F",  # 금 ($/oz)
+        "silver": "SI=F",  # 은 ($/oz)
+        "wti": "CL=F",  # WTI ($/배럴)
         "usdkrw": "KRW=X",  # 원/달러 환율
         "dxy": "DX-Y.NYB",  # 달러 인덱스
     }
@@ -326,12 +391,12 @@ def main():
         if quote:
             data["indicators"][key] = quote
 
-    # 3. 실제 지표 기반 4대 매크로 리뷰 동적 생성
-    data["macro_reviews"] = generate_realtime_macro_reviews(
-        y10_data, y2_data, spread_bp, data["indicators"]
+    # 3. 데이터 우선 리스트업 매크로 리뷰 생성
+    data["macro_reviews"] = generate_macro_reviews_with_metrics(
+        y10_data, y2_data, spread_bp, data["indicators"], rates
     )
 
-    # 4. 4대 RSS 피드 수집 (연준 연설 + CNBC + 디일렉/전자신문 + 인포맥스)
+    # 4. 4대 RSS 피드 수집
     if "feeds" not in data:
         data["feeds"] = {}
 
@@ -380,7 +445,7 @@ def main():
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-    print("실시간 시세 기반 매크로 리뷰 및 데이터 동기화 완료!")
+    print("실제 수치 리스트업 및 네이버 증권 데이터 동기화 완료!")
 
 
 if __name__ == "__main__":
