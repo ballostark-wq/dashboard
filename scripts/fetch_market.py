@@ -1,7 +1,9 @@
+from datetime import datetime
+import html
 import json
 import os
 import re
-from datetime import datetime
+import xml.etree.ElementTree as ET
 import requests
 
 HEADERS = {
@@ -13,7 +15,7 @@ HEADERS = {
 
 
 def load_existing_data():
-    """기존 data.json이 있으면 불러와 기준값으로 활용 (무중단 안전장치)"""
+    """기존 data.json 안전장치"""
     default_data = {
         "updated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         "us2y": {"value": 4.32, "change": 0.03},
@@ -22,6 +24,23 @@ def load_existing_data():
         "us30y": {"value": 4.95, "change": 0.01},
         "spread": {"value": 46, "status": "정상화 (우상향)"},
         "vix": {"value": 15.30, "change": -1.47},
+        "macro_briefing": {
+            "title": (
+                "반도체·제조업 중심의 실적형 위험자산 선호(Risk-on) 장세"
+            ),
+            "regime": "Risk-on 우위",
+            "bullets": [
+                "필라델피아 반도체 지수 모멘텀 가속화로 글로벌 유동성 집중 흡수",
+                "구리 급등으로 글로벌 실물 경기 개선 기대감 동반 유입",
+                "국내 HBM 밸류체인 및 반도체 소부장 대형주로의 강력한 수급 쏠림",
+            ],
+            "trading_strategy": (
+                "지수 전반의 무차별 추격 매수보다는 HBM 및 AI 인프라 독점 수혜주,"
+                " 원가 전가력을 갖춘 경기민감주로 포트를 압축하는 전략이"
+                " 유효합니다."
+            ),
+        },
+        "tech_news": [],
     }
     if os.path.exists("data.json"):
         try:
@@ -33,7 +52,7 @@ def load_existing_data():
 
 
 def fetch_naver_rates():
-    """네이버 증권 공식 금리 리스트에서 만기별(2Y, 5Y, 10Y, 30Y) 국채금리 수집"""
+    """네이버 증권 공식 금리 리스트에서 국채금리 수집"""
     url = "https://finance.naver.com/marketindex/interestList.naver"
     rates = {}
     code_map = {
@@ -42,15 +61,12 @@ def fetch_naver_rates():
         "IRRD_BONDU10Y": "us10y",
         "IRRD_BONDU30Y": "us30y",
     }
-
     try:
         res = requests.get(url, headers=HEADERS, timeout=10)
         if res.status_code == 200:
             res.encoding = "euc-kr"
-            html = res.text
-
-            # 테이블 행(tr) 단위 파싱
-            rows = re.findall(r"<tr[^>]*>(.*?)</tr>", html, re.DOTALL)
+            html_text = res.text
+            rows = re.findall(r"<tr[^>]*>(.*?)</tr>", html_text, re.DOTALL)
             for row in rows:
                 for code, key in code_map.items():
                     if code in row:
@@ -77,8 +93,7 @@ def fetch_naver_rates():
                             except ValueError:
                                 continue
     except Exception as e:
-        print(f"네이버 금리 파싱 예외 발생 (기존값 유지): {e}")
-
+        print(f"네이버 금리 파싱 예외: {e}")
     return rates
 
 
@@ -96,14 +111,97 @@ def fetch_vix():
             chg = ((price - prev) / prev) * 100 if prev else 0.0
             return {"value": round(price, 2), "change": round(chg, 2)}
     except Exception as e:
-        print(f"VIX 수집 예외 발생 (기존값 유지): {e}")
+        print(f"VIX 파싱 예외: {e}")
     return None
+
+
+def fetch_etnews_rss():
+    """전자신문 속보 RSS 피드 수집 (최신 6건)"""
+    url = "https://rss.etnews.com/Section902.xml"
+    news_list = []
+    try:
+        res = requests.get(url, headers=HEADERS, timeout=10)
+        if res.status_code == 200:
+            root = ET.fromstring(res.content)
+            for item in root.findall(".//item")[:6]:
+                title = item.findtext("title", "")
+                link = item.findtext("link", "")
+                pub_date = item.findtext("pubDate", "")
+
+                # HTML 엔티티 디코딩 및 정제
+                title = html.unescape(title).strip()
+                # 날짜 포맷 간소화 (예: 'Tue, 08 Sep 2026 10:30:00 +0900' -> '09-08 10:30')
+                clean_date = ""
+                try:
+                    dt = datetime.strptime(
+                        pub_date[:25].strip(), "%a, %d %b %Y %H:%M:%S"
+                    )
+                    clean_date = dt.strftime("%m-%d %H:%M")
+                except Exception:
+                    clean_date = pub_date[:16]
+
+                news_list.append(
+                    {"title": title, "link": link.strip(), "date": clean_date}
+                )
+    except Exception as e:
+        print(f"전자신문 RSS 수집 예외: {e}")
+    return news_list
+
+
+def generate_macro_briefing(y10, y2, spread_bp, vix_val):
+    """실시간 수치 기반 매크로 레짐 및 장전 투자 전략 지능형 생성"""
+    if vix_val < 16.0:
+        regime = "Risk-on 우위"
+        vix_status = "VIX 안정세로 시스템 리스크가 통제된 우호적 환경"
+    elif vix_val < 20.0:
+        regime = "중립 / 경계"
+        vix_status = "변동성 확대로 섹터별 차별화 심화 구간"
+    else:
+        regime = "Risk-off 경보"
+        vix_status = "VIX 급등으로 방어적 헤지 수요 급증 국면"
+
+    curve_status = (
+        "장단기 금리차 정상화(Steepening)"
+        if spread_bp >= 0
+        else "수익률 곡선 역전 지속"
+    )
+
+    title = f"10Y {y10}%선 공방과 VIX({vix_val}) 안정: {regime} 차별화 장세"
+
+    bullets = [
+        (
+            f"미 10년물 {y10}% 수준 지속 속에서도 {vix_status}이 유지되며 하방"
+            " 경직성 확보"
+        ),
+        (
+            f"10Y-2Y 스프레드({spread_bp:+d} bp) {curve_status}로 경기 침체"
+            " 공포보다 실적 모멘텀에 시장 초점"
+        ),
+        (
+            "실물 원자재(구리) 추세 및 반도체 밸류체인으로의 자금 집중 현상 지속"
+            " 관측"
+        ),
+    ]
+
+    trading_strategy = (
+        f"현재 레짐은 '{regime}' 국면입니다. 금리 상방 압력으로 인해 밸류에이션"
+        " 부담이 큰 비기술 성장주는 변동성에 노출될 수 있습니다. AI 반도체"
+        " 독점 벤더 및 수주 가시성이 확보된 인프라·소부장 중심의 압축 대응이"
+        " 유효합니다."
+    )
+
+    return {
+        "title": title,
+        "regime": regime,
+        "bullets": bullets,
+        "trading_strategy": trading_strategy,
+    }
 
 
 def main():
     data = load_existing_data()
 
-    # 1. 네이버 국채금리 갱신
+    # 1. 국채금리 갱신
     rates = fetch_naver_rates()
     for k, v in rates.items():
         data[k] = v
@@ -113,23 +211,32 @@ def main():
     if vix:
         data["vix"] = vix
 
-    # 3. 10Y - 2Y 장단기 금리차(스프레드) 동적 산출 (단위: bp)
+    # 3. 장단기 금리차
     y10 = data.get("us10y", {}).get("value", 4.78)
     y2 = data.get("us2y", {}).get("value", 4.32)
     spread_bp = round((y10 - y2) * 100)
-
     data["spread"] = {
         "value": spread_bp,
         "status": "정상화 (우상향)" if spread_bp >= 0 else "역전 (침체경보)",
     }
+
+    # 4. 전자신문 실시간 RSS 수집
+    news = fetch_etnews_rss()
+    if news:
+        data["tech_news"] = news
+
+    # 5. 장전 시황 매크로 브리핑 자동 합성
+    vix_val = data.get("vix", {}).get("value", 15.30)
+    data["macro_briefing"] = generate_macro_briefing(
+        y10, y2, spread_bp, vix_val
+    )
+
     data["updated_at"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-    # 4. 저장소 루트에 data.json 저장
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-    print("data.json 파일 생성/갱신 완료:")
-    print(json.dumps(data, ensure_ascii=False, indent=2))
+    print("data.json 동기화 완료 (뉴스 + 매크로 브리핑 포함)")
 
 
 if __name__ == "__main__":
