@@ -18,7 +18,7 @@
       overflow-x: hidden;
     }
 
-    /* 1. 상단 네비게이션 헤더 */
+    /* 상단 헤더 */
     header {
       display: flex;
       flex-wrap: wrap;
@@ -47,7 +47,7 @@
     .pulse { width: 6px; height: 6px; border-radius: 50%; background: #34d399; }
     #clock { font-size: 0.75rem; color: #64748b; font-family: monospace; }
 
-    /* 2. 미국채 만기별 금리 커브 & VIX 모니터링 바 */
+    /* 미국채 금리 커브 & VIX */
     .yield-curve-container {
       background: #090e1f;
       border: 1px solid #1e293b;
@@ -76,7 +76,6 @@
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      transition: border-color 0.2s ease;
     }
     .y-name { font-size: 0.68rem; font-weight: 600; color: #94a3b8; }
     .y-val { font-size: 0.95rem; font-weight: 800; color: #f8fafc; font-family: monospace; margin: 2px 0; }
@@ -85,7 +84,7 @@
     .down { color: #fb7185; }
     .warn { color: #fbbf24; }
 
-    /* 3. 트레이딩뷰 실시간 티커 테이프 */
+    /* 트레이딩뷰 위젯 래퍼 */
     .tradingview-widget-wrapper {
       background: #090e1f;
       border: 1px solid #1e293b;
@@ -94,7 +93,7 @@
       overflow: hidden;
     }
 
-    /* 4. 벤토 그리드 메인 타일 */
+    /* 메인 벤토 그리드 */
     .dashboard-grid {
       display: grid;
       grid-template-columns: repeat(6, 1fr);
@@ -135,6 +134,7 @@
       color: #64748b;
     }
 
+    /* 타일 1: 매크로 레짐 */
     .card-sox {
       grid-column: span 3;
       background: linear-gradient(135deg, rgba(6, 78, 59, 0.55), #0f172a);
@@ -143,14 +143,39 @@
     .card-sox .card-tag { background: rgba(16, 185, 129, 0.25); color: #6ee7b7; }
     .card-sox .card-bullets li::before { color: #34d399; }
 
-    .card-macro {
+    /* 타일 2: 전자신문 실시간 RSS 피드 */
+    .card-news {
       grid-column: span 3;
-      background: linear-gradient(135deg, rgba(30, 41, 59, 0.8), #0f172a);
-      border-color: rgba(148, 163, 184, 0.3);
+      background: linear-gradient(135deg, rgba(30, 41, 59, 0.85), #0f172a);
+      border-color: rgba(56, 189, 248, 0.35);
+      cursor: default;
     }
-    .card-macro .card-tag { background: rgba(245, 158, 11, 0.2); color: #fcd34d; }
-    .card-macro .card-bullets li::before { color: #fbbf24; }
+    .card-news .card-tag { background: rgba(56, 189, 248, 0.2); color: #7dd3fc; }
+    .news-list { list-style: none; display: flex; flex-direction: column; gap: 8px; margin-top: 8px; }
+    .news-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 6px 8px;
+      border-radius: 6px;
+      background: rgba(2, 6, 23, 0.6);
+      border: 1px solid rgba(255, 255, 255, 0.04);
+      gap: 10px;
+    }
+    .news-item a {
+      color: #e2e8f0;
+      text-decoration: none;
+      font-size: 0.78rem;
+      font-weight: 500;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      flex-grow: 1;
+    }
+    .news-item a:hover { color: #38bdf8; text-decoration: underline; }
+    .news-date { font-size: 0.65rem; color: #64748b; font-family: monospace; white-space: nowrap; }
 
+    /* 하단 3개 타일 */
     .card-quiz { grid-column: span 2; cursor: default; }
     .card-quiz .card-tag { background: rgba(59, 130, 246, 0.2); color: #93c5fd; }
     .quiz-box { background: #020617; border: 1px solid #1e293b; padding: 12px; border-radius: 10px; margin-top: 8px; }
@@ -172,33 +197,21 @@
 
     @media (max-width: 1024px) {
       .yield-grid { grid-template-columns: repeat(3, 1fr); }
-      .card-sox, .card-macro { grid-column: span 6; }
+      .card-sox, .card-news { grid-column: span 6; }
       .card-quiz, .card-language, .card-history { grid-column: span 2; }
     }
     @media (max-width: 768px) {
       .yield-grid { grid-template-columns: repeat(2, 1fr); }
       .dashboard-grid { grid-template-columns: 1fr; }
-      .card-sox, .card-macro, .card-quiz, .card-language, .card-history { grid-column: span 1; }
+      .card-sox, .card-news, .card-quiz, .card-language, .card-history { grid-column: span 1; }
     }
 
-    /* 슬라이드오버 서랍 */
+    /* 슬라이드 서랍 */
     .drawer {
-      position: fixed;
-      top: 0;
-      right: 0;
-      width: 100%;
-      max-width: 480px;
-      height: 100%;
-      background: #0b1329;
-      border-left: 1px solid #1e293b;
-      box-shadow: -10px 0 30px rgba(0,0,0,0.7);
-      z-index: 100;
-      transform: translateX(100%);
-      transition: transform 0.25s ease;
-      padding: 24px;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
+      position: fixed; top: 0; right: 0; width: 100%; max-width: 480px; height: 100%;
+      background: #0b1329; border-left: 1px solid #1e293b; box-shadow: -10px 0 30px rgba(0,0,0,0.7);
+      z-index: 100; transform: translateX(100%); transition: transform 0.25s ease;
+      padding: 24px; display: flex; flex-direction: column; justify-content: space-between;
     }
     .drawer.open { transform: translateX(0); }
     .drawer-content-scroll { overflow-y: auto; flex-grow: 1; padding-right: 6px; }
@@ -215,63 +228,57 @@
     <div class="brand">
       <span style="font-size: 1.4rem;">📊</span>
       <div>
-        <h1>글로벌 매크로 레짐 & 실시간 자산 대시보드</h1>
-        <p>미국채 수익률 곡선(API 자동 연동) · 실시간 글로벌 시세 · 장전 시황</p>
+        <h1>글로벌 매크로 레짐 & 테크 인텔리전스</h1>
+        <p>미국채 수익률 곡선 · 전자신문 실시간 RSS · AI 매크로 프리뷰</p>
       </div>
     </div>
     <div class="header-status">
-      <div class="status-badge"><span class="pulse"></span> <span id="rate-sync-label">API 실시간 연동</span></div>
+      <div class="status-badge"><span class="pulse"></span> <span id="rate-sync-label">네이버 & RSS 연동</span></div>
       <span id="clock"></span>
     </div>
   </header>
 
-  <!-- 1. 미국채 만기별 금리 커브 & VIX (비동기 Fetch로 자동 갱신되는 영역) -->
+  <!-- 1. 미국채 만기별 금리 & VIX -->
   <section class="yield-curve-container">
     <div class="yield-header">
       <span>🏛️ 미국 국채 만기별 수익률 곡선(Yield Curve) & 변동성</span>
       <span id="api-timestamp" style="color: #64748b; font-family: monospace; font-size: 0.68rem;">동기화 확인 중...</span>
     </div>
     <div class="yield-grid">
-      <!-- 2년물 -->
       <div class="yield-card">
         <div class="y-name">미 2년물 (통화정책)</div>
         <div class="y-val" id="val-2y">4.32%</div>
         <div class="y-change up" id="chg-2y">+0.03%</div>
       </div>
-      <!-- 5년물 -->
       <div class="yield-card">
         <div class="y-name">미 5년물 (중기금리)</div>
         <div class="y-val" id="val-5y">4.45%</div>
         <div class="y-change up" id="chg-5y">+0.02%</div>
       </div>
-      <!-- 10년물 (벤치마크) -->
       <div class="yield-card" style="border-color: rgba(99, 102, 241, 0.5);">
         <div class="y-name" style="color: #a5b4fc;">미 10년물 (글로벌 기준)</div>
         <div class="y-val" id="val-10y" style="color: #c7d2fe;">4.78%</div>
         <div class="y-change up" id="chg-10y">+0.46%</div>
       </div>
-      <!-- 30년물 -->
       <div class="yield-card">
         <div class="y-name">미 30년물 (장기채)</div>
         <div class="y-val" id="val-30y">4.95%</div>
         <div class="y-change up" id="chg-30y">+0.01%</div>
       </div>
-      <!-- 장단기 금리차 (10Y - 2Y 자동 연산) -->
       <div class="yield-card">
         <div class="y-name">10Y-2Y 스프레드</div>
         <div class="y-val warn" id="val-spread">+46 bp</div>
-        <div class="y-change" id="chg-spread">실시간 계산 완료</div>
+        <div class="y-change" id="chg-spread">동기화 완료</div>
       </div>
-      <!-- VIX 변동성 지수 -->
       <div class="yield-card">
         <div class="y-name">VIX (시장 공포지수)</div>
-        <div class="y-val" id="val-vix">14.53</div>
+        <div class="y-val" id="val-vix">15.30</div>
         <div class="y-change down" id="chg-vix">-1.47%</div>
       </div>
     </div>
   </section>
 
-  <!-- 2. 트레이딩뷰 실시간 티커 테이프 (오류 없는 에셋 세트) -->
+  <!-- 2. 트레이딩뷰 티커 -->
   <section class="tradingview-widget-wrapper">
     <div class="tradingview-widget-container">
       <div class="tradingview-widget-container__widget"></div>
@@ -301,46 +308,45 @@
   <!-- 3. 메인 벤토 그리드 -->
   <main class="dashboard-grid">
 
-    <!-- 타일 1: 반도체 주도 Risk-on 랠리 -->
+    <!-- 타일 1: AI 장전 매크로 레짐 (data.json 자동 바인딩) -->
     <div class="card card-sox" onclick="openDrawer('regime')">
       <div>
         <div style="display: flex; justify-content: space-between;">
-          <span class="card-tag">🧐 매크로 레짐 / 주도 섹터 Focus</span>
-          <span style="font-size: 0.7rem; color: #6ee7b7;">투심 강도: <strong>Risk-on 우위</strong></span>
+          <span class="card-tag">🧐 AI 장전 매크로 레짐</span>
+          <span style="font-size: 0.7rem; color: #6ee7b7;">투심 강도: <strong id="briefing-regime">Risk-on 우위</strong></span>
         </div>
-        <h2 class="card-title">SOX 폭등과 닥터 코퍼의 동반 강세: 실적형 하드웨어 장세</h2>
-        <ul class="card-bullets">
+        <h2 class="card-title" id="briefing-title">10Y 금리 공방 속 실적형 위험자산 선호 장세</h2>
+        <ul class="card-bullets" id="briefing-bullets">
           <li>필라델피아 반도체 지수 모멘텀 가속화로 글로벌 유동성 집중 흡수</li>
           <li>구리 급등으로 글로벌 실물 경기 개선 기대감 동반 유입</li>
           <li>국내 HBM 밸류체인 및 반도체 소부장 대형주로의 강력한 수급 쏠림</li>
         </ul>
       </div>
       <div class="card-footer">
-        <span>💡 클릭하여 장전 상세 전략 노트 읽기</span>
+        <span>💡 클릭하여 국내 증시 트레이딩 전략 보기</span>
         <span>상세분석 &rarr;</span>
       </div>
     </div>
 
-    <!-- 타일 2: 유가·금리 압박 및 차별화 장세 -->
-    <div class="card card-macro" onclick="openDrawer('macro_pressure')">
+    <!-- 타일 2: ⚡ 전자신문 실시간 테크/산업 헤드라인 (RSS 자동 연동) -->
+    <div class="card card-news">
       <div>
-        <div style="display: flex; justify-content: space-between;">
-          <span class="card-tag">⚠️ 거시 변동성 / 인플레이션 점검</span>
-          <span style="font-size: 0.7rem; color: #fcd34d;">긴축 경계감: <strong>주의 구간</strong></span>
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+          <span class="card-tag">⚡ 전자신문 실시간 속보 (RSS)</span>
+          <span style="font-size: 0.68rem; color: #38bdf8;">실시간 피드</span>
         </div>
-        <h2 class="card-title">WTI 고유가와 美 10년물 금리 상승 속 비기술주 변동성</h2>
-        <ul class="card-bullets">
-          <li>유가와 금리 동반 상승에도 VIX가 14선에 안착하며 시스템 리스크 제한</li>
-          <li>지수 전반의 무차별 추격 매수보다는 반도체 및 원자재 연동주 압축 대응</li>
+        <h2 class="card-title" style="font-size: 0.95rem; margin-bottom: 4px;">반도체·AI·ICT 산업 주요 이슈</h2>
+        <ul class="news-list" id="etnews-container">
+          <li class="news-item"><span style="font-size:0.75rem; color:#94a3b8;">뉴스 피드를 불러오는 중입니다...</span></li>
         </ul>
       </div>
       <div class="card-footer">
-        <span>📈 포트폴리오 리밸런싱 포인트 확인</span>
-        <span>상세보기 &rarr;</span>
+        <span>출처: 전자신문 (ETNews RSS)</span>
+        <span style="color: #38bdf8;">클릭 시 기사 전문 이동 &rarr;</span>
       </div>
     </div>
 
-    <!-- 타일 3: 데일리 퀴즈 -->
+    <!-- 타일 3: 인사이트 퀴즈 -->
     <div class="card card-quiz">
       <div>
         <div style="display: flex; justify-content: space-between;">
@@ -393,7 +399,7 @@
 
   </main>
 
-  <!-- 상세 슬라이드오버 서랍 -->
+  <!-- 상세 슬라이드 서랍 -->
   <aside id="drawer" class="drawer">
     <div class="drawer-content-scroll">
       <div class="drawer-header">
@@ -411,7 +417,6 @@
   <div id="overlay" class="overlay" onclick="closeDrawer()"></div>
 
   <script>
-    // 1. 실시간 시계 갱신
     function updateClock() {
       const now = new Date();
       document.getElementById('clock').innerText = now.toLocaleDateString('ko-KR', {
@@ -421,8 +426,10 @@
     setInterval(updateClock, 1000);
     updateClock();
 
-    // 2. data.json을 통한 미국 국채 및 VIX 실시간 동기화
-    async function fetchMacroRates() {
+    let dynamicBriefing = null;
+
+    // data.json 비동기 연동 (금리 + 전자신문 뉴스 + 매크로 브리핑)
+    async function fetchDashboardData() {
       const timeLabel = document.getElementById('api-timestamp');
       const syncLabel = document.getElementById('rate-sync-label');
 
@@ -430,7 +437,6 @@
         const valEl = document.getElementById(valId);
         const chgEl = document.getElementById(chgId);
         if (!valEl || !chgEl) return;
-
         valEl.innerText = isYield ? `${Number(price).toFixed(2)}%` : Number(price).toFixed(2);
         const sign = changePct >= 0 ? '+' : '';
         chgEl.innerText = `${sign}${Number(changePct).toFixed(2)}%`;
@@ -438,21 +444,18 @@
       }
 
       try {
-        timeLabel.innerText = "네이버 데이터 동기화 중...";
-
-        // 캐시 방지를 위해 타임스탬프 쿼리 부착
         const res = await fetch(`./data.json?t=${Date.now()}`);
         if (!res.ok) throw new Error("data.json not found");
         const data = await res.json();
 
-        // 만기별 국채금리 렌더링
+        // 1. 국채금리 렌더링
         updateCard('val-2y', 'chg-2y', data.us2y.value, data.us2y.change, true);
         updateCard('val-5y', 'chg-5y', data.us5y.value, data.us5y.change, true);
         updateCard('val-10y', 'chg-10y', data.us10y.value, data.us10y.change, true);
         updateCard('val-30y', 'chg-30y', data.us30y.value, data.us30y.change, true);
         updateCard('val-vix', 'chg-vix', data.vix.value, data.vix.change, false);
 
-        // 스프레드 렌더링
+        // 2. 스프레드 렌더링
         const spreadEl = document.getElementById('val-spread');
         const spreadChgEl = document.getElementById('chg-spread');
         if (spreadEl && spreadChgEl) {
@@ -463,19 +466,91 @@
           spreadChgEl.className = `y-change ${bp >= 0 ? 'up' : 'down'}`;
         }
 
-        timeLabel.innerText = `최근 동기화: ${data.updated_at}`;
-        syncLabel.innerText = "네이버 증권 실시간 연동";
+        // 3. 전자신문 실시간 뉴스 렌더링
+        if (data.tech_news && data.tech_news.length > 0) {
+          const newsBox = document.getElementById('etnews-container');
+          newsBox.innerHTML = data.tech_news.map(n => `
+            <li class="news-item">
+              <a href="${n.link}" target="_blank" rel="noopener noreferrer">${n.title}</a>
+              <span class="news-date">${n.date}</span>
+            </li>
+          `).join('');
+        }
+
+        // 4. 장전 매크로 브리핑 동적 바인딩
+        if (data.macro_briefing) {
+          dynamicBriefing = data.macro_briefing;
+          document.getElementById('briefing-regime').innerText = dynamicBriefing.regime;
+          document.getElementById('briefing-title').innerText = dynamicBriefing.title;
+          const bulletEl = document.getElementById('briefing-bullets');
+          bulletEl.innerHTML = dynamicBriefing.bullets.map(b => `<li>${b}</li>`).join('');
+        }
+
+        timeLabel.innerText = `동기화: ${data.updated_at}`;
+        syncLabel.innerText = "네이버 & RSS 연동 완료";
       } catch (err) {
-        console.warn("로컬 data.json 로드 대기 중:", err);
-        timeLabel.innerText = "기준치 표시 중 (데이터 대기)";
-        syncLabel.innerText = "기본 모드";
+        console.warn("데이터 로드 대기 중:", err);
       }
     }
 
-    fetchMacroRates();
-    setInterval(fetchMacroRates, 60000); // 1분 주기 갱신
+    fetchDashboardData();
+    setInterval(fetchDashboardData, 60000);
 
-    // 3. 퀴즈 토글
+    // 상세 서랍
+    const notes = {
+      regime: {
+        tag: "📊 AI 장전 글로벌 매크로 프리뷰",
+        getTitle: () => dynamicBriefing ? dynamicBriefing.title : "반도체·제조업 중심의 실적형 위험선호 장세",
+        getBody: () => `
+          <div style="background:#020617; border:1px solid #1e293b; padding:12px; border-radius:8px; margin-bottom:14px;">
+            <strong style="color:#34d399; font-size:0.75rem; display:block; margin-bottom:6px;">📌 수급 및 지표 분석</strong>
+            <ul style="padding-left:14px; margin:0; font-size:0.75rem; color:#cbd5e1; line-height:1.5;">
+              ${dynamicBriefing ? dynamicBriefing.bullets.map(b => `<li>${b}</li>`).join('') : `
+                <li><strong>반도체/IT:</strong> SOX 지수 급상승으로 글로벌 위험 선호 자금 흡수.</li>
+                <li><strong>원자재/경기:</strong> 닥터 코퍼 강세로 실물 경기 반등 기대감 가시화.</li>
+              `}
+            </ul>
+          </div>
+          <h4 style="color:#fff; font-size:0.85rem; margin-bottom:6px;">📈 국내 증시 트레이딩 인사이트</h4>
+          <p style="margin-bottom:10px; color:#cbd5e1;">
+            ${dynamicBriefing ? dynamicBriefing.trading_strategy : 'HBM 밸류체인 및 반도체 소부장 대형주로의 수급 쏠림이 유효합니다.'}
+          </p>
+        `
+      },
+      language: {
+        tag: "비즈니스 & 마켓 표현",
+        getTitle: () => "'Liquidity vortex' — 유동성 소용돌이",
+        getBody: () => `
+          <p style="margin-bottom:12px;">특정 초고수익 주도 섹터(예: AI 반도체)가 시장 전체의 한정된 유동성을 빨아들여 다른 섹터들이 소외되는 현상입니다.</p>
+          <div style="background:#020617; border:1px solid #1e293b; padding:10px; border-radius:8px;">
+            <strong>"The semiconductor rally has created a liquidity vortex, draining capital from defensive sectors."</strong>
+          </div>
+        `
+      },
+      history: {
+        tag: "산업사 & 사이클 분석",
+        getTitle: () => "고금리·고유가 국면 속 '실적 장세' 법칙",
+        getBody: () => `
+          <p style="margin-bottom:10px;">역사적으로 유가와 금리가 동반 상승하는 국면에서 주식시장은 단순 저평가주보다 비용 상승분을 판가로 전가할 수 있는 독점적 기술주 위주로 압축되었습니다.</p>
+        `
+      }
+    };
+
+    function openDrawer(key) {
+      const item = notes[key];
+      if (!item) return;
+      document.getElementById('drawer-tag').innerText = item.tag;
+      document.getElementById('drawer-title').innerText = item.getTitle();
+      document.getElementById('drawer-body').innerHTML = item.getBody();
+      document.getElementById('drawer').classList.add('open');
+      document.getElementById('overlay').classList.add('show');
+    }
+
+    function closeDrawer() {
+      document.getElementById('drawer').classList.remove('open');
+      document.getElementById('overlay').classList.remove('show');
+    }
+
     function toggleQuiz() {
       const ans = document.getElementById('quiz-answer');
       const btn = document.getElementById('quiz-btn');
@@ -487,81 +562,6 @@
         btn.innerText = '정답 가리기';
       }
     }
-
-    // 4. 상세 노트 데이터
-    const notes = {
-      regime: {
-        tag: "📊 AI 장전 글로벌 매크로 프리뷰",
-        title: "반도체·제조업 중심의 실적형 위험자산 선호(Risk-on) 장세",
-        body: `
-          <div style="background:#020617; border:1px solid #1e293b; padding:12px; border-radius:8px; margin-bottom:14px;">
-            <strong style="color:#34d399; font-size:0.75rem; display:block; margin-bottom:6px;">📌 수급 및 지표 분석</strong>
-            <ul style="padding-left:14px; margin:0; font-size:0.75rem; color:#cbd5e1; line-height:1.5;">
-              <li><strong>반도체/IT:</strong> SOX 지수 급상승으로 글로벌 위험 선호 자금 흡수.</li>
-              <li><strong>원자재/경기:</strong> 닥터 코퍼 강세로 실물 경기 반등 기대감 가시화.</li>
-              <li><strong>가상자산:</strong> ETH 및 BTC 하방 지지로 전반적인 시장 투심 안정.</li>
-            </ul>
-          </div>
-          <h4 style="color:#fff; font-size:0.85rem; margin-bottom:6px;">📈 국내 증시 트레이딩 인사이트</h4>
-          <p style="margin-bottom:10px;">글로벌 SOX 폭등에 따라 국내 증시는 개장 직후 HBM 밸류체인과 반도체 소부장 대형주로의 수급 쏠림이 가속화될 것입니다.</p>
-          <p>지수 전체를 추격 매수하기보다는 명확한 수급 유입이 확인된 주도 섹터 및 구리 가격 상승 연동주로 포트를 압축하는 전략이 유효합니다.</p>
-        `
-      },
-      macro_pressure: {
-        tag: "⚠️ 매크로 리스크 점검",
-        title: "고유가와 미 10년물 금리 상방 압력 점검",
-        body: `
-          <div style="background:#020617; border:1px solid #1e293b; padding:12px; border-radius:8px; margin-bottom:14px;">
-            <strong style="color:#fbbf24; font-size:0.75rem; display:block; margin-bottom:6px;">📌 매크로 부담 요인</strong>
-            <ul style="padding-left:14px; margin:0; font-size:0.75rem; color:#cbd5e1; line-height:1.5;">
-              <li>WTI 원유 상승세로 인플레이션 재점화 경계감 잔존.</li>
-              <li>미 국채 10년물 금리 부담으로 비기술 성장주 밸류에이션 압박.</li>
-              <li>다만 VIX가 안정세를 유지하며 반도체 실적 모멘텀이 긴축 우려를 완충.</li>
-            </ul>
-          </div>
-          <h4 style="color:#fff; font-size:0.85rem; margin-bottom:6px;">💡 리스크 관리 전략</h4>
-          <p>금리·유가 상승에 취약한 고부채 중소형 성장주에 대한 비중은 축소하고, 현금 창출력과 원가 전가력을 갖춘 고마진 수출 제조업 위주로 방어선을 구축해야 합니다.</p>
-        `
-      },
-      language: {
-        tag: "비즈니스 & 마켓 표현",
-        title: "'Liquidity vortex' — 유동성 소용돌이 / 자금 쏠림",
-        body: `
-          <p style="margin-bottom:12px;">특정 초고수익 주도 섹터(예: AI 반도체)가 시장 전체의 한정된 유동성을 거대하게 빨아들여 다른 섹터들이 소외되는 현상을 지칭합니다.</p>
-          <div style="background:#020617; border:1px solid #1e293b; padding:10px; border-radius:8px; margin-bottom:8px;">
-            <strong>"The semiconductor rally has created a liquidity vortex, draining capital from defensive sectors."</strong><br>
-            <span style="color:#94a3b8; font-size:0.75rem;">(반도체 랠리가 유동성 블랙홀을 형성하며 방어주 섹터의 자금을 흡수하고 있습니다.)</span>
-          </div>
-        `
-      },
-      history: {
-        tag: "산업사 & 사이클 분석",
-        title: "고금리·고유가 국면 속 '실적 장세'의 전개 법칙",
-        body: `
-          <p style="margin-bottom:10px;">역사적으로 유가와 금리가 동반 상승하는 국면에서 주식시장은 단순 저평가주보다 비용 상승분을 판가로 전가할 수 있는 독점적 기술주 위주로 압축되었습니다.</p>
-          <p>현재 반도체 HBM 및 인프라 사이클 역시 매크로 긴축 우려를 기술적 생산성 개선으로 돌파하는 전형적인 실적 장세의 초기 궤적과 일치합니다.</p>
-        `
-      }
-    };
-
-    function openDrawer(key) {
-      const item = notes[key];
-      if (!item) return;
-      document.getElementById('drawer-tag').innerText = item.tag;
-      document.getElementById('drawer-title').innerText = item.title;
-      document.getElementById('drawer-body').innerHTML = item.body;
-      document.getElementById('drawer').classList.add('open');
-      document.getElementById('overlay').classList.add('show');
-    }
-
-    function closeDrawer() {
-      document.getElementById('drawer').classList.remove('open');
-      document.getElementById('overlay').classList.remove('show');
-    }
-
-    window.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape') closeDrawer();
-    });
   </script>
 </body>
 </html>
