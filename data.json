@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08 06:07:15",
+  "updated_at": "2026-09-08 07:07:33",
   "us2y": {
     "value": 4.37,
     "change": -0.29
@@ -118,56 +118,56 @@
     ],
     "tech": [
       {
-        "title": "[디일렉] KT, KAIST·다임리서치와 ‘피지컬 AI’ 협력 “제조 공정 자율화”",
-        "link": "https://www.thelec.kr/news/articleView.html?idxno=61955",
-        "date": "09-08 13:55"
+        "title": "[디일렉] AP시스템, 딥테크·소부장 투자 펀드 결성",
+        "link": "https://www.thelec.kr/news/articleView.html?idxno=61958",
+        "date": "09-08 16:00"
       },
       {
-        "title": "[디일렉] 마이크로칩-마렐리, 차량 중앙컴퓨터 영상, 디스플레이로 직접 보낸다",
-        "link": "https://www.thelec.kr/news/articleView.html?idxno=61954",
-        "date": "09-08 13:19"
+        "title": "[디일렉] DN솔루션즈, 첨단산업 공작기계 국산화로 국무총리 표창",
+        "link": "https://www.thelec.kr/news/articleView.html?idxno=61943",
+        "date": "09-08 15:59"
       },
       {
-        "title": "[디일렉] 삼성SDS, ‘팔란티어식’ AI사업 확대…전문가 200명 현장 투입",
-        "link": "https://www.thelec.kr/news/articleView.html?idxno=61952",
-        "date": "09-08 12:18"
+        "title": "[디일렉] 삼양사 안태진 팀장, '기술개발인의 날' 국무총리 표창 수상",
+        "link": "https://www.thelec.kr/news/articleView.html?idxno=61941",
+        "date": "09-08 15:59"
       },
       {
-        "title": "[전자신문] 한컴·퓨리오사, NPU 기반 AX 시장 공략...온프레미스 AI 시장 공동 진출",
-        "link": "https://www.etnews.com/20260908000288",
-        "date": "09-08 15:03"
+        "title": "[전자신문] DGFEZ, 8일 '피지컬 AI & 미래모빌리티 혁신 포럼' 개최",
+        "link": "https://www.etnews.com/20260908000346",
+        "date": "09-08 16:02"
       },
       {
-        "title": "[전자신문] EBS-국가평생교육진흥원, '위대한 수업' AI 등 고등교육 확산",
-        "link": "https://www.etnews.com/20260908000286",
-        "date": "09-08 15:01"
+        "title": "[전자신문] [포토] 인사하는 하정우-김우창",
+        "link": "https://www.etnews.com/20260908000345",
+        "date": "09-08 16:01"
       }
     ],
     "domestic": [
       {
+        "title": "[도쿄환시] 달러-엔, BOJ 금리인상 가속 관측에 하락 지속",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433924",
+        "date": "09-08 15:57"
+      },
+      {
+        "title": "사라 헌터 RBA 부총재보, 금리 추가 인상 가능성 시사(상보)",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433923",
+        "date": "09-08 15:56"
+      },
+      {
+        "title": "日 국채 5년물 입찰서 응찰률 3.42배…12개월 평균 하회(상보)",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433916",
+        "date": "09-08 15:10"
+      },
+      {
+        "title": "'40bp까지 치솟은 은행채 가산금리'…FRN도 안전지대 아닌 이유",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433915",
+        "date": "09-08 15:10"
+      },
+      {
         "title": "外人 선물 순매수 속 국고채 금리 일제히 하락…불플래트닝",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433904",
         "date": "09-08 13:49"
-      },
-      {
-        "title": "[외환] '하락 관성+엔화 강세'에 1,330원대로…3.70원↓",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433899",
-        "date": "09-08 13:06"
-      },
-      {
-        "title": "[표] 은행간 단기금리 기준-코리보(08일)",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433894",
-        "date": "09-08 12:59"
-      },
-      {
-        "title": "연준 금리 인상 가능성 속 UBS \"주식·금 장기적 투자 유효\"",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433893",
-        "date": "09-08 12:46"
-      },
-      {
-        "title": "\"시간이 남의 편\"…고착화되는 90달러대 유가에 금리 잠식될까",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433890",
-        "date": "09-08 11:48"
       }
     ]
   },
@@ -236,70 +236,70 @@
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,465.0",
-          "chg": "+0.79%",
+          "val": "$4,448.5",
+          "chg": "+0.42%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$67.24",
-          "chg": "+1.80%",
+          "val": "$66.78",
+          "chg": "+1.11%",
           "up": true
         }
       ],
       "bullets": [
         "구리 $6.77/lb (+2.58%) - AI 전력망 설비 수요 반영",
-        "금 $4,465/oz, 은 $67.24/oz - 통화가치 헤지 수요"
+        "금 $4,448/oz, 은 $66.78/oz - 통화가치 헤지 수요"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,342원 | 엔/달러 ¥153.3",
-      "title": "원/달러 1,342.1원선과 엔/달러 ¥153.3",
+      "badge": "원/달러 1,346원 | 엔/달러 ¥153.8",
+      "title": "원/달러 1,345.7원선과 엔/달러 ¥153.8",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,342.1원",
-          "chg": "-0.22%",
-          "up": false
+          "val": "1,345.7원",
+          "chg": "+0.05%",
+          "up": true
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "98.80pt",
-          "chg": "-0.36%",
+          "val": "98.87pt",
+          "chg": "-0.29%",
           "up": false
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥153.32",
-          "chg": "-1.84%",
+          "val": "¥153.83",
+          "chg": "-1.52%",
           "up": false
         }
       ],
       "bullets": [
-        "달러 인덱스 98.8pt - 미국 성장 우위 지속",
-        "엔/달러 153.32엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 98.87pt - 미국 성장 우위 지속",
+        "엔/달러 153.83엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $93.59",
-      "title": "WTI 배럴당 $93.59선 박스권 안정",
+      "badge": "WTI $94.14",
+      "title": "WTI 배럴당 $94.14선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$93.59",
-          "chg": "+2.31%",
+          "val": "$94.14",
+          "chg": "+2.91%",
           "up": true
         }
       ],
       "bullets": [
-        "WTI 선물 $93.59/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $94.14/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -311,28 +311,28 @@
       "change": 2.58
     },
     "gold": {
-      "price": 4465.0,
-      "change": 0.79
+      "price": 4448.5,
+      "change": 0.42
     },
     "silver": {
-      "price": 67.24,
-      "change": 1.8
+      "price": 66.78,
+      "change": 1.11
     },
     "wti": {
-      "price": 93.59,
-      "change": 2.31
+      "price": 94.14,
+      "change": 2.91
     },
     "usdkrw": {
-      "price": 1342.08,
-      "change": -0.22
+      "price": 1345.67,
+      "change": 0.05
     },
     "dxy": {
-      "price": 98.8,
-      "change": -0.36
+      "price": 98.87,
+      "change": -0.29
     },
     "usdjpy": {
-      "price": 153.32,
-      "change": -1.84
+      "price": 153.83,
+      "change": -1.52
     }
   },
   "history_20d": {
@@ -596,8 +596,8 @@
       {
         "date": "09-08",
         "copper": 6.77,
-        "gold": 4465.0,
-        "silver": 67.24
+        "gold": 4448.5,
+        "silver": 66.78
       }
     ],
     "fx": [
@@ -717,9 +717,9 @@
       },
       {
         "date": "09-08",
-        "usdkrw": 1342.08,
-        "dxy": 98.8,
-        "usdjpy": 153.32
+        "usdkrw": 1345.67,
+        "dxy": 98.87,
+        "usdjpy": 153.83
       }
     ],
     "oil": [
@@ -820,8 +820,8 @@
       },
       {
         "date": "09-08",
-        "wti": 93.59,
-        "change": 2.31
+        "wti": 94.14,
+        "change": 2.91
       }
     ]
   }
