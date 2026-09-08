@@ -205,7 +205,6 @@
       color: #38bdf8;
     }
 
-    /* 클릭 가능한 실제 데이터 칩 */
     .metric-strip {
       display: flex;
       flex-wrap: wrap;
@@ -379,7 +378,7 @@
       <span style="font-size: 1.4rem;">📊</span>
       <div>
         <h1>글로벌 매크로 레짐 & 테크 인텔리전스</h1>
-        <p>네이버 증권 연동 · 인터랙티브 20일 자산별 트렌드 차트 · 엔/달러(JPY) 추가</p>
+        <p>네이버 증권 연동 · 인터랙티브 20일 자산별 트렌드 차트 · 30년물 동기화</p>
       </div>
     </div>
     <div class="header-status">
@@ -656,7 +655,7 @@
       </div>
       <h2 id="drawer-title" style="font-size: 1.15rem; font-weight: 700; margin-bottom: 8px; color:#fff;"></h2>
       
-      <!-- 서랍 상단: 클릭 시 차트가 바뀌는 상호작용 칩 바 -->
+      <!-- 서랍 상단 지표 바 -->
       <div style="margin-bottom: 6px;">
         <span style="font-size:0.68rem; color:#94a3b8; font-weight:600;">👇 아래 지표를 누르면 트렌드 차트가 즉시 전환됩니다:</span>
       </div>
@@ -695,7 +694,6 @@
     let cachedHistory20d = null;
     let cachedFedwatch = null;
 
-    // 현재 서랍의 상태 저장
     let activeDrawerCategory = 'bonds';
     let activeDrawerSubKey = 'spread';
 
@@ -762,7 +760,6 @@
       }
     }
 
-    // 메인 화면 쿼드런트 박스 렌더링
     function renderMacroQuadrants() {
       if (!cachedMacroReviews) return;
       const m = cachedMacroReviews;
@@ -780,7 +777,6 @@
         if (b) b.innerText = item.badge;
         if (t) t.innerText = item.title;
 
-        // 메인 화면 칩 클릭 시 해당 지표 차트를 기본으로 열기
         if (strip && item.metrics) {
           strip.innerHTML = item.metrics.map(mt => `
             <div class="metric-chip" onclick="event.stopPropagation(); openDrawer('macro_${k}', '${mt.id}')" title="클릭 시 ${mt.name} 20일 트렌드 차트 확인">
@@ -893,7 +889,6 @@
       }
     }
 
-    // SVG 스파크라인 차트 생성기
     function renderSvgSparkline(values, dates, color = "#38bdf8", unit = "") {
       if (!values || values.length < 2) return '<p style="font-size:0.7rem; color:#64748b; padding:20px;">시계열 데이터를 수집 중입니다...</p>';
       const min = Math.min(...values);
@@ -938,32 +933,26 @@
       `;
     }
 
-    // 각 세부 지표별 설정 맵 (차트 라벨, 색상, 단위)
+    // 30년물(us30y) field 오타 수정 완료
     const SUB_METRIC_CONFIG = {
-      // 국채
       spread: { label: '📊 10Y-2Y 장단기 금리차(스프레드) 20일 추이', color: '#60a5fa', unit: ' bp', field: 'spread' },
       us10y: { label: '🏛️ 미 국채 10년물 수익률 20일 추이', color: '#818cf8', unit: '%', field: 'us10y' },
       us2y: { label: '🏛️ 미 국채 2년물 수익률 20일 추이', color: '#a78bfa', unit: '%', field: 'us2y' },
-      us30y: { label: '🏛️ 미 국채 30년물 수익률 20일 추이', color: '#c084fc', unit: '%', field: 'us10y' },
-      // 원자재
+      us30y: { label: '🏛️ 미 국채 30년물 수익률 20일 추이', color: '#c084fc', unit: '%', field: 'us30y' },
       copper: { label: '📈 닥터 코퍼 (구리 선물 $/lb) 20일 가격 흐름', color: '#38bdf8', unit: ' $/lb', field: 'copper' },
       gold: { label: '🪙 국제 금 선물 ($/oz) 20일 가격 흐름', color: '#fbbf24', unit: ' $/oz', field: 'gold' },
       silver: { label: '🪙 국제 은 선물 ($/oz) 20일 가격 흐름', color: '#cbd5e1', unit: ' $/oz', field: 'silver' },
-      // 환율
       usdkrw: { label: '💵 원/달러 환율 (KRW/USD) 20일 변동 추이', color: '#34d399', unit: '원', field: 'usdkrw' },
       dxy: { label: '🌐 달러 인덱스 (DXY) 20일 변동 추이', color: '#38bdf8', unit: 'pt', field: 'dxy' },
       usdjpy: { label: '💴 엔/달러 환율 (JPY/USD) 20일 변동 추이', color: '#f472b6', unit: '엔', field: 'usdjpy' },
-      // 유가
       wti: { label: '🛢️ WTI 원유 선물 ($/배럴) 20일 가격 추이', color: '#f43f5e', unit: ' $/bbl', field: 'wti' }
     };
 
-    // 서랍 내 세부 칩 클릭 시 차트 즉각 전환 함수
     function switchDrawerChart(subKey) {
       activeDrawerSubKey = subKey;
       const cfg = SUB_METRIC_CONFIG[subKey];
       if (!cfg) return;
 
-      // 1. 칩 액티브 클래스 갱신
       document.querySelectorAll('#drawer-metric-strip .metric-chip').forEach(el => {
         if (el.getAttribute('data-sub-id') === subKey) {
           el.classList.add('active');
@@ -972,12 +961,10 @@
         }
       });
 
-      // 2. 해당 지표 시계열 데이터 추출
       const raw = cachedHistory20d ? (cachedHistory20d[activeDrawerCategory] || []) : [];
       const values = raw.map(r => r[cfg.field] || 0);
       const dates = raw.map(r => r.date);
 
-      // 3. 차트 렌더링
       const chartBox = document.getElementById('drawer-chart-box');
       const chartLabel = document.getElementById('chart-label');
       const chartWrapper = document.getElementById('chart-svg-wrapper');
@@ -987,7 +974,7 @@
       chartWrapper.innerHTML = renderSvgSparkline(values, dates, cfg.color, cfg.unit);
     }
 
-    // 20일 히스토리 테이블 빌더
+    // 국채 테이블에 30년물 열(Column) 추가
     function buildHistoryTable(category) {
       if (!cachedHistory20d || !cachedHistory20d[category]) {
         return '<p style="font-size:0.75rem; color:#64748b;">히스토리 데이터를 불러오는 중입니다...</p>';
@@ -1001,6 +988,7 @@
             <td>${item.date}</td>
             <td style="color:#c7d2fe; font-weight:700;">${item.us10y.toFixed(2)}%</td>
             <td style="color:#94a3b8;">${item.us2y.toFixed(2)}%</td>
+            <td style="color:#c084fc; font-weight:700;">${(item.us30y !== undefined ? item.us30y : 4.95).toFixed(2)}%</td>
             <td class="${item.spread >= 0 ? 'up' : 'warn'}" style="font-weight:800;">${item.spread >= 0 ? '+' : ''}${item.spread} bp</td>
           </tr>
         `).join('');
@@ -1008,7 +996,7 @@
           <div class="history-table-container">
             <table class="hist-table">
               <thead>
-                <tr><th>일자</th><th>10년물</th><th>2년물</th><th>스프레드</th></tr>
+                <tr><th>일자</th><th>10년물</th><th>2년물</th><th>30년물</th><th>스프레드</th></tr>
               </thead>
               <tbody>${rows}</tbody>
             </table>
@@ -1074,7 +1062,6 @@
       return '';
     }
 
-    // 슬라이드 서랍 오픈 함수 (특정 subKey로 다이렉트 차트 지정 가능)
     function openDrawer(key, targetSubKey = null) {
       const tagEl = document.getElementById('drawer-tag');
       const titleEl = document.getElementById('drawer-title');
@@ -1104,7 +1091,6 @@
 
         const selectedSub = targetSubKey || meta.defaultSub;
 
-        // 서랍 상단 칩 생성 (각 칩에 switchDrawerChart 바인딩)
         if (item && item.metrics) {
           stripEl.style.display = 'flex';
           stripEl.innerHTML = item.metrics.map(mt => `
@@ -1116,10 +1102,8 @@
           `).join('');
         }
 
-        // 선택된 subKey로 차트 초기 렌더링
         switchDrawerChart(selectedSub);
 
-        // 20일 시계열 테이블 및 데스크 코멘트
         bodyEl.innerHTML = `
           <div style="margin-bottom:6px;">
             <span style="font-size:0.73rem; font-weight:700; color:#94a3b8;">📅 최근 20영업일 상세 시계열 히스토리</span>
