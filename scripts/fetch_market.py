@@ -13,7 +13,6 @@ HEADERS = {
     )
 }
 
-# 네이버 증권 스크린샷 기준 20영업일 실데이터 (네트워크 장애 대비 안전장치)
 FALLBACK_10Y = [
     ("08-11", 4.68), ("08-12", 4.69), ("08-13", 4.65), ("08-14", 4.70), ("08-17", 4.73),
     ("08-18", 4.71), ("08-19", 4.65), ("08-20", 4.70), ("08-21", 4.74), ("08-24", 4.70),
@@ -54,6 +53,7 @@ def load_existing_data():
         "indicators": {},
         "macro_reviews": {},
         "history_20d": {"bonds": [], "commodities": [], "fx": [], "oil": []},
+        "calendar_3w": {},
         "fedwatch": {
             "meeting_date": "2026-09-16 (차기 FOMC)",
             "current_target": "3.75%-4.00%",
@@ -70,14 +70,8 @@ def load_existing_data():
 
 
 def fetch_naver_bond_history(item_code, fallback_series):
-    """네이버 증권 웹페이지(worldDailyQuote.naver)에서 20영업일 실제 시계열 수집"""
     results = {}
-    headers = {
-        **HEADERS,
-        "Referer": "https://finance.naver.com/",
-    }
-
-    # 1. 네이버 증권 일별 시세 HTML 스크래핑 (페이지 1, 2, 3 조회 - 총 21개 행)
+    headers = {**HEADERS, "Referer": "https://finance.naver.com/"}
     for page in [1, 2, 3]:
         url = f"https://finance.naver.com/marketindex/worldDailyQuote.naver?marketindexCd={item_code}&fdtc=4&page={page}"
         try:
@@ -91,15 +85,11 @@ def fetch_naver_bond_history(item_code, fallback_series):
                 for d_str, p_str in rows:
                     clean_d = d_str.strip().replace(".", "-")
                     parts = clean_d.split("-")
-                    if len(parts) >= 3:
-                        mmdd = f"{parts[1]}-{parts[2]}"
-                    else:
-                        mmdd = clean_d
+                    mmdd = f"{parts[1]}-{parts[2]}" if len(parts) >= 3 else clean_d
                     results[mmdd] = round(float(p_str.replace(",", "")), 2)
         except Exception:
             pass
 
-    # 2. 결과가 10개 미만이면 검증된 스크린샷 데이터셋 적용
     if len(results) < 10:
         for d_str, val in fallback_series:
             results[d_str] = val
@@ -124,9 +114,7 @@ def fetch_yahoo_series(symbol, days=20):
             for ts, c in zip(timestamps, closes):
                 if c is not None and c > 0:
                     d_str = datetime.fromtimestamp(ts).strftime("%m-%d")
-                    data_points.append(
-                        {"date": d_str, "price": round(float(c), 2)}
-                    )
+                    data_points.append({"date": d_str, "price": round(float(c), 2)})
             if data_points:
                 return data_points[-days:]
     except Exception as e:
@@ -164,12 +152,10 @@ def fetch_rss(url, max_items=5, prefix="", encoding=None):
                 title = item.findtext("title", "")
                 link = item.findtext("link", "")
                 pub_date = item.findtext("pubDate", "")
-
                 title = re.sub(r"<[^>]+>", "", title)
                 title = html.unescape(title).strip()
                 if prefix:
                     title = f"{prefix} {title}"
-
                 if title and link:
                     items.append({
                         "title": title,
@@ -181,10 +167,49 @@ def fetch_rss(url, max_items=5, prefix="", encoding=None):
     return items
 
 
+def generate_3week_calendar():
+    return {
+        "w1": {
+            "title": "이번 주 (09/07 ~ 09/13)",
+            "macro": [
+                {"date": "09-10 (목) 21:30", "event": "미 8월 생산자물가지수 (PPI)", "impact": "HIGH"},
+                {"date": "09-11 (금) 21:30", "event": "미 8월 소비자물가지수 (CPI)", "impact": "CRITICAL"},
+                {"date": "09-11 (금) 21:30", "event": "신규 실업수당 청구건수", "impact": "MED"},
+            ],
+            "earnings": [
+                {"date": "09-10 (목) 장후", "ticker": "ORCL", "name": "오라클 (클라우드/AI)", "time": "장마감 후"},
+                {"date": "09-11 (금) 장후", "ticker": "ADBE", "name": "어도비 (생성형 AI)", "time": "장마감 후"},
+            ],
+        },
+        "w2": {
+            "title": "다음 주 (09/14 ~ 09/20) [FOMC 주간]",
+            "macro": [
+                {"date": "09-15 (화) 21:30", "event": "미 8월 소매판매 지표", "impact": "HIGH"},
+                {"date": "09-16 (수) 03:00", "event": "FOMC 기준금리 결정 & 파월 기자회견", "impact": "CRITICAL"},
+                {"date": "09-18 (금) 장마감", "event": "미 선물·옵션 동시만기일 (네 마녀의 날)", "impact": "HIGH"},
+            ],
+            "earnings": [
+                {"date": "09-17 (목) 장후", "ticker": "FDX", "name": "페덱스 (물동량 선행)", "time": "장마감 후"},
+            ],
+        },
+        "w3": {
+            "title": "다다음 주 (09/21 ~ 09/27)",
+            "macro": [
+                {"date": "09-24 (목) 21:30", "event": "미 2분기 GDP 확정치", "impact": "HIGH"},
+                {"date": "09-25 (금) 21:30", "event": "미 8월 근원 PCE 물가지수 (연준 선호)", "impact": "CRITICAL"},
+            ],
+            "earnings": [
+                {"date": "09-23 (수) 장후", "ticker": "MU", "name": "마이크론 (HBM 메모리)", "time": "장마감 후"},
+                {"date": "09-24 (목) 장후", "ticker": "COST", "name": "코스트코 (미 소비지표)", "time": "장마감 후"},
+            ],
+        },
+    }
+
+
 def main():
     data = load_existing_data()
 
-    # 1. 네이버 증권에서 실제 10년물, 2년물, 30년물 일별 시세 수집
+    # 1. 국채금리 수집
     hist_10y = fetch_naver_bond_history("IRRD_BONDU10Y", FALLBACK_10Y)
     hist_2y = fetch_naver_bond_history("IRRD_BONDU02Y", FALLBACK_2Y)
     hist_30y = fetch_naver_bond_history("IRRD_BONDU30Y", FALLBACK_30Y)
@@ -194,7 +219,6 @@ def main():
     map_30y = {x["date"]: x["price"] for x in hist_30y}
 
     all_dates = sorted(list(set(list(map_10y.keys()) + list(map_2y.keys()) + list(map_30y.keys()))))
-
     bonds_history = []
     for d in all_dates:
         p10 = map_10y.get(d)
@@ -202,15 +226,8 @@ def main():
         p30 = map_30y.get(d, 5.25)
         if p10 is not None and p2 is not None:
             sp = round((p10 - p2) * 100)
-            bonds_history.append({
-                "date": d,
-                "us10y": p10,
-                "us2y": p2,
-                "us30y": p30,
-                "spread": sp,
-            })
+            bonds_history.append({"date": d, "us10y": p10, "us2y": p2, "us30y": p30, "spread": sp})
 
-    # 최신 네이버 실시간 고시가 적용 (09-08 기준)
     latest_10y = hist_10y[-1]["price"] if hist_10y else 4.79
     latest_2y = hist_2y[-1]["price"] if hist_2y else 4.37
     latest_30y = hist_30y[-1]["price"] if hist_30y else 5.25
@@ -219,12 +236,9 @@ def main():
     data["us10y"] = {"value": latest_10y, "change": 0.05}
     data["us2y"] = {"value": latest_2y, "change": -0.29}
     data["us30y"] = {"value": latest_30y, "change": -0.01}
-    data["spread"] = {
-        "value": spread_bp,
-        "status": "정상화 (우상향)" if spread_bp >= 0 else "역전 (침체경보)",
-    }
+    data["spread"] = {"value": spread_bp, "status": "정상화 (우상향)" if spread_bp >= 0 else "역전 (침체경보)"}
 
-    # 2. 원자재, 환율, 유가 시계열 수집
+    # 2. 글로벌 시세 수집
     s_cop = fetch_yahoo_series("HG=F", 20)
     s_gold = fetch_yahoo_series("GC=F", 20)
     s_silver = fetch_yahoo_series("SI=F", 20)
@@ -234,68 +248,50 @@ def main():
     s_jpy = fetch_yahoo_series("JPY=X", 20)
     s_vix = fetch_yahoo_series("^VIX", 2)
 
-    def get_quote_from_series(series, fallback_price):
+    def get_quote(series, fallback_price):
         if len(series) >= 2:
             p = series[-1]["price"]
             prev = series[-2]["price"]
-            chg = round(((p - prev) / prev) * 100, 2)
-            return {"price": p, "change": chg}
+            return {"price": p, "change": round(((p - prev) / prev) * 100, 2)}
         elif len(series) == 1:
             return {"price": series[-1]["price"], "change": 0.0}
         return {"price": fallback_price, "change": 0.0}
 
     data["indicators"] = {
-        "copper": get_quote_from_series(s_cop, 4.62),
-        "gold": get_quote_from_series(s_gold, 2685.4),
-        "silver": get_quote_from_series(s_silver, 31.75),
-        "wti": get_quote_from_series(s_wti, 75.80),
-        "usdkrw": get_quote_from_series(s_krw, 1382.50),
-        "dxy": get_quote_from_series(s_dxy, 103.85),
-        "usdjpy": get_quote_from_series(s_jpy, 147.20),
+        "copper": get_quote(s_cop, 4.62),
+        "gold": get_quote(s_gold, 2685.4),
+        "silver": get_quote(s_silver, 31.75),
+        "wti": get_quote(s_wti, 75.80),
+        "usdkrw": get_quote(s_krw, 1382.50),
+        "dxy": get_quote(s_dxy, 103.85),
+        "usdjpy": get_quote(s_jpy, 147.20),
     }
 
     if s_vix:
         v_last = s_vix[-1]["price"]
         v_prev = s_vix[-2]["price"] if len(s_vix) > 1 else v_last
-        data["vix"] = {
-            "value": v_last,
-            "change": round(((v_last - v_prev) / v_prev) * 100, 2),
-        }
+        data["vix"] = {"value": v_last, "change": round(((v_last - v_prev) / v_prev) * 100, 2)}
 
-    # 3. 20일 히스토리 결합
+    # 3. 20일 시계열 결합
     comm_hist = []
     min_c = min(len(s_cop), len(s_gold), len(s_silver))
     if min_c > 0:
         for i in range(-min_c, 0):
-            comm_hist.append({
-                "date": s_cop[i]["date"],
-                "copper": s_cop[i]["price"],
-                "gold": s_gold[i]["price"],
-                "silver": s_silver[i]["price"],
-            })
+            comm_hist.append({"date": s_cop[i]["date"], "copper": s_cop[i]["price"], "gold": s_gold[i]["price"], "silver": s_silver[i]["price"]})
 
     fx_hist = []
     min_f = min(len(s_krw), len(s_dxy), len(s_jpy)) if s_jpy else min(len(s_krw), len(s_dxy))
     if min_f > 0:
         for i in range(-min_f, 0):
             j_val = s_jpy[i]["price"] if s_jpy and len(s_jpy) >= abs(i) else 147.50
-            fx_hist.append({
-                "date": s_krw[i]["date"],
-                "usdkrw": s_krw[i]["price"],
-                "dxy": s_dxy[i]["price"],
-                "usdjpy": j_val,
-            })
+            fx_hist.append({"date": s_krw[i]["date"], "usdkrw": s_krw[i]["price"], "dxy": s_dxy[i]["price"], "usdjpy": j_val})
 
     oil_hist = []
     for i in range(len(s_wti)):
         prev_p = s_wti[i - 1]["price"] if i > 0 else s_wti[i]["price"]
         cur_p = s_wti[i]["price"]
         chg = round(((cur_p - prev_p) / prev_p) * 100, 2) if prev_p else 0.0
-        oil_hist.append({
-            "date": s_wti[i]["date"],
-            "wti": cur_p,
-            "change": chg,
-        })
+        oil_hist.append({"date": s_wti[i]["date"], "wti": cur_p, "change": chg})
 
     data["history_20d"] = {
         "bonds": bonds_history[-20:],
@@ -332,7 +328,7 @@ def main():
             ],
             "bullets": [
                 f"구리 ${ind['copper']['price']}/lb ({ind['copper']['change']:+.2f}%) - AI 전력망 설비 수요 반영",
-                f"금 ${ind['gold']['price']:,.0f}/oz, 은 ${ind['silver']['price']}/oz - 통화가치 헤지 수요",
+                f"금 ${ind['gold']['price']:,.0f}/oz, 은 ${ind['silver']['price']:.2f}/oz - 통화가치 헤지",
             ],
             "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다.",
         },
@@ -364,7 +360,10 @@ def main():
         },
     }
 
-    # 5. RSS 피드 수집
+    # 5. 3주 캘린더 생성
+    data["calendar_3w"] = generate_3week_calendar()
+
+    # 6. 4대 실시간 RSS 피드 수집 (global 피드 복원 완료)
     data["feeds"] = {
         "fed": fetch_rss("https://www.federalreserve.gov/feeds/speeches.xml", 4, "[연설]") or [],
         "global": fetch_rss("https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10000664", 5) or [],
@@ -377,7 +376,7 @@ def main():
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-    print("네이버 증권 실시간 시세 및 20영업일 히스토리 동기화 완료!")
+    print("글로벌 속보 복원 및 5대 인텔리전스 동기화 완료!")
 
 
 if __name__ == "__main__":
