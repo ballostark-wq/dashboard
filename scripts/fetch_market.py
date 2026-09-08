@@ -54,6 +54,7 @@ def load_existing_data():
         "macro_reviews": {},
         "history_20d": {"bonds": [], "commodities": [], "fx": [], "oil": []},
         "calendar_3w": {},
+        "humanities": {},
         "fedwatch": {
             "meeting_date": "2026-09-16 (차기 FOMC)",
             "current_target": "3.75%-4.00%",
@@ -167,49 +168,115 @@ def fetch_rss(url, max_items=5, prefix="", encoding=None):
     return items
 
 
-def generate_3week_calendar():
+def generate_humanities_intelligence():
+    """날짜(365일) 기반 순환 인문·세계사·다국어 회화 지식 데이터 생성"""
+    day_idx = datetime.now().timetuple().tm_yday
+
+    history_pool = [
+        {
+            "era": "근대 태동기 (1602년)",
+            "title": "네덜란드 동인도회사(VOC)와 유한책임 주식회사의 기원",
+            "summary": "암스테르담 증권거래소 개설과 글로벌 상업 패권의 이동",
+            "bullets": [
+                "개인 상인의 무한 책임을 차단하고 대규모 대양 항해 자본을 결집한 최초의 주식회사 모델",
+                "지분 분할 매매를 가능하게 한 유통시장(Secondary Market) 탄생으로 금융 혁신 주도",
+                "스페인 은(Silver) 중심 패권에서 네덜란드 무역·신용(Credit) 패권으로의 구조적 전환",
+            ],
+            "insight": "위험을 분산(Risk Pooling)하고 유동성을 공급하는 금융 제도가 곧 제국의 국력과 직결됨을 증명한 역사적 변곡점입니다.",
+        },
+        {
+            "era": "고대 로마 제국 (3세기)",
+            "title": "데나리우스 은화 품위(순도) 하락과 제국의 구조적 인플레이션",
+            "summary": "재정 적자를 통화 가치 절하로 메우려던 로마의 붕괴 경로",
+            "bullets": [
+                "황제들의 군비 지출 팽창으로 은화 순도가 95%에서 5% 미만으로 급락",
+                "통화 신뢰 상실로 시장 가격 급등 및 실물 물물교환으로의 경제 퇴보",
+                "디오클레티아누스 황제의 가격통제령 실패가 남긴 통화주의적 교훈",
+            ],
+            "insight": "기축통화의 가치 희석(Debasement)은 결국 제국의 신인도와 경제 체제를 내부로부터 무너뜨리는 필연적 방아쇠가 됩니다.",
+        },
+        {
+            "era": "20세기 현대사 (1944년)",
+            "title": "브레턴우즈 체제 성립과 달러 기축통화 질서의 완성",
+            "summary": "금 1온스=35달러 고정과 전후 글로벌 무역 질서 재편",
+            "bullets": [
+                "영국 파운드화의 기축통화 지위 상실과 미국 달러화 중심의 고정환율제 출범",
+                "IMF(국제통화기금) 및 IBRD(세계은행) 설립을 통한 전후 재건 금융망 구축",
+                "1971년 닉슨 쇼크(금 태환 중지)로 이어지는 트리핀 딜레마(Triffin Dilemma)의 잉태",
+            ],
+            "insight": "기축통화국은 글로벌 유동성을 공급하기 위해 무역수지 적자를 감내해야 하는 구조적 모순을 내포하고 있습니다.",
+        },
+    ]
+
+    polyglot_pool = [
+        {
+            "theme": "전략적 협상과 우선순위 조율 (Strategic Alignment)",
+            "meaning": "본격적인 추진에 앞서, 핵심 조건과 우선순위에 대한 합의를 먼저 도출합시다.",
+            "translations": {
+                "en": {"code": "en-US", "name": "영어", "flag": "🇺🇸", "text": "Let's align on the core terms and priorities before moving forward.", "roman": ""},
+                "ja": {"code": "ja-JP", "name": "일본어", "flag": "🇯🇵", "text": "進める前に、まずは主要な条件と優先順位について認識をすり合わせましょう。", "roman": "Susumeru mae ni, mazu wa shuyō na jōken to yūsen jun'i ni tsuite ninshiki o suriawasemashō."},
+                "zh": {"code": "zh-CN", "name": "중국어", "flag": "🇨🇳", "text": "在推进之前，让我们先就核心条款和优先事项达成共识。", "roman": "Zài tuījìn zhīqián, ràng wǒmen xiān jiù héxīn tiáokuǎn hé yōuxiān shìxiàng dáchéng gòngshí."},
+                "fr": {"code": "fr-FR", "name": "프랑스어", "flag": "🇫🇷", "text": "Mettons-nous d'accord sur les termes essentiels et les priorités avant d'aller de l'avant.", "roman": ""},
+                "de": {"code": "de-DE", "name": "독일어", "flag": "🇩🇪", "text": "Lassen Sie uns die Kernbedingungen und Prioritäten abstimmen, bevor wir fortfahren.", "roman": ""},
+                "es": {"code": "es-ES", "name": "스페인어", "flag": "🇪🇸", "text": "Alineemos los términos clave y las prioridades antes de avanzar.", "roman": ""},
+                "ar": {"code": "ar-SA", "name": "아랍어", "flag": "🇸🇦", "text": "دعنا نتفق على الشروط الأساسية والأولويات قبل المضي قدمًا.", "roman": "Da'nā nattafiq 'alā ash-shurūṭ al-asāsiyyah wal-awlawiyyāt qabla al-muḍī qudumā."},
+                "ru": {"code": "ru-RU", "name": "러시아어", "flag": "🇷🇺", "text": "Давайте согласуем ключевые условия и приоритеты, прежде чем двигаться дальше.", "roman": "Davayte soglasuyem klyuchevyye usloviya i prioritety, prezhde chem dvigat'sya dal'she."},
+            },
+        },
+        {
+            "theme": "리스크 헤지와 시장 변동성 대응 (Risk Management)",
+            "meaning": "시장 불확실성이 높은 국면이므로 선제적인 리스크 분산이 필수적입니다.",
+            "translations": {
+                "en": {"code": "en-US", "name": "영어", "flag": "🇺🇸", "text": "Given the elevated market volatility, proactive risk hedging is essential.", "roman": ""},
+                "ja": {"code": "ja-JP", "name": "일본어", "flag": "🇯🇵", "text": "市場の不確実性が高まっているため、先回りしたリスクヘッジが不可欠です。", "roman": "Shijō no fukakujitsusei ga takamatte iru tame, sakimawari shita risuku hejji ga fukaketsu desu."},
+                "zh": {"code": "zh-CN", "name": "중국어", "flag": "🇨🇳", "text": "鉴于市场波动性上升，前瞻性的风险对冲至关重要。", "roman": "Jiànyú shìchǎng bōdòngxìng shàngshēng, qiánzhānxìng de fēngxiǎn duìchōng zhìguān zhòngyào."},
+                "fr": {"code": "fr-FR", "name": "프랑스어", "flag": "🇫🇷", "text": "Compte tenu de la volatilité accrue des marchés, une couverture proactive des risques est essentielle.", "roman": ""},
+                "de": {"code": "de-DE", "name": "독일어", "flag": "🇩🇪", "text": "Angesichts der hohen Marktvolatilität ist ein proaktives Risikomanagement unerlässlich.", "roman": ""},
+                "es": {"code": "es-ES", "name": "스페인어", "flag": "🇪🇸", "text": "Dada la elevada volatilidad del mercado, una cobertura proactiva del riesgo es imprescindible.", "roman": ""},
+                "ar": {"code": "ar-SA", "name": "아랍어", "flag": "🇸🇦", "text": "نظرًا للتقلبات المتزايدة في السوق، فإن التحوط الاستباقي للمخاطر أمر ضروري.", "roman": "Naẓaran lil-taqallubāt al-mutazāyidah fī as-sūq, fa-inna at-taḥawwuṭ al-istibāqī lil-makhāṭir amrun ḍarūrī."},
+                "ru": {"code": "ru-RU", "name": "러시아어", "flag": "🇷🇺", "text": "С учётом высокой волатильности рынка упреждающее хеджирование рисков крайне важно.", "roman": "S uchyotom vysokoy volatil'nosti rynka uprezhdayushcheye khedzhirovaniye riskov krayne vazhno."},
+            },
+        },
+    ]
+
+    philosophy_pool = [
+        {
+            "thinker": "니콜로 마키아벨리 (Niccolò Machiavelli)",
+            "era": "15~16세기 르네상스 이탈리아",
+            "concept": "비르투(Virtù)와 포르투나(Fortuna)",
+            "quote": "“군주는 사랑받는 존재가 되기보다 두려운 존재가 되는 편이 훨씬 안전하다.”",
+            "bullets": [
+                "운명의 여신(포르투나)은 거친 강물과 같아, 평소 제방을 쌓아둔 역량(비르투) 있는 자만이 다스릴 수 있음",
+                "이상적 도덕주의를 탈피하여 권력과 인간 본성의 비정한 실재(Realpolitik)를 통찰",
+                "국가의 존립과 지속 가능성을 위해 냉철한 결단과 제도적 강제력을 중시",
+            ],
+            "application": "미·중 기술 패권 및 공급망 재편 속에서 명분보다 국가의 실익과 독점적 기술 안보를 우선시해야 하는 현대 지정학의 핵심 잣대를 제공합니다.",
+        },
+        {
+            "thinker": "투키디데스 (Thucydides)",
+            "era": "기원전 5세기 고대 그리스",
+            "concept": "투키디데스 함정 (Thucydides Trap)",
+            "quote": "“전쟁을 불가피하게 만든 것은 아테네의 부상과 그로 인해 스파르타에 심어진 두려움이었다.”",
+            "bullets": [
+                "급부상하는 신흥 강국과 기존 지배 패권국 사이의 구조적 긴장과 충돌 역학 분석",
+                "국가 행동을 지배하는 3대 근본 동기: 공포(Fear), 명예(Honor), 이익(Interest)",
+                "동맹 네트워크의 확장과 오판이 국지적 갈등을 세계대전급 파국으로 확대시키는 경로 증명",
+            ],
+            "application": "반도체·AI 인프라를 둘러싼 패권국 간의 배타적 경제 블록화와 전략적 수출 통제 조치의 기저에 깔린 근본 동기를 설명합니다.",
+        },
+    ]
+
     return {
-        "w1": {
-            "title": "이번 주 (09/07 ~ 09/13)",
-            "macro": [
-                {"date": "09-10 (목) 21:30", "event": "미 8월 생산자물가지수 (PPI)", "impact": "HIGH"},
-                {"date": "09-11 (금) 21:30", "event": "미 8월 소비자물가지수 (CPI)", "impact": "CRITICAL"},
-                {"date": "09-11 (금) 21:30", "event": "신규 실업수당 청구건수", "impact": "MED"},
-            ],
-            "earnings": [
-                {"date": "09-10 (목) 장후", "ticker": "ORCL", "name": "오라클 (클라우드/AI)", "time": "장마감 후"},
-                {"date": "09-11 (금) 장후", "ticker": "ADBE", "name": "어도비 (생성형 AI)", "time": "장마감 후"},
-            ],
-        },
-        "w2": {
-            "title": "다음 주 (09/14 ~ 09/20) [FOMC 주간]",
-            "macro": [
-                {"date": "09-15 (화) 21:30", "event": "미 8월 소매판매 지표", "impact": "HIGH"},
-                {"date": "09-16 (수) 03:00", "event": "FOMC 기준금리 결정 & 파월 기자회견", "impact": "CRITICAL"},
-                {"date": "09-18 (금) 장마감", "event": "미 선물·옵션 동시만기일 (네 마녀의 날)", "impact": "HIGH"},
-            ],
-            "earnings": [
-                {"date": "09-17 (목) 장후", "ticker": "FDX", "name": "페덱스 (물동량 선행)", "time": "장마감 후"},
-            ],
-        },
-        "w3": {
-            "title": "다다음 주 (09/21 ~ 09/27)",
-            "macro": [
-                {"date": "09-24 (목) 21:30", "event": "미 2분기 GDP 확정치", "impact": "HIGH"},
-                {"date": "09-25 (금) 21:30", "event": "미 8월 근원 PCE 물가지수 (연준 선호)", "impact": "CRITICAL"},
-            ],
-            "earnings": [
-                {"date": "09-23 (수) 장후", "ticker": "MU", "name": "마이크론 (HBM 메모리)", "time": "장마감 후"},
-                {"date": "09-24 (목) 장후", "ticker": "COST", "name": "코스트코 (미 소비지표)", "time": "장마감 후"},
-            ],
-        },
+        "history": history_pool[day_idx % len(history_pool)],
+        "polyglot": polyglot_pool[day_idx % len(polyglot_pool)],
+        "philosophy": philosophy_pool[day_idx % len(philosophy_pool)],
     }
 
 
 def main():
     data = load_existing_data()
 
-    # 1. 국채금리 수집
+    # 1. 국채금리 실데이터 수집
     hist_10y = fetch_naver_bond_history("IRRD_BONDU10Y", FALLBACK_10Y)
     hist_2y = fetch_naver_bond_history("IRRD_BONDU02Y", FALLBACK_2Y)
     hist_30y = fetch_naver_bond_history("IRRD_BONDU30Y", FALLBACK_30Y)
@@ -361,9 +428,47 @@ def main():
     }
 
     # 5. 3주 캘린더 생성
-    data["calendar_3w"] = generate_3week_calendar()
+    data["calendar_3w"] = {
+        "w1": {
+            "title": "이번 주 (09/07 ~ 09/13)",
+            "macro": [
+                {"date": "09-10 (목) 21:30", "event": "미 8월 생산자물가지수 (PPI)", "impact": "HIGH"},
+                {"date": "09-11 (금) 21:30", "event": "미 8월 소비자물가지수 (CPI)", "impact": "CRITICAL"},
+                {"date": "09-11 (금) 21:30", "event": "신규 실업수당 청구건수", "impact": "MED"},
+            ],
+            "earnings": [
+                {"date": "09-10 (목) 장후", "ticker": "ORCL", "name": "오라클 (클라우드/AI)", "time": "장마감 후"},
+                {"date": "09-11 (금) 장후", "ticker": "ADBE", "name": "어도비 (생성형 AI)", "time": "장마감 후"},
+            ],
+        },
+        "w2": {
+            "title": "다음 주 (09/14 ~ 09/20) [FOMC 주간]",
+            "macro": [
+                {"date": "09-15 (화) 21:30", "event": "미 8월 소매판매 지표", "impact": "HIGH"},
+                {"date": "09-16 (수) 03:00", "event": "FOMC 기준금리 결정 & 파월 기자회견", "impact": "CRITICAL"},
+                {"date": "09-18 (금) 장마감", "event": "미 선물·옵션 동시만기일 (네 마녀의 날)", "impact": "HIGH"},
+            ],
+            "earnings": [
+                {"date": "09-17 (목) 장후", "ticker": "FDX", "name": "페덱스 (물동량 선행)", "time": "장마감 후"},
+            ],
+        },
+        "w3": {
+            "title": "다다음 주 (09/21 ~ 09/27)",
+            "macro": [
+                {"date": "09-24 (목) 21:30", "event": "미 2분기 GDP 확정치", "impact": "HIGH"},
+                {"date": "09-25 (금) 21:30", "event": "미 8월 근원 PCE 물가지수 (연준 선호)", "impact": "CRITICAL"},
+            ],
+            "earnings": [
+                {"date": "09-23 (수) 장후", "ticker": "MU", "name": "마이크론 (HBM 메모리)", "time": "장마감 후"},
+                {"date": "09-24 (목) 장후", "ticker": "COST", "name": "코스트코 (미 소비지표)", "time": "장마감 후"},
+            ],
+        },
+    }
 
-    # 6. 4대 실시간 RSS 피드 수집 (global 피드 복원 완료)
+    # 6. 인문·역사·다국어 회화 지능형 데이터 생성
+    data["humanities"] = generate_humanities_intelligence()
+
+    # 7. 실시간 RSS 피드 수집
     data["feeds"] = {
         "fed": fetch_rss("https://www.federalreserve.gov/feeds/speeches.xml", 4, "[연설]") or [],
         "global": fetch_rss("https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10000664", 5) or [],
@@ -376,7 +481,7 @@ def main():
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-    print("글로벌 속보 복원 및 5대 인텔리전스 동기화 완료!")
+    print("인문·역사·8개국어 회화 지능형 데이터 동기화 완료!")
 
 
 if __name__ == "__main__":
