@@ -92,7 +92,7 @@
       overflow: hidden;
     }
 
-    /* 메인 그리드 */
+    /* 메인 벤토 그리드 */
     .dashboard-grid {
       display: grid;
       grid-template-columns: repeat(6, 1fr);
@@ -142,8 +142,8 @@
       white-space: nowrap;
       transition: all 0.15s;
     }
+    .feed-tab:hover { border-color: #38bdf8; color: #e2e8f0; }
     .feed-tab.active { background: rgba(56, 189, 248, 0.2); border-color: #38bdf8; color: #38bdf8; }
-    .feed-tab.macro-active { background: rgba(16, 185, 129, 0.2); border-color: #34d399; color: #34d399; }
 
     .naver-link-btn {
       background: rgba(3, 199, 90, 0.15);
@@ -158,11 +158,9 @@
       align-items: center;
       gap: 4px;
       white-space: nowrap;
-      transition: background 0.15s;
     }
-    .naver-link-btn:hover { background: rgba(3, 199, 90, 0.25); }
 
-    /* 4대 매크로 쿼드런트 (좌측 3칸) */
+    /* 좌측 4대 매크로 쿼드런트 (좌측 3칸) */
     .card-macro-grid {
       grid-column: span 3;
       background: linear-gradient(135deg, rgba(6, 78, 59, 0.45), #0f172a);
@@ -178,7 +176,7 @@
       background: #020617;
       border: 1px solid #1e293b;
       border-radius: 8px;
-      padding: 10px;
+      padding: 8px 10px;
       display: flex;
       flex-direction: column;
       cursor: pointer;
@@ -192,7 +190,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-bottom: 6px;
+      margin-bottom: 5px;
       padding-bottom: 4px;
       border-bottom: 1px solid rgba(255, 255, 255, 0.05);
     }
@@ -212,15 +210,15 @@
       background: rgba(15, 23, 42, 0.7);
       border: 1px solid rgba(255, 255, 255, 0.05);
       border-radius: 6px;
-      padding: 5px 6px;
-      margin-bottom: 8px;
+      padding: 4px 6px;
+      margin-bottom: 6px;
     }
     .metric-chip {
       display: flex;
       align-items: center;
       gap: 4px;
-      font-size: 0.66rem;
-      padding: 3px 6px;
+      font-size: 0.65rem;
+      padding: 2px 5px;
       border-radius: 4px;
       background: #020617;
       border: 1px solid #334155;
@@ -228,35 +226,27 @@
       transition: all 0.15s ease;
       user-select: none;
     }
-    .metric-chip:hover {
-      border-color: #38bdf8;
-      background: rgba(56, 189, 248, 0.1);
-      transform: translateY(-1px);
-    }
-    .metric-chip.active {
-      border-color: #38bdf8;
-      background: rgba(56, 189, 248, 0.25);
-      box-shadow: 0 0 8px rgba(56, 189, 248, 0.4);
-    }
+    .metric-chip:hover { border-color: #38bdf8; background: rgba(56, 189, 248, 0.1); }
+    .metric-chip.active { border-color: #38bdf8; background: rgba(56, 189, 248, 0.25); box-shadow: 0 0 8px rgba(56, 189, 248, 0.4); }
     .metric-chip-name { color: #94a3b8; font-weight: 600; }
     .metric-chip-val { color: #f8fafc; font-weight: 800; font-family: monospace; }
     .metric-chip-chg { font-weight: 700; font-family: monospace; font-size: 0.62rem; }
 
-    .m-headline { font-size: 0.74rem; font-weight: 700; color: #ffffff; margin-bottom: 4px; line-height: 1.35; }
+    .m-headline { font-size: 0.74rem; font-weight: 700; color: #ffffff; margin-bottom: 3px; line-height: 1.35; }
     .m-bullets { list-style: none; display: flex; flex-direction: column; gap: 3px; font-size: 0.66rem; color: #cbd5e1; }
     .m-bullets li::before { content: "• "; color: #34d399; font-weight: bold; }
 
-    /* 4대 트레이딩 RSS 쿼드런트 (우측 3칸) */
+    /* 우측 5대 트레이딩 인텔리전스 (우측 3칸) */
     .card-news-grid {
       grid-column: span 3;
       background: linear-gradient(135deg, rgba(15, 23, 42, 0.95), #090e1f);
       border-color: rgba(56, 189, 248, 0.35);
     }
-    .q-list { list-style: none; display: flex; flex-direction: column; gap: 5px; }
+    .q-list { list-style: none; display: flex; flex-direction: column; gap: 4px; }
     .q-item a {
       color: #cbd5e1;
       text-decoration: none;
-      font-size: 0.72rem;
+      font-size: 0.71rem;
       display: -webkit-box;
       -webkit-line-clamp: 1;
       -webkit-box-orient: vertical;
@@ -265,6 +255,22 @@
     }
     .q-item a:hover { color: #38bdf8; text-decoration: underline; }
     .q-date { font-size: 0.62rem; color: #64748b; font-family: monospace; }
+
+    /* 캘린더 미니 프리뷰 */
+    .cal-mini-box { display: flex; flex-direction: column; gap: 4px; }
+    .cal-mini-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #090e1f;
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      border-radius: 4px;
+      padding: 3px 6px;
+      font-size: 0.66rem;
+    }
+    .cal-badge { font-size: 0.58rem; padding: 1px 4px; border-radius: 3px; font-weight: 700; }
+    .badge-critical { background: rgba(244, 63, 94, 0.2); color: #fb7185; border: 1px solid rgba(244, 63, 94, 0.4); }
+    .badge-earn { background: rgba(56, 189, 248, 0.2); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.4); }
 
     .single-view { display: none; flex-direction: column; gap: 8px; flex-grow: 1; }
 
@@ -289,7 +295,7 @@
     .card-history { grid-column: span 2; cursor: pointer; }
     .card-history .card-tag { background: rgba(168, 85, 247, 0.2); color: #d8b4fe; }
 
-    /* SVG 트렌드 차트 컨테이너 */
+    /* SVG 트렌드 차트 */
     .sparkline-card {
       background: #020617;
       border: 1px solid #1e293b;
@@ -306,13 +312,9 @@
       font-weight: 700;
       color: #94a3b8;
     }
-    .sparkline-svg {
-      width: 100%;
-      height: 105px;
-      overflow: visible;
-    }
+    .sparkline-svg { width: 100%; height: 105px; overflow: visible; }
 
-    /* 서랍 내 20영업일 히스토리 스크롤 테이블 */
+    /* 히스토리 테이블 */
     .history-table-container {
       background: #020617;
       border: 1px solid #1e293b;
@@ -321,28 +323,35 @@
       max-height: 190px;
       overflow-y: auto;
     }
-    .hist-table {
-      width: 100%;
-      border-collapse: collapse;
-      font-size: 0.72rem;
-      text-align: right;
-    }
-    .hist-table th, .hist-table td {
-      padding: 6px 10px;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-    }
-    .hist-table th {
-      position: sticky;
-      top: 0;
-      background: #090e1f;
+    .hist-table { width: 100%; border-collapse: collapse; font-size: 0.72rem; text-align: right; }
+    .hist-table th, .hist-table td { padding: 6px 10px; border-bottom: 1px solid rgba(255, 255, 255, 0.05); }
+    .hist-table th { position: sticky; top: 0; background: #090e1f; color: #94a3b8; font-weight: 700; z-index: 2; }
+    .hist-table td:first-child, .hist-table th:first-child { text-align: left; font-weight: 700; color: #cbd5e1; }
+
+    /* 3주 캘린더 전용 서랍 스타일 */
+    .cal-week-btn-group { display: flex; gap: 6px; margin-bottom: 12px; }
+    .cal-week-btn {
+      flex: 1;
+      padding: 6px;
+      border-radius: 6px;
+      background: #020617;
+      border: 1px solid #334155;
       color: #94a3b8;
+      font-size: 0.72rem;
       font-weight: 700;
-      z-index: 2;
+      cursor: pointer;
     }
-    .hist-table td:first-child, .hist-table th:first-child {
-      text-align: left;
-      font-weight: 700;
-      color: #cbd5e1;
+    .cal-week-btn.active { background: rgba(56, 189, 248, 0.2); border-color: #38bdf8; color: #38bdf8; }
+    .cal-section-title { font-size: 0.75rem; font-weight: 800; color: #ffffff; margin: 10px 0 6px; display: flex; align-items: center; gap: 6px; }
+    .cal-event-card {
+      background: #020617;
+      border: 1px solid #1e293b;
+      border-radius: 6px;
+      padding: 8px 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 6px;
     }
 
     @media (max-width: 1024px) {
@@ -378,7 +387,7 @@
       <span style="font-size: 1.4rem;">📊</span>
       <div>
         <h1>글로벌 매크로 레짐 & 테크 인텔리전스</h1>
-        <p>네이버 증권 연동 · 인터랙티브 20일 자산별 트렌드 차트 · 30년물 동기화</p>
+        <p>네이버 증권 연동 · 전체 5분할 트레이딩 피드 · 3주 캘린더</p>
       </div>
     </div>
     <div class="header-status">
@@ -399,8 +408,8 @@
     <div class="yield-grid">
       <div class="yield-card">
         <div class="y-name">미 2년물 (통화정책)</div>
-        <div class="y-val" id="val-2y">4.32%</div>
-        <div class="y-change up" id="chg-2y">+0.03%</div>
+        <div class="y-val" id="val-2y">4.37%</div>
+        <div class="y-change down" id="chg-2y">-0.29%</div>
       </div>
       <div class="yield-card">
         <div class="y-name">미 5년물 (중기금리)</div>
@@ -409,18 +418,18 @@
       </div>
       <div class="yield-card" style="border-color: rgba(99, 102, 241, 0.5);">
         <div class="y-name" style="color: #a5b4fc;">미 10년물 (글로벌 기준)</div>
-        <div class="y-val" id="val-10y" style="color: #c7d2fe;">4.78%</div>
-        <div class="y-change up" id="chg-10y">+0.46%</div>
+        <div class="y-val" id="val-10y" style="color: #c7d2fe;">4.79%</div>
+        <div class="y-change up" id="chg-10y">+0.05%</div>
       </div>
       <div class="yield-card">
         <div class="y-name">미 30년물 (장기채)</div>
-        <div class="y-val" id="val-30y">4.95%</div>
-        <div class="y-change up" id="chg-30y">+0.01%</div>
+        <div class="y-val" id="val-30y">5.25%</div>
+        <div class="y-change down" id="chg-30y">-0.01%</div>
       </div>
       <div class="yield-card">
         <div class="y-name">10Y-2Y 스프레드</div>
-        <div class="y-val warn" id="val-spread">+46 bp</div>
-        <div class="y-change" id="chg-spread">동기화 완료</div>
+        <div class="y-val up" id="val-spread">+42 bp</div>
+        <div class="y-change up" id="chg-spread">정상화 (우상향)</div>
       </div>
       <div class="yield-card">
         <div class="y-name">VIX (시장 공포지수)</div>
@@ -465,11 +474,10 @@
       <div>
         <div class="feed-tab-bar">
           <div class="tab-group">
-            <button class="feed-tab macro-active" onclick="switchMacroTab('all')">전체 4분할</button>
-            <button class="feed-tab" onclick="switchMacroTab('bonds')">🏛️ 국채</button>
-            <button class="feed-tab" onclick="switchMacroTab('commodities')">🪙 원자재</button>
-            <button class="feed-tab" onclick="switchMacroTab('fx')">💵 환율</button>
-            <button class="feed-tab" onclick="switchMacroTab('oil')">🛢️ 유가</button>
+            <button class="feed-tab" onclick="openDrawer('macro_bonds', 'spread')">🏛️ 국채</button>
+            <button class="feed-tab" onclick="openDrawer('macro_commodities', 'copper')">🪙 원자재</button>
+            <button class="feed-tab" onclick="openDrawer('macro_fx', 'usdkrw')">💵 환율</button>
+            <button class="feed-tab" onclick="openDrawer('macro_oil', 'wti')">🛢️ 유가</button>
           </div>
           <a href="https://stock.naver.com/market/marketindex" target="_blank" rel="noopener noreferrer" class="naver-link-btn">
             <span>네이버 시장지표 ↗</span>
@@ -477,61 +485,33 @@
         </div>
 
         <div id="macro-quadrant-view" class="quadrant-grid">
-          <!-- 1. 국채수익률 -->
           <div class="quadrant-box" onclick="openDrawer('macro_bonds', 'spread')">
-            <div class="quadrant-title">
-              <span>🏛️ 1. 국채수익률</span>
-              <span class="m-badge" id="mbadge-bonds">동기화 중</span>
-            </div>
+            <div class="quadrant-title"><span>🏛️ 1. 국채수익률</span><span class="m-badge" id="mbadge-bonds">동기화 중</span></div>
             <div class="metric-strip" id="mstrip-bonds"></div>
             <div class="m-headline" id="mtitle-bonds">국채 수익률 곡선 분석</div>
-            <ul class="m-bullets" id="mbullets-bonds">
-              <li>실시간 금리 지표를 로드하고 있습니다.</li>
-            </ul>
+            <ul class="m-bullets" id="mbullets-bonds"><li>지표를 로드하고 있습니다.</li></ul>
           </div>
 
-          <!-- 2. 원자재 -->
           <div class="quadrant-box" onclick="openDrawer('macro_commodities', 'copper')">
-            <div class="quadrant-title">
-              <span>🪙 2. 원자재 (금·은·동)</span>
-              <span class="m-badge" id="mbadge-commodities" style="color:#fbbf24; background:rgba(251,191,36,0.15);">동기화 중</span>
-            </div>
+            <div class="quadrant-title"><span>🪙 2. 원자재 (금·은·동)</span><span class="m-badge" id="mbadge-commodities" style="color:#fbbf24; background:rgba(251,191,36,0.15);">동기화 중</span></div>
             <div class="metric-strip" id="mstrip-commodities"></div>
-            <div class="m-headline" id="mtitle-commodities">구리·금·은 실물 시세 분석</div>
-            <ul class="m-bullets" id="mbullets-commodities">
-              <li>실시간 시세를 분석하고 있습니다.</li>
-            </ul>
+            <div class="m-headline" id="mtitle-commodities">구리·금·은 시세 분석</div>
+            <ul class="m-bullets" id="mbullets-commodities"><li>시세를 분석하고 있습니다.</li></ul>
           </div>
 
-          <!-- 3. 환율 -->
           <div class="quadrant-box" onclick="openDrawer('macro_fx', 'usdkrw')">
-            <div class="quadrant-title">
-              <span>💵 3. 환율 (FX)</span>
-              <span class="m-badge" id="mbadge-fx" style="color:#34d399; background:rgba(52,211,153,0.15);">동기화 중</span>
-            </div>
+            <div class="quadrant-title"><span>💵 3. 환율 (FX)</span><span class="m-badge" id="mbadge-fx" style="color:#34d399; background:rgba(52,211,153,0.15);">동기화 중</span></div>
             <div class="metric-strip" id="mstrip-fx"></div>
             <div class="m-headline" id="mtitle-fx">원/달러, 엔/달러, DXY 분석</div>
-            <ul class="m-bullets" id="mbullets-fx">
-              <li>환율 변동치를 분석하고 있습니다.</li>
-            </ul>
+            <ul class="m-bullets" id="mbullets-fx"><li>환율을 분석하고 있습니다.</li></ul>
           </div>
 
-          <!-- 4. 유가 -->
           <div class="quadrant-box" onclick="openDrawer('macro_oil', 'wti')">
-            <div class="quadrant-title">
-              <span>🛢️ 4. 유가 & 에너지</span>
-              <span class="m-badge" id="mbadge-oil" style="color:#f43f5e; background:rgba(244,63,94,0.15);">동기화 중</span>
-            </div>
+            <div class="quadrant-title"><span>🛢️ 4. 유가 & 에너지</span><span class="m-badge" id="mbadge-oil" style="color:#f43f5e; background:rgba(244,63,94,0.15);">동기화 중</span></div>
             <div class="metric-strip" id="mstrip-oil"></div>
-            <div class="m-headline" id="mtitle-oil">WTI 유가 및 정제마진 분석</div>
-            <ul class="m-bullets" id="mbullets-oil">
-              <li>유가 시세를 분석하고 있습니다.</li>
-            </ul>
+            <div class="m-headline" id="mtitle-oil">WTI 유가 분석</div>
+            <ul class="m-bullets" id="mbullets-oil"><li>유가를 분석하고 있습니다.</li></ul>
           </div>
-        </div>
-
-        <div id="macro-single-view" class="single-view">
-          <div id="macro-single-content" style="background:#020617; border:1px solid #1e293b; border-radius:8px; padding:14px;"></div>
         </div>
       </div>
       <div class="card-footer">
@@ -540,56 +520,64 @@
       </div>
     </div>
 
-    <!-- 타일 2: 4대 트레이딩 인텔리전스 (우측 3칸) -->
+    <!-- 타일 2: 5대 트레이딩 인텔리전스 (전체 5분할 체계 적용) -->
     <div class="card card-news-grid">
       <div>
         <div class="feed-tab-bar">
           <div class="tab-group">
-            <button class="feed-tab active" onclick="switchFeedTab('all')">전체 4분할</button>
+            <button class="feed-tab active" onclick="switchFeedTab('all')">전체 5분할</button>
             <button class="feed-tab" onclick="switchFeedTab('fed')">1. 🏛️ 연준 연설</button>
-            <button class="feed-tab" onclick="switchFeedTab('global')">2. ⚡ 글로벌 속보</button>
-            <button class="feed-tab" onclick="switchFeedTab('tech')">3. 🔬 디일렉·전자신문</button>
-            <button class="feed-tab" onclick="switchFeedTab('domestic')">4. 📊 연합인포맥스</button>
+            <button class="feed-tab" onclick="switchFeedTab('calendar')">2. 📅 3주 캘린더</button>
+            <button class="feed-tab" onclick="switchFeedTab('global')">3. ⚡ 글로벌 속보</button>
+            <button class="feed-tab" onclick="switchFeedTab('tech')">4. 🔬 디일렉·전자신문</button>
+            <button class="feed-tab" onclick="switchFeedTab('domestic')">5. 📊 연합인포맥스</button>
           </div>
           <button onclick="openDrawer('fedwatch')" style="background:rgba(96,165,250,0.15); border:1px solid #60a5fa; color:#93c5fd; font-size:0.65rem; padding:3px 8px; border-radius:6px; cursor:pointer; font-weight:700;">
-            CME FedWatch ↗
+            FedWatch ↗
           </button>
         </div>
 
+        <!-- 전체 5분할 그리드 뷰 -->
         <div id="quadrant-view" class="quadrant-grid">
-          <div class="quadrant-box">
-            <div class="quadrant-title"><span>🏛️ 1. 연준 공식 연설</span><span style="color:#60a5fa;">Policy</span></div>
-            <ul class="q-list" id="q-fed">
-              <li class="q-item"><span style="font-size:0.7rem; color:#64748b;">로드 중...</span></li>
-            </ul>
+          <!-- 1. 연준 연설 -->
+          <div class="quadrant-box" onclick="openDrawer('fed_detail')">
+            <div class="quadrant-title"><span>🏛️ 1. 연준 연설</span><span style="color:#60a5fa;">Policy</span></div>
+            <ul class="q-list" id="q-fed"><li class="q-item"><span style="font-size:0.7rem; color:#64748b;">로드 중...</span></li></ul>
           </div>
-          <div class="quadrant-box">
-            <div class="quadrant-title"><span>⚡ 2. 글로벌 마켓 속보</span><span style="color:#38bdf8;">CNBC</span></div>
-            <ul class="q-list" id="q-global">
-              <li class="q-item"><span style="font-size:0.7rem; color:#64748b;">로드 중...</span></li>
-            </ul>
+
+          <!-- 2. 3주 캘린더 -->
+          <div class="quadrant-box" onclick="openDrawer('calendar_3w')" style="border-color:rgba(56, 189, 248, 0.4);">
+            <div class="quadrant-title"><span>📅 2. 3주 캘린더</span><span style="color:#38bdf8; font-size:0.62rem; font-weight:700;">전체일정 ↗</span></div>
+            <div class="cal-mini-box" id="q-calendar-mini"></div>
           </div>
-          <div class="quadrant-box">
-            <div class="quadrant-title"><span>🔬 3. 반도체 & 소부장</span><span style="color:#34d399;">TheElec / ETNews</span></div>
-            <ul class="q-list" id="q-tech">
-              <li class="q-item"><span style="font-size:0.7rem; color:#64748b;">로드 중...</span></li>
-            </ul>
+
+          <!-- 3. 글로벌 속보 (CNBC 복원) -->
+          <div class="quadrant-box" onclick="openDrawer('global_detail')">
+            <div class="quadrant-title"><span>⚡ 3. 글로벌 속보</span><span style="color:#38bdf8;">CNBC</span></div>
+            <ul class="q-list" id="q-global"><li class="q-item"><span style="font-size:0.7rem; color:#64748b;">로드 중...</span></li></ul>
           </div>
-          <div class="quadrant-box">
-            <div class="quadrant-title"><span>📊 4. 채권·외환</span><span style="color:#fbbf24;">Infomax</span></div>
-            <ul class="q-list" id="q-domestic">
-              <li class="q-item"><span style="font-size:0.7rem; color:#64748b;">로드 중...</span></li>
-            </ul>
+
+          <!-- 4. 디일렉 & 전자신문 -->
+          <div class="quadrant-box" onclick="openDrawer('tech_detail')">
+            <div class="quadrant-title"><span>🔬 4. 테크·반도체</span><span style="color:#34d399;">TheElec / ET</span></div>
+            <ul class="q-list" id="q-tech"><li class="q-item"><span style="font-size:0.7rem; color:#64748b;">로드 중...</span></li></ul>
+          </div>
+
+          <!-- 5. 연합인포맥스 (하단 전폭 2칸 차지하여 5개 정렬) -->
+          <div class="quadrant-box" onclick="openDrawer('domestic_detail')" style="grid-column: span 2;">
+            <div class="quadrant-title"><span>📊 5. 채권·외환 (여의도 실시간)</span><span style="color:#fbbf24;">Infomax</span></div>
+            <ul class="q-list" id="q-domestic"><li class="q-item"><span style="font-size:0.7rem; color:#64748b;">로드 중...</span></li></ul>
           </div>
         </div>
 
+        <!-- 단일 탭 확대 뷰 -->
         <div id="single-view" class="single-view">
-          <ul id="single-list" style="list-style:none; display:flex; flex-direction:column; gap:6px;"></ul>
+          <div id="single-content-box" style="flex-grow:1;"></div>
         </div>
       </div>
       <div class="card-footer">
-        <span id="feed-source-note">실시간 연준 연설 · CNBC · 디일렉 피드</span>
-        <span onclick="openDrawer('fedwatch')" style="color:#60a5fa; cursor:pointer;">CME 금리예상 비교 &rarr;</span>
+        <span id="feed-source-note">실시간 연준 연설 · 3주 캘린더 · 글로벌 속보 통합</span>
+        <span onclick="openDrawer('calendar_3w')" style="color:#38bdf8; cursor:pointer;">전체 일정 및 피드 &rarr;</span>
       </div>
     </div>
 
@@ -655,13 +643,11 @@
       </div>
       <h2 id="drawer-title" style="font-size: 1.15rem; font-weight: 700; margin-bottom: 8px; color:#fff;"></h2>
       
-      <!-- 서랍 상단 지표 바 -->
-      <div style="margin-bottom: 6px;">
+      <div id="drawer-sub-hint" style="margin-bottom: 6px; display:none;">
         <span style="font-size:0.68rem; color:#94a3b8; font-weight:600;">👇 아래 지표를 누르면 트렌드 차트가 즉시 전환됩니다:</span>
       </div>
       <div id="drawer-metric-strip" class="metric-strip" style="display:none; margin-bottom:12px;"></div>
 
-      <!-- SVG 트렌드 차트 -->
       <div id="drawer-chart-box" class="sparkline-card" style="display:none;">
         <div class="sparkline-header">
           <span id="chart-label">📈 20영업일 시계열 트렌드</span>
@@ -692,10 +678,12 @@
     let cachedFeeds = { fed: [], global: [], tech: [], domestic: [] };
     let cachedMacroReviews = null;
     let cachedHistory20d = null;
+    let cachedCalendar3w = null;
     let cachedFedwatch = null;
 
     let activeDrawerCategory = 'bonds';
     let activeDrawerSubKey = 'spread';
+    let activeCalendarWeek = 'w1';
 
     async function fetchDashboardData() {
       const timeLabel = document.getElementById('api-timestamp');
@@ -742,13 +730,19 @@
           cachedHistory20d = data.history_20d;
         }
 
-        // 3. 4대 RSS 피드
+        // 3. 3주 캘린더
+        if (data.calendar_3w) {
+          cachedCalendar3w = data.calendar_3w;
+          renderCalendarMini();
+        }
+
+        // 4. 4대 RSS 피드
         if (data.feeds) {
           cachedFeeds = data.feeds;
           renderRssQuadrants();
         }
 
-        // 4. FedWatch
+        // 5. FedWatch
         if (data.fedwatch) {
           cachedFedwatch = data.fedwatch;
         }
@@ -793,45 +787,38 @@
       });
     }
 
-    function switchMacroTab(tabKey) {
-      document.querySelectorAll('.card-macro-grid .feed-tab').forEach(b => b.classList.remove('macro-active'));
-      event.target.classList.add('macro-active');
+    function renderCalendarMini() {
+      const box = document.getElementById('q-calendar-mini');
+      if (!box || !cachedCalendar3w) return;
+      const w1 = cachedCalendar3w.w1;
+      const w2 = cachedCalendar3w.w2;
 
-      const qView = document.getElementById('macro-quadrant-view');
-      const sView = document.getElementById('macro-single-view');
-      const sContent = document.getElementById('macro-single-content');
-
-      if (tabKey === 'all') {
-        qView.style.display = 'grid';
-        sView.style.display = 'none';
-      } else {
-        qView.style.display = 'none';
-        sView.style.display = 'flex';
-        const item = cachedMacroReviews ? cachedMacroReviews[tabKey] : null;
-        if (item) {
-          sContent.innerHTML = `
-            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
-              <h3 style="font-size:0.95rem; color:#fff;">${item.title}</h3>
-              <span class="m-badge">${item.badge}</span>
-            </div>
-            <div class="metric-strip" style="margin-bottom:12px;">
-              ${item.metrics.map(mt => `
-                <div class="metric-chip" onclick="openDrawer('macro_${tabKey}', '${mt.id}')">
-                  <span class="metric-chip-name">${mt.name}</span>
-                  <span class="metric-chip-val">${mt.val}</span>
-                  <span class="metric-chip-chg ${mt.up ? 'up' : 'down'}">${mt.chg}</span>
-                </div>
-              `).join('')}
-            </div>
-            <ul style="list-style:none; padding:0; margin-bottom:14px; font-size:0.78rem; color:#cbd5e1; display:flex; flex-direction:column; gap:6px;">
-              ${item.bullets.map(b => `<li>• ${b}</li>`).join('')}
-            </ul>
-            <div style="background:#090e1f; border-left:3px solid #34d399; padding:10px; font-size:0.75rem; color:#94a3b8; line-height:1.5;">
-              ${item.detail}
-            </div>
-          `;
-        }
+      let htmlRows = '';
+      if (w1 && w1.macro && w1.macro[1]) {
+        htmlRows += `
+          <div class="cal-mini-row">
+            <span>🔴 ${w1.macro[1].event}</span>
+            <span class="cal-badge badge-critical">${w1.macro[1].date.slice(0, 5)}</span>
+          </div>
+        `;
       }
+      if (w2 && w2.macro && w2.macro[1]) {
+        htmlRows += `
+          <div class="cal-mini-row">
+            <span>🏛️ ${w2.macro[1].event.slice(0, 16)}...</span>
+            <span class="cal-badge badge-critical">${w2.macro[1].date.slice(0, 5)}</span>
+          </div>
+        `;
+      }
+      if (w1 && w1.earnings && w1.earnings[0]) {
+        htmlRows += `
+          <div class="cal-mini-row">
+            <span>💻 [실적] ${w1.earnings[0].name}</span>
+            <span class="cal-badge badge-earn">${w1.earnings[0].ticker}</span>
+          </div>
+        `;
+      }
+      box.innerHTML = htmlRows;
     }
 
     function renderRssQuadrants() {
@@ -851,25 +838,31 @@
       document.getElementById('q-domestic').innerHTML = makeListHtml(cachedFeeds.domestic);
     }
 
+    // 5대 탭 전환 핸들러 (전체 5분할 지원)
     function switchFeedTab(tabKey) {
       document.querySelectorAll('.card-news-grid .feed-tab').forEach(b => b.classList.remove('active'));
       event.target.classList.add('active');
 
       const qView = document.getElementById('quadrant-view');
       const sView = document.getElementById('single-view');
-      const sList = document.getElementById('single-list');
+      const sBox = document.getElementById('single-content-box');
       const note = document.getElementById('feed-source-note');
 
       if (tabKey === 'all') {
         qView.style.display = 'grid';
         sView.style.display = 'none';
-        note.innerText = '실시간 연준 연설 · CNBC · 디일렉 피드';
+        note.innerText = '실시간 연준 연설 · 3주 캘린더 · 글로벌 속보 통합';
+      } else if (tabKey === 'calendar') {
+        qView.style.display = 'none';
+        sView.style.display = 'flex';
+        note.innerText = '출처: 미 노동통계국(BLS) · 연준(FRB) · 야후 파이낸스 실적';
+        sBox.innerHTML = renderCalendarDrawer(activeCalendarWeek);
       } else {
         qView.style.display = 'none';
         sView.style.display = 'flex';
         const items = cachedFeeds[tabKey] || [];
         const sourceMap = {
-          fed: '미 연방준비제도(FRB) 공식 연설/성명',
+          fed: '미 연방준비제도(FRB) 공식 연설 전문',
           global: 'CNBC 마켓 실시간 속보 (Wall Street)',
           tech: '디일렉(THE ELEC) & 전자신문(ETNews)',
           domestic: '연합인포맥스(Infomax) 채권/외환'
@@ -877,14 +870,18 @@
         note.innerText = `출처: ${sourceMap[tabKey]}`;
 
         if (items.length === 0) {
-          sList.innerHTML = '<li style="font-size:0.75rem; color:#64748b; padding:10px;">불러올 뉴스가 없습니다.</li>';
+          sBox.innerHTML = '<p style="font-size:0.75rem; color:#64748b; padding:10px;">불러올 뉴스가 없습니다.</p>';
         } else {
-          sList.innerHTML = items.map(item => `
-            <li class="single-list-item" style="display:flex; justify-content:space-between; align-items:center; padding:6px 8px; background:#020617; border:1px solid #1e293b; border-radius:6px; gap:8px;">
-              <a href="${item.link}" target="_blank" rel="noopener noreferrer" style="color:#e2e8f0; text-decoration:none; font-size:0.76rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; flex-grow:1;">• ${item.title}</a>
-              <span style="font-size:0.65rem; color:#64748b; font-family:monospace; white-space:nowrap;">${item.date}</span>
-            </li>
-          `).join('');
+          sBox.innerHTML = `
+            <ul style="list-style:none; display:flex; flex-direction:column; gap:6px;">
+              ${items.map(item => `
+                <li style="display:flex; justify-content:space-between; align-items:center; padding:6px 8px; background:#020617; border:1px solid #1e293b; border-radius:6px; gap:8px;">
+                  <a href="${item.link}" target="_blank" rel="noopener noreferrer" style="color:#e2e8f0; text-decoration:none; font-size:0.76rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; flex-grow:1;">• ${item.title}</a>
+                  <span style="font-size:0.65rem; color:#64748b; font-family:monospace; white-space:nowrap;">${item.date}</span>
+                </li>
+              `).join('')}
+            </ul>
+          `;
         }
       }
     }
@@ -933,7 +930,6 @@
       `;
     }
 
-    // 30년물(us30y) field 오타 수정 완료
     const SUB_METRIC_CONFIG = {
       spread: { label: '📊 10Y-2Y 장단기 금리차(스프레드) 20일 추이', color: '#60a5fa', unit: ' bp', field: 'spread' },
       us10y: { label: '🏛️ 미 국채 10년물 수익률 20일 추이', color: '#818cf8', unit: '%', field: 'us10y' },
@@ -974,7 +970,6 @@
       chartWrapper.innerHTML = renderSvgSparkline(values, dates, cfg.color, cfg.unit);
     }
 
-    // 국채 테이블에 30년물 열(Column) 추가
     function buildHistoryTable(category) {
       if (!cachedHistory20d || !cachedHistory20d[category]) {
         return '<p style="font-size:0.75rem; color:#64748b;">히스토리 데이터를 불러오는 중입니다...</p>';
@@ -988,16 +983,14 @@
             <td>${item.date}</td>
             <td style="color:#c7d2fe; font-weight:700;">${item.us10y.toFixed(2)}%</td>
             <td style="color:#94a3b8;">${item.us2y.toFixed(2)}%</td>
-            <td style="color:#c084fc; font-weight:700;">${(item.us30y !== undefined ? item.us30y : 4.95).toFixed(2)}%</td>
+            <td style="color:#c084fc; font-weight:700;">${(item.us30y !== undefined ? item.us30y : 5.25).toFixed(2)}%</td>
             <td class="${item.spread >= 0 ? 'up' : 'warn'}" style="font-weight:800;">${item.spread >= 0 ? '+' : ''}${item.spread} bp</td>
           </tr>
         `).join('');
         return `
           <div class="history-table-container">
             <table class="hist-table">
-              <thead>
-                <tr><th>일자</th><th>10년물</th><th>2년물</th><th>30년물</th><th>스프레드</th></tr>
-              </thead>
+              <thead><tr><th>일자</th><th>10년물</th><th>2년물</th><th>30년물</th><th>스프레드</th></tr></thead>
               <tbody>${rows}</tbody>
             </table>
           </div>
@@ -1014,9 +1007,7 @@
         return `
           <div class="history-table-container">
             <table class="hist-table">
-              <thead>
-                <tr><th>일자</th><th>구리 ($/lb)</th><th>금 ($/oz)</th><th>은 ($/oz)</th></tr>
-              </thead>
+              <thead><tr><th>일자</th><th>구리 ($/lb)</th><th>금 ($/oz)</th><th>은 ($/oz)</th></tr></thead>
               <tbody>${rows}</tbody>
             </table>
           </div>
@@ -1033,9 +1024,7 @@
         return `
           <div class="history-table-container">
             <table class="hist-table">
-              <thead>
-                <tr><th>일자</th><th>원/달러</th><th>달러인덱스</th><th>엔/달러</th></tr>
-              </thead>
+              <thead><tr><th>일자</th><th>원/달러</th><th>달러인덱스</th><th>엔/달러</th></tr></thead>
               <tbody>${rows}</tbody>
             </table>
           </div>
@@ -1051,9 +1040,7 @@
         return `
           <div class="history-table-container">
             <table class="hist-table">
-              <thead>
-                <tr><th>일자</th><th>WTI 선물 ($/배럴)</th><th>전일대비 등락</th></tr>
-              </thead>
+              <thead><tr><th>일자</th><th>WTI 선물 ($/배럴)</th><th>전일대비 등락</th></tr></thead>
               <tbody>${rows}</tbody>
             </table>
           </div>
@@ -1062,15 +1049,73 @@
       return '';
     }
 
+    function renderCalendarDrawer(weekKey = 'w1') {
+      activeCalendarWeek = weekKey;
+      if (!cachedCalendar3w) return '<p style="font-size:0.75rem; color:#64748b;">캘린더를 로드 중입니다...</p>';
+      const cur = cachedCalendar3w[weekKey];
+
+      const macroHtml = cur.macro.map(m => {
+        const badgeClass = m.impact === 'CRITICAL' ? 'badge-critical' : 'badge-earn';
+        return `
+          <div class="cal-event-card">
+            <div>
+              <strong style="font-size:0.76rem; color:#fff; display:block;">${m.event}</strong>
+              <span style="font-size:0.65rem; color:#94a3b8; font-family:monospace;">${m.date}</span>
+            </div>
+            <span class="cal-badge ${badgeClass}">${m.impact}</span>
+          </div>
+        `;
+      }).join('');
+
+      const earnHtml = cur.earnings.map(e => `
+        <div class="cal-event-card">
+          <div>
+            <strong style="font-size:0.76rem; color:#38bdf8; display:block;">${e.name} (${e.ticker})</strong>
+            <span style="font-size:0.65rem; color:#94a3b8; font-family:monospace;">${e.date} · ${e.time}</span>
+          </div>
+          <span class="cal-badge badge-earn">EARNINGS</span>
+        </div>
+      `).join('');
+
+      return `
+        <div class="cal-week-btn-group">
+          <button class="cal-week-btn ${weekKey === 'w1' ? 'active' : ''}" onclick="switchCalendarWeek('w1')">이번 주 (W1)</button>
+          <button class="cal-week-btn ${weekKey === 'w2' ? 'active' : ''}" onclick="switchCalendarWeek('w2')">다음 주 (W2·FOMC)</button>
+          <button class="cal-week-btn ${weekKey === 'w3' ? 'active' : ''}" onclick="switchCalendarWeek('w3')">다다음 주 (W3)</button>
+        </div>
+
+        <div style="background:#090e1f; border:1px solid #1e293b; border-radius:8px; padding:10px; margin-bottom:12px;">
+          <h4 style="font-size:0.8rem; color:#38bdf8; margin-bottom:4px;">📌 ${cur.title}</h4>
+          <span style="font-size:0.68rem; color:#94a3b8;">미 노동통계국(BLS) · 연준(FRB) 확정 일정 및 야후 파이낸스 실적</span>
+        </div>
+
+        <div class="cal-section-title">🏛️ 거시경제 핵심 지표 (Macro Events)</div>
+        ${macroHtml}
+
+        <div class="cal-section-title" style="margin-top:14px;">💻 빅테크 어닝스 캘린더 (Big Tech Earnings)</div>
+        ${earnHtml}
+      `;
+    }
+
+    function switchCalendarWeek(weekKey) {
+      document.getElementById('drawer-body').innerHTML = renderCalendarDrawer(weekKey);
+      const sBox = document.getElementById('single-content-box');
+      if (sBox && document.getElementById('single-view').style.display === 'flex') {
+        sBox.innerHTML = renderCalendarDrawer(weekKey);
+      }
+    }
+
     function openDrawer(key, targetSubKey = null) {
       const tagEl = document.getElementById('drawer-tag');
       const titleEl = document.getElementById('drawer-title');
       const stripEl = document.getElementById('drawer-metric-strip');
+      const hintEl = document.getElementById('drawer-sub-hint');
       const chartBox = document.getElementById('drawer-chart-box');
       const bodyEl = document.getElementById('drawer-body');
 
       stripEl.style.display = 'none';
       stripEl.innerHTML = '';
+      hintEl.style.display = 'none';
       chartBox.style.display = 'none';
 
       if (key.startsWith('macro_')) {
@@ -1092,6 +1137,7 @@
         const selectedSub = targetSubKey || meta.defaultSub;
 
         if (item && item.metrics) {
+          hintEl.style.display = 'block';
           stripEl.style.display = 'flex';
           stripEl.innerHTML = item.metrics.map(mt => `
             <div class="metric-chip ${mt.id === selectedSub ? 'active' : ''}" data-sub-id="${mt.id}" onclick="switchDrawerChart('${mt.id}')">
@@ -1121,13 +1167,33 @@
             네이버 증권 시장지표 원문 바로가기 ↗
           </a>
         `;
+      } else if (key === 'calendar_3w') {
+        tagEl.innerText = "📅 3주 캘린더 (거시경제 & 빅테크 실적)";
+        titleEl.innerText = "월가 마켓 무버 3주 타임라인 (W1 ~ W3)";
+        bodyEl.innerHTML = renderCalendarDrawer(activeCalendarWeek);
+      } else if (key === 'fed_detail' || key === 'global_detail' || key === 'tech_detail' || key === 'domestic_detail') {
+        const feedMap = {
+          fed_detail: { tag: "🏛️ 미 연준 공식 연설", title: "파월 의장 및 연준 이사 연설 전문", items: cachedFeeds.fed },
+          global_detail: { tag: "⚡ 글로벌 마켓 속보", title: "CNBC & 월가 실시간 브레이킹 뉴스", items: cachedFeeds.global },
+          tech_detail: { tag: "🔬 테크 & HBM 반도체", title: "디일렉 & 전자신문 실시간 속보", items: cachedFeeds.tech },
+          domestic_detail: { tag: "📊 여의도 채권·외환", title: "연합인포맥스 채권·외환 전문 피드", items: cachedFeeds.domestic },
+        };
+        const curF = feedMap[key];
+        tagEl.innerText = curF.tag;
+        titleEl.innerText = curF.title;
+        bodyEl.innerHTML = `
+          <ul style="list-style:none; display:flex; flex-direction:column; gap:8px;">
+            ${curF.items.map(item => `
+              <li style="padding:8px 10px; background:#020617; border:1px solid #1e293b; border-radius:6px; display:flex; justify-content:space-between; align-items:center;">
+                <a href="${item.link}" target="_blank" rel="noopener noreferrer" style="color:#e2e8f0; text-decoration:none; font-size:0.76rem; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; flex-grow:1;">${item.title}</a>
+                <span style="font-size:0.65rem; color:#64748b; font-family:monospace; white-space:nowrap; margin-left:8px;">${item.date}</span>
+              </li>
+            `).join('')}
+          </ul>
+        `;
       } else if (key === 'fedwatch') {
         tagEl.innerText = "🏛️ CME FedWatch 최근 5일 기준금리 전망";
-        const fw = cachedFedwatch || {
-          meeting_date: "2026-09-16 (차기 FOMC)",
-          current_target: "3.75%-4.00%",
-          history: []
-        };
+        const fw = cachedFedwatch || { meeting_date: "2026-09-16 (차기 FOMC)", current_target: "3.75%-4.00%", history: [] };
         titleEl.innerText = `차기 FOMC 기준금리 확률 추이 (${fw.meeting_date})`;
         bodyEl.innerHTML = `
           <div style="background:#020617; border:1px solid #1e293b; padding:12px; border-radius:8px; margin-bottom:14px;">
@@ -1137,9 +1203,7 @@
               <span style="color:#94a3b8;">■ 동결</span>
             </div>
             <table class="hist-table" style="text-align:center;">
-              <thead>
-                <tr><th style="text-align:center;">일자</th><th>25bp 인하</th><th>동결</th><th>확률 게이지</th></tr>
-              </thead>
+              <thead><tr><th style="text-align:center;">일자</th><th>25bp 인하</th><th>동결</th><th>확률 게이지</th></tr></thead>
               <tbody>
                 ${fw.history.map(h => `
                   <tr>
