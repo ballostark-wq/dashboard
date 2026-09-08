@@ -6,10 +6,7 @@
   <title>Global Macro & Tech Dashboard</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    html, body {
-      width: 100%;
-      overflow-x: hidden;
-    }
+    html, body { width: 100%; overflow-x: hidden; }
     body {
       background-color: #020617;
       color: #f8fafc;
@@ -21,7 +18,6 @@
       gap: 14px;
     }
 
-    /* 상단 헤더 */
     header {
       display: flex;
       flex-wrap: wrap;
@@ -132,7 +128,7 @@
       color: #64748b;
     }
 
-    /* 탭 바: 모바일 가로 스크롤 적용 */
+    /* 탭 바 */
     .feed-tab-bar {
       display: flex;
       align-items: center;
@@ -233,7 +229,6 @@
       white-space: nowrap;
     }
 
-    /* 지표 칩 */
     .metric-strip {
       display: flex;
       flex-wrap: wrap;
@@ -276,164 +271,143 @@
       border-color: rgba(56, 189, 248, 0.35);
     }
     .q-list { list-style: none; display: flex; flex-direction: column; gap: 4px; width: 100%; min-width: 0; }
-    .q-item {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 6px;
-      min-width: 0;
-    }
-    .q-item a {
-      color: #cbd5e1;
-      text-decoration: none;
-      font-size: 0.71rem;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      flex-grow: 1;
-      min-width: 0;
-    }
+    .q-item { display: flex; justify-content: space-between; align-items: center; gap: 6px; min-width: 0; }
+    .q-item a { color: #cbd5e1; text-decoration: none; font-size: 0.71rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex-grow: 1; min-width: 0; }
     .q-item a:hover { color: #38bdf8; text-decoration: underline; }
     .q-date { font-size: 0.62rem; color: #64748b; font-family: monospace; white-space: nowrap; flex-shrink: 0; }
 
-    /* 캘린더 미니 프리뷰 */
     .cal-mini-box { display: flex; flex-direction: column; gap: 4px; width: 100%; }
-    .cal-mini-row {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background: #090e1f;
-      border: 1px solid rgba(255, 255, 255, 0.05);
-      border-radius: 4px;
-      padding: 3px 6px;
-      font-size: 0.66rem;
-      gap: 6px;
-      min-width: 0;
-    }
-    .cal-mini-row span:first-child {
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      flex-grow: 1;
-    }
+    .cal-mini-row { display: flex; justify-content: space-between; align-items: center; background: #090e1f; border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 4px; padding: 3px 6px; font-size: 0.66rem; gap: 6px; min-width: 0; }
+    .cal-mini-row span:first-child { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex-grow: 1; }
     .cal-badge { font-size: 0.58rem; padding: 1px 4px; border-radius: 3px; font-weight: 700; white-space: nowrap; flex-shrink: 0; }
     .badge-critical { background: rgba(244, 63, 94, 0.2); color: #fb7185; border: 1px solid rgba(244, 63, 94, 0.4); }
     .badge-earn { background: rgba(56, 189, 248, 0.2); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.4); }
 
     .single-view { display: none; flex-direction: column; gap: 8px; flex-grow: 1; width: 100%; min-width: 0; }
 
-    /* 하단 3개 타일 */
-    .card-quiz { grid-column: span 2; cursor: default; }
+    /* ==========================================================================
+       🏛️ 신규 하단 3대 인문·회화 그리드 스타일
+       ========================================================================== */
     .card-tag { display: inline-block; font-size: 0.68rem; font-weight: 700; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
-    .card-quiz .card-tag { background: rgba(59, 130, 246, 0.2); color: #93c5fd; }
-    .quiz-box { background: #020617; border: 1px solid #1e293b; padding: 12px; border-radius: 10px; margin-top: 8px; }
-    .quiz-q-label { font-size: 0.65rem; font-weight: 800; color: #60a5fa; display: block; margin-bottom: 4px; }
-    .quiz-question { font-size: 0.82rem; font-weight: 600; line-height: 1.4; color: #f1f5f9; word-break: keep-all; }
-    .quiz-hint { font-size: 0.7rem; color: #64748b; margin-top: 8px; line-height: 1.4; word-break: keep-all; }
-    .quiz-answer { display: none; background: rgba(30, 58, 138, 0.3); border: 1px solid rgba(59, 130, 246, 0.4); padding: 10px; border-radius: 8px; font-size: 0.75rem; color: #bfdbfe; margin-top: 10px; line-height: 1.4; word-break: keep-all; }
-    .quiz-btn { width: 100%; background: #1e293b; color: #e2e8f0; border: 1px solid #334155; padding: 8px; border-radius: 8px; font-size: 0.72rem; font-weight: 600; cursor: pointer; margin-top: 12px; transition: background 0.15s; }
-    .quiz-btn:hover { background: #334155; }
 
-    .card-language { grid-column: span 2; cursor: pointer; }
-    .card-language .card-tag { background: rgba(245, 158, 11, 0.2); color: #fcd34d; }
-    .lang-expr { font-size: 1.2rem; font-weight: 800; color: #fbbf24; margin: 4px 0 2px; }
-    .lang-meaning { font-size: 0.75rem; color: #94a3b8; font-weight: 600; margin-bottom: 8px; }
-    .lang-example { background: #020617; border: 1px solid #1e293b; padding: 10px; border-radius: 8px; font-size: 0.73rem; color: #cbd5e1; line-height: 1.4; }
-
-    .card-history { grid-column: span 2; cursor: pointer; }
-    .card-history .card-tag { background: rgba(168, 85, 247, 0.2); color: #d8b4fe; }
-
-    /* SVG 트렌드 차트 */
-    .sparkline-card {
-      background: #020617;
-      border: 1px solid #1e293b;
-      border-radius: 8px;
-      padding: 10px 12px;
-      margin-bottom: 12px;
+    /* 1. 세계사 & 패권 사이클 */
+    .card-history-geo {
+      grid-column: span 2;
+      background: linear-gradient(135deg, rgba(88, 28, 135, 0.4), #0f172a);
+      border-color: rgba(168, 85, 247, 0.35);
+      cursor: pointer;
     }
-    .sparkline-header {
+    .card-history-geo .card-tag { background: rgba(168, 85, 247, 0.2); color: #d8b4fe; }
+
+    /* 2. 8개국어 다국어 회화 매트릭스 */
+    .card-polyglot {
+      grid-column: span 2;
+      background: linear-gradient(135deg, rgba(120, 53, 15, 0.35), #0f172a);
+      border-color: rgba(245, 158, 11, 0.35);
+      cursor: default;
+    }
+    .card-polyglot .card-tag { background: rgba(245, 158, 11, 0.2); color: #fcd34d; }
+    .lang-chip-bar {
       display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 6px;
-      font-size: 0.74rem;
-      font-weight: 700;
-      color: #94a3b8;
+      gap: 4px;
+      overflow-x: auto;
+      margin-bottom: 8px;
+      padding-bottom: 4px;
+      scrollbar-width: none;
     }
-    .sparkline-svg { width: 100%; height: 105px; overflow: visible; }
-
-    /* 히스토리 테이블 */
-    .history-table-container {
+    .lang-chip-bar::-webkit-scrollbar { display: none; }
+    .lang-tab {
       background: #020617;
-      border: 1px solid #1e293b;
-      border-radius: 8px;
-      margin: 12px 0;
-      max-height: 190px;
-      overflow-y: auto;
+      border: 1px solid #334155;
+      color: #94a3b8;
+      padding: 3px 6px;
+      border-radius: 5px;
+      font-size: 0.62rem;
+      font-weight: 700;
+      cursor: pointer;
+      white-space: nowrap;
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
     }
+    .lang-tab.active {
+      background: rgba(245, 158, 11, 0.25);
+      border-color: #f59e0b;
+      color: #fbbf24;
+    }
+    .tts-btn {
+      background: #1e293b;
+      border: 1px solid #475569;
+      color: #f8fafc;
+      padding: 2px 7px;
+      border-radius: 4px;
+      font-size: 0.65rem;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      transition: background 0.15s;
+    }
+    .tts-btn:hover { background: #334155; }
+    .tts-btn:active { transform: scale(0.96); }
+
+    /* 3. 정치철학 & 고전 인문학 */
+    .card-philosophy {
+      grid-column: span 2;
+      background: linear-gradient(135deg, rgba(12, 74, 110, 0.4), #0f172a);
+      border-color: rgba(56, 189, 248, 0.35);
+      cursor: pointer;
+    }
+    .card-philosophy .card-tag { background: rgba(56, 189, 248, 0.2); color: #7dd3fc; }
+    .quote-box {
+      background: #020617;
+      border-left: 3px solid #38bdf8;
+      padding: 8px 10px;
+      border-radius: 0 6px 6px 0;
+      margin: 6px 0;
+      font-size: 0.75rem;
+      font-style: italic;
+      color: #f1f5f9;
+      line-height: 1.45;
+    }
+
+    /* 차트 및 테이블 */
+    .sparkline-card { background: #020617; border: 1px solid #1e293b; border-radius: 8px; padding: 10px 12px; margin-bottom: 12px; }
+    .sparkline-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; font-size: 0.74rem; font-weight: 700; color: #94a3b8; }
+    .sparkline-svg { width: 100%; height: 105px; overflow: visible; }
+    .history-table-container { background: #020617; border: 1px solid #1e293b; border-radius: 8px; margin: 12px 0; max-height: 190px; overflow-y: auto; }
     .hist-table { width: 100%; border-collapse: collapse; font-size: 0.72rem; text-align: right; }
     .hist-table th, .hist-table td { padding: 6px 8px; border-bottom: 1px solid rgba(255, 255, 255, 0.05); }
     .hist-table th { position: sticky; top: 0; background: #090e1f; color: #94a3b8; font-weight: 700; z-index: 2; }
     .hist-table td:first-child, .hist-table th:first-child { text-align: left; font-weight: 700; color: #cbd5e1; }
 
-    /* 3주 캘린더 전용 서랍 스타일 */
+    /* 3주 캘린더 */
     .cal-week-btn-group { display: flex; gap: 6px; margin-bottom: 12px; }
-    .cal-week-btn {
-      flex: 1;
-      padding: 6px;
-      border-radius: 6px;
-      background: #020617;
-      border: 1px solid #334155;
-      color: #94a3b8;
-      font-size: 0.72rem;
-      font-weight: 700;
-      cursor: pointer;
-    }
+    .cal-week-btn { flex: 1; padding: 6px; border-radius: 6px; background: #020617; border: 1px solid #334155; color: #94a3b8; font-size: 0.72rem; font-weight: 700; cursor: pointer; }
     .cal-week-btn.active { background: rgba(56, 189, 248, 0.2); border-color: #38bdf8; color: #38bdf8; }
     .cal-section-title { font-size: 0.75rem; font-weight: 800; color: #ffffff; margin: 10px 0 6px; display: flex; align-items: center; gap: 6px; }
-    .cal-event-card {
-      background: #020617;
-      border: 1px solid #1e293b;
-      border-radius: 6px;
-      padding: 8px 10px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 6px;
-    }
+    .cal-event-card { background: #020617; border: 1px solid #1e293b; border-radius: 6px; padding: 8px 10px; display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
 
-    /* 📱 반응형 미디어 쿼리: 모바일 화면 잘림 완전 차단 */
+    /* 📱 반응형 미디어 쿼리 */
     @media (max-width: 1024px) {
       .yield-grid { grid-template-columns: repeat(3, 1fr); }
       .card-macro-grid, .card-news-grid { grid-column: span 6; }
-      .card-quiz, .card-language, .card-history { grid-column: span 2; }
+      .card-history-geo, .card-polyglot, .card-philosophy { grid-column: span 2; }
     }
-
     @media (max-width: 768px) {
       body { padding: 12px 14px; gap: 12px; }
       .yield-grid { grid-template-columns: repeat(2, 1fr); }
       .dashboard-grid { grid-template-columns: 1fr; gap: 12px; }
-      .card-macro-grid, .card-news-grid, .card-quiz, .card-language, .card-history { grid-column: span 1 !important; }
-      
-      /* 모바일에서는 1열 정렬 및 span 강제 초기화 */
+      .card-macro-grid, .card-news-grid, .card-history-geo, .card-polyglot, .card-philosophy { grid-column: span 1 !important; }
       .quadrant-grid { grid-template-columns: 1fr !important; }
-      .quadrant-box,
-      .quadrant-box[style*="span 2"] {
-        grid-column: span 1 !important;
-      }
-      .card-footer { font-size: 0.68rem; }
+      .quadrant-box, .quadrant-box[style*="span 2"] { grid-column: span 1 !important; }
     }
-
     @media (max-width: 480px) {
       body { padding: 10px 10px; gap: 10px; }
       .brand h1 { font-size: 1.0rem; }
       .header-status { width: 100%; justify-content: space-between; margin-top: 4px; }
       .yield-grid { grid-template-columns: repeat(2, 1fr); gap: 6px; }
-      .yield-card { padding: 6px 8px; }
-      .y-val { font-size: 0.88rem; }
       .card { padding: 12px 10px; }
-      .m-headline { font-size: 0.72rem; }
-      .metric-chip { font-size: 0.62rem; padding: 2px 4px; }
       .drawer { max-width: 100vw; }
     }
 
@@ -459,7 +433,7 @@
       <span style="font-size: 1.4rem;">📊</span>
       <div>
         <h1>글로벌 매크로 레짐 & 테크 인텔리전스</h1>
-        <p>네이버 증권 연동 · 전체 5분할 트레이딩 피드 · 3주 캘린더</p>
+        <p>네이버 증권 연동 · 3주 캘린더 · 세계사 & 8개국어 인문 교양</p>
       </div>
     </div>
     <div class="header-status">
@@ -541,7 +515,7 @@
   <!-- 메인 그리드 -->
   <main class="dashboard-grid">
 
-    <!-- 타일 1: 4대 매크로 레짐 -->
+    <!-- 상단 1: 4대 매크로 레짐 -->
     <div class="card card-macro-grid">
       <div>
         <div class="feed-tab-bar">
@@ -592,7 +566,7 @@
       </div>
     </div>
 
-    <!-- 타일 2: 5대 트레이딩 인텔리전스 (전체 5분할 지원) -->
+    <!-- 상단 2: 5대 트레이딩 인텔리전스 (전체 5분할) -->
     <div class="card card-news-grid">
       <div>
         <div class="feed-tab-bar">
@@ -609,40 +583,33 @@
           </button>
         </div>
 
-        <!-- 5개 영역 그리드 -->
         <div id="quadrant-view" class="quadrant-grid">
-          <!-- 1. 연준 연설 -->
           <div class="quadrant-box" onclick="openDrawer('fed_detail')">
             <div class="quadrant-title"><span>🏛️ 1. 연준 연설</span><span style="color:#60a5fa;">Policy</span></div>
             <ul class="q-list" id="q-fed"><li class="q-item"><span style="font-size:0.7rem; color:#64748b;">로드 중...</span></li></ul>
           </div>
 
-          <!-- 2. 3주 캘린더 -->
           <div class="quadrant-box" onclick="openDrawer('calendar_3w')" style="border-color:rgba(56, 189, 248, 0.4);">
             <div class="quadrant-title"><span>📅 2. 3주 캘린더</span><span style="color:#38bdf8; font-size:0.62rem; font-weight:700;">전체일정 ↗</span></div>
             <div class="cal-mini-box" id="q-calendar-mini"></div>
           </div>
 
-          <!-- 3. 글로벌 속보 -->
           <div class="quadrant-box" onclick="openDrawer('global_detail')">
             <div class="quadrant-title"><span>⚡ 3. 글로벌 속보</span><span style="color:#38bdf8;">CNBC</span></div>
             <ul class="q-list" id="q-global"><li class="q-item"><span style="font-size:0.7rem; color:#64748b;">로드 중...</span></li></ul>
           </div>
 
-          <!-- 4. 디일렉 & 전자신문 -->
           <div class="quadrant-box" onclick="openDrawer('tech_detail')">
             <div class="quadrant-title"><span>🔬 4. 테크·반도체</span><span style="color:#34d399;">TheElec / ET</span></div>
             <ul class="q-list" id="q-tech"><li class="q-item"><span style="font-size:0.7rem; color:#64748b;">로드 중...</span></li></ul>
           </div>
 
-          <!-- 5. 연합인포맥스 -->
           <div class="quadrant-box" onclick="openDrawer('domestic_detail')" id="domestic-box">
             <div class="quadrant-title"><span>📊 5. 채권·외환 (여의도 실시간)</span><span style="color:#fbbf24;">Infomax</span></div>
             <ul class="q-list" id="q-domestic"><li class="q-item"><span style="font-size:0.7rem; color:#64748b;">로드 중...</span></li></ul>
           </div>
         </div>
 
-        <!-- 단일 탭 확대 뷰 -->
         <div id="single-view" class="single-view">
           <div id="single-content-box" style="flex-grow:1; width:100%; min-width:0;"></div>
         </div>
@@ -653,54 +620,100 @@
       </div>
     </div>
 
-    <!-- 타일 3: 데일리 퀴즈 -->
-    <div class="card card-quiz">
-      <div>
-        <div style="display: flex; justify-content: space-between;">
-          <span class="card-tag">🧐 데일리 매크로 퀴즈</span>
-          <span style="font-size: 0.7rem; color: #64748b;">원자재·경기</span>
-        </div>
-        <div class="quiz-box">
-          <span class="quiz-q-label">QUESTION</span>
-          <p class="quiz-question">원자재 시장에서 구리(Copper) 가격이 급등할 때 이를 '닥터 코퍼(Dr. Copper)'라 부르며 경기 회복의 선행 지표로 해석하는 이유는?</p>
-        </div>
-        <p class="quiz-hint">💡 <strong>Key Point:</strong> 전력망, 건설, 전기차, 반도체 등 실물 산업 전반에 걸친 기초 소재로서의 광범위한 쓰임새를 고려해 보세요.</p>
-        <div id="quiz-answer" class="quiz-answer">
-          <strong style="color: #60a5fa; display: block; margin-bottom: 2px;">정답: 실물 경제 전반의 기초 인프라 수요 반영</strong>
-          구리는 첨단 IT부터 전통 인프라까지 필수적으로 사용되므로, 구리 수요 증가는 기업들의 실물 설비 투자 재개를 직접 대변합니다.
-        </div>
-      </div>
-      <button class="quiz-btn" onclick="toggleQuiz()" id="quiz-btn">정답 및 해설 확인하기</button>
-    </div>
+    <!-- ==========================================================================
+         🏛️ 하단 3대 인문·회화 그리드
+         ========================================================================== -->
 
-    <!-- 타일 4: 마켓 표현 -->
-    <div class="card card-language" onclick="openDrawer('language')">
+    <!-- 하단 1: 화폐 & 패권 세계사 -->
+    <div class="card card-history-geo" onclick="openDrawer('humanities_history')">
       <div>
-        <span class="card-tag">🗣️ 실전 마켓 표현</span>
-        <div class="lang-expr">"Liquidity vortex"</div>
-        <div class="lang-meaning">유동성 소용돌이 (자금 쏠림 현상)</div>
-        <div class="lang-example">
-          "The semiconductor rally has created a <strong>liquidity vortex</strong>, draining capital from defensive sectors."
+        <div style="display:flex; justify-content:space-between; align-items:center;">
+          <span class="card-tag">🏛️ 세계사 & 패권 사이클</span>
+          <span style="font-size:0.65rem; color:#d8b4fe;" id="h-history-era">근대 태동기</span>
         </div>
-      </div>
-      <div class="card-footer">
-        <span>뉘앙스 및 실무 용례</span>
-        <span>상세보기 &rarr;</span>
-      </div>
-    </div>
-
-    <!-- 타일 5: 역사 & 맥락 -->
-    <div class="card card-history" onclick="openDrawer('history')">
-      <div>
-        <span class="card-tag">🏛️ 산업사 & 사이클 분석</span>
-        <h3 style="font-size: 0.95rem; font-weight: 700; color: #e2e8f0; margin-bottom: 6px;">유가 급등 국면에서의 '실적 장세' vs '역금융 장세' 분기점</h3>
-        <p style="font-size: 0.75rem; color: #94a3b8; line-height: 1.4;">
-          고유가와 금리 상승이 기업 마진을 훼손하기 전, 하드웨어 혁신이 이를 상쇄하는 초기 국면의 역사적 주가 패턴 고찰.
+        <h3 style="font-size:0.95rem; font-weight:700; color:#ffffff; margin:4px 0 6px;" id="h-history-title">
+          네덜란드 동인도회사(VOC)와 유한책임 주식회사의 탄생
+        </h3>
+        <p style="font-size:0.72rem; color:#cbd5e1; line-height:1.45; margin-bottom:8px;" id="h-history-summary">
+          암스테르담 증권거래소 개설과 글로벌 상업 패권의 이동
         </p>
+        <ul class="m-bullets" id="h-history-bullets">
+          <li>위험 분산(Risk Pooling)을 통한 대양 항해 자본 결집</li>
+          <li>최초의 유동성 주식 거래 시장 탄생으로 금융 주도권 장악</li>
+        </ul>
       </div>
       <div class="card-footer">
-        <span>역사적 통계 정리</span>
-        <span>상세보기 &rarr;</span>
+        <span>💡 자본주의 형성사와 현대적 교훈</span>
+        <span style="color:#d8b4fe;">상세 노트 &rarr;</span>
+      </div>
+    </div>
+
+    <!-- 하단 2: 8개국어 다국어 회화 매트릭스 (TTS 음성 합성 지원) -->
+    <div class="card card-polyglot">
+      <div>
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+          <span class="card-tag">🗣️ 8개국어 회화 매트릭스</span>
+          <button class="tts-btn" onclick="playTtsVoice()">
+            <span>🔊</span> <span id="tts-label">원어민 발음 듣기</span>
+          </button>
+        </div>
+
+        <!-- 8개국어 탭 바 -->
+        <div class="lang-chip-bar" id="polyglot-lang-chips">
+          <button class="lang-tab active" onclick="switchLanguage('en')">🇺🇸 EN</button>
+          <button class="lang-tab" onclick="switchLanguage('ja')">🇯🇵 JA</button>
+          <button class="lang-tab" onclick="switchLanguage('zh')">🇨🇳 ZH</button>
+          <button class="lang-tab" onclick="switchLanguage('fr')">🇫🇷 FR</button>
+          <button class="lang-tab" onclick="switchLanguage('de')">🇩🇪 DE</button>
+          <button class="lang-tab" onclick="switchLanguage('es')">🇪🇸 ES</button>
+          <button class="lang-tab" onclick="switchLanguage('ar')">🇸🇦 AR</button>
+          <button class="lang-tab" onclick="switchLanguage('ru')">🇷🇺 RU</button>
+        </div>
+
+        <div style="background:#020617; border:1px solid #1e293b; border-radius:8px; padding:10px; min-height:85px; display:flex; flex-direction:column; justify-content:center;">
+          <div style="display:flex; justify-content:space-between; font-size:0.65rem; color:#94a3b8; margin-bottom:4px;">
+            <span id="poly-theme-label">전략적 협상과 우선순위 조율</span>
+            <span id="poly-lang-name" style="color:#fbbf24; font-weight:700;">영어 (EN)</span>
+          </div>
+          <p id="poly-foreign-text" style="font-size:0.88rem; font-weight:800; color:#fef08a; line-height:1.35; margin-bottom:4px;">
+            "Let's align on the core terms and priorities before moving forward."
+          </p>
+          <p id="poly-roman-text" style="font-size:0.65rem; color:#94a3b8; font-style:italic; margin-bottom:3px; display:none;"></p>
+          <p id="poly-meaning-text" style="font-size:0.72rem; color:#cbd5e1;">
+            본격적인 추진에 앞서, 핵심 조건과 우선순위에 대한 합의를 먼저 도출합시다.
+          </p>
+        </div>
+      </div>
+      <div class="card-footer">
+        <span>Web Speech API 브라우저 무음성 엔진 탑재</span>
+        <span onclick="openDrawer('polyglot_matrix')" style="color:#fbbf24; cursor:pointer;">전체 언어 동시 비교 &rarr;</span>
+      </div>
+    </div>
+
+    <!-- 하단 3: 정치철학 & 고전 인문학 -->
+    <div class="card card-philosophy" onclick="openDrawer('humanities_philosophy')">
+      <div>
+        <div style="display:flex; justify-content:space-between; align-items:center;">
+          <span class="card-tag">🧐 정치철학 & 고전 인문학</span>
+          <span style="font-size:0.65rem; color:#7dd3fc;" id="h-philo-era">르네상스</span>
+        </div>
+        <h3 style="font-size:0.95rem; font-weight:700; color:#ffffff; margin:4px 0 2px;" id="h-philo-thinker">
+          니콜로 마키아벨리 (Niccolò Machiavelli)
+        </h3>
+        <span style="font-size:0.66rem; color:#38bdf8; font-weight:600; display:block; margin-bottom:4px;" id="h-philo-concept">
+          비르투(Virtù)와 포르투나(Fortuna)
+        </span>
+        <div class="quote-box" id="h-philo-quote">
+          “군주는 사랑받는 존재가 되기보다 두려운 존재가 되는 편이 훨씬 안전하다.”
+        </div>
+        <ul class="m-bullets" id="h-philo-bullets">
+          <li>도덕적 당위가 아닌 권력의 비정한 실재(Realpolitik) 직시</li>
+          <li>운명의 격류(포르투나)를 제어하는 지도자의 탁월한 역량(비르투)</li>
+        </ul>
+      </div>
+      <div class="card-footer">
+        <span>💡 현대 국제정치 및 지정학적 리스크 적용</span>
+        <span style="color:#7dd3fc;">심층 해설 &rarr;</span>
       </div>
     </div>
 
@@ -751,11 +764,13 @@
     let cachedMacroReviews = null;
     let cachedHistory20d = null;
     let cachedCalendar3w = null;
+    let cachedHumanities = null;
     let cachedFedwatch = null;
 
     let activeDrawerCategory = 'bonds';
     let activeDrawerSubKey = 'spread';
     let activeCalendarWeek = 'w1';
+    let currentLangCode = 'en';
 
     async function fetchDashboardData() {
       const timeLabel = document.getElementById('api-timestamp');
@@ -776,6 +791,7 @@
         if (!res.ok) throw new Error("data.json not found");
         const data = await res.json();
 
+        // 1. 국채금리
         updateCard('val-2y', 'chg-2y', data.us2y.value, data.us2y.change, true);
         updateCard('val-5y', 'chg-5y', data.us5y.value, data.us5y.change, true);
         updateCard('val-10y', 'chg-10y', data.us10y.value, data.us10y.change, true);
@@ -792,26 +808,20 @@
           spreadChgEl.className = `y-change ${bp >= 0 ? 'up' : 'down'}`;
         }
 
+        // 2. 4대 매크로 리뷰 및 20일 시계열 캐시
         if (data.macro_reviews) {
           cachedMacroReviews = data.macro_reviews;
           renderMacroQuadrants();
         }
-        if (data.history_20d) {
-          cachedHistory20d = data.history_20d;
-        }
+        if (data.history_20d) cachedHistory20d = data.history_20d;
+        if (data.calendar_3w) { cachedCalendar3w = data.calendar_3w; renderCalendarMini(); }
+        if (data.feeds) { cachedFeeds = data.feeds; renderRssQuadrants(); }
+        if (data.fedwatch) cachedFedwatch = data.fedwatch;
 
-        if (data.calendar_3w) {
-          cachedCalendar3w = data.calendar_3w;
-          renderCalendarMini();
-        }
-
-        if (data.feeds) {
-          cachedFeeds = data.feeds;
-          renderRssQuadrants();
-        }
-
-        if (data.fedwatch) {
-          cachedFedwatch = data.fedwatch;
+        // 3. 인문·역사·다국어 데이터 바인딩
+        if (data.humanities) {
+          cachedHumanities = data.humanities;
+          renderHumanitiesSection();
         }
 
         timeLabel.innerText = `동기화: ${data.updated_at}`;
@@ -824,12 +834,9 @@
     function renderMacroQuadrants() {
       if (!cachedMacroReviews) return;
       const m = cachedMacroReviews;
-      const keys = ['bonds', 'commodities', 'fx', 'oil'];
-
-      keys.forEach(k => {
+      ['bonds', 'commodities', 'fx', 'oil'].forEach(k => {
         const item = m[k];
         if (!item) return;
-
         const b = document.getElementById(`mbadge-${k}`);
         const t = document.getElementById(`mtitle-${k}`);
         const strip = document.getElementById(`mstrip-${k}`);
@@ -837,7 +844,6 @@
 
         if (b) b.innerText = item.badge;
         if (t) t.innerText = item.title;
-
         if (strip && item.metrics) {
           strip.innerHTML = item.metrics.map(mt => `
             <div class="metric-chip" onclick="event.stopPropagation(); openDrawer('macro_${k}', '${mt.id}')" title="클릭 시 ${mt.name} 20일 트렌드 차트 확인">
@@ -847,10 +853,7 @@
             </div>
           `).join('');
         }
-
-        if (ul && item.bullets) {
-          ul.innerHTML = item.bullets.map(txt => `<li>${txt}</li>`).join('');
-        }
+        if (ul && item.bullets) ul.innerHTML = item.bullets.map(txt => `<li>${txt}</li>`).join('');
       });
     }
 
@@ -862,28 +865,13 @@
 
       let htmlRows = '';
       if (w1 && w1.macro && w1.macro[1]) {
-        htmlRows += `
-          <div class="cal-mini-row">
-            <span>🔴 ${w1.macro[1].event}</span>
-            <span class="cal-badge badge-critical">${w1.macro[1].date.slice(0, 5)}</span>
-          </div>
-        `;
+        htmlRows += `<div class="cal-mini-row"><span>🔴 ${w1.macro[1].event}</span><span class="cal-badge badge-critical">${w1.macro[1].date.slice(0, 5)}</span></div>`;
       }
       if (w2 && w2.macro && w2.macro[1]) {
-        htmlRows += `
-          <div class="cal-mini-row">
-            <span>🏛️ ${w2.macro[1].event.slice(0, 16)}...</span>
-            <span class="cal-badge badge-critical">${w2.macro[1].date.slice(0, 5)}</span>
-          </div>
-        `;
+        htmlRows += `<div class="cal-mini-row"><span>🏛️ ${w2.macro[1].event.slice(0, 16)}...</span><span class="cal-badge badge-critical">${w2.macro[1].date.slice(0, 5)}</span></div>`;
       }
       if (w1 && w1.earnings && w1.earnings[0]) {
-        htmlRows += `
-          <div class="cal-mini-row">
-            <span>💻 [실적] ${w1.earnings[0].name}</span>
-            <span class="cal-badge badge-earn">${w1.earnings[0].ticker}</span>
-          </div>
-        `;
+        htmlRows += `<div class="cal-mini-row"><span>💻 [실적] ${w1.earnings[0].name}</span><span class="cal-badge badge-earn">${w1.earnings[0].ticker}</span></div>`;
       }
       box.innerHTML = htmlRows;
     }
@@ -898,7 +886,6 @@
           </li>
         `).join('');
       }
-
       document.getElementById('q-fed').innerHTML = makeListHtml(cachedFeeds.fed);
       document.getElementById('q-global').innerHTML = makeListHtml(cachedFeeds.global);
       document.getElementById('q-tech').innerHTML = makeListHtml(cachedFeeds.tech);
@@ -934,24 +921,101 @@
           domestic: '연합인포맥스(Infomax) 채권/외환'
         };
         note.innerText = `출처: ${sourceMap[tabKey]}`;
-
-        if (items.length === 0) {
-          sBox.innerHTML = '<p style="font-size:0.75rem; color:#64748b; padding:10px;">불러올 뉴스가 없습니다.</p>';
-        } else {
-          sBox.innerHTML = `
-            <ul style="list-style:none; display:flex; flex-direction:column; gap:6px;">
-              ${items.map(item => `
-                <li style="display:flex; justify-content:space-between; align-items:center; padding:6px 8px; background:#020617; border:1px solid #1e293b; border-radius:6px; gap:8px;">
-                  <a href="${item.link}" target="_blank" rel="noopener noreferrer" style="color:#e2e8f0; text-decoration:none; font-size:0.76rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; flex-grow:1;">• ${item.title}</a>
-                  <span style="font-size:0.65rem; color:#64748b; font-family:monospace; white-space:nowrap;">${item.date}</span>
-                </li>
-              `).join('')}
-            </ul>
-          `;
-        }
+        sBox.innerHTML = items.length === 0 ? '<p style="font-size:0.75rem; color:#64748b; padding:10px;">불러올 뉴스가 없습니다.</p>' : `
+          <ul style="list-style:none; display:flex; flex-direction:column; gap:6px;">
+            ${items.map(item => `
+              <li style="display:flex; justify-content:space-between; align-items:center; padding:6px 8px; background:#020617; border:1px solid #1e293b; border-radius:6px; gap:8px;">
+                <a href="${item.link}" target="_blank" rel="noopener noreferrer" style="color:#e2e8f0; text-decoration:none; font-size:0.76rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; flex-grow:1;">• ${item.title}</a>
+                <span style="font-size:0.65rem; color:#64748b; font-family:monospace; white-space:nowrap;">${item.date}</span>
+              </li>
+            `).join('')}
+          </ul>
+        `;
       }
     }
 
+    // =========================================================================
+    // 🏛️ 인문·역사·다국어 회화 렌더링 & Web Speech API (TTS) 로직
+    // =========================================================================
+    function renderHumanitiesSection() {
+      if (!cachedHumanities) return;
+      const h = cachedHumanities.history;
+      const p = cachedHumanities.polyglot;
+      const ph = cachedHumanities.philosophy;
+
+      // 1. 세계사 카드
+      if (h) {
+        document.getElementById('h-history-era').innerText = h.era;
+        document.getElementById('h-history-title').innerText = h.title;
+        document.getElementById('h-history-summary').innerText = h.summary;
+        document.getElementById('h-history-bullets').innerHTML = h.bullets.map(b => `<li>${b}</li>`).join('');
+      }
+
+      // 2. 다국어 회화 카드 (기본 언어 반영)
+      if (p) {
+        document.getElementById('poly-theme-label').innerText = p.theme;
+        document.getElementById('poly-meaning-text').innerText = p.meaning;
+        switchLanguage(currentLangCode);
+      }
+
+      // 3. 정치철학 카드
+      if (ph) {
+        document.getElementById('h-philo-era').innerText = ph.era;
+        document.getElementById('h-philo-thinker').innerText = ph.thinker;
+        document.getElementById('h-philo-concept').innerText = ph.concept;
+        document.getElementById('h-philo-quote').innerText = ph.quote;
+        document.getElementById('h-philo-bullets').innerHTML = ph.bullets.map(b => `<li>${b}</li>`).join('');
+      }
+    }
+
+    // 다국어 탭 전환
+    function switchLanguage(langKey) {
+      currentLangCode = langKey;
+      document.querySelectorAll('#polyglot-lang-chips .lang-tab').forEach(b => b.classList.remove('active'));
+      const activeBtn = Array.from(document.querySelectorAll('#polyglot-lang-chips .lang-tab')).find(b => b.innerText.toLowerCase().includes(langKey));
+      if (activeBtn) activeBtn.classList.add('active');
+
+      if (!cachedHumanities || !cachedHumanities.polyglot) return;
+      const item = cachedHumanities.polyglot.translations[langKey];
+      if (!item) return;
+
+      document.getElementById('poly-lang-name').innerText = `${item.flag} ${item.name}`;
+      document.getElementById('poly-foreign-text').innerText = `"${item.text}"`;
+
+      const romanEl = document.getElementById('poly-roman-text');
+      if (item.roman) {
+        romanEl.style.display = 'block';
+        romanEl.innerText = ` 발음: [${item.roman}]`;
+      } else {
+        romanEl.style.display = 'none';
+      }
+    }
+
+    // Web Speech API 브라우저 자체 음성 합성 엔진 재생
+    function playTtsVoice() {
+      if (!('speechSynthesis' in window)) {
+        alert("현재 사용 중인 브라우저는 음성 재생(SpeechSynthesis)을 지원하지 않습니다.");
+        return;
+      }
+
+      if (!cachedHumanities || !cachedHumanities.polyglot) return;
+      const item = cachedHumanities.polyglot.translations[currentLangCode];
+      if (!item) return;
+
+      window.speechSynthesis.cancel(); // 이전 재생 정지
+      const utterance = new SpeechSynthesisUtterance(item.text);
+      utterance.lang = item.code;
+      utterance.rate = 0.95; // 명확한 청취를 위해 약간 여유로운 템포
+
+      const ttsLabel = document.getElementById('tts-label');
+      ttsLabel.innerText = "재생 중...";
+      utterance.onend = () => { ttsLabel.innerText = "원어민 발음 듣기"; };
+      utterance.onerror = () => { ttsLabel.innerText = "원어민 발음 듣기"; };
+
+      window.speechSynthesis.speak(utterance);
+    }
+
+    // SVG 트렌드 차트
     function renderSvgSparkline(values, dates, color = "#38bdf8", unit = "") {
       if (!values || values.length < 2) return '<p style="font-size:0.7rem; color:#64748b; padding:20px;">시계열 데이터를 수집 중입니다...</p>';
       const min = Math.min(...values);
@@ -1016,11 +1080,8 @@
       if (!cfg) return;
 
       document.querySelectorAll('#drawer-metric-strip .metric-chip').forEach(el => {
-        if (el.getAttribute('data-sub-id') === subKey) {
-          el.classList.add('active');
-        } else {
-          el.classList.remove('active');
-        }
+        if (el.getAttribute('data-sub-id') === subKey) el.classList.add('active');
+        else el.classList.remove('active');
       });
 
       const raw = cachedHistory20d ? (cachedHistory20d[activeDrawerCategory] || []) : [];
@@ -1037,11 +1098,8 @@
     }
 
     function buildHistoryTable(category) {
-      if (!cachedHistory20d || !cachedHistory20d[category]) {
-        return '<p style="font-size:0.75rem; color:#64748b;">히스토리 데이터를 불러오는 중입니다...</p>';
-      }
-      const rawList = cachedHistory20d[category];
-      const list = [...rawList].reverse();
+      if (!cachedHistory20d || !cachedHistory20d[category]) return '<p style="font-size:0.75rem; color:#64748b;">히스토리 데이터를 불러오는 중입니다...</p>';
+      const list = [...cachedHistory20d[category]].reverse();
 
       if (category === 'bonds') {
         const rows = list.map(item => `
@@ -1053,64 +1111,22 @@
             <td class="${item.spread >= 0 ? 'up' : 'warn'}" style="font-weight:800;">${item.spread >= 0 ? '+' : ''}${item.spread} bp</td>
           </tr>
         `).join('');
-        return `
-          <div class="history-table-container">
-            <table class="hist-table">
-              <thead><tr><th>일자</th><th>10년물</th><th>2년물</th><th>30년물</th><th>스프레드</th></tr></thead>
-              <tbody>${rows}</tbody>
-            </table>
-          </div>
-        `;
+        return `<div class="history-table-container"><table class="hist-table"><thead><tr><th>일자</th><th>10년물</th><th>2년물</th><th>30년물</th><th>스프레드</th></tr></thead><tbody>${rows}</tbody></table></div>`;
       } else if (category === 'commodities') {
         const rows = list.map(item => `
-          <tr>
-            <td>${item.date}</td>
-            <td style="color:#38bdf8; font-weight:700;">$${item.copper.toFixed(2)}</td>
-            <td style="color:#fbbf24; font-weight:700;">$${item.gold.toLocaleString()}</td>
-            <td style="color:#cbd5e1;">$${item.silver.toFixed(2)}</td>
-          </tr>
+          <tr><td>${item.date}</td><td style="color:#38bdf8; font-weight:700;">$${item.copper.toFixed(2)}</td><td style="color:#fbbf24; font-weight:700;">$${item.gold.toLocaleString()}</td><td style="color:#cbd5e1;">$${item.silver.toFixed(2)}</td></tr>
         `).join('');
-        return `
-          <div class="history-table-container">
-            <table class="hist-table">
-              <thead><tr><th>일자</th><th>구리 ($/lb)</th><th>금 ($/oz)</th><th>은 ($/oz)</th></tr></thead>
-              <tbody>${rows}</tbody>
-            </table>
-          </div>
-        `;
+        return `<div class="history-table-container"><table class="hist-table"><thead><tr><th>일자</th><th>구리 ($/lb)</th><th>금 ($/oz)</th><th>은 ($/oz)</th></tr></thead><tbody>${rows}</tbody></table></div>`;
       } else if (category === 'fx') {
         const rows = list.map(item => `
-          <tr>
-            <td>${item.date}</td>
-            <td style="color:#34d399; font-weight:700;">${item.usdkrw.toFixed(1)}원</td>
-            <td style="color:#38bdf8; font-weight:700;">${item.dxy.toFixed(2)}pt</td>
-            <td style="color:#f472b6; font-weight:700;">¥${(item.usdjpy || 147.2).toFixed(2)}</td>
-          </tr>
+          <tr><td>${item.date}</td><td style="color:#34d399; font-weight:700;">${item.usdkrw.toFixed(1)}원</td><td style="color:#38bdf8; font-weight:700;">${item.dxy.toFixed(2)}pt</td><td style="color:#f472b6; font-weight:700;">¥${(item.usdjpy || 147.2).toFixed(2)}</td></tr>
         `).join('');
-        return `
-          <div class="history-table-container">
-            <table class="hist-table">
-              <thead><tr><th>일자</th><th>원/달러</th><th>달러인덱스</th><th>엔/달러</th></tr></thead>
-              <tbody>${rows}</tbody>
-            </table>
-          </div>
-        `;
+        return `<div class="history-table-container"><table class="hist-table"><thead><tr><th>일자</th><th>원/달러</th><th>달러인덱스</th><th>엔/달러</th></tr></thead><tbody>${rows}</tbody></table></div>`;
       } else if (category === 'oil') {
         const rows = list.map(item => `
-          <tr>
-            <td>${item.date}</td>
-            <td style="color:#f43f5e; font-weight:700;">$${item.wti.toFixed(2)}</td>
-            <td class="${item.change >= 0 ? 'up' : 'down'}" style="font-weight:700;">${item.change >= 0 ? '+' : ''}${item.change.toFixed(2)}%</td>
-          </tr>
+          <tr><td>${item.date}</td><td style="color:#f43f5e; font-weight:700;">$${item.wti.toFixed(2)}</td><td class="${item.change >= 0 ? 'up' : 'down'}" style="font-weight:700;">${item.change >= 0 ? '+' : ''}${item.change.toFixed(2)}%</td></tr>
         `).join('');
-        return `
-          <div class="history-table-container">
-            <table class="hist-table">
-              <thead><tr><th>일자</th><th>WTI 선물 ($/배럴)</th><th>전일대비 등락</th></tr></thead>
-              <tbody>${rows}</tbody>
-            </table>
-          </div>
-        `;
+        return `<div class="history-table-container"><table class="hist-table"><thead><tr><th>일자</th><th>WTI 선물 ($/배럴)</th><th>전일대비 등락</th></tr></thead><tbody>${rows}</tbody></table></div>`;
       }
       return '';
     }
@@ -1124,10 +1140,7 @@
         const badgeClass = m.impact === 'CRITICAL' ? 'badge-critical' : 'badge-earn';
         return `
           <div class="cal-event-card">
-            <div>
-              <strong style="font-size:0.76rem; color:#fff; display:block;">${m.event}</strong>
-              <span style="font-size:0.65rem; color:#94a3b8; font-family:monospace;">${m.date}</span>
-            </div>
+            <div><strong style="font-size:0.76rem; color:#fff; display:block;">${m.event}</strong><span style="font-size:0.65rem; color:#94a3b8; font-family:monospace;">${m.date}</span></div>
             <span class="cal-badge ${badgeClass}">${m.impact}</span>
           </div>
         `;
@@ -1135,10 +1148,7 @@
 
       const earnHtml = cur.earnings.map(e => `
         <div class="cal-event-card">
-          <div>
-            <strong style="font-size:0.76rem; color:#38bdf8; display:block;">${e.name} (${e.ticker})</strong>
-            <span style="font-size:0.65rem; color:#94a3b8; font-family:monospace;">${e.date} · ${e.time}</span>
-          </div>
+          <div><strong style="font-size:0.76rem; color:#38bdf8; display:block;">${e.name} (${e.ticker})</strong><span style="font-size:0.65rem; color:#94a3b8; font-family:monospace;">${e.date} · ${e.time}</span></div>
           <span class="cal-badge badge-earn">EARNINGS</span>
         </div>
       `).join('');
@@ -1149,15 +1159,12 @@
           <button class="cal-week-btn ${weekKey === 'w2' ? 'active' : ''}" onclick="switchCalendarWeek('w2')">다음 주 (W2·FOMC)</button>
           <button class="cal-week-btn ${weekKey === 'w3' ? 'active' : ''}" onclick="switchCalendarWeek('w3')">다다음 주 (W3)</button>
         </div>
-
         <div style="background:#090e1f; border:1px solid #1e293b; border-radius:8px; padding:10px; margin-bottom:12px;">
           <h4 style="font-size:0.8rem; color:#38bdf8; margin-bottom:4px;">📌 ${cur.title}</h4>
           <span style="font-size:0.68rem; color:#94a3b8;">미 노동통계국(BLS) · 연준(FRB) 확정 일정 및 야후 파이낸스 실적</span>
         </div>
-
         <div class="cal-section-title">🏛️ 거시경제 핵심 지표 (Macro Events)</div>
         ${macroHtml}
-
         <div class="cal-section-title" style="margin-top:14px;">💻 빅테크 어닝스 캘린더 (Big Tech Earnings)</div>
         ${earnHtml}
       `;
@@ -1166,9 +1173,7 @@
     function switchCalendarWeek(weekKey) {
       document.getElementById('drawer-body').innerHTML = renderCalendarDrawer(weekKey);
       const sBox = document.getElementById('single-content-box');
-      if (sBox && document.getElementById('single-view').style.display === 'flex') {
-        sBox.innerHTML = renderCalendarDrawer(weekKey);
-      }
+      if (sBox && document.getElementById('single-view').style.display === 'flex') sBox.innerHTML = renderCalendarDrawer(weekKey);
     }
 
     function openDrawer(key, targetSubKey = null) {
@@ -1201,7 +1206,6 @@
         titleEl.innerText = item ? item.title : "지표 상세 분석";
 
         const selectedSub = targetSubKey || meta.defaultSub;
-
         if (item && item.metrics) {
           hintEl.style.display = 'block';
           stripEl.style.display = 'flex';
@@ -1217,18 +1221,12 @@
         switchDrawerChart(selectedSub);
 
         bodyEl.innerHTML = `
-          <div style="margin-bottom:6px;">
-            <span style="font-size:0.73rem; font-weight:700; color:#94a3b8;">📅 최근 20영업일 상세 시계열 히스토리</span>
-          </div>
+          <div style="margin-bottom:6px;"><span style="font-size:0.73rem; font-weight:700; color:#94a3b8;">📅 최근 20영업일 상세 시계열 히스토리</span></div>
           ${buildHistoryTable(cat)}
-
           <div style="background:#020617; border:1px solid #1e293b; padding:12px; border-radius:8px; margin: 14px 0;">
             <strong style="color:#34d399; font-size:0.75rem; display:block; margin-bottom:6px;">📌 트레이딩 데스크 분석 코멘트</strong>
-            <p style="font-size:0.75rem; color:#cbd5e1; line-height:1.5;">
-              ${item ? item.detail : '지표 데이터를 수신 중입니다.'}
-            </p>
+            <p style="font-size:0.75rem; color:#cbd5e1; line-height:1.5;">${item ? item.detail : '지표 데이터를 수신 중입니다.'}</p>
           </div>
-
           <a href="https://stock.naver.com/market/marketindex" target="_blank" rel="noopener noreferrer" style="display:inline-block; background:rgba(3,199,90,0.15); border:1px solid #03c75a; color:#03c75a; text-decoration:none; padding:7px 12px; border-radius:6px; font-size:0.75rem; font-weight:700;">
             네이버 증권 시장지표 원문 바로가기 ↗
           </a>
@@ -1237,6 +1235,71 @@
         tagEl.innerText = "📅 3주 캘린더 (거시경제 & 빅테크 실적)";
         titleEl.innerText = "월가 마켓 무버 3주 타임라인 (W1 ~ W3)";
         bodyEl.innerHTML = renderCalendarDrawer(activeCalendarWeek);
+      } else if (key === 'humanities_history') {
+        tagEl.innerText = "🏛️ 세계사 & 패권 사이클 심층 분석";
+        const h = cachedHumanities ? cachedHumanities.history : null;
+        titleEl.innerText = h ? h.title : "화폐와 패권의 세계사";
+        bodyEl.innerHTML = `
+          <div style="background:#020617; border:1px solid #1e293b; border-radius:8px; padding:12px; margin-bottom:14px;">
+            <span style="font-size:0.7rem; color:#d8b4fe; font-weight:700; display:block; margin-bottom:4px;">${h ? h.era : ''}</span>
+            <h4 style="font-size:0.85rem; color:#fff; margin-bottom:8px;">${h ? h.summary : ''}</h4>
+            <ul style="list-style:none; padding:0; display:flex; flex-direction:column; gap:6px; font-size:0.75rem; color:#cbd5e1; line-height:1.45;">
+              ${h ? h.bullets.map(b => `<li>• ${b}</li>`).join('') : ''}
+            </ul>
+          </div>
+          <div style="background:#090e1f; border-left:3px solid #a855f7; padding:12px; border-radius:0 8px 8px 0; margin-bottom:14px;">
+            <strong style="color:#d8b4fe; font-size:0.75rem; display:block; margin-bottom:4px;">🧐 자본주의와 금융 시장에 남긴 역사적 유산</strong>
+            <p style="font-size:0.75rem; color:#cbd5e1; line-height:1.5;">${h ? h.insight : ''}</p>
+          </div>
+        `;
+      } else if (key === 'polyglot_matrix') {
+        tagEl.innerText = "🗣️ 8개국어 글로벌 비즈니스 회화 매트릭스";
+        const p = cachedHumanities ? cachedHumanities.polyglot : null;
+        titleEl.innerText = p ? p.theme : "8개국어 대조 학습";
+
+        let matrixRows = '';
+        if (p && p.translations) {
+          matrixRows = Object.keys(p.translations).map(k => {
+            const tr = p.translations[k];
+            return `
+              <div style="background:#020617; border:1px solid #1e293b; border-radius:6px; padding:8px 10px; margin-bottom:8px;">
+                <div style="display:flex; justify-content:space-between; margin-bottom:4px;">
+                  <span style="font-size:0.7rem; font-weight:700; color:#fbbf24;">${tr.flag} ${tr.name} (${k.toUpperCase()})</span>
+                  <button class="tts-btn" onclick="speakSpecificText('${tr.text.replace(/'/g, "\\'")}', '${tr.code}')">🔊 발음</button>
+                </div>
+                <div style="font-size:0.82rem; color:#f8fafc; font-weight:700; line-height:1.35;">${tr.text}</div>
+                ${tr.roman ? `<div style="font-size:0.65rem; color:#94a3b8; font-style:italic; margin-top:2px;">[${tr.roman}]</div>` : ''}
+              </div>
+            `;
+          }).join('');
+        }
+
+        bodyEl.innerHTML = `
+          <div style="background:#090e1f; border:1px solid #1e293b; padding:10px; border-radius:8px; margin-bottom:12px;">
+            <strong style="font-size:0.75rem; color:#fbbf24; display:block; margin-bottom:2px;">📌 핵심 의미</strong>
+            <p style="font-size:0.75rem; color:#cbd5e1;">${p ? p.meaning : ''}</p>
+          </div>
+          <div class="cal-section-title">🌐 8개국어 원어 텍스트 및 발음 재생</div>
+          ${matrixRows}
+        `;
+      } else if (key === 'humanities_philosophy') {
+        tagEl.innerText = "🧐 정치철학 & 고전 사상 심층 해설";
+        const ph = cachedHumanities ? cachedHumanities.philosophy : null;
+        titleEl.innerText = ph ? ph.thinker : "정치철학 아카이브";
+        bodyEl.innerHTML = `
+          <div style="background:#020617; border:1px solid #1e293b; border-radius:8px; padding:12px; margin-bottom:14px;">
+            <span style="font-size:0.7rem; color:#7dd3fc; font-weight:700; display:block; margin-bottom:2px;">시대적 배경: ${ph ? ph.era : ''}</span>
+            <div class="quote-box" style="font-size:0.85rem; margin:8px 0 10px;">${ph ? ph.quote : ''}</div>
+            <strong style="font-size:0.75rem; color:#fff; display:block; margin-bottom:6px;">핵심 사상: ${ph ? ph.concept : ''}</strong>
+            <ul style="list-style:none; padding:0; display:flex; flex-direction:column; gap:6px; font-size:0.75rem; color:#cbd5e1; line-height:1.45;">
+              ${ph ? ph.bullets.map(b => `<li>• ${b}</li>`).join('') : ''}
+            </ul>
+          </div>
+          <div style="background:#090e1f; border-left:3px solid #38bdf8; padding:12px; border-radius:0 8px 8px 0;">
+            <strong style="color:#7dd3fc; font-size:0.75rem; display:block; margin-bottom:4px;">🌍 현대 지정학 및 글로벌 리더십에 적용하는 포인트</strong>
+            <p style="font-size:0.75rem; color:#cbd5e1; line-height:1.5;">${ph ? ph.application : ''}</p>
+          </div>
+        `;
       } else if (key === 'fed_detail' || key === 'global_detail' || key === 'tech_detail' || key === 'domestic_detail') {
         const feedMap = {
           fed_detail: { tag: "🏛️ 미 연준 공식 연설", title: "파월 의장 및 연준 이사 연설 전문", items: cachedFeeds.fed },
@@ -1291,42 +1354,25 @@
             CME FedWatch Tool 공식 웹페이지 ↗
           </a>
         `;
-      } else if (key === 'language') {
-        tagEl.innerText = "비즈니스 & 마켓 표현";
-        titleEl.innerText = "'Liquidity vortex' — 유동성 소용돌이";
-        bodyEl.innerHTML = `
-          <p style="margin-bottom:12px;">특정 주도 섹터가 시장 전체 유동성을 흡수해 타 업종이 소외되는 현상입니다.</p>
-          <div style="background:#020617; border:1px solid #1e293b; padding:10px; border-radius:8px;">
-            <strong>"The semiconductor rally has created a liquidity vortex, draining capital from defensive sectors."</strong>
-          </div>
-        `;
-      } else if (key === 'history') {
-        tagEl.innerText = "산업사 & 사이클 분석";
-        titleEl.innerText = "고금리·고유가 국면 속 '실적 장세' 법칙";
-        bodyEl.innerHTML = `
-          <p style="margin-bottom:10px;">유가와 금리가 동반 상승할 때 주식시장은 판가 전가력을 갖춘 독점적 기술주 위주로 차별화되었습니다.</p>
-        `;
       }
 
       document.getElementById('drawer').classList.add('open');
       document.getElementById('overlay').classList.add('show');
     }
 
+    function speakSpecificText(txt, langCode) {
+      if (!('speechSynthesis' in window)) return;
+      window.speechSynthesis.cancel();
+      const u = new SpeechSynthesisUtterance(txt);
+      u.lang = langCode;
+      u.rate = 0.95;
+      window.speechSynthesis.speak(u);
+    }
+
     function closeDrawer() {
       document.getElementById('drawer').classList.remove('open');
       document.getElementById('overlay').classList.remove('show');
-    }
-
-    function toggleQuiz() {
-      const ans = document.getElementById('quiz-answer');
-      const btn = document.getElementById('quiz-btn');
-      if (ans.style.display === 'block') {
-        ans.style.display = 'none';
-        btn.innerText = '정답 및 해설 확인하기';
-      } else {
-        ans.style.display = 'block';
-        btn.innerText = '정답 가리기';
-      }
+      if ('speechSynthesis' in window) window.speechSynthesis.cancel();
     }
 
     fetchDashboardData();
