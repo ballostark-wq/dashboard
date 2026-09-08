@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08 08:06:24",
+  "updated_at": "2026-09-08 09:06:22",
   "us2y": {
     "value": 4.37,
     "change": -0.29
@@ -21,8 +21,8 @@
     "status": "정상화 (우상향)"
   },
   "vix": {
-    "value": 15.75,
-    "change": 2.94
+    "value": 15.91,
+    "change": 3.99
   },
   "tech_news": [
     {
@@ -91,6 +91,11 @@
     ],
     "global": [
       {
+        "title": "Crypto platforms have lost over $3.63 billion to cyberattacks — even though most of them did security checks",
+        "link": "https://www.cnbc.com/2026/09/08/crypto-platforms-lost-billions-to-cyberattacks-many-even-after-audits.html",
+        "date": "09-08 08:16"
+      },
+      {
         "title": "China says it will pump $54 billion into banks and insurers — but their stocks still fell",
         "link": "https://www.cnbc.com/2026/09/07/china-state-banks-lenders-insurers-capital-solvency-bankrupt-nim-.html",
         "date": "09-07 23:23"
@@ -109,41 +114,36 @@
         "title": "Stocks making the biggest moves midday: Sandisk, Tesla, Lululemon, Quanex, AMC & more",
         "link": "https://www.cnbc.com/2026/09/04/stocks-making-the-biggest-moves-midday-sndk-tsla-nx-amc.html",
         "date": "09-04 19:07"
-      },
-      {
-        "title": "Bitcoin heads for third winning week in a row as macro pressures mount",
-        "link": "https://www.cnbc.com/2026/09/04/bitcoin-heads-for-third-winning-week-in-a-row-as-macro-pressures-mount.html",
-        "date": "09-04 14:36"
       }
     ],
     "tech": [
       {
-        "title": "[디일렉] 스트라드비젼, Arm 피지컬 AI 생태계 합류",
-        "link": "https://www.thelec.kr/news/articleView.html?idxno=61965",
-        "date": "09-08 16:45"
+        "title": "[디일렉] 심텍, 협력사와 장기공급계약…상생협력 강화",
+        "link": "https://www.thelec.kr/news/articleView.html?idxno=61971",
+        "date": "09-08 17:52"
       },
       {
-        "title": "[디일렉] AP시스템, 딥테크·소부장 투자 펀드 결성",
-        "link": "https://www.thelec.kr/news/articleView.html?idxno=61958",
-        "date": "09-08 16:00"
+        "title": "[디일렉] 인스웨이브, 일본 IT 기업과 AI 개발 솔루션 협력 확대",
+        "link": "https://www.thelec.kr/news/articleView.html?idxno=61972",
+        "date": "09-08 17:52"
       },
       {
-        "title": "[디일렉] DN솔루션즈, 첨단산업 공작기계 국산화로 국무총리 표창",
-        "link": "https://www.thelec.kr/news/articleView.html?idxno=61943",
-        "date": "09-08 15:59"
-      },
-      {
-        "title": "[전자신문] AI 금융서비스 10월 가동…수협, 은행·상호금융 공동 통제체계 구축",
-        "link": "https://www.etnews.com/20260908000299",
-        "date": "09-08 17:00"
-      },
-      {
-        "title": "[전자신문] 한드림넷 품은 대교CNS, 네트워크 보안 새 성장축으로",
-        "link": "https://www.etnews.com/20260908000222",
-        "date": "09-08 17:00"
+        "title": "[디일렉] 삼성전자-ASML, D램 제조에 하이 EUV 도입",
+        "link": "https://www.thelec.kr/news/articleView.html?idxno=61969",
+        "date": "09-08 17:48"
       }
     ],
     "domestic": [
+      {
+        "title": "MUFG \"달러-엔, 단기적으로 151.50엔까지 하락 전망\"",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433938",
+        "date": "09-08 17:10"
+      },
+      {
+        "title": "\"예상 밖 고환율, 경제양극화 심화…세심한 정책 필요\"",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433937",
+        "date": "09-08 17:09"
+      },
       {
         "title": "[도쿄환시] 달러-엔, BOJ 금리인상 가속 관측에 하락 지속",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433924",
@@ -158,16 +158,6 @@
         "title": "日 국채 5년물 입찰서 응찰률 3.42배…12개월 평균 하회(상보)",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433916",
         "date": "09-08 15:10"
-      },
-      {
-        "title": "'40bp까지 치솟은 은행채 가산금리'…FRN도 안전지대 아닌 이유",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433915",
-        "date": "09-08 15:10"
-      },
-      {
-        "title": "外人 선물 순매수 속 국고채 금리 일제히 하락…불플래트닝",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433904",
-        "date": "09-08 13:49"
       }
     ]
   },
@@ -223,83 +213,83 @@
       "detail": "10Y-2Y 스프레드가 +42 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.78",
-      "title": "닥터 코퍼 $6.78선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.76",
+      "title": "닥터 코퍼 $6.76선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.78",
-          "chg": "+2.73%",
+          "val": "$6.76",
+          "chg": "+2.42%",
           "up": true
         },
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,437.4",
-          "chg": "+0.17%",
+          "val": "$4,436.3",
+          "chg": "+0.15%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$66.54",
-          "chg": "+0.74%",
+          "val": "$66.47",
+          "chg": "+0.64%",
           "up": true
         }
       ],
       "bullets": [
-        "구리 $6.78/lb (+2.73%) - AI 전력망 설비 수요 반영",
-        "금 $4,437/oz, 은 $66.54/oz - 통화가치 헤지"
+        "구리 $6.76/lb (+2.42%) - AI 전력망 설비 수요 반영",
+        "금 $4,436/oz, 은 $66.47/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,344원 | 엔/달러 ¥153.9",
-      "title": "원/달러 1,344.2원선과 엔/달러 ¥153.9",
+      "badge": "원/달러 1,344원 | 엔/달러 ¥154.1",
+      "title": "원/달러 1,343.8원선과 엔/달러 ¥154.1",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,344.2원",
-          "chg": "-0.06%",
+          "val": "1,343.8원",
+          "chg": "-0.10%",
           "up": false
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "98.94pt",
-          "chg": "-0.22%",
+          "val": "98.98pt",
+          "chg": "-0.18%",
           "up": false
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥153.87",
-          "chg": "-1.49%",
+          "val": "¥154.06",
+          "chg": "-1.37%",
           "up": false
         }
       ],
       "bullets": [
-        "달러 인덱스 98.94pt - 미국 성장 우위 지속",
-        "엔/달러 153.87엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 98.98pt - 미국 성장 우위 지속",
+        "엔/달러 154.06엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $94.51",
-      "title": "WTI 배럴당 $94.51선 박스권 안정",
+      "badge": "WTI $94.63",
+      "title": "WTI 배럴당 $94.63선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$94.51",
-          "chg": "+3.31%",
+          "val": "$94.63",
+          "chg": "+3.44%",
           "up": true
         }
       ],
       "bullets": [
-        "WTI 선물 $94.51/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $94.63/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -307,32 +297,32 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.78,
-      "change": 2.73
+      "price": 6.76,
+      "change": 2.42
     },
     "gold": {
-      "price": 4437.4,
-      "change": 0.17
+      "price": 4436.3,
+      "change": 0.15
     },
     "silver": {
-      "price": 66.54,
-      "change": 0.74
+      "price": 66.47,
+      "change": 0.64
     },
     "wti": {
-      "price": 94.51,
-      "change": 3.31
+      "price": 94.63,
+      "change": 3.44
     },
     "usdkrw": {
-      "price": 1344.2,
-      "change": -0.06
+      "price": 1343.78,
+      "change": -0.1
     },
     "dxy": {
-      "price": 98.94,
-      "change": -0.22
+      "price": 98.98,
+      "change": -0.18
     },
     "usdjpy": {
-      "price": 153.87,
-      "change": -1.49
+      "price": 154.06,
+      "change": -1.37
     }
   },
   "history_20d": {
@@ -595,9 +585,9 @@
       },
       {
         "date": "09-08",
-        "copper": 6.78,
-        "gold": 4437.4,
-        "silver": 66.54
+        "copper": 6.76,
+        "gold": 4436.3,
+        "silver": 66.47
       }
     ],
     "fx": [
@@ -717,9 +707,9 @@
       },
       {
         "date": "09-08",
-        "usdkrw": 1344.2,
-        "dxy": 98.94,
-        "usdjpy": 153.87
+        "usdkrw": 1343.78,
+        "dxy": 98.98,
+        "usdjpy": 154.06
       }
     ],
     "oil": [
@@ -820,8 +810,8 @@
       },
       {
         "date": "09-08",
-        "wti": 94.51,
-        "change": 3.31
+        "wti": 94.63,
+        "change": 3.44
       }
     ]
   },
