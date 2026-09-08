@@ -49,7 +49,6 @@ def load_existing_data():
 
 
 def fetch_yahoo_series(symbol, days=20):
-    """야후 파이낸스 일봉 종가 시계열 수집"""
     url = f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?interval=1d&range=2mo"
     try:
         res = requests.get(url, headers=HEADERS, timeout=10)
@@ -76,7 +75,6 @@ def fetch_yahoo_series(symbol, days=20):
 
 
 def fetch_naver_rates():
-    """네이버 증권 공식 금리 리스트에서 국채금리 수집"""
     url = "https://finance.naver.com/marketindex/interestList.naver"
     rates = {}
     code_map = {
@@ -168,10 +166,10 @@ def fetch_rss(url, max_items=5, prefix="", encoding=None):
 
 
 def build_consistent_20d_history(
-    y10_val, y2_val, series_cop, series_gold, series_silver, series_wti, series_krw, series_dxy, series_jpy
+    y10_val, y2_val, y30_val, series_cop, series_gold, series_silver, series_wti, series_krw, series_dxy, series_jpy
 ):
-    """동일 파이프라인 기준 20영업일 시계열 통합 (엔/달러 포함)"""
-    # 1. 국채 시계열 (10년물, 2년물, 스프레드 각각 보관)
+    """30년물(us30y)을 포함한 20영업일 시계열 통합"""
+    # 1. 국채 시계열 (10년물, 2년물, 30년물, 스프레드 생성)
     bonds_hist = []
     base_dates = [x["date"] for x in series_wti] if series_wti else [f"D-{i}" for i in range(20, 0, -1)]
 
@@ -179,11 +177,13 @@ def build_consistent_20d_history(
         drift = (idx - (len(base_dates) - 1)) * 0.012
         cur_10y = round(y10_val + drift, 2)
         cur_2y = round(y2_val + (drift * 0.7), 2)
+        cur_30y = round(y30_val + (drift * 0.9), 2)  # 30년물 연속 시계열
         sp = round((cur_10y - cur_2y) * 100)
         bonds_hist.append({
             "date": d,
             "us10y": cur_10y,
             "us2y": cur_2y,
+            "us30y": cur_30y,
             "spread": sp,
         })
 
@@ -199,7 +199,7 @@ def build_consistent_20d_history(
                 "silver": series_silver[i]["price"],
             })
 
-    # 3. 환율 시계열 (원달러, 달러인덱스, 엔달러)
+    # 3. 환율 시계열 (원/달러, 달러인덱스, 엔/달러)
     fx_hist = []
     min_fx = min(len(series_krw), len(series_dxy), len(series_jpy)) if series_jpy else min(len(series_krw), len(series_dxy))
     if min_fx > 0:
@@ -286,7 +286,7 @@ def generate_macro_reviews_with_metrics(
         ],
         "bullets": [
             f"10년물 {y10}%와 2년물 {y2}% 형성으로 장단기차 {spread_bp:+d} bp 유지",
-            "단기 통화정책 안정세 속 재정 적자 발행에 따른 장기물 기간 프리미엄",
+            f"초장기 30년물 {y30}% 안착 속 재정 적자 발행에 따른 기간 프리미엄",
         ],
         "detail": (
             f"10Y-2Y 스프레드가 {spread_bp:+d} bp를 기록하며 채권시장은 경기"
@@ -374,7 +374,7 @@ def generate_macro_reviews_with_metrics(
             ),
             (
                 f"엔/달러 {jpy['price']:.2f}엔 ({jpy['change']:+.2f}%) - BOJ"
-                " 통화정책 정상화 경계감 속 엔 캐리 트레이드 청산 민감도 주시"
+                " 정상화 경계감 속 엔 캐리 청산 민감도 주시"
             ),
             (
                 f"원/달러 환율 {krw['price']:,.1f}원 ({krw['change']:+.2f}%) -"
@@ -388,11 +388,7 @@ def generate_macro_reviews_with_metrics(
         ),
     }
 
-    oil_status = (
-        "박스권 안정"
-        if wti["price"] < 80.0
-        else "상방 압력 경계"
-    )
+    oil_status = "박스권 안정" if wti["price"] < 80.0 else "상방 압력 경계"
     oil = {
         "badge": f"WTI ${wti['price']}",
         "title": f"WTI 배럴당 ${wti['price']}선과 {oil_status}",
@@ -437,13 +433,14 @@ def main():
 
     y10_data = data.get("us10y", {"value": 4.78, "change": 0.46})
     y2_data = data.get("us2y", {"value": 4.32, "change": 0.03})
+    y30_data = data.get("us30y", {"value": 4.95, "change": 0.01})
     spread_bp = round((y10_data["value"] - y2_data["value"]) * 100)
     data["spread"] = {
         "value": spread_bp,
         "status": "정상화 (우상향)" if spread_bp >= 0 else "역전 (침체경보)",
     }
 
-    # 2. 20일 실데이터 시계열 연속 수집 (엔/달러 JPY=X 추가)
+    # 2. 20일 시계열 수집
     s_cop = fetch_yahoo_series("HG=F", 20)
     s_gold = fetch_yahoo_series("GC=F", 20)
     s_silver = fetch_yahoo_series("SI=F", 20)
@@ -482,10 +479,11 @@ def main():
             "change": round(((v_last - v_prev) / v_prev) * 100, 2),
         }
 
-    # 3. 20일 시계열 데이터 생성
+    # 3. 30년물(y30_data["value"])을 포함해 20일 히스토리 생성
     data["history_20d"] = build_consistent_20d_history(
         y10_data["value"],
         y2_data["value"],
+        y30_data["value"],
         s_cop,
         s_gold,
         s_silver,
@@ -495,12 +493,12 @@ def main():
         s_jpy,
     )
 
-    # 4. 데이터 우선 매크로 리뷰 생성
+    # 4. 매크로 리뷰 생성
     data["macro_reviews"] = generate_macro_reviews_with_metrics(
         y10_data, y2_data, spread_bp, data["indicators"], rates
     )
 
-    # 5. 4대 RSS 피드 수집
+    # 5. RSS 피드 수집
     if "feeds" not in data:
         data["feeds"] = {}
 
@@ -549,7 +547,7 @@ def main():
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-    print("엔/달러 추가 및 20일 세부 시계열 동기화 완료!")
+    print("30년물 시계열 추가 및 동기화 완료!")
 
 
 if __name__ == "__main__":
