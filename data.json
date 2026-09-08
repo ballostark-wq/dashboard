@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08 20:06:03",
+  "updated_at": "2026-09-08 21:05:21",
   "us2y": {
     "value": 4.37,
     "change": -0.29
@@ -21,8 +21,8 @@
     "status": "정상화 (우상향)"
   },
   "vix": {
-    "value": 15.57,
-    "change": 1.76
+    "value": 15.72,
+    "change": 2.75
   },
   "tech_news": [
     {
@@ -91,6 +91,11 @@
     ],
     "global": [
       {
+        "title": "Stocks making the biggest moves after hours: ServiceTitan, Mission Produce, Chime Financial and more",
+        "link": "https://www.cnbc.com/2026/09/08/stocks-making-the-biggest-moves-after-hours-ttan-avo-chym.html",
+        "date": "09-08 20:56"
+      },
+      {
         "title": "Visa tells CNBC it is expanding data offering for blockchain lenders as demand for stablecoin-linked cards surges",
         "link": "https://www.cnbc.com/2026/09/08/visa-blockchain-lender-stablecoin-cards.html",
         "date": "09-08 11:30"
@@ -109,11 +114,6 @@
         "title": "China says it will pump $54 billion into banks and insurers — but their stocks still fell",
         "link": "https://www.cnbc.com/2026/09/07/china-state-banks-lenders-insurers-capital-solvency-bankrupt-nim-.html",
         "date": "09-07 23:23"
-      },
-      {
-        "title": "Sugar is outperforming the stock market this year. Here's what's driving it, and where it can go from here",
-        "link": "https://www.cnbc.com/2026/09/06/sugar-is-outperforming-the-stock-market-this-year-whats-driving-it.html",
-        "date": "09-06 13:19"
       }
     ],
     "tech": [
@@ -133,14 +133,14 @@
         "date": "09-08 19:37"
       },
       {
-        "title": "[전자신문] 삼성전자, 미스트랄 AI와 반도체 특화 AI 개발…설계·제조 혁신",
-        "link": "https://www.etnews.com/20260908000385",
-        "date": "09-09 01:00"
+        "title": "[전자신문] 롯데하이마트, '안심케어 세일'…가전청소부터 입주청소까지 할인",
+        "link": "https://www.etnews.com/20260908000367",
+        "date": "09-09 06:00"
       },
       {
-        "title": "[전자신문] 호남대 앵커사업단 로컬관광 서포터즈, 서구 치평동 '골목 그린 위크'서 부스 운영",
-        "link": "https://www.etnews.com/20260908000416",
-        "date": "09-08 23:25"
+        "title": "[전자신문] “45일이면 흙으로”… 호주서 첫 '버섯 관' 장례 치러졌다",
+        "link": "https://www.etnews.com/20260908000296",
+        "date": "09-09 06:00"
       }
     ],
     "domestic": [
@@ -236,33 +236,33 @@
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,406.3",
-          "chg": "-0.53%",
+          "val": "$4,398.2",
+          "chg": "-0.71%",
           "up": false
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$66.36",
-          "chg": "+0.47%",
+          "val": "$66.32",
+          "chg": "+0.41%",
           "up": true
         }
       ],
       "bullets": [
         "구리 $6.77/lb (+2.58%) - AI 전력망 설비 수요 반영",
-        "금 $4,406/oz, 은 $66.36/oz - 통화가치 헤지"
+        "금 $4,398/oz, 은 $66.32/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,342원 | 엔/달러 ¥154.0",
-      "title": "원/달러 1,342.5원선과 엔/달러 ¥154.0",
+      "badge": "원/달러 1,341원 | 엔/달러 ¥153.9",
+      "title": "원/달러 1,340.7원선과 엔/달러 ¥153.9",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,342.5원",
-          "chg": "-0.08%",
+          "val": "1,340.7원",
+          "chg": "-0.21%",
           "up": false
         },
         {
@@ -275,31 +275,31 @@
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥153.97",
-          "chg": "+0.08%",
+          "val": "¥153.94",
+          "chg": "+0.06%",
           "up": true
         }
       ],
       "bullets": [
         "달러 인덱스 98.86pt - 미국 성장 우위 지속",
-        "엔/달러 153.97엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "엔/달러 153.94엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $93.6",
-      "title": "WTI 배럴당 $93.6선 박스권 안정",
+      "badge": "WTI $94.3",
+      "title": "WTI 배럴당 $94.3선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$93.60",
-          "chg": "+2.32%",
+          "val": "$94.30",
+          "chg": "+3.08%",
           "up": true
         }
       ],
       "bullets": [
-        "WTI 선물 $93.6/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $94.3/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -311,28 +311,28 @@
       "change": 2.58
     },
     "gold": {
-      "price": 4406.3,
-      "change": -0.53
+      "price": 4398.2,
+      "change": -0.71
     },
     "silver": {
-      "price": 66.36,
-      "change": 0.47
+      "price": 66.32,
+      "change": 0.41
     },
     "wti": {
-      "price": 93.6,
-      "change": 2.32
+      "price": 94.3,
+      "change": 3.08
     },
     "usdkrw": {
-      "price": 1342.45,
-      "change": -0.08
+      "price": 1340.72,
+      "change": -0.21
     },
     "dxy": {
       "price": 98.86,
       "change": -0.3
     },
     "usdjpy": {
-      "price": 153.97,
-      "change": 0.08
+      "price": 153.94,
+      "change": 0.06
     }
   },
   "history_20d": {
@@ -596,8 +596,8 @@
       {
         "date": "09-08",
         "copper": 6.77,
-        "gold": 4406.3,
-        "silver": 66.36
+        "gold": 4398.2,
+        "silver": 66.32
       }
     ],
     "fx": [
@@ -717,9 +717,9 @@
       },
       {
         "date": "09-08",
-        "usdkrw": 1342.45,
+        "usdkrw": 1340.72,
         "dxy": 98.86,
-        "usdjpy": 153.97
+        "usdjpy": 153.94
       }
     ],
     "oil": [
@@ -820,8 +820,8 @@
       },
       {
         "date": "09-08",
-        "wti": 93.6,
-        "change": 2.32
+        "wti": 94.3,
+        "change": 3.08
       }
     ]
   },
