@@ -2,9 +2,9 @@ name: Update Market Data from Naver
 
 on:
   schedule:
-    # 한국 시간 기준 매시간 정각 자동 실행 (UTC 기준 0분)
+    # 매시간 정각 자동 실행 (UTC 기준)
     - cron: '0 * * * *'
-  # 수동 즉시 실행 지원 버튼
+  # 수동 즉시 실행 버튼 지원
   workflow_dispatch:
 
 permissions:
@@ -18,7 +18,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Python
-        uses: setup-python@v5
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
