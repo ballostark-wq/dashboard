@@ -15,7 +15,7 @@ HEADERS = {
 
 
 def load_existing_data():
-    """기존 data.json 안전장치 및 5일 FedWatch 히스토리 유지"""
+    """기존 data.json 안전장치"""
     default_data = {
         "updated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         "us2y": {"value": 4.32, "change": 0.03},
@@ -24,21 +24,63 @@ def load_existing_data():
         "us30y": {"value": 4.95, "change": 0.01},
         "spread": {"value": 46, "status": "정상화 (우상향)"},
         "vix": {"value": 15.30, "change": -1.47},
-        "macro_briefing": {
-            "title": (
-                "반도체·제조업 중심의 실적형 위험자산 선호(Risk-on) 장세"
-            ),
-            "regime": "Risk-on 우위",
-            "bullets": [
-                "필라델피아 반도체 지수 모멘텀 가속화로 글로벌 유동성 집중 흡수",
-                "구리 급등으로 글로벌 실물 경기 개선 기대감 동반 유입",
-                "국내 HBM 밸류체인 및 반도체 소부장 대형주로의 강력한 수급 쏠림",
-            ],
-            "trading_strategy": (
-                "지수 전반의 무차별 추격 매수보다는 HBM 및 AI 인프라 독점 수혜주,"
-                " 원가 전가력을 갖춘 경기민감주로 포트를 압축하는 전략이"
-                " 유효합니다."
-            ),
+        "macro_reviews": {
+            "bonds": {
+                "badge": "Steepening",
+                "title": "10Y-2Y 스프레드 정상화와 듀레이션 리스크",
+                "bullets": [
+                    "미 10년물 4.7%대 지지 속 경기 침체 확률 하락 반영",
+                    (
+                        "커브 스티프닝(우상향) 전개로 장기채 변동성 관리"
+                        " 필요성 대두"
+                    ),
+                ],
+                "detail": (
+                    "기준금리 인하 경로 불확실성과 장기물 발행 부담이 맞물려"
+                    " 기간 프리미엄이 상승하고 있습니다. 채권 듀레이션을"
+                    " 과도하게 늘리기보다는 2~3년물 중심의 단기 바벨"
+                    " 전략이 유리합니다."
+                ),
+            },
+            "commodities": {
+                "badge": "Dr. Copper 강세",
+                "title": "구리·금·은 동반 강세: 실물 수요 vs 인플레 헤지",
+                "bullets": [
+                    "구리(닥터 코퍼) 급등으로 글로벌 전력망·AI 인프라 증설 반영",
+                    "금·은 동반 상승으로 통화가치 희석에 대한 헤지 수요 지속",
+                ],
+                "detail": (
+                    "구리의 상대적 강세는 실물 제조업 반등을 선행합니다."
+                    " 금/구리 비율이 안정세를 보이고 있어 시스템 리스크보다는"
+                    " 실물 설비투자 재개(Capex Cycle)에 무게를 두어야 합니다."
+                ),
+            },
+            "fx": {
+                "badge": "DXY 104선 지지",
+                "title": "달러 인덱스 혼조와 원/달러 상방 경직성",
+                "bullets": [
+                    "미국-글로벌 주요국 간 성장 격차로 달러화 하방 경직성",
+                    "원/달러 1,300원대 중후반 박스권 내 외환 당국 미세조정",
+                ],
+                "detail": (
+                    "연준의 금리 인하 속도 조절로 달러화가 급격히 약세로"
+                    " 전환되기는 어렵습니다. 환율 상방 압력은 수출 대형주(반도체,"
+                    " 자동차) 마진에는 단기 우호적 요인으로 작용합니다."
+                ),
+            },
+            "oil": {
+                "badge": "박스권 유지",
+                "title": "WTI 유가 안정세와 에너지발 마진 스퀴즈 완화",
+                "bullets": [
+                    "WTI 배럴당 70달러선 안착으로 헤드라인 인플레이션 자극 제한",
+                    "지정학적 리스크 프리미엄 축소 속 비OPEC 공급 확대",
+                ],
+                "detail": (
+                    "유가가 급등하지 않아 기술 하드웨어 및 국내 제조업체들의"
+                    " 원가 마진 스퀴즈(Margin Squeeze) 부담이 완화되고"
+                    " 있습니다. 위험자산 랠리의 핵심 완충제입니다."
+                ),
+            },
         },
         "fedwatch": {
             "meeting_date": "2026-09-16 (차기 FOMC)",
@@ -126,7 +168,6 @@ def fetch_vix():
 
 
 def clean_date_str(pub_date):
-    """RSS 날짜 포맷 간소화"""
     if not pub_date:
         return ""
     clean = pub_date.strip()
@@ -145,7 +186,6 @@ def clean_date_str(pub_date):
 
 
 def fetch_rss(url, max_items=5, prefix="", encoding=None):
-    """범용 RSS 파서"""
     items = []
     try:
         res = requests.get(url, headers=HEADERS, timeout=10)
@@ -174,29 +214,83 @@ def fetch_rss(url, max_items=5, prefix="", encoding=None):
     return items
 
 
-def update_fedwatch_history(fedwatch_data):
-    """CME FedWatch 최근 5일 히스토리 자동 롤링 관리"""
-    today_label = datetime.now().strftime("%m-%d (오늘)")
-    history = fedwatch_data.get("history", [])
+def generate_macro_quadrant_reviews(y10, y2, spread_bp, vix_val):
+    """4대 핵심 축(국채금리, 원자재, 환율, 유가) 매크로 리뷰 지능형 생성"""
+    # 1. 국채수익률
+    curve_type = (
+        "정상화 (Bull/Bear Steepening)" if spread_bp >= 0 else "역전 지속"
+    )
+    bonds = {
+        "badge": f"10Y {y10}% / {spread_bp:+d}bp",
+        "title": f"미국채 수익률 곡선: {curve_type}",
+        "bullets": [
+            f"10년물 {y10}%, 2년물 {y2}% 수준 형성으로 장단기차 {spread_bp:+d} bp 기록",
+            (
+                "경기 침체 회피 기대와 재정 적자 발행 부담 속 장기물 기간"
+                " 프리미엄 유지"
+            ),
+        ],
+        "detail": (
+            f"10Y-2Y 스프레드가 {spread_bp:+d} bp 수준을 나타내며 수익률 곡선이"
+            " 완만한 우상향 흐름을 보이고 있습니다. 단기 통화정책 완화 기대를"
+            " 장기 금리가 지지하며 위험자산 멀티플을 방어하는 구간입니다."
+        ),
+    }
 
-    # 오늘 데이터 기본값 (사용자 공유 캡처 기준: 350-375bp=41.5%, 375-400bp=58.5%)
-    today_entry = {"date": today_label, "cut_25": 41.5, "hold": 58.5}
+    # 2. 원자재
+    commodities = {
+        "badge": "닥터 코퍼 & 금",
+        "title": "원자재: 구리 인프라 수요 견인 및 금 헤지",
+        "bullets": [
+            "구리(닥터 코퍼) 고점권 안착으로 AI 데이터센터·전력망 사이클 반영",
+            (
+                "글로벌 통화가치 희석 우려에 따른 중앙은행 금 매수세"
+                " 하방 지지"
+            ),
+        ],
+        "detail": (
+            "닥터 코퍼의 지속적인 강세는 전통적 경기 침체 우려를 상쇄시키는"
+            " 핵심 지표입니다. 금/은 가격이 하방을 다지는 가운데 산업용"
+            " 금속으로의 수급 유입은 실물 투자 회복을 방증합니다."
+        ),
+    }
 
-    # 이미 오늘 날짜가 있다면 갱신, 없다면 추가 후 최근 5개 유지
-    if history and history[-1]["date"].startswith(
-        datetime.now().strftime("%m-%d")
-    ):
-        history[-1] = today_entry
-    else:
-        history.append(today_entry)
+    # 3. 환율
+    fx = {
+        "badge": "달러 상방 경직",
+        "title": "환율: 달러 인덱스 안정 속 원/달러 수급 공방",
+        "bullets": [
+            "미국 실질금리 우위로 달러화 급격한 약세 제한",
+            "원/달러 상단 저항선 작용으로 수출주 환차익 및 외인 순매수 지속",
+        ],
+        "detail": (
+            "연준과 타국 중앙은행 간 완화 시차로 달러화는 하방 경직성을"
+            " 띱니다. 원/달러 환율의 완만한 안정세는 외국인의 국내 IT 대형주"
+            " 패시브 매수 유입에 긍정적 환경을 제공합니다."
+        ),
+    }
 
-    if len(history) > 5:
-        history = history[-5:]
+    # 4. 유가
+    oil = {
+        "badge": "WTI 70선 안정",
+        "title": "유가: 배럴당 70달러선 안착과 비용 압박 완화",
+        "bullets": [
+            "WTI 안정세 지속으로 헤드라인 인플레이션 재발 위험 억제",
+            "기업 에너지 원가 부담 경감으로 하드웨어 제조업 마진 방어",
+        ],
+        "detail": (
+            "에너지 가격의 안정은 연준의 금리 인하 명분을 강화해 줍니다. 고유가로"
+            " 인한 밸류에이션 훼손 압력이 낮아지며 실적 중심 장세가"
+            " 연장되고 있습니다."
+        ),
+    }
 
-    fedwatch_data["history"] = history
-    fedwatch_data["meeting_date"] = "2026-09-16 (차기 FOMC)"
-    fedwatch_data["current_target"] = "3.75%-4.00%"
-    return fedwatch_data
+    return {
+        "bonds": bonds,
+        "commodities": commodities,
+        "fx": fx,
+        "oil": oil,
+    }
 
 
 def main():
@@ -219,16 +313,16 @@ def main():
         "status": "정상화 (우상향)" if spread_bp >= 0 else "역전 (침체경보)",
     }
 
-    # 2. CME FedWatch 5일 히스토리 롤링 갱신
-    if "fedwatch" not in data:
-        data["fedwatch"] = {}
-    data["fedwatch"] = update_fedwatch_history(data["fedwatch"])
+    # 2. 4대 매크로 레짐 리뷰 생성
+    vix_val = data.get("vix", {}).get("value", 15.30)
+    data["macro_reviews"] = generate_macro_quadrant_reviews(
+        y10, y2, spread_bp, vix_val
+    )
 
-    # 3. 4대 핵심 RSS 채널 수집
+    # 3. 4대 RSS 수집 (연준 연설 + CNBC + 디일렉/전자신문 + 인포맥스)
     if "feeds" not in data:
         data["feeds"] = {}
 
-    # 3-1. 미 연준: 통화정책 연설(Speeches) 우선 수집 (없을 시 FOMC 성명서 병합)
     fed_speeches = fetch_rss(
         "https://www.federalreserve.gov/feeds/speeches.xml",
         max_items=4,
@@ -241,41 +335,30 @@ def main():
     )
     data["feeds"]["fed"] = (fed_speeches + fed_monetary)[:5]
 
-    # 3-2. 글로벌 마켓 속보: CNBC Markets (IB 의견/CPI/기업실적/M&A) + 야후 파이낸스
-    cnbc_items = fetch_rss(
+    data["feeds"]["global"] = fetch_rss(
         "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10000664",
-        max_items=4,
+        max_items=5,
     )
-    if not cnbc_items:
-        cnbc_items = fetch_rss(
-            "https://finance.yahoo.com/news/rssindex", max_items=4
+    if not data["feeds"]["global"]:
+        data["feeds"]["global"] = fetch_rss(
+            "https://finance.yahoo.com/news/rssindex", max_items=5
         )
-    data["feeds"]["global"] = cnbc_items
 
-    # 3-3. 테크 & 공급망: 디일렉(THE ELEC) 반도체/소부장 + 전자신문(ETNews) 병합
-    elec_items = fetch_rss(
-        "https://www.thelec.kr/rss/S1N2.xml", max_items=3, prefix="[디일렉]"
+    elec = fetch_rss(
+        "https://www.thelec.kr/rss/allArticle.xml", max_items=3, prefix="[디일렉]"
     )
-    if not elec_items:
-        elec_items = fetch_rss(
-            "https://www.thelec.kr/rss/allArticle.xml",
-            max_items=3,
-            prefix="[디일렉]",
-        )
-    etnews_items = fetch_rss(
+    etnews = fetch_rss(
         "https://rss.etnews.com/Section902.xml", max_items=3, prefix="[전자신문]"
     )
-    # 교차 배치
     tech_merged = []
-    for e, t in zip(elec_items, etnews_items):
+    for e, t in zip(elec, etnews):
         tech_merged.extend([e, t])
-    if len(elec_items) > len(etnews_items):
-        tech_merged.extend(elec_items[len(etnews_items) :])
-    elif len(etnews_items) > len(elec_items):
-        tech_merged.extend(etnews_items[len(elec_items) :])
+    if len(elec) > len(etnews):
+        tech_merged.extend(elec[len(etnews) :])
+    elif len(etnews) > len(elec):
+        tech_merged.extend(etnews[len(elec) :])
     data["feeds"]["tech"] = tech_merged[:5]
 
-    # 3-4. 여의도 채권/외환: 연합인포맥스
     data["feeds"]["domestic"] = fetch_rss(
         "https://news.einfomax.co.kr/rss/S1N16.xml", max_items=5
     )
@@ -285,7 +368,7 @@ def main():
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-    print("CME FedWatch 5일 히스토리 및 최신 RSS 수집 완료!")
+    print("4대 매크로 리뷰 및 피드 갱신 완료!")
 
 
 if __name__ == "__main__":
