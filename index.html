@@ -84,7 +84,7 @@
     .down { color: #fb7185; }
     .warn { color: #fbbf24; }
 
-    /* 트레이딩뷰 위젯 래퍼 */
+    /* 트레이딩뷰 위젯 */
     .tradingview-widget-wrapper {
       background: #090e1f;
       border: 1px solid #1e293b;
@@ -93,7 +93,7 @@
       overflow: hidden;
     }
 
-    /* 메인 벤토 그리드 */
+    /* 벤토 메인 그리드 */
     .dashboard-grid {
       display: grid;
       grid-template-columns: repeat(6, 1fr);
@@ -143,37 +143,106 @@
     .card-sox .card-tag { background: rgba(16, 185, 129, 0.25); color: #6ee7b7; }
     .card-sox .card-bullets li::before { color: #34d399; }
 
-    /* 타일 2: 전자신문 실시간 RSS 피드 */
+    /* 타일 2: 4대 트레이딩 인텔리전스 쿼드런트 */
     .card-news {
       grid-column: span 3;
-      background: linear-gradient(135deg, rgba(30, 41, 59, 0.85), #0f172a);
+      background: linear-gradient(135deg, rgba(15, 23, 42, 0.95), #090e1f);
       border-color: rgba(56, 189, 248, 0.35);
       cursor: default;
+      padding: 16px;
     }
-    .card-news .card-tag { background: rgba(56, 189, 248, 0.2); color: #7dd3fc; }
-    .news-list { list-style: none; display: flex; flex-direction: column; gap: 8px; margin-top: 8px; }
-    .news-item {
+    .feed-tab-bar {
+      display: flex;
+      gap: 6px;
+      margin-bottom: 12px;
+      border-bottom: 1px solid #1e293b;
+      padding-bottom: 8px;
+      overflow-x: auto;
+    }
+    .feed-tab {
+      background: #020617;
+      border: 1px solid #334155;
+      color: #94a3b8;
+      padding: 4px 8px;
+      border-radius: 6px;
+      font-size: 0.68rem;
+      font-weight: 600;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: all 0.15s;
+    }
+    .feed-tab.active {
+      background: rgba(56, 189, 248, 0.2);
+      border-color: #38bdf8;
+      color: #38bdf8;
+    }
+
+    /* 2x2 쿼드런트 그리드 */
+    .quadrant-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 8px;
+      flex-grow: 1;
+    }
+    .quadrant-box {
+      background: #020617;
+      border: 1px solid #1e293b;
+      border-radius: 8px;
+      padding: 8px 10px;
+      display: flex;
+      flex-direction: column;
+    }
+    .quadrant-title {
+      font-size: 0.7rem;
+      font-weight: 700;
+      color: #94a3b8;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 6px;
+      padding-bottom: 4px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+    .q-list { list-style: none; display: flex; flex-direction: column; gap: 5px; }
+    .q-item a {
+      color: #cbd5e1;
+      text-decoration: none;
+      font-size: 0.72rem;
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      line-height: 1.35;
+    }
+    .q-item a:hover { color: #38bdf8; text-decoration: underline; }
+    .q-date { font-size: 0.62rem; color: #64748b; font-family: monospace; }
+
+    /* 단일 탭 확대 보기 컨테이너 (기본은 display: none) */
+    .feed-single-view {
+      display: none;
+      flex-direction: column;
+      gap: 8px;
+      flex-grow: 1;
+    }
+    .single-list-item {
       display: flex;
       justify-content: space-between;
       align-items: center;
       padding: 6px 8px;
+      background: #020617;
+      border: 1px solid #1e293b;
       border-radius: 6px;
-      background: rgba(2, 6, 23, 0.6);
-      border: 1px solid rgba(255, 255, 255, 0.04);
-      gap: 10px;
+      gap: 8px;
     }
-    .news-item a {
+    .single-list-item a {
       color: #e2e8f0;
       text-decoration: none;
-      font-size: 0.78rem;
-      font-weight: 500;
+      font-size: 0.76rem;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
       flex-grow: 1;
     }
-    .news-item a:hover { color: #38bdf8; text-decoration: underline; }
-    .news-date { font-size: 0.65rem; color: #64748b; font-family: monospace; white-space: nowrap; }
+    .single-list-item a:hover { color: #38bdf8; text-decoration: underline; }
 
     /* 하단 3개 타일 */
     .card-quiz { grid-column: span 2; cursor: default; }
@@ -204,6 +273,7 @@
       .yield-grid { grid-template-columns: repeat(2, 1fr); }
       .dashboard-grid { grid-template-columns: 1fr; }
       .card-sox, .card-news, .card-quiz, .card-language, .card-history { grid-column: span 1; }
+      .quadrant-grid { grid-template-columns: 1fr; }
     }
 
     /* 슬라이드 서랍 */
@@ -229,11 +299,11 @@
       <span style="font-size: 1.4rem;">📊</span>
       <div>
         <h1>글로벌 매크로 레짐 & 테크 인텔리전스</h1>
-        <p>미국채 수익률 곡선 · 전자신문 실시간 RSS · AI 매크로 프리뷰</p>
+        <p>미국채 수익률 곡선 · 4대 트레이딩 실시간 RSS · AI 매크로 프리뷰</p>
       </div>
     </div>
     <div class="header-status">
-      <div class="status-badge"><span class="pulse"></span> <span id="rate-sync-label">네이버 & RSS 연동</span></div>
+      <div class="status-badge"><span class="pulse"></span> <span id="rate-sync-label">네이버 & 4대 RSS 연동</span></div>
       <span id="clock"></span>
     </div>
   </header>
@@ -308,7 +378,7 @@
   <!-- 3. 메인 벤토 그리드 -->
   <main class="dashboard-grid">
 
-    <!-- 타일 1: AI 장전 매크로 레짐 (data.json 자동 바인딩) -->
+    <!-- 타일 1: AI 장전 매크로 레짐 -->
     <div class="card card-sox" onclick="openDrawer('regime')">
       <div>
         <div style="display: flex; justify-content: space-between;">
@@ -328,21 +398,58 @@
       </div>
     </div>
 
-    <!-- 타일 2: ⚡ 전자신문 실시간 테크/산업 헤드라인 (RSS 자동 연동) -->
+    <!-- 타일 2: 4대 트레이딩 인텔리전스 쿼드런트 (2x2 영역 분할) -->
     <div class="card card-news">
       <div>
-        <div style="display: flex; justify-content: space-between; align-items: center;">
-          <span class="card-tag">⚡ 전자신문 실시간 속보 (RSS)</span>
-          <span style="font-size: 0.68rem; color: #38bdf8;">실시간 피드</span>
+        <!-- 상단 탭 셀렉터 -->
+        <div class="feed-tab-bar">
+          <button class="feed-tab active" onclick="switchFeedTab('all')">전체 4분할</button>
+          <button class="feed-tab" onclick="switchFeedTab('fed')">1. 🏛️ 연준(Fed)</button>
+          <button class="feed-tab" onclick="switchFeedTab('global')">2. ⚡ 글로벌 속보</button>
+          <button class="feed-tab" onclick="switchFeedTab('tech')">3. 🔬 전자신문</button>
+          <button class="feed-tab" onclick="switchFeedTab('domestic')">4. 📊 연합인포맥스</button>
         </div>
-        <h2 class="card-title" style="font-size: 0.95rem; margin-bottom: 4px;">반도체·AI·ICT 산업 주요 이슈</h2>
-        <ul class="news-list" id="etnews-container">
-          <li class="news-item"><span style="font-size:0.75rem; color:#94a3b8;">뉴스 피드를 불러오는 중입니다...</span></li>
-        </ul>
+
+        <!-- 2x2 4개 영역 뷰 (기본 표시) -->
+        <div id="quadrant-view" class="quadrant-grid">
+          <!-- 1. 미 연준 -->
+          <div class="quadrant-box">
+            <div class="quadrant-title"><span>🏛️ 1. 미 연준(FRB)</span><span style="color:#60a5fa;">Policy</span></div>
+            <ul class="q-list" id="q-fed">
+              <li class="q-item"><span style="font-size:0.7rem; color:#64748b;">수신 대기 중...</span></li>
+            </ul>
+          </div>
+          <!-- 2. 마켓워치 글로벌 속보 -->
+          <div class="quadrant-box">
+            <div class="quadrant-title"><span>⚡ 2. 글로벌 속보</span><span style="color:#38bdf8;">MarketWatch</span></div>
+            <ul class="q-list" id="q-global">
+              <li class="q-item"><span style="font-size:0.7rem; color:#64748b;">수신 대기 중...</span></li>
+            </ul>
+          </div>
+          <!-- 3. 전자신문 테크 -->
+          <div class="quadrant-box">
+            <div class="quadrant-title"><span>🔬 3. 테크·반도체</span><span style="color:#34d399;">ETNews</span></div>
+            <ul class="q-list" id="q-tech">
+              <li class="q-item"><span style="font-size:0.7rem; color:#64748b;">수신 대기 중...</span></li>
+            </ul>
+          </div>
+          <!-- 4. 연합인포맥스 채권/외환 -->
+          <div class="quadrant-box">
+            <div class="quadrant-title"><span>📊 4. 채권·외환</span><span style="color:#fbbf24;">Infomax</span></div>
+            <ul class="q-list" id="q-domestic">
+              <li class="q-item"><span style="font-size:0.7rem; color:#64748b;">수신 대기 중...</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 단일 탭 확대 뷰 -->
+        <div id="single-view" class="feed-single-view">
+          <ul id="single-list" style="list-style:none; display:flex; flex-direction:column; gap:6px;"></ul>
+        </div>
       </div>
       <div class="card-footer">
-        <span>출처: 전자신문 (ETNews RSS)</span>
-        <span style="color: #38bdf8;">클릭 시 기사 전문 이동 &rarr;</span>
+        <span id="feed-source-note">실시간 4대 기관 RSS 스트림 통합</span>
+        <span style="color: #38bdf8;">탭 클릭 시 개별 확대 &rarr;</span>
       </div>
     </div>
 
@@ -426,9 +533,10 @@
     setInterval(updateClock, 1000);
     updateClock();
 
+    let cachedFeeds = { fed: [], global: [], tech: [], domestic: [] };
     let dynamicBriefing = null;
 
-    // data.json 비동기 연동 (금리 + 전자신문 뉴스 + 매크로 브리핑)
+    // data.json 비동기 연동
     async function fetchDashboardData() {
       const timeLabel = document.getElementById('api-timestamp');
       const syncLabel = document.getElementById('rate-sync-label');
@@ -466,18 +574,13 @@
           spreadChgEl.className = `y-change ${bp >= 0 ? 'up' : 'down'}`;
         }
 
-        // 3. 전자신문 실시간 뉴스 렌더링
-        if (data.tech_news && data.tech_news.length > 0) {
-          const newsBox = document.getElementById('etnews-container');
-          newsBox.innerHTML = data.tech_news.map(n => `
-            <li class="news-item">
-              <a href="${n.link}" target="_blank" rel="noopener noreferrer">${n.title}</a>
-              <span class="news-date">${n.date}</span>
-            </li>
-          `).join('');
+        // 3. 4대 RSS 피드 바인딩
+        if (data.feeds) {
+          cachedFeeds = data.feeds;
+          renderQuadrants();
         }
 
-        // 4. 장전 매크로 브리핑 동적 바인딩
+        // 4. 매크로 브리핑 동적 바인딩
         if (data.macro_briefing) {
           dynamicBriefing = data.macro_briefing;
           document.getElementById('briefing-regime').innerText = dynamicBriefing.regime;
@@ -487,9 +590,66 @@
         }
 
         timeLabel.innerText = `동기화: ${data.updated_at}`;
-        syncLabel.innerText = "네이버 & RSS 연동 완료";
+        syncLabel.innerText = "네이버 & 4대 RSS 연동";
       } catch (err) {
         console.warn("데이터 로드 대기 중:", err);
+      }
+    }
+
+    // 4개 영역 렌더링 (각 피드당 최신 2개씩 압축 표시)
+    function renderQuadrants() {
+      function makeListHtml(items) {
+        if (!items || items.length === 0) return '<li class="q-item"><span style="font-size:0.7rem; color:#64748b;">수신 데이터 없음</span></li>';
+        return items.slice(0, 2).map(item => `
+          <li class="q-item">
+            <a href="${item.link}" target="_blank" rel="noopener noreferrer" title="${item.title}">• ${item.title}</a>
+            <span class="q-date">${item.date}</span>
+          </li>
+        `).join('');
+      }
+
+      document.getElementById('q-fed').innerHTML = makeListHtml(cachedFeeds.fed);
+      document.getElementById('q-global').innerHTML = makeListHtml(cachedFeeds.global);
+      document.getElementById('q-tech').innerHTML = makeListHtml(cachedFeeds.tech);
+      document.getElementById('q-domestic').innerHTML = makeListHtml(cachedFeeds.domestic);
+    }
+
+    // 탭 전환 핸들러
+    function switchFeedTab(tabKey) {
+      document.querySelectorAll('.feed-tab').forEach(b => b.classList.remove('active'));
+      event.target.classList.add('active');
+
+      const qView = document.getElementById('quadrant-view');
+      const sView = document.getElementById('single-view');
+      const sList = document.getElementById('single-list');
+      const note = document.getElementById('feed-source-note');
+
+      if (tabKey === 'all') {
+        qView.style.display = 'grid';
+        sView.style.display = 'none';
+        note.innerText = '실시간 4대 기관 RSS 스트림 통합';
+      } else {
+        qView.style.display = 'none';
+        sView.style.display = 'flex';
+        const items = cachedFeeds[tabKey] || [];
+        const sourceMap = {
+          fed: '미 연방준비제도(FRB) 공식 성명/연설',
+          global: '마켓워치(MarketWatch) 실시간 속보',
+          tech: '전자신문(ETNews) 테크/반도체',
+          domestic: '연합인포맥스(Infomax) 채권/외환'
+        };
+        note.innerText = `출처: ${sourceMap[tabKey]}`;
+
+        if (items.length === 0) {
+          sList.innerHTML = '<li style="font-size:0.75rem; color:#64748b; padding:10px;">불러올 뉴스가 없습니다.</li>';
+        } else {
+          sList.innerHTML = items.map(item => `
+            <li class="single-list-item">
+              <a href="${item.link}" target="_blank" rel="noopener noreferrer">• ${item.title}</a>
+              <span style="font-size:0.65rem; color:#64748b; font-family:monospace; white-space:nowrap;">${item.date}</span>
+            </li>
+          `).join('');
+        }
       }
     }
 
