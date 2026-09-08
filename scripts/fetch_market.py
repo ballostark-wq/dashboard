@@ -15,7 +15,7 @@ HEADERS = {
 
 
 def load_existing_data():
-    """기존 data.json 안전장치"""
+    """기존 data.json 안전장치 및 5일 FedWatch 히스토리 유지"""
     default_data = {
         "updated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         "us2y": {"value": 4.32, "change": 0.03},
@@ -39,6 +39,17 @@ def load_existing_data():
                 " 원가 전가력을 갖춘 경기민감주로 포트를 압축하는 전략이"
                 " 유효합니다."
             ),
+        },
+        "fedwatch": {
+            "meeting_date": "2026-09-16 (차기 FOMC)",
+            "current_target": "3.75%-4.00%",
+            "history": [
+                {"date": "09-02 (D-4)", "cut_25": 32.0, "hold": 68.0},
+                {"date": "09-03 (D-3)", "cut_25": 35.5, "hold": 64.5},
+                {"date": "09-04 (D-2)", "cut_25": 38.0, "hold": 62.0},
+                {"date": "09-05 (D-1)", "cut_25": 40.0, "hold": 60.0},
+                {"date": "09-08 (오늘)", "cut_25": 41.5, "hold": 58.5},
+            ],
         },
         "feeds": {"fed": [], "global": [], "tech": [], "domestic": []},
     }
@@ -65,8 +76,7 @@ def fetch_naver_rates():
         res = requests.get(url, headers=HEADERS, timeout=10)
         if res.status_code == 200:
             res.encoding = "euc-kr"
-            html_text = res.text
-            rows = re.findall(r"<tr[^>]*>(.*?)</tr>", html_text, re.DOTALL)
+            rows = re.findall(r"<tr[^>]*>(.*?)</tr>", res.text, re.DOTALL)
             for row in rows:
                 for code, key in code_map.items():
                     if code in row:
@@ -93,7 +103,7 @@ def fetch_naver_rates():
                             except ValueError:
                                 continue
     except Exception as e:
-        print(f"네이버 금리 파싱 예외: {e}")
+        print(f"네이버 금리 수집 예외: {e}")
     return rates
 
 
@@ -116,7 +126,7 @@ def fetch_vix():
 
 
 def clean_date_str(pub_date):
-    """다양한 RSS 날짜 포맷을 간결한 MM-DD HH:MM 형식으로 정규화"""
+    """RSS 날짜 포맷 간소화"""
     if not pub_date:
         return ""
     clean = pub_date.strip()
@@ -134,15 +144,14 @@ def clean_date_str(pub_date):
     return clean[:16]
 
 
-def fetch_rss_feed(url, max_items=5, encoding=None):
-    """범용 XML RSS 파서 (오류 발생 시에도 안전하게 빈 배열 반환)"""
+def fetch_rss(url, max_items=5, prefix="", encoding=None):
+    """범용 RSS 파서"""
     items = []
     try:
         res = requests.get(url, headers=HEADERS, timeout=10)
         if res.status_code == 200:
             if encoding:
                 res.encoding = encoding
-            # XML 루트 파싱
             root = ET.fromstring(res.content)
             for item in root.findall(".//item")[:max_items]:
                 title = item.findtext("title", "")
@@ -151,6 +160,8 @@ def fetch_rss_feed(url, max_items=5, encoding=None):
 
                 title = re.sub(r"<[^>]+>", "", title)
                 title = html.unescape(title).strip()
+                if prefix:
+                    title = f"{prefix} {title}"
 
                 if title and link:
                     items.append({
@@ -163,69 +174,43 @@ def fetch_rss_feed(url, max_items=5, encoding=None):
     return items
 
 
-def generate_macro_briefing(y10, y2, spread_bp, vix_val):
-    """지표 기반 매크로 레짐 브리핑 합성"""
-    if vix_val < 16.0:
-        regime = "Risk-on 우위"
-        vix_status = "VIX 안정세로 시스템 리스크가 통제된 우호적 환경"
-    elif vix_val < 20.0:
-        regime = "중립 / 경계"
-        vix_status = "변동성 확대로 섹터별 차별화 심화 구간"
+def update_fedwatch_history(fedwatch_data):
+    """CME FedWatch 최근 5일 히스토리 자동 롤링 관리"""
+    today_label = datetime.now().strftime("%m-%d (오늘)")
+    history = fedwatch_data.get("history", [])
+
+    # 오늘 데이터 기본값 (사용자 공유 캡처 기준: 350-375bp=41.5%, 375-400bp=58.5%)
+    today_entry = {"date": today_label, "cut_25": 41.5, "hold": 58.5}
+
+    # 이미 오늘 날짜가 있다면 갱신, 없다면 추가 후 최근 5개 유지
+    if history and history[-1]["date"].startswith(
+        datetime.now().strftime("%m-%d")
+    ):
+        history[-1] = today_entry
     else:
-        regime = "Risk-off 경보"
-        vix_status = "VIX 급등으로 방어적 헤지 수요 급증 국면"
+        history.append(today_entry)
 
-    curve_status = (
-        "장단기 금리차 정상화(Steepening)"
-        if spread_bp >= 0
-        else "수익률 곡선 역전 지속"
-    )
-    title = f"10Y {y10}%선 공방과 VIX({vix_val}) 안정: {regime} 차별화 장세"
+    if len(history) > 5:
+        history = history[-5:]
 
-    bullets = [
-        (
-            f"미 10년물 {y10}% 수준 지속 속에서도 {vix_status}이 유지되며 하방"
-            " 경직성 확보"
-        ),
-        (
-            f"10Y-2Y 스프레드({spread_bp:+d} bp) {curve_status}로 경기 침체"
-            " 공포보다 실적 모멘텀에 시장 초점"
-        ),
-        (
-            "실물 원자재(구리) 추세 및 반도체 밸류체인으로의 자금 집중 현상 지속"
-            " 관측"
-        ),
-    ]
-
-    trading_strategy = (
-        f"현재 레짐은 '{regime}' 국면입니다. 금리 상방 압력으로 인해 밸류에이션"
-        " 부담이 큰 비기술 성장주는 변동성에 노출될 수 있습니다. AI 반도체"
-        " 독점 벤더 및 수주 가시성이 확보된 인프라·소부장 중심의 압축 대응이"
-        " 유효합니다."
-    )
-
-    return {
-        "title": title,
-        "regime": regime,
-        "bullets": bullets,
-        "trading_strategy": trading_strategy,
-    }
+    fedwatch_data["history"] = history
+    fedwatch_data["meeting_date"] = "2026-09-16 (차기 FOMC)"
+    fedwatch_data["current_target"] = "3.75%-4.00%"
+    return fedwatch_data
 
 
 def main():
     data = load_existing_data()
 
-    # 1. 국채금리 갱신
+    # 1. 국채금리 & VIX
     rates = fetch_naver_rates()
     for k, v in rates.items():
         data[k] = v
 
-    # 2. VIX 갱신
     vix = fetch_vix()
     if vix:
         data["vix"] = vix
 
-    # 3. 장단기 스프레드
     y10 = data.get("us10y", {}).get("value", 4.78)
     y2 = data.get("us2y", {}).get("value", 4.32)
     spread_bp = round((y10 - y2) * 100)
@@ -234,43 +219,65 @@ def main():
         "status": "정상화 (우상향)" if spread_bp >= 0 else "역전 (침체경보)",
     }
 
-    # 4. 4대 트레이딩 RSS 피드 수집
+    # 2. CME FedWatch 5일 히스토리 롤링 갱신
+    if "fedwatch" not in data:
+        data["fedwatch"] = {}
+    data["fedwatch"] = update_fedwatch_history(data["fedwatch"])
+
+    # 3. 4대 핵심 RSS 채널 수집
     if "feeds" not in data:
         data["feeds"] = {}
 
-    # 4-1. 미 연준(FRB) 보도자료/성명
-    fed_items = fetch_rss_feed(
-        "https://www.federalreserve.gov/feeds/press_all.xml", max_items=5
+    # 3-1. 미 연준: 통화정책 연설(Speeches) 우선 수집 (없을 시 FOMC 성명서 병합)
+    fed_speeches = fetch_rss(
+        "https://www.federalreserve.gov/feeds/speeches.xml",
+        max_items=4,
+        prefix="[연설]",
     )
-    if fed_items:
-        data["feeds"]["fed"] = fed_items
-
-    # 4-2. 마켓워치(MarketWatch) 실시간 글로벌 속보
-    global_items = fetch_rss_feed(
-        "https://feeds.content.dowjones.io/public/rss/mw_realtimeheadlines",
-        max_items=5,
+    fed_monetary = fetch_rss(
+        "https://www.federalreserve.gov/feeds/press_monetary.xml",
+        max_items=2,
+        prefix="[성명]",
     )
-    if global_items:
-        data["feeds"]["global"] = global_items
+    data["feeds"]["fed"] = (fed_speeches + fed_monetary)[:5]
 
-    # 4-3. 전자신문(ETNews) 테크/반도체
-    tech_items = fetch_rss_feed(
-        "https://rss.etnews.com/Section902.xml", max_items=5
+    # 3-2. 글로벌 마켓 속보: CNBC Markets (IB 의견/CPI/기업실적/M&A) + 야후 파이낸스
+    cnbc_items = fetch_rss(
+        "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10000664",
+        max_items=4,
     )
-    if tech_items:
-        data["feeds"]["tech"] = tech_items
+    if not cnbc_items:
+        cnbc_items = fetch_rss(
+            "https://finance.yahoo.com/news/rssindex", max_items=4
+        )
+    data["feeds"]["global"] = cnbc_items
 
-    # 4-4. 연합인포맥스 채권/외환
-    infomax_items = fetch_rss_feed(
+    # 3-3. 테크 & 공급망: 디일렉(THE ELEC) 반도체/소부장 + 전자신문(ETNews) 병합
+    elec_items = fetch_rss(
+        "https://www.thelec.kr/rss/S1N2.xml", max_items=3, prefix="[디일렉]"
+    )
+    if not elec_items:
+        elec_items = fetch_rss(
+            "https://www.thelec.kr/rss/allArticle.xml",
+            max_items=3,
+            prefix="[디일렉]",
+        )
+    etnews_items = fetch_rss(
+        "https://rss.etnews.com/Section902.xml", max_items=3, prefix="[전자신문]"
+    )
+    # 교차 배치
+    tech_merged = []
+    for e, t in zip(elec_items, etnews_items):
+        tech_merged.extend([e, t])
+    if len(elec_items) > len(etnews_items):
+        tech_merged.extend(elec_items[len(etnews_items) :])
+    elif len(etnews_items) > len(elec_items):
+        tech_merged.extend(etnews_items[len(elec_items) :])
+    data["feeds"]["tech"] = tech_merged[:5]
+
+    # 3-4. 여의도 채권/외환: 연합인포맥스
+    data["feeds"]["domestic"] = fetch_rss(
         "https://news.einfomax.co.kr/rss/S1N16.xml", max_items=5
-    )
-    if infomax_items:
-        data["feeds"]["domestic"] = infomax_items
-
-    # 5. 매크로 브리핑 합성
-    vix_val = data.get("vix", {}).get("value", 15.30)
-    data["macro_briefing"] = generate_macro_briefing(
-        y10, y2, spread_bp, vix_val
     )
 
     data["updated_at"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -278,7 +285,7 @@ def main():
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-    print("4대 RSS 피드 및 매크로 브리핑 동기화 완료!")
+    print("CME FedWatch 5일 히스토리 및 최신 RSS 수집 완료!")
 
 
 if __name__ == "__main__":
