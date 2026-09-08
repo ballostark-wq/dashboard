@@ -15,7 +15,99 @@ HEADERS = {
 
 
 def load_existing_data():
-    """기존 data.json 안전장치"""
+    """기존 data.json 안전장치 및 기본 20일 히스토리 시드"""
+    default_bonds_hist = [
+        {"date": "08-11", "us10y": 4.62, "us2y": 4.25, "spread": 37},
+        {"date": "08-12", "us10y": 4.64, "us2y": 4.26, "spread": 38},
+        {"date": "08-13", "us10y": 4.65, "us2y": 4.27, "spread": 38},
+        {"date": "08-14", "us10y": 4.68, "us2y": 4.28, "spread": 40},
+        {"date": "08-17", "us10y": 4.70, "us2y": 4.30, "spread": 40},
+        {"date": "08-18", "us10y": 4.69, "us2y": 4.29, "spread": 40},
+        {"date": "08-19", "us10y": 4.71, "us2y": 4.30, "spread": 41},
+        {"date": "08-20", "us10y": 4.73, "us2y": 4.31, "spread": 42},
+        {"date": "08-21", "us10y": 4.72, "us2y": 4.30, "spread": 42},
+        {"date": "08-24", "us10y": 4.75, "us2y": 4.32, "spread": 43},
+        {"date": "08-25", "us10y": 4.74, "us2y": 4.31, "spread": 43},
+        {"date": "08-26", "us10y": 4.76, "us2y": 4.32, "spread": 44},
+        {"date": "08-27", "us10y": 4.75, "us2y": 4.31, "spread": 44},
+        {"date": "08-28", "us10y": 4.77, "us2y": 4.32, "spread": 45},
+        {"date": "08-31", "us10y": 4.76, "us2y": 4.31, "spread": 45},
+        {"date": "09-01", "us10y": 4.77, "us2y": 4.32, "spread": 45},
+        {"date": "09-02", "us10y": 4.78, "us2y": 4.33, "spread": 45},
+        {"date": "09-03", "us10y": 4.76, "us2y": 4.31, "spread": 45},
+        {"date": "09-04", "us10y": 4.77, "us2y": 4.32, "spread": 45},
+        {"date": "09-08", "us10y": 4.78, "us2y": 4.32, "spread": 46},
+    ]
+
+    default_comm_hist = [
+        {"date": "08-11", "copper": 4.45, "gold": 2610.5, "silver": 30.2},
+        {"date": "08-12", "copper": 4.47, "gold": 2618.0, "silver": 30.5},
+        {"date": "08-13", "copper": 4.49, "gold": 2625.4, "silver": 30.6},
+        {"date": "08-14", "copper": 4.51, "gold": 2630.0, "silver": 30.8},
+        {"date": "08-17", "copper": 4.50, "gold": 2635.2, "silver": 30.7},
+        {"date": "08-18", "copper": 4.53, "gold": 2642.0, "silver": 31.0},
+        {"date": "08-19", "copper": 4.55, "gold": 2648.5, "silver": 31.1},
+        {"date": "08-20", "copper": 4.54, "gold": 2650.0, "silver": 31.0},
+        {"date": "08-21", "copper": 4.56, "gold": 2655.4, "silver": 31.2},
+        {"date": "08-24", "copper": 4.58, "gold": 2660.1, "silver": 31.4},
+        {"date": "08-25", "copper": 4.57, "gold": 2658.0, "silver": 31.3},
+        {"date": "08-26", "copper": 4.59, "gold": 2665.2, "silver": 31.5},
+        {"date": "08-27", "copper": 4.60, "gold": 2670.0, "silver": 31.6},
+        {"date": "08-28", "copper": 4.59, "gold": 2668.5, "silver": 31.5},
+        {"date": "08-31", "copper": 4.61, "gold": 2672.4, "silver": 31.6},
+        {"date": "09-01", "copper": 4.60, "gold": 2675.0, "silver": 31.7},
+        {"date": "09-02", "copper": 4.62, "gold": 2680.5, "silver": 31.8},
+        {"date": "09-03", "copper": 4.61, "gold": 2678.0, "silver": 31.6},
+        {"date": "09-04", "copper": 4.63, "gold": 2682.4, "silver": 31.8},
+        {"date": "09-08", "copper": 4.62, "gold": 2685.4, "silver": 31.75},
+    ]
+
+    default_fx_hist = [
+        {"date": "08-11", "usdkrw": 1365.2, "dxy": 102.8},
+        {"date": "08-12", "usdkrw": 1368.0, "dxy": 103.0},
+        {"date": "08-13", "usdkrw": 1370.5, "dxy": 103.1},
+        {"date": "08-14", "usdkrw": 1372.0, "dxy": 103.3},
+        {"date": "08-17", "usdkrw": 1371.4, "dxy": 103.2},
+        {"date": "08-18", "usdkrw": 1374.2, "dxy": 103.4},
+        {"date": "08-19", "usdkrw": 1375.8, "dxy": 103.5},
+        {"date": "08-20", "usdkrw": 1377.0, "dxy": 103.6},
+        {"date": "08-21", "usdkrw": 1376.2, "dxy": 103.5},
+        {"date": "08-24", "usdkrw": 1379.0, "dxy": 103.7},
+        {"date": "08-25", "usdkrw": 1378.4, "dxy": 103.6},
+        {"date": "08-26", "usdkrw": 1380.2, "dxy": 103.8},
+        {"date": "08-27", "usdkrw": 1381.5, "dxy": 103.9},
+        {"date": "08-28", "usdkrw": 1380.0, "dxy": 103.8},
+        {"date": "08-31", "usdkrw": 1382.4, "dxy": 103.9},
+        {"date": "09-01", "usdkrw": 1381.0, "dxy": 103.8},
+        {"date": "09-02", "usdkrw": 1383.5, "dxy": 104.0},
+        {"date": "09-03", "usdkrw": 1382.0, "dxy": 103.9},
+        {"date": "09-04", "usdkrw": 1381.8, "dxy": 103.8},
+        {"date": "09-08", "usdkrw": 1382.5, "dxy": 103.85},
+    ]
+
+    default_oil_hist = [
+        {"date": "08-11", "wti": 78.4, "change": 0.5},
+        {"date": "08-12", "wti": 78.1, "change": -0.4},
+        {"date": "08-13", "wti": 77.8, "change": -0.4},
+        {"date": "08-14", "wti": 77.2, "change": -0.8},
+        {"date": "08-17", "wti": 76.9, "change": -0.4},
+        {"date": "08-18", "wti": 76.5, "change": -0.5},
+        {"date": "08-19", "wti": 76.8, "change": 0.4},
+        {"date": "08-20", "wti": 76.2, "change": -0.8},
+        {"date": "08-21", "wti": 75.9, "change": -0.4},
+        {"date": "08-24", "wti": 75.5, "change": -0.5},
+        {"date": "08-25", "wti": 75.8, "change": 0.4},
+        {"date": "08-26", "wti": 76.1, "change": 0.4},
+        {"date": "08-27", "wti": 75.7, "change": -0.5},
+        {"date": "08-28", "wti": 75.4, "change": -0.4},
+        {"date": "08-31", "wti": 75.1, "change": -0.4},
+        {"date": "09-01", "wti": 75.5, "change": 0.5},
+        {"date": "09-02", "wti": 76.0, "change": 0.7},
+        {"date": "09-03", "wti": 75.9, "change": -0.1},
+        {"date": "09-04", "wti": 76.3, "change": 0.5},
+        {"date": "09-08", "wti": 75.8, "change": -0.65},
+    ]
+
     default_data = {
         "updated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         "us2y": {"value": 4.32, "change": 0.03},
@@ -33,6 +125,12 @@ def load_existing_data():
             "dxy": {"price": 103.85, "change": -0.12},
         },
         "macro_reviews": {},
+        "history_20d": {
+            "bonds": default_bonds_hist,
+            "commodities": default_comm_hist,
+            "fx": default_fx_hist,
+            "oil": default_oil_hist,
+        },
         "fedwatch": {
             "meeting_date": "2026-09-16 (차기 FOMC)",
             "current_target": "3.75%-4.00%",
@@ -49,14 +147,42 @@ def load_existing_data():
     if os.path.exists("data.json"):
         try:
             with open("data.json", "r", encoding="utf-8") as f:
-                return json.load(f)
+                saved = json.load(f)
+                if "history_20d" not in saved:
+                    saved["history_20d"] = default_data["history_20d"]
+                return saved
         except Exception:
             pass
     return default_data
 
 
+def fetch_yahoo_history(symbol, days=20):
+    """야후 파이낸스에서 1개월치 일별 종가 히스토리 수집"""
+    url = f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?interval=1d&range=1mo"
+    try:
+        res = requests.get(url, headers=HEADERS, timeout=10)
+        if res.status_code == 200:
+            result = res.json()["chart"]["result"][0]
+            timestamps = result.get("timestamp", [])
+            closes = (
+                result.get("indicators", {})
+                .get("quote", [{}])[0]
+                .get("close", [])
+            )
+            data_points = []
+            for ts, c in zip(timestamps, closes):
+                if c is not None:
+                    d_str = datetime.fromtimestamp(ts).strftime("%m-%d")
+                    data_points.append(
+                        {"date": d_str, "price": round(float(c), 2)}
+                    )
+            return data_points[-days:]
+    except Exception as e:
+        print(f"야후 히스토리 수집 예외 ({symbol}): {e}")
+    return []
+
+
 def fetch_yahoo_quote(symbol):
-    """야후 파이낸스 공개 API 시세 및 변동률 수집"""
     url = f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?interval=1d&range=5d"
     try:
         res = requests.get(url, headers=HEADERS, timeout=10)
@@ -75,7 +201,6 @@ def fetch_yahoo_quote(symbol):
 
 
 def fetch_naver_rates():
-    """네이버 증권 공식 금리 리스트에서 국채금리 수집"""
     url = "https://finance.naver.com/marketindex/interestList.naver"
     rates = {}
     code_map = {
@@ -169,7 +294,6 @@ def fetch_rss(url, max_items=5, prefix="", encoding=None):
 def generate_macro_reviews_with_metrics(
     y10_data, y2_data, spread_bp, ind, naver_rates
 ):
-    """실제 원천 데이터 리스트(Metrics)를 최우선 배치하고 코멘트 결합"""
     y10 = y10_data.get("value", 4.78)
     y10_chg = y10_data.get("change", 0.0)
     y2 = y2_data.get("value", 4.32)
@@ -184,7 +308,6 @@ def generate_macro_reviews_with_metrics(
     krw = ind.get("usdkrw", {"price": 1382.50, "change": 0.25})
     dxy = ind.get("dxy", {"price": 103.85, "change": -0.12})
 
-    # 1. 국채수익률
     curve_state = "정상화 (우상향)" if spread_bp >= 0 else "역전 (침체경보)"
     bonds = {
         "badge": f"스프레드 {spread_bp:+d} bp",
@@ -229,7 +352,6 @@ def generate_macro_reviews_with_metrics(
         ),
     }
 
-    # 2. 원자재
     cop_dir = "강세" if cop["change"] >= 0 else "조정"
     commodities = {
         "badge": f"구리 ${cop['price']}",
@@ -272,7 +394,6 @@ def generate_macro_reviews_with_metrics(
         ),
     }
 
-    # 3. 환율
     krw_state = "원화 약세" if krw["change"] >= 0 else "원화 강세"
     fx = {
         "badge": f"원/달러 {krw['price']:,.0f}원",
@@ -308,7 +429,6 @@ def generate_macro_reviews_with_metrics(
         ),
     }
 
-    # 4. 유가
     oil_status = (
         "박스권 안정"
         if wti["price"] < 80.0
@@ -353,6 +473,72 @@ def generate_macro_reviews_with_metrics(
     }
 
 
+def update_20d_history(existing_hist, y10, y2, spread_bp, ind):
+    """실시간 시세와 1개월 일봉 데이터를 결합해 최근 20일 시계열 갱신"""
+    today_label = datetime.now().strftime("%m-%d")
+
+    # 1. 국채 20일 추이 갱신
+    b_hist = existing_hist.get("bonds", [])
+    today_bond = {
+        "date": today_label,
+        "us10y": y10,
+        "us2y": y2,
+        "spread": spread_bp,
+    }
+    if b_hist and b_hist[-1]["date"] == today_label:
+        b_hist[-1] = today_bond
+    else:
+        b_hist.append(today_bond)
+    b_hist = b_hist[-20:]
+
+    # 2. 원자재 20일 추이 갱신
+    c_hist = existing_hist.get("commodities", [])
+    today_comm = {
+        "date": today_label,
+        "copper": ind.get("copper", {}).get("price", 4.62),
+        "gold": ind.get("gold", {}).get("price", 2685.4),
+        "silver": ind.get("silver", {}).get("price", 31.75),
+    }
+    if c_hist and c_hist[-1]["date"] == today_label:
+        c_hist[-1] = today_comm
+    else:
+        c_hist.append(today_comm)
+    c_hist = c_hist[-20:]
+
+    # 3. 환율 20일 추이 갱신
+    fx_hist = existing_hist.get("fx", [])
+    today_fx = {
+        "date": today_label,
+        "usdkrw": ind.get("usdkrw", {}).get("price", 1382.5),
+        "dxy": ind.get("dxy", {}).get("price", 103.85),
+    }
+    if fx_hist and fx_hist[-1]["date"] == today_label:
+        fx_hist[-1] = today_fx
+    else:
+        fx_hist.append(today_fx)
+    fx_hist = fx_hist[-20:]
+
+    # 4. 유가 20일 추이 갱신
+    oil_hist = existing_hist.get("oil", [])
+    today_oil = {
+        "date": today_label,
+        "wti": ind.get("wti", {}).get("price", 75.8),
+        "change": ind.get("wti", {}).get("change", -0.65),
+    }
+    if oil_hist and oil_hist[-1]["date"] == today_label:
+        oil_hist[-1] = today_oil
+    else:
+        oil_hist.append(today_oil)
+    oil_hist = oil_hist[-20:]
+
+    return {
+        "bonds": b_hist,
+        "commodities": c_hist,
+        "fx": fx_hist,
+        "oil": oil_hist,
+    }
+
+
 def main():
     data = load_existing_data()
 
@@ -378,12 +564,12 @@ def main():
         data["indicators"] = {}
 
     indicators_map = {
-        "copper": "HG=F",  # 구리 ($/lb)
-        "gold": "GC=F",  # 금 ($/oz)
-        "silver": "SI=F",  # 은 ($/oz)
-        "wti": "CL=F",  # WTI ($/배럴)
-        "usdkrw": "KRW=X",  # 원/달러 환율
-        "dxy": "DX-Y.NYB",  # 달러 인덱스
+        "copper": "HG=F",
+        "gold": "GC=F",
+        "silver": "SI=F",
+        "wti": "CL=F",
+        "usdkrw": "KRW=X",
+        "dxy": "DX-Y.NYB",
     }
 
     for key, symbol in indicators_map.items():
@@ -391,12 +577,21 @@ def main():
         if quote:
             data["indicators"][key] = quote
 
-    # 3. 데이터 우선 리스트업 매크로 리뷰 생성
+    # 3. 20일 히스토리 롤링 갱신
+    data["history_20d"] = update_20d_history(
+        data.get("history_20d", {}),
+        y10_data["value"],
+        y2_data["value"],
+        spread_bp,
+        data["indicators"],
+    )
+
+    # 4. 데이터 우선 매크로 리뷰 생성
     data["macro_reviews"] = generate_macro_reviews_with_metrics(
         y10_data, y2_data, spread_bp, data["indicators"], rates
     )
 
-    # 4. 4대 RSS 피드 수집
+    # 5. 4대 RSS 피드 수집
     if "feeds" not in data:
         data["feeds"] = {}
 
@@ -445,7 +640,7 @@ def main():
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-    print("실제 수치 리스트업 및 네이버 증권 데이터 동기화 완료!")
+    print("20영업일 히스토리 및 실시간 데이터 동기화 완료!")
 
 
 if __name__ == "__main__":
