@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08 12:08:12",
+  "updated_at": "2026-09-08 12:49:18",
   "us2y": {
     "value": 4.37,
     "change": -0.29
@@ -21,8 +21,8 @@
     "status": "정상화 (우상향)"
   },
   "vix": {
-    "value": 15.73,
-    "change": 2.81
+    "value": 15.55,
+    "change": 1.63
   },
   "tech_news": [
     {
@@ -98,7 +98,7 @@
       {
         "title": "Stocks making the biggest moves premarket: Peloton Interactive, Roivant Sciences, Boston Scientific & more",
         "link": "https://www.cnbc.com/2026/09/08/stocks-making-the-biggest-moves-premarket-pton-roiv-bsx.html",
-        "date": "09-08 11:13"
+        "date": "09-08 12:08"
       },
       {
         "title": "Crypto platforms have lost over $3.63 billion to cyberattacks — even though most of them did security checks",
@@ -223,83 +223,83 @@
       "detail": "10Y-2Y 스프레드가 +42 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.83",
-      "title": "닥터 코퍼 $6.83선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.82",
+      "title": "닥터 코퍼 $6.82선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.83",
-          "chg": "+3.48%",
+          "val": "$6.82",
+          "chg": "+3.33%",
           "up": true
         },
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,447.1",
-          "chg": "+0.39%",
+          "val": "$4,443.8",
+          "chg": "+0.32%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$66.82",
-          "chg": "+1.17%",
+          "val": "$66.85",
+          "chg": "+1.21%",
           "up": true
         }
       ],
       "bullets": [
-        "구리 $6.83/lb (+3.48%) - AI 전력망 설비 수요 반영",
-        "금 $4,447/oz, 은 $66.82/oz - 통화가치 헤지"
+        "구리 $6.82/lb (+3.33%) - AI 전력망 설비 수요 반영",
+        "금 $4,444/oz, 은 $66.85/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,342원 | 엔/달러 ¥154.3",
-      "title": "원/달러 1,341.6원선과 엔/달러 ¥154.3",
+      "badge": "원/달러 1,341원 | 엔/달러 ¥153.9",
+      "title": "원/달러 1,341.4원선과 엔/달러 ¥153.9",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,341.6원",
-          "chg": "-0.26%",
+          "val": "1,341.4원",
+          "chg": "-0.27%",
           "up": false
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "98.97pt",
-          "chg": "-0.19%",
+          "val": "98.90pt",
+          "chg": "-0.26%",
           "up": false
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥154.27",
-          "chg": "-1.24%",
+          "val": "¥153.86",
+          "chg": "-1.50%",
           "up": false
         }
       ],
       "bullets": [
-        "달러 인덱스 98.97pt - 미국 성장 우위 지속",
-        "엔/달러 154.27엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 98.9pt - 미국 성장 우위 지속",
+        "엔/달러 153.86엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $93.74",
-      "title": "WTI 배럴당 $93.74선 박스권 안정",
+      "badge": "WTI $93.39",
+      "title": "WTI 배럴당 $93.39선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$93.74",
-          "chg": "+2.47%",
+          "val": "$93.39",
+          "chg": "+2.09%",
           "up": true
         }
       ],
       "bullets": [
-        "WTI 선물 $93.74/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $93.39/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -307,32 +307,32 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.83,
-      "change": 3.48
+      "price": 6.82,
+      "change": 3.33
     },
     "gold": {
-      "price": 4447.1,
-      "change": 0.39
+      "price": 4443.8,
+      "change": 0.32
     },
     "silver": {
-      "price": 66.82,
-      "change": 1.17
+      "price": 66.85,
+      "change": 1.21
     },
     "wti": {
-      "price": 93.74,
-      "change": 2.47
+      "price": 93.39,
+      "change": 2.09
     },
     "usdkrw": {
-      "price": 1341.57,
-      "change": -0.26
+      "price": 1341.37,
+      "change": -0.27
     },
     "dxy": {
-      "price": 98.97,
-      "change": -0.19
+      "price": 98.9,
+      "change": -0.26
     },
     "usdjpy": {
-      "price": 154.27,
-      "change": -1.24
+      "price": 153.86,
+      "change": -1.5
     }
   },
   "history_20d": {
@@ -595,9 +595,9 @@
       },
       {
         "date": "09-08",
-        "copper": 6.83,
-        "gold": 4447.1,
-        "silver": 66.82
+        "copper": 6.82,
+        "gold": 4443.8,
+        "silver": 66.85
       }
     ],
     "fx": [
@@ -717,9 +717,9 @@
       },
       {
         "date": "09-08",
-        "usdkrw": 1341.57,
-        "dxy": 98.97,
-        "usdjpy": 154.27
+        "usdkrw": 1341.37,
+        "dxy": 98.9,
+        "usdjpy": 153.86
       }
     ],
     "oil": [
@@ -820,8 +820,8 @@
       },
       {
         "date": "09-08",
-        "wti": 93.74,
-        "change": 2.47
+        "wti": 93.39,
+        "change": 2.09
       }
     ]
   },
