@@ -92,7 +92,7 @@
       overflow: hidden;
     }
 
-    /* 메인 벤토 그리드 */
+    /* 메인 그리드 */
     .dashboard-grid {
       display: grid;
       grid-template-columns: repeat(6, 1fr);
@@ -205,10 +205,11 @@
       color: #38bdf8;
     }
 
+    /* 클릭 가능한 실제 데이터 칩 */
     .metric-strip {
       display: flex;
       flex-wrap: wrap;
-      gap: 4px;
+      gap: 5px;
       background: rgba(15, 23, 42, 0.7);
       border: 1px solid rgba(255, 255, 255, 0.05);
       border-radius: 6px;
@@ -220,10 +221,23 @@
       align-items: center;
       gap: 4px;
       font-size: 0.66rem;
-      padding: 2px 5px;
+      padding: 3px 6px;
       border-radius: 4px;
       background: #020617;
       border: 1px solid #334155;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      user-select: none;
+    }
+    .metric-chip:hover {
+      border-color: #38bdf8;
+      background: rgba(56, 189, 248, 0.1);
+      transform: translateY(-1px);
+    }
+    .metric-chip.active {
+      border-color: #38bdf8;
+      background: rgba(56, 189, 248, 0.25);
+      box-shadow: 0 0 8px rgba(56, 189, 248, 0.4);
     }
     .metric-chip-name { color: #94a3b8; font-weight: 600; }
     .metric-chip-val { color: #f8fafc; font-weight: 800; font-family: monospace; }
@@ -276,7 +290,7 @@
     .card-history { grid-column: span 2; cursor: pointer; }
     .card-history .card-tag { background: rgba(168, 85, 247, 0.2); color: #d8b4fe; }
 
-    /* SVG 미니 트렌드 차트 컨테이너 */
+    /* SVG 트렌드 차트 컨테이너 */
     .sparkline-card {
       background: #020617;
       border: 1px solid #1e293b;
@@ -289,13 +303,13 @@
       justify-content: space-between;
       align-items: center;
       margin-bottom: 6px;
-      font-size: 0.72rem;
+      font-size: 0.74rem;
       font-weight: 700;
       color: #94a3b8;
     }
     .sparkline-svg {
       width: 100%;
-      height: 100px;
+      height: 105px;
       overflow: visible;
     }
 
@@ -305,7 +319,7 @@
       border: 1px solid #1e293b;
       border-radius: 8px;
       margin: 12px 0;
-      max-height: 200px;
+      max-height: 190px;
       overflow-y: auto;
     }
     .hist-table {
@@ -344,7 +358,6 @@
       .quadrant-grid { grid-template-columns: 1fr; }
     }
 
-    /* 서랍 */
     .drawer {
       position: fixed; top: 0; right: 0; width: 100%; max-width: 580px; height: 100%;
       background: #0b1329; border-left: 1px solid #1e293b; box-shadow: -10px 0 30px rgba(0,0,0,0.7);
@@ -353,7 +366,7 @@
     }
     .drawer.open { transform: translateX(0); }
     .drawer-content-scroll { overflow-y: auto; flex-grow: 1; padding-right: 6px; }
-    .drawer-header { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #1e293b; padding-bottom: 12px; margin-bottom: 14px; }
+    .drawer-header { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #1e293b; padding-bottom: 12px; margin-bottom: 12px; }
     .close-btn { background: none; border: none; color: #94a3b8; font-size: 1.5rem; cursor: pointer; }
     .overlay { position: fixed; inset: 0; background: rgba(0, 0, 0, 0.65); backdrop-filter: blur(2px); z-index: 90; display: none; }
     .overlay.show { display: block; }
@@ -366,7 +379,7 @@
       <span style="font-size: 1.4rem;">📊</span>
       <div>
         <h1>글로벌 매크로 레짐 & 테크 인텔리전스</h1>
-        <p>네이버 증권 시장지표 연동 · 20영업일 SVG 트렌드 차트 · CME FedWatch</p>
+        <p>네이버 증권 연동 · 인터랙티브 20일 자산별 트렌드 차트 · 엔/달러(JPY) 추가</p>
       </div>
     </div>
     <div class="header-status">
@@ -429,10 +442,11 @@
           { "description": "나스닥 100", "proName": "FOREXCOM:NAS100" },
           { "description": "S&P 500", "proName": "FOREXCOM:SPXUSD" },
           { "description": "달러 인덱스", "proName": "CAPITALCOM:DXY" },
+          { "description": "원/달러", "proName": "FX_IDC:USDKRW" },
+          { "description": "엔/달러", "proName": "FX_IDC:USDJPY" },
           { "description": "구리 (Copper)", "proName": "CAPITALCOM:COPPER" },
           { "description": "금 (Gold)", "proName": "TVC:GOLD" },
-          { "description": "WTI 원유", "proName": "TVC:USOIL" },
-          { "description": "비트코인", "proName": "BINANCE:BTCUSDT" }
+          { "description": "WTI 원유", "proName": "TVC:USOIL" }
         ],
         "showSymbolLogo": true,
         "isTransparent": true,
@@ -465,14 +479,12 @@
 
         <div id="macro-quadrant-view" class="quadrant-grid">
           <!-- 1. 국채수익률 -->
-          <div class="quadrant-box" onclick="openDrawer('macro_bonds')">
+          <div class="quadrant-box" onclick="openDrawer('macro_bonds', 'spread')">
             <div class="quadrant-title">
               <span>🏛️ 1. 국채수익률</span>
               <span class="m-badge" id="mbadge-bonds">동기화 중</span>
             </div>
-            <div class="metric-strip" id="mstrip-bonds">
-              <span style="font-size:0.65rem; color:#64748b;">데이터 로딩 중...</span>
-            </div>
+            <div class="metric-strip" id="mstrip-bonds"></div>
             <div class="m-headline" id="mtitle-bonds">국채 수익률 곡선 분석</div>
             <ul class="m-bullets" id="mbullets-bonds">
               <li>실시간 금리 지표를 로드하고 있습니다.</li>
@@ -480,14 +492,12 @@
           </div>
 
           <!-- 2. 원자재 -->
-          <div class="quadrant-box" onclick="openDrawer('macro_commodities')">
+          <div class="quadrant-box" onclick="openDrawer('macro_commodities', 'copper')">
             <div class="quadrant-title">
               <span>🪙 2. 원자재 (금·은·동)</span>
               <span class="m-badge" id="mbadge-commodities" style="color:#fbbf24; background:rgba(251,191,36,0.15);">동기화 중</span>
             </div>
-            <div class="metric-strip" id="mstrip-commodities">
-              <span style="font-size:0.65rem; color:#64748b;">데이터 로딩 중...</span>
-            </div>
+            <div class="metric-strip" id="mstrip-commodities"></div>
             <div class="m-headline" id="mtitle-commodities">구리·금·은 실물 시세 분석</div>
             <ul class="m-bullets" id="mbullets-commodities">
               <li>실시간 시세를 분석하고 있습니다.</li>
@@ -495,29 +505,25 @@
           </div>
 
           <!-- 3. 환율 -->
-          <div class="quadrant-box" onclick="openDrawer('macro_fx')">
+          <div class="quadrant-box" onclick="openDrawer('macro_fx', 'usdkrw')">
             <div class="quadrant-title">
               <span>💵 3. 환율 (FX)</span>
               <span class="m-badge" id="mbadge-fx" style="color:#34d399; background:rgba(52,211,153,0.15);">동기화 중</span>
             </div>
-            <div class="metric-strip" id="mstrip-fx">
-              <span style="font-size:0.65rem; color:#64748b;">데이터 로딩 중...</span>
-            </div>
-            <div class="m-headline" id="mtitle-fx">원/달러 및 달러인덱스 분석</div>
+            <div class="metric-strip" id="mstrip-fx"></div>
+            <div class="m-headline" id="mtitle-fx">원/달러, 엔/달러, DXY 분석</div>
             <ul class="m-bullets" id="mbullets-fx">
               <li>환율 변동치를 분석하고 있습니다.</li>
             </ul>
           </div>
 
           <!-- 4. 유가 -->
-          <div class="quadrant-box" onclick="openDrawer('macro_oil')">
+          <div class="quadrant-box" onclick="openDrawer('macro_oil', 'wti')">
             <div class="quadrant-title">
               <span>🛢️ 4. 유가 & 에너지</span>
               <span class="m-badge" id="mbadge-oil" style="color:#f43f5e; background:rgba(244,63,94,0.15);">동기화 중</span>
             </div>
-            <div class="metric-strip" id="mstrip-oil">
-              <span style="font-size:0.65rem; color:#64748b;">데이터 로딩 중...</span>
-            </div>
+            <div class="metric-strip" id="mstrip-oil"></div>
             <div class="m-headline" id="mtitle-oil">WTI 유가 및 정제마진 분석</div>
             <ul class="m-bullets" id="mbullets-oil">
               <li>유가 시세를 분석하고 있습니다.</li>
@@ -531,7 +537,7 @@
       </div>
       <div class="card-footer">
         <span>출처: 네이버 증권 시장지표 & 야후 선물</span>
-        <span style="color:#34d399; cursor:pointer;" onclick="openDrawer('macro_bonds')">영역 클릭 시 20일 트렌드 차트 &rarr;</span>
+        <span style="color:#34d399; cursor:pointer;" onclick="openDrawer('macro_bonds', 'spread')">각 칩 클릭 시 해당 차트 전환 &rarr;</span>
       </div>
     </div>
 
@@ -588,7 +594,7 @@
       </div>
     </div>
 
-    <!-- 타일 3: 인사이트 퀴즈 -->
+    <!-- 타일 3: 데일리 퀴즈 -->
     <div class="card card-quiz">
       <div>
         <div style="display: flex; justify-content: space-between;">
@@ -608,7 +614,7 @@
       <button class="quiz-btn" onclick="toggleQuiz()" id="quiz-btn">정답 및 해설 확인하기</button>
     </div>
 
-    <!-- 타일 4: 실전 비즈니스 회화 -->
+    <!-- 타일 4: 마켓 표현 -->
     <div class="card card-language" onclick="openDrawer('language')">
       <div>
         <span class="card-tag">🗣️ 실전 마켓 표현</span>
@@ -641,19 +647,22 @@
 
   </main>
 
-  <!-- 상세 서랍 (데이터 칩 + SVG 트렌드 차트 + 20영업일 히스토리) -->
+  <!-- 상세 서랍 -->
   <aside id="drawer" class="drawer">
     <div class="drawer-content-scroll">
       <div class="drawer-header">
         <span id="drawer-tag" class="card-tag" style="background:#1e293b; color:#e2e8f0; margin-bottom:0;"></span>
         <button class="close-btn" onclick="closeDrawer()">&times;</button>
       </div>
-      <h2 id="drawer-title" style="font-size: 1.15rem; font-weight: 700; margin-bottom: 12px; color:#fff;"></h2>
+      <h2 id="drawer-title" style="font-size: 1.15rem; font-weight: 700; margin-bottom: 8px; color:#fff;"></h2>
       
-      <!-- 서랍 상단 실시간 데이터 칩 -->
+      <!-- 서랍 상단: 클릭 시 차트가 바뀌는 상호작용 칩 바 -->
+      <div style="margin-bottom: 6px;">
+        <span style="font-size:0.68rem; color:#94a3b8; font-weight:600;">👇 아래 지표를 누르면 트렌드 차트가 즉시 전환됩니다:</span>
+      </div>
       <div id="drawer-metric-strip" class="metric-strip" style="display:none; margin-bottom:12px;"></div>
 
-      <!-- SVG 미니 트렌드 차트 영역 -->
+      <!-- SVG 트렌드 차트 -->
       <div id="drawer-chart-box" class="sparkline-card" style="display:none;">
         <div class="sparkline-header">
           <span id="chart-label">📈 20영업일 시계열 트렌드</span>
@@ -685,6 +694,10 @@
     let cachedMacroReviews = null;
     let cachedHistory20d = null;
     let cachedFedwatch = null;
+
+    // 현재 서랍의 상태 저장
+    let activeDrawerCategory = 'bonds';
+    let activeDrawerSubKey = 'spread';
 
     async function fetchDashboardData() {
       const timeLabel = document.getElementById('api-timestamp');
@@ -749,6 +762,7 @@
       }
     }
 
+    // 메인 화면 쿼드런트 박스 렌더링
     function renderMacroQuadrants() {
       if (!cachedMacroReviews) return;
       const m = cachedMacroReviews;
@@ -766,9 +780,10 @@
         if (b) b.innerText = item.badge;
         if (t) t.innerText = item.title;
 
+        // 메인 화면 칩 클릭 시 해당 지표 차트를 기본으로 열기
         if (strip && item.metrics) {
           strip.innerHTML = item.metrics.map(mt => `
-            <div class="metric-chip">
+            <div class="metric-chip" onclick="event.stopPropagation(); openDrawer('macro_${k}', '${mt.id}')" title="클릭 시 ${mt.name} 20일 트렌드 차트 확인">
               <span class="metric-chip-name">${mt.name}</span>
               <span class="metric-chip-val">${mt.val}</span>
               <span class="metric-chip-chg ${mt.up ? 'up' : 'down'}">${mt.chg}</span>
@@ -805,7 +820,7 @@
             </div>
             <div class="metric-strip" style="margin-bottom:12px;">
               ${item.metrics.map(mt => `
-                <div class="metric-chip">
+                <div class="metric-chip" onclick="openDrawer('macro_${tabKey}', '${mt.id}')">
                   <span class="metric-chip-name">${mt.name}</span>
                   <span class="metric-chip-val">${mt.val}</span>
                   <span class="metric-chip-chg ${mt.up ? 'up' : 'down'}">${mt.chg}</span>
@@ -878,14 +893,14 @@
       }
     }
 
-    // 순수 SVG 스파크라인 트렌드 차트 생성 함수 (무설치, 고화질 렌더링)
-    function renderSvgSparkline(values, dates, color = "#38bdf8") {
-      if (!values || values.length < 2) return '';
+    // SVG 스파크라인 차트 생성기
+    function renderSvgSparkline(values, dates, color = "#38bdf8", unit = "") {
+      if (!values || values.length < 2) return '<p style="font-size:0.7rem; color:#64748b; padding:20px;">시계열 데이터를 수집 중입니다...</p>';
       const min = Math.min(...values);
       const max = Math.max(...values);
       const range = max - min || 1;
-      const width = 480;
-      const height = 90;
+      const width = 490;
+      const height = 95;
       const padding = 12;
 
       const points = values.map((v, i) => {
@@ -899,38 +914,80 @@
 
       const firstV = values[0];
       const lastV = values[values.length - 1];
-      const chgPct = (((lastV - firstV) / firstV) * 100).toFixed(2);
+      const chgPct = (((lastV - firstV) / (firstV || 1)) * 100).toFixed(2);
       const isUp = lastV >= firstV;
 
       return `
         <svg viewBox="0 0 ${width} ${height}" class="sparkline-svg">
           <defs>
-            <linearGradient id="sparkGrad" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="0%" stop-color="${color}" stop-opacity="0.35"/>
+            <linearGradient id="dynSparkGrad" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="${color}" stop-opacity="0.4"/>
               <stop offset="100%" stop-color="${color}" stop-opacity="0.0"/>
             </linearGradient>
           </defs>
-          <!-- 수평 가이드선 (최소/최대) -->
           <line x1="${padding}" y1="${padding}" x2="${width - padding}" y2="${padding}" stroke="#334155" stroke-dasharray="3 3" stroke-width="0.8"/>
           <line x1="${padding}" y1="${height - padding}" x2="${width - padding}" y2="${height - padding}" stroke="#334155" stroke-dasharray="3 3" stroke-width="0.8"/>
-          
-          <!-- 면 채우기 및 라인 -->
-          <path d="${areaD}" fill="url(#sparkGrad)"/>
-          <path d="${pathD}" fill="none" stroke="${color}" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
-          
-          <!-- 시작점과 끝점 닷 -->
-          <circle cx="${points[0].x}" cy="${points[0].y}" r="3" fill="${color}"/>
-          <circle cx="${points[points.length - 1].x}" cy="${points[points.length - 1].y}" r="4" fill="#ffffff" stroke="${color}" stroke-width="2"/>
-          
-          <!-- 텍스트 라벨 (최고/최저) -->
-          <text x="${width - padding}" y="${padding - 3}" fill="#94a3b8" font-size="9" text-anchor="end" font-family="monospace">MAX: ${max.toLocaleString()}</text>
-          <text x="${width - padding}" y="${height - 2}" fill="#64748b" font-size="9" text-anchor="end" font-family="monospace">MIN: ${min.toLocaleString()}</text>
+          <path d="${areaD}" fill="url(#dynSparkGrad)"/>
+          <path d="${pathD}" fill="none" stroke="${color}" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="${points[0].x}" cy="${points[0].y}" r="3.2" fill="${color}"/>
+          <circle cx="${points[points.length - 1].x}" cy="${points[points.length - 1].y}" r="4.2" fill="#ffffff" stroke="${color}" stroke-width="2.2"/>
+          <text x="${width - padding}" y="${padding - 3}" fill="#94a3b8" font-size="9" text-anchor="end" font-family="monospace">최고: ${max.toLocaleString()}${unit}</text>
+          <text x="${width - padding}" y="${height - 2}" fill="#64748b" font-size="9" text-anchor="end" font-family="monospace">최저: ${min.toLocaleString()}${unit}</text>
           <text x="${padding}" y="${padding - 3}" fill="${isUp ? '#34d399' : '#fb7185'}" font-size="10" font-weight="bold" font-family="monospace">20D 변동: ${isUp ? '+' : ''}${chgPct}%</text>
         </svg>
       `;
     }
 
-    // 20일 히스토리 테이블 HTML 생성
+    // 각 세부 지표별 설정 맵 (차트 라벨, 색상, 단위)
+    const SUB_METRIC_CONFIG = {
+      // 국채
+      spread: { label: '📊 10Y-2Y 장단기 금리차(스프레드) 20일 추이', color: '#60a5fa', unit: ' bp', field: 'spread' },
+      us10y: { label: '🏛️ 미 국채 10년물 수익률 20일 추이', color: '#818cf8', unit: '%', field: 'us10y' },
+      us2y: { label: '🏛️ 미 국채 2년물 수익률 20일 추이', color: '#a78bfa', unit: '%', field: 'us2y' },
+      us30y: { label: '🏛️ 미 국채 30년물 수익률 20일 추이', color: '#c084fc', unit: '%', field: 'us10y' },
+      // 원자재
+      copper: { label: '📈 닥터 코퍼 (구리 선물 $/lb) 20일 가격 흐름', color: '#38bdf8', unit: ' $/lb', field: 'copper' },
+      gold: { label: '🪙 국제 금 선물 ($/oz) 20일 가격 흐름', color: '#fbbf24', unit: ' $/oz', field: 'gold' },
+      silver: { label: '🪙 국제 은 선물 ($/oz) 20일 가격 흐름', color: '#cbd5e1', unit: ' $/oz', field: 'silver' },
+      // 환율
+      usdkrw: { label: '💵 원/달러 환율 (KRW/USD) 20일 변동 추이', color: '#34d399', unit: '원', field: 'usdkrw' },
+      dxy: { label: '🌐 달러 인덱스 (DXY) 20일 변동 추이', color: '#38bdf8', unit: 'pt', field: 'dxy' },
+      usdjpy: { label: '💴 엔/달러 환율 (JPY/USD) 20일 변동 추이', color: '#f472b6', unit: '엔', field: 'usdjpy' },
+      // 유가
+      wti: { label: '🛢️ WTI 원유 선물 ($/배럴) 20일 가격 추이', color: '#f43f5e', unit: ' $/bbl', field: 'wti' }
+    };
+
+    // 서랍 내 세부 칩 클릭 시 차트 즉각 전환 함수
+    function switchDrawerChart(subKey) {
+      activeDrawerSubKey = subKey;
+      const cfg = SUB_METRIC_CONFIG[subKey];
+      if (!cfg) return;
+
+      // 1. 칩 액티브 클래스 갱신
+      document.querySelectorAll('#drawer-metric-strip .metric-chip').forEach(el => {
+        if (el.getAttribute('data-sub-id') === subKey) {
+          el.classList.add('active');
+        } else {
+          el.classList.remove('active');
+        }
+      });
+
+      // 2. 해당 지표 시계열 데이터 추출
+      const raw = cachedHistory20d ? (cachedHistory20d[activeDrawerCategory] || []) : [];
+      const values = raw.map(r => r[cfg.field] || 0);
+      const dates = raw.map(r => r.date);
+
+      // 3. 차트 렌더링
+      const chartBox = document.getElementById('drawer-chart-box');
+      const chartLabel = document.getElementById('chart-label');
+      const chartWrapper = document.getElementById('chart-svg-wrapper');
+
+      chartBox.style.display = 'block';
+      chartLabel.innerText = cfg.label;
+      chartWrapper.innerHTML = renderSvgSparkline(values, dates, cfg.color, cfg.unit);
+    }
+
+    // 20일 히스토리 테이블 빌더
     function buildHistoryTable(category) {
       if (!cachedHistory20d || !cachedHistory20d[category]) {
         return '<p style="font-size:0.75rem; color:#64748b;">히스토리 데이터를 불러오는 중입니다...</p>';
@@ -982,13 +1039,14 @@
             <td>${item.date}</td>
             <td style="color:#34d399; font-weight:700;">${item.usdkrw.toFixed(1)}원</td>
             <td style="color:#38bdf8; font-weight:700;">${item.dxy.toFixed(2)}pt</td>
+            <td style="color:#f472b6; font-weight:700;">¥${(item.usdjpy || 147.2).toFixed(2)}</td>
           </tr>
         `).join('');
         return `
           <div class="history-table-container">
             <table class="hist-table">
               <thead>
-                <tr><th>일자</th><th>원/달러 환율</th><th>달러인덱스 (DXY)</th></tr>
+                <tr><th>일자</th><th>원/달러</th><th>달러인덱스</th><th>엔/달러</th></tr>
               </thead>
               <tbody>${rows}</tbody>
             </table>
@@ -1016,41 +1074,41 @@
       return '';
     }
 
-    // 슬라이드 서랍 오픈 함수 (트렌드 차트 + 데이터 칩 + 테이블)
-    function openDrawer(key) {
+    // 슬라이드 서랍 오픈 함수 (특정 subKey로 다이렉트 차트 지정 가능)
+    function openDrawer(key, targetSubKey = null) {
       const tagEl = document.getElementById('drawer-tag');
       const titleEl = document.getElementById('drawer-title');
       const stripEl = document.getElementById('drawer-metric-strip');
       const chartBox = document.getElementById('drawer-chart-box');
-      const chartLabel = document.getElementById('chart-label');
-      const chartSvgWrapper = document.getElementById('chart-svg-wrapper');
       const bodyEl = document.getElementById('drawer-body');
 
       stripEl.style.display = 'none';
       stripEl.innerHTML = '';
       chartBox.style.display = 'none';
-      chartSvgWrapper.innerHTML = '';
 
       if (key.startsWith('macro_')) {
         const cat = key.replace('macro_', '');
+        activeDrawerCategory = cat;
         const item = cachedMacroReviews ? cachedMacroReviews[cat] : null;
 
         const catMeta = {
-          bonds: { tag: '🏛️ 매크로 심층: 미국채 수익률 곡선 (20일 추이)', label: '📊 10Y-2Y 장단기 금리차 (스프레드 bp) 20일 트렌드', color: '#60a5fa' },
-          commodities: { tag: '🪙 매크로 심층: 원자재 (구리·금·은 20일 추이)', label: '📈 닥터 코퍼 (구리 $/lb) 20일 가격 흐름', color: '#38bdf8' },
-          fx: { tag: '💵 매크로 심층: 외환(FX) & 달러인덱스 (20일 추이)', label: '💵 원/달러 환율 (KRW/USD) 20일 변동 추이', color: '#34d399' },
-          oil: { tag: '🛢️ 매크로 심층: WTI 유가 & 에너지 (20일 추이)', label: '🛢️ WTI 원유 선물 ($/배럴) 20일 가격 추이', color: '#f43f5e' }
+          bonds: { tag: '🏛️ 매크로 심층: 미국채 수익률 곡선 (20일 추이)', defaultSub: 'spread' },
+          commodities: { tag: '🪙 매크로 심층: 원자재 (구리·금·은 20일 추이)', defaultSub: 'copper' },
+          fx: { tag: '💵 매크로 심층: 외환(FX) & 엔/달러 (20일 추이)', defaultSub: 'usdkrw' },
+          oil: { tag: '🛢️ 매크로 심층: WTI 유가 & 에너지 (20일 추이)', defaultSub: 'wti' }
         };
 
-        const meta = catMeta[cat] || { tag: "매크로 지표 심층", label: "20일 시계열", color: "#38bdf8" };
+        const meta = catMeta[cat] || { tag: "매크로 지표 심층", defaultSub: 'spread' };
         tagEl.innerText = meta.tag;
         titleEl.innerText = item ? item.title : "지표 상세 분석";
 
-        // 1. 실시간 데이터 칩 스트립
+        const selectedSub = targetSubKey || meta.defaultSub;
+
+        // 서랍 상단 칩 생성 (각 칩에 switchDrawerChart 바인딩)
         if (item && item.metrics) {
           stripEl.style.display = 'flex';
           stripEl.innerHTML = item.metrics.map(mt => `
-            <div class="metric-chip">
+            <div class="metric-chip ${mt.id === selectedSub ? 'active' : ''}" data-sub-id="${mt.id}" onclick="switchDrawerChart('${mt.id}')">
               <span class="metric-chip-name">${mt.name}</span>
               <span class="metric-chip-val">${mt.val}</span>
               <span class="metric-chip-chg ${mt.up ? 'up' : 'down'}">${mt.chg}</span>
@@ -1058,23 +1116,10 @@
           `).join('');
         }
 
-        // 2. SVG 트렌드 미니 차트 생성
-        if (cachedHistory20d && cachedHistory20d[cat] && cachedHistory20d[cat].length >= 2) {
-          const raw = cachedHistory20d[cat];
-          let chartValues = [];
-          let chartDates = raw.map(r => r.date);
+        // 선택된 subKey로 차트 초기 렌더링
+        switchDrawerChart(selectedSub);
 
-          if (cat === 'bonds') chartValues = raw.map(r => r.spread);
-          else if (cat === 'commodities') chartValues = raw.map(r => r.copper);
-          else if (cat === 'fx') chartValues = raw.map(r => r.usdkrw);
-          else if (cat === 'oil') chartValues = raw.map(r => r.wti);
-
-          chartBox.style.display = 'block';
-          chartLabel.innerText = meta.label;
-          chartSvgWrapper.innerHTML = renderSvgSparkline(chartValues, chartDates, meta.color);
-        }
-
-        // 3. 20일 히스토리 테이블 + 데스크 코멘트
+        // 20일 시계열 테이블 및 데스크 코멘트
         bodyEl.innerHTML = `
           <div style="margin-bottom:6px;">
             <span style="font-size:0.73rem; font-weight:700; color:#94a3b8;">📅 최근 20영업일 상세 시계열 히스토리</span>
