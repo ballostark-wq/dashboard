@@ -2,10 +2,14 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <title>Global Macro & Tech Dashboard</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body {
+      width: 100%;
+      overflow-x: hidden;
+    }
     body {
       background-color: #020617;
       color: #f8fafc;
@@ -15,9 +19,9 @@
       display: flex;
       flex-direction: column;
       gap: 14px;
-      overflow-x: hidden;
     }
 
+    /* 상단 헤더 */
     header {
       display: flex;
       flex-wrap: wrap;
@@ -26,11 +30,12 @@
       padding-bottom: 12px;
       border-bottom: 1px solid #1e293b;
       gap: 10px;
+      width: 100%;
     }
     .brand { display: flex; align-items: center; gap: 10px; }
     .brand h1 { font-size: 1.15rem; font-weight: 800; color: #ffffff; letter-spacing: -0.02em; }
     .brand p { font-size: 0.75rem; color: #94a3b8; }
-    .header-status { display: flex; align-items: center; gap: 12px; }
+    .header-status { display: flex; align-items: center; gap: 10px; }
     .status-badge {
       display: inline-flex;
       align-items: center;
@@ -42,9 +47,10 @@
       color: #34d399;
       font-size: 0.7rem;
       font-weight: 600;
+      white-space: nowrap;
     }
     .pulse { width: 6px; height: 6px; border-radius: 50%; background: #34d399; }
-    #clock { font-size: 0.75rem; color: #64748b; font-family: monospace; }
+    #clock { font-size: 0.75rem; color: #64748b; font-family: monospace; white-space: nowrap; }
 
     /* 국채 금리 커브 바 */
     .yield-curve-container {
@@ -52,6 +58,7 @@
       border: 1px solid #1e293b;
       border-radius: 12px;
       padding: 10px 14px;
+      width: 100%;
     }
     .yield-header {
       display: flex;
@@ -66,6 +73,7 @@
       display: grid;
       grid-template-columns: repeat(6, 1fr);
       gap: 8px;
+      width: 100%;
     }
     .yield-card {
       background: #020617;
@@ -75,8 +83,9 @@
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      min-width: 0;
     }
-    .y-name { font-size: 0.68rem; font-weight: 600; color: #94a3b8; }
+    .y-name { font-size: 0.68rem; font-weight: 600; color: #94a3b8; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     .y-val { font-size: 0.95rem; font-weight: 800; color: #f8fafc; font-family: monospace; margin: 2px 0; }
     .y-change { font-size: 0.65rem; font-weight: 700; font-family: monospace; }
     .up { color: #34d399; }
@@ -90,6 +99,7 @@
       border-radius: 12px;
       padding: 6px 12px;
       overflow: hidden;
+      width: 100%;
     }
 
     /* 메인 벤토 그리드 */
@@ -98,6 +108,7 @@
       grid-template-columns: repeat(6, 1fr);
       gap: 16px;
       flex-grow: 1;
+      width: 100%;
     }
     .card {
       background: #0f172a;
@@ -108,6 +119,7 @@
       flex-direction: column;
       justify-content: space-between;
       transition: transform 0.15s ease, border-color 0.15s ease;
+      min-width: 0;
     }
     .card-footer {
       display: flex;
@@ -120,6 +132,7 @@
       color: #64748b;
     }
 
+    /* 탭 바: 모바일 가로 스크롤 적용 */
     .feed-tab-bar {
       display: flex;
       align-items: center;
@@ -128,8 +141,19 @@
       margin-bottom: 10px;
       border-bottom: 1px solid #1e293b;
       padding-bottom: 8px;
+      width: 100%;
+      min-width: 0;
     }
-    .tab-group { display: flex; gap: 5px; overflow-x: auto; }
+    .tab-group {
+      display: flex;
+      gap: 5px;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+      min-width: 0;
+      flex-grow: 1;
+    }
+    .tab-group::-webkit-scrollbar { display: none; }
     .feed-tab {
       background: #020617;
       border: 1px solid #334155;
@@ -140,6 +164,7 @@
       font-weight: 600;
       cursor: pointer;
       white-space: nowrap;
+      flex-shrink: 0;
       transition: all 0.15s;
     }
     .feed-tab:hover { border-color: #38bdf8; color: #e2e8f0; }
@@ -158,9 +183,10 @@
       align-items: center;
       gap: 4px;
       white-space: nowrap;
+      flex-shrink: 0;
     }
 
-    /* 좌측 4대 매크로 쿼드런트 (좌측 3칸) */
+    /* 좌측 4대 매크로 쿼드런트 */
     .card-macro-grid {
       grid-column: span 3;
       background: linear-gradient(135deg, rgba(6, 78, 59, 0.45), #0f172a);
@@ -171,6 +197,8 @@
       grid-template-columns: repeat(2, 1fr);
       gap: 8px;
       flex-grow: 1;
+      width: 100%;
+      min-width: 0;
     }
     .quadrant-box {
       background: #020617;
@@ -181,6 +209,7 @@
       flex-direction: column;
       cursor: pointer;
       transition: border-color 0.15s;
+      min-width: 0;
     }
     .quadrant-box:hover { border-color: #38bdf8; }
     .quadrant-title {
@@ -201,20 +230,23 @@
       border-radius: 4px;
       background: rgba(56, 189, 248, 0.15);
       color: #38bdf8;
+      white-space: nowrap;
     }
 
+    /* 지표 칩 */
     .metric-strip {
       display: flex;
       flex-wrap: wrap;
-      gap: 5px;
+      gap: 4px;
       background: rgba(15, 23, 42, 0.7);
       border: 1px solid rgba(255, 255, 255, 0.05);
       border-radius: 6px;
       padding: 4px 6px;
       margin-bottom: 6px;
+      width: 100%;
     }
     .metric-chip {
-      display: flex;
+      display: inline-flex;
       align-items: center;
       gap: 4px;
       font-size: 0.65rem;
@@ -225,6 +257,7 @@
       cursor: pointer;
       transition: all 0.15s ease;
       user-select: none;
+      white-space: nowrap;
     }
     .metric-chip:hover { border-color: #38bdf8; background: rgba(56, 189, 248, 0.1); }
     .metric-chip.active { border-color: #38bdf8; background: rgba(56, 189, 248, 0.25); box-shadow: 0 0 8px rgba(56, 189, 248, 0.4); }
@@ -232,32 +265,39 @@
     .metric-chip-val { color: #f8fafc; font-weight: 800; font-family: monospace; }
     .metric-chip-chg { font-weight: 700; font-family: monospace; font-size: 0.62rem; }
 
-    .m-headline { font-size: 0.74rem; font-weight: 700; color: #ffffff; margin-bottom: 3px; line-height: 1.35; }
-    .m-bullets { list-style: none; display: flex; flex-direction: column; gap: 3px; font-size: 0.66rem; color: #cbd5e1; }
+    .m-headline { font-size: 0.74rem; font-weight: 700; color: #ffffff; margin-bottom: 3px; line-height: 1.35; word-break: keep-all; }
+    .m-bullets { list-style: none; display: flex; flex-direction: column; gap: 3px; font-size: 0.66rem; color: #cbd5e1; word-break: keep-all; }
     .m-bullets li::before { content: "• "; color: #34d399; font-weight: bold; }
 
-    /* 우측 5대 트레이딩 인텔리전스 (우측 3칸) */
+    /* 우측 5대 트레이딩 인텔리전스 */
     .card-news-grid {
       grid-column: span 3;
       background: linear-gradient(135deg, rgba(15, 23, 42, 0.95), #090e1f);
       border-color: rgba(56, 189, 248, 0.35);
     }
-    .q-list { list-style: none; display: flex; flex-direction: column; gap: 4px; }
+    .q-list { list-style: none; display: flex; flex-direction: column; gap: 4px; width: 100%; min-width: 0; }
+    .q-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 6px;
+      min-width: 0;
+    }
     .q-item a {
       color: #cbd5e1;
       text-decoration: none;
       font-size: 0.71rem;
-      display: -webkit-box;
-      -webkit-line-clamp: 1;
-      -webkit-box-orient: vertical;
+      white-space: nowrap;
       overflow: hidden;
-      line-height: 1.35;
+      text-overflow: ellipsis;
+      flex-grow: 1;
+      min-width: 0;
     }
     .q-item a:hover { color: #38bdf8; text-decoration: underline; }
-    .q-date { font-size: 0.62rem; color: #64748b; font-family: monospace; }
+    .q-date { font-size: 0.62rem; color: #64748b; font-family: monospace; white-space: nowrap; flex-shrink: 0; }
 
     /* 캘린더 미니 프리뷰 */
-    .cal-mini-box { display: flex; flex-direction: column; gap: 4px; }
+    .cal-mini-box { display: flex; flex-direction: column; gap: 4px; width: 100%; }
     .cal-mini-row {
       display: flex;
       justify-content: space-between;
@@ -267,12 +307,20 @@
       border-radius: 4px;
       padding: 3px 6px;
       font-size: 0.66rem;
+      gap: 6px;
+      min-width: 0;
     }
-    .cal-badge { font-size: 0.58rem; padding: 1px 4px; border-radius: 3px; font-weight: 700; }
+    .cal-mini-row span:first-child {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      flex-grow: 1;
+    }
+    .cal-badge { font-size: 0.58rem; padding: 1px 4px; border-radius: 3px; font-weight: 700; white-space: nowrap; flex-shrink: 0; }
     .badge-critical { background: rgba(244, 63, 94, 0.2); color: #fb7185; border: 1px solid rgba(244, 63, 94, 0.4); }
     .badge-earn { background: rgba(56, 189, 248, 0.2); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.4); }
 
-    .single-view { display: none; flex-direction: column; gap: 8px; flex-grow: 1; }
+    .single-view { display: none; flex-direction: column; gap: 8px; flex-grow: 1; width: 100%; min-width: 0; }
 
     /* 하단 3개 타일 */
     .card-quiz { grid-column: span 2; cursor: default; }
@@ -280,9 +328,9 @@
     .card-quiz .card-tag { background: rgba(59, 130, 246, 0.2); color: #93c5fd; }
     .quiz-box { background: #020617; border: 1px solid #1e293b; padding: 12px; border-radius: 10px; margin-top: 8px; }
     .quiz-q-label { font-size: 0.65rem; font-weight: 800; color: #60a5fa; display: block; margin-bottom: 4px; }
-    .quiz-question { font-size: 0.82rem; font-weight: 600; line-height: 1.4; color: #f1f5f9; }
-    .quiz-hint { font-size: 0.7rem; color: #64748b; margin-top: 8px; line-height: 1.4; }
-    .quiz-answer { display: none; background: rgba(30, 58, 138, 0.3); border: 1px solid rgba(59, 130, 246, 0.4); padding: 10px; border-radius: 8px; font-size: 0.75rem; color: #bfdbfe; margin-top: 10px; line-height: 1.4; }
+    .quiz-question { font-size: 0.82rem; font-weight: 600; line-height: 1.4; color: #f1f5f9; word-break: keep-all; }
+    .quiz-hint { font-size: 0.7rem; color: #64748b; margin-top: 8px; line-height: 1.4; word-break: keep-all; }
+    .quiz-answer { display: none; background: rgba(30, 58, 138, 0.3); border: 1px solid rgba(59, 130, 246, 0.4); padding: 10px; border-radius: 8px; font-size: 0.75rem; color: #bfdbfe; margin-top: 10px; line-height: 1.4; word-break: keep-all; }
     .quiz-btn { width: 100%; background: #1e293b; color: #e2e8f0; border: 1px solid #334155; padding: 8px; border-radius: 8px; font-size: 0.72rem; font-weight: 600; cursor: pointer; margin-top: 12px; transition: background 0.15s; }
     .quiz-btn:hover { background: #334155; }
 
@@ -324,7 +372,7 @@
       overflow-y: auto;
     }
     .hist-table { width: 100%; border-collapse: collapse; font-size: 0.72rem; text-align: right; }
-    .hist-table th, .hist-table td { padding: 6px 10px; border-bottom: 1px solid rgba(255, 255, 255, 0.05); }
+    .hist-table th, .hist-table td { padding: 6px 8px; border-bottom: 1px solid rgba(255, 255, 255, 0.05); }
     .hist-table th { position: sticky; top: 0; background: #090e1f; color: #94a3b8; font-weight: 700; z-index: 2; }
     .hist-table td:first-child, .hist-table th:first-child { text-align: left; font-weight: 700; color: #cbd5e1; }
 
@@ -354,18 +402,42 @@
       margin-bottom: 6px;
     }
 
+    /* 📱 반응형 미디어 쿼리: 모바일 화면 잘림 완전 차단 */
     @media (max-width: 1024px) {
       .yield-grid { grid-template-columns: repeat(3, 1fr); }
       .card-macro-grid, .card-news-grid { grid-column: span 6; }
       .card-quiz, .card-language, .card-history { grid-column: span 2; }
     }
+
     @media (max-width: 768px) {
+      body { padding: 12px 14px; gap: 12px; }
       .yield-grid { grid-template-columns: repeat(2, 1fr); }
-      .dashboard-grid { grid-template-columns: 1fr; }
-      .card-macro-grid, .card-news-grid, .card-quiz, .card-language, .card-history { grid-column: span 1; }
-      .quadrant-grid { grid-template-columns: 1fr; }
+      .dashboard-grid { grid-template-columns: 1fr; gap: 12px; }
+      .card-macro-grid, .card-news-grid, .card-quiz, .card-language, .card-history { grid-column: span 1 !important; }
+      
+      /* 모바일에서는 1열 정렬 및 span 강제 초기화 */
+      .quadrant-grid { grid-template-columns: 1fr !important; }
+      .quadrant-box,
+      .quadrant-box[style*="span 2"] {
+        grid-column: span 1 !important;
+      }
+      .card-footer { font-size: 0.68rem; }
     }
 
+    @media (max-width: 480px) {
+      body { padding: 10px 10px; gap: 10px; }
+      .brand h1 { font-size: 1.0rem; }
+      .header-status { width: 100%; justify-content: space-between; margin-top: 4px; }
+      .yield-grid { grid-template-columns: repeat(2, 1fr); gap: 6px; }
+      .yield-card { padding: 6px 8px; }
+      .y-val { font-size: 0.88rem; }
+      .card { padding: 12px 10px; }
+      .m-headline { font-size: 0.72rem; }
+      .metric-chip { font-size: 0.62rem; padding: 2px 4px; }
+      .drawer { max-width: 100vw; }
+    }
+
+    /* 서랍 */
     .drawer {
       position: fixed; top: 0; right: 0; width: 100%; max-width: 580px; height: 100%;
       background: #0b1329; border-left: 1px solid #1e293b; box-shadow: -10px 0 30px rgba(0,0,0,0.7);
@@ -520,7 +592,7 @@
       </div>
     </div>
 
-    <!-- 타일 2: 5대 트레이딩 인텔리전스 (전체 5분할 체계 적용) -->
+    <!-- 타일 2: 5대 트레이딩 인텔리전스 (전체 5분할 지원) -->
     <div class="card card-news-grid">
       <div>
         <div class="feed-tab-bar">
@@ -537,7 +609,7 @@
           </button>
         </div>
 
-        <!-- 전체 5분할 그리드 뷰 -->
+        <!-- 5개 영역 그리드 -->
         <div id="quadrant-view" class="quadrant-grid">
           <!-- 1. 연준 연설 -->
           <div class="quadrant-box" onclick="openDrawer('fed_detail')">
@@ -551,7 +623,7 @@
             <div class="cal-mini-box" id="q-calendar-mini"></div>
           </div>
 
-          <!-- 3. 글로벌 속보 (CNBC 복원) -->
+          <!-- 3. 글로벌 속보 -->
           <div class="quadrant-box" onclick="openDrawer('global_detail')">
             <div class="quadrant-title"><span>⚡ 3. 글로벌 속보</span><span style="color:#38bdf8;">CNBC</span></div>
             <ul class="q-list" id="q-global"><li class="q-item"><span style="font-size:0.7rem; color:#64748b;">로드 중...</span></li></ul>
@@ -563,8 +635,8 @@
             <ul class="q-list" id="q-tech"><li class="q-item"><span style="font-size:0.7rem; color:#64748b;">로드 중...</span></li></ul>
           </div>
 
-          <!-- 5. 연합인포맥스 (하단 전폭 2칸 차지하여 5개 정렬) -->
-          <div class="quadrant-box" onclick="openDrawer('domestic_detail')" style="grid-column: span 2;">
+          <!-- 5. 연합인포맥스 -->
+          <div class="quadrant-box" onclick="openDrawer('domestic_detail')" id="domestic-box">
             <div class="quadrant-title"><span>📊 5. 채권·외환 (여의도 실시간)</span><span style="color:#fbbf24;">Infomax</span></div>
             <ul class="q-list" id="q-domestic"><li class="q-item"><span style="font-size:0.7rem; color:#64748b;">로드 중...</span></li></ul>
           </div>
@@ -572,7 +644,7 @@
 
         <!-- 단일 탭 확대 뷰 -->
         <div id="single-view" class="single-view">
-          <div id="single-content-box" style="flex-grow:1;"></div>
+          <div id="single-content-box" style="flex-grow:1; width:100%; min-width:0;"></div>
         </div>
       </div>
       <div class="card-footer">
@@ -704,7 +776,6 @@
         if (!res.ok) throw new Error("data.json not found");
         const data = await res.json();
 
-        // 1. 국채금리
         updateCard('val-2y', 'chg-2y', data.us2y.value, data.us2y.change, true);
         updateCard('val-5y', 'chg-5y', data.us5y.value, data.us5y.change, true);
         updateCard('val-10y', 'chg-10y', data.us10y.value, data.us10y.change, true);
@@ -721,7 +792,6 @@
           spreadChgEl.className = `y-change ${bp >= 0 ? 'up' : 'down'}`;
         }
 
-        // 2. 4대 매크로 리뷰 및 20일 시계열 캐시
         if (data.macro_reviews) {
           cachedMacroReviews = data.macro_reviews;
           renderMacroQuadrants();
@@ -730,19 +800,16 @@
           cachedHistory20d = data.history_20d;
         }
 
-        // 3. 3주 캘린더
         if (data.calendar_3w) {
           cachedCalendar3w = data.calendar_3w;
           renderCalendarMini();
         }
 
-        // 4. 4대 RSS 피드
         if (data.feeds) {
           cachedFeeds = data.feeds;
           renderRssQuadrants();
         }
 
-        // 5. FedWatch
         if (data.fedwatch) {
           cachedFedwatch = data.fedwatch;
         }
@@ -838,7 +905,6 @@
       document.getElementById('q-domestic').innerHTML = makeListHtml(cachedFeeds.domestic);
     }
 
-    // 5대 탭 전환 핸들러 (전체 5분할 지원)
     function switchFeedTab(tabKey) {
       document.querySelectorAll('.card-news-grid .feed-tab').forEach(b => b.classList.remove('active'));
       event.target.classList.add('active');
