@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08 04:05:36",
+  "updated_at": "2026-09-08 04:20:13",
   "us2y": {
     "value": 4.32,
     "change": 0.03
@@ -114,13 +114,18 @@
         "title": "Stocks making the biggest moves midday: Sandisk, Tesla, Lululemon, Quanex, AMC & more",
         "link": "https://www.cnbc.com/2026/09/04/stocks-making-the-biggest-moves-midday-sndk-tsla-nx-amc.html",
         "date": "09-04 19:07"
+      },
+      {
+        "title": "Bitcoin heads for third winning week in a row as macro pressures mount",
+        "link": "https://www.cnbc.com/2026/09/04/bitcoin-heads-for-third-winning-week-in-a-row-as-macro-pressures-mount.html",
+        "date": "09-04 14:36"
       }
     ],
     "tech": [
       {
-        "title": "[디일렉] KPCA, 대학생과 대만 반도체 패키징 산업현장 연수",
-        "link": "https://www.thelec.kr/news/articleView.html?idxno=61930",
-        "date": "09-07 23:22"
+        "title": "[디일렉] 삼성SDS, ‘팔란티어식’ AI사업 확대…전문가 200명 현장 투입",
+        "link": "https://www.thelec.kr/news/articleView.html?idxno=61952",
+        "date": "09-08 12:18"
       },
       {
         "title": "[전자신문] [포토] 소상공인연합회 방문한 이소영 후보자",
@@ -128,9 +133,9 @@
         "date": "09-08 13:01"
       },
       {
-        "title": "[디일렉] 삼성전자, TSMC '光 반도체 테스트 플랫폼' 그대로 쓴다",
-        "link": "https://www.thelec.kr/news/articleView.html?idxno=61915",
-        "date": "09-07 18:40"
+        "title": "[디일렉] 한국도레이과학진흥재단, 과학기술상에 김상규·김윤희 교수 선정",
+        "link": "https://www.thelec.kr/news/articleView.html?idxno=61949",
+        "date": "09-08 11:21"
       },
       {
         "title": "[전자신문] SKT, 'T 로밍 데이터 추가' 프로모션 연말까지 연장",
@@ -138,12 +143,17 @@
         "date": "09-08 13:01"
       },
       {
-        "title": "[디일렉] 글로벌테크놀로지, 프리미엄 TV 원가 50% 절감…매출 2배 이상↑",
-        "link": "https://www.thelec.kr/news/articleView.html?idxno=61910",
-        "date": "09-07 17:08"
+        "title": "[디일렉] 코웨이, '제로 음식물 처리기 미생물형' 사전 상담 예약",
+        "link": "https://www.thelec.kr/news/articleView.html?idxno=61946",
+        "date": "09-08 11:21"
       }
     ],
     "domestic": [
+      {
+        "title": "[외환] '하락 관성+엔화 강세'에 1,330원대로…3.70원↓",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433899",
+        "date": "09-08 13:06"
+      },
       {
         "title": "[표] 은행간 단기금리 기준-코리보(08일)",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433894",
@@ -163,11 +173,6 @@
         "title": "韓 2분기 GDP 0.6% 성장·속보치 유지…GNI 3.1%↑(종합)",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433887",
         "date": "09-08 11:45"
-      },
-      {
-        "title": "[외환] 엔화 강세 속 보합권…1,340원선 공방전",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433886",
-        "date": "09-08 11:41"
       }
     ]
   },
@@ -181,5 +186,43 @@
     ],
     "meeting_date": "2026-09-16 (차기 FOMC)",
     "current_target": "3.75%-4.00%"
+  },
+  "macro_reviews": {
+    "bonds": {
+      "badge": "10Y 4.78% / +46bp",
+      "title": "미국채 수익률 곡선: 정상화 (Bull/Bear Steepening)",
+      "bullets": [
+        "10년물 4.78%, 2년물 4.32% 수준 형성으로 장단기차 +46 bp 기록",
+        "경기 침체 회피 기대와 재정 적자 발행 부담 속 장기물 기간 프리미엄 유지"
+      ],
+      "detail": "10Y-2Y 스프레드가 +46 bp 수준을 나타내며 수익률 곡선이 완만한 우상향 흐름을 보이고 있습니다. 단기 통화정책 완화 기대를 장기 금리가 지지하며 위험자산 멀티플을 방어하는 구간입니다."
+    },
+    "commodities": {
+      "badge": "닥터 코퍼 & 금",
+      "title": "원자재: 구리 인프라 수요 견인 및 금 헤지",
+      "bullets": [
+        "구리(닥터 코퍼) 고점권 안착으로 AI 데이터센터·전력망 사이클 반영",
+        "글로벌 통화가치 희석 우려에 따른 중앙은행 금 매수세 하방 지지"
+      ],
+      "detail": "닥터 코퍼의 지속적인 강세는 전통적 경기 침체 우려를 상쇄시키는 핵심 지표입니다. 금/은 가격이 하방을 다지는 가운데 산업용 금속으로의 수급 유입은 실물 투자 회복을 방증합니다."
+    },
+    "fx": {
+      "badge": "달러 상방 경직",
+      "title": "환율: 달러 인덱스 안정 속 원/달러 수급 공방",
+      "bullets": [
+        "미국 실질금리 우위로 달러화 급격한 약세 제한",
+        "원/달러 상단 저항선 작용으로 수출주 환차익 및 외인 순매수 지속"
+      ],
+      "detail": "연준과 타국 중앙은행 간 완화 시차로 달러화는 하방 경직성을 띱니다. 원/달러 환율의 완만한 안정세는 외국인의 국내 IT 대형주 패시브 매수 유입에 긍정적 환경을 제공합니다."
+    },
+    "oil": {
+      "badge": "WTI 70선 안정",
+      "title": "유가: 배럴당 70달러선 안착과 비용 압박 완화",
+      "bullets": [
+        "WTI 안정세 지속으로 헤드라인 인플레이션 재발 위험 억제",
+        "기업 에너지 원가 부담 경감으로 하드웨어 제조업 마진 방어"
+      ],
+      "detail": "에너지 가격의 안정은 연준의 금리 인하 명분을 강화해 줍니다. 고유가로 인한 밸류에이션 훼손 압력이 낮아지며 실적 중심 장세가 연장되고 있습니다."
+    }
   }
 }
