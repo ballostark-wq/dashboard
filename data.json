@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08 13:07:15",
+  "updated_at": "2026-09-08 13:18:04",
   "us2y": {
     "value": 4.37,
     "change": -0.29
@@ -21,8 +21,8 @@
     "status": "정상화 (우상향)"
   },
   "vix": {
-    "value": 15.45,
-    "change": 0.98
+    "value": 15.43,
+    "change": 0.85
   },
   "tech_news": [
     {
@@ -98,7 +98,7 @@
       {
         "title": "Stocks making the biggest moves premarket: Peloton Interactive, Roivant Sciences, Boston Scientific & more",
         "link": "https://www.cnbc.com/2026/09/08/stocks-making-the-biggest-moves-premarket-pton-roiv-bsx.html",
-        "date": "09-08 12:08"
+        "date": "09-08 13:12"
       },
       {
         "title": "Crypto platforms have lost over $3.63 billion to cyberattacks — even though most of them did security checks",
@@ -131,16 +131,6 @@
         "title": "[디일렉] 메타·파네시아, CXL로 데이터센터 연결",
         "link": "https://www.thelec.kr/news/articleView.html?idxno=61980",
         "date": "09-08 19:37"
-      },
-      {
-        "title": "[전자신문] [ET포토] 블랙핑크 지수, '하트 같은 입술'",
-        "link": "https://www.etnews.com/20260908000408",
-        "date": "09-08 20:15"
-      },
-      {
-        "title": "[전자신문] [ET포토] 블랙핑크 지수, '한도 초과하는 매력'",
-        "link": "https://www.etnews.com/20260908000407",
-        "date": "09-08 20:13"
       }
     ],
     "domestic": [
@@ -223,14 +213,14 @@
       "detail": "10Y-2Y 스프레드가 +42 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.82",
-      "title": "닥터 코퍼 $6.82선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.84",
+      "title": "닥터 코퍼 $6.84선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.82",
-          "chg": "+3.33%",
+          "val": "$6.84",
+          "chg": "+3.64%",
           "up": true
         },
         {
@@ -243,63 +233,63 @@
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$66.89",
-          "chg": "+1.27%",
+          "val": "$67.19",
+          "chg": "+1.73%",
           "up": true
         }
       ],
       "bullets": [
-        "구리 $6.82/lb (+3.33%) - AI 전력망 설비 수요 반영",
-        "금 $4,450/oz, 은 $66.89/oz - 통화가치 헤지"
+        "구리 $6.84/lb (+3.64%) - AI 전력망 설비 수요 반영",
+        "금 $4,450/oz, 은 $67.19/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,341원 | 엔/달러 ¥153.8",
-      "title": "원/달러 1,341.1원선과 엔/달러 ¥153.8",
+      "badge": "원/달러 1,341원 | 엔/달러 ¥153.9",
+      "title": "원/달러 1,341.3원선과 엔/달러 ¥153.9",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,341.1원",
-          "chg": "-0.30%",
+          "val": "1,341.3원",
+          "chg": "-0.28%",
           "up": false
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "98.87pt",
-          "chg": "-0.29%",
+          "val": "98.83pt",
+          "chg": "-0.33%",
           "up": false
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥153.77",
-          "chg": "-1.56%",
+          "val": "¥153.87",
+          "chg": "-1.49%",
           "up": false
         }
       ],
       "bullets": [
-        "달러 인덱스 98.87pt - 미국 성장 우위 지속",
-        "엔/달러 153.77엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 98.83pt - 미국 성장 우위 지속",
+        "엔/달러 153.87엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $92.92",
-      "title": "WTI 배럴당 $92.92선 박스권 안정",
+      "badge": "WTI $92.53",
+      "title": "WTI 배럴당 $92.53선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$92.92",
-          "chg": "+1.57%",
+          "val": "$92.53",
+          "chg": "+1.15%",
           "up": true
         }
       ],
       "bullets": [
-        "WTI 선물 $92.92/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $92.53/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -307,32 +297,32 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.82,
-      "change": 3.33
+      "price": 6.84,
+      "change": 3.64
     },
     "gold": {
       "price": 4449.6,
       "change": 0.45
     },
     "silver": {
-      "price": 66.89,
-      "change": 1.27
+      "price": 67.19,
+      "change": 1.73
     },
     "wti": {
-      "price": 92.92,
-      "change": 1.57
+      "price": 92.53,
+      "change": 1.15
     },
     "usdkrw": {
-      "price": 1341.08,
-      "change": -0.3
+      "price": 1341.26,
+      "change": -0.28
     },
     "dxy": {
-      "price": 98.87,
-      "change": -0.29
+      "price": 98.83,
+      "change": -0.33
     },
     "usdjpy": {
-      "price": 153.77,
-      "change": -1.56
+      "price": 153.87,
+      "change": -1.49
     }
   },
   "history_20d": {
@@ -595,9 +585,9 @@
       },
       {
         "date": "09-08",
-        "copper": 6.82,
+        "copper": 6.84,
         "gold": 4449.6,
-        "silver": 66.89
+        "silver": 67.19
       }
     ],
     "fx": [
@@ -717,9 +707,9 @@
       },
       {
         "date": "09-08",
-        "usdkrw": 1341.08,
-        "dxy": 98.87,
-        "usdjpy": 153.77
+        "usdkrw": 1341.26,
+        "dxy": 98.83,
+        "usdjpy": 153.87
       }
     ],
     "oil": [
@@ -820,8 +810,8 @@
       },
       {
         "date": "09-08",
-        "wti": 92.92,
-        "change": 1.57
+        "wti": 92.53,
+        "change": 1.15
       }
     ]
   },
@@ -916,6 +906,93 @@
           "time": "장마감 후"
         }
       ]
+    }
+  },
+  "humanities": {
+    "history": {
+      "era": "20세기 현대사 (1944년)",
+      "title": "브레턴우즈 체제 성립과 달러 기축통화 질서의 완성",
+      "summary": "금 1온스=35달러 고정과 전후 글로벌 무역 질서 재편",
+      "bullets": [
+        "영국 파운드화의 기축통화 지위 상실과 미국 달러화 중심의 고정환율제 출범",
+        "IMF(국제통화기금) 및 IBRD(세계은행) 설립을 통한 전후 재건 금융망 구축",
+        "1971년 닉슨 쇼크(금 태환 중지)로 이어지는 트리핀 딜레마(Triffin Dilemma)의 잉태"
+      ],
+      "insight": "기축통화국은 글로벌 유동성을 공급하기 위해 무역수지 적자를 감내해야 하는 구조적 모순을 내포하고 있습니다."
+    },
+    "polyglot": {
+      "theme": "리스크 헤지와 시장 변동성 대응 (Risk Management)",
+      "meaning": "시장 불확실성이 높은 국면이므로 선제적인 리스크 분산이 필수적입니다.",
+      "translations": {
+        "en": {
+          "code": "en-US",
+          "name": "영어",
+          "flag": "🇺🇸",
+          "text": "Given the elevated market volatility, proactive risk hedging is essential.",
+          "roman": ""
+        },
+        "ja": {
+          "code": "ja-JP",
+          "name": "일본어",
+          "flag": "🇯🇵",
+          "text": "市場の不確実性が高まっているため、先回りしたリスクヘッジが不可欠です。",
+          "roman": "Shijō no fukakujitsusei ga takamatte iru tame, sakimawari shita risuku hejji ga fukaketsu desu."
+        },
+        "zh": {
+          "code": "zh-CN",
+          "name": "중국어",
+          "flag": "🇨🇳",
+          "text": "鉴于市场波动性上升，前瞻性的风险对冲至关重要。",
+          "roman": "Jiànyú shìchǎng bōdòngxìng shàngshēng, qiánzhānxìng de fēngxiǎn duìchōng zhìguān zhòngyào."
+        },
+        "fr": {
+          "code": "fr-FR",
+          "name": "프랑스어",
+          "flag": "🇫🇷",
+          "text": "Compte tenu de la volatilité accrue des marchés, une couverture proactive des risques est essentielle.",
+          "roman": ""
+        },
+        "de": {
+          "code": "de-DE",
+          "name": "독일어",
+          "flag": "🇩🇪",
+          "text": "Angesichts der hohen Marktvolatilität ist ein proaktives Risikomanagement unerlässlich.",
+          "roman": ""
+        },
+        "es": {
+          "code": "es-ES",
+          "name": "스페인어",
+          "flag": "🇪🇸",
+          "text": "Dada la elevada volatilidad del mercado, una cobertura proactiva del riesgo es imprescindible.",
+          "roman": ""
+        },
+        "ar": {
+          "code": "ar-SA",
+          "name": "아랍어",
+          "flag": "🇸🇦",
+          "text": "نظرًا للتقلبات المتزايدة في السوق، فإن التحوط الاستباقي للمخاطر أمر ضروري.",
+          "roman": "Naẓaran lil-taqallubāt al-mutazāyidah fī as-sūq, fa-inna at-taḥawwuṭ al-istibāqī lil-makhāṭir amrun ḍarūrī."
+        },
+        "ru": {
+          "code": "ru-RU",
+          "name": "러시아어",
+          "flag": "🇷🇺",
+          "text": "С учётом высокой волатильности рынка упреждающее хеджирование рисков крайне важно.",
+          "roman": "S uchyotom vysokoy volatil'nosti rynka uprezhdayushcheye khedzhirovaniye riskov krayne vazhno."
+        }
+      }
+    },
+    "philosophy": {
+      "thinker": "투키디데스 (Thucydides)",
+      "era": "기원전 5세기 고대 그리스",
+      "concept": "투키디데스 함정 (Thucydides Trap)",
+      "quote": "“전쟁을 불가피하게 만든 것은 아테네의 부상과 그로 인해 스파르타에 심어진 두려움이었다.”",
+      "bullets": [
+        "급부상하는 신흥 강국과 기존 지배 패권국 사이의 구조적 긴장과 충돌 역학 분석",
+        "국가 행동을 지배하는 3대 근본 동기: 공포(Fear), 명예(Honor), 이익(Interest)",
+        "동맹 네트워크의 확장과 오판이 국지적 갈등을 세계대전급 파국으로 확대시키는 경로 증명"
+      ],
+      "application": "반도체·AI 인프라를 둘러싼 패권국 간의 배타적 경제 블록화와 전략적 수출 통제 조치의 기저에 깔린 근본 동기를 설명합니다."
     }
   }
 }
