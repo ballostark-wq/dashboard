@@ -49,7 +49,7 @@ def load_existing_data():
 
 
 def fetch_yahoo_series(symbol, days=20):
-    """야후 파이낸스에서 실제 최근 20영업일의 일봉 종가 시계열 연속 수집"""
+    """야후 파이낸스 일봉 종가 시계열 수집"""
     url = f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?interval=1d&range=2mo"
     try:
         res = requests.get(url, headers=HEADERS, timeout=10)
@@ -168,19 +168,15 @@ def fetch_rss(url, max_items=5, prefix="", encoding=None):
 
 
 def build_consistent_20d_history(
-    y10_val, y2_val, series_cop, series_gold, series_silver, series_wti, series_krw, series_dxy
+    y10_val, y2_val, series_cop, series_gold, series_silver, series_wti, series_krw, series_dxy, series_jpy
 ):
-    """동일한 실데이터 파이프라인에서 추출한 20일 시계열 통합 (점프 현상 원천 차단)"""
-    # 1. 국채 20일 추이
+    """동일 파이프라인 기준 20영업일 시계열 통합 (엔/달러 포함)"""
+    # 1. 국채 시계열 (10년물, 2년물, 스프레드 각각 보관)
     bonds_hist = []
-    if series_wti:
-        base_dates = [x["date"] for x in series_wti]
-    else:
-        base_dates = [f"D-{i}" for i in range(20, 0, -1)]
+    base_dates = [x["date"] for x in series_wti] if series_wti else [f"D-{i}" for i in range(20, 0, -1)]
 
     for idx, d in enumerate(base_dates):
-        # 10년물 금리와 2년물 금리의 20일 점진적 추세 연동
-        drift = (idx - (len(base_dates) - 1)) * 0.01
+        drift = (idx - (len(base_dates) - 1)) * 0.012
         cur_10y = round(y10_val + drift, 2)
         cur_2y = round(y2_val + (drift * 0.7), 2)
         sp = round((cur_10y - cur_2y) * 100)
@@ -191,11 +187,11 @@ def build_consistent_20d_history(
             "spread": sp,
         })
 
-    # 2. 원자재 20일 추이
+    # 2. 원자재 시계열
     comm_hist = []
-    min_len = min(len(series_cop), len(series_gold), len(series_silver))
-    if min_len > 0:
-        for i in range(-min_len, 0):
+    min_comm = min(len(series_cop), len(series_gold), len(series_silver))
+    if min_comm > 0:
+        for i in range(-min_comm, 0):
             comm_hist.append({
                 "date": series_cop[i]["date"],
                 "copper": series_cop[i]["price"],
@@ -203,18 +199,20 @@ def build_consistent_20d_history(
                 "silver": series_silver[i]["price"],
             })
 
-    # 3. 환율 20일 추이
+    # 3. 환율 시계열 (원달러, 달러인덱스, 엔달러)
     fx_hist = []
-    min_fx = min(len(series_krw), len(series_dxy))
+    min_fx = min(len(series_krw), len(series_dxy), len(series_jpy)) if series_jpy else min(len(series_krw), len(series_dxy))
     if min_fx > 0:
         for i in range(-min_fx, 0):
+            j_val = series_jpy[i]["price"] if series_jpy and len(series_jpy) >= abs(i) else 147.50
             fx_hist.append({
                 "date": series_krw[i]["date"],
                 "usdkrw": series_krw[i]["price"],
                 "dxy": series_dxy[i]["price"],
+                "usdjpy": j_val,
             })
 
-    # 4. 유가 20일 추이
+    # 4. 유가 시계열
     oil_hist = []
     for i in range(len(series_wti)):
         prev_p = series_wti[i - 1]["price"] if i > 0 else series_wti[i]["price"]
@@ -250,6 +248,7 @@ def generate_macro_reviews_with_metrics(
     wti = ind.get("wti", {"price": 75.80, "change": -0.65})
     krw = ind.get("usdkrw", {"price": 1382.50, "change": 0.25})
     dxy = ind.get("dxy", {"price": 103.85, "change": -0.12})
+    jpy = ind.get("usdjpy", {"price": 147.20, "change": -0.18})
 
     curve_state = "정상화 (우상향)" if spread_bp >= 0 else "역전 (침체경보)"
     bonds = {
@@ -257,35 +256,36 @@ def generate_macro_reviews_with_metrics(
         "title": f"미국채 10년물 {y10}%선 공방과 {curve_state}",
         "metrics": [
             {
+                "id": "spread",
+                "name": "10Y-2Y차",
+                "val": f"{spread_bp:+d} bp",
+                "chg": curve_state,
+                "up": spread_bp >= 0,
+            },
+            {
+                "id": "us10y",
                 "name": "10년물",
                 "val": f"{y10:.2f}%",
                 "chg": f"{y10_chg:+.2f}%",
                 "up": y10_chg >= 0,
             },
             {
+                "id": "us2y",
                 "name": "2년물",
                 "val": f"{y2:.2f}%",
                 "chg": f"{y2_chg:+.2f}%",
                 "up": y2_chg >= 0,
             },
             {
+                "id": "us30y",
                 "name": "30년물",
                 "val": f"{y30:.2f}%",
                 "chg": f"{y30_chg:+.2f}%",
                 "up": y30_chg >= 0,
             },
-            {
-                "name": "10Y-2Y차",
-                "val": f"{spread_bp:+d} bp",
-                "chg": curve_state,
-                "up": spread_bp >= 0,
-            },
         ],
         "bullets": [
-            (
-                f"10년물 {y10}%와 2년물 {y2}% 형성으로 장단기차 {spread_bp:+d} bp"
-                " 유지"
-            ),
+            f"10년물 {y10}%와 2년물 {y2}% 형성으로 장단기차 {spread_bp:+d} bp 유지",
             "단기 통화정책 안정세 속 재정 적자 발행에 따른 장기물 기간 프리미엄",
         ],
         "detail": (
@@ -301,18 +301,21 @@ def generate_macro_reviews_with_metrics(
         "title": f"닥터 코퍼 ${cop['price']}선 {cop_dir} 및 귀금속 헤지 수요",
         "metrics": [
             {
+                "id": "copper",
                 "name": "구리(동)",
                 "val": f"${cop['price']:.2f}",
                 "chg": f"{cop['change']:+.2f}%",
                 "up": cop["change"] >= 0,
             },
             {
+                "id": "gold",
                 "name": "금(Gold)",
                 "val": f"${gold['price']:,.1f}",
                 "chg": f"{gold['change']:+.2f}%",
                 "up": gold["change"] >= 0,
             },
             {
+                "id": "silver",
                 "name": "은(Silver)",
                 "val": f"${silver['price']:.2f}",
                 "chg": f"{silver['change']:+.2f}%",
@@ -339,20 +342,29 @@ def generate_macro_reviews_with_metrics(
 
     krw_state = "원화 약세" if krw["change"] >= 0 else "원화 강세"
     fx = {
-        "badge": f"원/달러 {krw['price']:,.0f}원",
-        "title": f"원/달러 {krw['price']:,.1f}원선 등락과 DXY {dxy['price']}pt 지지",
+        "badge": f"원/달러 {krw['price']:,.0f}원 | 엔/달러 ¥{jpy['price']:.1f}",
+        "title": f"원/달러 {krw['price']:,.1f}원선 등락과 엔/달러 ¥{jpy['price']:.1f}",
         "metrics": [
             {
+                "id": "usdkrw",
                 "name": "원/달러",
                 "val": f"{krw['price']:,.1f}원",
                 "chg": f"{krw['change']:+.2f}%",
                 "up": krw["change"] >= 0,
             },
             {
+                "id": "dxy",
                 "name": "달러인덱스",
                 "val": f"{dxy['price']:.2f}pt",
                 "chg": f"{dxy['change']:+.2f}%",
                 "up": dxy["change"] >= 0,
+            },
+            {
+                "id": "usdjpy",
+                "name": "엔/달러",
+                "val": f"¥{jpy['price']:.2f}",
+                "chg": f"{jpy['change']:+.2f}%",
+                "up": jpy["change"] >= 0,
             },
         ],
         "bullets": [
@@ -361,14 +373,18 @@ def generate_macro_reviews_with_metrics(
                 " 미국 상대성장 우위로 달러 하방 경직성"
             ),
             (
+                f"엔/달러 {jpy['price']:.2f}엔 ({jpy['change']:+.2f}%) - BOJ"
+                " 통화정책 정상화 경계감 속 엔 캐리 트레이드 청산 민감도 주시"
+            ),
+            (
                 f"원/달러 환율 {krw['price']:,.1f}원 ({krw['change']:+.2f}%) -"
                 f" {krw_state} 구간 속 외국인 패시브 수급 주시"
             ),
         ],
         "detail": (
-            f"원/달러 환율 {krw['price']:,.1f}원선은 반도체 등 수출 대형주의"
-            " 원화 환산 실적을 방어하는 완충 역할을 합니다. DXY 103선 지지는"
-            " 연준의 신중한 금리 인하 경로를 반영합니다."
+            f"원/달러 {krw['price']:,.1f}원과 엔/달러 ¥{jpy['price']:.2f}선은"
+            " 아시아 외환시장의 주요 레벨입니다. 엔화 변동성은 글로벌 엔 캐리"
+            " 자금의 유출입 방향을 결정하는 핵심 변수로 작용합니다."
         ),
     }
 
@@ -382,17 +398,12 @@ def generate_macro_reviews_with_metrics(
         "title": f"WTI 배럴당 ${wti['price']}선과 {oil_status}",
         "metrics": [
             {
+                "id": "wti",
                 "name": "WTI 원유",
                 "val": f"${wti['price']:.2f}",
                 "chg": f"{wti['change']:+.2f}%",
                 "up": wti["change"] >= 0,
-            },
-            {
-                "name": "유가 국면",
-                "val": oil_status,
-                "chg": "에너지 마진 안정",
-                "up": True,
-            },
+            }
         ],
         "bullets": [
             (
@@ -432,16 +443,16 @@ def main():
         "status": "정상화 (우상향)" if spread_bp >= 0 else "역전 (침체경보)",
     }
 
-    # 2. 20일 실데이터 시계열 연속 수집
+    # 2. 20일 실데이터 시계열 연속 수집 (엔/달러 JPY=X 추가)
     s_cop = fetch_yahoo_series("HG=F", 20)
     s_gold = fetch_yahoo_series("GC=F", 20)
     s_silver = fetch_yahoo_series("SI=F", 20)
     s_wti = fetch_yahoo_series("CL=F", 20)
     s_krw = fetch_yahoo_series("KRW=X", 20)
     s_dxy = fetch_yahoo_series("DX-Y.NYB", 20)
+    s_jpy = fetch_yahoo_series("JPY=X", 20)
     s_vix = fetch_yahoo_series("^VIX", 2)
 
-    # 당일 최신가 동기화
     if "indicators" not in data:
         data["indicators"] = {}
 
@@ -461,6 +472,7 @@ def main():
     data["indicators"]["wti"] = get_quote_from_series(s_wti, 75.80)
     data["indicators"]["usdkrw"] = get_quote_from_series(s_krw, 1382.50)
     data["indicators"]["dxy"] = get_quote_from_series(s_dxy, 103.85)
+    data["indicators"]["usdjpy"] = get_quote_from_series(s_jpy, 147.20)
 
     if s_vix:
         v_last = s_vix[-1]["price"]
@@ -470,7 +482,7 @@ def main():
             "change": round(((v_last - v_prev) / v_prev) * 100, 2),
         }
 
-    # 3. 일관된 20일 히스토리 데이터 생성
+    # 3. 20일 시계열 데이터 생성
     data["history_20d"] = build_consistent_20d_history(
         y10_data["value"],
         y2_data["value"],
@@ -480,6 +492,7 @@ def main():
         s_wti,
         s_krw,
         s_dxy,
+        s_jpy,
     )
 
     # 4. 데이터 우선 매크로 리뷰 생성
@@ -536,7 +549,7 @@ def main():
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-    print("20영업일 실데이터 시계열 정합화 및 동기화 완료!")
+    print("엔/달러 추가 및 20일 세부 시계열 동기화 완료!")
 
 
 if __name__ == "__main__":
