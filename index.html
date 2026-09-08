@@ -205,7 +205,6 @@
       color: #38bdf8;
     }
 
-    /* 실시간 원천 데이터 칩 */
     .metric-strip {
       display: flex;
       flex-wrap: wrap;
@@ -277,13 +276,36 @@
     .card-history { grid-column: span 2; cursor: pointer; }
     .card-history .card-tag { background: rgba(168, 85, 247, 0.2); color: #d8b4fe; }
 
-    /* 서랍 내 20영업일 히스토리 스크롤 테이블 스타일 */
+    /* SVG 미니 트렌드 차트 컨테이너 */
+    .sparkline-card {
+      background: #020617;
+      border: 1px solid #1e293b;
+      border-radius: 8px;
+      padding: 10px 12px;
+      margin-bottom: 12px;
+    }
+    .sparkline-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 6px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: #94a3b8;
+    }
+    .sparkline-svg {
+      width: 100%;
+      height: 100px;
+      overflow: visible;
+    }
+
+    /* 서랍 내 20영업일 히스토리 스크롤 테이블 */
     .history-table-container {
       background: #020617;
       border: 1px solid #1e293b;
       border-radius: 8px;
       margin: 12px 0;
-      max-height: 240px;
+      max-height: 200px;
       overflow-y: auto;
     }
     .hist-table {
@@ -331,7 +353,7 @@
     }
     .drawer.open { transform: translateX(0); }
     .drawer-content-scroll { overflow-y: auto; flex-grow: 1; padding-right: 6px; }
-    .drawer-header { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #1e293b; padding-bottom: 12px; margin-bottom: 16px; }
+    .drawer-header { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #1e293b; padding-bottom: 12px; margin-bottom: 14px; }
     .close-btn { background: none; border: none; color: #94a3b8; font-size: 1.5rem; cursor: pointer; }
     .overlay { position: fixed; inset: 0; background: rgba(0, 0, 0, 0.65); backdrop-filter: blur(2px); z-index: 90; display: none; }
     .overlay.show { display: block; }
@@ -344,7 +366,7 @@
       <span style="font-size: 1.4rem;">📊</span>
       <div>
         <h1>글로벌 매크로 레짐 & 테크 인텔리전스</h1>
-        <p>네이버 증권 시장지표 연동 · 4대 매크로 20일 시계열 분석 · CME FedWatch</p>
+        <p>네이버 증권 시장지표 연동 · 20영업일 SVG 트렌드 차트 · CME FedWatch</p>
       </div>
     </div>
     <div class="header-status">
@@ -425,7 +447,7 @@
   <!-- 메인 그리드 -->
   <main class="dashboard-grid">
 
-    <!-- 타일 1: 4대 매크로 레짐 (실시간 수치 리스트업) -->
+    <!-- 타일 1: 4대 매크로 레짐 -->
     <div class="card card-macro-grid">
       <div>
         <div class="feed-tab-bar">
@@ -509,7 +531,7 @@
       </div>
       <div class="card-footer">
         <span>출처: 네이버 증권 시장지표 & 야후 선물</span>
-        <span style="color:#34d399; cursor:pointer;" onclick="openDrawer('macro_bonds')">영역 클릭 시 20일 히스토리 &rarr;</span>
+        <span style="color:#34d399; cursor:pointer;" onclick="openDrawer('macro_bonds')">영역 클릭 시 20일 트렌드 차트 &rarr;</span>
       </div>
     </div>
 
@@ -530,28 +552,24 @@
         </div>
 
         <div id="quadrant-view" class="quadrant-grid">
-          <!-- 1. 미 연준 -->
           <div class="quadrant-box">
             <div class="quadrant-title"><span>🏛️ 1. 연준 공식 연설</span><span style="color:#60a5fa;">Policy</span></div>
             <ul class="q-list" id="q-fed">
               <li class="q-item"><span style="font-size:0.7rem; color:#64748b;">로드 중...</span></li>
             </ul>
           </div>
-          <!-- 2. 글로벌 속보 -->
           <div class="quadrant-box">
             <div class="quadrant-title"><span>⚡ 2. 글로벌 마켓 속보</span><span style="color:#38bdf8;">CNBC</span></div>
             <ul class="q-list" id="q-global">
               <li class="q-item"><span style="font-size:0.7rem; color:#64748b;">로드 중...</span></li>
             </ul>
           </div>
-          <!-- 3. 테크·반도체 -->
           <div class="quadrant-box">
             <div class="quadrant-title"><span>🔬 3. 반도체 & 소부장</span><span style="color:#34d399;">TheElec / ETNews</span></div>
             <ul class="q-list" id="q-tech">
               <li class="q-item"><span style="font-size:0.7rem; color:#64748b;">로드 중...</span></li>
             </ul>
           </div>
-          <!-- 4. 여의도 채권/외환 -->
           <div class="quadrant-box">
             <div class="quadrant-title"><span>📊 4. 채권·외환</span><span style="color:#fbbf24;">Infomax</span></div>
             <ul class="q-list" id="q-domestic">
@@ -623,7 +641,7 @@
 
   </main>
 
-  <!-- 상세 서랍 (데이터 칩 + 20일 시계열 스크롤 테이블 지원) -->
+  <!-- 상세 서랍 (데이터 칩 + SVG 트렌드 차트 + 20영업일 히스토리) -->
   <aside id="drawer" class="drawer">
     <div class="drawer-content-scroll">
       <div class="drawer-header">
@@ -632,8 +650,17 @@
       </div>
       <h2 id="drawer-title" style="font-size: 1.15rem; font-weight: 700; margin-bottom: 12px; color:#fff;"></h2>
       
-      <!-- 서랍 상단 실시간 데이터 칩 스트립 -->
-      <div id="drawer-metric-strip" class="metric-strip" style="display:none; margin-bottom:14px;"></div>
+      <!-- 서랍 상단 실시간 데이터 칩 -->
+      <div id="drawer-metric-strip" class="metric-strip" style="display:none; margin-bottom:12px;"></div>
+
+      <!-- SVG 미니 트렌드 차트 영역 -->
+      <div id="drawer-chart-box" class="sparkline-card" style="display:none;">
+        <div class="sparkline-header">
+          <span id="chart-label">📈 20영업일 시계열 트렌드</span>
+          <span id="chart-range" style="font-family:monospace; color:#38bdf8; font-size:0.68rem;"></span>
+        </div>
+        <div id="chart-svg-wrapper"></div>
+      </div>
 
       <div id="drawer-body" style="font-size: 0.8rem; line-height: 1.6; color: #cbd5e1;"></div>
     </div>
@@ -695,7 +722,7 @@
           spreadChgEl.className = `y-change ${bp >= 0 ? 'up' : 'down'}`;
         }
 
-        // 2. 4대 매크로 리뷰 및 20일 히스토리 캐시
+        // 2. 4대 매크로 리뷰 및 20일 시계열 캐시
         if (data.macro_reviews) {
           cachedMacroReviews = data.macro_reviews;
           renderMacroQuadrants();
@@ -851,13 +878,65 @@
       }
     }
 
-    // 20일 히스토리 테이블 HTML 생성기 (역순 정렬: 최신 날짜가 위로 오도록)
+    // 순수 SVG 스파크라인 트렌드 차트 생성 함수 (무설치, 고화질 렌더링)
+    function renderSvgSparkline(values, dates, color = "#38bdf8") {
+      if (!values || values.length < 2) return '';
+      const min = Math.min(...values);
+      const max = Math.max(...values);
+      const range = max - min || 1;
+      const width = 480;
+      const height = 90;
+      const padding = 12;
+
+      const points = values.map((v, i) => {
+        const x = padding + (i / (values.length - 1)) * (width - padding * 2);
+        const y = height - padding - ((v - min) / range) * (height - padding * 2);
+        return { x, y, v };
+      });
+
+      const pathD = points.reduce((acc, p, i) => i === 0 ? `M ${p.x} ${p.y}` : `${acc} L ${p.x} ${p.y}`, '');
+      const areaD = `${pathD} L ${points[points.length - 1].x} ${height} L ${points[0].x} ${height} Z`;
+
+      const firstV = values[0];
+      const lastV = values[values.length - 1];
+      const chgPct = (((lastV - firstV) / firstV) * 100).toFixed(2);
+      const isUp = lastV >= firstV;
+
+      return `
+        <svg viewBox="0 0 ${width} ${height}" class="sparkline-svg">
+          <defs>
+            <linearGradient id="sparkGrad" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="${color}" stop-opacity="0.35"/>
+              <stop offset="100%" stop-color="${color}" stop-opacity="0.0"/>
+            </linearGradient>
+          </defs>
+          <!-- 수평 가이드선 (최소/최대) -->
+          <line x1="${padding}" y1="${padding}" x2="${width - padding}" y2="${padding}" stroke="#334155" stroke-dasharray="3 3" stroke-width="0.8"/>
+          <line x1="${padding}" y1="${height - padding}" x2="${width - padding}" y2="${height - padding}" stroke="#334155" stroke-dasharray="3 3" stroke-width="0.8"/>
+          
+          <!-- 면 채우기 및 라인 -->
+          <path d="${areaD}" fill="url(#sparkGrad)"/>
+          <path d="${pathD}" fill="none" stroke="${color}" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+          
+          <!-- 시작점과 끝점 닷 -->
+          <circle cx="${points[0].x}" cy="${points[0].y}" r="3" fill="${color}"/>
+          <circle cx="${points[points.length - 1].x}" cy="${points[points.length - 1].y}" r="4" fill="#ffffff" stroke="${color}" stroke-width="2"/>
+          
+          <!-- 텍스트 라벨 (최고/최저) -->
+          <text x="${width - padding}" y="${padding - 3}" fill="#94a3b8" font-size="9" text-anchor="end" font-family="monospace">MAX: ${max.toLocaleString()}</text>
+          <text x="${width - padding}" y="${height - 2}" fill="#64748b" font-size="9" text-anchor="end" font-family="monospace">MIN: ${min.toLocaleString()}</text>
+          <text x="${padding}" y="${padding - 3}" fill="${isUp ? '#34d399' : '#fb7185'}" font-size="10" font-weight="bold" font-family="monospace">20D 변동: ${isUp ? '+' : ''}${chgPct}%</text>
+        </svg>
+      `;
+    }
+
+    // 20일 히스토리 테이블 HTML 생성
     function buildHistoryTable(category) {
       if (!cachedHistory20d || !cachedHistory20d[category]) {
         return '<p style="font-size:0.75rem; color:#64748b;">히스토리 데이터를 불러오는 중입니다...</p>';
       }
       const rawList = cachedHistory20d[category];
-      const list = [...rawList].reverse(); // 최신일 우선
+      const list = [...rawList].reverse();
 
       if (category === 'bonds') {
         const rows = list.map(item => `
@@ -937,31 +1016,37 @@
       return '';
     }
 
-    // 슬라이드 서랍 오픈 함수 (데이터 스트립 + 20영업일 히스토리 테이블 바인딩)
+    // 슬라이드 서랍 오픈 함수 (트렌드 차트 + 데이터 칩 + 테이블)
     function openDrawer(key) {
       const tagEl = document.getElementById('drawer-tag');
       const titleEl = document.getElementById('drawer-title');
       const stripEl = document.getElementById('drawer-metric-strip');
+      const chartBox = document.getElementById('drawer-chart-box');
+      const chartLabel = document.getElementById('chart-label');
+      const chartSvgWrapper = document.getElementById('chart-svg-wrapper');
       const bodyEl = document.getElementById('drawer-body');
 
       stripEl.style.display = 'none';
       stripEl.innerHTML = '';
+      chartBox.style.display = 'none';
+      chartSvgWrapper.innerHTML = '';
 
       if (key.startsWith('macro_')) {
         const cat = key.replace('macro_', '');
         const item = cachedMacroReviews ? cachedMacroReviews[cat] : null;
 
-        const catNames = {
-          bonds: '🏛️ 매크로 심층: 미국채 수익률 곡선 (20일 추이)',
-          commodities: '🪙 매크로 심층: 원자재 (구리·금·은 20일 추이)',
-          fx: '💵 매크로 심층: 외환(FX) & 달러인덱스 (20일 추이)',
-          oil: '🛢️ 매크로 심층: WTI 유가 & 에너지 (20일 추이)'
+        const catMeta = {
+          bonds: { tag: '🏛️ 매크로 심층: 미국채 수익률 곡선 (20일 추이)', label: '📊 10Y-2Y 장단기 금리차 (스프레드 bp) 20일 트렌드', color: '#60a5fa' },
+          commodities: { tag: '🪙 매크로 심층: 원자재 (구리·금·은 20일 추이)', label: '📈 닥터 코퍼 (구리 $/lb) 20일 가격 흐름', color: '#38bdf8' },
+          fx: { tag: '💵 매크로 심층: 외환(FX) & 달러인덱스 (20일 추이)', label: '💵 원/달러 환율 (KRW/USD) 20일 변동 추이', color: '#34d399' },
+          oil: { tag: '🛢️ 매크로 심층: WTI 유가 & 에너지 (20일 추이)', label: '🛢️ WTI 원유 선물 ($/배럴) 20일 가격 추이', color: '#f43f5e' }
         };
 
-        tagEl.innerText = catNames[cat] || "매크로 지표 심층";
+        const meta = catMeta[cat] || { tag: "매크로 지표 심층", label: "20일 시계열", color: "#38bdf8" };
+        tagEl.innerText = meta.tag;
         titleEl.innerText = item ? item.title : "지표 상세 분석";
 
-        // 서랍 상단 실시간 데이터 칩 스트립 표출
+        // 1. 실시간 데이터 칩 스트립
         if (item && item.metrics) {
           stripEl.style.display = 'flex';
           stripEl.innerHTML = item.metrics.map(mt => `
@@ -973,10 +1058,26 @@
           `).join('');
         }
 
-        // 20일 히스토리 스크롤 테이블 + 분석 텍스트 + 바로가기 버튼 결합
+        // 2. SVG 트렌드 미니 차트 생성
+        if (cachedHistory20d && cachedHistory20d[cat] && cachedHistory20d[cat].length >= 2) {
+          const raw = cachedHistory20d[cat];
+          let chartValues = [];
+          let chartDates = raw.map(r => r.date);
+
+          if (cat === 'bonds') chartValues = raw.map(r => r.spread);
+          else if (cat === 'commodities') chartValues = raw.map(r => r.copper);
+          else if (cat === 'fx') chartValues = raw.map(r => r.usdkrw);
+          else if (cat === 'oil') chartValues = raw.map(r => r.wti);
+
+          chartBox.style.display = 'block';
+          chartLabel.innerText = meta.label;
+          chartSvgWrapper.innerHTML = renderSvgSparkline(chartValues, chartDates, meta.color);
+        }
+
+        // 3. 20일 히스토리 테이블 + 데스크 코멘트
         bodyEl.innerHTML = `
-          <div style="margin-bottom:8px;">
-            <span style="font-size:0.75rem; font-weight:700; color:#94a3b8;">📅 최근 20영업일 시계열 히스토리 (스크롤 지원)</span>
+          <div style="margin-bottom:6px;">
+            <span style="font-size:0.73rem; font-weight:700; color:#94a3b8;">📅 최근 20영업일 상세 시계열 히스토리</span>
           </div>
           ${buildHistoryTable(cat)}
 
