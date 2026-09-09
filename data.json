@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09 08:14:35",
+  "updated_at": "2026-09-09 08:23:03",
   "us2y": {
     "value": 4.37,
     "change": -0.29
@@ -21,8 +21,8 @@
     "status": "정상화 (우상향)"
   },
   "vix": {
-    "value": 15.68,
-    "change": -0.25
+    "value": 15.7,
+    "change": -0.13
   },
   "tech_news": [
     {
@@ -223,40 +223,40 @@
       "detail": "10Y-2Y 스프레드가 +42 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.79",
-      "title": "닥터 코퍼 $6.79선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.78",
+      "title": "닥터 코퍼 $6.78선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.79",
-          "chg": "+0.74%",
+          "val": "$6.78",
+          "chg": "+0.59%",
           "up": true
         },
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,451.2",
-          "chg": "+1.30%",
+          "val": "$4,449.6",
+          "chg": "+1.27%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$67.42",
-          "chg": "+1.69%",
+          "val": "$67.36",
+          "chg": "+1.60%",
           "up": true
         }
       ],
       "bullets": [
-        "구리 $6.79/lb (+0.74%) - AI 전력망 설비 수요 반영",
-        "금 $4,451/oz, 은 $67.42/oz - 통화가치 헤지"
+        "구리 $6.78/lb (+0.59%) - AI 전력망 설비 수요 반영",
+        "금 $4,450/oz, 은 $67.36/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,336원 | 엔/달러 ¥153.3",
-      "title": "원/달러 1,336.5원선과 엔/달러 ¥153.3",
+      "badge": "원/달러 1,336원 | 엔/달러 ¥153.4",
+      "title": "원/달러 1,336.5원선과 엔/달러 ¥153.4",
       "metrics": [
         {
           "id": "usdkrw",
@@ -268,38 +268,38 @@
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "98.70pt",
-          "chg": "-0.14%",
+          "val": "98.71pt",
+          "chg": "-0.13%",
           "up": false
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥153.34",
-          "chg": "-0.33%",
+          "val": "¥153.41",
+          "chg": "-0.29%",
           "up": false
         }
       ],
       "bullets": [
-        "달러 인덱스 98.7pt - 미국 성장 우위 지속",
-        "엔/달러 153.34엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 98.71pt - 미국 성장 우위 지속",
+        "엔/달러 153.41엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $94.42",
-      "title": "WTI 배럴당 $94.42선 박스권 안정",
+      "badge": "WTI $94.24",
+      "title": "WTI 배럴당 $94.24선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$94.42",
-          "chg": "+1.49%",
+          "val": "$94.24",
+          "chg": "+1.30%",
           "up": true
         }
       ],
       "bullets": [
-        "WTI 선물 $94.42/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $94.24/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -307,32 +307,32 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.79,
-      "change": 0.74
+      "price": 6.78,
+      "change": 0.59
     },
     "gold": {
-      "price": 4451.2,
-      "change": 1.3
+      "price": 4449.6,
+      "change": 1.27
     },
     "silver": {
-      "price": 67.42,
-      "change": 1.69
+      "price": 67.36,
+      "change": 1.6
     },
     "wti": {
-      "price": 94.42,
-      "change": 1.49
+      "price": 94.24,
+      "change": 1.3
     },
     "usdkrw": {
-      "price": 1336.49,
+      "price": 1336.5,
       "change": -0.53
     },
     "dxy": {
-      "price": 98.7,
-      "change": -0.14
+      "price": 98.71,
+      "change": -0.13
     },
     "usdjpy": {
-      "price": 153.34,
-      "change": -0.33
+      "price": 153.41,
+      "change": -0.29
     }
   },
   "history_20d": {
@@ -595,9 +595,9 @@
       },
       {
         "date": "09-09",
-        "copper": 6.79,
-        "gold": 4451.2,
-        "silver": 67.42
+        "copper": 6.78,
+        "gold": 4449.6,
+        "silver": 67.36
       }
     ],
     "fx": [
@@ -717,9 +717,9 @@
       },
       {
         "date": "09-09",
-        "usdkrw": 1336.49,
-        "dxy": 98.7,
-        "usdjpy": 153.34
+        "usdkrw": 1336.5,
+        "dxy": 98.71,
+        "usdjpy": 153.41
       }
     ],
     "oil": [
@@ -820,8 +820,8 @@
       },
       {
         "date": "09-09",
-        "wti": 94.42,
-        "change": 1.49
+        "wti": 94.24,
+        "change": 1.3
       }
     ]
   },
@@ -1010,68 +1010,7 @@
     }
   },
   "trends": {
-    "naver_sisa": [
-      {
-        "rank": 1,
-        "title": "스테이블코인 (Stablecoin)",
-        "desc": "달러 등 법정화폐와 가치가 1:1로 고정된 가상자산",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%8A%A4%ED%85%8C%EC%9D%B4%EB%B8%94%EC%BD%94%EC%9D%B8"
-      },
-      {
-        "rank": 2,
-        "title": "HBM4 (6세대 고대역폭메모리)",
-        "desc": "차세대 AI 가속기를 위한 맞춤형 베이스 다이 D램",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=HBM4"
-      },
-      {
-        "rank": 3,
-        "title": "양적긴축 (QT)",
-        "desc": "중앙은행의 보유 자산 축소를 통한 유동성 회수 정책",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%96%91%EC%A0%81%EA%B8%B4%EC%B6%95"
-      },
-      {
-        "rank": 4,
-        "title": "트리핀 딜레마 (Triffin's dilemma)",
-        "desc": "기축통화 공급과 통화 가치 신뢰 사이의 구조적 모순",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%8A%B8%EB%A6%AC%ED%95%80%20%EB%94%9C%EB%A0%88%EB%A7%88"
-      },
-      {
-        "rank": 5,
-        "title": "엔 캐리 트레이드 (Yen Carry Trade)",
-        "desc": "초저금리 엔화 차입을 통한 글로벌 고금리 자산 투자",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%97%94%20%EC%BA%90%EB%A6%AC%20%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%93%9C"
-      },
-      {
-        "rank": 6,
-        "title": "소버린 AI (Sovereign AI)",
-        "desc": "자국의 데이터와 인프라로 자체 AI 주권을 구축하는 전략",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%86%8C%EB%B2%84%EB%A6%B0%20AI"
-      },
-      {
-        "rank": 7,
-        "title": "밸류업 프로그램 (Value-up)",
-        "desc": "국내 상장기업의 저평가 해소와 주주환원 제고 정책",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B0%B8%EB%A5%98%EC%97%85%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8"
-      },
-      {
-        "rank": 8,
-        "title": "피지컬 AI (Physical AI)",
-        "desc": "휴머노이드 로봇 등 실물 하드웨어와 결합된 차세대 인공지능",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%94%BC%EC%A7%80%EC%BB%AC%20AI"
-      },
-      {
-        "rank": 9,
-        "title": "호르무즈 해협 (Strait of Hormuz)",
-        "desc": "글로벌 원유 해상 수송의 핵심 지정학적 초크포인트",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%98%B8%EB%A5%B4%EB%AC%B4%EC%A6%88%20%ED%95%B4%ED%98%91"
-      },
-      {
-        "rank": 10,
-        "title": "리쇼어링 (Reshoring)",
-        "desc": "해외 생산시설을 자국 영토로 복귀시키는 공급망 재편",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%A6%AC%EC%87%BC%EC%96%B4%EB%A7%81"
-      }
-    ],
+    "naver_sisa": [],
     "namu_rank": [
       {
         "rank": 1,
@@ -1169,7 +1108,7 @@
         "rank": 6,
         "title": "소연 (SOYEON) '퇴사할게여 (Narr. 기안84)' Official Music Video",
         "channel": "i-dle (아이들)",
-        "views": "207만회",
+        "views": "208만회",
         "thumb": "https://i.ytimg.com/vi/7mDDM0eBWR0/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=7mDDM0eBWR0"
       },
@@ -1201,7 +1140,7 @@
         "rank": 10,
         "title": "UNIS(유니스) '하늘땅 별땅' Performance Video",
         "channel": "UNIS",
-        "views": "33만회",
+        "views": "34만회",
         "thumb": "https://i.ytimg.com/vi/luTz3QoowrU/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=luTz3QoowrU"
       }
