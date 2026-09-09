@@ -44,7 +44,7 @@ def make_naver_news_link(query_text):
     return f"https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query={encoded}"
 
 def fetch_naver_sisa_weekly():
-    """네이버 시사상식사전 주간조회순 Top 10 수집 (__NEXT_DATA__ 파싱 및 실제 순위 보장)"""
+    """네이버 시사상식사전 주간조회순 Top 10 실시간 정밀 수집"""
     items = []
     seen = set()
 
@@ -60,76 +60,79 @@ def fetch_naver_sisa_weekly():
     }
 
     try:
-        res = requests.get(target_url, headers=headers, timeout=10)
+        res = requests.get(target_url, headers=headers, timeout=12, allow_redirects=True)
         if res.status_code == 200:
             soup = BeautifulSoup(res.text, "html.parser")
-            
-            # 1. Next.js 내장 데이터(__NEXT_DATA__)에서 실제 랭킹 항목 파싱
-            script_data = soup.find("script", id="__NEXT_DATA__")
-            if script_data and script_data.string:
-                try:
-                    nd_json = json.loads(script_data.string)
-                    def find_entries(obj):
-                        if isinstance(obj, dict):
-                            if "title" in obj and ("docId" in obj or "entryId" in obj):
-                                t = obj.get("title", "").strip()
-                                if t and len(t) >= 2 and t not in seen:
-                                    seen.add(t)
-                                    items.append({
-                                        "rank": len(items) + 1,
-                                        "title": t,
-                                        "link": make_naver_news_link(t)
-                                    })
-                            for v in obj.values():
-                                if len(items) >= 10: break
-                                find_entries(v)
-                        elif isinstance(obj, list):
-                            for itm in obj:
-                                if len(items) >= 10: break
-                                find_entries(itm)
-                    find_entries(nd_json)
-                except Exception as je:
-                    print(f"__NEXT_DATA__ 파싱 예외: {je}")
 
-            # 2. 일반 HTML 앵커 태그 보조 탐색
+            # 1. HTML 내 엔트리 링크 파싱 (설명문과 섞이지 않도록 순수 제목만 분리)
+            links = soup.find_all("a", href=re.compile(r"/entry\.(naver|nhn)"))
+            for a in links:
+                # 카드 안에서 제목 역할을 하는 태그 우선 탐색
+                tit_el = a.find(class_=re.compile(r"(tit|title|subject|name)", re.I))
+                if not tit_el:
+                    tit_el = a.find(["strong", "h3", "h4", "h2", "b"])
+
+                if tit_el:
+                    raw_text = tit_el.get_text(strip=True)
+                else:
+                    # 제목 태그가 따로 없는 경우 개행 기준으로 첫 번째 줄(헤드라인)만 발췌
+                    lines = [ln.strip() for ln in a.get_text("\n").split("\n") if ln.strip()]
+                    raw_text = lines[0] if lines else ""
+
+                # 불필요 기호 및 공백 정리
+                title = re.sub(r"\s+", " ", raw_text).strip()
+
+                if 2 <= len(title) <= 35 and title not in seen:
+                    if not any(x in title for x in ["시사상식사전", "지식백과", "로그인", "신고", "박문각", "더보기"]):
+                        seen.add(title)
+                        items.append({
+                            "rank": len(items) + 1,
+                            "title": title,
+                            "link": make_naver_news_link(title)
+                        })
+                        if len(items) >= 10:
+                            break
+
+            # 2. HTML 태그 파싱이 부족할 경우 내장 JSON 스크립트 블록에서 제목 역추적
             if len(items) < 10:
-                for a in soup.find_all("a"):
-                    href = a.get("href", "")
-                    if "entry" in href or "docId" in href:
-                        t = a.get_text(strip=True)
-                        if not t or len(t) < 2 or len(t) > 30:
-                            continue
-                        if any(x in t for x in ["시사상식", "지식백과", "로그인", "더보기", "신고", "박문각", "pmg"]):
-                            continue
-                        if t not in seen:
-                            seen.add(t)
+                json_matches = re.findall(r'"(?:title|entryTitle|docTitle)"\s*:\s*"([^"]+)"', res.text)
+                for j_title in json_matches:
+                    j_clean = j_title.strip()
+                    if 2 <= len(j_clean) <= 35 and j_clean not in seen:
+                        if not any(x in j_clean for x in ["시사상식사전", "지식백과", "로그인", "신고", "박문각", "더보기"]):
+                            seen.add(j_clean)
                             items.append({
                                 "rank": len(items) + 1,
-                                "title": t,
-                                "link": make_naver_news_link(t)
+                                "title": j_clean,
+                                "link": make_naver_news_link(j_clean)
                             })
                             if len(items) >= 10:
                                 break
     except Exception as e:
-        print(f"네이버 시사상식사전 수집 예외: {e}")
+        print(f"네이버 시사상식 수집 통신 에러: {e}")
 
-    # 3. 네트워크 지연 또는 해외 클라우드 IP 차단 시에도 실제 주간조회순 1~10위 데이터 100% 보장
+    # GitHub Actions 콘솔에 실제 수집된 타이틀 목록을 그대로 출력하여 검증
+    real_titles = [x["title"] for x in items]
+    print(f"📡 [네이버 시사상식 실시간 크롤링 결과] 총 {len(items)}건 추출 완료: {real_titles}")
+
+    # 통신 완전 두절 시 보장 목록: 크롤링 실패 여부를 즉시 식별할 수 있도록 역순(10위->1위)으로 배치
     if len(items) < 10:
-        actual_weekly_ranking = [
-            "오디세이",
-            "제주 4·3 사건",
-            "태극기",
-            "사보타주",
-            "졸피뎀",
-            "연색호",
-            "24절기",
+        print("⚠️ [경고] 네이버 시사상식 크롤링 결과가 10건 미만이므로 역순 폴백 목록을 적용합니다.")
+        reversed_fallback = [
+            "린스타트업",
+            "페미니스트",
             "푸른 하늘을 위한 세계 청정 대기의 날",
-            "탄핵",
-            "아동학대"
+            "24절기",
+            "연색호",
+            "졸피뎀",
+            "사보타주",
+            "태극기",
+            "제주 4·3 사건",
+            "오디세이"
         ]
         items = [
             {"rank": idx, "title": kw, "link": make_naver_news_link(kw)}
-            for idx, kw in enumerate(actual_weekly_ranking, start=1)
+            for idx, kw in enumerate(reversed_fallback, start=1)
         ]
 
     return items
