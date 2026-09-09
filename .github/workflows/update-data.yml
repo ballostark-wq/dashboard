@@ -25,7 +25,11 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests
+          pip install requests beautifulsoup4
+
+      - name: Build Wikipedia History Pool (Optional 1-run)
+        run: |
+          python scripts/build_wiki_history.py
 
       - name: Run collector script
         run: |
