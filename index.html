@@ -690,34 +690,28 @@
       </div>
     </div>
 
-    <!-- 카드 3: 🔥 트렌드 & 이슈 레이더 -->
-      <div class="bg-[#0b1329] border border-slate-800/90 rounded-xl p-4 flex flex-col justify-between shadow-lg">
-        <div>
-          <!-- 헤더 및 3개 탭 전환 버튼 -->
-          <div class="flex items-center justify-between pb-2.5 mb-2.5 border-b border-slate-800 gap-1">
-            <div class="flex items-center gap-1.5 shrink-0">
-              <span class="text-base">🔥</span>
-              <span class="font-bold text-sm text-white">트렌드 & 이슈</span>
-            </div>
-            <div class="flex gap-1 bg-slate-900/90 p-1 rounded-lg border border-slate-800 text-xs">
-              <button id="trend-tab-naver" onclick="switchTrendTab('naver')" class="px-2 py-0.5 rounded font-semibold bg-purple-600 text-white transition-all">시사</button>
-              <button id="trend-tab-namu" onclick="switchTrendTab('namu')" class="px-2 py-0.5 rounded font-semibold text-slate-400 hover:text-white transition-all">나무</button>
-              <button id="trend-tab-yt" onclick="switchTrendTab('youtube')" class="px-2 py-0.5 rounded font-semibold text-slate-400 hover:text-white transition-all">인급동</button>
-            </div>
-          </div>
-
-          <!-- 순위 리스트 컨테이너 -->
-          <div id="trend-list-container" class="flex flex-col gap-1.5 min-h-[220px]">
-            <div class="text-xs text-slate-500 py-12 text-center">트렌드 데이터를 로딩 중입니다...</div>
+    <!-- 카드 3: 🔥 트렌드 & 이슈 레이더 (시사상식 / 나무위키 / 인급동) -->
+    <div class="card" style="grid-column: span 2; background: linear-gradient(135deg, rgba(12, 74, 110, 0.35), #0f172a); border-color: rgba(56, 189, 248, 0.35);">
+      <div>
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; border-bottom:1px solid #1e293b; padding-bottom:8px;">
+          <span class="card-tag" style="background:rgba(56, 189, 248, 0.2); color:#7dd3fc; margin-bottom:0;">🔥 실시간 트렌드 레이더</span>
+          <div style="display:flex; gap:4px;">
+            <button id="trend-tab-naver" class="feed-tab active" onclick="switchTrendTab('naver')">📚 시사</button>
+            <button id="trend-tab-namu" class="feed-tab" onclick="switchTrendTab('namu')">🌳 나무</button>
+            <button id="trend-tab-yt" class="feed-tab" onclick="switchTrendTab('youtube')">🎬 인급동</button>
           </div>
         </div>
 
-        <div class="pt-3 border-t border-slate-800/80 mt-3 flex justify-between items-center text-[11px] text-slate-400">
-          <span id="trend-source-label">네이버 시사상식사전 주간 랭킹</span>
-          <span class="text-slate-500">실시간 연동</span>
+        <div id="trend-list-container" style="min-height:165px; display:flex; flex-direction:column; gap:6px;">
+          <div style="font-size:0.72rem; color:#64748b; text-align:center; padding:40px 0;">트렌드 데이터를 로딩 중입니다...</div>
         </div>
       </div>
 
+      <div class="card-footer">
+        <span id="trend-source-label">네이버 시사상식사전 주간 랭킹</span>
+        <span style="color:#38bdf8;">실시간 연동</span>
+      </div>
+    </div>
   </main>
 
   <!-- 상세 서랍 -->
@@ -963,15 +957,6 @@
         document.getElementById('poly-theme-label').innerText = p.theme;
         document.getElementById('poly-meaning-text').innerText = p.meaning;
         switchLanguage(currentLangCode);
-      }
-
-      // 3. 정치철학 카드
-      if (ph) {
-        document.getElementById('h-philo-era').innerText = ph.era;
-        document.getElementById('h-philo-thinker').innerText = ph.thinker;
-        document.getElementById('h-philo-concept').innerText = ph.concept;
-        document.getElementById('h-philo-quote').innerText = ph.quote;
-        document.getElementById('h-philo-bullets').innerHTML = ph.bullets.map(b => `<li>${b}</li>`).join('');
       }
     }
 
@@ -1516,11 +1501,11 @@
         const btn = document.getElementById(t.id);
         if (btn) {
           if (t.key === tab) {
-            btn.className = "px-2 py-0.5 rounded font-semibold bg-purple-600 text-white transition-all";
+            btn.classList.add('active');
             const labelEl = document.getElementById('trend-source-label');
             if (labelEl) labelEl.innerText = t.label;
           } else {
-            btn.className = "px-2 py-0.5 rounded font-semibold text-slate-400 hover:text-white transition-all";
+            btn.classList.remove('active');
           }
         }
       });
@@ -1535,46 +1520,51 @@
       const trends = window.cachedTrendsData;
       let html = '';
     
+      // 1. 네이버 시사상식사전 Top 5 (순위 + 제목 + 요약)
       if (currentTrendTab === 'naver') {
         const list = trends.naver_sisa || [];
         html = list.slice(0, 5).map(item => `
           <a href="${item.link}" target="_blank" rel="noopener noreferrer" 
-             class="flex items-start gap-2.5 p-2 rounded-lg bg-slate-900/50 hover:bg-slate-800/80 border border-slate-800/60 transition-all text-decoration-none group">
-            <span class="text-xs font-bold text-purple-400 w-4 text-center mt-0.5">${item.rank}</span>
-            <div class="flex-1 min-w-0">
-              <div class="text-xs font-semibold text-slate-200 group-hover:text-purple-300 truncate">${item.title}</div>
-              <div class="text-[11px] text-slate-400 truncate mt-0.5">${item.desc}</div>
+             style="display:flex; align-items:flex-start; gap:8px; padding:6px 8px; background:#020617; border:1px solid #1e293b; border-radius:6px; text-decoration:none; transition:all 0.15s;">
+            <span style="font-size:0.75rem; font-weight:800; color:#38bdf8; width:16px; text-align:center; flex-shrink:0;">${item.rank}</span>
+            <div style="flex-grow:1; min-width:0;">
+              <div style="font-size:0.75rem; font-weight:700; color:#f8fafc; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">${item.title}</div>
+              <div style="font-size:0.65rem; color:#94a3b8; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; margin-top:2px;">${item.desc}</div>
             </div>
           </a>
         `).join('');
-      } else if (currentTrendTab === 'namu') {
+      } 
+      // 2. 나무위키 실시간 검색어 1~10위 (2열 바둑판 배열)
+      else if (currentTrendTab === 'namu') {
         const list = trends.namu_rank || [];
-        html = `<div class="grid grid-cols-2 gap-1.5">` + list.slice(0, 10).map(item => `
+        html = `<div style="display:grid; grid-template-columns:1fr 1fr; gap:6px;">` + list.slice(0, 10).map(item => `
           <a href="${item.link}" target="_blank" rel="noopener noreferrer" 
-             class="flex items-center gap-2 p-2 rounded-lg bg-slate-900/50 hover:bg-slate-800/80 border border-slate-800/60 transition-all text-decoration-none group">
-            <span class="text-xs font-bold text-cyan-400 w-4 text-center">${item.rank}</span>
-            <span class="text-xs font-medium text-slate-200 group-hover:text-cyan-300 truncate">${item.title}</span>
+             style="display:flex; align-items:center; gap:6px; padding:6px 8px; background:#020617; border:1px solid #1e293b; border-radius:6px; text-decoration:none;">
+            <span style="font-size:0.72rem; font-weight:800; color:#34d399; width:16px; text-align:center; flex-shrink:0;">${item.rank}</span>
+            <span style="font-size:0.72rem; font-weight:600; color:#e2e8f0; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">${item.title}</span>
           </a>
         `).join('') + `</div>`;
-      } else if (currentTrendTab === 'youtube') {
+      } 
+      // 3. 유튜브 대한민국 인급동 (썸네일 + 제목 + 채널 + 조회수)
+      else if (currentTrendTab === 'youtube') {
         const list = trends.youtube_popular || [];
-        html = list.slice(0, 4).map(item => `
+        html = list.slice(0, 3).map(item => `
           <a href="${item.link}" target="_blank" rel="noopener noreferrer" 
-             class="flex items-center gap-2.5 p-1.5 rounded-lg bg-slate-900/50 hover:bg-slate-800/80 border border-slate-800/60 transition-all text-decoration-none group">
-            <img src="${item.thumb}" class="w-14 h-9 object-cover rounded border border-slate-800 shrink-0" alt="" />
-            <div class="flex-1 min-w-0">
-              <div class="text-xs font-semibold text-slate-200 group-hover:text-red-400 truncate">${item.title}</div>
-              <div class="text-[11px] text-slate-400 flex items-center gap-2 mt-0.5">
-                <span class="truncate max-w-[110px]">${item.channel}</span>
+             style="display:flex; align-items:center; gap:8px; padding:5px 8px; background:#020617; border:1px solid #1e293b; border-radius:6px; text-decoration:none;">
+            <img src="${item.thumb}" style="width:60px; height:36px; object-fit:cover; border-radius:4px; border:1px solid #1e293b; flex-shrink:0;" alt="" />
+            <div style="flex-grow:1; min-width:0;">
+              <div style="font-size:0.72rem; font-weight:700; color:#f8fafc; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">${item.title}</div>
+              <div style="font-size:0.62rem; color:#94a3b8; display:flex; align-items:center; gap:4px; margin-top:2px;">
+                <span style="white-space:nowrap; overflow:hidden; text-overflow:ellipsis; max-width:120px;">${item.channel}</span>
                 <span>•</span>
-                <span class="text-red-400 font-medium">${item.views}</span>
+                <span style="color:#fb7185; font-weight:700;">${item.views}</span>
               </div>
             </div>
           </a>
         `).join('');
       }
     
-      container.innerHTML = html || '<div class="text-xs text-slate-500 py-12 text-center">수집된 트렌드 데이터가 없습니다.</div>';
+      container.innerHTML = html || '<div style="font-size:0.72rem; color:#64748b; text-align:center; padding:40px 0;">수집된 트렌드 데이터가 없습니다.</div>';
     }
 
     fetchDashboardData();
