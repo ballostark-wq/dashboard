@@ -991,29 +991,150 @@
       }
     }
 
-    // Web Speech API 브라우저 자체 음성 합성 엔진 재생
-    function playTtsVoice() {
-      if (!('speechSynthesis' in window)) {
-        alert("현재 사용 중인 브라우저는 음성 재생(SpeechSynthesis)을 지원하지 않습니다.");
-        return;
+    // =========================================================================
+    // 🔊 초자연스러운 8개국어 발음 엔진 (Google Neural Audio + OS 프리미엄 필터)
+    // =========================================================================
+    
+    // 언어 코드 매핑 (Google Audio Stream 호환)
+    const GOOGLE_TTS_LANG_MAP = {
+      en: 'en',
+      ja: 'ja',
+      zh: 'zh-CN',
+      fr: 'fr',
+      de: 'de',
+      es: 'es',
+      ar: 'ar',
+      ru: 'ru'
+    };
+    
+    // OS 내장 음성 중 최고 음질 프리미엄 보이스 스마트 선택기
+    function getSmartOsVoice(langCode) {
+      if (!('speechSynthesis' in window)) return null;
+      const voices = window.speechSynthesis.getVoices();
+      const shortLang = langCode.slice(0, 2).toLowerCase();
+    
+      // 1. 해당 언어 음성 중 이상한 소리(쉰소리, 기계음, 속삭임) 블랙리스트 필터링
+      const excludedKeywords = ['whisper', 'zarvox', 'trinoids', 'deranged', 'bad', 'hysterical', 'pipe', 'albert', 'fred', 'organ', 'cellos'];
+      const candidates = voices.filter(v => {
+        const vLang = v.lang.replace('_', '-').toLowerCase();
+        const isLangMatch = vLang.startsWith(shortLang);
+        const isClean = !excludedKeywords.some(bad => v.name.toLowerCase().includes(bad));
+        return isLangMatch && isClean;
+      });
+    
+      // 2. 가장 자연스러운 프리미엄/신경망(Neural) 음성 우선순위 탐색
+      const preferredKeywords = ['natural', 'google', 'enhanced', 'premium', 'samantha', 'ava', 'jenny', 'karen', 'siri', 'zira'];
+      for (const pref of preferredKeywords) {
+        const found = candidates.find(v => v.name.toLowerCase().includes(pref));
+        if (found) return found;
       }
-
+    
+      return candidates[0] || null;
+    }
+    
+    // 음성 목록 사전 로드 (비동기 초기화 보장)
+    if ('speechSynthesis' in window) {
+      window.speechSynthesis.onvoiceschanged = () => {
+        window.speechSynthesis.getVoices();
+      };
+    }
+    
+    // 오디오 인스턴스 전역 관리 (중복 재생 방지)
+    let activeTtsAudio = null;
+    
+    // 공통 고음질 발음 재생기
+    function speakNativePhrase(text, langKey, statusCallback) {
+      // 기존 재생 중인 소리 즉시 중단
+      if (activeTtsAudio) {
+        activeTtsAudio.pause();
+        activeTtsAudio = null;
+      }
+      if ('speechSynthesis' in window) {
+        window.speechSynthesis.cancel();
+      }
+    
+      if (statusCallback) statusCallback("재생 중...");
+    
+      const targetLang = GOOGLE_TTS_LANG_MAP[langKey] || langKey.slice(0, 2);
+      const cleanText = encodeURIComponent(text.trim());
+      const googleAudioUrl = `https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=${targetLang}&q=${cleanText}`;
+    
+      // 1순위: 구글 뉴럴 오디오 스트림 재생
+      const audio = new Audio(googleAudioUrl);
+      activeTtsAudio = audio;
+    
+      audio.onended = () => {
+        activeTtsAudio = null;
+        if (statusCallback) statusCallback("원어민 발음 듣기");
+      };
+    
+      // 2순위: 스트리밍 실패 시 OS 프리미엄 보이스로 자동 폴백
+      audio.onerror = () => {
+        console.warn("구글 오디오 스트림 실패 -> OS 프리미엄 보이스로 폴백");
+        activeTtsAudio = null;
+    
+        if (!('speechSynthesis' in window)) {
+          if (statusCallback) statusCallback("원어민 발음 듣기");
+          return;
+        }
+    
+        const fullCode = (cachedHumanities && cachedHumanities.polyglot && cachedHumanities.polyglot.translations[langKey])
+          ? cachedHumanities.polyglot.translations[langKey].code
+          : langKey;
+    
+        const utterance = new SpeechSynthesisUtterance(text);
+        utterance.lang = fullCode;
+        utterance.rate = 0.95;
+        utterance.pitch = 1.0;
+    
+        const bestVoice = getSmartOsVoice(fullCode);
+        if (bestVoice) {
+          utterance.voice = bestVoice;
+        }
+    
+        utterance.onend = () => { if (statusCallback) statusCallback("원어민 발음 듣기"); };
+        utterance.onerror = () => { if (statusCallback) statusCallback("원어민 발음 듣기"); };
+    
+        window.speechSynthesis.speak(utterance);
+      };
+    
+      audio.play().catch(err => {
+        // 자동 재생 정책 또는 네트워크 에러 시 onerror 트리거
+        audio.onerror();
+      });
+    }
+    
+    // 메인 카드 [🔊 원어민 발음 듣기] 버튼 핸들러
+    function playTtsVoice() {
       if (!cachedHumanities || !cachedHumanities.polyglot) return;
       const item = cachedHumanities.polyglot.translations[currentLangCode];
       if (!item) return;
-
-      window.speechSynthesis.cancel(); // 이전 재생 정지
-      const utterance = new SpeechSynthesisUtterance(item.text);
-      utterance.lang = item.code;
-      utterance.rate = 0.95; // 명확한 청취를 위해 약간 여유로운 템포
-
+    
       const ttsLabel = document.getElementById('tts-label');
-      ttsLabel.innerText = "재생 중...";
-      utterance.onend = () => { ttsLabel.innerText = "원어민 발음 듣기"; };
-      utterance.onerror = () => { ttsLabel.innerText = "원어민 발음 듣기"; };
-
-      window.speechSynthesis.speak(utterance);
+      speakNativePhrase(item.text, currentLangCode, (msg) => {
+        if (ttsLabel) ttsLabel.innerText = msg;
+      });
     }
+    
+    // 서랍(Drawer) 내 [🔊 발음] 개별 버튼 핸들러
+    function speakSpecificText(txt, langCode) {
+      // langCode(예: 'en-US')에서 앞 2자리 언어키 추출
+      const langKey = langCode.slice(0, 2).toLowerCase();
+      speakNativePhrase(txt, langKey, null);
+    }
+    
+    // 서랍 닫을 때 오디오 정지 보장
+    const originalCloseDrawer = closeDrawer;
+    closeDrawer = function() {
+      if (activeTtsAudio) {
+        activeTtsAudio.pause();
+        activeTtsAudio = null;
+      }
+      if ('speechSynthesis' in window) {
+        window.speechSynthesis.cancel();
+      }
+      originalCloseDrawer();
+    };
 
     // SVG 트렌드 차트
     function renderSvgSparkline(values, dates, color = "#38bdf8", unit = "") {
@@ -1358,15 +1479,6 @@
 
       document.getElementById('drawer').classList.add('open');
       document.getElementById('overlay').classList.add('show');
-    }
-
-    function speakSpecificText(txt, langCode) {
-      if (!('speechSynthesis' in window)) return;
-      window.speechSynthesis.cancel();
-      const u = new SpeechSynthesisUtterance(txt);
-      u.lang = langCode;
-      u.rate = 0.95;
-      window.speechSynthesis.speak(u);
     }
 
     function closeDrawer() {
