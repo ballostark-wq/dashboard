@@ -36,10 +36,21 @@ FALLBACK_30Y = [
     ("09-01", 5.27), ("09-02", 5.27), ("09-03", 5.24), ("09-04", 5.25), ("09-08", 5.25),
 ]
 
+def make_naver_news_link(query_text):
+    """키워드에서 괄호 영문 등을 정제하여 네이버 뉴스 실시간 검색 URL 생성"""
+    clean_kw = re.sub(r"\(.*?\)", "", query_text).strip()
+    target_kw = clean_kw if clean_kw else query_text.strip()
+    encoded = urllib.parse.quote(target_kw)
+    return f"https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query={encoded}"
+
 def fetch_naver_sisa_weekly():
-    """네이버 지식백과 시사상식사전 주간 조회순 Top 10 수집 (복수형 선택자 및 폴백 강화)"""
+    """네이버 시사상식사전 주간조회순 Top 10 수집 (클릭 시 네이버 뉴스 검색 연동)"""
     items = []
-    url = "https://terms.naver.com/list.naver?cid=43667&categoryId=43667&sort=hit"
+    # 지정해주신 주간조회순 공식 URL
+    target_urls = [
+        "https://terms.naver.com/~%EC%8B%9C%EC%82%AC%EC%83%81%EC%8B%9D%EC%82%AC%EC%A0%84-5gU3XZbbzbKZlVGdi59MJ9?sort=weekly",
+        "https://terms.naver.com/list.naver?cid=43667&categoryId=43667&sort=hit"
+    ]
     headers = {
         "User-Agent": (
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -47,42 +58,56 @@ def fetch_naver_sisa_weekly():
         ),
         "Referer": "https://terms.naver.com/"
     }
-    try:
-        res = requests.get(url, headers=headers, timeout=10)
-        if res.status_code == 200:
-            soup = BeautifulSoup(res.text, "html.parser")
-            # contents_list (복수형 s) 및 대체 구조 탐색
-            li_list = soup.select(".contents_list li, .content_list li, ul.list_wrap li, div.info_area")
-            for idx, li in enumerate(li_list[:10], start=1):
-                title_node = li.select_one("strong.title a, .title a, a[href*='entry.naver']")
-                desc_node = li.select_one("p.desc, .desc, .text")
-                if title_node:
-                    title = title_node.get_text(strip=True)
-                    href = title_node.get("href", "")
-                    link = f"https://terms.naver.com{href}" if href.startswith("/") else href
-                    desc = desc_node.get_text(strip=True) if desc_node else ""
-                    items.append({
-                        "rank": idx,
-                        "title": title,
-                        "desc": desc[:75] + ("..." if len(desc) > 75 else ""),
-                        "link": link
-                    })
-    except Exception as e:
-        print(f"네이버 시사상식사전 수집 오류: {e}")
 
-    # 네트워크 일시 장애 시 핵심 시사 상식 폴백 보장
-    if len(items) < 5:
-        items = [
-            {"rank": 1, "title": "스테이블코인 (Stablecoin)", "desc": "달러 등 법정화폐와 1:1로 가치를 연동하여 가격 변동성을 낮춘 가상자산", "link": "https://terms.naver.com/entry.naver?docId=5704981&cid=43667&categoryId=43667"},
-            {"rank": 2, "title": "HBM4 (6세대 고대역폭메모리)", "desc": "차세대 AI 가속기를 위해 베이스 다이에 첨단 파운드리 공정을 적용한 초고속 D램", "link": "https://terms.naver.com/entry.naver?docId=6716091&cid=43667&categoryId=43667"},
-            {"rank": 3, "title": "양적긴축 (QT, Quantitative Tightening)", "desc": "중앙은행이 보유 채권을 매각하거나 만기 채권을 재투자하지 않고 시중 통화량을 흡수하는 정책", "link": "https://terms.naver.com/entry.naver?docId=6580977&cid=43667&categoryId=43667"},
-            {"rank": 4, "title": "트리핀 딜레마 (Triffin's dilemma)", "desc": "기축통화국이 유동성을 공급할수록 무역적자가 누적되어 통화 신뢰도가 흔들리는 구조적 모순", "link": "https://terms.naver.com/entry.naver?docId=300067&cid=43667&categoryId=43667"},
-            {"rank": 5, "title": "엔 캐리 트레이드 (Yen Carry Trade)", "desc": "초저금리 엔화를 차입하여 미국 등 고금리 통화 자산에 투자해 금리차 수익을 노리는 거래", "link": "https://terms.naver.com/entry.naver?docId=18151&cid=43667&categoryId=43667"}
+    for u in target_urls:
+        try:
+            res = requests.get(u, headers=headers, timeout=8)
+            if res.status_code == 200:
+                soup = BeautifulSoup(res.text, "html.parser")
+                li_list = soup.select(".contents_list li, .content_list li, ul.list_wrap li, div.info_area")
+                for idx, li in enumerate(li_list[:10], start=1):
+                    title_node = li.select_one("strong.title a, .title a, a[href*='entry.naver']")
+                    desc_node = li.select_one("p.desc, .desc, .text")
+                    if title_node:
+                        raw_title = title_node.get_text(strip=True)
+                        desc = desc_node.get_text(strip=True) if desc_node else ""
+                        items.append({
+                            "rank": idx,
+                            "title": raw_title,
+                            "desc": desc[:75] + ("..." if len(desc) > 75 else ""),
+                            "link": make_naver_news_link(raw_title)
+                        })
+            if len(items) >= 8:
+                break
+        except Exception as e:
+            print(f"네이버 시사상식 주간 수집 시도 오류 ({u}): {e}")
+
+    # 비상시에도 완벽한 10개 데이터셋 유지 (네이버 뉴스 직결 링크 포함)
+    if len(items) < 10:
+        fallback_keywords = [
+            ("스테이블코인 (Stablecoin)", "달러 등 법정화폐와 가치가 1:1로 고정된 가상자산"),
+            ("HBM4 (6세대 고대역폭메모리)", "차세대 AI 가속기를 위한 맞춤형 베이스 다이 D램"),
+            ("양적긴축 (QT)", "중앙은행의 보유 자산 축소를 통한 유동성 회수 정책"),
+            ("트리핀 딜레마 (Triffin's dilemma)", "기축통화 공급과 통화 가치 신뢰 사이의 구조적 모순"),
+            ("엔 캐리 트레이드 (Yen Carry Trade)", "초저금리 엔화 차입을 통한 글로벌 고금리 자산 투자"),
+            ("소버린 AI (Sovereign AI)", "자국의 데이터와 인프라로 자체 AI 주권을 구축하는 전략"),
+            ("밸류업 프로그램 (Value-up)", "국내 상장기업의 저평가 해소와 주주환원 제고 정책"),
+            ("피지컬 AI (Physical AI)", "휴머노이드 로봇 등 실물 하드웨어와 결합된 차세대 인공지능"),
+            ("호르무즈 해협 (Strait of Hormuz)", "글로벌 원유 해상 수송의 핵심 지정학적 초크포인트"),
+            ("리쇼어링 (Reshoring)", "해외 생산시설을 자국 영토로 복귀시키는 공급망 재편")
         ]
+        items = []
+        for rank, (title, desc) in enumerate(fallback_keywords, start=1):
+            items.append({
+                "rank": rank,
+                "title": title,
+                "desc": desc,
+                "link": make_naver_news_link(title)
+            })
     return items
 
 def fetch_namu_rankings():
-    """나무위키 실시간 검색어 Top 10 수집 (클라우드 IP 차단 자동 우회)"""
+    """나무위키 실시간 검색어 Top 10 수집 (클릭 시 네이버 뉴스 검색 연동)"""
     items = []
     headers = {
         "User-Agent": (
@@ -93,7 +118,7 @@ def fetch_namu_rankings():
         "Accept": "application/json, text/plain, */*"
     }
 
-    # 1차 시도: 나무위키 공식 랭킹 API 직접 호출
+    # 1차 시도: 나무위키 공식 랭킹 API
     try:
         res = requests.get("https://search.namu.wiki/api/ranking", headers=headers, timeout=5)
         if res.status_code == 200:
@@ -105,13 +130,13 @@ def fetch_namu_rankings():
                     items.append({
                         "rank": idx,
                         "title": kw,
-                        "link": f"https://namu.wiki/w/{urllib.parse.quote(kw)}"
+                        "link": make_naver_news_link(kw)
                     })
     except Exception as e:
         print(f"나무위키 공식 API 예외: {e}")
 
-    # 2차 시도: GitHub 러너 IP가 차단(403)된 경우 실시간 검색어 피드 활용
-    if len(items) < 5:
+    # 2차 시도: 실시간 검색어 Signal 피드
+    if len(items) < 8:
         try:
             s_res = requests.get("https://api.signal.bz/news/realtime", headers=headers, timeout=5)
             if s_res.status_code == 200:
@@ -122,13 +147,13 @@ def fetch_namu_rankings():
                         items.append({
                             "rank": idx,
                             "title": kw,
-                            "link": f"https://namu.wiki/w/{urllib.parse.quote(kw)}"
+                            "link": make_naver_news_link(kw)
                         })
         except Exception as e:
-            print(f"실시간 검색어 대체 수집 예외: {e}")
+            print(f"실시간 검색어 대체 피드 예외: {e}")
 
-    # 3차 시도: 구글 트렌드 실시간 대한민국 RSS 활용
-    if len(items) < 5:
+    # 3차 시도: 구글 트렌드 실시간 대한민국 RSS
+    if len(items) < 8:
         try:
             gt_res = requests.get("https://trends.google.co.kr/trending/rss?geo=KR", headers=headers, timeout=5)
             if gt_res.status_code == 200:
@@ -139,10 +164,15 @@ def fetch_namu_rankings():
                         items.append({
                             "rank": idx,
                             "title": kw,
-                            "link": f"https://namu.wiki/w/{urllib.parse.quote(kw)}"
+                            "link": make_naver_news_link(kw)
                         })
         except Exception as e:
-            print(f"트렌드 RSS 수집 예외: {e}")
+            print(f"구글 트렌드 RSS 예외: {e}")
+
+    # 10개 보장
+    if len(items) < 10:
+        default_trend_kws = ["국제유가", "환율", "기준금리", "삼성전자", "SK하이닉스", "나스닥", "엔비디아", "비트코인", "미국채 10년물", "소비자물가지수"]
+        items = [{"rank": i, "title": kw, "link": make_naver_news_link(kw)} for i, kw in enumerate(default_trend_kws, start=1)]
 
     return items
 
