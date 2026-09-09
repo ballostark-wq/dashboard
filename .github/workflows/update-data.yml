@@ -32,6 +32,8 @@ jobs:
           python scripts/build_wiki_history.py
 
       - name: Run collector script
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: |
           python scripts/fetch_market.py
 
