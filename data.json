@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09 06:51:47",
+  "updated_at": "2026-09-09 06:59:10",
   "us2y": {
     "value": 4.37,
     "change": -0.29
@@ -118,29 +118,19 @@
     ],
     "tech": [
       {
+        "title": "[디일렉] \"1초 만에 불량 솎아낸다\"…모나, 배터리 AI 진단 범용 모델 개발",
+        "link": "https://www.thelec.kr/news/articleView.html?idxno=62020",
+        "date": "09-09 15:58"
+      },
+      {
+        "title": "[디일렉] [AI 비용①]적은 토큰으로 고성능 '레이턴트 추론' 부각",
+        "link": "https://www.thelec.kr/news/articleView.html?idxno=61981",
+        "date": "09-09 15:50"
+      },
+      {
         "title": "[디일렉] LG화학, 배터리 열폭주 킬러 'SFB' 개발",
         "link": "https://www.thelec.kr/news/articleView.html?idxno=62017",
         "date": "09-09 15:49"
-      },
-      {
-        "title": "[디일렉] 삼성전자, 갤럭시 워치 심장 건강 관리 기능 확대",
-        "link": "https://www.thelec.kr/news/articleView.html?idxno=62015",
-        "date": "09-09 15:36"
-      },
-      {
-        "title": "[디일렉] 메타, 이메일·예약·결제까지 맡는 ‘AI 개인비서’ 출시",
-        "link": "https://www.thelec.kr/news/articleView.html?idxno=62024",
-        "date": "09-09 15:28"
-      },
-      {
-        "title": "[전자신문] 코스포 출범 10년…현장 대변 넘어 '문제해결형 플랫폼'으로",
-        "link": "https://www.etnews.com/20260909000339",
-        "date": "09-09 15:32"
-      },
-      {
-        "title": "[전자신문] 권형택 기보 이사장, 첫 현장행보…산단 입주규제 개선 논의",
-        "link": "https://www.etnews.com/20260909000338",
-        "date": "09-09 15:30"
       }
     ],
     "domestic": [
@@ -223,66 +213,66 @@
       "detail": "10Y-2Y 스프레드가 +42 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.78",
-      "title": "닥터 코퍼 $6.78선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.79",
+      "title": "닥터 코퍼 $6.79선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.78",
-          "chg": "+0.59%",
+          "val": "$6.79",
+          "chg": "+0.74%",
           "up": true
         },
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,446.6",
-          "chg": "+1.20%",
+          "val": "$4,442.8",
+          "chg": "+1.11%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$67.29",
-          "chg": "+1.49%",
+          "val": "$67.25",
+          "chg": "+1.43%",
           "up": true
         }
       ],
       "bullets": [
-        "구리 $6.78/lb (+0.59%) - AI 전력망 설비 수요 반영",
-        "금 $4,447/oz, 은 $67.29/oz - 통화가치 헤지"
+        "구리 $6.79/lb (+0.74%) - AI 전력망 설비 수요 반영",
+        "금 $4,443/oz, 은 $67.25/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
       "badge": "원/달러 1,336원 | 엔/달러 ¥153.3",
-      "title": "원/달러 1,336.3원선과 엔/달러 ¥153.3",
+      "title": "원/달러 1,336.1원선과 엔/달러 ¥153.3",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,336.3원",
-          "chg": "-0.54%",
+          "val": "1,336.1원",
+          "chg": "-0.56%",
           "up": false
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "98.69pt",
-          "chg": "-0.15%",
+          "val": "98.70pt",
+          "chg": "-0.14%",
           "up": false
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥153.32",
-          "chg": "-0.34%",
+          "val": "¥153.34",
+          "chg": "-0.33%",
           "up": false
         }
       ],
       "bullets": [
-        "달러 인덱스 98.69pt - 미국 성장 우위 지속",
-        "엔/달러 153.32엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 98.7pt - 미국 성장 우위 지속",
+        "엔/달러 153.34엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
@@ -307,32 +297,32 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.78,
-      "change": 0.59
+      "price": 6.79,
+      "change": 0.74
     },
     "gold": {
-      "price": 4446.6,
-      "change": 1.2
+      "price": 4442.8,
+      "change": 1.11
     },
     "silver": {
-      "price": 67.29,
-      "change": 1.49
+      "price": 67.25,
+      "change": 1.43
     },
     "wti": {
       "price": 94.35,
       "change": 1.42
     },
     "usdkrw": {
-      "price": 1336.3,
-      "change": -0.54
+      "price": 1336.06,
+      "change": -0.56
     },
     "dxy": {
-      "price": 98.69,
-      "change": -0.15
+      "price": 98.7,
+      "change": -0.14
     },
     "usdjpy": {
-      "price": 153.32,
-      "change": -0.34
+      "price": 153.34,
+      "change": -0.33
     }
   },
   "history_20d": {
@@ -595,9 +585,9 @@
       },
       {
         "date": "09-09",
-        "copper": 6.78,
-        "gold": 4446.6,
-        "silver": 67.29
+        "copper": 6.79,
+        "gold": 4442.8,
+        "silver": 67.25
       }
     ],
     "fx": [
@@ -717,9 +707,9 @@
       },
       {
         "date": "09-09",
-        "usdkrw": 1336.3,
-        "dxy": 98.69,
-        "usdjpy": 153.32
+        "usdkrw": 1336.06,
+        "dxy": 98.7,
+        "usdjpy": 153.34
       }
     ],
     "oil": [
@@ -1057,7 +1047,7 @@
         "rank": 6,
         "title": "소연 (SOYEON) '퇴사할게여 (Narr. 기안84)' Official Music Video",
         "channel": "i-dle (아이들)",
-        "views": "201만회",
+        "views": "202만회",
         "thumb": "https://i.ytimg.com/vi/7mDDM0eBWR0/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=7mDDM0eBWR0"
       },
