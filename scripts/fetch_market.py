@@ -279,8 +279,16 @@ def load_humanities_from_pool():
                 phil_pool = pool.get("philosophy_pool", [])
 
                 if hist_pool and poly_pool and phil_pool:
+                    # 최근 5일간의 역사 데이터 추출 (오늘=0, D-1=1, D-2=2, D-3=3, D-4=4)
+                    recent_history = []
+                    for offset in range(5):
+                        h_item = dict(hist_pool[(day_idx - offset) % len(hist_pool)])
+                        h_item["d_day"] = "오늘" if offset == 0 else f"D-{offset}"
+                        recent_history.append(h_item)
+
                     return {
-                        "history": hist_pool[day_idx % len(hist_pool)],
+                        "history": recent_history[0],
+                        "history_5d": recent_history,
                         "polyglot": poly_pool[day_idx % len(poly_pool)],
                         "philosophy": phil_pool[day_idx % len(phil_pool)],
                     }
