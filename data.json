@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09 01:51:25",
+  "updated_at": "2026-09-09 01:59:43",
   "us2y": {
     "value": 4.37,
     "change": -0.29
@@ -131,9 +131,24 @@
         "title": "[디일렉] Arm, 에이전트 AI 대비 'CSS 포 모바일 2' 출시",
         "link": "https://www.thelec.kr/news/articleView.html?idxno=61962",
         "date": "09-08 19:45"
+      },
+      {
+        "title": "[전자신문] 코닝, 버라이즌과 수십억달러 규모 광섬유 공급 계약",
+        "link": "https://www.etnews.com/20260909000139",
+        "date": "09-09 10:32"
+      },
+      {
+        "title": "[전자신문] 한국민속촌, 가을축제 '귀신사바 귀신놀이' 12일 개막",
+        "link": "https://www.etnews.com/20260909000137",
+        "date": "09-09 10:27"
       }
     ],
     "domestic": [
+      {
+        "title": "달러 매수 열 올렸던 서학개미…환율 하단 못 받치는 까닭은",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434073",
+        "date": "09-09 10:52"
+      },
       {
         "title": "ING \"터미널레이트 3%는 과도…ECB, 이달 비둘기적 인상\"",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434072",
@@ -153,11 +168,6 @@
         "title": "SK하이닉스, 대형 운용사에 RFP 발송…채권 투자방식 바꿔 들어오나",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434062",
         "date": "09-09 10:18"
-      },
-      {
-        "title": "엔-원 850원 안 깨지네…엔화 강세에 18년만 저점 앞두고 반등",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434048",
-        "date": "09-09 09:58"
       }
     ]
   },
@@ -213,83 +223,83 @@
       "detail": "10Y-2Y 스프레드가 +42 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.78",
-      "title": "닥터 코퍼 $6.78선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.77",
+      "title": "닥터 코퍼 $6.77선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.78",
-          "chg": "+2.73%",
+          "val": "$6.77",
+          "chg": "+2.58%",
           "up": true
         },
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,420.2",
-          "chg": "-0.22%",
+          "val": "$4,419.0",
+          "chg": "-0.24%",
           "up": false
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$66.78",
-          "chg": "+1.11%",
+          "val": "$66.72",
+          "chg": "+1.01%",
           "up": true
         }
       ],
       "bullets": [
-        "구리 $6.78/lb (+2.73%) - AI 전력망 설비 수요 반영",
-        "금 $4,420/oz, 은 $66.78/oz - 통화가치 헤지"
+        "구리 $6.77/lb (+2.58%) - AI 전력망 설비 수요 반영",
+        "금 $4,419/oz, 은 $66.72/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,339원 | 엔/달러 ¥153.6",
-      "title": "원/달러 1,338.8원선과 엔/달러 ¥153.6",
+      "badge": "원/달러 1,339원 | 엔/달러 ¥153.5",
+      "title": "원/달러 1,338.7원선과 엔/달러 ¥153.5",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,338.8원",
+          "val": "1,338.7원",
           "chg": "-0.36%",
           "up": false
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "98.80pt",
-          "chg": "-0.04%",
+          "val": "98.79pt",
+          "chg": "-0.05%",
           "up": false
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥153.63",
-          "chg": "-0.14%",
+          "val": "¥153.54",
+          "chg": "-0.20%",
           "up": false
         }
       ],
       "bullets": [
-        "달러 인덱스 98.8pt - 미국 성장 우위 지속",
-        "엔/달러 153.63엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 98.79pt - 미국 성장 우위 지속",
+        "엔/달러 153.54엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $94.43",
-      "title": "WTI 배럴당 $94.43선 박스권 안정",
+      "badge": "WTI $94.35",
+      "title": "WTI 배럴당 $94.35선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$94.43",
-          "chg": "+3.22%",
+          "val": "$94.35",
+          "chg": "+3.14%",
           "up": true
         }
       ],
       "bullets": [
-        "WTI 선물 $94.43/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $94.35/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -297,32 +307,32 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.78,
-      "change": 2.73
+      "price": 6.77,
+      "change": 2.58
     },
     "gold": {
-      "price": 4420.2,
-      "change": -0.22
+      "price": 4419.0,
+      "change": -0.24
     },
     "silver": {
-      "price": 66.78,
-      "change": 1.11
+      "price": 66.72,
+      "change": 1.01
     },
     "wti": {
-      "price": 94.43,
-      "change": 3.22
+      "price": 94.35,
+      "change": 3.14
     },
     "usdkrw": {
-      "price": 1338.78,
+      "price": 1338.74,
       "change": -0.36
     },
     "dxy": {
-      "price": 98.8,
-      "change": -0.04
+      "price": 98.79,
+      "change": -0.05
     },
     "usdjpy": {
-      "price": 153.63,
-      "change": -0.14
+      "price": 153.54,
+      "change": -0.2
     }
   },
   "history_20d": {
@@ -585,9 +595,9 @@
       },
       {
         "date": "09-09",
-        "copper": 6.78,
-        "gold": 4420.2,
-        "silver": 66.78
+        "copper": 6.77,
+        "gold": 4419.0,
+        "silver": 66.72
       }
     ],
     "fx": [
@@ -707,9 +717,9 @@
       },
       {
         "date": "09-09",
-        "usdkrw": 1338.78,
-        "dxy": 98.8,
-        "usdjpy": 153.63
+        "usdkrw": 1338.74,
+        "dxy": 98.79,
+        "usdjpy": 153.54
       }
     ],
     "oil": [
@@ -810,8 +820,8 @@
       },
       {
         "date": "09-09",
-        "wti": 94.43,
-        "change": 3.22
+        "wti": 94.35,
+        "change": 3.14
       }
     ]
   },
@@ -911,16 +921,16 @@
   "humanities": {
     "history": {
       "era": "1973년 ~ 2020년 (1989)",
-      "title": "[1989] 베를린 장벽 붕괴\n톈안먼 사건, 동유럽의 자유화(루마니",
-      "summary": "베를린 장벽 붕괴\n톈안먼 사건, 동유럽의 자유화(루마니아 공산독재정권붕괴)",
+      "title": "[1989] 베를린 장벽 붕괴 톈안먼 사건",
+      "summary": "베를린 장벽 붕괴 톈안먼 사건, 동유럽의 자유화(루마니아 공산독재정권붕괴)",
       "bullets": [
         "발생 연대: 1989",
-        "베를린 장벽 붕괴\n톈안먼 사건, 동유럽의 자유화(루마니아 공산독재정권붕괴)",
+        "베를린 장벽 붕괴 톈안먼 사건, 동유럽의 자유화(루마니아 공산독재정권붕괴)",
         "당대 유라시아 및 글로벌 지정학적 세력 균형의 변화 반영"
       ],
       "insight": "1989의 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
-      "ref_title": "위키백과 검색: 베를린 장벽 붕괴\n톈안먼 사건, 동유럽의 자유화(루마니",
-      "ref_url": "https://ko.wikipedia.org/wiki/Special:Search?search=%EB%B2%A0%EB%A5%BC%EB%A6%B0%20%EC%9E%A5%EB%B2%BD%20%EB%B6%95%EA%B4%B4%0A%ED%86%88%EC%95%88%EB%A8%BC%20%EC%82%AC%EA%B1%B4%2C%20%EB%8F%99%EC%9C%A0%EB%9F%BD%EC%9D%98%20%EC%9E%90%EC%9C%A0%ED%99%94%28%EB%A3%A8%EB%A7%88%EB%8B%88"
+      "ref_title": "위키백과 세계사 연표: 1973년 ~ 2020년 (1989)",
+      "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1973%EB%85%84_~_2020%EB%85%84:~:text=1989"
     },
     "polyglot": {
       "theme": "기술적 독점과 시장 진입 장벽 (Moat & Market Entry)",
