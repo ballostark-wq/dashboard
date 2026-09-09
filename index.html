@@ -663,8 +663,10 @@
         </ul>
       </div>
       <div class="card-footer">
-        <span>💡 자본주의 형성사와 현대적 교훈</span>
-        <span style="color:#d8b4fe;">상세 노트 &rarr;</span>
+        <span id="h-history-footer-desc">💡 자본주의 형성사와 현대적 교훈</span>
+        <a id="h-history-ref-btn" href="#" target="_blank" rel="noopener noreferrer" 
+           onclick="event.stopPropagation();" 
+           style="color:#d8b4fe; text-decoration:none; font-weight:700;">사료 원문 ↗</a>
       </div>
     </div>
 
@@ -1392,6 +1394,14 @@
               <strong style="color:#d8b4fe; display:block; margin-bottom:2px;">🧐 매크로 인사이트</strong>
               ${item.insight || ''}
             </div>
+            ${item.ref_url ? `
+              <div style="margin-top:8px; text-align:right;">
+                <a href="${item.ref_url}" target="_blank" rel="noopener noreferrer" 
+                   style="display:inline-flex; align-items:center; gap:4px; background:rgba(168,85,247,0.15); border:1px solid rgba(168,85,247,0.4); color:#d8b4fe; text-decoration:none; padding:4px 8px; border-radius:4px; font-size:0.68rem; font-weight:700;">
+                  <span>📖</span> <span>${item.ref_title || '위키백과 원문 사료 보기'} ↗</span>
+                </a>
+              </div>
+            ` : ''}
           </div>
         `).join('');
       } else if (key === 'polyglot_matrix') {
@@ -1540,6 +1550,17 @@
       if (summaryEl) summaryEl.innerText = h.summary;
       if (bulletsEl && h.bullets) {
         bulletsEl.innerHTML = h.bullets.map(b => `<li>${b}</li>`).join('');
+      }
+
+      // 사료 원문 링크 동적 갱신
+      const refBtn = document.getElementById('h-history-ref-btn');
+      if (refBtn) {
+        if (h.ref_url) {
+          refBtn.href = h.ref_url;
+          refBtn.style.display = 'inline';
+        } else {
+          refBtn.style.display = 'none';
+        }
       }
     }
 
