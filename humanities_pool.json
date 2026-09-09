@@ -12468,312 +12468,1862 @@
   ],
   "polyglot_pool": [
     {
-      "theme": "전략적 협상과 우선순위 조율 (Strategic Alignment)",
-      "meaning": "본격적인 추진에 앞서, 핵심 조건과 우선순위에 대한 합의를 먼저 도출합시다.",
+      "theme": "음식과 건강: 식욕",
+      "meaning": "한 입만 먹어도 돼?",
       "translations": {
         "en": {
           "code": "en-US",
           "name": "영어",
           "flag": "🇺🇸",
-          "text": "Let's align on the core terms and priorities before moving forward.",
+          "text": "Can I have a bite?",
           "roman": ""
         },
         "ja": {
           "code": "ja-JP",
           "name": "일본어",
           "flag": "🇯🇵",
-          "text": "進める前に、まずは主要な条件と優先順位について認識をすり合わせましょう。",
-          "roman": "Susumeru mae ni, mazu wa shuyō na jōken to yūsen jun'i ni tsuite ninshiki o suriawasemashō."
+          "text": "一口ちょうだい？",
+          "roman": "Hitokuchi chōdai?"
         },
         "zh": {
           "code": "zh-CN",
           "name": "중국어",
           "flag": "🇨🇳",
-          "text": "在推进之前，让我们先就核心条款和优先事项达成共识。",
-          "roman": "Zài tuījìn zhīqián, ràng wǒmen xiān jiù héxīn tiáokuǎn hé yōuxiān shìxiàng dáchéng gòngshí."
+          "text": "能让我尝一口吗？",
+          "roman": "Néng ràng wǒ cháng yīkǒu ma?"
         },
         "fr": {
           "code": "fr-FR",
           "name": "프랑스어",
           "flag": "🇫🇷",
-          "text": "Mettons-nous d'accord sur les termes essentiels et les priorités avant d'aller de l'avant.",
+          "text": "Je peux goûter ?",
           "roman": ""
         },
         "de": {
           "code": "de-DE",
           "name": "독일어",
           "flag": "🇩🇪",
-          "text": "Lassen Sie uns die Kernbedingungen und Prioritäten abstimmen, bevor wir fortfahren.",
+          "text": "Darf ich mal abbeißen?",
           "roman": ""
         },
         "es": {
           "code": "es-ES",
           "name": "스페인어",
           "flag": "🇪🇸",
-          "text": "Alineemos los términos clave y las prioridades antes de avanzar.",
+          "text": "¿Me das un bocado?",
           "roman": ""
         },
         "ar": {
           "code": "ar-SA",
           "name": "아랍어",
           "flag": "🇸🇦",
-          "text": "دعنا نتفق على الشروط الأساسية والأولويات قبل المضي قدمًا.",
-          "roman": "Da'nā nattafiq 'alā ash-shurūṭ al-asāsiyyah wal-awlawiyyāt qabla al-muḍī qudumā."
+          "text": "هل يمكنني أخذ قُضمة؟",
+          "roman": "Hal yumkinunī akhdhu quḍmah?"
         },
         "ru": {
           "code": "ru-RU",
           "name": "러시아어",
           "flag": "🇷🇺",
-          "text": "Давайте согласуем ключевые условия и приоритеты, прежде чем двигаться дальше.",
-          "roman": "Davayte soglasuyem klyuchevyye usloviya i prioritety, prezhde chem dvigat'sya dal'she."
+          "text": "Можно откусить?",
+          "roman": "Mozhno otkusit'?"
         }
       }
     },
     {
-      "theme": "리스크 헤지와 시장 변동성 대응 (Risk Management)",
-      "meaning": "시장 불확실성이 높은 국면이므로 선제적인 리스크 분산이 필수적입니다.",
+      "theme": "음식과 건강: 식욕",
+      "meaning": "군침이 도네.",
       "translations": {
         "en": {
           "code": "en-US",
           "name": "영어",
           "flag": "🇺🇸",
-          "text": "Given the elevated market volatility, proactive risk hedging is essential.",
+          "text": "My mouth is watering.",
           "roman": ""
         },
         "ja": {
           "code": "ja-JP",
           "name": "일본어",
           "flag": "🇯🇵",
-          "text": "市場の不確実性が高まっているため、先回りしたリスクヘッジが不可欠です。",
-          "roman": "Shijō no fukakujitsusei ga takamatte iru tame, sakimawari shita risuku hejji ga fukaketsu desu."
+          "text": "よだれが出てきた。",
+          "roman": "Yodare ga dete kita."
         },
         "zh": {
           "code": "zh-CN",
           "name": "중국어",
           "flag": "🇨🇳",
-          "text": "鉴于市场波动性上升，前瞻性的风险对冲至关重要。",
-          "roman": "Jiànyú shìchǎng bōdòngxìng shàngshēng, qiánzhānxìng de fēngxiǎn duìchōng zhìguān zhòngyào."
+          "text": "我都流口水了。",
+          "roman": "Wǒ dōu liú kǒushuǐ le."
         },
         "fr": {
           "code": "fr-FR",
           "name": "프랑스어",
           "flag": "🇫🇷",
-          "text": "Compte tenu de la volatilité accrue des marchés, une couverture proactive des risques est essentielle.",
+          "text": "J'en ai l'eau à la bouche.",
           "roman": ""
         },
         "de": {
           "code": "de-DE",
           "name": "독일어",
           "flag": "🇩🇪",
-          "text": "Angesichts der hohen Marktvolatilität ist ein proaktives Risikomanagement unerlässlich.",
+          "text": "Mir läuft das Wasser im Mund zusammen.",
           "roman": ""
         },
         "es": {
           "code": "es-ES",
           "name": "스페인어",
           "flag": "🇪🇸",
-          "text": "Dada la elevada volatilidad del mercado, una cobertura proactiva del riesgo es imprescindible.",
+          "text": "Se me hace la boca agua.",
           "roman": ""
         },
         "ar": {
           "code": "ar-SA",
           "name": "아랍어",
           "flag": "🇸🇦",
-          "text": "نظرًا للتقلبات المتزايدة في السوق، فإن التحوط الاستباقي للمخاطر أمر ضروري.",
-          "roman": "Naẓaran lil-taqallubāt al-mutazāyidah fī as-sūq, fa-inna at-taḥawwuṭ al-istibāqī lil-makhāṭir amrun ḍarūrī."
+          "text": "يسيل لعابي من الرائحة.",
+          "roman": "Yasīlu lu'ābī mina ar-rā'iḥah."
         },
         "ru": {
           "code": "ru-RU",
           "name": "러시아어",
           "flag": "🇷🇺",
-          "text": "С учётом высокой волатильности рынка упреждающее хеджирование рисков крайне важно.",
-          "roman": "S uchyotom vysokoy volatil'nosti rynka uprezhdayushcheye khedzhirovaniye riskov krayne vazhno."
+          "text": "У меня слюнки текут.",
+          "roman": "U menya slyunki tekut."
         }
       }
     },
     {
-      "theme": "기술적 독점과 시장 진입 장벽 (Moat & Market Entry)",
-      "meaning": "독점적인 핵심 기술력이야말로 지속 가능한 가격 결정력의 원천입니다.",
+      "theme": "음식과 건강: 식욕",
+      "meaning": "입맛이 없어.",
       "translations": {
         "en": {
           "code": "en-US",
           "name": "영어",
           "flag": "🇺🇸",
-          "text": "Proprietary technology serves as the ultimate source of sustainable pricing power.",
+          "text": "I don't have an appetite.",
           "roman": ""
         },
         "ja": {
           "code": "ja-JP",
           "name": "일본어",
           "flag": "🇯🇵",
-          "text": "独自のコア技術こそが、持続可能な価格決定力の源泉となります。",
-          "roman": "Dokuji no koa gijutsu koso ga, jizoku kanō na kakaku ketteiryoku no gensen to narimasu."
+          "text": "食欲がないんだ。",
+          "roman": "Shokuyoku ga nain da."
         },
         "zh": {
           "code": "zh-CN",
           "name": "중국어",
           "flag": "🇨🇳",
-          "text": "专有核心技术是可持续定价能力的最根本来源。",
-          "roman": "Zhuānyǒu héxīn jìshù shì kěchíxù dìngjià nénglì de zuì gēnběn láiyuán."
+          "text": "我没什么胃口。",
+          "roman": "Wǒ méi shénme wèikǒu."
         },
         "fr": {
           "code": "fr-FR",
           "name": "프랑스어",
           "flag": "🇫🇷",
-          "text": "Une technologie propriétaire constitue la source ultime d'un pouvoir de fixation des prix durable.",
+          "text": "Je n'ai pas d'appétit.",
           "roman": ""
         },
         "de": {
           "code": "de-DE",
           "name": "독일어",
           "flag": "🇩🇪",
-          "text": "Proprietäre Technologie ist die fundamentale Quelle nachhaltiger Preissetzungsmacht.",
+          "text": "Ich habe keinen Appetit.",
           "roman": ""
         },
         "es": {
           "code": "es-ES",
           "name": "스페인어",
           "flag": "🇪🇸",
-          "text": "La tecnología patentada es la fuente definitiva de un poder de fijación de precios sostenible.",
+          "text": "No tengo apetito.",
           "roman": ""
         },
         "ar": {
           "code": "ar-SA",
           "name": "아랍어",
           "flag": "🇸🇦",
-          "text": "تعتبر التكنولوجيا الاحتكارية المصدر النهائي لقوة التسعير المستدامة.",
-          "roman": "Tu'tabar at-tiknūlūjiyā al-iḥtikāriyyah al-maṣdar an-nihā'ī li-quwwat at-tas'īr al-mustadāmah."
+          "text": "ليست لدي شهية للأكل.",
+          "roman": "Laysat ladayya shahiyyah lil-akl."
         },
         "ru": {
           "code": "ru-RU",
           "name": "러시아어",
           "flag": "🇷🇺",
-          "text": "Собственная технология служит фундаментальным источником устойчивой ценовой власти.",
-          "roman": "Sobstvennaya tekhnologiya sluzhit fundamental'nym istochnikom ustoychivoy tsenovoy vlasti."
+          "text": "У меня нет аппетита.",
+          "roman": "U menya net appetita."
         }
       }
     },
     {
-      "theme": "패러다임 전환과 구조적 성장 (Structural Shift)",
-      "meaning": "단기 경기 사이클보다 장기적인 구조적 변화 흐름에 주목해야 합니다.",
+      "theme": "음식과 건강: 맛 식성",
+      "meaning": "맛이 밍밍해 (싱거워).",
       "translations": {
         "en": {
           "code": "en-US",
           "name": "영어",
           "flag": "🇺🇸",
-          "text": "We need to look beyond cyclical noise and focus on long-term structural shifts.",
+          "text": "It tastes flat.",
           "roman": ""
         },
         "ja": {
           "code": "ja-JP",
           "name": "일본어",
           "flag": "🇯🇵",
-          "text": "短期的な景気循環のノイズを超えて、長期的な構造変化に着目すべきです。",
-          "roman": "Tankiteki na keiki junkan no noizu o koete, chōkiteki na kōzō henka ni chakumoku subeki desu."
+          "text": "味が薄いね。",
+          "roman": "Aji ga usui ne."
         },
         "zh": {
           "code": "zh-CN",
           "name": "중국어",
           "flag": "🇨🇳",
-          "text": "我们需要超越周期性波动的干扰，专注于长期的结构性转变。",
-          "roman": "Wǒmen xūyào chāoyuè zhōuqīxìng bōdòng de gānrǎo, zhuānzhù yú chángqī de jiégòuxìng zhuǎnbiàn."
+          "text": "这味道太淡了。",
+          "roman": "Zhè wèidào tài dàn le."
         },
         "fr": {
           "code": "fr-FR",
           "name": "프랑스어",
           "flag": "🇫🇷",
-          "text": "Nous devons dépasser le bruit conjoncturel pour nous concentrer sur les mutations structurelles à long terme.",
+          "text": "C'est un peu fade.",
           "roman": ""
         },
         "de": {
           "code": "de-DE",
           "name": "독일어",
           "flag": "🇩🇪",
-          "text": "Wir müssen zyklisches Rauschen ausblenden und uns auf langfristige strukturelle Verschiebungen konzentrieren.",
+          "text": "Es schmeckt ziemlich fade.",
           "roman": ""
         },
         "es": {
           "code": "es-ES",
           "name": "스페인어",
           "flag": "🇪🇸",
-          "text": "Debemos mirar más allá del ruido cíclico y centrarnos en los cambios estructurales a largo plazo.",
+          "text": "Está un poco soso.",
           "roman": ""
         },
         "ar": {
           "code": "ar-SA",
           "name": "아랍어",
           "flag": "🇸🇦",
-          "text": "يجب أن نتجاوز الضجيج الدوري ونركز على التحولات الهيكلية طويلة المدى.",
-          "roman": "Yajibu an natajāwaza aḍ-ḍajīj ad-dawrī wa-nurakkiza 'alā at-taḥawwulāt al-haykaliyyah ṭawīlat al-madā."
+          "text": "طعمها باهت وبلا نكهة.",
+          "roman": "Ṭa'muhā bāhit wa-bilā nak-hah."
         },
         "ru": {
           "code": "ru-RU",
           "name": "러시아어",
           "flag": "🇷🇺",
-          "text": "Нам необходимо абстрагироваться от циклического шума и сосредоточиться на долгосрочных структурных сдвигах.",
-          "roman": "Nam neobkhodimo abstragirovat'sya ot tsiklicheskogo shuma i sosredotochit'sya na dolgosrochnykh strukturnykh sdvigakh."
+          "text": "Вкус какой-то пресный.",
+          "roman": "Vkus kakoy-to presnyy."
         }
       }
     },
     {
-      "theme": "지정학적 공급망 재편 (Supply Chain Realignment)",
-      "meaning": "공급망의 효율성보다 복원력과 안정성이 최우선 가치로 대두되었습니다.",
+      "theme": "음식과 건강: 맛 식성",
+      "meaning": "탄산이 다 빠졌어 (김샜어).",
       "translations": {
         "en": {
           "code": "en-US",
           "name": "영어",
           "flag": "🇺🇸",
-          "text": "Resilience and security have superseded cost efficiency in global supply chains.",
+          "text": "The fizz is gone.",
           "roman": ""
         },
         "ja": {
           "code": "ja-JP",
           "name": "일본어",
           "flag": "🇯🇵",
-          "text": "グローバル供給網において、コスト効率よりも回復力と安全保障が優先されています。",
-          "roman": "Gurōbaru kyōkyūmō ni oite, kosuto kōritsu yori mo kaifukuryoku to anzen hoshō ga yūsen sarete imasu."
+          "text": "炭酸が抜けちゃった。",
+          "roman": "Tansan ga nuke chatta."
         },
         "zh": {
           "code": "zh-CN",
           "name": "중국어",
           "flag": "🇨🇳",
-          "text": "在全球供应链中，韧性与安全已经取代成本效益成为首要考量。",
-          "roman": "Zài quánqiú gōngyìngliàn zhōng, rènxìng yǔ ānquán yǐjīng qǔdài chéngběn xiàoyì chéngwéi shǒuyào kǎoliàng."
+          "text": "汽水没气了。",
+          "roman": "Qìshuǐ méi qì le."
         },
         "fr": {
           "code": "fr-FR",
           "name": "프랑스어",
           "flag": "🇫🇷",
-          "text": "La résilience et la sécurité ont supplanté la rentabilité dans les chaînes d'approvisionnement mondiales.",
+          "text": "Il n'y a plus de bulles.",
           "roman": ""
         },
         "de": {
           "code": "de-DE",
           "name": "독일어",
           "flag": "🇩🇪",
-          "text": "Widerstandsfähigkeit und Sicherheit haben die reine Kosteneffizienz in globalen Lieferketten abgelöst.",
+          "text": "Die Kohlensäure ist raus.",
           "roman": ""
         },
         "es": {
           "code": "es-ES",
           "name": "스페인어",
           "flag": "🇪🇸",
-          "text": "La resiliencia y la seguridad han superado la eficiencia de costes en las cadenas de suministro globales.",
+          "text": "Se le fue el gas.",
           "roman": ""
         },
         "ar": {
           "code": "ar-SA",
           "name": "아랍어",
           "flag": "🇸🇦",
-          "text": "لقد حلت المرونة والأمن محل كفاءة التكلفة في سلاسل التوريد العالمية.",
-          "roman": "Laqad ḥallat al-murūnah wal-amnu maḥalla kafā'at at-taklufah fī salāsil at-tawrīd al-'ālamiyyah."
+          "text": "ذهبت فورة المشروب الغازي.",
+          "roman": "Dhahabat fawratu al-mashrūb al-ghāzī."
         },
         "ru": {
           "code": "ru-RU",
           "name": "러시아어",
           "flag": "🇷🇺",
-          "text": "Устойчивость и безопасность вытеснили ценовую эффективность в глобальных цепочках поставок.",
-          "roman": "Ustoychivost' i bezopasnost' vytesnili tsenovuyu effektivnost' v global'nykh tsepochkakh postavok."
+          "text": "Газировка выдохлась.",
+          "roman": "Gazirovka vydokhlas'."
+        }
+      }
+    },
+    {
+      "theme": "음식과 건강: 맛 식성",
+      "meaning": "돼지고기는 내 입맛에 안 맞아.",
+      "translations": {
+        "en": {
+          "code": "en-US",
+          "name": "영어",
+          "flag": "🇺🇸",
+          "text": "Pork doesn't suit my taste.",
+          "roman": ""
+        },
+        "ja": {
+          "code": "ja-JP",
+          "name": "일본어",
+          "flag": "🇯🇵",
+          "text": "豚肉は口に合わないんだ。",
+          "roman": "Butaniku wa kuchi ni awanai n da."
+        },
+        "zh": {
+          "code": "zh-CN",
+          "name": "중국어",
+          "flag": "🇨🇳",
+          "text": "猪肉不太合我的胃口。",
+          "roman": "Zhūròu bù tài hé wǒ de wèikǒu."
+        },
+        "fr": {
+          "code": "fr-FR",
+          "name": "프랑스어",
+          "flag": "🇫🇷",
+          "text": "Le porc n'est pas à mon goût.",
+          "roman": ""
+        },
+        "de": {
+          "code": "de-DE",
+          "name": "독일어",
+          "flag": "🇩🇪",
+          "text": "Schweinefleisch trifft nicht meinen Geschmack.",
+          "roman": ""
+        },
+        "es": {
+          "code": "es-ES",
+          "name": "스페인어",
+          "flag": "🇪🇸",
+          "text": "El cerdo no es de mi agrado.",
+          "roman": ""
+        },
+        "ar": {
+          "code": "ar-SA",
+          "name": "아랍어",
+          "flag": "🇸🇦",
+          "text": "لحم الخنزير لا يناسب ذوقي.",
+          "roman": "Laḥmu al-khinzīr lā yunāsibu dhawqī."
+        },
+        "ru": {
+          "code": "ru-RU",
+          "name": "러시아어",
+          "flag": "🇷🇺",
+          "text": "Свинина мне не по вкусу.",
+          "roman": "Svinina mne ne po vkusu."
+        }
+      }
+    },
+    {
+      "theme": "음식과 건강: 외식",
+      "meaning": "여기 대표 메뉴가 뭐예요?",
+      "translations": {
+        "en": {
+          "code": "en-US",
+          "name": "영어",
+          "flag": "🇺🇸",
+          "text": "What's the house specialty?",
+          "roman": ""
+        },
+        "ja": {
+          "code": "ja-JP",
+          "name": "일본어",
+          "flag": "🇯🇵",
+          "text": "このお店の看板メニューは何ですか？",
+          "roman": "Kono omise no kamban menyū wa nan desu ka?"
+        },
+        "zh": {
+          "code": "zh-CN",
+          "name": "중국어",
+          "flag": "🇨🇳",
+          "text": "你们这里的招牌菜是什么？",
+          "roman": "Nǐmen zhèlǐ de zhāopái cài shì shénme?"
+        },
+        "fr": {
+          "code": "fr-FR",
+          "name": "프랑스어",
+          "flag": "🇫🇷",
+          "text": "Quelle est la spécialité de la maison ?",
+          "roman": ""
+        },
+        "de": {
+          "code": "de-DE",
+          "name": "독일어",
+          "flag": "🇩🇪",
+          "text": "Was ist die Spezialität des Hauses?",
+          "roman": ""
+        },
+        "es": {
+          "code": "es-ES",
+          "name": "스페인어",
+          "flag": "🇪🇸",
+          "text": "¿Cuál es la especialidad de la casa?",
+          "roman": ""
+        },
+        "ar": {
+          "code": "ar-SA",
+          "name": "아랍어",
+          "flag": "🇸🇦",
+          "text": "ما هو الطبق المميز لديكم؟",
+          "roman": "Mā huwa aṭ-ṭabaqu al-mumayyazu ladaykum?"
+        },
+        "ru": {
+          "code": "ru-RU",
+          "name": "러시아어",
+          "flag": "🇷🇺",
+          "text": "Какое у вас фирменное блюдо?",
+          "roman": "Kakoye u vas firmennoye blyudo?"
+        }
+      }
+    },
+    {
+      "theme": "음식과 건강: 외식",
+      "meaning": "불고기 2인분 주세요.",
+      "translations": {
+        "en": {
+          "code": "en-US",
+          "name": "영어",
+          "flag": "🇺🇸",
+          "text": "Can I have two servings of Bulgogi?",
+          "roman": ""
+        },
+        "ja": {
+          "code": "ja-JP",
+          "name": "일본어",
+          "flag": "🇯🇵",
+          "text": "プルコギを2人前お願いします。",
+          "roman": "Purukogi o nininmae onegai shimasu."
+        },
+        "zh": {
+          "code": "zh-CN",
+          "name": "중국어",
+          "flag": "🇨🇳",
+          "text": "请给我来两份烤牛肉。",
+          "roman": "Qǐng gěi wǒ lái liǎng fèn kǎoniúròu."
+        },
+        "fr": {
+          "code": "fr-FR",
+          "name": "프랑스어",
+          "flag": "🇫🇷",
+          "text": "Deux portions de Bulgogi, s'il vous plaît.",
+          "roman": ""
+        },
+        "de": {
+          "code": "de-DE",
+          "name": "독일어",
+          "flag": "🇩🇪",
+          "text": "Zwei Portionen Bulgogi, bitte.",
+          "roman": ""
+        },
+        "es": {
+          "code": "es-ES",
+          "name": "스페인어",
+          "flag": "🇪🇸",
+          "text": "Dos porciones de Bulgogi, por favor.",
+          "roman": ""
+        },
+        "ar": {
+          "code": "ar-SA",
+          "name": "아랍어",
+          "flag": "🇸🇦",
+          "text": "هل يمكنني الحصول على حصتين من طبق بولغوجي؟",
+          "roman": "Hal yumkinunī al-ḥuṣūlu 'alā ḥiṣṣatayni min ṭabaq būlghūjī?"
+        },
+        "ru": {
+          "code": "ru-RU",
+          "name": "러시아어",
+          "flag": "🇷🇺",
+          "text": "Две порции пульгоги, пожалуйста.",
+          "roman": "Dve portsii pul'gogi, pozhaluysta."
+        }
+      }
+    },
+    {
+      "theme": "음식과 건강: 외식",
+      "meaning": "저도 같은 걸로 주세요.",
+      "translations": {
+        "en": {
+          "code": "en-US",
+          "name": "영어",
+          "flag": "🇺🇸",
+          "text": "Same here, please.",
+          "roman": ""
+        },
+        "ja": {
+          "code": "ja-JP",
+          "name": "일본어",
+          "flag": "🇯🇵",
+          "text": "私も同じものをお願いします。",
+          "roman": "Watashi mo onaji mono o onegai shimasu."
+        },
+        "zh": {
+          "code": "zh-CN",
+          "name": "중국어",
+          "flag": "🇨🇳",
+          "text": "我也要一样的，谢谢。",
+          "roman": "Wǒ yě yào yīyàng de, xièxie."
+        },
+        "fr": {
+          "code": "fr-FR",
+          "name": "프랑스어",
+          "flag": "🇫🇷",
+          "text": "La même chose pour moi, s'il vous plaît.",
+          "roman": ""
+        },
+        "de": {
+          "code": "de-DE",
+          "name": "독일어",
+          "flag": "🇩🇪",
+          "text": "Für mich bitte dasselbe.",
+          "roman": ""
+        },
+        "es": {
+          "code": "es-ES",
+          "name": "스페인어",
+          "flag": "🇪🇸",
+          "text": "Lo mismo para mí, por favor.",
+          "roman": ""
+        },
+        "ar": {
+          "code": "ar-SA",
+          "name": "아랍어",
+          "flag": "🇸🇦",
+          "text": "نفس الشيء لي من فضلك.",
+          "roman": "Nafsu ash-shay'i lī min faḍlik."
+        },
+        "ru": {
+          "code": "ru-RU",
+          "name": "러시아어",
+          "flag": "🇷🇺",
+          "text": "Мне то же самое, пожалуйста.",
+          "roman": "Mne to zhe samoye, pozhaluysta."
+        }
+      }
+    },
+    {
+      "theme": "음식과 건강: 술자리",
+      "meaning": "술 한잔하러 갈래?",
+      "translations": {
+        "en": {
+          "code": "en-US",
+          "name": "영어",
+          "flag": "🇺🇸",
+          "text": "You wanna go get a drink?",
+          "roman": ""
+        },
+        "ja": {
+          "code": "ja-JP",
+          "name": "일본어",
+          "flag": "🇯🇵",
+          "text": "一杯飲みに行かない？",
+          "roman": "Ippai nomi ni ikanai?"
+        },
+        "zh": {
+          "code": "zh-CN",
+          "name": "중국어",
+          "flag": "🇨🇳",
+          "text": "想去喝一杯吗？",
+          "roman": "Xiǎng qù hē yībēi ma?"
+        },
+        "fr": {
+          "code": "fr-FR",
+          "name": "프랑스어",
+          "flag": "🇫🇷",
+          "text": "Tu veux aller boire un verre ?",
+          "roman": ""
+        },
+        "de": {
+          "code": "de-DE",
+          "name": "독일어",
+          "flag": "🇩🇪",
+          "text": "Wollen wir was trinken gehen?",
+          "roman": ""
+        },
+        "es": {
+          "code": "es-ES",
+          "name": "스페인어",
+          "flag": "🇪🇸",
+          "text": "¿Quieres ir a tomar algo?",
+          "roman": ""
+        },
+        "ar": {
+          "code": "ar-SA",
+          "name": "아랍어",
+          "flag": "🇸🇦",
+          "text": "هل ترغب في الذهاب لتناول مشروب؟",
+          "roman": "Hal targhabu fī adh-dhahābi li-tanāwuli mashrūb?"
+        },
+        "ru": {
+          "code": "ru-RU",
+          "name": "러시아어",
+          "flag": "🇷🇺",
+          "text": "Пойдём выпьем по стаканчику?",
+          "roman": "Poydyom vyp'yem po stakanchiku?"
+        }
+      }
+    },
+    {
+      "theme": "음식과 건강: 술자리",
+      "meaning": "오늘은 내가 쏠게!",
+      "translations": {
+        "en": {
+          "code": "en-US",
+          "name": "영어",
+          "flag": "🇺🇸",
+          "text": "It's on me today!",
+          "roman": ""
+        },
+        "ja": {
+          "code": "ja-JP",
+          "name": "일본어",
+          "flag": "🇯🇵",
+          "text": "今日は私のおごりだよ！",
+          "roman": "Kyō wa watashi no ogori da yo!"
+        },
+        "zh": {
+          "code": "zh-CN",
+          "name": "중국어",
+          "flag": "🇨🇳",
+          "text": "今天我请客！",
+          "roman": "Jīntiān wǒ qǐngkè!"
+        },
+        "fr": {
+          "code": "fr-FR",
+          "name": "프랑스어",
+          "flag": "🇫🇷",
+          "text": "C'est ma tournée aujourd'hui !",
+          "roman": ""
+        },
+        "de": {
+          "code": "de-DE",
+          "name": "독일어",
+          "flag": "🇩🇪",
+          "text": "Heute geht das auf mich!",
+          "roman": ""
+        },
+        "es": {
+          "code": "es-ES",
+          "name": "스페인어",
+          "flag": "🇪🇸",
+          "text": "¡Hoy invito yo!",
+          "roman": ""
+        },
+        "ar": {
+          "code": "ar-SA",
+          "name": "아랍어",
+          "flag": "🇸🇦",
+          "text": "الحساب عليّ اليوم!",
+          "roman": "Al-ḥisābu 'alayya al-yawm!"
+        },
+        "ru": {
+          "code": "ru-RU",
+          "name": "러시아어",
+          "flag": "🇷🇺",
+          "text": "Сегодня я угощаю!",
+          "roman": "Segodnya ya ugoshchayu!"
+        }
+      }
+    },
+    {
+      "theme": "음식과 건강: 술자리",
+      "meaning": "나 요즘 금주 중이야.",
+      "translations": {
+        "en": {
+          "code": "en-US",
+          "name": "영어",
+          "flag": "🇺🇸",
+          "text": "I'm on the wagon now.",
+          "roman": ""
+        },
+        "ja": {
+          "code": "ja-JP",
+          "name": "일본어",
+          "flag": "🇯🇵",
+          "text": "今は禁酒してるんだ。",
+          "roman": "Ima wa kinshu shiteru n da."
+        },
+        "zh": {
+          "code": "zh-CN",
+          "name": "중국어",
+          "flag": "🇨🇳",
+          "text": "我现在戒酒了。",
+          "roman": "Wǒ xiànzài jièjiǔ le."
+        },
+        "fr": {
+          "code": "fr-FR",
+          "name": "프랑스어",
+          "flag": "🇫🇷",
+          "text": "Je ne bois plus d'alcool en ce moment.",
+          "roman": ""
+        },
+        "de": {
+          "code": "de-DE",
+          "name": "독일어",
+          "flag": "🇩🇪",
+          "text": "Ich trinke im Moment keinen Alkohol.",
+          "roman": ""
+        },
+        "es": {
+          "code": "es-ES",
+          "name": "스페인어",
+          "flag": "🇪🇸",
+          "text": "He dejado de beber por ahora.",
+          "roman": ""
+        },
+        "ar": {
+          "code": "ar-SA",
+          "name": "아랍어",
+          "flag": "🇸🇦",
+          "text": "أنا ممتنع عن المشروبات حاليًا.",
+          "roman": "Anā mumtani'un 'an al-mashrūbāt ḥāliyan."
+        },
+        "ru": {
+          "code": "ru-RU",
+          "name": "러시아어",
+          "flag": "🇷🇺",
+          "text": "Я сейчас в завязке.",
+          "roman": "Ya seychas v zavyazke."
+        }
+      }
+    },
+    {
+      "theme": "음식과 건강: 술자리",
+      "meaning": "원샷! (다 마셔!)",
+      "translations": {
+        "en": {
+          "code": "en-US",
+          "name": "영어",
+          "flag": "🇺🇸",
+          "text": "Bottoms up!",
+          "roman": ""
+        },
+        "ja": {
+          "code": "ja-JP",
+          "name": "일본어",
+          "flag": "🇯🇵",
+          "text": "乾杯！一気に！",
+          "roman": "Kampai! Ikki ni!"
+        },
+        "zh": {
+          "code": "zh-CN",
+          "name": "중국어",
+          "flag": "🇨🇳",
+          "text": "干杯！一口闷！",
+          "roman": "Gānbēi! Yīkǒu mèn!"
+        },
+        "fr": {
+          "code": "fr-FR",
+          "name": "프랑스어",
+          "flag": "🇫🇷",
+          "text": "Cul sec !",
+          "roman": ""
+        },
+        "de": {
+          "code": "de-DE",
+          "name": "독일어",
+          "flag": "🇩🇪",
+          "text": "Bis auf den Grund!",
+          "roman": ""
+        },
+        "es": {
+          "code": "es-ES",
+          "name": "스페인어",
+          "flag": "🇪🇸",
+          "text": "¡Hasta el fondo!",
+          "roman": ""
+        },
+        "ar": {
+          "code": "ar-SA",
+          "name": "아랍어",
+          "flag": "🇸🇦",
+          "text": "حتى القاع! بصحتك!",
+          "roman": "Ḥattā al-qā'! Bi-ṣiḥḥatik!"
+        },
+        "ru": {
+          "code": "ru-RU",
+          "name": "러시아어",
+          "flag": "🇷🇺",
+          "text": "Пей до дна!",
+          "roman": "Pey do dna!"
+        }
+      }
+    },
+    {
+      "theme": "음식과 건강: 술자리",
+      "meaning": "오늘 꽐라가 되도록 마셔보자!",
+      "translations": {
+        "en": {
+          "code": "en-US",
+          "name": "영어",
+          "flag": "🇺🇸",
+          "text": "Let's get wasted!",
+          "roman": ""
+        },
+        "ja": {
+          "code": "ja-JP",
+          "name": "일본어",
+          "flag": "🇯🇵",
+          "text": "今日はとことん飲んで潰れようぜ！",
+          "roman": "Kyō wa tokoton nonde tsubureyō ze!"
+        },
+        "zh": {
+          "code": "zh-CN",
+          "name": "중국어",
+          "flag": "🇨🇳",
+          "text": "今天不醉不归！",
+          "roman": "Jīntiān bù zuì bù guī!"
+        },
+        "fr": {
+          "code": "fr-FR",
+          "name": "프랑스어",
+          "flag": "🇫🇷",
+          "text": "On va se mettre une caisse ce soir !",
+          "roman": ""
+        },
+        "de": {
+          "code": "de-DE",
+          "name": "독일어",
+          "flag": "🇩🇪",
+          "text": "Lass uns richtig die Kante geben!",
+          "roman": ""
+        },
+        "es": {
+          "code": "es-ES",
+          "name": "스페인어",
+          "flag": "🇪🇸",
+          "text": "¡Vamos a ponernos ciegos!",
+          "roman": ""
+        },
+        "ar": {
+          "code": "ar-SA",
+          "name": "아랍어",
+          "flag": "🇸🇦",
+          "text": "دعنا نسهر حتى نثمل تمامًا!",
+          "roman": "Da'nā nashar ḥattā nathmala tamāman!"
+        },
+        "ru": {
+          "code": "ru-RU",
+          "name": "러시아어",
+          "flag": "🇷🇺",
+          "text": "Давай напьёмся в стельку!",
+          "roman": "Davay nap'yomsya v stel'ku!"
+        }
+      }
+    },
+    {
+      "theme": "음식과 건강: 술자리",
+      "meaning": "필름이 끊겼어.",
+      "translations": {
+        "en": {
+          "code": "en-US",
+          "name": "영어",
+          "flag": "🇺🇸",
+          "text": "I had a blackout.",
+          "roman": ""
+        },
+        "ja": {
+          "code": "ja-JP",
+          "name": "일본어",
+          "flag": "🇯🇵",
+          "text": "記憶が飛んじゃった。",
+          "roman": "Kioku ga tonjatta."
+        },
+        "zh": {
+          "code": "zh-CN",
+          "name": "중국어",
+          "flag": "🇨🇳",
+          "text": "我断片儿了。",
+          "roman": "Wǒ duànpiànr le."
+        },
+        "fr": {
+          "code": "fr-FR",
+          "name": "프랑스어",
+          "flag": "🇫🇷",
+          "text": "J'ai eu un trou noir.",
+          "roman": ""
+        },
+        "de": {
+          "code": "de-DE",
+          "name": "독일어",
+          "flag": "🇩🇪",
+          "text": "Ich hatte einen Filmriss.",
+          "roman": ""
+        },
+        "es": {
+          "code": "es-ES",
+          "name": "스페인어",
+          "flag": "🇪🇸",
+          "text": "Se me borró la cinta.",
+          "roman": ""
+        },
+        "ar": {
+          "code": "ar-SA",
+          "name": "아랍어",
+          "flag": "🇸🇦",
+          "text": "انقطعت عن الذاكرة تمامًا.",
+          "roman": "Inqaṭa'tu 'an adh-dhākirah tamāman."
+        },
+        "ru": {
+          "code": "ru-RU",
+          "name": "러시아어",
+          "flag": "🇷🇺",
+          "text": "У меня случился провал в памяти.",
+          "roman": "U menya sluchilsya proval v pamyati."
+        }
+      }
+    },
+    {
+      "theme": "음식과 건강: 감기몸살",
+      "meaning": "온몸이 쑤시고 아파.",
+      "translations": {
+        "en": {
+          "code": "en-US",
+          "name": "영어",
+          "flag": "🇺🇸",
+          "text": "My whole body aches.",
+          "roman": ""
+        },
+        "ja": {
+          "code": "ja-JP",
+          "name": "일본어",
+          "flag": "🇯🇵",
+          "text": "全身がズキズキ痛むんだ。",
+          "roman": "Zenshin ga zukizuki itamu n da."
+        },
+        "zh": {
+          "code": "zh-CN",
+          "name": "중국어",
+          "flag": "🇨🇳",
+          "text": "我浑身酸痛。",
+          "roman": "Wǒ húnshēn suāntòng."
+        },
+        "fr": {
+          "code": "fr-FR",
+          "name": "프랑스어",
+          "flag": "🇫🇷",
+          "text": "J'ai mal partout.",
+          "roman": ""
+        },
+        "de": {
+          "code": "de-DE",
+          "name": "독일어",
+          "flag": "🇩🇪",
+          "text": "Mir tut der ganze Körper weh.",
+          "roman": ""
+        },
+        "es": {
+          "code": "es-ES",
+          "name": "스페인어",
+          "flag": "🇪🇸",
+          "text": "Me duele todo el cuerpo.",
+          "roman": ""
+        },
+        "ar": {
+          "code": "ar-SA",
+          "name": "아랍어",
+          "flag": "🇸🇦",
+          "text": "جسدي كله يؤلمني.",
+          "roman": "Jasadī kulluhu yu'limunī."
+        },
+        "ru": {
+          "code": "ru-RU",
+          "name": "러시아어",
+          "flag": "🇷🇺",
+          "text": "У меня всё тело ломит.",
+          "roman": "U menya vsyo telo lomit."
+        }
+      }
+    },
+    {
+      "theme": "음식과 건강: 감기몸살",
+      "meaning": "코가 꽉 막혔어.",
+      "translations": {
+        "en": {
+          "code": "en-US",
+          "name": "영어",
+          "flag": "🇺🇸",
+          "text": "My nose is stopped up.",
+          "roman": ""
+        },
+        "ja": {
+          "code": "ja-JP",
+          "name": "일본어",
+          "flag": "🇯🇵",
+          "text": "鼻が詰まっちゃって。",
+          "roman": "Hana ga tsumachatte."
+        },
+        "zh": {
+          "code": "zh-CN",
+          "name": "중국어",
+          "flag": "🇨🇳",
+          "text": "我鼻子堵住了。",
+          "roman": "Wǒ bízi dǔ zhù le."
+        },
+        "fr": {
+          "code": "fr-FR",
+          "name": "프랑스어",
+          "flag": "🇫🇷",
+          "text": "J'ai le nez bouché.",
+          "roman": ""
+        },
+        "de": {
+          "code": "de-DE",
+          "name": "독일어",
+          "flag": "🇩🇪",
+          "text": "Meine Nase ist verstopft.",
+          "roman": ""
+        },
+        "es": {
+          "code": "es-ES",
+          "name": "스페인어",
+          "flag": "🇪🇸",
+          "text": "Tengo la nariz tapada.",
+          "roman": ""
+        },
+        "ar": {
+          "code": "ar-SA",
+          "name": "아랍어",
+          "flag": "🇸🇦",
+          "text": "أنفي مسدود تمامًا.",
+          "roman": "Anfī masdūd tamāman."
+        },
+        "ru": {
+          "code": "ru-RU",
+          "name": "러시아어",
+          "flag": "🇷🇺",
+          "text": "У меня нос заложен.",
+          "roman": "U menya nos zalozhen."
+        }
+      }
+    },
+    {
+      "theme": "음식과 건강: 감기몸살",
+      "meaning": "오한이 들고 으슬으슬해.",
+      "translations": {
+        "en": {
+          "code": "en-US",
+          "name": "영어",
+          "flag": "🇺🇸",
+          "text": "I have the chills.",
+          "roman": ""
+        },
+        "ja": {
+          "code": "ja-JP",
+          "name": "일본어",
+          "flag": "🇯🇵",
+          "text": "悪寒がしてゾクゾクする。",
+          "roman": "Okan ga shite zokuzoku suru."
+        },
+        "zh": {
+          "code": "zh-CN",
+          "name": "중국어",
+          "flag": "🇨🇳",
+          "text": "我身上直发冷。",
+          "roman": "Wǒ shēnshang zhí fālěng."
+        },
+        "fr": {
+          "code": "fr-FR",
+          "name": "프랑스어",
+          "flag": "🇫🇷",
+          "text": "J'ai des frissons.",
+          "roman": ""
+        },
+        "de": {
+          "code": "de-DE",
+          "name": "독일어",
+          "flag": "🇩🇪",
+          "text": "Ich habe Schüttelfrost.",
+          "roman": ""
+        },
+        "es": {
+          "code": "es-ES",
+          "name": "스페인어",
+          "flag": "🇪🇸",
+          "text": "Tengo escalofríos.",
+          "roman": ""
+        },
+        "ar": {
+          "code": "ar-SA",
+          "name": "아랍어",
+          "flag": "🇸🇦",
+          "text": "أشعر بالقشعريرة والبرد.",
+          "roman": "Ash'uru bil-qash'arīrah wal-bard."
+        },
+        "ru": {
+          "code": "ru-RU",
+          "name": "러시아어",
+          "flag": "🇷🇺",
+          "text": "Меня знобит.",
+          "roman": "Menya znobit."
+        }
+      }
+    },
+    {
+      "theme": "음식과 건강: 피로와 복통",
+      "meaning": "손가락 하나 까딱할 힘도 없어.",
+      "translations": {
+        "en": {
+          "code": "en-US",
+          "name": "영어",
+          "flag": "🇺🇸",
+          "text": "I can't move a finger.",
+          "roman": ""
+        },
+        "ja": {
+          "code": "ja-JP",
+          "name": "일본어",
+          "flag": "🇯🇵",
+          "text": "指一本動かす力もないよ。",
+          "roman": "Yubi ippon ugokasu chikara mo nai yo."
+        },
+        "zh": {
+          "code": "zh-CN",
+          "name": "중국어",
+          "flag": "🇨🇳",
+          "text": "我累得连手指头都抬不起来了。",
+          "roman": "Wǒ lèi de lián shǒuzhǐtou dōu tái bù qǐlái le."
+        },
+        "fr": {
+          "code": "fr-FR",
+          "name": "프랑스어",
+          "flag": "🇫🇷",
+          "text": "Je ne peux même plus bouger le petit doigt.",
+          "roman": ""
+        },
+        "de": {
+          "code": "de-DE",
+          "name": "독일어",
+          "flag": "🇩🇪",
+          "text": "Ich kann keinen Finger mehr rühren.",
+          "roman": ""
+        },
+        "es": {
+          "code": "es-ES",
+          "name": "스페인어",
+          "flag": "🇪🇸",
+          "text": "No puedo ni mover un dedo.",
+          "roman": ""
+        },
+        "ar": {
+          "code": "ar-SA",
+          "name": "아랍어",
+          "flag": "🇸🇦",
+          "text": "لا أقوى حتى على تحريك إصبعي.",
+          "roman": "Lā aqwā ḥattā 'alā taḥrīki iṣba'ī."
+        },
+        "ru": {
+          "code": "ru-RU",
+          "name": "러시아어",
+          "flag": "🇷🇺",
+          "text": "У меня сил нет даже пальцем пошевелить.",
+          "roman": "U menya sil net dazhe pal'tsem poshevelit'."
+        }
+      }
+    },
+    {
+      "theme": "음식과 건강: 피로와 복통",
+      "meaning": "몸 상태가 별로 안 좋아.",
+      "translations": {
+        "en": {
+          "code": "en-US",
+          "name": "영어",
+          "flag": "🇺🇸",
+          "text": "I'm not feeling well.",
+          "roman": ""
+        },
+        "ja": {
+          "code": "ja-JP",
+          "name": "일본어",
+          "flag": "🇯🇵",
+          "text": "体の調子があまり良くないんだ。",
+          "roman": "Karada no chōshi ga amari yoku nai n da."
+        },
+        "zh": {
+          "code": "zh-CN",
+          "name": "중국어",
+          "flag": "🇨🇳",
+          "text": "我感觉不太舒服。",
+          "roman": "Wǒ gǎnjué bù tài shūfu."
+        },
+        "fr": {
+          "code": "fr-FR",
+          "name": "프랑스어",
+          "flag": "🇫🇷",
+          "text": "Je ne me sens pas très bien.",
+          "roman": ""
+        },
+        "de": {
+          "code": "de-DE",
+          "name": "독일어",
+          "flag": "🇩🇪",
+          "text": "Ich fühle mich nicht wohl.",
+          "roman": ""
+        },
+        "es": {
+          "code": "es-ES",
+          "name": "스페인어",
+          "flag": "🇪🇸",
+          "text": "No me siento bien.",
+          "roman": ""
+        },
+        "ar": {
+          "code": "ar-SA",
+          "name": "아랍어",
+          "flag": "🇸🇦",
+          "text": "لست على ما يرام.",
+          "roman": "Lastu 'alā mā yurām."
+        },
+        "ru": {
+          "code": "ru-RU",
+          "name": "러시아어",
+          "flag": "🇷🇺",
+          "text": "Я неважно себя чувствую.",
+          "roman": "Ya nevazhno sebya chuvstvuyu."
+        }
+      }
+    },
+    {
+      "theme": "음식과 건강: 피로와 복통",
+      "meaning": "배가 아파 죽겠어.",
+      "translations": {
+        "en": {
+          "code": "en-US",
+          "name": "영어",
+          "flag": "🇺🇸",
+          "text": "My gut is killing me.",
+          "roman": ""
+        },
+        "ja": {
+          "code": "ja-JP",
+          "name": "일본어",
+          "flag": "🇯🇵",
+          "text": "お腹が痛くてたまらないよ。",
+          "roman": "Onaka ga itakute tamaranai yo."
+        },
+        "zh": {
+          "code": "zh-CN",
+          "name": "중국어",
+          "flag": "🇨🇳",
+          "text": "我肚子疼得要命。",
+          "roman": "Wǒ dùzi téng de yàomìng."
+        },
+        "fr": {
+          "code": "fr-FR",
+          "name": "프랑스어",
+          "flag": "🇫🇷",
+          "text": "J'ai un mal de ventre terrible.",
+          "roman": ""
+        },
+        "de": {
+          "code": "de-DE",
+          "name": "독일어",
+          "flag": "🇩🇪",
+          "text": "Mein Bauch bringt mich um.",
+          "roman": ""
+        },
+        "es": {
+          "code": "es-ES",
+          "name": "스페인어",
+          "flag": "🇪🇸",
+          "text": "Me muero de dolor de estómago.",
+          "roman": ""
+        },
+        "ar": {
+          "code": "ar-SA",
+          "name": "아랍어",
+          "flag": "🇸🇦",
+          "text": "بطني يؤلمني بشدة لا تحتمل.",
+          "roman": "Baṭnī yu'limunī bi-shiddatin lā tuḥtamal."
+        },
+        "ru": {
+          "code": "ru-RU",
+          "name": "러시아어",
+          "flag": "🇷🇺",
+          "text": "Живот болит просто ужасно.",
+          "roman": "Zhivot bolit prosto uzhasno."
+        }
+      }
+    },
+    {
+      "theme": "음식과 건강: 얼굴·두통",
+      "meaning": "눈이 퉁퉁 부었어.",
+      "translations": {
+        "en": {
+          "code": "en-US",
+          "name": "영어",
+          "flag": "🇺🇸",
+          "text": "My eyes are puffed up.",
+          "roman": ""
+        },
+        "ja": {
+          "code": "ja-JP",
+          "name": "일본어",
+          "flag": "🇯🇵",
+          "text": "目が腫れぼったくなっちゃった。",
+          "roman": "Me ga harebotitaku natchatta."
+        },
+        "zh": {
+          "code": "zh-CN",
+          "name": "중국어",
+          "flag": "🇨🇳",
+          "text": "我的眼睛肿得厉害。",
+          "roman": "Wǒ de yǎnjing zhǒng de lìhai."
+        },
+        "fr": {
+          "code": "fr-FR",
+          "name": "프랑스어",
+          "flag": "🇫🇷",
+          "text": "J'ai les yeux tout gonflés.",
+          "roman": ""
+        },
+        "de": {
+          "code": "de-DE",
+          "name": "독일어",
+          "flag": "🇩🇪",
+          "text": "Meine Augen sind ganz geschwollen.",
+          "roman": ""
+        },
+        "es": {
+          "code": "es-ES",
+          "name": "스페인어",
+          "flag": "🇪🇸",
+          "text": "Tengo los ojos hinchados.",
+          "roman": ""
+        },
+        "ar": {
+          "code": "ar-SA",
+          "name": "아랍어",
+          "flag": "🇸🇦",
+          "text": "عيناي منتفختان للغاية.",
+          "roman": "'Aynāya muntafikhatāni lil-ghāyah."
+        },
+        "ru": {
+          "code": "ru-RU",
+          "name": "러시아어",
+          "flag": "🇷🇺",
+          "text": "У меня глаза опухли.",
+          "roman": "U menya glaza opukhli."
+        }
+      }
+    },
+    {
+      "theme": "음식과 건강: 얼굴·두통",
+      "meaning": "나 코피 나.",
+      "translations": {
+        "en": {
+          "code": "en-US",
+          "name": "영어",
+          "flag": "🇺🇸",
+          "text": "I've got a nosebleed.",
+          "roman": ""
+        },
+        "ja": {
+          "code": "ja-JP",
+          "name": "일본어",
+          "flag": "🇯🇵",
+          "text": "鼻血が出ちゃった。",
+          "roman": "Hanaji ga dechatta."
+        },
+        "zh": {
+          "code": "zh-CN",
+          "name": "중국어",
+          "flag": "🇨🇳",
+          "text": "我流鼻血了。",
+          "roman": "Wǒ liú bíxiě le."
+        },
+        "fr": {
+          "code": "fr-FR",
+          "name": "프랑스어",
+          "flag": "🇫🇷",
+          "text": "Je saigne du nez.",
+          "roman": ""
+        },
+        "de": {
+          "code": "de-DE",
+          "name": "독일어",
+          "flag": "🇩🇪",
+          "text": "Ich habe Nasenbluten.",
+          "roman": ""
+        },
+        "es": {
+          "code": "es-ES",
+          "name": "스페인어",
+          "flag": "🇪🇸",
+          "text": "Me sangra la nariz.",
+          "roman": ""
+        },
+        "ar": {
+          "code": "ar-SA",
+          "name": "아랍어",
+          "flag": "🇸🇦",
+          "text": "أنفي ينزف دمًا.",
+          "roman": "Anfī yanzifu daman."
+        },
+        "ru": {
+          "code": "ru-RU",
+          "name": "러시아어",
+          "flag": "🇷🇺",
+          "text": "У меня пошла кровь из носа.",
+          "roman": "U menya poshla krov' iz nosa."
+        }
+      }
+    },
+    {
+      "theme": "음식과 건강: 얼굴·두통",
+      "meaning": "편두통이 있어.",
+      "translations": {
+        "en": {
+          "code": "en-US",
+          "name": "영어",
+          "flag": "🇺🇸",
+          "text": "I have a migraine.",
+          "roman": ""
+        },
+        "ja": {
+          "code": "ja-JP",
+          "name": "일본어",
+          "flag": "🇯🇵",
+          "text": "偏頭痛がするんだ。",
+          "roman": "Henzutsū ga suru n da."
+        },
+        "zh": {
+          "code": "zh-CN",
+          "name": "중국어",
+          "flag": "🇨🇳",
+          "text": "我犯偏头痛了。",
+          "roman": "Wǒ fàn piāntóutòng le."
+        },
+        "fr": {
+          "code": "fr-FR",
+          "name": "프랑스어",
+          "flag": "🇫🇷",
+          "text": "J'ai une migraine.",
+          "roman": ""
+        },
+        "de": {
+          "code": "de-DE",
+          "name": "독일어",
+          "flag": "🇩🇪",
+          "text": "Ich habe Migräne.",
+          "roman": ""
+        },
+        "es": {
+          "code": "es-ES",
+          "name": "스페인어",
+          "flag": "🇪🇸",
+          "text": "Tengo migraña.",
+          "roman": ""
+        },
+        "ar": {
+          "code": "ar-SA",
+          "name": "아랍어",
+          "flag": "🇸🇦",
+          "text": "أعاني من صداع نصفي.",
+          "roman": "U'ānī min ṣudā'in niṣfī."
+        },
+        "ru": {
+          "code": "ru-RU",
+          "name": "러시아어",
+          "flag": "🇷🇺",
+          "text": "У меня мигрень.",
+          "roman": "U menya migren'."
+        }
+      }
+    },
+    {
+      "theme": "음식과 건강: 신체 통증",
+      "meaning": "어깨가 뻐근해 (뭉쳤어).",
+      "translations": {
+        "en": {
+          "code": "en-US",
+          "name": "영어",
+          "flag": "🇺🇸",
+          "text": "I have stiff shoulders.",
+          "roman": ""
+        },
+        "ja": {
+          "code": "ja-JP",
+          "name": "일본어",
+          "flag": "🇯🇵",
+          "text": "肩がガチガチに凝っちゃって。",
+          "roman": "Kata ga gachigachi ni kotchatte."
+        },
+        "zh": {
+          "code": "zh-CN",
+          "name": "중국어",
+          "flag": "🇨🇳",
+          "text": "我肩膀酸硬得厉害。",
+          "roman": "Wǒ jiānbǎng suānyìng de lìhai."
+        },
+        "fr": {
+          "code": "fr-FR",
+          "name": "프랑스어",
+          "flag": "🇫🇷",
+          "text": "J'ai les épaules toutes raides.",
+          "roman": ""
+        },
+        "de": {
+          "code": "de-DE",
+          "name": "독일어",
+          "flag": "🇩🇪",
+          "text": "Meine Schultern sind total verspannt.",
+          "roman": ""
+        },
+        "es": {
+          "code": "es-ES",
+          "name": "스페인어",
+          "flag": "🇪🇸",
+          "text": "Tengo los hombros entumecidos.",
+          "roman": ""
+        },
+        "ar": {
+          "code": "ar-SA",
+          "name": "아랍어",
+          "flag": "🇸🇦",
+          "text": "كتفاي متصلبتان ومشدودتان.",
+          "roman": "Kitfāya mutaṣallibatāni wa-mashdūdatān."
+        },
+        "ru": {
+          "code": "ru-RU",
+          "name": "러시아어",
+          "flag": "🇷🇺",
+          "text": "У меня плечи затекли.",
+          "roman": "U menya plechi zatekli."
+        }
+      }
+    },
+    {
+      "theme": "음식과 건강: 신체 통증",
+      "meaning": "다리에 쥐가 났어!",
+      "translations": {
+        "en": {
+          "code": "en-US",
+          "name": "영어",
+          "flag": "🇺🇸",
+          "text": "I have a cramp in my leg.",
+          "roman": ""
+        },
+        "ja": {
+          "code": "ja-JP",
+          "name": "일본어",
+          "flag": "🇯🇵",
+          "text": "足がつっちゃった！",
+          "roman": "Ashi ga tsuttschatta!"
+        },
+        "zh": {
+          "code": "zh-CN",
+          "name": "중국어",
+          "flag": "🇨🇳",
+          "text": "我的腿抽筋了！",
+          "roman": "Wǒ de tuǐ chōujīn le!"
+        },
+        "fr": {
+          "code": "fr-FR",
+          "name": "프랑스어",
+          "flag": "🇫🇷",
+          "text": "J'ai une crampe à la jambe !",
+          "roman": ""
+        },
+        "de": {
+          "code": "de-DE",
+          "name": "독일어",
+          "flag": "🇩🇪",
+          "text": "Ich habe einen Krampf im Bein!",
+          "roman": ""
+        },
+        "es": {
+          "code": "es-ES",
+          "name": "스페인어",
+          "flag": "🇪🇸",
+          "text": "¡Me dio un calambre en la pierna!",
+          "roman": ""
+        },
+        "ar": {
+          "code": "ar-SA",
+          "name": "아랍어",
+          "flag": "🇸🇦",
+          "text": "أصبت بتشنج في ساقي!",
+          "roman": "Uṣibtu bi-tashannujin fī sāqī!"
+        },
+        "ru": {
+          "code": "ru-RU",
+          "name": "러시아어",
+          "flag": "🇷🇺",
+          "text": "У меня ногу свело судорогой!",
+          "roman": "U menya nogu svelo sudorogoy!"
+        }
+      }
+    },
+    {
+      "theme": "음식과 건강: 신체 통증",
+      "meaning": "허리를 삐끗했어.",
+      "translations": {
+        "en": {
+          "code": "en-US",
+          "name": "영어",
+          "flag": "🇺🇸",
+          "text": "I threw out my back.",
+          "roman": ""
+        },
+        "ja": {
+          "code": "ja-JP",
+          "name": "일본어",
+          "flag": "🇯🇵",
+          "text": "腰をグキッとやっちゃった。",
+          "roman": "Koshi o gukitto yatchatta."
+        },
+        "zh": {
+          "code": "zh-CN",
+          "name": "중국어",
+          "flag": "🇨🇳",
+          "text": "我不小心把腰闪了。",
+          "roman": "Wǒ bù xiǎoxīn bǎ yāo shǎn le."
+        },
+        "fr": {
+          "code": "fr-FR",
+          "name": "프랑스어",
+          "flag": "🇫🇷",
+          "text": "Je me suis fait un tour de reins.",
+          "roman": ""
+        },
+        "de": {
+          "code": "de-DE",
+          "name": "독일어",
+          "flag": "🇩🇪",
+          "text": "Ich habe mir den Rücken verrenkt.",
+          "roman": ""
+        },
+        "es": {
+          "code": "es-ES",
+          "name": "스페인어",
+          "flag": "🇪🇸",
+          "text": "Me lastimé la espalda.",
+          "roman": ""
+        },
+        "ar": {
+          "code": "ar-SA",
+          "name": "아랍어",
+          "flag": "🇸🇦",
+          "text": "تعرضت لالتواء حاد في ظهري.",
+          "roman": "Ta'arraḍtu li-iltiwā'in ḥāddin fī ẓahrī."
+        },
+        "ru": {
+          "code": "ru-RU",
+          "name": "러시아어",
+          "flag": "🇷🇺",
+          "text": "Я сорвал спину.",
+          "roman": "Ya sorval spinu."
+        }
+      }
+    },
+    {
+      "theme": "음식과 건강: 기타 증상",
+      "meaning": "목소리가 쉬었어.",
+      "translations": {
+        "en": {
+          "code": "en-US",
+          "name": "영어",
+          "flag": "🇺🇸",
+          "text": "My voice is hoarse.",
+          "roman": ""
+        },
+        "ja": {
+          "code": "ja-JP",
+          "name": "일본어",
+          "flag": "🇯🇵",
+          "text": "声が枯れちゃった。",
+          "roman": "Koe ga karechatta."
+        },
+        "zh": {
+          "code": "zh-CN",
+          "name": "중국어",
+          "flag": "🇨🇳",
+          "text": "我的嗓子哑了。",
+          "roman": "Wǒ de sǎngzi yǎ le."
+        },
+        "fr": {
+          "code": "fr-FR",
+          "name": "프랑스어",
+          "flag": "🇫🇷",
+          "text": "J'ai la voix enrouée.",
+          "roman": ""
+        },
+        "de": {
+          "code": "de-DE",
+          "name": "독일어",
+          "flag": "🇩🇪",
+          "text": "Meine Stimme ist ganz heiser.",
+          "roman": ""
+        },
+        "es": {
+          "code": "es-ES",
+          "name": "스페인어",
+          "flag": "🇪🇸",
+          "text": "Tengo la voz ronca.",
+          "roman": ""
+        },
+        "ar": {
+          "code": "ar-SA",
+          "name": "아랍어",
+          "flag": "🇸🇦",
+          "text": "صوتي مبحوح تمامًا.",
+          "roman": "Ṣawtī mabḥūḥun tamāman."
+        },
+        "ru": {
+          "code": "ru-RU",
+          "name": "러시아어",
+          "flag": "🇷🇺",
+          "text": "У меня голос охрип.",
+          "roman": "U menya golos okhrip."
+        }
+      }
+    },
+    {
+      "theme": "음식과 건강: 기타 증상",
+      "meaning": "변비가 생겼어.",
+      "translations": {
+        "en": {
+          "code": "en-US",
+          "name": "영어",
+          "flag": "🇺🇸",
+          "text": "I am constipated.",
+          "roman": ""
+        },
+        "ja": {
+          "code": "ja-JP",
+          "name": "일본어",
+          "flag": "🇯🇵",
+          "text": "便秘気味なんだ。",
+          "roman": "Bempi gimi nan da."
+        },
+        "zh": {
+          "code": "zh-CN",
+          "name": "중국어",
+          "flag": "🇨🇳",
+          "text": "我有点便秘。",
+          "roman": "Wǒ yǒudiǎn biànmì."
+        },
+        "fr": {
+          "code": "fr-FR",
+          "name": "프랑스어",
+          "flag": "🇫🇷",
+          "text": "Je suis constipé.",
+          "roman": ""
+        },
+        "de": {
+          "code": "de-DE",
+          "name": "독일어",
+          "flag": "🇩🇪",
+          "text": "Ich habe Verstopfung.",
+          "roman": ""
+        },
+        "es": {
+          "code": "es-ES",
+          "name": "스페인어",
+          "flag": "🇪🇸",
+          "text": "Estoy estreñido.",
+          "roman": ""
+        },
+        "ar": {
+          "code": "ar-SA",
+          "name": "아랍어",
+          "flag": "🇸🇦",
+          "text": "أعاني من الإمساك.",
+          "roman": "U'ānī min al-imsāk."
+        },
+        "ru": {
+          "code": "ru-RU",
+          "name": "러시아어",
+          "flag": "🇷🇺",
+          "text": "У меня запор.",
+          "roman": "U menya zapor."
+        }
+      }
+    },
+    {
+      "theme": "음식과 건강: 기타 증상",
+      "meaning": "사레들렸어 (목에 잘못 걸렸어).",
+      "translations": {
+        "en": {
+          "code": "en-US",
+          "name": "영어",
+          "flag": "🇺🇸",
+          "text": "Something went down the wrong pipe.",
+          "roman": ""
+        },
+        "ja": {
+          "code": "ja-JP",
+          "name": "일본어",
+          "flag": "🇯🇵",
+          "text": "変なところに入っちゃった（むせた）。",
+          "roman": "Hen na tokoro ni haitchatta."
+        },
+        "zh": {
+          "code": "zh-CN",
+          "name": "중국어",
+          "flag": "🇨🇳",
+          "text": "呛到了，吃岔气了。",
+          "roman": "Qiàng dào le, chī chàqì le."
+        },
+        "fr": {
+          "code": "fr-FR",
+          "name": "프랑스어",
+          "flag": "🇫🇷",
+          "text": "J'ai avalé de travers.",
+          "roman": ""
+        },
+        "de": {
+          "code": "de-DE",
+          "name": "독일어",
+          "flag": "🇩🇪",
+          "text": "Ich habe mich verschluckt.",
+          "roman": ""
+        },
+        "es": {
+          "code": "es-ES",
+          "name": "스페인어",
+          "flag": "🇪🇸",
+          "text": "Se me fue por el camino viejo.",
+          "roman": ""
+        },
+        "ar": {
+          "code": "ar-SA",
+          "name": "아랍어",
+          "flag": "🇸🇦",
+          "text": "شرقتُ بشيء في القصبة الهوائية.",
+          "roman": "Shariqtu bi-shay'in fī al-qaṣabah al-hawā'iyyah."
+        },
+        "ru": {
+          "code": "ru-RU",
+          "name": "러시아어",
+          "flag": "🇷🇺",
+          "text": "Поперхнулся, не в то горло пошло.",
+          "roman": "Poperkhnulsya, ne v to gorlo poshlo."
         }
       }
     }
