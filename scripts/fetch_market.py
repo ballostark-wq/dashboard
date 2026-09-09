@@ -37,16 +37,18 @@ FALLBACK_30Y = [
 ]
 
 def make_naver_news_link(query_text):
-    """키워드에서 괄호 영문 등을 정제하여 네이버 뉴스 실시간 검색 URL 생성"""
+    """키워드에서 괄호 및 불필요한 기호를 정제하여 네이버 뉴스 검색 URL 생성"""
     clean_kw = re.sub(r"\(.*?\)", "", query_text).strip()
     target_kw = clean_kw if clean_kw else query_text.strip()
     encoded = urllib.parse.quote(target_kw)
     return f"https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query={encoded}"
 
 def fetch_naver_sisa_weekly():
-    """네이버 시사상식사전 주간조회순 Top 10 수집 (클릭 시 네이버 뉴스 검색 연동)"""
+    """네이버 시사상식사전 주간조회순 Top 10 수집 (실제 웹페이지 다이렉트 파싱)"""
     items = []
-    # 지정해주신 주간조회순 공식 URL
+    seen = set()
+
+    # 지정해주신 주간조회순 공식 테마 URL
     target_urls = [
         "https://terms.naver.com/~%EC%8B%9C%EC%82%AC%EC%83%81%EC%8B%9D%EC%82%AC%EC%A0%84-5gU3XZbbzbKZlVGdi59MJ9?sort=weekly",
         "https://terms.naver.com/list.naver?cid=43667&categoryId=43667&sort=hit"
@@ -56,54 +58,46 @@ def fetch_naver_sisa_weekly():
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
             "(KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
         ),
-        "Referer": "https://terms.naver.com/"
+        "Referer": "https://terms.naver.com/",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7"
     }
 
     for u in target_urls:
         try:
-            res = requests.get(u, headers=headers, timeout=8)
+            res = requests.get(u, headers=headers, timeout=10)
             if res.status_code == 200:
                 soup = BeautifulSoup(res.text, "html.parser")
-                li_list = soup.select(".contents_list li, .content_list li, ul.list_wrap li, div.info_area")
-                for idx, li in enumerate(li_list[:10], start=1):
-                    title_node = li.select_one("strong.title a, .title a, a[href*='entry.naver']")
-                    desc_node = li.select_one("p.desc, .desc, .text")
-                    if title_node:
-                        raw_title = title_node.get_text(strip=True)
-                        desc = desc_node.get_text(strip=True) if desc_node else ""
+                
+                # 지식백과 백과사전 문서로 향하는 링크(entry.naver) 전수 탐색
+                candidates = soup.find_all("a", href=re.compile(r"/entry\.(naver|nhn)"))
+                for a in candidates:
+                    # 링크 내부의 굵은 글씨/제목 노드 우선 탐색
+                    tit_node = a.find(["strong", "h3", "h4", "span", "b"])
+                    title_text = tit_node.get_text(strip=True) if tit_node else a.get_text(strip=True)
+                    title_text = re.sub(r"\s+", " ", title_text).strip()
+
+                    # 유효성 검사 (너무 짧거나 긴 설명문, 페이지 공통 UI 텍스트 배제)
+                    if not title_text or len(title_text) < 2 or len(title_text) > 35:
+                        continue
+                    if any(w in title_text for w in ["시사상식사전", "지식백과", "바로가기", "더보기", "전체보기", "pmg", "박문각", "신고"]):
+                        continue
+
+                    if title_text not in seen:
+                        seen.add(title_text)
                         items.append({
-                            "rank": idx,
-                            "title": raw_title,
-                            "desc": desc[:75] + ("..." if len(desc) > 75 else ""),
-                            "link": make_naver_news_link(raw_title)
+                            "rank": len(items) + 1,
+                            "title": title_text,
+                            "link": make_naver_news_link(title_text)
                         })
-            if len(items) >= 8:
+                        if len(items) >= 10:
+                            break
+
+            if len(items) >= 10:
                 break
         except Exception as e:
-            print(f"네이버 시사상식 주간 수집 시도 오류 ({u}): {e}")
+            print(f"시사상식사전 수집 오류 ({u}): {e}")
 
-    # 비상시에도 완벽한 10개 데이터셋 유지 (네이버 뉴스 직결 링크 포함)
-    if len(items) < 10:
-        fallback_keywords = [
-            ("스테이블코인 (Stablecoin)", "달러 등 법정화폐와 가치가 1:1로 고정된 가상자산"),
-            ("HBM4 (6세대 고대역폭메모리)", "차세대 AI 가속기를 위한 맞춤형 베이스 다이 D램"),
-            ("양적긴축 (QT)", "중앙은행의 보유 자산 축소를 통한 유동성 회수 정책"),
-            ("트리핀 딜레마 (Triffin's dilemma)", "기축통화 공급과 통화 가치 신뢰 사이의 구조적 모순"),
-            ("엔 캐리 트레이드 (Yen Carry Trade)", "초저금리 엔화 차입을 통한 글로벌 고금리 자산 투자"),
-            ("소버린 AI (Sovereign AI)", "자국의 데이터와 인프라로 자체 AI 주권을 구축하는 전략"),
-            ("밸류업 프로그램 (Value-up)", "국내 상장기업의 저평가 해소와 주주환원 제고 정책"),
-            ("피지컬 AI (Physical AI)", "휴머노이드 로봇 등 실물 하드웨어와 결합된 차세대 인공지능"),
-            ("호르무즈 해협 (Strait of Hormuz)", "글로벌 원유 해상 수송의 핵심 지정학적 초크포인트"),
-            ("리쇼어링 (Reshoring)", "해외 생산시설을 자국 영토로 복귀시키는 공급망 재편")
-        ]
-        items = []
-        for rank, (title, desc) in enumerate(fallback_keywords, start=1):
-            items.append({
-                "rank": rank,
-                "title": title,
-                "desc": desc,
-                "link": make_naver_news_link(title)
-            })
     return items
 
 def fetch_namu_rankings():
