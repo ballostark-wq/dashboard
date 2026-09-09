@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09 02:13:25",
+  "updated_at": "2026-09-09 02:50:28",
   "us2y": {
     "value": 4.37,
     "change": -0.29
@@ -118,32 +118,37 @@
     ],
     "tech": [
       {
+        "title": "[디일렉] 카카오게임즈 신작 ‘도깨비의세계’, 10월 8일 출시",
+        "link": "https://www.thelec.kr/news/articleView.html?idxno=62009",
+        "date": "09-09 11:14"
+      },
+      {
+        "title": "[디일렉] LG CNS, 차움 건강검진센터에 AI에이전트 적용",
+        "link": "https://www.thelec.kr/news/articleView.html?idxno=62008",
+        "date": "09-09 11:11"
+      },
+      {
         "title": "[디일렉] 네이버, 프랑스에 AI팩토리 협력 제안",
         "link": "https://www.thelec.kr/news/articleView.html?idxno=62007",
         "date": "09-09 10:59"
-      },
-      {
-        "title": "[디일렉] 한화오션, 6800억 태국 호위함 사업 우선협상대상자 선정",
-        "link": "https://www.thelec.kr/news/articleView.html?idxno=61990",
-        "date": "09-09 07:51"
-      },
-      {
-        "title": "[디일렉] 삼성전자-미스트랄 AI, 반도체 설계·제조 특화 AI 만든다",
-        "link": "https://www.thelec.kr/news/articleView.html?idxno=61984",
-        "date": "09-09 01:00"
-      },
-      {
-        "title": "[전자신문] 전남광주시, 'AI 활용 수질예측·조기경보 시스템' 첫 개발",
-        "link": "https://www.etnews.com/20260909000166",
-        "date": "09-09 11:02"
-      },
-      {
-        "title": "[전자신문] 삼성메디슨, KCR 2026서 초음파 'R20' 기반 간 질환 정밀진단 솔루션 공개",
-        "link": "https://www.etnews.com/20260909000165",
-        "date": "09-09 11:02"
       }
     ],
     "domestic": [
+      {
+        "title": "[외환] 엔화 강세 속 1,340원선 유지…5.30원↓",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434085",
+        "date": "09-09 11:35"
+      },
+      {
+        "title": "위안화 강세에 선물환 외화 매수 급증…中 고객 수급 올해 첫 반전",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434081",
+        "date": "09-09 11:16"
+      },
+      {
+        "title": "국채선물 강세 출발…유가 급등에도 전일 선반영 인식",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434079",
+        "date": "09-09 11:11"
+      },
       {
         "title": "[외환] 9시 이전 마(MAR) '파' 거래…픽싱 스퀘어",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434075",
@@ -153,21 +158,6 @@
         "title": "달러 매수 열 올렸던 서학개미…환율 하단 못 받치는 까닭은",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434073",
         "date": "09-09 10:52"
-      },
-      {
-        "title": "ING \"터미널레이트 3%는 과도…ECB, 이달 비둘기적 인상\"",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434072",
-        "date": "09-09 10:48"
-      },
-      {
-        "title": "[오늘 외환딜러 환율 예상레인지]",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434070",
-        "date": "09-09 10:39"
-      },
-      {
-        "title": "김진일 금통위원 \"수요측 물가 압력 지켜봐야…'FVI' 주시\"",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434066",
-        "date": "09-09 10:30"
       }
     ]
   },
@@ -236,33 +226,33 @@
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,417.1",
-          "chg": "+0.53%",
+          "val": "$4,412.5",
+          "chg": "+0.42%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$66.71",
-          "chg": "+0.62%",
+          "val": "$66.57",
+          "chg": "+0.41%",
           "up": true
         }
       ],
       "bullets": [
         "구리 $6.76/lb (+0.30%) - AI 전력망 설비 수요 반영",
-        "금 $4,417/oz, 은 $66.71/oz - 통화가치 헤지"
+        "금 $4,412/oz, 은 $66.57/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,339원 | 엔/달러 ¥153.6",
-      "title": "원/달러 1,338.9원선과 엔/달러 ¥153.6",
+      "badge": "원/달러 1,340원 | 엔/달러 ¥153.5",
+      "title": "원/달러 1,340.3원선과 엔/달러 ¥153.5",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,338.9원",
-          "chg": "-0.35%",
+          "val": "1,340.3원",
+          "chg": "-0.24%",
           "up": false
         },
         {
@@ -275,31 +265,31 @@
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥153.57",
-          "chg": "-0.18%",
+          "val": "¥153.53",
+          "chg": "-0.21%",
           "up": false
         }
       ],
       "bullets": [
         "달러 인덱스 98.79pt - 미국 성장 우위 지속",
-        "엔/달러 153.57엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "엔/달러 153.53엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $94.35",
-      "title": "WTI 배럴당 $94.35선 박스권 안정",
+      "badge": "WTI $94.43",
+      "title": "WTI 배럴당 $94.43선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$94.35",
-          "chg": "+1.42%",
+          "val": "$94.43",
+          "chg": "+1.50%",
           "up": true
         }
       ],
       "bullets": [
-        "WTI 선물 $94.35/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $94.43/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -311,28 +301,28 @@
       "change": 0.3
     },
     "gold": {
-      "price": 4417.1,
-      "change": 0.53
+      "price": 4412.5,
+      "change": 0.42
     },
     "silver": {
-      "price": 66.71,
-      "change": 0.62
+      "price": 66.57,
+      "change": 0.41
     },
     "wti": {
-      "price": 94.35,
-      "change": 1.42
+      "price": 94.43,
+      "change": 1.5
     },
     "usdkrw": {
-      "price": 1338.9,
-      "change": -0.35
+      "price": 1340.28,
+      "change": -0.24
     },
     "dxy": {
       "price": 98.79,
       "change": -0.05
     },
     "usdjpy": {
-      "price": 153.57,
-      "change": -0.18
+      "price": 153.53,
+      "change": -0.21
     }
   },
   "history_20d": {
@@ -596,8 +586,8 @@
       {
         "date": "09-09",
         "copper": 6.76,
-        "gold": 4417.1,
-        "silver": 66.71
+        "gold": 4412.5,
+        "silver": 66.57
       }
     ],
     "fx": [
@@ -717,9 +707,9 @@
       },
       {
         "date": "09-09",
-        "usdkrw": 1338.9,
+        "usdkrw": 1340.28,
         "dxy": 98.79,
-        "usdjpy": 153.57
+        "usdjpy": 153.53
       }
     ],
     "oil": [
@@ -820,8 +810,8 @@
       },
       {
         "date": "09-09",
-        "wti": 94.35,
-        "change": 1.42
+        "wti": 94.43,
+        "change": 1.5
       }
     ]
   },
@@ -935,64 +925,64 @@
       "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1076%EB%85%84_~_1455%EB%85%84:~:text=1377"
     },
     "polyglot": {
-      "theme": "기술적 독점과 시장 진입 장벽 (Moat & Market Entry)",
-      "meaning": "독점적인 핵심 기술력이야말로 지속 가능한 가격 결정력의 원천입니다.",
+      "theme": "음식과 건강: 술자리",
+      "meaning": "원샷! (다 마셔!)",
       "translations": {
         "en": {
           "code": "en-US",
           "name": "영어",
           "flag": "🇺🇸",
-          "text": "Proprietary technology serves as the ultimate source of sustainable pricing power.",
+          "text": "Bottoms up!",
           "roman": ""
         },
         "ja": {
           "code": "ja-JP",
           "name": "일본어",
           "flag": "🇯🇵",
-          "text": "独自のコア技術こそが、持続可能な価格決定力の源泉となります。",
-          "roman": "Dokuji no koa gijutsu koso ga, jizoku kanō na kakaku ketteiryoku no gensen to narimasu."
+          "text": "乾杯！一気に！",
+          "roman": "Kampai! Ikki ni!"
         },
         "zh": {
           "code": "zh-CN",
           "name": "중국어",
           "flag": "🇨🇳",
-          "text": "专有核心技术是可持续定价能力的最根本来源。",
-          "roman": "Zhuānyǒu héxīn jìshù shì kěchíxù dìngjià nénglì de zuì gēnběn láiyuán."
+          "text": "干杯！一口闷！",
+          "roman": "Gānbēi! Yīkǒu mèn!"
         },
         "fr": {
           "code": "fr-FR",
           "name": "프랑스어",
           "flag": "🇫🇷",
-          "text": "Une technologie propriétaire constitue la source ultime d'un pouvoir de fixation des prix durable.",
+          "text": "Cul sec !",
           "roman": ""
         },
         "de": {
           "code": "de-DE",
           "name": "독일어",
           "flag": "🇩🇪",
-          "text": "Proprietäre Technologie ist die fundamentale Quelle nachhaltiger Preissetzungsmacht.",
+          "text": "Bis auf den Grund!",
           "roman": ""
         },
         "es": {
           "code": "es-ES",
           "name": "스페인어",
           "flag": "🇪🇸",
-          "text": "La tecnología patentada es la fuente definitiva de un poder de fijación de precios sostenible.",
+          "text": "¡Hasta el fondo!",
           "roman": ""
         },
         "ar": {
           "code": "ar-SA",
           "name": "아랍어",
           "flag": "🇸🇦",
-          "text": "تعتبر التكنولوجيا الاحتكارية المصدر النهائي لقوة التسعير المستدامة.",
-          "roman": "Tu'tabar at-tiknūlūjiyā al-iḥtikāriyyah al-maṣdar an-nihā'ī li-quwwat at-tas'īr al-mustadāmah."
+          "text": "حتى القاع! بصحتك!",
+          "roman": "Ḥattā al-qā'! Bi-ṣiḥḥatik!"
         },
         "ru": {
           "code": "ru-RU",
           "name": "러시아어",
           "flag": "🇷🇺",
-          "text": "Собственная технология служит фундаментальным источником устойчивой ценовой власти.",
-          "roman": "Sobstvennaya tekhnologiya sluzhit fundamental'nym istochnikom ustoychivoy tsenovoy vlasti."
+          "text": "Пей до дна!",
+          "roman": "Pey do dna!"
         }
       }
     },
