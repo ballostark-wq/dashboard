@@ -39,9 +39,10 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add data.json
-          # 변경사항이 없으면 에러 없이 정상 종료
-          git diff-index --quiet HEAD || git commit -m "Auto update market rates [skip ci]"
-          # 원격 변경사항을 먼저 합친 뒤 푸시 (충돌 방지)
-          git pull --rebase origin main
+          # data.json과 humanities_pool.json 등 변경된 모든 파일을 함께 스테이징
+          git add -A
+          # 변경사항이 있을 때만 커밋
+          git diff-index --quiet HEAD || git commit -m "Auto update market & history data [skip ci]"
+          # 원격지 변경사항을 rebase로 병합 후 푸시
+          git pull --rebase --autostash origin main
           git push origin main
