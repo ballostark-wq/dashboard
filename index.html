@@ -1545,12 +1545,12 @@
           </a>
         `).join('') + `</div>`;
       } 
-      // 3. 유튜브 대한민국 인급동 (썸네일 + 제목 + 채널 + 조회수)
+      // 3. 유튜브 대한민국 인급동 (상위 5개 확대 표시)
       else if (currentTrendTab === 'youtube') {
         const list = trends.youtube_popular || [];
-        html = list.slice(0, 3).map(item => `
+        html = list.slice(0, 5).map(item => `
           <a href="${item.link}" target="_blank" rel="noopener noreferrer" 
-             style="display:flex; align-items:center; gap:8px; padding:5px 8px; background:#020617; border:1px solid #1e293b; border-radius:6px; text-decoration:none;">
+             style="display:flex; align-items:center; gap:8px; padding:5px 8px; background:#020617; border:1px solid #1e293b; border-radius:6px; text-decoration:none; transition:all 0.15s;">
             <img src="${item.thumb}" style="width:60px; height:36px; object-fit:cover; border-radius:4px; border:1px solid #1e293b; flex-shrink:0;" alt="" />
             <div style="flex-grow:1; min-width:0;">
               <div style="font-size:0.72rem; font-weight:700; color:#f8fafc; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">${item.title}</div>
