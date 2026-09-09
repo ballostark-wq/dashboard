@@ -372,6 +372,12 @@
     }
 
     /* 차트 및 테이블 */
+    /* 3. 🔥 실시간 트렌드 레이더 클래스 정의 */
+    .card-trend-radar {
+      grid-column: span 2;
+      background: linear-gradient(135deg, rgba(12, 74, 110, 0.35), #0f172a);
+      border-color: rgba(56, 189, 248, 0.35);
+    }    
     .sparkline-card { background: #020617; border: 1px solid #1e293b; border-radius: 8px; padding: 10px 12px; margin-bottom: 12px; }
     .sparkline-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; font-size: 0.74rem; font-weight: 700; color: #94a3b8; }
     .sparkline-svg { width: 100%; height: 105px; overflow: visible; }
@@ -388,27 +394,33 @@
     .cal-section-title { font-size: 0.75rem; font-weight: 800; color: #ffffff; margin: 10px 0 6px; display: flex; align-items: center; gap: 6px; }
     .cal-event-card { background: #020617; border: 1px solid #1e293b; border-radius: 6px; padding: 8px 10px; display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
 
-    /* 📱 반응형 미디어 쿼리 */
-    @media (max-width: 1024px) {
+    /* 메인 벤토 그리드 (minmax로 텍스트 폭주 방지) */
+    .dashboard-grid {
+      display: grid;
+      grid-template-columns: repeat(6, minmax(0, 1fr));
+      gap: 16px;
+      flex-grow: 1;
+      width: 100%;
+    }
+
+    /* 📱 반응형 미디어 쿼리 (창이 좁아질 때 완벽 대응) */
+    @media (max-width: 1100px) {
       .yield-grid { grid-template-columns: repeat(3, 1fr); }
-      .card-macro-grid, .card-news-grid { grid-column: span 6; }
-      .card-history-geo, .card-polyglot, .card-philosophy { grid-column: span 2; }
+      .card-macro-grid, .card-news-grid { grid-column: span 6 !important; }
+      .card-history-geo, .card-polyglot { grid-column: span 3 !important; }
+      .card-trend-radar { grid-column: span 6 !important; }
     }
     @media (max-width: 768px) {
-      body { padding: 12px 14px; gap: 12px; }
-      .yield-grid { grid-template-columns: repeat(2, 1fr); }
-      .dashboard-grid { grid-template-columns: 1fr; gap: 12px; }
-      .card-macro-grid, .card-news-grid, .card-history-geo, .card-polyglot, .card-philosophy { grid-column: span 1 !important; }
-      .quadrant-grid { grid-template-columns: 1fr !important; }
-      .quadrant-box, .quadrant-box[style*="span 2"] { grid-column: span 1 !important; }
-    }
-    @media (max-width: 480px) {
-      body { padding: 10px 10px; gap: 10px; }
-      .brand h1 { font-size: 1.0rem; }
-      .header-status { width: 100%; justify-content: space-between; margin-top: 4px; }
+      body { padding: 10px 12px; gap: 10px; }
       .yield-grid { grid-template-columns: repeat(2, 1fr); gap: 6px; }
-      .card { padding: 12px 10px; }
-      .drawer { max-width: 100vw; }
+      .dashboard-grid { grid-template-columns: 1fr !important; gap: 12px; }
+      .card-macro-grid, .card-news-grid, .card-history-geo, .card-polyglot, .card-trend-radar { 
+        grid-column: 1 / -1 !important; 
+        width: 100% !important;
+      }
+      .quadrant-grid { grid-template-columns: 1fr !important; }
+      .quadrant-box { grid-column: 1 / -1 !important; width: 100% !important; }
+      .tab-group { overflow-x: auto; }
     }
 
     /* 서랍 */
@@ -690,8 +702,8 @@
       </div>
     </div>
 
-    <!-- 카드 3: 🔥 트렌드 & 이슈 레이더 (시사상식 / 나무위키 / 인급동) -->
-    <div class="card" style="grid-column: span 2; background: linear-gradient(135deg, rgba(12, 74, 110, 0.35), #0f172a); border-color: rgba(56, 189, 248, 0.35);">
+    <!-- 카드 3: 🔥 트렌드 & 이슈 레이더 (시사상식 / 나무위키 / 트렌딩) -->
+    <div class="card card-trend-radar">
       <div>
         <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; border-bottom:1px solid #1e293b; padding-bottom:8px;">
           <span class="card-tag" style="background:rgba(56, 189, 248, 0.2); color:#7dd3fc; margin-bottom:0;">🔥 실시간 트렌드 레이더</span>
