@@ -5,6 +5,7 @@ import os
 import re
 import xml.etree.ElementTree as ET
 import requests
+import urllib.parse
 from bs4 import BeautifulSoup
 
 HEADERS = {
@@ -52,16 +53,17 @@ def fetch_naver_sisa_weekly():
                 desc_node = li.select_one(".desc")
                 if title_node:
                     title = title_node.get_text(strip=True)
-                    link = "https://terms.naver.com" + title_node.get("href", "")
+                    href = title_node.get("href", "")
+                    link = f"https://terms.naver.com{href}" if href.startswith("/") else href
                     desc = desc_node.get_text(strip=True) if desc_node else ""
                     items.append({
                         "rank": idx,
                         "title": title,
-                        "desc": desc[:85] + ("..." if len(desc) > 85 else ""),
+                        "desc": desc[:75] + ("..." if len(desc) > 75 else ""),
                         "link": link
                     })
     except Exception as e:
-        print(f"네이버 시사상식사전 수집 예외: {e}")
+        print(f"네이버 시사상식사전 수집 오류: {e}")
     return items
 
 def fetch_namu_rankings():
@@ -73,10 +75,9 @@ def fetch_namu_rankings():
         "Referer": "https://namu.wiki/"
     }
     try:
-        res = requests.get(url, headers=headers, timeout=10)
+        res = requests.get(url, headers=headers, timeout=8)
         if res.status_code == 200:
             data = res.json()
-            # 나무위키 API 응답 형식: ["키워드1", "키워드2", ...] 또는 [{"keyword": ...}]
             raw_list = data if isinstance(data, list) else data.get("ranking", [])
             for idx, item in enumerate(raw_list[:10], start=1):
                 kw = item if isinstance(item, str) else item.get("keyword", "")
@@ -87,19 +88,19 @@ def fetch_namu_rankings():
                         "link": f"https://namu.wiki/w/{urllib.parse.quote(kw)}"
                     })
     except Exception as e:
-        print(f"나무위키 실시간 검색어 수집 예외: {e}")
+        print(f"나무위키 검색어 수집 오류: {e}")
     return items
 
 def fetch_youtube_popular_kr():
-    """공식 YouTube Data API v3 기반 대한민국 인급동 Top 10 수집"""
+    """YouTube Data API v3 대한민국 인급동 Top 10 수집"""
     api_key = os.environ.get("YOUTUBE_API_KEY")
     if not api_key:
-        print("YOUTUBE_API_KEY 환경변수가 설정되지 않았습니다.")
+        print("YOUTUBE_API_KEY 미설정")
         return []
 
     items = []
     url = (
-        f"https://www.googleapis.com/youtube/v3/videos?"
+        "https://www.googleapis.com/youtube/v3/videos?"
         f"part=snippet,statistics&chart=mostPopular&regionCode=KR&maxResults=10&key={api_key}"
     )
     try:
@@ -110,27 +111,19 @@ def fetch_youtube_popular_kr():
                 vid = item.get("id")
                 snippet = item.get("snippet", {})
                 stats = item.get("statistics", {})
-                title = snippet.get("title", "")
-                channel = snippet.get("channelTitle", "")
                 views = int(stats.get("viewCount", 0))
-                thumb = snippet.get("thumbnails", {}).get("medium", {}).get("url", "")
-                
-                # 조회수 단위 가공 (예: 120만회)
-                if views >= 10000:
-                    view_str = f"{views // 10000}만회"
-                else:
-                    view_str = f"{views:,}회"
+                view_str = f"{views // 10000}만회" if views >= 10000 else f"{views:,}회"
 
                 items.append({
                     "rank": idx,
-                    "title": title,
-                    "channel": channel,
+                    "title": snippet.get("title", ""),
+                    "channel": snippet.get("channelTitle", ""),
                     "views": view_str,
-                    "thumb": thumb,
+                    "thumb": snippet.get("thumbnails", {}).get("medium", {}).get("url", ""),
                     "link": f"https://www.youtube.com/watch?v={vid}"
                 })
     except Exception as e:
-        print(f"유튜브 인급동 API 수집 예외: {e}")
+        print(f"유튜브 API 수집 오류: {e}")
     return items
 
 def load_existing_data():
