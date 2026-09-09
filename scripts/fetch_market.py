@@ -5,6 +5,7 @@ import os
 import re
 import xml.etree.ElementTree as ET
 import requests
+from bs4 import BeautifulSoup
 
 HEADERS = {
     "User-Agent": (
@@ -34,6 +35,103 @@ FALLBACK_30Y = [
     ("09-01", 5.27), ("09-02", 5.27), ("09-03", 5.24), ("09-04", 5.25), ("09-08", 5.25),
 ]
 
+def fetch_naver_sisa_weekly():
+    """네이버 지식백과 시사상식사전 주간 조회순 Top 10 수집"""
+    items = []
+    url = "https://terms.naver.com/list.naver?cid=43667&categoryId=43667&sort=hit"
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+    }
+    try:
+        res = requests.get(url, headers=headers, timeout=10)
+        if res.status_code == 200:
+            soup = BeautifulSoup(res.text, "html.parser")
+            li_list = soup.select(".content_list li")
+            for idx, li in enumerate(li_list[:10], start=1):
+                title_node = li.select_one(".title a")
+                desc_node = li.select_one(".desc")
+                if title_node:
+                    title = title_node.get_text(strip=True)
+                    link = "https://terms.naver.com" + title_node.get("href", "")
+                    desc = desc_node.get_text(strip=True) if desc_node else ""
+                    items.append({
+                        "rank": idx,
+                        "title": title,
+                        "desc": desc[:85] + ("..." if len(desc) > 85 else ""),
+                        "link": link
+                    })
+    except Exception as e:
+        print(f"네이버 시사상식사전 수집 예외: {e}")
+    return items
+
+def fetch_namu_rankings():
+    """나무위키 실시간 검색어 Top 10 수집"""
+    items = []
+    url = "https://search.namu.wiki/api/ranking"
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+        "Referer": "https://namu.wiki/"
+    }
+    try:
+        res = requests.get(url, headers=headers, timeout=10)
+        if res.status_code == 200:
+            data = res.json()
+            # 나무위키 API 응답 형식: ["키워드1", "키워드2", ...] 또는 [{"keyword": ...}]
+            raw_list = data if isinstance(data, list) else data.get("ranking", [])
+            for idx, item in enumerate(raw_list[:10], start=1):
+                kw = item if isinstance(item, str) else item.get("keyword", "")
+                if kw:
+                    items.append({
+                        "rank": idx,
+                        "title": kw,
+                        "link": f"https://namu.wiki/w/{urllib.parse.quote(kw)}"
+                    })
+    except Exception as e:
+        print(f"나무위키 실시간 검색어 수집 예외: {e}")
+    return items
+
+def fetch_youtube_popular_kr():
+    """공식 YouTube Data API v3 기반 대한민국 인급동 Top 10 수집"""
+    api_key = os.environ.get("YOUTUBE_API_KEY")
+    if not api_key:
+        print("YOUTUBE_API_KEY 환경변수가 설정되지 않았습니다.")
+        return []
+
+    items = []
+    url = (
+        f"https://www.googleapis.com/youtube/v3/videos?"
+        f"part=snippet,statistics&chart=mostPopular&regionCode=KR&maxResults=10&key={api_key}"
+    )
+    try:
+        res = requests.get(url, timeout=10)
+        if res.status_code == 200:
+            data = res.json()
+            for idx, item in enumerate(data.get("items", []), start=1):
+                vid = item.get("id")
+                snippet = item.get("snippet", {})
+                stats = item.get("statistics", {})
+                title = snippet.get("title", "")
+                channel = snippet.get("channelTitle", "")
+                views = int(stats.get("viewCount", 0))
+                thumb = snippet.get("thumbnails", {}).get("medium", {}).get("url", "")
+                
+                # 조회수 단위 가공 (예: 120만회)
+                if views >= 10000:
+                    view_str = f"{views // 10000}만회"
+                else:
+                    view_str = f"{views:,}회"
+
+                items.append({
+                    "rank": idx,
+                    "title": title,
+                    "channel": channel,
+                    "views": view_str,
+                    "thumb": thumb,
+                    "link": f"https://www.youtube.com/watch?v={vid}"
+                })
+    except Exception as e:
+        print(f"유튜브 인급동 API 수집 예외: {e}")
+    return items
 
 def load_existing_data():
     if os.path.exists("data.json"):
@@ -437,6 +535,13 @@ def main():
 
     data["updated_at"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
+    # 기존 고전 철학을 대체하고 3대 실시간 트렌드 데이터 주입
+    data["trends"] = {
+        "naver_sisa": fetch_naver_sisa_weekly(),
+        "namu_rank": fetch_namu_rankings(),
+        "youtube_popular": fetch_youtube_popular_kr()
+    }    
+    
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
