@@ -1372,6 +1372,11 @@
             <strong style="color:#d8b4fe; font-size:0.75rem; display:block; margin-bottom:4px;">🧐 자본주의와 금융 시장에 남긴 역사적 유산</strong>
             <p style="font-size:0.75rem; color:#cbd5e1; line-height:1.5;">${h ? h.insight : ''}</p>
           </div>
+          ${h && h.ref_url ? `
+            <a href="${h.ref_url}" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:6px; background:rgba(168,85,247,0.15); border:1px solid #a855f7; color:#d8b4fe; text-decoration:none; padding:8px 12px; border-radius:6px; font-size:0.75rem; font-weight:700; transition:all 0.15s;">
+              <span>📖</span> <span>${h.ref_title || '관련 백과사전 원문 사료 보기'} ↗</span>
+            </a>
+          ` : ''}
         `;
       } else if (key === 'polyglot_matrix') {
         tagEl.innerText = "🗣️ 8개국어 글로벌 비즈니스 회화 매트릭스";
