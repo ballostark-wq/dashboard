@@ -640,8 +640,16 @@
     <div class="card card-history-geo" onclick="openDrawer('humanities_history')">
       <div>
         <div style="display:flex; justify-content:space-between; align-items:center;">
-          <span class="card-tag">🏛️ 세계사 & 패권 사이클</span>
+          <span class="card-tag">🏛️ 세계사 </span>
           <span style="font-size:0.65rem; color:#d8b4fe;" id="h-history-era">근대 태동기</span>
+        </div>
+        <!-- 최근 5일 선택 탭 바 -->
+        <div class="tab-group" style="margin-bottom:8px;" onclick="event.stopPropagation();">
+          <button id="htab-0" class="feed-tab active" onclick="switchHistoryDay(0)">오늘</button>
+          <button id="htab-1" class="feed-tab" onclick="switchHistoryDay(1)">D-1</button>
+          <button id="htab-2" class="feed-tab" onclick="switchHistoryDay(2)">D-2</button>
+          <button id="htab-3" class="feed-tab" onclick="switchHistoryDay(3)">D-3</button>
+          <button id="htab-4" class="feed-tab" onclick="switchHistoryDay(4)">D-4</button>
         </div>
         <h3 style="font-size:0.95rem; font-weight:700; color:#ffffff; margin:4px 0 6px;" id="h-history-title">
           네덜란드 동인도회사(VOC)와 유한책임 주식회사의 탄생
@@ -956,13 +964,17 @@
       const p = cachedHumanities.polyglot;
       const ph = cachedHumanities.philosophy;
 
-      // 1. 세계사 카드
-      if (h) {
+      // 1. 세계사 카드 (기본: 오늘 D-0 바인딩)
+      if (cachedHumanities.history_5d && cachedHumanities.history_5d.length > 0) {
+        switchHistoryDay(0);
+      } else if (h) {
         document.getElementById('h-history-era').innerText = h.era;
         document.getElementById('h-history-title').innerText = h.title;
         document.getElementById('h-history-summary').innerText = h.summary;
         document.getElementById('h-history-bullets').innerHTML = h.bullets.map(b => `<li>${b}</li>`).join('');
       }
+
+      // 2. 다국어 회화 카드 (기본 언어 반영)
 
       // 2. 다국어 회화 카드 (기본 언어 반영)
       if (p) {
@@ -1361,27 +1373,27 @@
         titleEl.innerText = "월가 마켓 무버 3주 타임라인 (W1 ~ W3)";
         bodyEl.innerHTML = renderCalendarDrawer(activeCalendarWeek);
       } else if (key === 'humanities_history') {
-        tagEl.innerText = "🏛️ 세계사 & 패권 사이클 심층 분석";
-        const h = cachedHumanities ? cachedHumanities.history : null;
-        titleEl.innerText = h ? h.title : "화폐와 패권의 세계사";
-        bodyEl.innerHTML = `
-          <div style="background:#020617; border:1px solid #1e293b; border-radius:8px; padding:12px; margin-bottom:14px;">
-            <span style="font-size:0.7rem; color:#d8b4fe; font-weight:700; display:block; margin-bottom:4px;">${h ? h.era : ''}</span>
-            <h4 style="font-size:0.85rem; color:#fff; margin-bottom:8px;">${h ? h.summary : ''}</h4>
-            <ul style="list-style:none; padding:0; display:flex; flex-direction:column; gap:6px; font-size:0.75rem; color:#cbd5e1; line-height:1.45;">
-              ${h ? h.bullets.map(b => `<li>• ${b}</li>`).join('') : ''}
-            </ul>
+        tagEl.innerText = "🏛️ 최근 5일간의 세계사";
+        titleEl.innerText = "역사적 변곡점 아카이브 (최근 5일 타임라인)";
+        
+        const list = (cachedHumanities && cachedHumanities.history_5d) 
+          ? cachedHumanities.history_5d 
+          : (cachedHumanities && cachedHumanities.history ? [cachedHumanities.history] : []);
+
+        bodyEl.innerHTML = list.map((item, idx) => `
+          <div style="background:#020617; border:1px solid ${idx === 0 ? 'rgba(168,85,247,0.5)' : '#1e293b'}; border-radius:8px; padding:12px; margin-bottom:12px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px;">
+              <span style="font-size:0.68rem; font-weight:800; color:${idx === 0 ? '#fbbf24' : '#94a3b8'}; background:#090e1f; padding:2px 6px; border-radius:4px; border:1px solid #334155;">${item.d_day || (idx === 0 ? '오늘' : 'D-' + idx)}</span>
+              <span style="font-size:0.68rem; color:#d8b4fe; font-weight:700;">${item.era || ''}</span>
+            </div>
+            <h4 style="font-size:0.85rem; color:#fff; font-weight:700; margin:6px 0 4px;">${item.title || ''}</h4>
+            <p style="font-size:0.72rem; color:#94a3b8; margin-bottom:6px;">${item.summary || ''}</p>
+            <div style="background:#090e1f; border-left:3px solid #a855f7; padding:8px 10px; border-radius:0 6px 6px 0; font-size:0.72rem; color:#cbd5e1; line-height:1.45;">
+              <strong style="color:#d8b4fe; display:block; margin-bottom:2px;">🧐 매크로 인사이트</strong>
+              ${item.insight || ''}
+            </div>
           </div>
-          <div style="background:#090e1f; border-left:3px solid #a855f7; padding:12px; border-radius:0 8px 8px 0; margin-bottom:14px;">
-            <strong style="color:#d8b4fe; font-size:0.75rem; display:block; margin-bottom:4px;">🧐 자본주의와 금융 시장에 남긴 역사적 유산</strong>
-            <p style="font-size:0.75rem; color:#cbd5e1; line-height:1.5;">${h ? h.insight : ''}</p>
-          </div>
-          ${h && h.ref_url ? `
-            <a href="${h.ref_url}" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:6px; background:rgba(168,85,247,0.15); border:1px solid #a855f7; color:#d8b4fe; text-decoration:none; padding:8px 12px; border-radius:6px; font-size:0.75rem; font-weight:700; transition:all 0.15s;">
-              <span>📖</span> <span>${h.ref_title || '관련 백과사전 원문 사료 보기'} ↗</span>
-            </a>
-          ` : ''}
-        `;
+        `).join('');
       } else if (key === 'polyglot_matrix') {
         tagEl.innerText = "🗣️ 8개국어 글로벌 비즈니스 회화 매트릭스";
         const p = cachedHumanities ? cachedHumanities.polyglot : null;
@@ -1494,6 +1506,41 @@
       document.getElementById('drawer').classList.remove('open');
       document.getElementById('overlay').classList.remove('show');
       if ('speechSynthesis' in window) window.speechSynthesis.cancel();
+    }
+
+    // ==========================================
+    // 🏛️ 세계사 최근 5일 탭 전환 컨트롤러
+    // ==========================================
+    let currentHistoryOffset = 0;
+
+    function switchHistoryDay(offset) {
+      currentHistoryOffset = offset;
+      
+      // 탭 스타일 활성화
+      for (let i = 0; i < 5; i++) {
+        const btn = document.getElementById(`htab-${i}`);
+        if (btn) {
+          if (i === offset) btn.classList.add('active');
+          else btn.classList.remove('active');
+        }
+      }
+
+      if (!cachedHumanities) return;
+      const list = cachedHumanities.history_5d || [cachedHumanities.history];
+      const h = list[offset] || list[0];
+      if (!h) return;
+
+      const eraEl = document.getElementById('h-history-era');
+      const titleEl = document.getElementById('h-history-title');
+      const summaryEl = document.getElementById('h-history-summary');
+      const bulletsEl = document.getElementById('h-history-bullets');
+
+      if (eraEl) eraEl.innerText = `${h.d_day ? '[' + h.d_day + '] ' : ''}${h.era}`;
+      if (titleEl) titleEl.innerText = h.title;
+      if (summaryEl) summaryEl.innerText = h.summary;
+      if (bulletsEl && h.bullets) {
+        bulletsEl.innerHTML = h.bullets.map(b => `<li>${b}</li>`).join('');
+      }
     }
 
     // ==========================================
