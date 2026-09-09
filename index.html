@@ -1520,26 +1520,25 @@
       const trends = window.cachedTrendsData;
       let html = '';
     
-      // 1. 네이버 시사상식사전 Top 5 (순위 + 제목 + 요약)
+      // 1. 네이버 시사상식사전 주간 1~10위 (2열 바둑판 그리드 & 네이버 뉴스 검색 연동)
       if (currentTrendTab === 'naver') {
         const list = trends.naver_sisa || [];
-        html = list.slice(0, 5).map(item => `
+        html = `<div style="display:grid; grid-template-columns:1fr 1fr; gap:6px;">` + list.slice(0, 10).map(item => `
           <a href="${item.link}" target="_blank" rel="noopener noreferrer" 
-             style="display:flex; align-items:flex-start; gap:8px; padding:6px 8px; background:#020617; border:1px solid #1e293b; border-radius:6px; text-decoration:none; transition:all 0.15s;">
-            <span style="font-size:0.75rem; font-weight:800; color:#38bdf8; width:16px; text-align:center; flex-shrink:0;">${item.rank}</span>
-            <div style="flex-grow:1; min-width:0;">
-              <div style="font-size:0.75rem; font-weight:700; color:#f8fafc; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">${item.title}</div>
-              <div style="font-size:0.65rem; color:#94a3b8; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; margin-top:2px;">${item.desc}</div>
-            </div>
+             title="${item.title} - 네이버 뉴스 검색결과 보기"
+             style="display:flex; align-items:center; gap:6px; padding:6px 8px; background:#020617; border:1px solid #1e293b; border-radius:6px; text-decoration:none; transition:all 0.15s;">
+            <span style="font-size:0.72rem; font-weight:800; color:#38bdf8; width:16px; text-align:center; flex-shrink:0;">${item.rank}</span>
+            <span style="font-size:0.72rem; font-weight:600; color:#e2e8f0; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">${item.title}</span>
           </a>
-        `).join('');
+        `).join('') + `</div>`;
       } 
-      // 2. 나무위키 실시간 검색어 1~10위 (2열 바둑판 배열)
+      // 2. 나무위키 실시간 검색어 1~10위 (2열 바둑판 그리드 & 네이버 뉴스 검색 연동)
       else if (currentTrendTab === 'namu') {
         const list = trends.namu_rank || [];
         html = `<div style="display:grid; grid-template-columns:1fr 1fr; gap:6px;">` + list.slice(0, 10).map(item => `
           <a href="${item.link}" target="_blank" rel="noopener noreferrer" 
-             style="display:flex; align-items:center; gap:6px; padding:6px 8px; background:#020617; border:1px solid #1e293b; border-radius:6px; text-decoration:none;">
+             title="${item.title} - 네이버 뉴스 검색결과 보기"
+             style="display:flex; align-items:center; gap:6px; padding:6px 8px; background:#020617; border:1px solid #1e293b; border-radius:6px; text-decoration:none; transition:all 0.15s;">
             <span style="font-size:0.72rem; font-weight:800; color:#34d399; width:16px; text-align:center; flex-shrink:0;">${item.rank}</span>
             <span style="font-size:0.72rem; font-weight:600; color:#e2e8f0; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">${item.title}</span>
           </a>
