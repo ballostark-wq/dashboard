@@ -279,10 +279,13 @@ def load_humanities_from_pool():
                 phil_pool = pool.get("philosophy_pool", [])
 
                 if hist_pool and poly_pool and phil_pool:
-                    # 최근 5일간의 역사 데이터 추출 (오늘=0, D-1=1, D-2=2, D-3=3, D-4=4)
+                    # 최근 5일간의 역사 데이터 추출 (시대/지역이 편중되지 않도록 간격 스텝 배치)
                     recent_history = []
+                    pool_len = len(hist_pool)
                     for offset in range(5):
-                        h_item = dict(hist_pool[(day_idx - offset) % len(hist_pool)])
+                        # 단순히 바로 옆 인덱스만 읽으면 같은 국가가 몰리므로 적절한 소수(Prime) 간격으로 분산 순환
+                        target_idx = (day_idx - offset * 7) % pool_len
+                        h_item = dict(hist_pool[target_idx])
                         h_item["d_day"] = "오늘" if offset == 0 else f"D-{offset}"
                         recent_history.append(h_item)
 
