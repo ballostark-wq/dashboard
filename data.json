@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09 18:07:21",
+  "updated_at": "2026-09-09 19:05:21",
   "us2y": {
     "value": 4.37,
     "change": -0.29
@@ -21,8 +21,8 @@
     "status": "정상화 (우상향)"
   },
   "vix": {
-    "value": 16.22,
-    "change": 3.18
+    "value": 16.19,
+    "change": 2.99
   },
   "tech_news": [
     {
@@ -223,83 +223,83 @@
       "detail": "10Y-2Y 스프레드가 +42 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.88",
-      "title": "닥터 코퍼 $6.88선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.87",
+      "title": "닥터 코퍼 $6.87선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.88",
-          "chg": "+2.08%",
+          "val": "$6.87",
+          "chg": "+1.93%",
           "up": true
         },
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,461.3",
-          "chg": "+1.53%",
+          "val": "$4,451.2",
+          "chg": "+1.30%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$68.57",
-          "chg": "+3.42%",
+          "val": "$68.16",
+          "chg": "+2.81%",
           "up": true
         }
       ],
       "bullets": [
-        "구리 $6.88/lb (+2.08%) - AI 전력망 설비 수요 반영",
-        "금 $4,461/oz, 은 $68.57/oz - 통화가치 헤지"
+        "구리 $6.87/lb (+1.93%) - AI 전력망 설비 수요 반영",
+        "금 $4,451/oz, 은 $68.16/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,339원 | 엔/달러 ¥153.5",
-      "title": "원/달러 1,339.0원선과 엔/달러 ¥153.5",
+      "badge": "원/달러 1,340원 | 엔/달러 ¥153.7",
+      "title": "원/달러 1,339.8원선과 엔/달러 ¥153.7",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,339.0원",
-          "chg": "-0.34%",
+          "val": "1,339.8원",
+          "chg": "-0.28%",
           "up": false
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "98.74pt",
-          "chg": "-0.10%",
+          "val": "98.82pt",
+          "chg": "-0.02%",
           "up": false
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥153.50",
-          "chg": "-0.23%",
+          "val": "¥153.67",
+          "chg": "-0.12%",
           "up": false
         }
       ],
       "bullets": [
-        "달러 인덱스 98.74pt - 미국 성장 우위 지속",
-        "엔/달러 153.50엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 98.82pt - 미국 성장 우위 지속",
+        "엔/달러 153.67엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $95.94",
-      "title": "WTI 배럴당 $95.94선 박스권 안정",
+      "badge": "WTI $96.42",
+      "title": "WTI 배럴당 $96.42선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$95.94",
-          "chg": "+3.13%",
+          "val": "$96.42",
+          "chg": "+3.64%",
           "up": true
         }
       ],
       "bullets": [
-        "WTI 선물 $95.94/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $96.42/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -307,32 +307,32 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.88,
-      "change": 2.08
+      "price": 6.87,
+      "change": 1.93
     },
     "gold": {
-      "price": 4461.3,
-      "change": 1.53
+      "price": 4451.2,
+      "change": 1.3
     },
     "silver": {
-      "price": 68.57,
-      "change": 3.42
+      "price": 68.16,
+      "change": 2.81
     },
     "wti": {
-      "price": 95.94,
-      "change": 3.13
+      "price": 96.42,
+      "change": 3.64
     },
     "usdkrw": {
-      "price": 1339.04,
-      "change": -0.34
+      "price": 1339.75,
+      "change": -0.28
     },
     "dxy": {
-      "price": 98.74,
-      "change": -0.1
+      "price": 98.82,
+      "change": -0.02
     },
     "usdjpy": {
-      "price": 153.5,
-      "change": -0.23
+      "price": 153.67,
+      "change": -0.12
     }
   },
   "history_20d": {
@@ -595,9 +595,9 @@
       },
       {
         "date": "09-09",
-        "copper": 6.88,
-        "gold": 4461.3,
-        "silver": 68.57
+        "copper": 6.87,
+        "gold": 4451.2,
+        "silver": 68.16
       }
     ],
     "fx": [
@@ -717,9 +717,9 @@
       },
       {
         "date": "09-09",
-        "usdkrw": 1339.04,
-        "dxy": 98.74,
-        "usdjpy": 153.5
+        "usdkrw": 1339.75,
+        "dxy": 98.82,
+        "usdjpy": 153.67
       }
     ],
     "oil": [
@@ -820,8 +820,8 @@
       },
       {
         "date": "09-09",
-        "wti": 95.94,
-        "change": 3.13
+        "wti": 96.42,
+        "change": 3.64
       }
     ]
   },
@@ -1065,23 +1065,23 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "이재명 대통령, 프랑스 간담회 참석",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EC%9E%AC%EB%AA%85%20%EB%8C%80%ED%86%B5%EB%A0%B9%2C%20%ED%94%84%EB%9E%91%EC%8A%A4%20%EA%B0%84%EB%8B%B4%ED%9A%8C%20%EC%B0%B8%EC%84%9D"
+        "title": "부산 예인선 실종자 시신 발견",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B6%80%EC%82%B0%20%EC%98%88%EC%9D%B8%EC%84%A0%20%EC%8B%A4%EC%A2%85%EC%9E%90%20%EC%8B%9C%EC%8B%A0%20%EB%B0%9C%EA%B2%AC"
       },
       {
         "rank": 2,
-        "title": "부산 예인선 실종자 포항서 발견",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B6%80%EC%82%B0%20%EC%98%88%EC%9D%B8%EC%84%A0%20%EC%8B%A4%EC%A2%85%EC%9E%90%20%ED%8F%AC%ED%95%AD%EC%84%9C%20%EB%B0%9C%EA%B2%AC"
+        "title": "김도영 코뼈 골절 상황",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EB%8F%84%EC%98%81%20%EC%BD%94%EB%BC%88%20%EA%B3%A8%EC%A0%88%20%EC%83%81%ED%99%A9"
       },
       {
         "rank": 3,
-        "title": "김도영, 코뼈 골절 다친 상황",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EB%8F%84%EC%98%81%2C%20%EC%BD%94%EB%BC%88%20%EA%B3%A8%EC%A0%88%20%EB%8B%A4%EC%B9%9C%20%EC%83%81%ED%99%A9"
+        "title": "최태원 노소영 재산분할",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B5%9C%ED%83%9C%EC%9B%90%20%EB%85%B8%EC%86%8C%EC%98%81%20%EC%9E%AC%EC%82%B0%EB%B6%84%ED%95%A0"
       },
       {
         "rank": 4,
-        "title": "최태원 노소영 재산분할",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B5%9C%ED%83%9C%EC%9B%90%20%EB%85%B8%EC%86%8C%EC%98%81%20%EC%9E%AC%EC%82%B0%EB%B6%84%ED%95%A0"
+        "title": "헌법상 명확하게 제한돼",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%97%8C%EB%B2%95%EC%83%81%20%EB%AA%85%ED%99%95%ED%95%98%EA%B2%8C%20%EC%A0%9C%ED%95%9C%EB%8F%BC"
       },
       {
         "rank": 5,
@@ -1090,23 +1090,23 @@
       },
       {
         "rank": 6,
+        "title": "이재명 프랑스 간담회",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EC%9E%AC%EB%AA%85%20%ED%94%84%EB%9E%91%EC%8A%A4%20%EA%B0%84%EB%8B%B4%ED%9A%8C"
+      },
+      {
+        "rank": 7,
         "title": "애플",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%A0%ED%94%8C"
       },
       {
-        "rank": 7,
-        "title": "헌법상 명확하게 제한돼",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%97%8C%EB%B2%95%EC%83%81%20%EB%AA%85%ED%99%95%ED%95%98%EA%B2%8C%20%EC%A0%9C%ED%95%9C%EB%8F%BC"
-      },
-      {
         "rank": 8,
-        "title": "보통주",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B3%B4%ED%86%B5%EC%A3%BC"
+        "title": "기욤 딸 레아, 남사친과 즐거운 하루",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B8%B0%EC%9A%A4%20%EB%94%B8%20%EB%A0%88%EC%95%84%2C%20%EB%82%A8%EC%82%AC%EC%B9%9C%EA%B3%BC%20%EC%A6%90%EA%B1%B0%EC%9A%B4%20%ED%95%98%EB%A3%A8"
       },
       {
         "rank": 9,
-        "title": "파주 냉동창고",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%8C%8C%EC%A3%BC%20%EB%83%89%EB%8F%99%EC%B0%BD%EA%B3%A0"
+        "title": "보통주",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B3%B4%ED%86%B5%EC%A3%BC"
       },
       {
         "rank": 10,
@@ -1135,7 +1135,7 @@
         "rank": 3,
         "title": "사기의 아픔을 딛고 드디어 진짜 음바페 영입",
         "channel": "튜브김민교",
-        "views": "32만회",
+        "views": "34만회",
         "thumb": "https://i.ytimg.com/vi/SQ7tpUm0zkc/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=SQ7tpUm0zkc"
       },
@@ -1151,7 +1151,7 @@
         "rank": 5,
         "title": "모두가 예상한 떡벽 : 고스트타입 하트골드【포켓몬 모든타입 깨기】#2",
         "channel": "근가놈",
-        "views": "29만회",
+        "views": "31만회",
         "thumb": "https://i.ytimg.com/vi/2L-hKOytmio/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=2L-hKOytmio"
       },
@@ -1159,7 +1159,7 @@
         "rank": 6,
         "title": "소연 (SOYEON) '퇴사할게여 (Narr. 기안84)' Official Music Video",
         "channel": "i-dle (아이들)",
-        "views": "320만회",
+        "views": "330만회",
         "thumb": "https://i.ytimg.com/vi/7mDDM0eBWR0/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=7mDDM0eBWR0"
       },
@@ -1167,7 +1167,7 @@
         "rank": 7,
         "title": "조금 놀렸더니 해리 케인 12강 강화 선언하는 이상호 ㅋㅋㅋ",
         "channel": "게임대장봉준",
-        "views": "20만회",
+        "views": "22만회",
         "thumb": "https://i.ytimg.com/vi/N4l5RUJAEpQ/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=N4l5RUJAEpQ"
       },
@@ -1175,7 +1175,7 @@
         "rank": 8,
         "title": "I’m gonna TOESA (Narr. KIAN84)",
         "channel": "SOYEON - Topic",
-        "views": "30만회",
+        "views": "31만회",
         "thumb": "https://i.ytimg.com/vi/nxdxwZztGj0/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=nxdxwZztGj0"
       },
