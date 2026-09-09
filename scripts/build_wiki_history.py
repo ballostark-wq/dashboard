@@ -18,22 +18,91 @@ TARGET_URL = "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B
 def clean_text(text):
     if not text:
         return ""
-    # 위키 각주 [1] 및 [편집] 태그 제거
     text = re.sub(r"\[\d+\]|\[편집\]", "", text)
-    # 줄바꿈(\n, \r), 탭, 연속 공백을 단일 공백으로 치환
-    text = re.sub(r"\s+", " ", text)
+    text = re.sub(r"[\r\t]+", " ", text)
     return text.strip()
 
 
-def parse_wikipedia_single_page():
+def split_cell_by_lines(td_node):
+    """td 셀 내부의 <br> 및 개행문자를 기준으로 줄(Line) 단위로 쪼개어 (텍스트, 위키링크) 리스트 반환"""
+    if not td_node:
+        return []
+
+    html_content = td_node.decode_contents()
+    chunks = re.split(r"<br\s*/?>|\n", html_content)
+
+    lines = []
+    for chunk in chunks:
+        soup = BeautifulSoup(chunk, "html.parser")
+        text = clean_text(soup.get_text())
+        link = soup.find("a", href=re.compile(r"^/wiki/"))
+        if link and link.get("href", "").startswith("/wiki/%ED%8C%8C%EC%9D%BC:"):
+            link = None
+        lines.append({"text": text, "link": link})
+    return lines
+
+
+def match_year_and_events(year_td, event_td):
+    """연대 셀과 사건 셀의 줄바꿈을 맞추어 (연도, 사건텍스트, 링크) 튜플 리스트 생성"""
+    year_lines = split_cell_by_lines(year_td)
+    event_lines = split_cell_by_lines(event_td)
+
+    # 유효한 사건만 필터링
+    valid_events = [e for e in event_lines if e["text"] and len(e["text"]) >= 2 and e["text"] != "공란"]
+    if not valid_events:
+        return []
+
+    results = []
+    curr_year = ""
+    valid_years = [y["text"] for y in year_lines if y["text"] and any(c.isdigit() for c in y["text"])]
+
+    # 1. 연대 줄 수와 사건 줄 수가 비슷하게 배치된 경우 (Forward-fill 방식)
+    if len(year_lines) > 1 and abs(len(year_lines) - len(event_lines)) <= 4:
+        curr_year = valid_years[0] if valid_years else "연대 미상"
+        for idx, ev in enumerate(event_lines):
+            if idx < len(year_lines):
+                y_txt = year_lines[idx]["text"]
+                if y_txt and any(c.isdigit() for c in y_txt):
+                    curr_year = y_txt
+            if ev["text"] and len(ev["text"]) >= 2 and ev["text"] != "공란":
+                results.append((curr_year, ev["text"], ev["link"]))
+
+    # 2. 유효 연도 수와 유효 사건 수가 1:1로 일치하는 경우
+    elif len(valid_years) == len(valid_events):
+        for y_str, ev in zip(valid_years, valid_events):
+            results.append((y_str, ev["text"], ev["link"]))
+
+    # 3. 그 외 (연도는 소수이고 사건이 여러 개 나열된 경우)
+    else:
+        curr_year = valid_years[0] if valid_years else "연대 미상"
+        y_idx = 0
+        for ev in valid_events:
+            ev_text = ev["text"]
+            # 사건 텍스트 앞부분에 자체 연도가 적혀 있는 경우 우선 추출
+            m = re.match(r"^(\d{1,4}\s*년?)\s*[\:\-\–\—\.]?\s*(.+)$", ev_text)
+            if m and any(c.isdigit() for c in m.group(1)):
+                year_val = m.group(1).strip()
+                event_val = m.group(2).strip()
+                results.append((year_val, event_val if event_val else ev_text, ev["link"]))
+                curr_year = year_val
+            else:
+                if y_idx < len(valid_years):
+                    curr_year = valid_years[y_idx]
+                    y_idx += 1
+                results.append((curr_year, ev_text, ev["link"]))
+
+    return results
+
+
+def parse_wikipedia_history():
     parsed_items = []
     seen_keys = set()
 
-    print(f"단일 연표 문서 수집 시작: {TARGET_URL}")
+    print(f"위키백과 세계사 연표 정밀 수집 시작: {TARGET_URL}")
     try:
         res = requests.get(TARGET_URL, headers=HEADERS, timeout=20)
         if res.status_code != 200:
-            print(f"HTTP 에러: {res.status_code}")
+            print(f"HTTP 에러 발생: {res.status_code}")
             return parsed_items
     except Exception as e:
         print(f"요청 실패: {e}")
@@ -42,15 +111,13 @@ def parse_wikipedia_single_page():
     soup = BeautifulSoup(res.text, "html.parser")
     content = soup.find("div", {"class": "mw-parser-output"})
     if not content:
-        print("본문 컨테이너(mw-parser-output)를 찾지 못했습니다.")
         return parsed_items
 
     current_era = "세계사 연표"
     current_anchor = ""
 
-    # 본문 내 요소들을 순차적으로 순회하며 섹션과 연표 항목 매핑
-    for elem in content.find_all(["h2", "h3", "li", "tr"]):
-        # 1. 시대 섹션 헤더 처리 (ID 추출 및 시대명 갱신)
+    # H2, H3 및 테이블 순회
+    for elem in content.find_all(["h2", "h3", "table"]):
         if elem.name in ["h2", "h3"]:
             h_text = clean_text(elem.get_text())
             skip_words = ["각주", "참고 문헌", "외부 링크", "같이 보기", "목차", "내용"]
@@ -65,89 +132,81 @@ def parse_wikipedia_single_page():
                     current_anchor = re.sub(r"\s+", "_", h_text)
             continue
 
-        year_part = ""
-        desc_part = ""
+        if elem.name == "table":
+            rows = elem.find_all("tr")
+            for tr in rows:
+                tds = tr.find_all("td")
+                pairs_to_process = []
 
-        # 2. 표(tr) 데이터 파싱
-        if elem.name == "tr":
-            cols = elem.find_all(["td", "th"])
-            if len(cols) >= 2:
-                col1 = clean_text(cols[0].get_text())
-                col2 = clean_text(cols[1].get_text())
-                if any(c.isdigit() for c in col1) and len(col2) >= 2:
-                    year_part = col1
-                    desc_part = col2
-            else:
-                continue
+                # 4열 구조: [0]세계연대, [1]세계사건, [2]한국연대, [3]한국사건
+                if len(tds) >= 4:
+                    pairs_to_process.append((tds[0], tds[1], "세계"))
+                    pairs_to_process.append((tds[2], tds[3], "한국"))
+                # 2열 구조: [0]연대, [1]사건
+                elif len(tds) >= 2:
+                    pairs_to_process.append((tds[0], tds[1], "세계"))
 
-        # 3. 리스트(li) 데이터 파싱
-        elif elem.name == "li":
-            text = clean_text(elem.get_text())
-            if not text or len(text) < 6:
-                continue
-            match = re.match(r"^([^\:\-\–\—\t]+)[\:\-\–\—\t]\s*(.+)$", text)
-            if match:
-                year_part = clean_text(match.group(1))
-                desc_part = clean_text(match.group(2))
-            else:
-                continue
+                for y_td, e_td, region in pairs_to_process:
+                    matched = match_year_and_events(y_td, e_td)
+                    for year_val, event_val, link_node in matched:
+                        # 중복 및 노이즈 제거
+                        event_clean = clean_text(event_val)
+                        if not event_clean or len(event_clean) < 2 or event_clean == "공란":
+                            continue
 
-        # 유효한 연도 형식인지 검증
-        if not any(char.isdigit() for char in year_part):
-            continue
+                        # 연도 표기 보정 (숫자만 있는 경우 '년' 부착)
+                        year_clean = clean_text(year_val)
+                        if year_clean.isdigit():
+                            display_year = f"{year_clean}년"
+                        else:
+                            display_year = year_clean
 
-        # 제목 정제: 첫 번째 위키 링크 명칭 사용 또는 설명문의 첫 핵심 구절 발췌
-        first_link = elem.find("a", href=re.compile(r"^/wiki/"))
-        raw_title = ""
-        if first_link and not first_link.get("href", "").startswith("/wiki/%ED%8C%8C%EC%9D%BC:"):
-            raw_title = clean_text(first_link.get_text())
+                        dedup_key = f"{region}_{display_year}_{event_clean[:30]}"
+                        if dedup_key in seen_keys:
+                            continue
+                        seen_keys.add(dedup_key)
 
-        if raw_title and len(raw_title) >= 2 and not any(c.isdigit() for c in raw_title):
-            title = raw_title
-        else:
-            split_desc = re.split(r"[,·\.]", desc_part)
-            first_clause = split_desc[0].strip() if split_desc else ""
-            title = first_clause if len(first_clause) >= 3 else desc_part[:30].strip()
+                        # 위키백과 직접 스크롤 URL 생성
+                        anchor_enc = urllib.parse.quote(current_anchor) if current_anchor else ""
+                        # 연도 숫자 부분만 추출하여 텍스트 프래그먼트로 지정
+                        year_nums = re.findall(r"\d+", display_year)
+                        target_kw = year_nums[0] if year_nums else display_year
+                        kw_enc = urllib.parse.quote(target_kw)
 
-        # 중복 방지 키
-        dedup_key = f"{year_part}_{title}"
-        if dedup_key in seen_keys:
-            continue
-        seen_keys.add(dedup_key)
+                        if anchor_enc:
+                            ref_url = f"{TARGET_URL}#{anchor_enc}:~:text={kw_enc}"
+                        else:
+                            ref_url = f"{TARGET_URL}#:~:text={kw_enc}"
 
-        # 위키백과 세계사 연표 문서 내 해당 섹션 및 연도로 스크롤되는 URL 생성
-        anchor_encoded = urllib.parse.quote(current_anchor) if current_anchor else ""
-        year_encoded = urllib.parse.quote(year_part)
+                        ref_title = f"위키백과 세계사 연표: {current_era} ({display_year})"
 
-        if anchor_encoded:
-            ref_url = (
-                f"https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C"
-                f"#{anchor_encoded}:~:text={year_encoded}"
-            )
-        else:
-            ref_url = (
-                f"https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C"
-                f"#:~:text={year_encoded}"
-            )
+                        # 지역별 인사이트 분기
+                        if region == "한국":
+                            insight_text = (
+                                f"{display_year} 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 "
+                                "흐름을 결정지은 핵심 분기점입니다."
+                            )
+                        else:
+                            insight_text = (
+                                f"{display_year}의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 "
+                                "구조를 변화시킨 중요한 분기점입니다."
+                            )
 
-        ref_title = f"위키백과 세계사 연표: {current_era} ({year_part})"
-
-        parsed_items.append({
-            "era": f"{current_era} ({year_part})",
-            "title": f"[{year_part}] {title}",
-            "summary": desc_part[:130] + ("..." if len(desc_part) > 130 else ""),
-            "bullets": [
-                f"발생 연대: {year_part}",
-                desc_part[:90] + ("..." if len(desc_part) > 90 else ""),
-                "당대 유라시아 및 글로벌 지정학적 세력 균형의 변화 반영",
-            ],
-            "insight": (
-                f"{year_part}의 사건은 당시 지역 경제와 문명 교류의 네트워크"
-                " 구조를 변화시킨 중요한 분기점입니다."
-            ),
-            "ref_title": ref_title,
-            "ref_url": ref_url,
-        })
+                        parsed_items.append({
+                            "era": f"{current_era} ({display_year})",
+                            "region": region,
+                            "year": display_year,
+                            "title": f"[{display_year}] [{region}] {event_clean[:45]}",
+                            "summary": f"{display_year} - {event_clean}",
+                            "bullets": [
+                                f"발생 연대: {display_year} ({region}사)",
+                                event_clean[:90] + ("..." if len(event_clean) > 90 else ""),
+                                "당대 세력 균형 및 정치·경제적 제도 변화 반영",
+                            ],
+                            "insight": insight_text,
+                            "ref_title": ref_title,
+                            "ref_url": ref_url,
+                        })
 
     return parsed_items
 
@@ -163,8 +222,8 @@ def main():
         except Exception as e:
             print(f"기존 풀 파일 로드 예외: {e}")
 
-    wiki_history = parse_wikipedia_single_page()
-    print(f"총 {len(wiki_history)}건의 역사 연표 데이터 파싱 완료!")
+    wiki_history = parse_wikipedia_history()
+    print(f"총 {len(wiki_history)}건의 연도별 1:1 매핑 연표 데이터(한국사 포함) 파싱 완료!")
 
     if wiki_history:
         existing_pool["history_pool"] = wiki_history
@@ -172,7 +231,7 @@ def main():
         with open(pool_file, "w", encoding="utf-8") as f:
             json.dump(existing_pool, f, ensure_ascii=False, indent=2)
 
-        print(f"'{pool_file}'에 대량 연표 데이터 저장 완료.")
+        print(f"'{pool_file}'에 저장 완료.")
     else:
         print("수집된 데이터가 없어 파일을 덮어쓰지 않았습니다.")
 
