@@ -44,7 +44,7 @@ def make_naver_news_link(query_text):
     return f"https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query={encoded}"
 
 def fetch_naver_sisa_weekly():
-    """네이버 시사상식사전 주간조회순 Top 10 실시간 정밀 수집"""
+    """네이버 시사상식사전 주간조회순 Top 10 실시간 정밀 수집 (a.card_title 정밀 셀렉터 적용)"""
     items = []
     seen = set()
 
@@ -60,64 +60,52 @@ def fetch_naver_sisa_weekly():
     }
 
     try:
-        res = requests.get(target_url, headers=headers, timeout=12, allow_redirects=True)
+        res = requests.get(target_url, headers=headers, timeout=12)
         if res.status_code == 200:
             soup = BeautifulSoup(res.text, "html.parser")
 
-            # 1. HTML 내 엔트리 링크 파싱 (설명문과 섞이지 않도록 순수 제목만 분리)
-            links = soup.find_all("a", href=re.compile(r"/entry\.(naver|nhn)"))
-            for a in links:
-                # 카드 안에서 제목 역할을 하는 태그 우선 탐색
-                tit_el = a.find(class_=re.compile(r"(tit|title|subject|name)", re.I))
-                if not tit_el:
-                    tit_el = a.find(["strong", "h3", "h4", "h2", "b"])
+            # 1. DevTools 요소 검사에서 확인된 card_title 클래스 및 span 직접 파싱
+            cards = soup.select("a.card_title, a[data-nlog-area='.tit'], .feed_item a.card_title")
+            for a in cards:
+                span = a.select_one("span")
+                title_text = span.get_text(strip=True) if span else a.get_text(strip=True)
+                title_text = re.sub(r"\s+", " ", title_text).strip()
 
-                if tit_el:
-                    raw_text = tit_el.get_text(strip=True)
-                else:
-                    # 제목 태그가 따로 없는 경우 개행 기준으로 첫 번째 줄(헤드라인)만 발췌
-                    lines = [ln.strip() for ln in a.get_text("\n").split("\n") if ln.strip()]
-                    raw_text = lines[0] if lines else ""
-
-                # 불필요 기호 및 공백 정리
-                title = re.sub(r"\s+", " ", raw_text).strip()
-
-                if 2 <= len(title) <= 35 and title not in seen:
-                    if not any(x in title for x in ["시사상식사전", "지식백과", "로그인", "신고", "박문각", "더보기"]):
-                        seen.add(title)
+                if 2 <= len(title_text) <= 40 and title_text not in seen:
+                    if not any(x in title_text for x in ["시사상식", "지식백과", "로그인", "신고", "더보기"]):
+                        seen.add(title_text)
                         items.append({
                             "rank": len(items) + 1,
-                            "title": title,
-                            "link": make_naver_news_link(title)
+                            "title": title_text,
+                            "link": make_naver_news_link(title_text)
                         })
                         if len(items) >= 10:
                             break
 
-            # 2. HTML 태그 파싱이 부족할 경우 내장 JSON 스크립트 블록에서 제목 역추적
+            # 2. 정규식 보조 탐색 (HTML 파서 트리 우회 대비)
             if len(items) < 10:
-                json_matches = re.findall(r'"(?:title|entryTitle|docTitle)"\s*:\s*"([^"]+)"', res.text)
-                for j_title in json_matches:
-                    j_clean = j_title.strip()
-                    if 2 <= len(j_clean) <= 35 and j_clean not in seen:
-                        if not any(x in j_clean for x in ["시사상식사전", "지식백과", "로그인", "신고", "박문각", "더보기"]):
-                            seen.add(j_clean)
-                            items.append({
-                                "rank": len(items) + 1,
-                                "title": j_clean,
-                                "link": make_naver_news_link(j_clean)
-                            })
-                            if len(items) >= 10:
-                                break
+                raw_matches = re.findall(r'class="card_title"[^>]*>.*?<span>([^<]+)</span>', res.text, re.DOTALL)
+                for raw_t in raw_matches:
+                    clean_t = re.sub(r"\s+", " ", raw_t).strip()
+                    if 2 <= len(clean_t) <= 40 and clean_t not in seen:
+                        seen.add(clean_t)
+                        items.append({
+                            "rank": len(items) + 1,
+                            "title": clean_t,
+                            "link": make_naver_news_link(clean_t)
+                        })
+                        if len(items) >= 10:
+                            break
     except Exception as e:
-        print(f"네이버 시사상식 수집 통신 에러: {e}")
+        print(f"네이버 시사상식사전 수집 오류: {e}")
 
-    # GitHub Actions 콘솔에 실제 수집된 타이틀 목록을 그대로 출력하여 검증
+    # GitHub Actions 실행 로그 출력 (수집 결과 직접 확인)
     real_titles = [x["title"] for x in items]
-    print(f"📡 [네이버 시사상식 실시간 크롤링 결과] 총 {len(items)}건 추출 완료: {real_titles}")
+    print(f"📡 [네이버 시사상식 크롤링 결과] 총 {len(items)}건 추출 완료: {real_titles}")
 
-    # 통신 완전 두절 시 보장 목록: 크롤링 실패 여부를 즉시 식별할 수 있도록 역순(10위->1위)으로 배치
+    # 크롤링 실패 시에만 역순 폴백 작동
     if len(items) < 10:
-        print("⚠️ [경고] 네이버 시사상식 크롤링 결과가 10건 미만이므로 역순 폴백 목록을 적용합니다.")
+        print("⚠️ [경고] 크롤링 수집 실패로 역순 폴백 목록이 적용됩니다.")
         reversed_fallback = [
             "린스타트업",
             "페미니스트",
