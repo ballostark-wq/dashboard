@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09 23:59:52",
+  "updated_at": "2026-09-10 00:08:04",
   "us2y": {
     "value": 4.37,
     "change": -0.29
@@ -131,6 +131,16 @@
         "title": "[디일렉] 덕산하이메탈, 글로벌 1위 솔더볼 기술력 공개",
         "link": "https://www.thelec.kr/news/articleView.html?idxno=62053",
         "date": "09-10 05:57"
+      },
+      {
+        "title": "[전자신문] 셀트리온 '옴리클로' 유럽 26개국 공략…호흡기학회서 경쟁력 부각",
+        "link": "https://www.etnews.com/20260910000017",
+        "date": "09-10 09:02"
+      },
+      {
+        "title": "[전자신문] 李대통령, 프랑스서 AI·원전 '성과 보따리'…호르무즈 공조도 가닥",
+        "link": "https://www.etnews.com/20260910000015",
+        "date": "09-10 09:02"
       }
     ],
     "domestic": [
@@ -226,70 +236,70 @@
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,437.5",
+          "val": "$4,437.4",
           "chg": "+0.99%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$67.82",
-          "chg": "+2.29%",
+          "val": "$67.81",
+          "chg": "+2.28%",
           "up": true
         }
       ],
       "bullets": [
         "구리 $6.85/lb (+1.63%) - AI 전력망 설비 수요 반영",
-        "금 $4,438/oz, 은 $67.82/oz - 통화가치 헤지"
+        "금 $4,437/oz, 은 $67.81/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,340원 | 엔/달러 ¥153.5",
-      "title": "원/달러 1,340.0원선과 엔/달러 ¥153.5",
+      "badge": "원/달러 1,340원 | 엔/달러 ¥153.6",
+      "title": "원/달러 1,340.5원선과 엔/달러 ¥153.6",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,340.0원",
-          "chg": "+0.06%",
+          "val": "1,340.5원",
+          "chg": "+0.09%",
           "up": true
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "98.77pt",
-          "chg": "-0.07%",
+          "val": "98.79pt",
+          "chg": "-0.05%",
           "up": false
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥153.54",
-          "chg": "+0.04%",
+          "val": "¥153.59",
+          "chg": "+0.07%",
           "up": true
         }
       ],
       "bullets": [
-        "달러 인덱스 98.77pt - 미국 성장 우위 지속",
-        "엔/달러 153.54엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 98.79pt - 미국 성장 우위 지속",
+        "엔/달러 153.59엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $97.15",
-      "title": "WTI 배럴당 $97.15선 박스권 안정",
+      "badge": "WTI $97.07",
+      "title": "WTI 배럴당 $97.07선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$97.15",
-          "chg": "+4.43%",
+          "val": "$97.07",
+          "chg": "+4.34%",
           "up": true
         }
       ],
       "bullets": [
-        "WTI 선물 $97.15/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $97.07/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -301,28 +311,28 @@
       "change": 1.63
     },
     "gold": {
-      "price": 4437.5,
+      "price": 4437.4,
       "change": 0.99
     },
     "silver": {
-      "price": 67.82,
-      "change": 2.29
+      "price": 67.81,
+      "change": 2.28
     },
     "wti": {
-      "price": 97.15,
-      "change": 4.43
+      "price": 97.07,
+      "change": 4.34
     },
     "usdkrw": {
-      "price": 1339.98,
-      "change": 0.06
+      "price": 1340.46,
+      "change": 0.09
     },
     "dxy": {
-      "price": 98.77,
-      "change": -0.07
+      "price": 98.79,
+      "change": -0.05
     },
     "usdjpy": {
-      "price": 153.54,
-      "change": 0.04
+      "price": 153.59,
+      "change": 0.07
     }
   },
   "history_20d": {
@@ -586,8 +596,8 @@
       {
         "date": "09-09",
         "copper": 6.85,
-        "gold": 4437.5,
-        "silver": 67.82
+        "gold": 4437.4,
+        "silver": 67.81
       }
     ],
     "fx": [
@@ -706,10 +716,10 @@
         "usdjpy": 153.48
       },
       {
-        "date": "09-09",
-        "usdkrw": 1339.98,
-        "dxy": 98.77,
-        "usdjpy": 153.54
+        "date": "09-10",
+        "usdkrw": 1340.46,
+        "dxy": 98.79,
+        "usdjpy": 153.59
       }
     ],
     "oil": [
@@ -810,8 +820,8 @@
       },
       {
         "date": "09-09",
-        "wti": 97.15,
-        "change": 4.43
+        "wti": 97.07,
+        "change": 4.34
       }
     ]
   },
@@ -910,176 +920,176 @@
   },
   "humanities": {
     "history": {
-      "era": "1076년 ~ 1455년 (1377년)",
+      "era": "1076년 ~ 1455년 (1388년)",
       "region": "한국",
-      "year": "1377년",
-      "title": "[1377년] [한국] 「직지심체요절」 인쇄",
-      "summary": "1377년 - 「직지심체요절」 인쇄",
+      "year": "1388년",
+      "title": "[1388년] [한국] 이성계, 위화도 회군",
+      "summary": "1388년 - 이성계, 위화도 회군",
       "bullets": [
-        "발생 연대: 1377년 (한국사)",
-        "「직지심체요절」 인쇄",
+        "발생 연대: 1388년 (한국사)",
+        "이성계, 위화도 회군",
         "당대 세력 균형 및 정치·경제적 제도 변화 반영"
       ],
-      "insight": "1377년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
-      "ref_title": "위키백과 세계사 연표: 1076년 ~ 1455년 (1377년)",
-      "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1076%EB%85%84_~_1455%EB%85%84:~:text=1377",
+      "insight": "1388년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
+      "ref_title": "위키백과 세계사 연표: 1076년 ~ 1455년 (1388년)",
+      "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1076%EB%85%84_~_1455%EB%85%84:~:text=1388",
       "d_day": "오늘"
     },
     "history_5d": [
       {
-        "era": "1076년 ~ 1455년 (1377년)",
+        "era": "1076년 ~ 1455년 (1388년)",
         "region": "한국",
-        "year": "1377년",
-        "title": "[1377년] [한국] 「직지심체요절」 인쇄",
-        "summary": "1377년 - 「직지심체요절」 인쇄",
+        "year": "1388년",
+        "title": "[1388년] [한국] 이성계, 위화도 회군",
+        "summary": "1388년 - 이성계, 위화도 회군",
         "bullets": [
-          "발생 연대: 1377년 (한국사)",
-          "「직지심체요절」 인쇄",
+          "발생 연대: 1388년 (한국사)",
+          "이성계, 위화도 회군",
           "당대 세력 균형 및 정치·경제적 제도 변화 반영"
         ],
-        "insight": "1377년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
-        "ref_title": "위키백과 세계사 연표: 1076년 ~ 1455년 (1377년)",
-        "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1076%EB%85%84_~_1455%EB%85%84:~:text=1377",
+        "insight": "1388년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
+        "ref_title": "위키백과 세계사 연표: 1076년 ~ 1455년 (1388년)",
+        "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1076%EB%85%84_~_1455%EB%85%84:~:text=1388",
         "d_day": "오늘"
       },
       {
-        "era": "1076년 ~ 1455년 (1304년)",
+        "era": "1076년 ~ 1455년 (1314년)",
         "region": "한국",
-        "year": "1304년",
-        "title": "[1304년] [한국] 안향의 주장으로 국학에 대성전 세움.",
-        "summary": "1304년 - 안향의 주장으로 국학에 대성전 세움.",
+        "year": "1314년",
+        "title": "[1314년] [한국] 충선왕, 연경에 만권당 설치",
+        "summary": "1314년 - 충선왕, 연경에 만권당 설치",
         "bullets": [
-          "발생 연대: 1304년 (한국사)",
-          "안향의 주장으로 국학에 대성전 세움.",
+          "발생 연대: 1314년 (한국사)",
+          "충선왕, 연경에 만권당 설치",
           "당대 세력 균형 및 정치·경제적 제도 변화 반영"
         ],
-        "insight": "1304년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
-        "ref_title": "위키백과 세계사 연표: 1076년 ~ 1455년 (1304년)",
-        "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1076%EB%85%84_~_1455%EB%85%84:~:text=1304",
+        "insight": "1314년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
+        "ref_title": "위키백과 세계사 연표: 1076년 ~ 1455년 (1314년)",
+        "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1076%EB%85%84_~_1455%EB%85%84:~:text=1314",
         "d_day": "D-1"
       },
       {
-        "era": "1076년 ~ 1455년 (1347년)",
+        "era": "1076년 ~ 1455년 (1351년)",
         "region": "세계",
-        "year": "1347년",
-        "title": "[1347년] [세계] 중국 원에서 홍건적의 난 시작",
-        "summary": "1347년 - 중국 원에서 홍건적의 난 시작",
+        "year": "1351년",
+        "title": "[1351년] [세계] 1356년 금인칙서로 신성 로마 제국 황제 선출 원칙 정함.",
+        "summary": "1351년 - 1356년 금인칙서로 신성 로마 제국 황제 선출 원칙 정함.",
         "bullets": [
-          "발생 연대: 1347년 (세계사)",
-          "중국 원에서 홍건적의 난 시작",
+          "발생 연대: 1351년 (세계사)",
+          "1356년 금인칙서로 신성 로마 제국 황제 선출 원칙 정함.",
           "당대 세력 균형 및 정치·경제적 제도 변화 반영"
         ],
-        "insight": "1347년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
-        "ref_title": "위키백과 세계사 연표: 1076년 ~ 1455년 (1347년)",
-        "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1076%EB%85%84_~_1455%EB%85%84:~:text=1347",
+        "insight": "1351년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
+        "ref_title": "위키백과 세계사 연표: 1076년 ~ 1455년 (1351년)",
+        "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1076%EB%85%84_~_1455%EB%85%84:~:text=1351",
         "d_day": "D-2"
       },
       {
-        "era": "1076년 ~ 1455년 (1309년)",
+        "era": "1076년 ~ 1455년 (1321년)",
         "region": "세계",
-        "year": "1309년",
-        "title": "[1309년] [세계] 교황청, 아비뇽 이전(교황의 바빌론 유수, ∼1377), 단테, 신곡 완성",
-        "summary": "1309년 - 교황청, 아비뇽 이전(교황의 바빌론 유수, ∼1377), 단테, 신곡 완성",
+        "year": "1321년",
+        "title": "[1321년] [세계] 이븐 바투타, 인도와 중국 여행",
+        "summary": "1321년 - 이븐 바투타, 인도와 중국 여행",
         "bullets": [
-          "발생 연대: 1309년 (세계사)",
-          "교황청, 아비뇽 이전(교황의 바빌론 유수, ∼1377), 단테, 신곡 완성",
+          "발생 연대: 1321년 (세계사)",
+          "이븐 바투타, 인도와 중국 여행",
           "당대 세력 균형 및 정치·경제적 제도 변화 반영"
         ],
-        "insight": "1309년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
-        "ref_title": "위키백과 세계사 연표: 1076년 ~ 1455년 (1309년)",
-        "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1076%EB%85%84_~_1455%EB%85%84:~:text=1309",
+        "insight": "1321년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
+        "ref_title": "위키백과 세계사 연표: 1076년 ~ 1455년 (1321년)",
+        "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1076%EB%85%84_~_1455%EB%85%84:~:text=1321",
         "d_day": "D-3"
       },
       {
-        "era": "1076년 ~ 1455년 (1258년)",
-        "region": "한국",
-        "year": "1258년",
-        "title": "[1258년] [한국] 최씨정권 붕괴",
-        "summary": "1258년 - 최씨정권 붕괴",
+        "era": "1076년 ~ 1455년 (1271년)",
+        "region": "세계",
+        "year": "1271년",
+        "title": "[1271년] [세계] 쿠빌라이 칸, 국호를 원으로 함(∼1368)",
+        "summary": "1271년 - 쿠빌라이 칸, 국호를 원으로 함(∼1368)",
         "bullets": [
-          "발생 연대: 1258년 (한국사)",
-          "최씨정권 붕괴",
+          "발생 연대: 1271년 (세계사)",
+          "쿠빌라이 칸, 국호를 원으로 함(∼1368)",
           "당대 세력 균형 및 정치·경제적 제도 변화 반영"
         ],
-        "insight": "1258년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
-        "ref_title": "위키백과 세계사 연표: 1076년 ~ 1455년 (1258년)",
-        "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1076%EB%85%84_~_1455%EB%85%84:~:text=1258",
+        "insight": "1271년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
+        "ref_title": "위키백과 세계사 연표: 1076년 ~ 1455년 (1271년)",
+        "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1076%EB%85%84_~_1455%EB%85%84:~:text=1271",
         "d_day": "D-4"
       }
     ],
     "polyglot": {
       "theme": "음식과 건강: 술자리",
-      "meaning": "원샷! (다 마셔!)",
+      "meaning": "오늘 꽐라가 되도록 마셔보자!",
       "translations": {
         "en": {
           "code": "en-US",
           "name": "영어",
           "flag": "🇺🇸",
-          "text": "Bottoms up!",
+          "text": "Let's get wasted!",
           "roman": ""
         },
         "ja": {
           "code": "ja-JP",
           "name": "일본어",
           "flag": "🇯🇵",
-          "text": "乾杯！一気に！",
-          "roman": "Kampai! Ikki ni!"
+          "text": "今日はとことん飲んで潰れようぜ！",
+          "roman": "Kyō wa tokoton nonde tsubureyō ze!"
         },
         "zh": {
           "code": "zh-CN",
           "name": "중국어",
           "flag": "🇨🇳",
-          "text": "干杯！一口闷！",
-          "roman": "Gānbēi! Yīkǒu mèn!"
+          "text": "今天不醉不归！",
+          "roman": "Jīntiān bù zuì bù guī!"
         },
         "fr": {
           "code": "fr-FR",
           "name": "프랑스어",
           "flag": "🇫🇷",
-          "text": "Cul sec !",
+          "text": "On va se mettre une caisse ce soir !",
           "roman": ""
         },
         "de": {
           "code": "de-DE",
           "name": "독일어",
           "flag": "🇩🇪",
-          "text": "Bis auf den Grund!",
+          "text": "Lass uns richtig die Kante geben!",
           "roman": ""
         },
         "es": {
           "code": "es-ES",
           "name": "스페인어",
           "flag": "🇪🇸",
-          "text": "¡Hasta el fondo!",
+          "text": "¡Vamos a ponernos ciegos!",
           "roman": ""
         },
         "ar": {
           "code": "ar-SA",
           "name": "아랍어",
           "flag": "🇸🇦",
-          "text": "حتى القاع! بصحتك!",
-          "roman": "Ḥattā al-qā'! Bi-ṣiḥḥatik!"
+          "text": "دعنا نسهر حتى نثمل تمامًا!",
+          "roman": "Da'nā nashar ḥattā nathmala tamāman!"
         },
         "ru": {
           "code": "ru-RU",
           "name": "러시아어",
           "flag": "🇷🇺",
-          "text": "Пей до дна!",
-          "roman": "Pey do dna!"
+          "text": "Давай напьёмся в стельку!",
+          "roman": "Davay nap'yomsya v stel'ku!"
         }
       }
     },
     "philosophy": {
-      "thinker": "한비자 (韓非子)",
-      "era": "기원전 3세기 전국시대 중국",
-      "concept": "법(法)·술(術)·세(勢)의 통치공학",
-      "quote": "“호랑이가 개를 굴복시킬 수 있는 까닭은 날카로운 발톱과 이빨(권세)을 쥐고 있기 때문이다.”",
+      "thinker": "토머스 홉스 (Thomas Hobbes)",
+      "era": "17세기 영국 내란기",
+      "concept": "리바이어던(Leviathan)과 자연상태",
+      "quote": "“공통의 권력이 없는 곳에는 법도 없고, 법이 없는 곳에는 불의도 없다.”",
       "bullets": [
-        "인간의 도덕적 선의(善意)에 의존하는 정치를 경계하고 명문화된 법(法)과 엄격한 신상필벌 강조",
-        "신하들의 사익 추구를 간파하고 조직을 장악하는 군주의 인사 관리 기법(術)",
-        "직위와 제도에서 나오는 구조적 권력(勢)의 중요성 역설"
+        "강력한 중앙 권력이 부재할 때 사회는 '만인에 대한 만인의 투쟁' 상태로 전락",
+        "자기 보존의 본능을 지닌 개인들이 평화와 안보를 위해 권력을 국가(리바이어던)에 양도하는 사회계약설",
+        "주권의 통일성과 질서 유지가 자유보다 선행하는 최고의 정치적 가치임을 규정"
       ],
-      "application": "거대 기업 조직의 거버넌스 설계, 시스템적 내부 통제 구축, 독점적 플랫폼의 구조적 지배력 분석에 유효합니다."
+      "application": "세계 정부가 없는 무정부적(Anarchic) 국제 질서에서 각국이 군사력과 경제 안보를 자급화하려는 자조(Self-help) 메커니즘을 규명합니다."
     }
   },
   "trends": {
@@ -1138,13 +1148,13 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "이강인 59분 아틀레티코 1-2 패배",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EA%B0%95%EC%9D%B8%2059%EB%B6%84%20%EC%95%84%ED%8B%80%EB%A0%88%ED%8B%B0%EC%BD%94%201-2%20%ED%8C%A8%EB%B0%B0"
+        "title": "구윤철 부총리 주재 회의",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B5%AC%EC%9C%A4%EC%B2%A0%20%EB%B6%80%EC%B4%9D%EB%A6%AC%20%EC%A3%BC%EC%9E%AC%20%ED%9A%8C%EC%9D%98"
       },
       {
         "rank": 2,
-        "title": "애플 폴더블 듀오",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%A0%ED%94%8C%20%ED%8F%B4%EB%8D%94%EB%B8%94%20%EB%93%80%EC%98%A4"
+        "title": "이정후 동점 타점 2루타",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EC%A0%95%ED%9B%84%20%EB%8F%99%EC%A0%90%20%ED%83%80%EC%A0%90%202%EB%A3%A8%ED%83%80"
       },
       {
         "rank": 3,
@@ -1153,38 +1163,38 @@
       },
       {
         "rank": 4,
-        "title": "시청률",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%8B%9C%EC%B2%AD%EB%A5%A0"
+        "title": "애플 첫 폴더블 아이폰 듀오",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%A0%ED%94%8C%20%EC%B2%AB%20%ED%8F%B4%EB%8D%94%EB%B8%94%20%EC%95%84%EC%9D%B4%ED%8F%B0%20%EB%93%80%EC%98%A4"
       },
       {
         "rank": 5,
-        "title": "트럼프 이란전 중간선거 후 종료",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%8A%B8%EB%9F%BC%ED%94%84%20%EC%9D%B4%EB%9E%80%EC%A0%84%20%EC%A4%91%EA%B0%84%EC%84%A0%EA%B1%B0%20%ED%9B%84%20%EC%A2%85%EB%A3%8C"
+        "title": "김민석 서울시장 수첩",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EB%AF%BC%EC%84%9D%20%EC%84%9C%EC%9A%B8%EC%8B%9C%EC%9E%A5%20%EC%88%98%EC%B2%A9"
       },
       {
         "rank": 6,
-        "title": "수첩으로 김민석 수첩",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%88%98%EC%B2%A9%EC%9C%BC%EB%A1%9C%20%EA%B9%80%EB%AF%BC%EC%84%9D%20%EC%88%98%EC%B2%A9"
+        "title": "에코프로",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%97%90%EC%BD%94%ED%94%84%EB%A1%9C"
       },
       {
         "rank": 7,
+        "title": "인플루엔자 무료 예방접종",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B8%ED%94%8C%EB%A3%A8%EC%97%94%EC%9E%90%20%EB%AC%B4%EB%A3%8C%20%EC%98%88%EB%B0%A9%EC%A0%91%EC%A2%85"
+      },
+      {
+        "rank": 8,
+        "title": "이강인 챔피언스리그 역전패",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EA%B0%95%EC%9D%B8%20%EC%B1%94%ED%94%BC%EC%96%B8%EC%8A%A4%EB%A6%AC%EA%B7%B8%20%EC%97%AD%EC%A0%84%ED%8C%A8"
+      },
+      {
+        "rank": 9,
         "title": "나는 솔로",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%82%98%EB%8A%94%20%EC%86%94%EB%A1%9C"
       },
       {
-        "rank": 8,
-        "title": "증권사 2분기 순이익",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A6%9D%EA%B6%8C%EC%82%AC%202%EB%B6%84%EA%B8%B0%20%EC%88%9C%EC%9D%B4%EC%9D%B5"
-      },
-      {
-        "rank": 9,
-        "title": "이재용 홍라희 주식",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EC%9E%AC%EC%9A%A9%20%ED%99%8D%EB%9D%BC%ED%9D%AC%20%EC%A3%BC%EC%8B%9D"
-      },
-      {
         "rank": 10,
-        "title": "부산 전복 실종자 발견",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B6%80%EC%82%B0%20%EC%A0%84%EB%B3%B5%20%EC%8B%A4%EC%A2%85%EC%9E%90%20%EB%B0%9C%EA%B2%AC"
+        "title": "운세",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9A%B4%EC%84%B8"
       }
     ],
     "youtube_popular": [
@@ -1208,7 +1218,7 @@
         "rank": 3,
         "title": "사기의 아픔을 딛고 드디어 진짜 음바페 영입",
         "channel": "튜브김민교",
-        "views": "42만회",
+        "views": "43만회",
         "thumb": "https://i.ytimg.com/vi/SQ7tpUm0zkc/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=SQ7tpUm0zkc"
       },
@@ -1240,7 +1250,7 @@
         "rank": 7,
         "title": "소연 (SOYEON) '퇴사할게여 (Narr. 기안84)' Official Music Video",
         "channel": "i-dle (아이들)",
-        "views": "392만회",
+        "views": "394만회",
         "thumb": "https://i.ytimg.com/vi/7mDDM0eBWR0/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=7mDDM0eBWR0"
       },
