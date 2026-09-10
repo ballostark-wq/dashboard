@@ -692,18 +692,9 @@
           <button class="lang-tab" onclick="switchLanguage('ru')">🇷🇺 RU</button>
         </div>
 
-        <div style="background:#020617; border:1px solid #1e293b; border-radius:8px; padding:10px; min-height:85px; display:flex; flex-direction:column; justify-content:center;">
-          <div style="display:flex; justify-content:space-between; font-size:0.65rem; color:#94a3b8; margin-bottom:4px;">
-            <span id="poly-theme-label">전략적 협상과 우선순위 조율</span>
-            <span id="poly-lang-name" style="color:#fbbf24; font-weight:700;">영어 (EN)</span>
-          </div>
-          <p id="poly-foreign-text" style="font-size:0.88rem; font-weight:800; color:#fef08a; line-height:1.35; margin-bottom:4px;">
-            "Let's align on the core terms and priorities before moving forward."
-          </p>
-          <p id="poly-roman-text" style="font-size:0.65rem; color:#94a3b8; font-style:italic; margin-bottom:3px; display:none;"></p>
-          <p id="poly-meaning-text" style="font-size:0.72rem; color:#cbd5e1;">
-            본격적인 추진에 앞서, 핵심 조건과 우선순위에 대한 합의를 먼저 도출합시다.
-          </p>
+        <!-- 최근 5일 회화 리스트업 피드 컨테이너 -->
+        <div id="polyglot-list-container" style="max-height:260px; overflow-y:auto; padding-right:2px; display:flex; flex-direction:column; gap:6px;">
+          <div style="font-size:0.72rem; color:#64748b; text-align:center; padding:40px 0;">회화 데이터를 로딩 중입니다...</div>
         </div>
       </div>
       <div class="card-footer">
@@ -976,37 +967,54 @@
         document.getElementById('h-history-bullets').innerHTML = h.bullets.map(b => `<li>${b}</li>`).join('');
       }
 
-      // 2. 다국어 회화 카드 (기본 언어 반영)
-
-      // 2. 다국어 회화 카드 (기본 언어 반영)
-      if (p) {
-        document.getElementById('poly-theme-label').innerText = p.theme;
-        document.getElementById('poly-meaning-text').innerText = p.meaning;
-        switchLanguage(currentLangCode);
-      }
+      // 2. 다국어 회화 카드 5일치 피드 렌더링
+      switchLanguage(currentLangCode);
     }
 
-    // 다국어 탭 전환
+    // 다국어 탭 전환 및 최근 5일치 일괄 리스트업 렌더러
     function switchLanguage(langKey) {
       currentLangCode = langKey;
       document.querySelectorAll('#polyglot-lang-chips .lang-tab').forEach(b => b.classList.remove('active'));
       const activeBtn = Array.from(document.querySelectorAll('#polyglot-lang-chips .lang-tab')).find(b => b.innerText.toLowerCase().includes(langKey));
       if (activeBtn) activeBtn.classList.add('active');
 
-      if (!cachedHumanities || !cachedHumanities.polyglot) return;
-      const item = cachedHumanities.polyglot.translations[langKey];
-      if (!item) return;
+      const container = document.getElementById('polyglot-list-container');
+      if (!container || !cachedHumanities) return;
 
-      document.getElementById('poly-lang-name').innerText = `${item.flag} ${item.name}`;
-      document.getElementById('poly-foreign-text').innerText = `"${item.text}"`;
-
-      const romanEl = document.getElementById('poly-roman-text');
-      if (item.roman) {
-        romanEl.style.display = 'block';
-        romanEl.innerText = ` 발음: [${item.roman}]`;
-      } else {
-        romanEl.style.display = 'none';
+      const list = cachedHumanities.polyglot_5d || (cachedHumanities.polyglot ? [cachedHumanities.polyglot] : []);
+      if (list.length === 0) {
+        container.innerHTML = '<div style="font-size:0.72rem; color:#64748b; text-align:center; padding:40px 0;">회화 데이터가 없습니다.</div>';
+        return;
       }
+
+      container.innerHTML = list.map((p, idx) => {
+        const trans = (p.translations && p.translations[langKey]) ? p.translations[langKey] : null;
+        if (!trans) return '';
+
+        const isToday = idx === 0;
+        const dDayTag = p.d_day || (isToday ? '오늘' : `D-${idx}`);
+
+        return `
+          <div style="background:#020617; border:1px solid ${isToday ? 'rgba(245,158,11,0.45)' : '#1e293b'}; border-radius:8px; padding:8px 10px; display:flex; flex-direction:column; justify-content:space-between; gap:3px;">
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+              <div style="display:flex; align-items:center; gap:5px;">
+                <span style="font-size:0.62rem; font-weight:800; color:${isToday ? '#fbbf24' : '#94a3b8'}; background:#090e1f; padding:1px 5px; border-radius:4px; border:1px solid #334155;">${dDayTag}</span>
+                <span style="font-size:0.65rem; color:#94a3b8; font-weight:600;">${p.theme || '일상 회화'}</span>
+              </div>
+              <button class="tts-btn" onclick="speakSpecificText('${trans.text.replace(/'/g, "\\'")}', '${trans.code || langKey}')" style="padding:1px 6px; font-size:0.62rem;">
+                🔊 발음
+              </button>
+            </div>
+            <div style="font-size:0.8rem; font-weight:800; color:${isToday ? '#fef08a' : '#f8fafc'}; line-height:1.35; margin-top:2px;">
+              "${trans.text}"
+            </div>
+            ${trans.roman ? `<div style="font-size:0.62rem; color:#94a3b8; font-style:italic;">[${trans.roman}]</div>` : ''}
+            <div style="font-size:0.68rem; color:#cbd5e1; margin-top:1px;">
+              ${p.meaning || ''}
+            </div>
+          </div>
+        `;
+      }).join('');
     }
 
     // =========================================================================
