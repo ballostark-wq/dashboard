@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10 21:07:43",
+  "updated_at": "2026-09-10 22:06:10",
   "us2y": {
     "value": 4.37,
     "change": -0.29
@@ -21,8 +21,8 @@
     "status": "정상화 (우상향)"
   },
   "vix": {
-    "value": 16.78,
-    "change": 1.94
+    "value": 17.6,
+    "change": 6.93
   },
   "tech_news": [
     {
@@ -118,6 +118,11 @@
     ],
     "tech": [
       {
+        "title": "[디일렉] 큐알티-에이아이웍스 MOU…반도체 검증에 AI 접목한다",
+        "link": "https://www.thelec.kr/news/articleView.html?idxno=62127",
+        "date": "09-10 21:20"
+      },
+      {
         "title": "[디일렉] 퀄컴 \"새로운 하이퍼스케일러와 맞춤형 AI 가속기 협력\"",
         "link": "https://www.thelec.kr/news/articleView.html?idxno=62109",
         "date": "09-10 17:44"
@@ -128,19 +133,14 @@
         "date": "09-10 17:32"
       },
       {
-        "title": "[디일렉] 삼성전자, 히트펌프 전문 설치교육 확대",
-        "link": "https://www.thelec.kr/news/articleView.html?idxno=62123",
-        "date": "09-10 17:25"
+        "title": "[전자신문] 김상훈·김태호 전남대 교수팀, 스마트 양식장 통합 설계 방향 제시",
+        "link": "https://www.etnews.com/20260910000426",
+        "date": "09-10 21:56"
       },
       {
-        "title": "[전자신문] 오픈AI, '아스트라' 수요 폭증에 프로 요금제 가입 중단 시사",
-        "link": "https://www.etnews.com/20260910000421",
-        "date": "09-10 19:27"
-      },
-      {
-        "title": "[전자신문] 울산 찾은 최태원 SK 회장…“SK그룹의 AX 혁신 이끌어달라”",
-        "link": "https://www.etnews.com/20260910000420",
-        "date": "09-10 19:07"
+        "title": "[전자신문] [2026 ACE Fair] 민형배 시장 “새로운 작품·사람·아이디어들이 만나고 이어지길”",
+        "link": "https://www.etnews.com/20260910000425",
+        "date": "09-10 21:51"
       }
     ],
     "domestic": [
@@ -236,70 +236,70 @@
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,417.5",
-          "chg": "+0.03%",
-          "up": true
+          "val": "$4,379.7",
+          "chg": "-0.82%",
+          "up": false
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$66.14",
-          "chg": "-2.65%",
+          "val": "$64.57",
+          "chg": "-4.96%",
           "up": false
         }
       ],
       "bullets": [
         "구리 $6.57/lb (-3.38%) - AI 전력망 설비 수요 반영",
-        "금 $4,418/oz, 은 $66.14/oz - 통화가치 헤지"
+        "금 $4,380/oz, 은 $64.57/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,344원 | 엔/달러 ¥154.2",
-      "title": "원/달러 1,343.5원선과 엔/달러 ¥154.2",
+      "badge": "원/달러 1,345원 | 엔/달러 ¥154.3",
+      "title": "원/달러 1,344.8원선과 엔/달러 ¥154.3",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,343.5원",
-          "chg": "+0.32%",
+          "val": "1,344.8원",
+          "chg": "+0.42%",
           "up": true
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "98.98pt",
-          "chg": "+0.21%",
+          "val": "99.11pt",
+          "chg": "+0.34%",
           "up": true
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥154.17",
-          "chg": "+0.45%",
+          "val": "¥154.26",
+          "chg": "+0.51%",
           "up": true
         }
       ],
       "bullets": [
-        "달러 인덱스 98.98pt - 미국 성장 우위 지속",
-        "엔/달러 154.17엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 99.11pt - 미국 성장 우위 지속",
+        "엔/달러 154.26엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $98.25",
-      "title": "WTI 배럴당 $98.25선 박스권 안정",
+      "badge": "WTI $100.17",
+      "title": "WTI 배럴당 $100.17선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$98.25",
-          "chg": "+2.29%",
+          "val": "$100.17",
+          "chg": "+4.29%",
           "up": true
         }
       ],
       "bullets": [
-        "WTI 선물 $98.25/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $100.17/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -311,28 +311,28 @@
       "change": -3.38
     },
     "gold": {
-      "price": 4417.5,
-      "change": 0.03
+      "price": 4379.7,
+      "change": -0.82
     },
     "silver": {
-      "price": 66.14,
-      "change": -2.65
+      "price": 64.57,
+      "change": -4.96
     },
     "wti": {
-      "price": 98.25,
-      "change": 2.29
+      "price": 100.17,
+      "change": 4.29
     },
     "usdkrw": {
-      "price": 1343.53,
-      "change": 0.32
+      "price": 1344.78,
+      "change": 0.42
     },
     "dxy": {
-      "price": 98.98,
-      "change": 0.21
+      "price": 99.11,
+      "change": 0.34
     },
     "usdjpy": {
-      "price": 154.17,
-      "change": 0.45
+      "price": 154.26,
+      "change": 0.51
     }
   },
   "history_20d": {
@@ -596,8 +596,8 @@
       {
         "date": "09-10",
         "copper": 6.57,
-        "gold": 4417.5,
-        "silver": 66.14
+        "gold": 4379.7,
+        "silver": 64.57
       }
     ],
     "fx": [
@@ -717,9 +717,9 @@
       },
       {
         "date": "09-10",
-        "usdkrw": 1343.53,
-        "dxy": 98.98,
-        "usdjpy": 154.17
+        "usdkrw": 1344.78,
+        "dxy": 99.11,
+        "usdjpy": 154.26
       }
     ],
     "oil": [
@@ -820,8 +820,8 @@
       },
       {
         "date": "09-10",
-        "wti": 98.25,
-        "change": 2.29
+        "wti": 100.17,
+        "change": 4.29
       }
     ]
   },
@@ -1475,53 +1475,53 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "승리, 특수폭행 혐의로 피소",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%8A%B9%EB%A6%AC%2C%20%ED%8A%B9%EC%88%98%ED%8F%AD%ED%96%89%20%ED%98%90%EC%9D%98%EB%A1%9C%20%ED%94%BC%EC%86%8C"
+        "title": "KB금융 챔피언십 1라운드 경기",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=KB%EA%B8%88%EC%9C%B5%20%EC%B1%94%ED%94%BC%EC%96%B8%EC%8B%AD%201%EB%9D%BC%EC%9A%B4%EB%93%9C%20%EA%B2%BD%EA%B8%B0"
       },
       {
         "rank": 2,
-        "title": "두산 세베리노 홈런",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%91%90%EC%82%B0%20%EC%84%B8%EB%B2%A0%EB%A6%AC%EB%85%B8%20%ED%99%88%EB%9F%B0"
+        "title": "승리, 30대 남성 폭행 피소",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%8A%B9%EB%A6%AC%2C%2030%EB%8C%80%20%EB%82%A8%EC%84%B1%20%ED%8F%AD%ED%96%89%20%ED%94%BC%EC%86%8C"
       },
       {
         "rank": 3,
-        "title": "백진희 헨리 결혼 발표",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B0%B1%EC%A7%84%ED%9D%AC%20%ED%97%A8%EB%A6%AC%20%EA%B2%B0%ED%98%BC%20%EB%B0%9C%ED%91%9C"
-      },
-      {
-        "rank": 4,
-        "title": "신진서",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%8B%A0%EC%A7%84%EC%84%9C"
-      },
-      {
-        "rank": 5,
-        "title": "홈플러스 김병주 회장 조사",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%99%88%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EA%B9%80%EB%B3%91%EC%A3%BC%20%ED%9A%8C%EC%9E%A5%20%EC%A1%B0%EC%82%AC"
-      },
-      {
-        "rank": 6,
         "title": "이 대통령, 공소청 직제안 수정 지시",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%20%EB%8C%80%ED%86%B5%EB%A0%B9%2C%20%EA%B3%B5%EC%86%8C%EC%B2%AD%20%EC%A7%81%EC%A0%9C%EC%95%88%20%EC%88%98%EC%A0%95%20%EC%A7%80%EC%8B%9C"
       },
       {
+        "rank": 4,
+        "title": "우리투자증권 금리 인상",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9A%B0%EB%A6%AC%ED%88%AC%EC%9E%90%EC%A6%9D%EA%B6%8C%20%EA%B8%88%EB%A6%AC%20%EC%9D%B8%EC%83%81"
+      },
+      {
+        "rank": 5,
+        "title": "카페",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B9%B4%ED%8E%98"
+      },
+      {
+        "rank": 6,
+        "title": "백진희 헨리 결혼 발표",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B0%B1%EC%A7%84%ED%9D%AC%20%ED%97%A8%EB%A6%AC%20%EA%B2%B0%ED%98%BC%20%EB%B0%9C%ED%91%9C"
+      },
+      {
         "rank": 7,
-        "title": "조현 외교부 장관, 우간다 부총리 면담",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A1%B0%ED%98%84%20%EC%99%B8%EA%B5%90%EB%B6%80%20%EC%9E%A5%EA%B4%80%2C%20%EC%9A%B0%EA%B0%84%EB%8B%A4%20%EB%B6%80%EC%B4%9D%EB%A6%AC%20%EB%A9%B4%EB%8B%B4"
+        "title": "강선영",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B0%95%EC%84%A0%EC%98%81"
       },
       {
         "rank": 8,
-        "title": "미중 관세인하 협상",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%AF%B8%EC%A4%91%20%EA%B4%80%EC%84%B8%EC%9D%B8%ED%95%98%20%ED%98%91%EC%83%81"
+        "title": "홈플러스 김병주 회장 조사",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%99%88%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EA%B9%80%EB%B3%91%EC%A3%BC%20%ED%9A%8C%EC%9E%A5%20%EC%A1%B0%EC%82%AC"
       },
       {
         "rank": 9,
-        "title": "장윤정 모친 사기 징역",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9E%A5%EC%9C%A4%EC%A0%95%20%EB%AA%A8%EC%B9%9C%20%EC%82%AC%EA%B8%B0%20%EC%A7%95%EC%97%AD"
+        "title": "한동훈 총리실 사찰 논란",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%9C%EB%8F%99%ED%9B%88%20%EC%B4%9D%EB%A6%AC%EC%8B%A4%20%EC%82%AC%EC%B0%B0%20%EB%85%BC%EB%9E%80"
       },
       {
         "rank": 10,
-        "title": "서교림 KB금융 공동 2위",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%84%9C%EA%B5%90%EB%A6%BC%20KB%EA%B8%88%EC%9C%B5%20%EA%B3%B5%EB%8F%99%202%EC%9C%84"
+        "title": "방아쇠",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B0%A9%EC%95%84%EC%87%A0"
       }
     ],
     "youtube_popular": [
@@ -1529,7 +1529,7 @@
         "rank": 1,
         "title": "IU 'Dear my crazy soulmate' MV",
         "channel": "이지금 [IU Official]",
-        "views": "9만회",
+        "views": "17만회",
         "thumb": "https://i.ytimg.com/vi/RdUV9Ms5GM4/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=RdUV9Ms5GM4"
       },
@@ -1537,23 +1537,23 @@
         "rank": 2,
         "title": "나를 충전해줘 | 공식 티저 예고편 | 넷플릭스",
         "channel": "Netflix Korea 넷플릭스 코리아",
-        "views": "29만회",
+        "views": "30만회",
         "thumb": "https://i.ytimg.com/vi/fksdxa-ylzE/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=fksdxa-ylzE"
       },
       {
         "rank": 3,
-        "title": "사기의 아픔을 딛고 드디어 진짜 음바페 영입",
-        "channel": "튜브김민교",
-        "views": "54만회",
-        "thumb": "https://i.ytimg.com/vi/SQ7tpUm0zkc/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=SQ7tpUm0zkc"
+        "title": "중국인에게 인정받다",
+        "channel": "괴물쥐 유튜브",
+        "views": "49만회",
+        "thumb": "https://i.ytimg.com/vi/T4Lm2B-LJRU/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=T4Lm2B-LJRU"
       },
       {
         "rank": 4,
         "title": "Please Be Happy",
         "channel": "Lim Young Woong - Topic",
-        "views": "39만회",
+        "views": "40만회",
         "thumb": "https://i.ytimg.com/vi/PEpWLTge234/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=PEpWLTge234"
       },
@@ -1567,17 +1567,17 @@
       },
       {
         "rank": 6,
-        "title": "중국인에게 인정받다",
-        "channel": "괴물쥐 유튜브",
-        "views": "48만회",
-        "thumb": "https://i.ytimg.com/vi/T4Lm2B-LJRU/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=T4Lm2B-LJRU"
+        "title": "사기의 아픔을 딛고 드디어 진짜 음바페 영입",
+        "channel": "튜브김민교",
+        "views": "55만회",
+        "thumb": "https://i.ytimg.com/vi/SQ7tpUm0zkc/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=SQ7tpUm0zkc"
       },
       {
         "rank": 7,
         "title": "Guitarist",
         "channel": "D.O. - Topic",
-        "views": "52만회",
+        "views": "53만회",
         "thumb": "https://i.ytimg.com/vi/svHUxtHIljw/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=svHUxtHIljw"
       },
@@ -1593,7 +1593,7 @@
         "rank": 9,
         "title": "소연 (SOYEON) '퇴사할게여 (Narr. 기안84)' Official Music Video",
         "channel": "i-dle (아이들)",
-        "views": "491만회",
+        "views": "500만회",
         "thumb": "https://i.ytimg.com/vi/7mDDM0eBWR0/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=7mDDM0eBWR0"
       },
