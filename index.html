@@ -970,6 +970,89 @@
       // 2. 다국어 회화 카드 5일치 피드 렌더링 실행
       switchLanguage(currentLangCode);
     }
+    // roman 누락 시 100% 자동 매핑하는 한글 발음 보장 사전
+    const HANGUL_PRONUNCIATION_MAP = {
+      "Hello! Good day.": "헬로! 굿 데이.",
+      "こんにちは！": "곤니치와!",
+      "你好！": "니하오!",
+      "Bonjour !": "봉주르!",
+      "Guten Tag!": "구텐 탁!",
+      "¡Hola! Buenos días.": "올라! 부에노스 디아스.",
+      "مرحباً! يوم سعيد.": "마르하반! 야움 사이드.",
+      "Здравствуйте!": "즈드랏스부이쩨!",
+      "Have a wonderful day!": "해브 어 원더풀 데이!",
+      "良い一日をお過ごしください！": "요이 이치니치오 오스고시 구다사이!",
+      "祝你度过美好的一天！": "주 니 두궈 메이하오 더 이톈!",
+      "Passez une bonne journée !": "파세 윈 본 주르네!",
+      "Einen schönen Tag noch!": "아이넨 쇠넨 탁 노흐!",
+      "¡Que tengas un buen día!": "께 뗑가스 운 부엔 디아!",
+      "أتمنى لك يوماً جميلاً!": "아타만나 라카 야우만 자밀란!",
+      "Хорошего вам дня!": "하로쉐바 밤 드냐!",
+      "See you again next time!": "씨 유 어게인 넥스트 타임!",
+      "また次回お会いしましょう！": "마타 지카이 오아이 시마쇼-!",
+      "下次再见！": "샤 츠 짜이지엔!",
+      "À la prochaine fois !": "아 라 프로셴느 푸아!",
+      "Bis zum nächsten Mal!": "비스 춤 넥스텐 말!",
+      "¡Hasta la próxima!": "아스타 라 프록시마!",
+      "أراك في المرة القادمة!": "아라카 필 마르라틸 까디마!",
+      "До следующей встречи!": "다 슬례두유셰이 브스트레치!",
+      "Thank you very much.": "땡큐 베리 머치.",
+      "本当にありがとうございます。": "혼토-니 아리가토- 고자이마스.",
+      "非常感谢你。": "페이창 간셰 니.",
+      "Merci beaucoup.": "메르시 보꾸.",
+      "Vielen Dank.": "필렌 당크.",
+      "Muchas gracias.": "무차스 그라시아스.",
+      "شكراً جزيلاً لك.": "슈크란 자질란 라크.",
+      "Большое спасибо.": "발쇼예 스파시바.",
+      "Excuse me, I am sorry.": "익스큐즈 미, 아임 쏘리.",
+      "すみません、申し訳ありません。": "스미마센, 모-시와케 아리마센.",
+      "不好意思，打扰一下。": "부하오이쓰, 다라오 이샤.",
+      "Excusez-moi, pardon.": "엑스퀴제 무아, 파르동.",
+      "Entschuldigen Sie bitte.": "엔트슐디건 지 비테.",
+      "Disculpe, perdón.": "디스쿨뻬, 뻬르돈.",
+      "معذرة، أنا آسف.": "마디라탄, 아나 아시프.",
+      "Извините, прошу прощения.": "이즈비니쩨, 프라슈 프라셰니야.",
+      "You are very welcome.": "유 아 베리 웰컴.",
+      "どういたしまして。": "도-이타시마시테.",
+      "不客气，不用谢。": "부커치, 부융 셰.",
+      "Je vous en prie.": "즈 부 장 프리.",
+      "Gern geschehen, bitte schön.": "게른 게셰엔, 비테 쇤.",
+      "De nada, es un placer.": "데 나다, 에스 운 쁠라세르.",
+      "على الرحب والسعة.": "알라르 라흐비 와스-사아.",
+      "Пожалуйста, не за что.": "빠잘루이스타, 녜 자 슈또.",
+      "Nice to meet you.": "나이스 투 밋 유.",
+      "はじめまして、お会いできて嬉しいです。": "하지메마시테, 오아이 데키테 우레시이 데스.",
+      "很高兴认识你。": "헌 가오싱 런스 니.",
+      "Ravi de vous rencontrer.": "라비 드 부 랑콩트레.",
+      "Schön, Sie kennenzulernen.": "쇤, 지 케넨추러넨.",
+      "Mucho gusto en conocerte.": "무초 구스토 엔 코노세르테.",
+      "سعيد بلقائك جداً.": "사이둔 비리카이카 짓단.",
+      "Очень приятно познакомиться.": "오친 프리야트나 빠즈나코밋짜.",
+      "Could you please help me for a moment?": "쿠쥬 플리즈 헬프 미 포 어 모먼트?",
+      "少し手伝っていただけますか？": "스코시 테츠닷테 이타다케마스 카?",
+      "能请你帮我一下吗？": "넝 칭 니 방 워 이샤 마?",
+      "Pourriez-vous m'aider un instant, s'il vous plaît ?": "푸리에 부 메데 앙 앵스탕, 실 부 플레?",
+      "Könnten Sie mir bitte kurz helfen?": "켠텐 지 미어 비테 쿠르츠 헬펜?",
+      "¿Podría ayudarme un momento, por favor?": "뽀드리아 아유다르메 운 모멘토, 뽀르 파보르?",
+      "هل يمكنك مساعدتي للحظة من فضلك؟": "할 윰키누카 무사아다티 릴라흐자 민 파들릭?",
+      "Не могли бы вы мне помочь?": "니 마글리 브이 므녜 빠모치?",
+      "Sounds great! No problem at all.": "사운즈 그레이트! 노 프라블럼 앳 올.",
+      "いいですね！全く問題ありません。": "이이데스 네! 맛타쿠 몬다이 아리마센.",
+      "太好了！完全没问题。": "타이 하오 러! 완췐 메이 원티.",
+      "C'est parfait ! Aucun problème.": "세 파르페! 오깡 프로블렘.",
+      "Klingt gut! Überhaupt kein Problem.": "클링트 구트! 위버하웁트 카인 프로블렘.",
+      "¡Suena genial! Ningún problema.": "수에나 헤니알! 닝군 프로블레마.",
+      "يبدو رائعاً! لا توجد مشكلة على الإطلاق.": "얍두 라이안! 라 투자두 무시키라 알랄 이틀락.",
+      "Отлично! Никаких проблем.": "아트리치나! 니카키흐 프라블롐.",
+      "Could you speak a little more slowly, please?": "쿠쥬 스픽 어 리틀 모어 슬로우리, 플리즈?",
+      "もう少しゆっくり話していただけますか？": "모- 스코시 윳쿠리 하나시테 이타다케마스 카?",
+      "请你说得稍微慢一点好吗？": "칭 니 슈오 더 샤오웨이 만 이디엔 하오 마?",
+      "Pourriez-vous parler un peu plus lentement ?": "푸리에 부 파를레 앙 쁘 플뤼 랑트망?",
+      "Könnten Sie bitte etwas langsamer sprechen?": "켠텐 지 비테 에트바스 랑자머 슈프레헨?",
+      "¿Podría hablar un poco más despacio, por favor?": "뽀드리아 아블라르 운 뽀꼬 마스 데스파시오, 뽀르 파보르?",
+      "هل يمكنك التحدث ببطء أكثر من فضلك؟": "할 윰키누카 앗타핫두스 비부틴 악사르 민 파들릭?",
+      "Говорите, пожалуйста, помедленнее.": "가바리쩨, 빠잘루이스타, 빠메들린녜예."
+    };
 
     // 다국어 탭 전환 및 최근 5일치 [기초/일상] 교차 리스트업 렌더러
     function switchLanguage(langKey) {
@@ -993,10 +1076,14 @@
 
         const isToday = idx === 0;
         const dDayTag = p.d_day || (isToday ? '오늘' : `D-${idx}`);
-        const isBasic = p.pool_type === '기초' || p.theme.includes('기초') || p.theme.includes('Q&A');
+        const isBasic = p.pool_type === '기초' || (p.theme && (p.theme.includes('기초') || p.theme.includes('Q&A')));
         const typeBadge = isBasic 
           ? '<span style="font-size:0.58rem; font-weight:700; color:#38bdf8; background:rgba(56,189,248,0.15); border:1px solid rgba(56,189,248,0.3); padding:1px 4px; border-radius:3px;">🔰 기초문답</span>'
           : '<span style="font-size:0.58rem; font-weight:700; color:#a855f7; background:rgba(168,85,247,0.15); border:1px solid rgba(168,85,247,0.3); padding:1px 4px; border-radius:3px;">💡 일상회화</span>';
+
+        // 1순위: JSON의 roman값, 2순위: 내장 한글 사전 매핑값
+        const cleanText = trans.text.trim();
+        const phonetic = trans.roman || HANGUL_PRONUNCIATION_MAP[cleanText] || '';
 
         return `
           <div style="background:#020617; border:1px solid ${isToday ? 'rgba(245,158,11,0.45)' : '#1e293b'}; border-radius:8px; padding:7px 9px; display:flex; flex-direction:column; gap:2px;">
@@ -1013,7 +1100,7 @@
             <div style="font-size:0.78rem; font-weight:800; color:${isToday ? '#fef08a' : '#f8fafc'}; line-height:1.3; margin-top:2px;">
               "${trans.text}"
             </div>
-            ${trans.roman ? `<div style="font-size:0.62rem; color:#94a3b8; font-style:italic;">[${trans.roman}]</div>` : ''}
+            ${phonetic ? `<div style="font-size:0.65rem; color:#38bdf8; font-weight:600; margin-top:1px;">[${phonetic}]</div>` : ''}
             <div style="font-size:0.67rem; color:#cbd5e1;">
               ${p.meaning}
             </div>
