@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11 04:05:03",
+  "updated_at": "2026-09-11 05:05:32",
   "us2y": {
     "value": 4.37,
     "change": -0.29
@@ -21,8 +21,8 @@
     "status": "정상화 (우상향)"
   },
   "vix": {
-    "value": 17.82,
-    "change": 8.26
+    "value": 17.93,
+    "change": 8.93
   },
   "tech_news": [
     {
@@ -145,6 +145,11 @@
     ],
     "domestic": [
       {
+        "title": "美 30년물 국채, 2001년 이후 최고 수익률 낙찰…수요는 강력",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434358",
+        "date": "09-11 04:37"
+      },
+      {
         "title": "美 8월 PPI 전월비 0.4% 올랐다…상승 각도 가팔라져(종합)",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434357",
         "date": "09-11 02:52"
@@ -163,11 +168,6 @@
         "title": "美 국채가, 뜨거운 PPI·트럼프 배당 공포에 급락",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434352",
         "date": "09-11 00:57"
-      },
-      {
-        "title": "美 8월 PPI 전월비 0.4% 올랐다…상승 각도 가팔라져(상보)",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434350",
-        "date": "09-11 00:19"
       }
     ]
   },
@@ -236,70 +236,70 @@
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,372.8",
-          "chg": "-0.98%",
+          "val": "$4,365.4",
+          "chg": "-1.15%",
           "up": false
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$64.39",
-          "chg": "-5.23%",
+          "val": "$64.21",
+          "chg": "-5.49%",
           "up": false
         }
       ],
       "bullets": [
         "구리 $6.52/lb (-4.12%) - AI 전력망 설비 수요 반영",
-        "금 $4,373/oz, 은 $64.39/oz - 통화가치 헤지"
+        "금 $4,365/oz, 은 $64.21/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,348원 | 엔/달러 ¥154.3",
-      "title": "원/달러 1,347.6원선과 엔/달러 ¥154.3",
+      "badge": "원/달러 1,349원 | 엔/달러 ¥154.4",
+      "title": "원/달러 1,348.9원선과 엔/달러 ¥154.4",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,347.6원",
-          "chg": "+0.62%",
+          "val": "1,348.9원",
+          "chg": "+0.73%",
           "up": true
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "99.04pt",
-          "chg": "+0.27%",
+          "val": "99.06pt",
+          "chg": "+0.29%",
           "up": true
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥154.35",
-          "chg": "+0.57%",
+          "val": "¥154.36",
+          "chg": "+0.51%",
           "up": true
         }
       ],
       "bullets": [
-        "달러 인덱스 99.04pt - 미국 성장 우위 지속",
-        "엔/달러 154.35엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 99.06pt - 미국 성장 우위 지속",
+        "엔/달러 154.36엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $101.66",
-      "title": "WTI 배럴당 $101.66선 박스권 안정",
+      "badge": "WTI $102.6",
+      "title": "WTI 배럴당 $102.6선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$101.66",
-          "chg": "+5.84%",
+          "val": "$102.60",
+          "chg": "+6.82%",
           "up": true
         }
       ],
       "bullets": [
-        "WTI 선물 $101.66/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $102.6/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -311,28 +311,28 @@
       "change": -4.12
     },
     "gold": {
-      "price": 4372.8,
-      "change": -0.98
+      "price": 4365.4,
+      "change": -1.15
     },
     "silver": {
-      "price": 64.39,
-      "change": -5.23
+      "price": 64.21,
+      "change": -5.49
     },
     "wti": {
-      "price": 101.66,
-      "change": 5.84
+      "price": 102.6,
+      "change": 6.82
     },
     "usdkrw": {
-      "price": 1347.58,
-      "change": 0.62
+      "price": 1348.9,
+      "change": 0.73
     },
     "dxy": {
-      "price": 99.04,
-      "change": 0.27
+      "price": 99.06,
+      "change": 0.29
     },
     "usdjpy": {
-      "price": 154.35,
-      "change": 0.57
+      "price": 154.36,
+      "change": 0.51
     }
   },
   "history_20d": {
@@ -596,130 +596,130 @@
       {
         "date": "09-10",
         "copper": 6.52,
-        "gold": 4372.8,
-        "silver": 64.39
+        "gold": 4365.4,
+        "silver": 64.21
       }
     ],
     "fx": [
       {
-        "date": "08-13",
-        "usdkrw": 1416.85,
-        "dxy": 99.96,
-        "usdjpy": 159.43
-      },
-      {
         "date": "08-16",
         "usdkrw": 1415.37,
-        "dxy": 99.67,
+        "dxy": 99.96,
         "usdjpy": 159.22
       },
       {
         "date": "08-17",
         "usdkrw": 1414.73,
-        "dxy": 99.64,
+        "dxy": 99.67,
         "usdjpy": 159.34
       },
       {
         "date": "08-18",
         "usdkrw": 1413.58,
-        "dxy": 99.65,
+        "dxy": 99.64,
         "usdjpy": 159.55
       },
       {
         "date": "08-19",
         "usdkrw": 1389.4,
-        "dxy": 98.83,
+        "dxy": 99.65,
         "usdjpy": 158.28
       },
       {
         "date": "08-20",
         "usdkrw": 1390.79,
-        "dxy": 98.9,
+        "dxy": 98.83,
         "usdjpy": 158.88
       },
       {
         "date": "08-23",
         "usdkrw": 1384.98,
-        "dxy": 98.8,
+        "dxy": 98.9,
         "usdjpy": 158.9
       },
       {
         "date": "08-24",
         "usdkrw": 1380.76,
-        "dxy": 99.0,
+        "dxy": 98.8,
         "usdjpy": 159.14
       },
       {
         "date": "08-25",
         "usdkrw": 1381.49,
-        "dxy": 98.92,
+        "dxy": 99.0,
         "usdjpy": 159.22
       },
       {
         "date": "08-26",
         "usdkrw": 1383.49,
-        "dxy": 99.17,
+        "dxy": 98.92,
         "usdjpy": 159.26
       },
       {
         "date": "08-27",
         "usdkrw": 1380.45,
-        "dxy": 99.16,
+        "dxy": 99.17,
         "usdjpy": 159.32
       },
       {
         "date": "08-30",
         "usdkrw": 1377.11,
-        "dxy": 99.7,
+        "dxy": 99.16,
         "usdjpy": 160.12
       },
       {
         "date": "08-31",
         "usdkrw": 1366.62,
-        "dxy": 99.43,
+        "dxy": 99.7,
         "usdjpy": 159.75
       },
       {
         "date": "09-01",
         "usdkrw": 1372.86,
-        "dxy": 99.67,
+        "dxy": 99.43,
         "usdjpy": 160.2
       },
       {
         "date": "09-02",
         "usdkrw": 1358.39,
-        "dxy": 99.56,
+        "dxy": 99.67,
         "usdjpy": 158.92
       },
       {
         "date": "09-03",
         "usdkrw": 1355.41,
-        "dxy": 99.0,
+        "dxy": 99.56,
         "usdjpy": 155.66
       },
       {
         "date": "09-06",
         "usdkrw": 1345.06,
-        "dxy": 99.16,
+        "dxy": 99.0,
         "usdjpy": 156.2
       },
       {
         "date": "09-07",
         "usdkrw": 1343.57,
-        "dxy": 98.84,
+        "dxy": 99.16,
         "usdjpy": 153.85
       },
       {
         "date": "09-08",
         "usdkrw": 1339.21,
-        "dxy": 98.77,
+        "dxy": 98.84,
         "usdjpy": 153.48
       },
       {
+        "date": "09-09",
+        "usdkrw": 1339.17,
+        "dxy": 98.77,
+        "usdjpy": 153.57
+      },
+      {
         "date": "09-10",
-        "usdkrw": 1347.58,
-        "dxy": 99.04,
-        "usdjpy": 154.35
+        "usdkrw": 1348.9,
+        "dxy": 99.06,
+        "usdjpy": 154.36
       }
     ],
     "oil": [
@@ -820,8 +820,8 @@
       },
       {
         "date": "09-10",
-        "wti": 101.66,
-        "change": 5.84
+        "wti": 102.6,
+        "change": 6.82
       }
     ]
   },
@@ -1471,23 +1471,23 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "승리, 특수폭행 혐의 피소",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%8A%B9%EB%A6%AC%2C%20%ED%8A%B9%EC%88%98%ED%8F%AD%ED%96%89%20%ED%98%90%EC%9D%98%20%ED%94%BC%EC%86%8C"
-      },
-      {
-        "rank": 2,
         "title": "국제유가 100달러 돌파",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B5%AD%EC%A0%9C%EC%9C%A0%EA%B0%80%20100%EB%8B%AC%EB%9F%AC%20%EB%8F%8C%ED%8C%8C"
       },
       {
+        "rank": 2,
+        "title": "KB금융 챔피언십 1라운드 경기",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=KB%EA%B8%88%EC%9C%B5%20%EC%B1%94%ED%94%BC%EC%96%B8%EC%8B%AD%201%EB%9D%BC%EC%9A%B4%EB%93%9C%20%EA%B2%BD%EA%B8%B0"
+      },
+      {
         "rank": 3,
-        "title": "KB금융 챔피언십 1라운드",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=KB%EA%B8%88%EC%9C%B5%20%EC%B1%94%ED%94%BC%EC%96%B8%EC%8B%AD%201%EB%9D%BC%EC%9A%B4%EB%93%9C"
+        "title": "ECB 두번째 금리 인상",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=ECB%20%EB%91%90%EB%B2%88%EC%A7%B8%20%EA%B8%88%EB%A6%AC%20%EC%9D%B8%EC%83%81"
       },
       {
         "rank": 4,
-        "title": "ECB 금리 인상",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=ECB%20%EA%B8%88%EB%A6%AC%20%EC%9D%B8%EC%83%81"
+        "title": "크로아티아에 천무 18대 수출",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%81%AC%EB%A1%9C%EC%95%84%ED%8B%B0%EC%95%84%EC%97%90%20%EC%B2%9C%EB%AC%B4%2018%EB%8C%80%20%EC%88%98%EC%B6%9C"
       },
       {
         "rank": 5,
@@ -1496,28 +1496,28 @@
       },
       {
         "rank": 6,
-        "title": "아스널 fc",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%84%EC%8A%A4%EB%84%90%20fc"
+        "title": "네이버 웹툰",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%84%A4%EC%9D%B4%EB%B2%84%20%EC%9B%B9%ED%88%B0"
       },
       {
         "rank": 7,
-        "title": "크로아티아 천무 18대 수출",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%81%AC%EB%A1%9C%EC%95%84%ED%8B%B0%EC%95%84%20%EC%B2%9C%EB%AC%B4%2018%EB%8C%80%20%EC%88%98%EC%B6%9C"
+        "title": "이강철 감독 600승 달성",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EA%B0%95%EC%B2%A0%20%EA%B0%90%EB%8F%85%20600%EC%8A%B9%20%EB%8B%AC%EC%84%B1"
       },
       {
         "rank": 8,
-        "title": "챔스",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B1%94%EC%8A%A4"
+        "title": "스포티비",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%8A%A4%ED%8F%AC%ED%8B%B0%EB%B9%84"
       },
       {
         "rank": 9,
-        "title": "추미애 경기 국비",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B6%94%EB%AF%B8%EC%95%A0%20%EA%B2%BD%EA%B8%B0%20%EA%B5%AD%EB%B9%84"
+        "title": "오세훈",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%98%A4%EC%84%B8%ED%9B%88"
       },
       {
         "rank": 10,
-        "title": "이강철 감독 600승 달성",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EA%B0%95%EC%B2%A0%20%EA%B0%90%EB%8F%85%20600%EC%8A%B9%20%EB%8B%AC%EC%84%B1"
+        "title": "트럼프 중간선거 5000달러",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%8A%B8%EB%9F%BC%ED%94%84%20%EC%A4%91%EA%B0%84%EC%84%A0%EA%B1%B0%205000%EB%8B%AC%EB%9F%AC"
       }
     ],
     "youtube_popular": [
@@ -1525,7 +1525,7 @@
         "rank": 1,
         "title": "IU 'Dear my crazy soulmate' MV",
         "channel": "이지금 [IU Official]",
-        "views": "190만회",
+        "views": "215만회",
         "thumb": "https://i.ytimg.com/vi/RdUV9Ms5GM4/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=RdUV9Ms5GM4"
       },
@@ -1533,7 +1533,7 @@
         "rank": 2,
         "title": "나를 충전해줘 | 공식 티저 예고편 | 넷플릭스",
         "channel": "Netflix Korea 넷플릭스 코리아",
-        "views": "37만회",
+        "views": "38만회",
         "thumb": "https://i.ytimg.com/vi/fksdxa-ylzE/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=fksdxa-ylzE"
       },
@@ -1541,7 +1541,7 @@
         "rank": 3,
         "title": "아저씨가 잠시 빌려갈게",
         "channel": "랄로",
-        "views": "53만회",
+        "views": "57만회",
         "thumb": "https://i.ytimg.com/vi/rCHln-ke9bw/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=rCHln-ke9bw"
       },
@@ -1549,7 +1549,7 @@
         "rank": 4,
         "title": "Please Be Happy",
         "channel": "Lim Young Woong - Topic",
-        "views": "44만회",
+        "views": "45만회",
         "thumb": "https://i.ytimg.com/vi/PEpWLTge234/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=PEpWLTge234"
       },
@@ -1565,7 +1565,7 @@
         "rank": 6,
         "title": "미션 임파서블",
         "channel": "PAKA",
-        "views": "27만회",
+        "views": "29만회",
         "thumb": "https://i.ytimg.com/vi/YvcSMp2cexE/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=YvcSMp2cexE"
       },
@@ -1573,7 +1573,7 @@
         "rank": 7,
         "title": "Guitarist",
         "channel": "D.O. - Topic",
-        "views": "59만회",
+        "views": "60만회",
         "thumb": "https://i.ytimg.com/vi/svHUxtHIljw/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=svHUxtHIljw"
       },
@@ -1581,7 +1581,7 @@
         "rank": 8,
         "title": "배그 세계 1위 vs 배린이 4명",
         "channel": "말왕TV",
-        "views": "26만회",
+        "views": "28만회",
         "thumb": "https://i.ytimg.com/vi/2t0BRegeS_U/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=2t0BRegeS_U"
       },
@@ -1589,7 +1589,7 @@
         "rank": 9,
         "title": "Moonride",
         "channel": "Hearts2Hearts - Topic",
-        "views": "31만회",
+        "views": "32만회",
         "thumb": "https://i.ytimg.com/vi/hfftbNrp_lw/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=hfftbNrp_lw"
       },
@@ -1597,7 +1597,7 @@
         "rank": 10,
         "title": "감스트 넥슨 장사 잘하네 1000만원 현질 fc온라인",
         "channel": "감스트GAMST",
-        "views": "43만회",
+        "views": "49만회",
         "thumb": "https://i.ytimg.com/vi/zHpGSnhqXFk/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=zHpGSnhqXFk"
       }
