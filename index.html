@@ -1544,16 +1544,18 @@
       const titleEl = document.getElementById('h-history-title');
       const summaryEl = document.getElementById('h-history-summary');
       const bulletsEl = document.getElementById('h-history-bullets');
+      const refBtn = document.getElementById('h-history-ref-btn');
 
-      if (eraEl) eraEl.innerText = `${h.d_day ? '[' + h.d_day + '] ' : ''}${h.era}`;
-      if (titleEl) titleEl.innerText = h.title;
-      if (summaryEl) summaryEl.innerText = h.summary;
+      // 라벨 강제 보정: 0번은 [오늘], 1번은 [D-1], 2번은 [D-2]... (중복 대괄호 제거)
+      const dDayTag = offset === 0 ? '오늘' : `D-${offset}`;
+      const cleanEra = (h.era || '').replace(/^\[.*?\]\s*/, '');
+      if (eraEl) eraEl.innerText = `[${dDayTag}] ${cleanEra}`;
+
+      if (titleEl) titleEl.innerText = h.title || '';
+      if (summaryEl) summaryEl.innerText = h.summary || '';
       if (bulletsEl && h.bullets) {
         bulletsEl.innerHTML = h.bullets.map(b => `<li>${b}</li>`).join('');
       }
-
-      // 사료 원문 링크 동적 갱신
-      const refBtn = document.getElementById('h-history-ref-btn');
       if (refBtn) {
         if (h.ref_url) {
           refBtn.href = h.ref_url;
