@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10 22:06:10",
+  "updated_at": "2026-09-10 23:05:23",
   "us2y": {
     "value": 4.37,
     "change": -0.29
@@ -21,8 +21,8 @@
     "status": "정상화 (우상향)"
   },
   "vix": {
-    "value": 17.6,
-    "change": 6.93
+    "value": 17.62,
+    "change": 7.05
   },
   "tech_news": [
     {
@@ -133,17 +133,32 @@
         "date": "09-10 17:32"
       },
       {
-        "title": "[전자신문] 김상훈·김태호 전남대 교수팀, 스마트 양식장 통합 설계 방향 제시",
-        "link": "https://www.etnews.com/20260910000426",
-        "date": "09-10 21:56"
+        "title": "[전자신문] 민병덕 의원 “김병주 MBK 회장 검찰 소환, 엄정 수사해 법·원칙 따른 처분 내려야”",
+        "link": "https://www.etnews.com/20260910000430",
+        "date": "09-10 22:59"
       },
       {
-        "title": "[전자신문] [2026 ACE Fair] 민형배 시장 “새로운 작품·사람·아이디어들이 만나고 이어지길”",
-        "link": "https://www.etnews.com/20260910000425",
-        "date": "09-10 21:51"
+        "title": "[전자신문] 공장의 탈서울…제조업 무게중심 15년 새 서울 바깥 경기권으로 이동",
+        "link": "https://www.etnews.com/20260910000429",
+        "date": "09-10 22:57"
       }
     ],
     "domestic": [
+      {
+        "title": "달러-원, 뉴욕장서 1,340원 초반대 거래",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434346",
+        "date": "09-10 22:59"
+      },
+      {
+        "title": "미 달러화 강세…유가 고공행진 속 엔화 4일만에 약세",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434345",
+        "date": "09-10 22:46"
+      },
+      {
+        "title": "이란, 에너지 제품 운반 외국선박에 대한 운송료 인하",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434344",
+        "date": "09-10 22:24"
+      },
       {
         "title": "IRS 금리 전구간 상승…바이백 실망에 장기물 위주 약세",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434341",
@@ -153,21 +168,6 @@
         "title": "[채권-마감] 100달러 유가·美 바이백 실망…국고 10년 5.2bp↑",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434340",
         "date": "09-10 18:45"
-      },
-      {
-        "title": "[외환-마감] 1,330원대 중후반서 하단 지지 후 美 PPI 대기…3.10원↑",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434339",
-        "date": "09-10 18:42"
-      },
-      {
-        "title": "前 BOJ 국제국장 \"일본으로 자금 환류 쉽게 일어나지 않아\"",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434336",
-        "date": "09-10 17:53"
-      },
-      {
-        "title": "FX스와프, 원화 금리 상승에 장기물 상승…단기물 에셋에 상승폭 반납",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434334",
-        "date": "09-10 17:51"
       }
     ]
   },
@@ -223,83 +223,83 @@
       "detail": "10Y-2Y 스프레드가 +42 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.57",
-      "title": "닥터 코퍼 $6.57선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.56",
+      "title": "닥터 코퍼 $6.56선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.57",
-          "chg": "-3.38%",
+          "val": "$6.56",
+          "chg": "-3.53%",
           "up": false
         },
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,379.7",
-          "chg": "-0.82%",
+          "val": "$4,409.2",
+          "chg": "-0.15%",
           "up": false
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$64.57",
-          "chg": "-4.96%",
+          "val": "$65.22",
+          "chg": "-4.00%",
           "up": false
         }
       ],
       "bullets": [
-        "구리 $6.57/lb (-3.38%) - AI 전력망 설비 수요 반영",
-        "금 $4,380/oz, 은 $64.57/oz - 통화가치 헤지"
+        "구리 $6.56/lb (-3.53%) - AI 전력망 설비 수요 반영",
+        "금 $4,409/oz, 은 $65.22/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,345원 | 엔/달러 ¥154.3",
-      "title": "원/달러 1,344.8원선과 엔/달러 ¥154.3",
+      "badge": "원/달러 1,345원 | 엔/달러 ¥153.9",
+      "title": "원/달러 1,344.8원선과 엔/달러 ¥153.9",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
           "val": "1,344.8원",
-          "chg": "+0.42%",
+          "chg": "+0.41%",
           "up": true
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "99.11pt",
-          "chg": "+0.34%",
+          "val": "99.01pt",
+          "chg": "+0.24%",
           "up": true
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥154.26",
-          "chg": "+0.51%",
+          "val": "¥153.95",
+          "chg": "+0.31%",
           "up": true
         }
       ],
       "bullets": [
-        "달러 인덱스 99.11pt - 미국 성장 우위 지속",
-        "엔/달러 154.26엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 99.01pt - 미국 성장 우위 지속",
+        "엔/달러 153.95엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $100.17",
-      "title": "WTI 배럴당 $100.17선 박스권 안정",
+      "badge": "WTI $99.5",
+      "title": "WTI 배럴당 $99.5선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$100.17",
-          "chg": "+4.29%",
+          "val": "$99.50",
+          "chg": "+3.59%",
           "up": true
         }
       ],
       "bullets": [
-        "WTI 선물 $100.17/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $99.5/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -307,32 +307,32 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.57,
-      "change": -3.38
+      "price": 6.56,
+      "change": -3.53
     },
     "gold": {
-      "price": 4379.7,
-      "change": -0.82
+      "price": 4409.2,
+      "change": -0.15
     },
     "silver": {
-      "price": 64.57,
-      "change": -4.96
+      "price": 65.22,
+      "change": -4.0
     },
     "wti": {
-      "price": 100.17,
-      "change": 4.29
+      "price": 99.5,
+      "change": 3.59
     },
     "usdkrw": {
-      "price": 1344.78,
-      "change": 0.42
+      "price": 1344.75,
+      "change": 0.41
     },
     "dxy": {
-      "price": 99.11,
-      "change": 0.34
+      "price": 99.01,
+      "change": 0.24
     },
     "usdjpy": {
-      "price": 154.26,
-      "change": 0.51
+      "price": 153.95,
+      "change": 0.31
     }
   },
   "history_20d": {
@@ -595,9 +595,9 @@
       },
       {
         "date": "09-10",
-        "copper": 6.57,
-        "gold": 4379.7,
-        "silver": 64.57
+        "copper": 6.56,
+        "gold": 4409.2,
+        "silver": 65.22
       }
     ],
     "fx": [
@@ -717,9 +717,9 @@
       },
       {
         "date": "09-10",
-        "usdkrw": 1344.78,
-        "dxy": 99.11,
-        "usdjpy": 154.26
+        "usdkrw": 1344.75,
+        "dxy": 99.01,
+        "usdjpy": 153.95
       }
     ],
     "oil": [
@@ -820,8 +820,8 @@
       },
       {
         "date": "09-10",
-        "wti": 100.17,
-        "change": 4.29
+        "wti": 99.5,
+        "change": 3.59
       }
     ]
   },
@@ -1475,53 +1475,53 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "KB금융 챔피언십 1라운드 경기",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=KB%EA%B8%88%EC%9C%B5%20%EC%B1%94%ED%94%BC%EC%96%B8%EC%8B%AD%201%EB%9D%BC%EC%9A%B4%EB%93%9C%20%EA%B2%BD%EA%B8%B0"
+        "title": "승리, 특수폭행 혐의 피소",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%8A%B9%EB%A6%AC%2C%20%ED%8A%B9%EC%88%98%ED%8F%AD%ED%96%89%20%ED%98%90%EC%9D%98%20%ED%94%BC%EC%86%8C"
       },
       {
         "rank": 2,
-        "title": "승리, 30대 남성 폭행 피소",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%8A%B9%EB%A6%AC%2C%2030%EB%8C%80%20%EB%82%A8%EC%84%B1%20%ED%8F%AD%ED%96%89%20%ED%94%BC%EC%86%8C"
+        "title": "KB금융 챔피언십 1라운드",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=KB%EA%B8%88%EC%9C%B5%20%EC%B1%94%ED%94%BC%EC%96%B8%EC%8B%AD%201%EB%9D%BC%EC%9A%B4%EB%93%9C"
       },
       {
         "rank": 3,
-        "title": "이 대통령, 공소청 직제안 수정 지시",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%20%EB%8C%80%ED%86%B5%EB%A0%B9%2C%20%EA%B3%B5%EC%86%8C%EC%B2%AD%20%EC%A7%81%EC%A0%9C%EC%95%88%20%EC%88%98%EC%A0%95%20%EC%A7%80%EC%8B%9C"
+        "title": "국제유가 100달러 돌파",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B5%AD%EC%A0%9C%EC%9C%A0%EA%B0%80%20100%EB%8B%AC%EB%9F%AC%20%EB%8F%8C%ED%8C%8C"
       },
       {
         "rank": 4,
-        "title": "우리투자증권 금리 인상",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9A%B0%EB%A6%AC%ED%88%AC%EC%9E%90%EC%A6%9D%EA%B6%8C%20%EA%B8%88%EB%A6%AC%20%EC%9D%B8%EC%83%81"
+        "title": "검사정원 재검토 지시",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B2%80%EC%82%AC%EC%A0%95%EC%9B%90%20%EC%9E%AC%EA%B2%80%ED%86%A0%20%EC%A7%80%EC%8B%9C"
       },
       {
         "rank": 5,
-        "title": "카페",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B9%B4%ED%8E%98"
+        "title": "이강철 감독 600승 달성",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EA%B0%95%EC%B2%A0%20%EA%B0%90%EB%8F%85%20600%EC%8A%B9%20%EB%8B%AC%EC%84%B1"
       },
       {
         "rank": 6,
-        "title": "백진희 헨리 결혼 발표",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B0%B1%EC%A7%84%ED%9D%AC%20%ED%97%A8%EB%A6%AC%20%EA%B2%B0%ED%98%BC%20%EB%B0%9C%ED%91%9C"
+        "title": "미중 관세인하 협상",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%AF%B8%EC%A4%91%20%EA%B4%80%EC%84%B8%EC%9D%B8%ED%95%98%20%ED%98%91%EC%83%81"
       },
       {
         "rank": 7,
-        "title": "강선영",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B0%95%EC%84%A0%EC%98%81"
+        "title": "인플루엔자 무료 예방접종",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B8%ED%94%8C%EB%A3%A8%EC%97%94%EC%9E%90%20%EB%AC%B4%EB%A3%8C%20%EC%98%88%EB%B0%A9%EC%A0%91%EC%A2%85"
       },
       {
         "rank": 8,
-        "title": "홈플러스 김병주 회장 조사",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%99%88%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EA%B9%80%EB%B3%91%EC%A3%BC%20%ED%9A%8C%EC%9E%A5%20%EC%A1%B0%EC%82%AC"
+        "title": "대우건설",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%8C%80%EC%9A%B0%EA%B1%B4%EC%84%A4"
       },
       {
         "rank": 9,
-        "title": "한동훈 총리실 사찰 논란",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%9C%EB%8F%99%ED%9B%88%20%EC%B4%9D%EB%A6%AC%EC%8B%A4%20%EC%82%AC%EC%B0%B0%20%EB%85%BC%EB%9E%80"
+        "title": "송미령",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%86%A1%EB%AF%B8%EB%A0%B9"
       },
       {
         "rank": 10,
-        "title": "방아쇠",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B0%A9%EC%95%84%EC%87%A0"
+        "title": "ECB 금리 인상 2.50%로 상향",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=ECB%20%EA%B8%88%EB%A6%AC%20%EC%9D%B8%EC%83%81%202.50%25%EB%A1%9C%20%EC%83%81%ED%96%A5"
       }
     ],
     "youtube_popular": [
@@ -1529,7 +1529,7 @@
         "rank": 1,
         "title": "IU 'Dear my crazy soulmate' MV",
         "channel": "이지금 [IU Official]",
-        "views": "17만회",
+        "views": "36만회",
         "thumb": "https://i.ytimg.com/vi/RdUV9Ms5GM4/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=RdUV9Ms5GM4"
       },
@@ -1537,23 +1537,23 @@
         "rank": 2,
         "title": "나를 충전해줘 | 공식 티저 예고편 | 넷플릭스",
         "channel": "Netflix Korea 넷플릭스 코리아",
-        "views": "30만회",
+        "views": "32만회",
         "thumb": "https://i.ytimg.com/vi/fksdxa-ylzE/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=fksdxa-ylzE"
       },
       {
         "rank": 3,
-        "title": "중국인에게 인정받다",
-        "channel": "괴물쥐 유튜브",
-        "views": "49만회",
-        "thumb": "https://i.ytimg.com/vi/T4Lm2B-LJRU/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=T4Lm2B-LJRU"
+        "title": "아저씨가 잠시 빌려갈게",
+        "channel": "랄로",
+        "views": "14만회",
+        "thumb": "https://i.ytimg.com/vi/rCHln-ke9bw/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=rCHln-ke9bw"
       },
       {
         "rank": 4,
         "title": "Please Be Happy",
         "channel": "Lim Young Woong - Topic",
-        "views": "40만회",
+        "views": "41만회",
         "thumb": "https://i.ytimg.com/vi/PEpWLTge234/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=PEpWLTge234"
       },
@@ -1567,6 +1567,22 @@
       },
       {
         "rank": 6,
+        "title": "중국인에게 인정받다",
+        "channel": "괴물쥐 유튜브",
+        "views": "50만회",
+        "thumb": "https://i.ytimg.com/vi/T4Lm2B-LJRU/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=T4Lm2B-LJRU"
+      },
+      {
+        "rank": 7,
+        "title": "Guitarist",
+        "channel": "D.O. - Topic",
+        "views": "55만회",
+        "thumb": "https://i.ytimg.com/vi/svHUxtHIljw/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=svHUxtHIljw"
+      },
+      {
+        "rank": 8,
         "title": "사기의 아픔을 딛고 드디어 진짜 음바페 영입",
         "channel": "튜브김민교",
         "views": "55만회",
@@ -1574,36 +1590,20 @@
         "link": "https://www.youtube.com/watch?v=SQ7tpUm0zkc"
       },
       {
-        "rank": 7,
-        "title": "Guitarist",
-        "channel": "D.O. - Topic",
-        "views": "53만회",
-        "thumb": "https://i.ytimg.com/vi/svHUxtHIljw/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=svHUxtHIljw"
-      },
-      {
-        "rank": 8,
-        "title": "[ 불도그 LIVE 생방송 9/9 ] 리니지m 신서버 `투사` 리부트체험 재밌으면 과금합니다. #하이네 #9서버",
-        "channel": "불도그",
-        "views": "46만회",
-        "thumb": "https://i.ytimg.com/vi/PSrTkTrwUVE/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=PSrTkTrwUVE"
-      },
-      {
         "rank": 9,
-        "title": "소연 (SOYEON) '퇴사할게여 (Narr. 기안84)' Official Music Video",
-        "channel": "i-dle (아이들)",
-        "views": "500만회",
-        "thumb": "https://i.ytimg.com/vi/7mDDM0eBWR0/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=7mDDM0eBWR0"
+        "title": "Moonride",
+        "channel": "Hearts2Hearts - Topic",
+        "views": "27만회",
+        "thumb": "https://i.ytimg.com/vi/hfftbNrp_lw/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=hfftbNrp_lw"
       },
       {
         "rank": 10,
-        "title": "조금 놀렸더니 해리 케인 12강 강화 선언하는 이상호 ㅋㅋㅋ",
-        "channel": "게임대장봉준",
-        "views": "38만회",
-        "thumb": "https://i.ytimg.com/vi/N4l5RUJAEpQ/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=N4l5RUJAEpQ"
+        "title": "Maple Now | 김창섭 디렉터 (26.09.10)",
+        "channel": "메이플스토리",
+        "views": "20만회",
+        "thumb": "https://i.ytimg.com/vi/cnPbC6d9Y1s/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=cnPbC6d9Y1s"
       }
     ]
   }
