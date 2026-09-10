@@ -341,19 +341,43 @@ def load_humanities_from_pool(existing_humanities=None):
             if len(new_history_5d) > 1 and "직지심체요절" not in new_history_5d[1].get("title", ""):
                 new_history_5d[1] = jikji_item
 
-    # 4. 각 항목별 d_day 라벨 확정
+    # 4. 각 역사 항목별 d_day 라벨 확정
     d_day_labels = ["오늘", "D-1", "D-2", "D-3", "D-4"]
     for idx, item in enumerate(new_history_5d[:5]):
         item["d_day"] = d_day_labels[idx]
 
-    poly_item = poly_pool[day_idx % len(poly_pool)] if poly_pool else existing_humanities.get("polyglot", {})
+    # 5. 8개국어 회화 5일 FIFO 슬라이딩 큐 관리
+    today_poly = poly_pool[day_idx % len(poly_pool)] if poly_pool else existing_humanities.get("polyglot", {})
+    old_poly_5d = existing_humanities.get("polyglot_5d", [])
+
+    if stored_date and stored_date != today_str and old_poly_5d:
+        if old_poly_5d[0].get("meaning") != today_poly.get("meaning"):
+            new_poly_5d = [today_poly] + old_poly_5d[:4]
+        else:
+            new_poly_5d = old_poly_5d
+    else:
+        if not old_poly_5d or len(old_poly_5d) < 5:
+            new_poly_5d = [today_poly]
+            if poly_pool:
+                for off in range(1, 5):
+                    new_poly_5d.append(poly_pool[(day_idx - off) % len(poly_pool)])
+            else:
+                while len(new_poly_5d) < 5:
+                    new_poly_5d.append(today_poly)
+        else:
+            new_poly_5d = old_poly_5d
+
+    for idx, p_item in enumerate(new_poly_5d[:5]):
+        p_item["d_day"] = d_day_labels[idx]
+
     phil_item = phil_pool[day_idx % len(phil_pool)] if phil_pool else existing_humanities.get("philosophy", {})
 
     return {
         "history_date": today_str,
         "history": new_history_5d[0],
         "history_5d": new_history_5d[:5],
-        "polyglot": poly_item,
+        "polyglot": new_poly_5d[0],
+        "polyglot_5d": new_poly_5d[:5],
         "philosophy": phil_item,
     }
 
