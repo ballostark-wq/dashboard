@@ -12466,6 +12466,308 @@
       "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1973%EB%85%84_~_2020%EB%85%84:~:text=2024"
     }
   ],
+  "polyglot_basic_pool": [
+    {
+      "theme": "기초 인사",
+      "type": "기초",
+      "meaning": "안녕하세요!",
+      "translations": {
+        "en": { "code": "en-US", "name": "영어", "flag": "🇺🇸", "text": "Hello! Good day.", "roman": "" },
+        "ja": { "code": "ja-JP", "name": "일본어", "flag": "🇯🇵", "text": "こんにちは！", "roman": "Konnichiwa!" },
+        "zh": { "code": "zh-CN", "name": "중국어", "flag": "🇨🇳", "text": "你好！", "roman": "Nǐ hǎo!" },
+        "fr": { "code": "fr-FR", "name": "프랑스어", "flag": "🇫🇷", "text": "Bonjour !", "roman": "" },
+        "de": { "code": "de-DE", "name": "독일어", "flag": "🇩🇪", "text": "Guten Tag!", "roman": "" },
+        "es": { "code": "es-ES", "name": "스페인어", "flag": "🇪🇸", "text": "¡Hola! Buenos días.", "roman": "" },
+        "ar": { "code": "ar-SA", "name": "아랍어", "flag": "🇸🇦", "text": "مرحباً! يوم سعيد.", "roman": "Marḥaban! Yawm sa'īd." },
+        "ru": { "code": "ru-RU", "name": "러시아어", "flag": "🇷🇺", "text": "Здравствуйте!", "roman": "Zdravstvuyte!" }
+      }
+    },
+    {
+      "theme": "덕담",
+      "type": "기초",
+      "meaning": "좋은 하루 보내세요!",
+      "translations": {
+        "en": { "code": "en-US", "name": "영어", "flag": "🇺🇸", "text": "Have a wonderful day!", "roman": "" },
+        "ja": { "code": "ja-JP", "name": "일본어", "flag": "🇯🇵", "text": "良い一日をお過ごしください！", "roman": "Yoi ichinichi o osugoshi kudasai!" },
+        "zh": { "code": "zh-CN", "name": "중국어", "flag": "🇨🇳", "text": "祝你度过美好的一天！", "roman": "Zhù nǐ dùguò měihǎo de yītiān!" },
+        "fr": { "code": "fr-FR", "name": "프랑스어", "flag": "🇫🇷", "text": "Passez une bonne journée !", "roman": "" },
+        "de": { "code": "de-DE", "name": "독일어", "flag": "🇩🇪", "text": "Einen schönen Tag noch!", "roman": "" },
+        "es": { "code": "es-ES", "name": "스페인어", "flag": "🇪🇸", "text": "¡Que tengas un buen día!", "roman": "" },
+        "ar": { "code": "ar-SA", "name": "아랍어", "flag": "🇸🇦", "text": "أتمنى لك يوماً جميلاً!", "roman": "Atamannā laka yawman jamīlan!" },
+        "ru": { "code": "ru-RU", "name": "러시아어", "flag": "🇷🇺", "text": "Хорошего вам дня!", "roman": "Khoroshego vam dnya!" }
+      }
+    },
+    {
+      "theme": "작별 인사",
+      "type": "기초",
+      "meaning": "다음에 또 만나요!",
+      "translations": {
+        "en": { "code": "en-US", "name": "영어", "flag": "🇺🇸", "text": "See you again next time!", "roman": "" },
+        "ja": { "code": "ja-JP", "name": "일본어", "flag": "🇯🇵", "text": "また次回お会いしましょう！", "roman": "Mata jikai oai shimashō!" },
+        "zh": { "code": "zh-CN", "name": "중국어", "flag": "🇨🇳", "text": "下次再见！", "roman": "Xià cì zàijiàn!" },
+        "fr": { "code": "fr-FR", "name": "프랑스어", "flag": "🇫🇷", "text": "À la prochaine fois !", "roman": "" },
+        "de": { "code": "de-DE", "name": "독일어", "flag": "🇩🇪", "text": "Bis zum nächsten Mal!", "roman": "" },
+        "es": { "code": "es-ES", "name": "스페인어", "flag": "🇪🇸", "text": "¡Hasta la próxima!", "roman": "" },
+        "ar": { "code": "ar-SA", "name": "아랍어", "flag": "🇸🇦", "text": "أراك في المرة القادمة!", "roman": "Arāka fī al-marrati al-qādimah!" },
+        "ru": { "code": "ru-RU", "name": "러시아어", "flag": "🇷🇺", "text": "До следующей встречи!", "roman": "Do sleduyushchey vstrechi!" }
+      }
+    },
+    {
+      "theme": "감사 표현",
+      "type": "기초",
+      "meaning": "정말 감사합니다.",
+      "translations": {
+        "en": { "code": "en-US", "name": "영어", "flag": "🇺🇸", "text": "Thank you very much.", "roman": "" },
+        "ja": { "code": "ja-JP", "name": "일본어", "flag": "🇯🇵", "text": "本当にありがとうございます。", "roman": "Hontō ni arigatō gozaimasu." },
+        "zh": { "code": "zh-CN", "name": "중국어", "flag": "🇨🇳", "text": "非常感谢你。", "roman": "Fēicháng gǎnxiè nǐ." },
+        "fr": { "code": "fr-FR", "name": "프랑스어", "flag": "🇫🇷", "text": "Merci beaucoup.", "roman": "" },
+        "de": { "code": "de-DE", "name": "독일어", "flag": "🇩🇪", "text": "Vielen Dank.", "roman": "" },
+        "es": { "code": "es-ES", "name": "스페인어", "flag": "🇪🇸", "text": "Muchas gracias.", "roman": "" },
+        "ar": { "code": "ar-SA", "name": "아랍어", "flag": "🇸🇦", "text": "شكراً جزيلاً لك.", "roman": "Shukran jazīlan laka." },
+        "ru": { "code": "ru-RU", "name": "러시아어", "flag": "🇷🇺", "text": "Большое спасибо.", "roman": "Bol'shoye spasibo." }
+      }
+    },
+    {
+      "theme": "정중한 양해",
+      "type": "기초",
+      "meaning": "실례합니다 / 죄송합니다.",
+      "translations": {
+        "en": { "code": "en-US", "name": "영어", "flag": "🇺🇸", "text": "Excuse me, I am sorry.", "roman": "" },
+        "ja": { "code": "ja-JP", "name": "일본어", "flag": "🇯🇵", "text": "すみません、申し訳ありません。", "roman": "Sumimasen, mōshiwake arimasen." },
+        "zh": { "code": "zh-CN", "name": "중국어", "flag": "🇨🇳", "text": "不好意思，打扰一下。", "roman": "Bù hǎoyìsi, dǎrǎo yīxià." },
+        "fr": { "code": "fr-FR", "name": "프랑스어", "flag": "🇫🇷", "text": "Excusez-moi, pardon.", "roman": "" },
+        "de": { "code": "de-DE", "name": "독일어", "flag": "🇩🇪", "text": "Entschuldigen Sie bitte.", "roman": "" },
+        "es": { "code": "es-ES", "name": "스페인어", "flag": "🇪🇸", "text": "Disculpe, perdón.", "roman": "" },
+        "ar": { "code": "ar-SA", "name": "아랍어", "flag": "🇸🇦", "text": "معذرة، أنا آسف.", "roman": "Ma'dhiratan, anā āsif." },
+        "ru": { "code": "ru-RU", "name": "러시아어", "flag": "🇷🇺", "text": "Извините, прошу прощения.", "roman": "Izvinite, proshu proshcheniya." }
+      }
+    },
+    {
+      "theme": "화답 에티켓",
+      "type": "기초",
+      "meaning": "천만에요, 별말씀을요.",
+      "translations": {
+        "en": { "code": "en-US", "name": "영어", "flag": "🇺🇸", "text": "You are very welcome.", "roman": "" },
+        "ja": { "code": "ja-JP", "name": "일본어", "flag": "🇯🇵", "text": "どういたしまして。", "roman": "Dōitashimashite." },
+        "zh": { "code": "zh-CN", "name": "중국어", "flag": "🇨🇳", "text": "不客气，不用谢。", "roman": "Bù kèqì, bùyòng xiè." },
+        "fr": { "code": "fr-FR", "name": "프랑스어", "flag": "🇫🇷", "text": "Je vous en prie.", "roman": "" },
+        "de": { "code": "de-DE", "name": "독일어", "flag": "🇩🇪", "text": "Gern geschehen, bitte schön.", "roman": "" },
+        "es": { "code": "es-ES", "name": "스페인어", "flag": "🇪🇸", "text": "De nada, es un placer.", "roman": "" },
+        "ar": { "code": "ar-SA", "name": "아랍어", "flag": "🇸🇦", "text": "على الرحب والسعة.", "roman": "'Alā ar-raḥbi was-sa'ah." },
+        "ru": { "code": "ru-RU", "name": "러시아어", "flag": "🇷🇺", "text": "Пожалуйста, не за что.", "roman": "Pozhaluysta, ne za chto." }
+      }
+    },
+    {
+      "theme": "첫 대면",
+      "type": "기초",
+      "meaning": "만나서 반갑습니다.",
+      "translations": {
+        "en": { "code": "en-US", "name": "영어", "flag": "🇺🇸", "text": "Nice to meet you.", "roman": "" },
+        "ja": { "code": "ja-JP", "name": "일본어", "flag": "🇯🇵", "text": "はじめまして、お会いできて嬉しいです。", "roman": "Hajimemashite, oai dekite ureshī desu." },
+        "zh": { "code": "zh-CN", "name": "중국어", "flag": "🇨🇳", "text": "很高兴认识你。", "roman": "Hěn gāoxìng rènshí nǐ." },
+        "fr": { "code": "fr-FR", "name": "프랑스어", "flag": "🇫🇷", "text": "Ravi de vous rencontrer.", "roman": "" },
+        "de": { "code": "de-DE", "name": "독일어", "flag": "🇩🇪", "text": "Schön, Sie kennenzulernen.", "roman": "" },
+        "es": { "code": "es-ES", "name": "스페인어", "flag": "🇪🇸", "text": "Mucho gusto en conocerte.", "roman": "" },
+        "ar": { "code": "ar-SA", "name": "아랍어", "flag": "🇸🇦", "text": "سعيد بلقائك جداً.", "roman": "Sa'īd biliqā'ika jiddan." },
+        "ru": { "code": "ru-RU", "name": "러시아어", "flag": "🇷🇺", "text": "Очень приятно познакомиться.", "roman": "Ochen' priyatno poznakomit'sya." }
+      }
+    },
+    {
+      "theme": "도움 요청",
+      "type": "기초",
+      "meaning": "잠시 도와주실 수 있나요?",
+      "translations": {
+        "en": { "code": "en-US", "name": "영어", "flag": "🇺🇸", "text": "Could you please help me for a moment?", "roman": "" },
+        "ja": { "code": "ja-JP", "name": "일본어", "flag": "🇯🇵", "text": "少し手伝っていただけますか？", "roman": "Sukoshi tetsudatte itadakemasu ka?" },
+        "zh": { "code": "zh-CN", "name": "중국어", "flag": "🇨🇳", "text": "能请你帮我一下吗？", "roman": "Néng qǐng nǐ bāng wǒ yīxià ma?" },
+        "fr": { "code": "fr-FR", "name": "프랑스어", "flag": "🇫🇷", "text": "Pourriez-vous m'aider un instant, s'il vous plaît ?", "roman": "" },
+        "de": { "code": "de-DE", "name": "독일어", "flag": "🇩🇪", "text": "Könnten Sie mir bitte kurz helfen?", "roman": "" },
+        "es": { "code": "es-ES", "name": "스페인어", "flag": "🇪🇸", "text": "¿Podría ayudarme un momento, por favor?", "roman": "" },
+        "ar": { "code": "ar-SA", "name": "아랍어", "flag": "🇸🇦", "text": "هل يمكنك مساعدتي للحظة من فضلك؟", "roman": "Hal yumkinuka musā'adatī li-laḥẓah min faḍlik?" },
+        "ru": { "code": "ru-RU", "name": "러시아어", "flag": "🇷🇺", "text": "Не могли бы вы мне помочь?", "roman": "Ne mogli by vy mne pomoch'?" }
+      }
+    },
+    {
+      "theme": "동의 및 수락",
+      "type": "기초",
+      "meaning": "좋습니다! 전혀 문제없어요.",
+      "translations": {
+        "en": { "code": "en-US", "name": "영어", "flag": "🇺🇸", "text": "Sounds great! No problem at all.", "roman": "" },
+        "ja": { "code": "ja-JP", "name": "일본어", "flag": "🇯🇵", "text": "いいですね！全く問題ありません。", "roman": "Ii desu ne! Mattaku mondai arimasen." },
+        "zh": { "code": "zh-CN", "name": "중국어", "flag": "🇨🇳", "text": "太好了！完全没问题。", "roman": "Tài hǎo le! Wánquán méi wèntí." },
+        "fr": { "code": "fr-FR", "name": "프랑스어", "flag": "🇫🇷", "text": "C'est parfait ! Aucun problème.", "roman": "" },
+        "de": { "code": "de-DE", "name": "독일어", "flag": "🇩🇪", "text": "Klingt gut! Überhaupt kein Problem.", "roman": "" },
+        "es": { "code": "es-ES", "name": "스페인어", "flag": "🇪🇸", "text": "¡Suena genial! Ningún problema.", "roman": "" },
+        "ar": { "code": "ar-SA", "name": "아랍어", "flag": "🇸🇦", "text": "يبدو رائعاً! لا توجد مشكلة على الإطلاق.", "roman": "Yabdū rā'i'an! Lā tūjadu mushkilah 'alā al-iṭlāq." },
+        "ru": { "code": "ru-RU", "name": "러시아어", "flag": "🇷🇺", "text": "Отлично! Никаких проблем.", "roman": "Otlichno! Nikakikh problem." }
+      }
+    },
+    {
+      "theme": "소통 배려",
+      "type": "기초",
+      "meaning": "조금만 천천히 말씀해 주시겠어요?",
+      "translations": {
+        "en": { "code": "en-US", "name": "영어", "flag": "🇺🇸", "text": "Could you speak a little more slowly, please?", "roman": "" },
+        "ja": { "code": "ja-JP", "name": "일본어", "flag": "🇯🇵", "text": "もう少しゆっくり話していただけますか？", "roman": "Mō sukoshi yukkuri hanashite itadakemasu ka?" },
+        "zh": { "code": "zh-CN", "name": "중국어", "flag": "🇨🇳", "text": "请你说得稍微慢一点好吗？", "roman": "Qǐng nǐ shuō de shāowēi màn yīdiǎn hǎo ma?" },
+        "fr": { "code": "fr-FR", "name": "프랑스어", "flag": "🇫🇷", "text": "Pourriez-vous parler un peu plus lentement ?", "roman": "" },
+        "de": { "code": "de-DE", "name": "독일어", "flag": "🇩🇪", "text": "Könnten Sie bitte etwas langsamer sprechen?", "roman": "" },
+        "es": { "code": "es-ES", "name": "스페인어", "flag": "🇪🇸", "text": "¿Podría hablar un poco más despacio, por favor?", "roman": "" },
+        "ar": { "code": "ar-SA", "name": "아랍어", "flag": "🇸🇦", "text": "هل يمكنك التحدث ببطء أكثر من فضلك؟", "roman": "Hal yumkinuka at-taḥadduth bi-buṭ'in akthar min faḍlik?" },
+        "ru": { "code": "ru-RU", "name": "러시아어", "flag": "🇷🇺", "text": "Говорите, пожалуйста, помедленнее.", "roman": "Govorite, pozhaluysta, pomedlenneye." }
+      }
+    },
+    {
+      "theme": "안부 확인 (Q&A)",
+      "type": "기초",
+      "meaning": "Q: 잘 지내세요? / A: 네, 아주 잘 지내요.",
+      "translations": {
+        "en": { "code": "en-US", "name": "영어", "flag": "🇺🇸", "text": "How are you doing? - I'm doing great, thank you.", "roman": "" },
+        "ja": { "code": "ja-JP", "name": "일본어", "flag": "🇯🇵", "text": "お元気ですか？ - はい、とても元気です。", "roman": "Ogenki desu ka? - Hai, totemo genki desu." },
+        "zh": { "code": "zh-CN", "name": "중국어", "flag": "🇨🇳", "text": "你最近好吗？ - 我很好，谢谢你。", "roman": "Nǐ zuìjìn hǎo ma? - Wǒ hěn hǎo, xièxiè nǐ." },
+        "fr": { "code": "fr-FR", "name": "프랑스어", "flag": "🇫🇷", "text": "Comment allez-vous ? - Je vais très bien, merci.", "roman": "" },
+        "de": { "code": "de-DE", "name": "독일어", "flag": "🇩🇪", "text": "Wie geht es Ihnen? - Mir geht es sehr gut, danke.", "roman": "" },
+        "es": { "code": "es-ES", "name": "스페인어", "flag": "🇪🇸", "text": "¿Cómo estás? - Estoy muy bien, gracias.", "roman": "" },
+        "ar": { "code": "ar-SA", "name": "아랍어", "flag": "🇸🇦", "text": "كيف حالك؟ - أنا بخير جداً، شكراً لك.", "roman": "Kayfa ḥāluk? - Anā bi-khayrin jiddan, shukran lak." },
+        "ru": { "code": "ru-RU", "name": "러시아어", "flag": "🇷🇺", "text": "Как ваши дела? - У меня всё отлично, спасибо.", "roman": "Kak vashi dela? - U menya vsyo otlichno, spasibo." }
+      }
+    },
+    {
+      "theme": "언어 소통 (Q&A)",
+      "type": "기초",
+      "meaning": "Q: 영어 할 수 있나요? / A: 네, 조금 할 수 있어요.",
+      "translations": {
+        "en": { "code": "en-US", "name": "영어", "flag": "🇺🇸", "text": "Do you speak English? - Yes, I speak a little.", "roman": "" },
+        "ja": { "code": "ja-JP", "name": "일본어", "flag": "🇯🇵", "text": "英語を話せますか？ - はい、少し話せます。", "roman": "Eigo o hanasemasu ka? - Hai, sukoshi hanasemasu." },
+        "zh": { "code": "zh-CN", "name": "중국어", "flag": "🇨🇳", "text": "你会说英语吗？ - 是的，会说一点点。", "roman": "Nǐ huì shuō yīngyǔ ma? - Shì de, huì shuō yīdiǎndiǎn." },
+        "fr": { "code": "fr-FR", "name": "프랑스어", "flag": "🇫🇷", "text": "Parlez-vous anglais ? - Oui, je parle un peu.", "roman": "" },
+        "de": { "code": "de-DE", "name": "독일어", "flag": "🇩🇪", "text": "Sprechen Sie Englisch? - Ja, ein bisschen.", "roman": "" },
+        "es": { "code": "es-ES", "name": "스페인어", "flag": "🇪🇸", "text": "¿Hablas inglés? - Sí, hablo un poco.", "roman": "" },
+        "ar": { "code": "ar-SA", "name": "아랍어", "flag": "🇸🇦", "text": "هل تتحدث الإنجليزية؟ - نعم، أتحدث قليلاً.", "roman": "Hal tataḥaddath al-injlīziyyah? - Na'am, ataḥaddath qalīlan." },
+        "ru": { "code": "ru-RU", "name": "러시아어", "flag": "🇷🇺", "text": "Вы говорите по-английски? - Да, немного.", "roman": "Vy govorite po-angliyski? - Da, nemnogo." }
+      }
+    },
+    {
+      "theme": "이해 여부 (Q&A)",
+      "type": "기초",
+      "meaning": "Q: 제 말 이해하셨나요? / A: 네, 완벽히 이해했어요.",
+      "translations": {
+        "en": { "code": "en-US", "name": "영어", "flag": "🇺🇸", "text": "Do you understand me? - Yes, I understand perfectly.", "roman": "" },
+        "ja": { "code": "ja-JP", "name": "일본어", "flag": "🇯🇵", "text": "理解できましたか？ - はい、よく分かりました。", "roman": "Rikai dekimashita ka? - Hai, yoku wakarimashita." },
+        "zh": { "code": "zh-CN", "name": "중국어", "flag": "🇨🇳", "text": "你听明白了吗？ - 是的，我完全明白了。", "roman": "Nǐ tīng míngbái le ma? - Shì de, wǒ wánquán míngbái le." },
+        "fr": { "code": "fr-FR", "name": "프랑스어", "flag": "🇫🇷", "text": "Avez-vous compris ? - Oui, j'ai parfaitement compris.", "roman": "" },
+        "de": { "code": "de-DE", "name": "독일어", "flag": "🇩🇪", "text": "Haben Sie mich verstanden? - Ja, vollkommen verstanden.", "roman": "" },
+        "es": { "code": "es-ES", "name": "스페인어", "flag": "🇪🇸", "text": "¿Me entiendes? - Sí, entiendo perfectamente.", "roman": "" },
+        "ar": { "code": "ar-SA", "name": "아랍어", "flag": "🇸🇦", "text": "هل فهمتني؟ - نعم، فهمت تماماً.", "roman": "Hal fahimtanī? - Na'am, fahimtu tamāman." },
+        "ru": { "code": "ru-RU", "name": "러시아어", "flag": "🇷🇺", "text": "Вы меня поняли? - Да, я всё понял.", "roman": "Vy menya ponyali? - Da, ya vsyo ponyal." }
+      }
+    },
+    {
+      "theme": "위치 문의 (Q&A)",
+      "type": "기초",
+      "meaning": "Q: 화장실이 어디에 있나요? / A: 저기 오른쪽에 있어요.",
+      "translations": {
+        "en": { "code": "en-US", "name": "영어", "flag": "🇺🇸", "text": "Where is the restroom? - It's right over there on the right.", "roman": "" },
+        "ja": { "code": "ja-JP", "name": "일본어", "flag": "🇯🇵", "text": "トイレはどこですか？ - あちらの右側にあります。", "roman": "Toire wa doko desu ka? - Achira no migigawa ni arimasu." },
+        "zh": { "code": "zh-CN", "name": "중국어", "flag": "🇨🇳", "text": "洗手间在哪里？ - 就在那边的右边。", "roman": "Xǐshǒujiān zài nǎlǐ? - Jiù zài nàbiān de yòubiān." },
+        "fr": { "code": "fr-FR", "name": "프랑스어", "flag": "🇫🇷", "text": "Où sont les toilettes ? - C'est juste là, sur la droite.", "roman": "" },
+        "de": { "code": "de-DE", "name": "독일어", "flag": "🇩🇪", "text": "Wo ist die Toilette? - Direkt dort drüben auf der rechten Seite.", "roman": "" },
+        "es": { "code": "es-ES", "name": "스페인어", "flag": "🇪🇸", "text": "¿Dónde está el baño? - Está justo allí, a la derecha.", "roman": "" },
+        "ar": { "code": "ar-SA", "name": "아랍어", "flag": "🇸🇦", "text": "أين الحمام؟ - إنه هناك على اليمين مباشرة.", "roman": "Ayna al-ḥammām? - Innahu hunāka 'alā al-yamīn mubāsharatan." },
+        "ru": { "code": "ru-RU", "name": "러시아어", "flag": "🇷🇺", "text": "Где находится туалет? - Вон там, прямо направо.", "roman": "Gde nakhoditsya tualet? - Von tam, pryamo napravo." }
+      }
+    },
+    {
+      "theme": "현재 위치 (Q&A)",
+      "type": "기초",
+      "meaning": "Q: 여기가 어디인가요? / A: 지하철역 바로 앞입니다.",
+      "translations": {
+        "en": { "code": "en-US", "name": "영어", "flag": "🇺🇸", "text": "Where are we right now? - Right in front of the subway station.", "roman": "" },
+        "ja": { "code": "ja-JP", "name": "일본어", "flag": "🇯🇵", "text": "ここはどこですか？ - 地下鉄の駅のすぐ前です。", "roman": "Koko wa doko desu ka? - Chikatetsu no eki no sugu mae desu." },
+        "zh": { "code": "zh-CN", "name": "중국어", "flag": "🇨🇳", "text": "请问这里是哪里？ - 就在地铁站的正前方。", "roman": "Qǐngwèn zhèlǐ shì nǎlǐ? - Jiù zài dìtiězhàn de zhèng qiánfāng." },
+        "fr": { "code": "fr-FR", "name": "프랑스어", "flag": "🇫🇷", "text": "Où sommes-nous ? - Juste devant la station de métro.", "roman": "" },
+        "de": { "code": "de-DE", "name": "독일어", "flag": "🇩🇪", "text": "Wo sind wir hier? - Direkt vor der U-Bahn-Station.", "roman": "" },
+        "es": { "code": "es-ES", "name": "스페인어", "flag": "🇪🇸", "text": "¿Dónde estamos ahora? - Justo frente a la estación de metro.", "roman": "" },
+        "ar": { "code": "ar-SA", "name": "아랍어", "flag": "🇸🇦", "text": "أين نحن الآن؟ - أمام محطة المترو مباشرة.", "roman": "Ayna naḥnu al-ān? - Amāma maḥaṭṭat al-mitrū mubāsharatan." },
+        "ru": { "code": "ru-RU", "name": "러시아어", "flag": "🇷🇺", "text": "Где мы сейчас? - Прямо перед станцией метро.", "roman": "Gde my seychas? - Pryamo pered stantsiyey metro." }
+      }
+    },
+    {
+      "theme": "가격 문의 (Q&A)",
+      "type": "기초",
+      "meaning": "Q: 이거 얼마예요? / A: 모두 합쳐서 10달러입니다.",
+      "translations": {
+        "en": { "code": "en-US", "name": "영어", "flag": "🇺🇸", "text": "How much is this? - It is ten dollars in total.", "roman": "" },
+        "ja": { "code": "ja-JP", "name": "일본어", "flag": "🇯🇵", "text": "これはいくらですか？ - 全部で10ドルです。", "roman": "Kore wa ikura desu ka? - Zenbu de jū-doru desu." },
+        "zh": { "code": "zh-CN", "name": "중국어", "flag": "🇨🇳", "text": "这个多少钱？ - 一共是十美元。", "roman": "Zhège duōshǎo qián? - Yīgòng shì shí měiyuán."},
+        "fr": { "code": "fr-FR", "name": "프랑스어", "flag": "🇫🇷", "text": "Combien ça coûte ? - C'est dix dollars au total.", "roman": "" },
+        "de": { "code": "de-DE", "name": "독일어", "flag": "🇩🇪", "text": "Wie viel kostet das? - Es sind insgesamt zehn Dollar.", "roman": "" },
+        "es": { "code": "es-ES", "name": "스페인어", "flag": "🇪🇸", "text": "¿Cuánto cuesta esto? - Son diez dólares en total.", "roman": "" },
+        "ar": { "code": "ar-SA", "name": "아랍어", "flag": "🇸🇦", "text": "كم سعر هذا؟ - المجموع عشرة دولارات.", "roman": "Kam si'ru hādhā? - Al-majmū' 'ashrat dūlārāt." },
+        "ru": { "code": "ru-RU", "name": "러시아어", "flag": "🇷🇺", "text": "Сколько это стоит? - Всего десять долларов.", "roman": "Skol'ko eto stoit? - Vsego desyat' dollarov." }
+      }
+    },
+    {
+      "theme": "결제 방식 (Q&A)",
+      "type": "기초",
+      "meaning": "Q: 카드 결제 되나요? / A: 네, 신용카드 가능합니다.",
+      "translations": {
+        "en": { "code": "en-US", "name": "영어", "flag": "🇺🇸", "text": "Can I pay by card? - Yes, we accept credit cards.", "roman": "" },
+        "ja": { "code": "ja-JP", "name": "일본어", "flag": "🇯🇵", "text": "カードで支払えますか？ - はい、クレジットカードが使えます。", "roman": "Kādo de shiharaemasu ka? - Hai, kurejitto kādo ga tsukaemasu." },
+        "zh": { "code": "zh-CN", "name": "중국어", "flag": "🇨🇳", "text": "可以刷卡吗？ - 可以，支持信用卡支付。", "roman": "Kěyǐ shuākǎ ma? - Kěyǐ, zhīchí xìnyòngkǎ zhīfù." },
+        "fr": { "code": "fr-FR", "name": "프랑스어", "flag": "🇫🇷", "text": "Puis-je payer par carte ? - Oui, nous acceptons les cartes.", "roman": "" },
+        "de": { "code": "de-DE", "name": "독일어", "flag": "🇩🇪", "text": "Kann ich mit Karte zahlen? - Ja, Kreditkarten sind möglich.", "roman": "" },
+        "es": { "code": "es-ES", "name": "스페인어", "flag": "🇪🇸", "text": "¿Puedo pagar con tarjeta? - Sí, aceptamos tarjetas de crédito.", "roman": "" },
+        "ar": { "code": "ar-SA", "name": "아랍어", "flag": "🇸🇦", "text": "هل يمكنني الدفع بالبطاقة؟ - نعم، نقبل بطاقات الائتمان.", "roman": "Hal yumkinunī ad-daf' bil-biṭāqah? - Na'am, naqbal biṭāqāt al-i'timān." },
+        "ru": { "code": "ru-RU", "name": "러시아어", "flag": "🇷🇺", "text": "Можно оплатить картой? - Да, мы принимаем кредитные карты.", "roman": "Mozhno oplatit' kartoy? - Da, my prinimayem kreditnyye karty." }
+      }
+    },
+    {
+      "theme": "준비 확인 (Q&A)",
+      "type": "기초",
+      "meaning": "Q: 지금 준비되셨나요? / A: 네, 다 준비됐어요. 바로 가요.",
+      "translations": {
+        "en": { "code": "en-US", "name": "영어", "flag": "🇺🇸", "text": "Are you ready now? - Yes, I'm all set. Let's go.", "roman": "" },
+        "ja": { "code": "ja-JP", "name": "일본어", "flag": "🇯🇵", "text": "準備はできましたか？ - はい、準備完了です。行きましょう。", "roman": "Junbi wa dekimashita ka? - Hai, junbi kanryō desu. Ikimashō." },
+        "zh": { "code": "zh-CN", "name": "중국어", "flag": "🇨🇳", "text": "你准备好了吗？ - 好了，都准备好了，走吧。", "roman": "Nǐ zhǔnbèi hǎo le ma? - Hǎo le, dōu zhǔnbèi hǎo le, zǒu ba." },
+        "fr": { "code": "fr-FR", "name": "프랑스어", "flag": "🇫🇷", "text": "Êtes-vous prêt maintenant ? - Oui, je suis prêt. Allons-y.", "roman": "" },
+        "de": { "code": "de-DE", "name": "독일어", "flag": "🇩🇪", "text": "Sind Sie jetzt bereit? - Ja, alles bereit. Los geht's.", "roman": "" },
+        "es": { "code": "es-ES", "name": "스페인어", "flag": "🇪🇸", "text": "¿Estás listo ahora? - Sí, estoy listo. Vamos.", "roman": "" },
+        "ar": { "code": "ar-SA", "name": "아랍어", "flag": "🇸🇦", "text": "هل أنت مستعد الآن؟ - نعم، أنا جاهز تماماً. هيا بنا.", "roman": "Hal anta musta'iddun al-ān? - Na'am, anā jāhizun tamāman. Hayyā binā." },
+        "ru": { "code": "ru-RU", "name": "러시아어", "flag": "🇷🇺", "text": "Вы готовы? - Да, всё готово. Поехали.", "roman": "Vy gotovy? - Da, vsyo gotovo. Poyekhali." }
+      }
+    },
+    {
+      "theme": "일치 확인 (Q&A)",
+      "type": "기초",
+      "meaning": "Q: 이게 맞나요? / A: 네, 정확히 맞습니다.",
+      "translations": {
+        "en": { "code": "en-US", "name": "영어", "flag": "🇺🇸", "text": "Is this correct? - Yes, that is exactly right.", "roman": "" },
+        "ja": { "code": "ja-JP", "name": "일본어", "flag": "🇯🇵", "text": "これで合っていますか？ - はい、その通りです。", "roman": "Kore de atte imasu ka? - Hai, sono tōri desu." },
+        "zh": { "code": "zh-CN", "name": "중국어", "flag": "🇨🇳", "text": "这个对吗？ - 是的，完全正确。", "roman": "Zhège duì ma? - Shì de, wánquán zhèngquè." },
+        "fr": { "code": "fr-FR", "name": "프랑스어", "flag": "🇫🇷", "text": "Est-ce exact ? - Oui, c'est tout à fait correct.", "roman": "" },
+        "de": { "code": "de-DE", "name": "독일어", "flag": "🇩🇪", "text": "Ist das richtig so? - Ja, das ist absolut richtig.", "roman": "" },
+        "es": { "code": "es-ES", "name": "스페인어", "flag": "🇪🇸", "text": "¿Es esto correcto? - Sí, es exactamente así.", "roman": "" },
+        "ar": { "code": "ar-SA", "name": "아랍어", "flag": "🇸🇦", "text": "هل هذا صحيح؟ - نعم، هذا صحيح تماماً.", "roman": "Hal hādhā ṣaḥīḥ? - Na'am, hādhā ṣaḥīḥun tamāman." },
+        "ru": { "code": "ru-RU", "name": "러시아어", "flag": "🇷🇺", "text": "Это правильно? - Да, совершенно верно.", "roman": "Eto pravil'no? - Da, sovershenno verno." }
+      }
+    },
+    {
+      "theme": "물품 요청 (Q&A)",
+      "type": "기초",
+      "meaning": "Q: 물 한 잔 주시겠어요? / A: 네, 여기 있습니다.",
+      "translations": {
+        "en": { "code": "en-US", "name": "영어", "flag": "🇺🇸", "text": "May I have a glass of water, please? - Sure, here you go.", "roman": "" },
+        "ja": { "code": "ja-JP", "name": "일본어", "flag": "🇯🇵", "text": "お水を一杯いただけますか？ - はい、どうぞ。", "roman": "Omizu o ippai itadakemasu ka? - Hai, dōzo." },
+        "zh": { "code": "zh-CN", "name": "중국어", "flag": "🇨🇳", "text": "可以给我一杯水吗？ - 好的，请用。", "roman": "Kěyǐ gěi wǒ yībēi shuǐ ma? - Hǎo de, qǐng yòng." },
+        "fr": { "code": "fr-FR", "name": "프랑스어", "flag": "🇫🇷", "text": "Puis-je avoir un verre d'eau, s'il vous plaît ? - Bien sûr, voici.", "roman": "" },
+        "de": { "code": "de-DE", "name": "독일어", "flag": "🇩🇪", "text": "Könnte ich bitte ein Glas Wasser haben? - Sicher, bitte sehr.", "roman": "" },
+        "es": { "code": "es-ES", "name": "스페인어", "flag": "🇪🇸", "text": "¿Me da un vaso de agua, por favor? - Claro, aquí tiene.", "roman": "" },
+        "ar": { "code": "ar-SA", "name": "아랍어", "flag": "🇸🇦", "text": "هل يمكنني الحصول على كوب ماء؟ - بالطبع، تفضل.", "roman": "Hal yumkinunī al-ḥuṣūl 'alā kūb mā'? - Bil-ṭab', tafaḍḍal." },
+        "ru": { "code": "ru-RU", "name": "러시아어", "flag": "🇷🇺", "text": "Можно стакан воды, пожалуйста? - Конечно, вот, держите.", "roman": "Mozhno stakan vody, pozhaluysta? - Konechno, vot, derzhite." }
+      }
+    }
+  ],  
   "polyglot_pool": [
     {
       "theme": "입버릇 관용구: 일상 표현",
