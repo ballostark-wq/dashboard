@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10 03:05:55",
+  "updated_at": "2026-09-10 03:27:52",
   "us2y": {
     "value": 4.37,
     "change": -0.29
@@ -223,83 +223,83 @@
       "detail": "10Y-2Y 스프레드가 +42 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.86",
-      "title": "닥터 코퍼 $6.86선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.85",
+      "title": "닥터 코퍼 $6.85선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.86",
-          "chg": "+0.88%",
+          "val": "$6.85",
+          "chg": "+0.74%",
           "up": true
         },
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,463.5",
-          "chg": "+1.08%",
+          "val": "$4,455.8",
+          "chg": "+0.90%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$68.25",
-          "chg": "+0.46%",
+          "val": "$68.07",
+          "chg": "+0.19%",
           "up": true
         }
       ],
       "bullets": [
-        "구리 $6.86/lb (+0.88%) - AI 전력망 설비 수요 반영",
-        "금 $4,464/oz, 은 $68.25/oz - 통화가치 헤지"
+        "구리 $6.85/lb (+0.74%) - AI 전력망 설비 수요 반영",
+        "금 $4,456/oz, 은 $68.07/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,338원 | 엔/달러 ¥153.4",
-      "title": "원/달러 1,337.7원선과 엔/달러 ¥153.4",
+      "badge": "원/달러 1,339원 | 엔/달러 ¥153.4",
+      "title": "원/달러 1,339.0원선과 엔/달러 ¥153.4",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,337.7원",
-          "chg": "-0.12%",
+          "val": "1,339.0원",
+          "chg": "-0.01%",
           "up": false
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "98.74pt",
-          "chg": "-0.03%",
+          "val": "98.75pt",
+          "chg": "-0.02%",
           "up": false
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥153.45",
-          "chg": "-0.02%",
+          "val": "¥153.42",
+          "chg": "-0.04%",
           "up": false
         }
       ],
       "bullets": [
-        "달러 인덱스 98.74pt - 미국 성장 우위 지속",
-        "엔/달러 153.45엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 98.75pt - 미국 성장 우위 지속",
+        "엔/달러 153.42엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $96.19",
-      "title": "WTI 배럴당 $96.19선 박스권 안정",
+      "badge": "WTI $96.05",
+      "title": "WTI 배럴당 $96.05선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$96.19",
-          "chg": "+0.15%",
+          "val": "$96.05",
+          "chg": "+0.00%",
           "up": true
         }
       ],
       "bullets": [
-        "WTI 선물 $96.19/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $96.05/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -307,32 +307,32 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.86,
-      "change": 0.88
+      "price": 6.85,
+      "change": 0.74
     },
     "gold": {
-      "price": 4463.5,
-      "change": 1.08
+      "price": 4455.8,
+      "change": 0.9
     },
     "silver": {
-      "price": 68.25,
-      "change": 0.46
+      "price": 68.07,
+      "change": 0.19
     },
     "wti": {
-      "price": 96.19,
-      "change": 0.15
+      "price": 96.05,
+      "change": 0.0
     },
     "usdkrw": {
-      "price": 1337.66,
-      "change": -0.12
+      "price": 1339.04,
+      "change": -0.01
     },
     "dxy": {
-      "price": 98.74,
-      "change": -0.03
+      "price": 98.75,
+      "change": -0.02
     },
     "usdjpy": {
-      "price": 153.45,
-      "change": -0.02
+      "price": 153.42,
+      "change": -0.04
     }
   },
   "history_20d": {
@@ -595,9 +595,9 @@
       },
       {
         "date": "09-10",
-        "copper": 6.86,
-        "gold": 4463.5,
-        "silver": 68.25
+        "copper": 6.85,
+        "gold": 4455.8,
+        "silver": 68.07
       }
     ],
     "fx": [
@@ -717,9 +717,9 @@
       },
       {
         "date": "09-10",
-        "usdkrw": 1337.66,
-        "dxy": 98.74,
-        "usdjpy": 153.45
+        "usdkrw": 1339.04,
+        "dxy": 98.75,
+        "usdjpy": 153.42
       }
     ],
     "oil": [
@@ -820,8 +820,8 @@
       },
       {
         "date": "09-10",
-        "wti": 96.19,
-        "change": 0.15
+        "wti": 96.05,
+        "change": 0.0
       }
     ]
   },
@@ -1026,56 +1026,56 @@
           "name": "영어",
           "flag": "🇺🇸",
           "text": "Nice to meet you.",
-          "roman": ""
+          "roman": "나이스 투 밋 유."
         },
         "ja": {
           "code": "ja-JP",
           "name": "일본어",
           "flag": "🇯🇵",
           "text": "はじめまして、お会いできて嬉しいです。",
-          "roman": "Hajimemashite, oai dekite ureshī desu."
+          "roman": "하지메마시테, 오아이 데키테 우레시이 데스."
         },
         "zh": {
           "code": "zh-CN",
           "name": "중국어",
           "flag": "🇨🇳",
           "text": "很高兴认识你。",
-          "roman": "Hěn gāoxìng rènshí nǐ."
+          "roman": "헌 가오싱 런스 니."
         },
         "fr": {
           "code": "fr-FR",
           "name": "프랑스어",
           "flag": "🇫🇷",
           "text": "Ravi de vous rencontrer.",
-          "roman": ""
+          "roman": "라비 드 부 랑콩트레."
         },
         "de": {
           "code": "de-DE",
           "name": "독일어",
           "flag": "🇩🇪",
           "text": "Schön, Sie kennenzulernen.",
-          "roman": ""
+          "roman": "쇤, 지 케넨추러넨."
         },
         "es": {
           "code": "es-ES",
           "name": "스페인어",
           "flag": "🇪🇸",
           "text": "Mucho gusto en conocerte.",
-          "roman": ""
+          "roman": "무초 구스토 엔 코노세르테."
         },
         "ar": {
           "code": "ar-SA",
           "name": "아랍어",
           "flag": "🇸🇦",
           "text": "سعيد بلقائك جداً.",
-          "roman": "Sa'īd biliqā'ika jiddan."
+          "roman": "사이둔 비리카이카 짓단."
         },
         "ru": {
           "code": "ru-RU",
           "name": "러시아어",
           "flag": "🇷🇺",
           "text": "Очень приятно познакомиться.",
-          "roman": "Ochen' priyatno poznakomit'sya."
+          "roman": "오친 프리야트나 빠즈나코밋짜."
         }
       },
       "pool_type": "기초",
@@ -1092,56 +1092,56 @@
             "name": "영어",
             "flag": "🇺🇸",
             "text": "Nice to meet you.",
-            "roman": ""
+            "roman": "나이스 투 밋 유."
           },
           "ja": {
             "code": "ja-JP",
             "name": "일본어",
             "flag": "🇯🇵",
             "text": "はじめまして、お会いできて嬉しいです。",
-            "roman": "Hajimemashite, oai dekite ureshī desu."
+            "roman": "하지메마시테, 오아이 데키테 우레시이 데스."
           },
           "zh": {
             "code": "zh-CN",
             "name": "중국어",
             "flag": "🇨🇳",
             "text": "很高兴认识你。",
-            "roman": "Hěn gāoxìng rènshí nǐ."
+            "roman": "헌 가오싱 런스 니."
           },
           "fr": {
             "code": "fr-FR",
             "name": "프랑스어",
             "flag": "🇫🇷",
             "text": "Ravi de vous rencontrer.",
-            "roman": ""
+            "roman": "라비 드 부 랑콩트레."
           },
           "de": {
             "code": "de-DE",
             "name": "독일어",
             "flag": "🇩🇪",
             "text": "Schön, Sie kennenzulernen.",
-            "roman": ""
+            "roman": "쇤, 지 케넨추러넨."
           },
           "es": {
             "code": "es-ES",
             "name": "스페인어",
             "flag": "🇪🇸",
             "text": "Mucho gusto en conocerte.",
-            "roman": ""
+            "roman": "무초 구스토 엔 코노세르테."
           },
           "ar": {
             "code": "ar-SA",
             "name": "아랍어",
             "flag": "🇸🇦",
             "text": "سعيد بلقائك جداً.",
-            "roman": "Sa'īd biliqā'ika jiddan."
+            "roman": "사이둔 비리카이카 짓단."
           },
           "ru": {
             "code": "ru-RU",
             "name": "러시아어",
             "flag": "🇷🇺",
             "text": "Очень приятно познакомиться.",
-            "roman": "Ochen' priyatno poznakomit'sya."
+            "roman": "오친 프리야트나 빠즈나코밋짜."
           }
         },
         "pool_type": "기초",
@@ -1221,56 +1221,56 @@
             "name": "영어",
             "flag": "🇺🇸",
             "text": "You are very welcome.",
-            "roman": ""
+            "roman": "유 아 베리 웰컴."
           },
           "ja": {
             "code": "ja-JP",
             "name": "일본어",
             "flag": "🇯🇵",
             "text": "どういたしまして。",
-            "roman": "Dōitashimashite."
+            "roman": "도-이타시마시테."
           },
           "zh": {
             "code": "zh-CN",
             "name": "중국어",
             "flag": "🇨🇳",
             "text": "不客气，不用谢。",
-            "roman": "Bù kèqì, bùyòng xiè."
+            "roman": "부커치, 부융 셰."
           },
           "fr": {
             "code": "fr-FR",
             "name": "프랑스어",
             "flag": "🇫🇷",
             "text": "Je vous en prie.",
-            "roman": ""
+            "roman": "즈 부 장 프리."
           },
           "de": {
             "code": "de-DE",
             "name": "독일어",
             "flag": "🇩🇪",
             "text": "Gern geschehen, bitte schön.",
-            "roman": ""
+            "roman": "게른 게셰엔, 비테 쇤."
           },
           "es": {
             "code": "es-ES",
             "name": "스페인어",
             "flag": "🇪🇸",
             "text": "De nada, es un placer.",
-            "roman": ""
+            "roman": "데 나다, 에스 운 쁠라세르."
           },
           "ar": {
             "code": "ar-SA",
             "name": "아랍어",
             "flag": "🇸🇦",
             "text": "على الرحب والسعة.",
-            "roman": "'Alā ar-raḥbi was-sa'ah."
+            "roman": "알라르 라흐비 와스-사아."
           },
           "ru": {
             "code": "ru-RU",
             "name": "러시아어",
             "flag": "🇷🇺",
             "text": "Пожалуйста, не за что.",
-            "roman": "Pozhaluysta, ne za chto."
+            "roman": "빠잘루이스타, 녜 자 슈또."
           }
         },
         "pool_type": "기초",
@@ -1350,56 +1350,56 @@
             "name": "영어",
             "flag": "🇺🇸",
             "text": "Excuse me, I am sorry.",
-            "roman": ""
+            "roman": "익스큐즈 미, 아임 쏘리."
           },
           "ja": {
             "code": "ja-JP",
             "name": "일본어",
             "flag": "🇯🇵",
             "text": "すみません、申し訳ありません。",
-            "roman": "Sumimasen, mōshiwake arimasen."
+            "roman": "스미마센, 모-시와케 아리마센."
           },
           "zh": {
             "code": "zh-CN",
             "name": "중국어",
             "flag": "🇨🇳",
             "text": "不好意思，打扰一下。",
-            "roman": "Bù hǎoyìsi, dǎrǎo yīxià."
+            "roman": "부하오이쓰, 다라오 이샤."
           },
           "fr": {
             "code": "fr-FR",
             "name": "프랑스어",
             "flag": "🇫🇷",
             "text": "Excusez-moi, pardon.",
-            "roman": ""
+            "roman": "엑스퀴제 무아, 파르동."
           },
           "de": {
             "code": "de-DE",
             "name": "독일어",
             "flag": "🇩🇪",
             "text": "Entschuldigen Sie bitte.",
-            "roman": ""
+            "roman": "엔트슐디건 지 비테."
           },
           "es": {
             "code": "es-ES",
             "name": "스페인어",
             "flag": "🇪🇸",
             "text": "Disculpe, perdón.",
-            "roman": ""
+            "roman": "디스쿨뻬, 뻬르돈."
           },
           "ar": {
             "code": "ar-SA",
             "name": "아랍어",
             "flag": "🇸🇦",
             "text": "معذرة، أنا آسف.",
-            "roman": "Ma'dhiratan, anā āsif."
+            "roman": "마디라탄, 아나 아시프."
           },
           "ru": {
             "code": "ru-RU",
             "name": "러시아어",
             "flag": "🇷🇺",
             "text": "Извините, прошу прощения.",
-            "roman": "Izvinite, proshu proshcheniya."
+            "roman": "이즈비니쩨, 프라슈 프라셰니야."
           }
         },
         "pool_type": "기초",
@@ -1577,7 +1577,7 @@
         "rank": 7,
         "title": "소연 (SOYEON) '퇴사할게여 (Narr. 기안84)' Official Music Video",
         "channel": "i-dle (아이들)",
-        "views": "417만회",
+        "views": "421만회",
         "thumb": "https://i.ytimg.com/vi/7mDDM0eBWR0/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=7mDDM0eBWR0"
       },
