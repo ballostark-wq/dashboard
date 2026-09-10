@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10 04:06:05",
+  "updated_at": "2026-09-10 04:21:14",
   "us2y": {
     "value": 4.37,
     "change": -0.29
@@ -135,6 +135,11 @@
     ],
     "domestic": [
       {
+        "title": "[표] 은행간 단기금리 기준-코리보(10일)",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434283",
+        "date": "09-10 13:00"
+      },
+      {
         "title": "[외환] 국민연금 환헤지 중단에 네고 줄었나…2.60원↑",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434282",
         "date": "09-10 12:58"
@@ -153,11 +158,6 @@
         "title": "[단기자금시장 분석(10일)] 당일 지준 부족",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434265",
         "date": "09-10 11:31"
-      },
-      {
-        "title": "[외환] 고유가·美 금리 상승에 오름세…2.40원↑",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434263",
-        "date": "09-10 11:28"
       }
     ]
   },
@@ -213,83 +213,83 @@
       "detail": "10Y-2Y 스프레드가 +42 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.8",
-      "title": "닥터 코퍼 $6.8선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.85",
+      "title": "닥터 코퍼 $6.85선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.80",
-          "chg": "+0.89%",
+          "val": "$6.85",
+          "chg": "+0.74%",
           "up": true
         },
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,416.0",
-          "chg": "+0.50%",
+          "val": "$4,456.6",
+          "chg": "+0.92%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$67.94",
-          "chg": "+2.47%",
+          "val": "$68.11",
+          "chg": "+0.25%",
           "up": true
         }
       ],
       "bullets": [
-        "구리 $6.8/lb (+0.89%) - AI 전력망 설비 수요 반영",
-        "금 $4,416/oz, 은 $67.94/oz - 통화가치 헤지"
+        "구리 $6.85/lb (+0.74%) - AI 전력망 설비 수요 반영",
+        "금 $4,457/oz, 은 $68.11/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
       "badge": "원/달러 1,337원 | 엔/달러 ¥153.4",
-      "title": "원/달러 1,336.8원선과 엔/달러 ¥153.4",
+      "title": "원/달러 1,337.1원선과 엔/달러 ¥153.4",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,336.8원",
-          "chg": "-0.18%",
+          "val": "1,337.1원",
+          "chg": "-0.16%",
           "up": false
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "98.77pt",
-          "chg": "-0.07%",
+          "val": "98.73pt",
+          "chg": "-0.04%",
           "up": false
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥153.37",
-          "chg": "-0.07%",
+          "val": "¥153.39",
+          "chg": "-0.06%",
           "up": false
         }
       ],
       "bullets": [
-        "달러 인덱스 98.77pt - 미국 성장 우위 지속",
-        "엔/달러 153.37엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 98.73pt - 미국 성장 우위 지속",
+        "엔/달러 153.39엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $96.05",
-      "title": "WTI 배럴당 $96.05선 박스권 안정",
+      "badge": "WTI $96.13",
+      "title": "WTI 배럴당 $96.13선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$96.05",
-          "chg": "+3.25%",
+          "val": "$96.13",
+          "chg": "+0.08%",
           "up": true
         }
       ],
       "bullets": [
-        "WTI 선물 $96.05/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $96.13/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -297,32 +297,32 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.8,
-      "change": 0.89
+      "price": 6.85,
+      "change": 0.74
     },
     "gold": {
-      "price": 4416.0,
-      "change": 0.5
+      "price": 4456.6,
+      "change": 0.92
     },
     "silver": {
-      "price": 67.94,
-      "change": 2.47
+      "price": 68.11,
+      "change": 0.25
     },
     "wti": {
-      "price": 96.05,
-      "change": 3.25
+      "price": 96.13,
+      "change": 0.08
     },
     "usdkrw": {
-      "price": 1336.81,
-      "change": -0.18
+      "price": 1337.08,
+      "change": -0.16
     },
     "dxy": {
-      "price": 98.77,
-      "change": -0.07
+      "price": 98.73,
+      "change": -0.04
     },
     "usdjpy": {
-      "price": 153.37,
-      "change": -0.07
+      "price": 153.39,
+      "change": -0.06
     }
   },
   "history_20d": {
@@ -470,12 +470,6 @@
     ],
     "commodities": [
       {
-        "date": "08-12",
-        "copper": 6.6,
-        "gold": 4408.9,
-        "silver": 65.56
-      },
-      {
         "date": "08-13",
         "copper": 6.59,
         "gold": 4363.6,
@@ -588,140 +582,141 @@
         "copper": 6.8,
         "gold": 4416.0,
         "silver": 67.94
+      },
+      {
+        "date": "09-10",
+        "copper": 6.85,
+        "gold": 4456.6,
+        "silver": 68.11
       }
     ],
     "fx": [
       {
         "date": "08-13",
         "usdkrw": 1416.85,
-        "dxy": 100.01,
+        "dxy": 99.96,
         "usdjpy": 159.43
       },
       {
         "date": "08-16",
         "usdkrw": 1415.37,
-        "dxy": 99.96,
+        "dxy": 99.67,
         "usdjpy": 159.22
       },
       {
         "date": "08-17",
         "usdkrw": 1414.73,
-        "dxy": 99.67,
+        "dxy": 99.64,
         "usdjpy": 159.34
       },
       {
         "date": "08-18",
         "usdkrw": 1413.58,
-        "dxy": 99.64,
+        "dxy": 99.65,
         "usdjpy": 159.55
       },
       {
         "date": "08-19",
         "usdkrw": 1389.4,
-        "dxy": 99.65,
+        "dxy": 98.83,
         "usdjpy": 158.28
       },
       {
         "date": "08-20",
         "usdkrw": 1390.79,
-        "dxy": 98.83,
+        "dxy": 98.9,
         "usdjpy": 158.88
       },
       {
         "date": "08-23",
         "usdkrw": 1384.98,
-        "dxy": 98.9,
+        "dxy": 98.8,
         "usdjpy": 158.9
       },
       {
         "date": "08-24",
         "usdkrw": 1380.76,
-        "dxy": 98.8,
+        "dxy": 99.0,
         "usdjpy": 159.14
       },
       {
         "date": "08-25",
         "usdkrw": 1381.49,
-        "dxy": 99.0,
+        "dxy": 98.92,
         "usdjpy": 159.22
       },
       {
         "date": "08-26",
         "usdkrw": 1383.49,
-        "dxy": 98.92,
+        "dxy": 99.17,
         "usdjpy": 159.26
       },
       {
         "date": "08-27",
         "usdkrw": 1380.45,
-        "dxy": 99.17,
+        "dxy": 99.16,
         "usdjpy": 159.32
       },
       {
         "date": "08-30",
         "usdkrw": 1377.11,
-        "dxy": 99.16,
+        "dxy": 99.7,
         "usdjpy": 160.12
       },
       {
         "date": "08-31",
         "usdkrw": 1366.62,
-        "dxy": 99.7,
+        "dxy": 99.43,
         "usdjpy": 159.75
       },
       {
         "date": "09-01",
         "usdkrw": 1372.86,
-        "dxy": 99.43,
+        "dxy": 99.67,
         "usdjpy": 160.2
       },
       {
         "date": "09-02",
         "usdkrw": 1358.39,
-        "dxy": 99.67,
+        "dxy": 99.56,
         "usdjpy": 158.92
       },
       {
         "date": "09-03",
         "usdkrw": 1355.41,
-        "dxy": 99.56,
+        "dxy": 99.0,
         "usdjpy": 155.66
       },
       {
         "date": "09-06",
         "usdkrw": 1345.06,
-        "dxy": 99.0,
+        "dxy": 99.16,
         "usdjpy": 156.2
       },
       {
         "date": "09-07",
         "usdkrw": 1343.57,
-        "dxy": 99.16,
+        "dxy": 98.84,
         "usdjpy": 153.85
       },
       {
         "date": "09-08",
         "usdkrw": 1339.21,
-        "dxy": 98.84,
+        "dxy": 98.77,
         "usdjpy": 153.48
       },
       {
         "date": "09-10",
-        "usdkrw": 1336.81,
-        "dxy": 98.77,
-        "usdjpy": 153.37
+        "usdkrw": 1337.08,
+        "dxy": 98.73,
+        "usdjpy": 153.39
       }
     ],
     "oil": [
       {
-        "date": "08-12",
-        "wti": 83.27,
-        "change": 0.0
-      },
-      {
         "date": "08-13",
         "wti": 81.25,
-        "change": -2.43
+        "change": 0.0
       },
       {
         "date": "08-14",
@@ -812,6 +807,11 @@
         "date": "09-09",
         "wti": 96.05,
         "change": 3.25
+      },
+      {
+        "date": "09-10",
+        "wti": 96.13,
+        "change": 0.08
       }
     ]
   },
@@ -1543,7 +1543,7 @@
         "rank": 4,
         "title": "Guitarist",
         "channel": "D.O. - Topic",
-        "views": "42만회",
+        "views": "43만회",
         "thumb": "https://i.ytimg.com/vi/svHUxtHIljw/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=svHUxtHIljw"
       },
@@ -1559,7 +1559,7 @@
         "rank": 6,
         "title": "조금 놀렸더니 해리 케인 12강 강화 선언하는 이상호 ㅋㅋㅋ",
         "channel": "게임대장봉준",
-        "views": "31만회",
+        "views": "32만회",
         "thumb": "https://i.ytimg.com/vi/N4l5RUJAEpQ/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=N4l5RUJAEpQ"
       },
@@ -1567,7 +1567,7 @@
         "rank": 7,
         "title": "소연 (SOYEON) '퇴사할게여 (Narr. 기안84)' Official Music Video",
         "channel": "i-dle (아이들)",
-        "views": "426만회",
+        "views": "428만회",
         "thumb": "https://i.ytimg.com/vi/7mDDM0eBWR0/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=7mDDM0eBWR0"
       },
@@ -1575,7 +1575,7 @@
         "rank": 8,
         "title": "중국인에게 인정받다",
         "channel": "괴물쥐 유튜브",
-        "views": "37만회",
+        "views": "38만회",
         "thumb": "https://i.ytimg.com/vi/T4Lm2B-LJRU/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=T4Lm2B-LJRU"
       },
@@ -1583,7 +1583,7 @@
         "rank": 9,
         "title": "Moonride",
         "channel": "Hearts2Hearts - Topic",
-        "views": "16만회",
+        "views": "17만회",
         "thumb": "https://i.ytimg.com/vi/hfftbNrp_lw/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=hfftbNrp_lw"
       },
