@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10 04:21:14",
+  "updated_at": "2026-09-10 13:31:52",
   "us2y": {
     "value": 4.37,
     "change": -0.29
@@ -135,6 +135,11 @@
     ],
     "domestic": [
       {
+        "title": "유가 급등·外人 매도 반영하며 약세…국고 10년 6.1bp↑",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434285",
+        "date": "09-10 13:22"
+      },
+      {
         "title": "[표] 은행간 단기금리 기준-코리보(10일)",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434283",
         "date": "09-10 13:00"
@@ -153,11 +158,6 @@
         "title": "BNY멜론 \"유가 헤지, 美보다 유럽 채권시장이 활발…공매도 활용률↑\"",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434279",
         "date": "09-10 12:32"
-      },
-      {
-        "title": "[단기자금시장 분석(10일)] 당일 지준 부족",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434265",
-        "date": "09-10 11:31"
       }
     ]
   },
@@ -226,8 +226,8 @@
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,456.6",
-          "chg": "+0.92%",
+          "val": "$4,456.9",
+          "chg": "+0.93%",
           "up": true
         },
         {
@@ -265,31 +265,31 @@
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥153.39",
-          "chg": "-0.06%",
+          "val": "¥153.40",
+          "chg": "-0.05%",
           "up": false
         }
       ],
       "bullets": [
         "달러 인덱스 98.73pt - 미국 성장 우위 지속",
-        "엔/달러 153.39엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "엔/달러 153.40엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $96.13",
-      "title": "WTI 배럴당 $96.13선 박스권 안정",
+      "badge": "WTI $96.1",
+      "title": "WTI 배럴당 $96.1선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$96.13",
-          "chg": "+0.08%",
+          "val": "$96.10",
+          "chg": "+0.05%",
           "up": true
         }
       ],
       "bullets": [
-        "WTI 선물 $96.13/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $96.1/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -301,16 +301,16 @@
       "change": 0.74
     },
     "gold": {
-      "price": 4456.6,
-      "change": 0.92
+      "price": 4456.9,
+      "change": 0.93
     },
     "silver": {
       "price": 68.11,
       "change": 0.25
     },
     "wti": {
-      "price": 96.13,
-      "change": 0.08
+      "price": 96.1,
+      "change": 0.05
     },
     "usdkrw": {
       "price": 1337.08,
@@ -321,8 +321,8 @@
       "change": -0.04
     },
     "usdjpy": {
-      "price": 153.39,
-      "change": -0.06
+      "price": 153.4,
+      "change": -0.05
     }
   },
   "history_20d": {
@@ -586,7 +586,7 @@
       {
         "date": "09-10",
         "copper": 6.85,
-        "gold": 4456.6,
+        "gold": 4456.9,
         "silver": 68.11
       }
     ],
@@ -709,7 +709,7 @@
         "date": "09-10",
         "usdkrw": 1337.08,
         "dxy": 98.73,
-        "usdjpy": 153.39
+        "usdjpy": 153.4
       }
     ],
     "oil": [
@@ -810,8 +810,8 @@
       },
       {
         "date": "09-10",
-        "wti": 96.13,
-        "change": 0.08
+        "wti": 96.1,
+        "change": 0.05
       }
     ]
   },
@@ -1519,7 +1519,7 @@
         "rank": 1,
         "title": "Please Be Happy",
         "channel": "Lim Young Woong - Topic",
-        "views": "32만회",
+        "views": "33만회",
         "thumb": "https://i.ytimg.com/vi/PEpWLTge234/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=PEpWLTge234"
       },
@@ -1535,7 +1535,7 @@
         "rank": 3,
         "title": "사기의 아픔을 딛고 드디어 진짜 음바페 영입",
         "channel": "튜브김민교",
-        "views": "46만회",
+        "views": "47만회",
         "thumb": "https://i.ytimg.com/vi/SQ7tpUm0zkc/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=SQ7tpUm0zkc"
       },
@@ -1543,7 +1543,7 @@
         "rank": 4,
         "title": "Guitarist",
         "channel": "D.O. - Topic",
-        "views": "43만회",
+        "views": "44만회",
         "thumb": "https://i.ytimg.com/vi/svHUxtHIljw/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=svHUxtHIljw"
       },
@@ -1567,7 +1567,7 @@
         "rank": 7,
         "title": "소연 (SOYEON) '퇴사할게여 (Narr. 기안84)' Official Music Video",
         "channel": "i-dle (아이들)",
-        "views": "428만회",
+        "views": "431만회",
         "thumb": "https://i.ytimg.com/vi/7mDDM0eBWR0/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=7mDDM0eBWR0"
       },
@@ -1575,7 +1575,7 @@
         "rank": 8,
         "title": "중국인에게 인정받다",
         "channel": "괴물쥐 유튜브",
-        "views": "38만회",
+        "views": "39만회",
         "thumb": "https://i.ytimg.com/vi/T4Lm2B-LJRU/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=T4Lm2B-LJRU"
       },
@@ -1583,7 +1583,7 @@
         "rank": 9,
         "title": "Moonride",
         "channel": "Hearts2Hearts - Topic",
-        "views": "17만회",
+        "views": "18만회",
         "thumb": "https://i.ytimg.com/vi/hfftbNrp_lw/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=hfftbNrp_lw"
       },
@@ -1591,7 +1591,7 @@
         "rank": 10,
         "title": "모두가 예상한 떡벽 : 고스트타입 하트골드【포켓몬 모든타입 깨기】#2",
         "channel": "근가놈",
-        "views": "41만회",
+        "views": "42만회",
         "thumb": "https://i.ytimg.com/vi/2L-hKOytmio/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=2L-hKOytmio"
       }
