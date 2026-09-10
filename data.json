@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10 02:05:59",
+  "updated_at": "2026-09-10 02:27:04",
   "us2y": {
     "value": 4.37,
     "change": -0.29
@@ -118,6 +118,11 @@
     ],
     "tech": [
       {
+        "title": "[디일렉] 코웨이, 안산에 '코웨이갤러리' 직영점 개점",
+        "link": "https://www.thelec.kr/news/articleView.html?idxno=62060",
+        "date": "09-10 11:12"
+      },
+      {
         "title": "[디일렉] SK하이닉스, 현금 50%·주식 50% 합의안 마련",
         "link": "https://www.thelec.kr/news/articleView.html?idxno=62068",
         "date": "09-10 10:55"
@@ -128,12 +133,27 @@
         "date": "09-10 10:37"
       },
       {
-        "title": "[디일렉] 무라타, AI 반도체용 전력기판 'iPaS' 내년 양산",
-        "link": "https://www.thelec.kr/news/articleView.html?idxno=62051",
-        "date": "09-10 05:57"
+        "title": "[전자신문] 총장님과 함께하는 한양여대 구성원 타운홀 미팅 개최…'함께 이야기하고,함께 바꾸다'",
+        "link": "https://www.etnews.com/20260910000149",
+        "date": "09-10 11:02"
+      },
+      {
+        "title": "[전자신문] 한경협 “첨단·전략 산업 분야로 세액공제 확대해야”…세제개편안 의견 전달",
+        "link": "https://www.etnews.com/20260910000148",
+        "date": "09-10 11:01"
       }
     ],
     "domestic": [
+      {
+        "title": "10년 국채선물 반빅 급락…유가 급등·美 바이백 실망(상보)",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434260",
+        "date": "09-10 11:18"
+      },
+      {
+        "title": "ECB 9월 인상 선반영 속 12월 추가 촉각…유가발 2차 효과가 가른다",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434259",
+        "date": "09-10 11:14"
+      },
       {
         "title": "[외환] 9시 이전 마(MAR) '+0.05원' 거래…픽싱 스퀘어",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434256",
@@ -148,16 +168,6 @@
         "title": "핌코 \"채권 투자매력 회복…5년간 연 4~6% 기대수익\"",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434251",
         "date": "09-10 11:00"
-      },
-      {
-        "title": "라구람 라잔, 베선트 저격…\"장기 금리 개입은 잠재적 시장 왜곡\"",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434254",
-        "date": "09-10 11:00"
-      },
-      {
-        "title": "한달 반 새 국고채 4.3조 판 外人…단기채 '팔자' 아직 안 끝났다",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434250",
-        "date": "09-10 10:59"
       }
     ]
   },
@@ -226,33 +236,33 @@
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,454.0",
-          "chg": "+1.37%",
+          "val": "$4,452.4",
+          "chg": "+1.33%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$67.94",
-          "chg": "+2.47%",
+          "val": "$67.91",
+          "chg": "+2.43%",
           "up": true
         }
       ],
       "bullets": [
         "구리 $6.85/lb (+1.63%) - AI 전력망 설비 수요 반영",
-        "금 $4,454/oz, 은 $67.94/oz - 통화가치 헤지"
+        "금 $4,452/oz, 은 $67.91/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,337원 | 엔/달러 ¥153.4",
-      "title": "원/달러 1,337.2원선과 엔/달러 ¥153.4",
+      "badge": "원/달러 1,338원 | 엔/달러 ¥153.5",
+      "title": "원/달러 1,338.1원선과 엔/달러 ¥153.5",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,337.2원",
-          "chg": "-0.15%",
+          "val": "1,338.1원",
+          "chg": "-0.08%",
           "up": false
         },
         {
@@ -265,31 +275,31 @@
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥153.40",
-          "chg": "-0.05%",
-          "up": false
-        }
-      ],
-      "bullets": [
-        "달러 인덱스 98.75pt - 미국 성장 우위 지속",
-        "엔/달러 153.40엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
-      ],
-      "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
-    },
-    "oil": {
-      "badge": "WTI $96.35",
-      "title": "WTI 배럴당 $96.35선 박스권 안정",
-      "metrics": [
-        {
-          "id": "wti",
-          "name": "WTI 원유",
-          "val": "$96.35",
-          "chg": "+3.57%",
+          "val": "¥153.51",
+          "chg": "+0.02%",
           "up": true
         }
       ],
       "bullets": [
-        "WTI 선물 $96.35/배럴 - 에너지 원가 압박 경감",
+        "달러 인덱스 98.75pt - 미국 성장 우위 지속",
+        "엔/달러 153.51엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+      ],
+      "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
+    },
+    "oil": {
+      "badge": "WTI $96.42",
+      "title": "WTI 배럴당 $96.42선 박스권 안정",
+      "metrics": [
+        {
+          "id": "wti",
+          "name": "WTI 원유",
+          "val": "$96.42",
+          "chg": "+3.64%",
+          "up": true
+        }
+      ],
+      "bullets": [
+        "WTI 선물 $96.42/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -301,28 +311,28 @@
       "change": 1.63
     },
     "gold": {
-      "price": 4454.0,
-      "change": 1.37
+      "price": 4452.4,
+      "change": 1.33
     },
     "silver": {
-      "price": 67.94,
-      "change": 2.47
+      "price": 67.91,
+      "change": 2.43
     },
     "wti": {
-      "price": 96.35,
-      "change": 3.57
+      "price": 96.42,
+      "change": 3.64
     },
     "usdkrw": {
-      "price": 1337.18,
-      "change": -0.15
+      "price": 1338.12,
+      "change": -0.08
     },
     "dxy": {
       "price": 98.75,
       "change": -0.02
     },
     "usdjpy": {
-      "price": 153.4,
-      "change": -0.05
+      "price": 153.51,
+      "change": 0.02
     }
   },
   "history_20d": {
@@ -586,8 +596,8 @@
       {
         "date": "09-10",
         "copper": 6.85,
-        "gold": 4454.0,
-        "silver": 67.94
+        "gold": 4452.4,
+        "silver": 67.91
       }
     ],
     "fx": [
@@ -707,9 +717,9 @@
       },
       {
         "date": "09-10",
-        "usdkrw": 1337.18,
+        "usdkrw": 1338.12,
         "dxy": 98.75,
-        "usdjpy": 153.4
+        "usdjpy": 153.51
       }
     ],
     "oil": [
@@ -810,8 +820,8 @@
       },
       {
         "date": "09-10",
-        "wti": 96.35,
-        "change": 3.57
+        "wti": 96.42,
+        "change": 3.64
       }
     ]
   },
@@ -1007,382 +1017,392 @@
       }
     ],
     "polyglot": {
-      "theme": "음식과 건강: 술자리",
-      "meaning": "오늘 꽐라가 되도록 마셔보자!",
+      "theme": "첫 대면",
+      "type": "기초",
+      "meaning": "만나서 반갑습니다.",
       "translations": {
         "en": {
           "code": "en-US",
           "name": "영어",
           "flag": "🇺🇸",
-          "text": "Let's get wasted!",
+          "text": "Nice to meet you.",
           "roman": ""
         },
         "ja": {
           "code": "ja-JP",
           "name": "일본어",
           "flag": "🇯🇵",
-          "text": "今日はとことん飲んで潰れようぜ！",
-          "roman": "Kyō wa tokoton nonde tsubureyō ze!"
+          "text": "はじめまして、お会いできて嬉しいです。",
+          "roman": "Hajimemashite, oai dekite ureshī desu."
         },
         "zh": {
           "code": "zh-CN",
           "name": "중국어",
           "flag": "🇨🇳",
-          "text": "今天不醉不归！",
-          "roman": "Jīntiān bù zuì bù guī!"
+          "text": "很高兴认识你。",
+          "roman": "Hěn gāoxìng rènshí nǐ."
         },
         "fr": {
           "code": "fr-FR",
           "name": "프랑스어",
           "flag": "🇫🇷",
-          "text": "On va se mettre une caisse ce soir !",
+          "text": "Ravi de vous rencontrer.",
           "roman": ""
         },
         "de": {
           "code": "de-DE",
           "name": "독일어",
           "flag": "🇩🇪",
-          "text": "Lass uns richtig die Kante geben!",
+          "text": "Schön, Sie kennenzulernen.",
           "roman": ""
         },
         "es": {
           "code": "es-ES",
           "name": "스페인어",
           "flag": "🇪🇸",
-          "text": "¡Vamos a ponernos ciegos!",
+          "text": "Mucho gusto en conocerte.",
           "roman": ""
         },
         "ar": {
           "code": "ar-SA",
           "name": "아랍어",
           "flag": "🇸🇦",
-          "text": "دعنا نسهر حتى نثمل تمامًا!",
-          "roman": "Da'nā nashar ḥattā nathmala tamāman!"
+          "text": "سعيد بلقائك جداً.",
+          "roman": "Sa'īd biliqā'ika jiddan."
         },
         "ru": {
           "code": "ru-RU",
           "name": "러시아어",
           "flag": "🇷🇺",
-          "text": "Давай напьёмся в стельку!",
-          "roman": "Davay nap'yomsya v stel'ku!"
+          "text": "Очень приятно познакомиться.",
+          "roman": "Ochen' priyatno poznakomit'sya."
         }
       },
+      "pool_type": "기초",
       "d_day": "오늘"
     },
     "polyglot_5d": [
       {
-        "theme": "음식과 건강: 술자리",
-        "meaning": "오늘 꽐라가 되도록 마셔보자!",
+        "theme": "첫 대면",
+        "type": "기초",
+        "meaning": "만나서 반갑습니다.",
         "translations": {
           "en": {
             "code": "en-US",
             "name": "영어",
             "flag": "🇺🇸",
-            "text": "Let's get wasted!",
+            "text": "Nice to meet you.",
             "roman": ""
           },
           "ja": {
             "code": "ja-JP",
             "name": "일본어",
             "flag": "🇯🇵",
-            "text": "今日はとことん飲んで潰れようぜ！",
-            "roman": "Kyō wa tokoton nonde tsubureyō ze!"
+            "text": "はじめまして、お会いできて嬉しいです。",
+            "roman": "Hajimemashite, oai dekite ureshī desu."
           },
           "zh": {
             "code": "zh-CN",
             "name": "중국어",
             "flag": "🇨🇳",
-            "text": "今天不醉不归！",
-            "roman": "Jīntiān bù zuì bù guī!"
+            "text": "很高兴认识你。",
+            "roman": "Hěn gāoxìng rènshí nǐ."
           },
           "fr": {
             "code": "fr-FR",
             "name": "프랑스어",
             "flag": "🇫🇷",
-            "text": "On va se mettre une caisse ce soir !",
+            "text": "Ravi de vous rencontrer.",
             "roman": ""
           },
           "de": {
             "code": "de-DE",
             "name": "독일어",
             "flag": "🇩🇪",
-            "text": "Lass uns richtig die Kante geben!",
+            "text": "Schön, Sie kennenzulernen.",
             "roman": ""
           },
           "es": {
             "code": "es-ES",
             "name": "스페인어",
             "flag": "🇪🇸",
-            "text": "¡Vamos a ponernos ciegos!",
+            "text": "Mucho gusto en conocerte.",
             "roman": ""
           },
           "ar": {
             "code": "ar-SA",
             "name": "아랍어",
             "flag": "🇸🇦",
-            "text": "دعنا نسهر حتى نثمل تمامًا!",
-            "roman": "Da'nā nashar ḥattā nathmala tamāman!"
+            "text": "سعيد بلقائك جداً.",
+            "roman": "Sa'īd biliqā'ika jiddan."
           },
           "ru": {
             "code": "ru-RU",
             "name": "러시아어",
             "flag": "🇷🇺",
-            "text": "Давай напьёмся в стельку!",
-            "roman": "Davay nap'yomsya v stel'ku!"
+            "text": "Очень приятно познакомиться.",
+            "roman": "Ochen' priyatno poznakomit'sya."
           }
         },
+        "pool_type": "기초",
         "d_day": "오늘"
       },
       {
-        "theme": "음식과 건강: 술자리",
-        "meaning": "원샷! (다 마셔!)",
+        "theme": "음식과 건강: 얼굴·두통",
+        "meaning": "눈이 퉁퉁 부었어.",
         "translations": {
           "en": {
             "code": "en-US",
             "name": "영어",
             "flag": "🇺🇸",
-            "text": "Bottoms up!",
+            "text": "My eyes are puffed up.",
             "roman": ""
           },
           "ja": {
             "code": "ja-JP",
             "name": "일본어",
             "flag": "🇯🇵",
-            "text": "乾杯！一気に！",
-            "roman": "Kampai! Ikki ni!"
+            "text": "目が腫れぼったくなっちゃった。",
+            "roman": "Me ga harebotitaku natchatta."
           },
           "zh": {
             "code": "zh-CN",
             "name": "중국어",
             "flag": "🇨🇳",
-            "text": "干杯！一口闷！",
-            "roman": "Gānbēi! Yīkǒu mèn!"
+            "text": "我的眼睛肿得厉害。",
+            "roman": "Wǒ de yǎnjing zhǒng de lìhai."
           },
           "fr": {
             "code": "fr-FR",
             "name": "프랑스어",
             "flag": "🇫🇷",
-            "text": "Cul sec !",
+            "text": "J'ai les yeux tout gonflés.",
             "roman": ""
           },
           "de": {
             "code": "de-DE",
             "name": "독일어",
             "flag": "🇩🇪",
-            "text": "Bis auf den Grund!",
+            "text": "Meine Augen sind ganz geschwollen.",
             "roman": ""
           },
           "es": {
             "code": "es-ES",
             "name": "스페인어",
             "flag": "🇪🇸",
-            "text": "¡Hasta el fondo!",
+            "text": "Tengo los ojos hinchados.",
             "roman": ""
           },
           "ar": {
             "code": "ar-SA",
             "name": "아랍어",
             "flag": "🇸🇦",
-            "text": "حتى القاع! بصحتك!",
-            "roman": "Ḥattā al-qā'! Bi-ṣiḥḥatik!"
+            "text": "عيناي منتفختان للغاية.",
+            "roman": "'Aynāya muntafikhatāni lil-ghāyah."
           },
           "ru": {
             "code": "ru-RU",
             "name": "러시아어",
             "flag": "🇷🇺",
-            "text": "Пей до дна!",
-            "roman": "Pey do dna!"
+            "text": "У меня глаза опухли.",
+            "roman": "U menya glaza opukhli."
           }
         },
+        "pool_type": "일상",
         "d_day": "D-1"
       },
       {
-        "theme": "음식과 건강: 술자리",
-        "meaning": "나 요즘 금주 중이야.",
+        "theme": "화답 에티켓",
+        "type": "기초",
+        "meaning": "천만에요, 별말씀을요.",
         "translations": {
           "en": {
             "code": "en-US",
             "name": "영어",
             "flag": "🇺🇸",
-            "text": "I'm on the wagon now.",
+            "text": "You are very welcome.",
             "roman": ""
           },
           "ja": {
             "code": "ja-JP",
             "name": "일본어",
             "flag": "🇯🇵",
-            "text": "今は禁酒してるんだ。",
-            "roman": "Ima wa kinshu shiteru n da."
+            "text": "どういたしまして。",
+            "roman": "Dōitashimashite."
           },
           "zh": {
             "code": "zh-CN",
             "name": "중국어",
             "flag": "🇨🇳",
-            "text": "我现在戒酒了。",
-            "roman": "Wǒ xiànzài jièjiǔ le."
+            "text": "不客气，不用谢。",
+            "roman": "Bù kèqì, bùyòng xiè."
           },
           "fr": {
             "code": "fr-FR",
             "name": "프랑스어",
             "flag": "🇫🇷",
-            "text": "Je ne bois plus d'alcool en ce moment.",
+            "text": "Je vous en prie.",
             "roman": ""
           },
           "de": {
             "code": "de-DE",
             "name": "독일어",
             "flag": "🇩🇪",
-            "text": "Ich trinke im Moment keinen Alkohol.",
+            "text": "Gern geschehen, bitte schön.",
             "roman": ""
           },
           "es": {
             "code": "es-ES",
             "name": "스페인어",
             "flag": "🇪🇸",
-            "text": "He dejado de beber por ahora.",
+            "text": "De nada, es un placer.",
             "roman": ""
           },
           "ar": {
             "code": "ar-SA",
             "name": "아랍어",
             "flag": "🇸🇦",
-            "text": "أنا ممتنع عن المشروبات حاليًا.",
-            "roman": "Anā mumtani'un 'an al-mashrūbāt ḥāliyan."
+            "text": "على الرحب والسعة.",
+            "roman": "'Alā ar-raḥbi was-sa'ah."
           },
           "ru": {
             "code": "ru-RU",
             "name": "러시아어",
             "flag": "🇷🇺",
-            "text": "Я сейчас в завязке.",
-            "roman": "Ya seychas v zavyazke."
+            "text": "Пожалуйста, не за что.",
+            "roman": "Pozhaluysta, ne za chto."
           }
         },
+        "pool_type": "기초",
         "d_day": "D-2"
       },
       {
-        "theme": "음식과 건강: 술자리",
-        "meaning": "오늘은 내가 쏠게!",
+        "theme": "음식과 건강: 피로와 복통",
+        "meaning": "배가 아파 죽겠어.",
         "translations": {
           "en": {
             "code": "en-US",
             "name": "영어",
             "flag": "🇺🇸",
-            "text": "It's on me today!",
+            "text": "My gut is killing me.",
             "roman": ""
           },
           "ja": {
             "code": "ja-JP",
             "name": "일본어",
             "flag": "🇯🇵",
-            "text": "今日は私のおごりだよ！",
-            "roman": "Kyō wa watashi no ogori da yo!"
+            "text": "お腹が痛くてたまらないよ。",
+            "roman": "Onaka ga itakute tamaranai yo."
           },
           "zh": {
             "code": "zh-CN",
             "name": "중국어",
             "flag": "🇨🇳",
-            "text": "今天我请客！",
-            "roman": "Jīntiān wǒ qǐngkè!"
+            "text": "我肚子疼得要命。",
+            "roman": "Wǒ dùzi téng de yàomìng."
           },
           "fr": {
             "code": "fr-FR",
             "name": "프랑스어",
             "flag": "🇫🇷",
-            "text": "C'est ma tournée aujourd'hui !",
+            "text": "J'ai un mal de ventre terrible.",
             "roman": ""
           },
           "de": {
             "code": "de-DE",
             "name": "독일어",
             "flag": "🇩🇪",
-            "text": "Heute geht das auf mich!",
+            "text": "Mein Bauch bringt mich um.",
             "roman": ""
           },
           "es": {
             "code": "es-ES",
             "name": "스페인어",
             "flag": "🇪🇸",
-            "text": "¡Hoy invito yo!",
+            "text": "Me muero de dolor de estómago.",
             "roman": ""
           },
           "ar": {
             "code": "ar-SA",
             "name": "아랍어",
             "flag": "🇸🇦",
-            "text": "الحساب عليّ اليوم!",
-            "roman": "Al-ḥisābu 'alayya al-yawm!"
+            "text": "بطني يؤلمني بشدة لا تحتمل.",
+            "roman": "Baṭnī yu'limunī bi-shiddatin lā tuḥtamal."
           },
           "ru": {
             "code": "ru-RU",
             "name": "러시아어",
             "flag": "🇷🇺",
-            "text": "Сегодня я угощаю!",
-            "roman": "Segodnya ya ugoshchayu!"
+            "text": "Живот болит просто ужасно.",
+            "roman": "Zhivot bolit prosto uzhasno."
           }
         },
+        "pool_type": "일상",
         "d_day": "D-3"
       },
       {
-        "theme": "음식과 건강: 술자리",
-        "meaning": "술 한잔하러 갈래?",
+        "theme": "정중한 양해",
+        "type": "기초",
+        "meaning": "실례합니다 / 죄송합니다.",
         "translations": {
           "en": {
             "code": "en-US",
             "name": "영어",
             "flag": "🇺🇸",
-            "text": "You wanna go get a drink?",
+            "text": "Excuse me, I am sorry.",
             "roman": ""
           },
           "ja": {
             "code": "ja-JP",
             "name": "일본어",
             "flag": "🇯🇵",
-            "text": "一杯飲みに行かない？",
-            "roman": "Ippai nomi ni ikanai?"
+            "text": "すみません、申し訳ありません。",
+            "roman": "Sumimasen, mōshiwake arimasen."
           },
           "zh": {
             "code": "zh-CN",
             "name": "중국어",
             "flag": "🇨🇳",
-            "text": "想去喝一杯吗？",
-            "roman": "Xiǎng qù hē yībēi ma?"
+            "text": "不好意思，打扰一下。",
+            "roman": "Bù hǎoyìsi, dǎrǎo yīxià."
           },
           "fr": {
             "code": "fr-FR",
             "name": "프랑스어",
             "flag": "🇫🇷",
-            "text": "Tu veux aller boire un verre ?",
+            "text": "Excusez-moi, pardon.",
             "roman": ""
           },
           "de": {
             "code": "de-DE",
             "name": "독일어",
             "flag": "🇩🇪",
-            "text": "Wollen wir was trinken gehen?",
+            "text": "Entschuldigen Sie bitte.",
             "roman": ""
           },
           "es": {
             "code": "es-ES",
             "name": "스페인어",
             "flag": "🇪🇸",
-            "text": "¿Quieres ir a tomar algo?",
+            "text": "Disculpe, perdón.",
             "roman": ""
           },
           "ar": {
             "code": "ar-SA",
             "name": "아랍어",
             "flag": "🇸🇦",
-            "text": "هل ترغب في الذهاب لتناول مشروب؟",
-            "roman": "Hal targhabu fī adh-dhahābi li-tanāwuli mashrūb?"
+            "text": "معذرة، أنا آسف.",
+            "roman": "Ma'dhiratan, anā āsif."
           },
           "ru": {
             "code": "ru-RU",
             "name": "러시아어",
             "flag": "🇷🇺",
-            "text": "Пойдём выпьем по стаканчику?",
-            "roman": "Poydyom vyp'yem po stakanchiku?"
+            "text": "Извините, прошу прощения.",
+            "roman": "Izvinite, proshu proshcheniya."
           }
         },
+        "pool_type": "기초",
         "d_day": "D-4"
       }
     ],
@@ -1533,7 +1553,7 @@
         "rank": 4,
         "title": "Don't You",
         "channel": "D.O. - Topic",
-        "views": "30만회",
+        "views": "31만회",
         "thumb": "https://i.ytimg.com/vi/PAm4-0BMKek/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=PAm4-0BMKek"
       },
@@ -1557,7 +1577,7 @@
         "rank": 7,
         "title": "소연 (SOYEON) '퇴사할게여 (Narr. 기안84)' Official Music Video",
         "channel": "i-dle (아이들)",
-        "views": "410만회",
+        "views": "413만회",
         "thumb": "https://i.ytimg.com/vi/7mDDM0eBWR0/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=7mDDM0eBWR0"
       },
@@ -1565,7 +1585,7 @@
         "rank": 8,
         "title": "중국인에게 인정받다",
         "channel": "괴물쥐 유튜브",
-        "views": "34만회",
+        "views": "35만회",
         "thumb": "https://i.ytimg.com/vi/T4Lm2B-LJRU/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=T4Lm2B-LJRU"
       },
