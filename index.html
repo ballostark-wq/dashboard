@@ -722,7 +722,7 @@
 
       <div class="card-footer">
         <span id="trend-source-label">네이버 시사상식사전 주간 랭킹</span>
-        <span style="color:#38bdf8;">실시간 연동</span>
+        <span id="trend-sync-label" style="color:#38bdf8;">실시간 연동</span>
       </div>
     </div>
   </main>
@@ -840,6 +840,13 @@
 
         timeLabel.innerText = `동기화: ${data.updated_at}`;
         syncLabel.innerText = "네이버 & 야후 실시간 연동";
+
+        // 트렌드 레이더 최신 갱신 시각 반영 (예: 실시간 연동 (13:06))
+        const trendSyncEl = document.getElementById('trend-sync-label');
+        if (trendSyncEl && data.updated_at) {
+          const syncTime = data.updated_at.slice(5, 16); // 'HH:MM' 추출
+          trendSyncEl.innerText = `실시간 연동 (${syncTime})`;
+        }
       } catch (err) {
         console.warn("데이터 로드 대기 중:", err);
       }
