@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10 23:05:23",
+  "updated_at": "2026-09-11 00:05:44",
   "us2y": {
     "value": 4.37,
     "change": -0.29
@@ -21,8 +21,8 @@
     "status": "정상화 (우상향)"
   },
   "vix": {
-    "value": 17.62,
-    "change": 7.05
+    "value": 17.44,
+    "change": 5.95
   },
   "tech_news": [
     {
@@ -91,6 +91,11 @@
     ],
     "global": [
       {
+        "title": "Kalshi launches ‘perps’ for gold and silver following CFTC approval, expanding futures offerings",
+        "link": "https://www.cnbc.com/2026/09/10/kalshi-launches-perps-for-gold-and-silver-following-cftc-approval-expanding-futures-offerings.html",
+        "date": "09-10 14:00"
+      },
+      {
         "title": "Stocks making the biggest moves premarket: Macy's, Meta, Apple, Novartis and more",
         "link": "https://www.cnbc.com/2026/09/10/stocks-making-the-biggest-moves-premarket-.html",
         "date": "09-10 11:54"
@@ -109,11 +114,6 @@
         "title": "Stocks making the biggest moves premarket: Apple, Casey's General Store, Signet Jewelers & more",
         "link": "https://www.cnbc.com/2026/09/09/stocks-making-the-biggest-moves-premarket-aapl-casy-sig.html",
         "date": "09-09 12:00"
-      },
-      {
-        "title": "Adani Enterprises shares jump as airport unit enters into $1 billion fundraising deal",
-        "link": "https://www.cnbc.com/2026/09/09/adani-enterprises-airport-fundraise-shares.html",
-        "date": "09-09 06:26"
       }
     ],
     "tech": [
@@ -133,17 +133,22 @@
         "date": "09-10 17:32"
       },
       {
-        "title": "[전자신문] 민병덕 의원 “김병주 MBK 회장 검찰 소환, 엄정 수사해 법·원칙 따른 처분 내려야”",
-        "link": "https://www.etnews.com/20260910000430",
-        "date": "09-10 22:59"
+        "title": "[전자신문] 상급종합병원 제로트러스트 도입 난항…54.5% “구체적 계획 없다”",
+        "link": "https://www.etnews.com/20260910000433",
+        "date": "09-10 23:53"
       },
       {
-        "title": "[전자신문] 공장의 탈서울…제조업 무게중심 15년 새 서울 바깥 경기권으로 이동",
-        "link": "https://www.etnews.com/20260910000429",
-        "date": "09-10 22:57"
+        "title": "[전자신문] 화성시, 2032년 시법원·등기소 연계…경찰서 2곳 확충 추진안",
+        "link": "https://www.etnews.com/20260910000432",
+        "date": "09-10 23:43"
       }
     ],
     "domestic": [
+      {
+        "title": "ECB, 3대 정책금리 25bp 인상…6월 이후 두 번째(상보)",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434348",
+        "date": "09-10 23:32"
+      },
       {
         "title": "달러-원, 뉴욕장서 1,340원 초반대 거래",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434346",
@@ -163,11 +168,6 @@
         "title": "IRS 금리 전구간 상승…바이백 실망에 장기물 위주 약세",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434341",
         "date": "09-10 18:51"
-      },
-      {
-        "title": "[채권-마감] 100달러 유가·美 바이백 실망…국고 10년 5.2bp↑",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434340",
-        "date": "09-10 18:45"
       }
     ]
   },
@@ -223,83 +223,83 @@
       "detail": "10Y-2Y 스프레드가 +42 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.56",
-      "title": "닥터 코퍼 $6.56선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.55",
+      "title": "닥터 코퍼 $6.55선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.56",
-          "chg": "-3.53%",
+          "val": "$6.55",
+          "chg": "-3.68%",
           "up": false
         },
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,409.2",
-          "chg": "-0.15%",
+          "val": "$4,399.0",
+          "chg": "-0.38%",
           "up": false
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$65.22",
-          "chg": "-4.00%",
+          "val": "$64.93",
+          "chg": "-4.43%",
           "up": false
         }
       ],
       "bullets": [
-        "구리 $6.56/lb (-3.53%) - AI 전력망 설비 수요 반영",
-        "금 $4,409/oz, 은 $65.22/oz - 통화가치 헤지"
+        "구리 $6.55/lb (-3.68%) - AI 전력망 설비 수요 반영",
+        "금 $4,399/oz, 은 $64.93/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
       "badge": "원/달러 1,345원 | 엔/달러 ¥153.9",
-      "title": "원/달러 1,344.8원선과 엔/달러 ¥153.9",
+      "title": "원/달러 1,345.3원선과 엔/달러 ¥153.9",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,344.8원",
-          "chg": "+0.41%",
+          "val": "1,345.3원",
+          "chg": "+0.45%",
           "up": true
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "99.01pt",
-          "chg": "+0.24%",
+          "val": "98.92pt",
+          "chg": "+0.15%",
           "up": true
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥153.95",
-          "chg": "+0.31%",
+          "val": "¥153.89",
+          "chg": "+0.27%",
           "up": true
         }
       ],
       "bullets": [
-        "달러 인덱스 99.01pt - 미국 성장 우위 지속",
-        "엔/달러 153.95엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 98.92pt - 미국 성장 우위 지속",
+        "엔/달러 153.89엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $99.5",
-      "title": "WTI 배럴당 $99.5선 박스권 안정",
+      "badge": "WTI $99.82",
+      "title": "WTI 배럴당 $99.82선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$99.50",
-          "chg": "+3.59%",
+          "val": "$99.82",
+          "chg": "+3.93%",
           "up": true
         }
       ],
       "bullets": [
-        "WTI 선물 $99.5/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $99.82/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -307,32 +307,32 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.56,
-      "change": -3.53
+      "price": 6.55,
+      "change": -3.68
     },
     "gold": {
-      "price": 4409.2,
-      "change": -0.15
+      "price": 4399.0,
+      "change": -0.38
     },
     "silver": {
-      "price": 65.22,
-      "change": -4.0
+      "price": 64.93,
+      "change": -4.43
     },
     "wti": {
-      "price": 99.5,
-      "change": 3.59
+      "price": 99.82,
+      "change": 3.93
     },
     "usdkrw": {
-      "price": 1344.75,
-      "change": 0.41
+      "price": 1345.29,
+      "change": 0.45
     },
     "dxy": {
-      "price": 99.01,
-      "change": 0.24
+      "price": 98.92,
+      "change": 0.15
     },
     "usdjpy": {
-      "price": 153.95,
-      "change": 0.31
+      "price": 153.89,
+      "change": 0.27
     }
   },
   "history_20d": {
@@ -595,9 +595,9 @@
       },
       {
         "date": "09-10",
-        "copper": 6.56,
-        "gold": 4409.2,
-        "silver": 65.22
+        "copper": 6.55,
+        "gold": 4399.0,
+        "silver": 64.93
       }
     ],
     "fx": [
@@ -717,9 +717,9 @@
       },
       {
         "date": "09-10",
-        "usdkrw": 1344.75,
-        "dxy": 99.01,
-        "usdjpy": 153.95
+        "usdkrw": 1345.29,
+        "dxy": 98.92,
+        "usdjpy": 153.89
       }
     ],
     "oil": [
@@ -820,8 +820,8 @@
       },
       {
         "date": "09-10",
-        "wti": 99.5,
-        "change": 3.59
+        "wti": 99.82,
+        "change": 3.93
       }
     ]
   },
@@ -919,24 +919,40 @@
     }
   },
   "humanities": {
-    "history_date": "2026-09-10",
+    "history_date": "2026-09-11",
     "history": {
-      "era": "1076년 ~ 1455년 (1388년)",
+      "era": "1076년 ~ 1455년 (1389년)",
       "region": "한국",
-      "year": "1388년",
-      "title": "[1388년] [한국] 이성계, 위화도 회군",
-      "summary": "1388년 - 이성계, 위화도 회군",
+      "year": "1389년",
+      "title": "[1389년] [한국] 박위, 쓰시마섬 정벌",
+      "summary": "1389년 - 박위, 쓰시마섬 정벌",
       "bullets": [
-        "발생 연대: 1388년 (한국사)",
-        "이성계, 위화도 회군",
+        "발생 연대: 1389년 (한국사)",
+        "박위, 쓰시마섬 정벌",
         "당대 세력 균형 및 정치·경제적 제도 변화 반영"
       ],
-      "insight": "1388년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
-      "ref_title": "위키백과 세계사 연표: 1076년 ~ 1455년 (1388년)",
-      "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1076%EB%85%84_~_1455%EB%85%84:~:text=1388",
+      "insight": "1389년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
+      "ref_title": "위키백과 세계사 연표: 1076년 ~ 1455년 (1389년)",
+      "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1076%EB%85%84_~_1455%EB%85%84:~:text=1389",
       "d_day": "오늘"
     },
     "history_5d": [
+      {
+        "era": "1076년 ~ 1455년 (1389년)",
+        "region": "한국",
+        "year": "1389년",
+        "title": "[1389년] [한국] 박위, 쓰시마섬 정벌",
+        "summary": "1389년 - 박위, 쓰시마섬 정벌",
+        "bullets": [
+          "발생 연대: 1389년 (한국사)",
+          "박위, 쓰시마섬 정벌",
+          "당대 세력 균형 및 정치·경제적 제도 변화 반영"
+        ],
+        "insight": "1389년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
+        "ref_title": "위키백과 세계사 연표: 1076년 ~ 1455년 (1389년)",
+        "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1076%EB%85%84_~_1455%EB%85%84:~:text=1389",
+        "d_day": "오늘"
+      },
       {
         "era": "1076년 ~ 1455년 (1388년)",
         "region": "한국",
@@ -951,7 +967,7 @@
         "insight": "1388년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1076년 ~ 1455년 (1388년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1076%EB%85%84_~_1455%EB%85%84:~:text=1388",
-        "d_day": "오늘"
+        "d_day": "D-1"
       },
       {
         "era": "1076년 ~ 1455년 (1377년)",
@@ -965,7 +981,7 @@
         "insight": "세계 최초의 금속활자본 인쇄로 정보의 기록과 확산 기술에서 세계사적 혁신을 이룬 변곡점입니다.",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%A7%81%EC%A7%80%EC%8B%AC%EC%B2%B4%EC%9A%94%EC%A0%88",
         "ref_title": "위키백과 직지심체요절 사료 원문",
-        "d_day": "D-1"
+        "d_day": "D-2"
       },
       {
         "era": "1076년 ~ 1455년 (1351년)",
@@ -981,7 +997,7 @@
         "insight": "1351년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1076년 ~ 1455년 (1351년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1076%EB%85%84_~_1455%EB%85%84:~:text=1351",
-        "d_day": "D-2"
+        "d_day": "D-3"
       },
       {
         "era": "1076년 ~ 1455년 (1321년)",
@@ -997,91 +1013,138 @@
         "insight": "1321년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1076년 ~ 1455년 (1321년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1076%EB%85%84_~_1455%EB%85%84:~:text=1321",
-        "d_day": "D-3"
-      },
-      {
-        "era": "1076년 ~ 1455년 (1271년)",
-        "region": "세계",
-        "year": "1271년",
-        "title": "[1271년] [세계] 쿠빌라이 칸, 국호를 원으로 함(∼1368)",
-        "summary": "1271년 - 쿠빌라이 칸, 국호를 원으로 함(∼1368)",
-        "bullets": [
-          "발생 연대: 1271년 (세계사)",
-          "쿠빌라이 칸, 국호를 원으로 함(∼1368)",
-          "당대 세력 균형 및 정치·경제적 제도 변화 반영"
-        ],
-        "insight": "1271년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
-        "ref_title": "위키백과 세계사 연표: 1076년 ~ 1455년 (1271년)",
-        "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1076%EB%85%84_~_1455%EB%85%84:~:text=1271",
         "d_day": "D-4"
       }
     ],
     "polyglot": {
-      "theme": "첫 대면",
-      "type": "기초",
-      "meaning": "만나서 반갑습니다.",
+      "theme": "음식과 건강: 얼굴·두통",
+      "meaning": "나 코피 나.",
       "translations": {
         "en": {
           "code": "en-US",
           "name": "영어",
           "flag": "🇺🇸",
-          "text": "Nice to meet you.",
-          "roman": "나이스 투 밋 유."
+          "text": "I've got a nosebleed.",
+          "roman": ""
         },
         "ja": {
           "code": "ja-JP",
           "name": "일본어",
           "flag": "🇯🇵",
-          "text": "はじめまして、お会いできて嬉しいです。",
-          "roman": "하지메마시테, 오아이 데키테 우레시이 데스."
+          "text": "鼻血が出ちゃった。",
+          "roman": "Hanaji ga dechatta."
         },
         "zh": {
           "code": "zh-CN",
           "name": "중국어",
           "flag": "🇨🇳",
-          "text": "很高兴认识你。",
-          "roman": "헌 가오싱 런스 니."
+          "text": "我流鼻血了。",
+          "roman": "Wǒ liú bíxiě le."
         },
         "fr": {
           "code": "fr-FR",
           "name": "프랑스어",
           "flag": "🇫🇷",
-          "text": "Ravi de vous rencontrer.",
-          "roman": "라비 드 부 랑콩트레."
+          "text": "Je saigne du nez.",
+          "roman": ""
         },
         "de": {
           "code": "de-DE",
           "name": "독일어",
           "flag": "🇩🇪",
-          "text": "Schön, Sie kennenzulernen.",
-          "roman": "쇤, 지 케넨추러넨."
+          "text": "Ich habe Nasenbluten.",
+          "roman": ""
         },
         "es": {
           "code": "es-ES",
           "name": "스페인어",
           "flag": "🇪🇸",
-          "text": "Mucho gusto en conocerte.",
-          "roman": "무초 구스토 엔 코노세르테."
+          "text": "Me sangra la nariz.",
+          "roman": ""
         },
         "ar": {
           "code": "ar-SA",
           "name": "아랍어",
           "flag": "🇸🇦",
-          "text": "سعيد بلقائك جداً.",
-          "roman": "사이둔 비리카이카 짓단."
+          "text": "أنفي ينزف دمًا.",
+          "roman": "Anfī yanzifu daman."
         },
         "ru": {
           "code": "ru-RU",
           "name": "러시아어",
           "flag": "🇷🇺",
-          "text": "Очень приятно познакомиться.",
-          "roman": "오친 프리야트나 빠즈나코밋짜."
+          "text": "У меня пошла кровь из носа.",
+          "roman": "U menya poshla krov' iz nosa."
         }
       },
-      "pool_type": "기초",
+      "pool_type": "일상",
       "d_day": "오늘"
     },
     "polyglot_5d": [
+      {
+        "theme": "음식과 건강: 얼굴·두통",
+        "meaning": "나 코피 나.",
+        "translations": {
+          "en": {
+            "code": "en-US",
+            "name": "영어",
+            "flag": "🇺🇸",
+            "text": "I've got a nosebleed.",
+            "roman": ""
+          },
+          "ja": {
+            "code": "ja-JP",
+            "name": "일본어",
+            "flag": "🇯🇵",
+            "text": "鼻血が出ちゃった。",
+            "roman": "Hanaji ga dechatta."
+          },
+          "zh": {
+            "code": "zh-CN",
+            "name": "중국어",
+            "flag": "🇨🇳",
+            "text": "我流鼻血了。",
+            "roman": "Wǒ liú bíxiě le."
+          },
+          "fr": {
+            "code": "fr-FR",
+            "name": "프랑스어",
+            "flag": "🇫🇷",
+            "text": "Je saigne du nez.",
+            "roman": ""
+          },
+          "de": {
+            "code": "de-DE",
+            "name": "독일어",
+            "flag": "🇩🇪",
+            "text": "Ich habe Nasenbluten.",
+            "roman": ""
+          },
+          "es": {
+            "code": "es-ES",
+            "name": "스페인어",
+            "flag": "🇪🇸",
+            "text": "Me sangra la nariz.",
+            "roman": ""
+          },
+          "ar": {
+            "code": "ar-SA",
+            "name": "아랍어",
+            "flag": "🇸🇦",
+            "text": "أنفي ينزف دمًا.",
+            "roman": "Anfī yanzifu daman."
+          },
+          "ru": {
+            "code": "ru-RU",
+            "name": "러시아어",
+            "flag": "🇷🇺",
+            "text": "У меня пошла кровь из носа.",
+            "roman": "U menya poshla krov' iz nosa."
+          }
+        },
+        "pool_type": "일상",
+        "d_day": "오늘"
+      },
       {
         "theme": "첫 대면",
         "type": "기초",
@@ -1145,7 +1208,7 @@
           }
         },
         "pool_type": "기초",
-        "d_day": "오늘"
+        "d_day": "D-1"
       },
       {
         "theme": "음식과 건강: 얼굴·두통",
@@ -1209,7 +1272,7 @@
           }
         },
         "pool_type": "일상",
-        "d_day": "D-1"
+        "d_day": "D-2"
       },
       {
         "theme": "화답 에티켓",
@@ -1274,7 +1337,7 @@
           }
         },
         "pool_type": "기초",
-        "d_day": "D-2"
+        "d_day": "D-3"
       },
       {
         "theme": "음식과 건강: 피로와 복통",
@@ -1338,85 +1401,20 @@
           }
         },
         "pool_type": "일상",
-        "d_day": "D-3"
-      },
-      {
-        "theme": "정중한 양해",
-        "type": "기초",
-        "meaning": "실례합니다 / 죄송합니다.",
-        "translations": {
-          "en": {
-            "code": "en-US",
-            "name": "영어",
-            "flag": "🇺🇸",
-            "text": "Excuse me, I am sorry.",
-            "roman": "익스큐즈 미, 아임 쏘리."
-          },
-          "ja": {
-            "code": "ja-JP",
-            "name": "일본어",
-            "flag": "🇯🇵",
-            "text": "すみません、申し訳ありません。",
-            "roman": "스미마센, 모-시와케 아리마센."
-          },
-          "zh": {
-            "code": "zh-CN",
-            "name": "중국어",
-            "flag": "🇨🇳",
-            "text": "不好意思，打扰一下。",
-            "roman": "부하오이쓰, 다라오 이샤."
-          },
-          "fr": {
-            "code": "fr-FR",
-            "name": "프랑스어",
-            "flag": "🇫🇷",
-            "text": "Excusez-moi, pardon.",
-            "roman": "엑스퀴제 무아, 파르동."
-          },
-          "de": {
-            "code": "de-DE",
-            "name": "독일어",
-            "flag": "🇩🇪",
-            "text": "Entschuldigen Sie bitte.",
-            "roman": "엔트슐디건 지 비테."
-          },
-          "es": {
-            "code": "es-ES",
-            "name": "스페인어",
-            "flag": "🇪🇸",
-            "text": "Disculpe, perdón.",
-            "roman": "디스쿨뻬, 뻬르돈."
-          },
-          "ar": {
-            "code": "ar-SA",
-            "name": "아랍어",
-            "flag": "🇸🇦",
-            "text": "معذرة، أنا آسف.",
-            "roman": "마디라탄, 아나 아시프."
-          },
-          "ru": {
-            "code": "ru-RU",
-            "name": "러시아어",
-            "flag": "🇷🇺",
-            "text": "Извините, прошу прощения.",
-            "roman": "이즈비니쩨, 프라슈 프라셰니야."
-          }
-        },
-        "pool_type": "기초",
         "d_day": "D-4"
       }
     ],
     "philosophy": {
-      "thinker": "토머스 홉스 (Thomas Hobbes)",
-      "era": "17세기 영국 내란기",
-      "concept": "리바이어던(Leviathan)과 자연상태",
-      "quote": "“공통의 권력이 없는 곳에는 법도 없고, 법이 없는 곳에는 불의도 없다.”",
+      "thinker": "손자 (孫子)",
+      "era": "기원전 6세기 춘추시대 중국",
+      "concept": "부전이굴인지병 (不戰而屈人之兵)",
+      "quote": "“백 번 싸워 백 번 이기는 것이 최선이 아니요, 싸우지 않고 적을 굴복시키는 것이 최선이다.”",
       "bullets": [
-        "강력한 중앙 권력이 부재할 때 사회는 '만인에 대한 만인의 투쟁' 상태로 전락",
-        "자기 보존의 본능을 지닌 개인들이 평화와 안보를 위해 권력을 국가(리바이어던)에 양도하는 사회계약설",
-        "주권의 통일성과 질서 유지가 자유보다 선행하는 최고의 정치적 가치임을 규정"
+        "국력의 전면적 소모를 초래하는 정면충돌(전쟁)을 피하고 지략과 외교로 승기를 굳히는 모공(謀攻)",
+        "적을 알고 나를 알면 백 번 싸워도 위태롭지 않다는 철저한 정보력(Intelligence) 우위",
+        "형세에 따라 물처럼 유연하게 형태를 바꾸는 비대칭 전략의 추구"
       ],
-      "application": "세계 정부가 없는 무정부적(Anarchic) 국제 질서에서 각국이 군사력과 경제 안보를 자급화하려는 자조(Self-help) 메커니즘을 규명합니다."
+      "application": "출혈 가격 경쟁을 피하고, 생태계 락인(Lock-in)과 우회 기술 개발을 통해 시장을 선점하는 기업 전략의 핵심 근거가 됩니다."
     }
   },
   "trends": {
@@ -1475,13 +1473,13 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "승리, 특수폭행 혐의 피소",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%8A%B9%EB%A6%AC%2C%20%ED%8A%B9%EC%88%98%ED%8F%AD%ED%96%89%20%ED%98%90%EC%9D%98%20%ED%94%BC%EC%86%8C"
+        "title": "KB금융 챔피언십 1라운드 경기",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=KB%EA%B8%88%EC%9C%B5%20%EC%B1%94%ED%94%BC%EC%96%B8%EC%8B%AD%201%EB%9D%BC%EC%9A%B4%EB%93%9C%20%EA%B2%BD%EA%B8%B0"
       },
       {
         "rank": 2,
-        "title": "KB금융 챔피언십 1라운드",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=KB%EA%B8%88%EC%9C%B5%20%EC%B1%94%ED%94%BC%EC%96%B8%EC%8B%AD%201%EB%9D%BC%EC%9A%B4%EB%93%9C"
+        "title": "빅뱅 승리, 특수폭행 고소",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B9%85%EB%B1%85%20%EC%8A%B9%EB%A6%AC%2C%20%ED%8A%B9%EC%88%98%ED%8F%AD%ED%96%89%20%EA%B3%A0%EC%86%8C"
       },
       {
         "rank": 3,
@@ -1490,38 +1488,38 @@
       },
       {
         "rank": 4,
-        "title": "검사정원 재검토 지시",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B2%80%EC%82%AC%EC%A0%95%EC%9B%90%20%EC%9E%AC%EA%B2%80%ED%86%A0%20%EC%A7%80%EC%8B%9C"
+        "title": "한동훈 총리 사찰 논란",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%9C%EB%8F%99%ED%9B%88%20%EC%B4%9D%EB%A6%AC%20%EC%82%AC%EC%B0%B0%20%EB%85%BC%EB%9E%80"
       },
       {
         "rank": 5,
-        "title": "이강철 감독 600승 달성",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EA%B0%95%EC%B2%A0%20%EA%B0%90%EB%8F%85%20600%EC%8A%B9%20%EB%8B%AC%EC%84%B1"
+        "title": "이재홍 코치 합류",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EC%9E%AC%ED%99%8D%20%EC%BD%94%EC%B9%98%20%ED%95%A9%EB%A5%98"
       },
       {
         "rank": 6,
-        "title": "미중 관세인하 협상",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%AF%B8%EC%A4%91%20%EA%B4%80%EC%84%B8%EC%9D%B8%ED%95%98%20%ED%98%91%EC%83%81"
-      },
-      {
-        "rank": 7,
         "title": "인플루엔자 무료 예방접종",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B8%ED%94%8C%EB%A3%A8%EC%97%94%EC%9E%90%20%EB%AC%B4%EB%A3%8C%20%EC%98%88%EB%B0%A9%EC%A0%91%EC%A2%85"
       },
       {
+        "rank": 7,
+        "title": "ECB 금리 0.25% 인상",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=ECB%20%EA%B8%88%EB%A6%AC%200.25%25%20%EC%9D%B8%EC%83%81"
+      },
+      {
         "rank": 8,
-        "title": "대우건설",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%8C%80%EC%9A%B0%EA%B1%B4%EC%84%A4"
+        "title": "가천대",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B0%80%EC%B2%9C%EB%8C%80"
       },
       {
         "rank": 9,
-        "title": "송미령",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%86%A1%EB%AF%B8%EB%A0%B9"
+        "title": "미중 관세인하 협상",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%AF%B8%EC%A4%91%20%EA%B4%80%EC%84%B8%EC%9D%B8%ED%95%98%20%ED%98%91%EC%83%81"
       },
       {
         "rank": 10,
-        "title": "ECB 금리 인상 2.50%로 상향",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=ECB%20%EA%B8%88%EB%A6%AC%20%EC%9D%B8%EC%83%81%202.50%25%EB%A1%9C%20%EC%83%81%ED%96%A5"
+        "title": "수시 원서 접수",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%88%98%EC%8B%9C%20%EC%9B%90%EC%84%9C%20%EC%A0%91%EC%88%98"
       }
     ],
     "youtube_popular": [
@@ -1529,7 +1527,7 @@
         "rank": 1,
         "title": "IU 'Dear my crazy soulmate' MV",
         "channel": "이지금 [IU Official]",
-        "views": "36만회",
+        "views": "62만회",
         "thumb": "https://i.ytimg.com/vi/RdUV9Ms5GM4/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=RdUV9Ms5GM4"
       },
@@ -1537,7 +1535,7 @@
         "rank": 2,
         "title": "나를 충전해줘 | 공식 티저 예고편 | 넷플릭스",
         "channel": "Netflix Korea 넷플릭스 코리아",
-        "views": "32만회",
+        "views": "33만회",
         "thumb": "https://i.ytimg.com/vi/fksdxa-ylzE/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=fksdxa-ylzE"
       },
@@ -1545,65 +1543,65 @@
         "rank": 3,
         "title": "아저씨가 잠시 빌려갈게",
         "channel": "랄로",
-        "views": "14만회",
+        "views": "21만회",
         "thumb": "https://i.ytimg.com/vi/rCHln-ke9bw/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=rCHln-ke9bw"
       },
       {
         "rank": 4,
-        "title": "Please Be Happy",
+        "title": "Moise",
         "channel": "Lim Young Woong - Topic",
-        "views": "41만회",
-        "thumb": "https://i.ytimg.com/vi/PEpWLTge234/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=PEpWLTge234"
+        "views": "35만회",
+        "thumb": "https://i.ytimg.com/vi/tE_STpBGVcE/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=tE_STpBGVcE"
       },
       {
         "rank": 5,
         "title": "[디거] 파이널 예고편",
         "channel": "Warner Bros. Korea",
-        "views": "7만회",
+        "views": "8만회",
         "thumb": "https://i.ytimg.com/vi/6iPsMGipDsM/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=6iPsMGipDsM"
       },
       {
         "rank": 6,
-        "title": "중국인에게 인정받다",
-        "channel": "괴물쥐 유튜브",
-        "views": "50만회",
-        "thumb": "https://i.ytimg.com/vi/T4Lm2B-LJRU/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=T4Lm2B-LJRU"
+        "title": "미션 임파서블",
+        "channel": "PAKA",
+        "views": "14만회",
+        "thumb": "https://i.ytimg.com/vi/YvcSMp2cexE/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=YvcSMp2cexE"
       },
       {
         "rank": 7,
         "title": "Guitarist",
         "channel": "D.O. - Topic",
-        "views": "55만회",
+        "views": "56만회",
         "thumb": "https://i.ytimg.com/vi/svHUxtHIljw/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=svHUxtHIljw"
       },
       {
         "rank": 8,
-        "title": "사기의 아픔을 딛고 드디어 진짜 음바페 영입",
-        "channel": "튜브김민교",
-        "views": "55만회",
-        "thumb": "https://i.ytimg.com/vi/SQ7tpUm0zkc/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=SQ7tpUm0zkc"
+        "title": "Maple Now | 김창섭 디렉터 (26.09.10)",
+        "channel": "메이플스토리",
+        "views": "24만회",
+        "thumb": "https://i.ytimg.com/vi/cnPbC6d9Y1s/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=cnPbC6d9Y1s"
       },
       {
         "rank": 9,
         "title": "Moonride",
         "channel": "Hearts2Hearts - Topic",
-        "views": "27만회",
+        "views": "28만회",
         "thumb": "https://i.ytimg.com/vi/hfftbNrp_lw/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=hfftbNrp_lw"
       },
       {
         "rank": 10,
-        "title": "Maple Now | 김창섭 디렉터 (26.09.10)",
-        "channel": "메이플스토리",
-        "views": "20만회",
-        "thumb": "https://i.ytimg.com/vi/cnPbC6d9Y1s/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=cnPbC6d9Y1s"
+        "title": "중국인에게 인정받다",
+        "channel": "괴물쥐 유튜브",
+        "views": "51만회",
+        "thumb": "https://i.ytimg.com/vi/T4Lm2B-LJRU/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=T4Lm2B-LJRU"
       }
     ]
   }
