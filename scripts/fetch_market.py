@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 import html
 import json
 import os
@@ -7,6 +7,9 @@ import xml.etree.ElementTree as ET
 import requests
 import urllib.parse
 from bs4 import BeautifulSoup
+
+# 한국 표준시 (KST = UTC+9) 정의
+KST = timezone(timedelta(hours=9))
 
 HEADERS = {
     "User-Agent": (
@@ -270,8 +273,9 @@ def load_humanities_from_pool(existing_humanities=None):
     if existing_humanities is None:
         existing_humanities = {}
 
-    today_str = datetime.now().strftime("%Y-%m-%d")
-    day_idx = datetime.now().timetuple().tm_yday
+    now_kst = datetime.now(KST)
+    today_str = now_kst.strftime("%Y-%m-%d")
+    day_idx = now_kst.timetuple().tm_yday
     pool_file = "humanities_pool.json"
 
     hist_pool, poly_pool, basic_pool, phil_pool = [], [], [], []
@@ -897,7 +901,7 @@ def main():
         "domestic": fetch_rss("https://news.einfomax.co.kr/rss/S1N16.xml", 5) or [],
     }
 
-    data["updated_at"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    data["updated_at"] = datetime.now(KST).strftime("%Y-%m-%d %H:%M:%S")
 
     # 기존 고전 철학을 대체하고 3대 실시간 트렌드 데이터 주입
     data["trends"] = {
