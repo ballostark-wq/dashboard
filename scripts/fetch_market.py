@@ -558,8 +558,9 @@ def load_humanities_from_pool(existing_humanities=None):
     # 5. 🔥 8개국어 회화 [오늘(기초) - D-1(일상) - D-2(기초) - D-3(일상) - D-4(기초)] 교차 큐 생성
     def get_poly_item(offset):
         target_day = day_idx - offset
-        # 짝수 오프셋(0, 2, 4)은 기초문답 풀, 홀수 오프셋(1, 3)은 일상회화 풀에서 순환 추출
-        if offset % 2 == 0:
+        # 날짜(target_day) 기준으로 판별하여 내일이 되면 오늘 항목이 자동으로 '일상'으로 교체 순환
+        # 오늘(253일 차, 홀수)은 기초, 내일(254일 차, 짝수)은 일상
+        if target_day % 2 != 0:
             item = dict(basic_pool[(target_day // 2) % len(basic_pool)])
             item["pool_type"] = "기초"
         else:
