@@ -1160,9 +1160,26 @@
     // 오디오 인스턴스 전역 관리 (중복 재생 방지)
     let activeTtsAudio = null;
     
-    // 공통 고음질 발음 재생기
+    // 모바일 환경 감지
+    const isMobileDevice = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+    // 언어별 정확한 BCP-47 표준 로케일 매핑
+    const LANG_LOCALE_MAP = {
+      en: 'en-US',
+      ja: 'ja-JP',
+      zh: 'zh-CN',
+      fr: 'fr-FR',
+      de: 'de-DE',
+      es: 'es-ES',
+      ar: 'ar-SA',
+      ru: 'ru-RU'
+    };
+
+    // 공통 고음질 발음 재생기 (모바일 터치 보안 권한 완벽 대응)
     function speakNativePhrase(text, langKey, statusCallback) {
-      // 기존 재생 중인 소리 즉시 중단
+      if (!text) return;
+
+      // 1. 기존 재생 중인 소리 즉각 중단
       if (activeTtsAudio) {
         activeTtsAudio.pause();
         activeTtsAudio = null;
@@ -1170,54 +1187,65 @@
       if ('speechSynthesis' in window) {
         window.speechSynthesis.cancel();
       }
-    
+
       if (statusCallback) statusCallback("재생 중...");
-    
+
+      const fullLocale = LANG_LOCALE_MAP[langKey] || langKey;
+
+      // 2. 모바일 기기이거나 Web Speech API를 우선 지원하는 환경 대응
+      // 모바일에서는 비동기 네트워크 대기 없이 터치 즉시 OS 네이티브 음성 동기 실행
+      if (isMobileDevice || !navigator.onLine) {
+        if ('speechSynthesis' in window) {
+          // iOS Safari 슬립 모드 해제
+          window.speechSynthesis.resume();
+
+          const utterance = new SpeechSynthesisUtterance(text);
+          utterance.lang = fullLocale;
+          utterance.rate = 0.92; // 모바일 학습에 최적화된 또렷한 속도
+          utterance.pitch = 1.0;
+
+          const voice = getSmartOsVoice(fullLocale);
+          if (voice) utterance.voice = voice;
+
+          utterance.onend = () => { if (statusCallback) statusCallback("원어민 발음 듣기"); };
+          utterance.onerror = () => { if (statusCallback) statusCallback("원어민 발음 듣기"); };
+
+          window.speechSynthesis.speak(utterance);
+          return;
+        }
+      }
+
+      // 3. PC 데스크톱 환경: 구글 고음질 오디오 스트림 1차 시도
       const targetLang = GOOGLE_TTS_LANG_MAP[langKey] || langKey.slice(0, 2);
       const cleanText = encodeURIComponent(text.trim());
       const googleAudioUrl = `https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=${targetLang}&q=${cleanText}`;
-    
-      // 1순위: 구글 뉴럴 오디오 스트림 재생
+
       const audio = new Audio(googleAudioUrl);
       activeTtsAudio = audio;
-    
+
       audio.onended = () => {
         activeTtsAudio = null;
         if (statusCallback) statusCallback("원어민 발음 듣기");
       };
-    
-      // 2순위: 스트리밍 실패 시 OS 프리미엄 보이스로 자동 폴백
+
+      // 데스크톱 스트리밍 차단 시 OS 보이스 폴백
       audio.onerror = () => {
-        console.warn("구글 오디오 스트림 실패 -> OS 프리미엄 보이스로 폴백");
         activeTtsAudio = null;
-    
-        if (!('speechSynthesis' in window)) {
+        if ('speechSynthesis' in window) {
+          const utterance = new SpeechSynthesisUtterance(text);
+          utterance.lang = fullLocale;
+          utterance.rate = 0.95;
+          const voice = getSmartOsVoice(fullLocale);
+          if (voice) utterance.voice = voice;
+          utterance.onend = () => { if (statusCallback) statusCallback("원어민 발음 듣기"); };
+          utterance.onerror = () => { if (statusCallback) statusCallback("원어민 발음 듣기"); };
+          window.speechSynthesis.speak(utterance);
+        } else {
           if (statusCallback) statusCallback("원어민 발음 듣기");
-          return;
         }
-    
-        const fullCode = (cachedHumanities && cachedHumanities.polyglot && cachedHumanities.polyglot.translations[langKey])
-          ? cachedHumanities.polyglot.translations[langKey].code
-          : langKey;
-    
-        const utterance = new SpeechSynthesisUtterance(text);
-        utterance.lang = fullCode;
-        utterance.rate = 0.95;
-        utterance.pitch = 1.0;
-    
-        const bestVoice = getSmartOsVoice(fullCode);
-        if (bestVoice) {
-          utterance.voice = bestVoice;
-        }
-    
-        utterance.onend = () => { if (statusCallback) statusCallback("원어민 발음 듣기"); };
-        utterance.onerror = () => { if (statusCallback) statusCallback("원어민 발음 듣기"); };
-    
-        window.speechSynthesis.speak(utterance);
       };
-    
-      audio.play().catch(err => {
-        // 자동 재생 정책 또는 네트워크 에러 시 onerror 트리거
+
+      audio.play().catch(() => {
         audio.onerror();
       });
     }
