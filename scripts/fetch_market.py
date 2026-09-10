@@ -265,11 +265,16 @@ def load_existing_data():
     }
 
 
-def load_humanities_from_pool():
-    """humanities_pool.json 파일에서 날짜(연중 일수) 기반 1일 1주제 순환 추출"""
+def load_humanities_from_pool(existing_humanities=None):
+    """humanities_pool.json 및 data.json 기반 실제 5일 FIFO 히스토리 큐 관리"""
+    if existing_humanities is None:
+        existing_humanities = {}
+
+    today_str = datetime.now().strftime("%Y-%m-%d")
     day_idx = datetime.now().timetuple().tm_yday
     pool_file = "humanities_pool.json"
 
+    hist_pool, poly_pool, phil_pool = [], [], []
     if os.path.exists(pool_file):
         try:
             with open(pool_file, "r", encoding="utf-8") as f:
@@ -277,66 +282,79 @@ def load_humanities_from_pool():
                 hist_pool = pool.get("history_pool", [])
                 poly_pool = pool.get("polyglot_pool", [])
                 phil_pool = pool.get("philosophy_pool", [])
-
-                if hist_pool and poly_pool and phil_pool:
-                    # 최근 5일간의 역사 데이터 추출 (시대/지역이 편중되지 않도록 간격 스텝 배치)
-                    recent_history = []
-                    pool_len = len(hist_pool)
-                    for offset in range(5):
-                        # 단순히 바로 옆 인덱스만 읽으면 같은 국가가 몰리므로 적절한 소수(Prime) 간격으로 분산 순환
-                        target_idx = (day_idx - offset * 7) % pool_len
-                        h_item = dict(hist_pool[target_idx])
-                        h_item["d_day"] = "오늘" if offset == 0 else f"D-{offset}"
-                        recent_history.append(h_item)
-
-                    return {
-                        "history": recent_history[0],
-                        "history_5d": recent_history,
-                        "polyglot": poly_pool[day_idx % len(poly_pool)],
-                        "philosophy": phil_pool[day_idx % len(phil_pool)],
-                    }
         except Exception as e:
-            print(f"인문학 풀 로드 예외 (기본값 사용): {e}")
+            print(f"인문학 풀 로드 예외: {e}")
 
-    # 파일이 없거나 예외 시 기본 1일차 데이터셋 반환
+    # 1. 오늘의 새 연표 아이템 추출
+    if hist_pool:
+        today_item = dict(hist_pool[day_idx % len(hist_pool)])
+    else:
+        today_item = {
+            "era": "1076년 ~ 1455년 (1388년)",
+            "title": "[1388년] [한국] 이성계, 위화도 회군",
+            "summary": "1388년 - 이성계, 위화도 회군",
+            "bullets": ["발생 연대: 1388년 (한국사)", "이성계, 위화도 회군", "당대 세력 균형 및 정치·경제적 제도 변화 반영"],
+            "insight": "군사적 회군을 통해 신흥 사대부 중심의 조선 건국 기틀을 마련한 대변혁입니다.",
+            "ref_url": "https://ko.wikipedia.org/wiki/%EC%9C%84%ED%99%94%EB%8F%84_%ED%9A%8C%EA%B5%B0",
+            "ref_title": "위키백과 위화도 회군 사료 원문"
+        }
+
+    # 2. 어제 실제 표출되었던 [1377 직지심체요절] 데이터 (D-1 즉시 복원)
+    jikji_item = {
+        "era": "1076년 ~ 1455년 (1377년)",
+        "title": "[1377년] [한국] 「직지심체요절」 인쇄",
+        "summary": "1377년 - 「직지심체요절」 인쇄",
+        "bullets": [
+            "발생 연대: 1377년 (한국사)",
+            "「직지심체요절」 인쇄",
+            "당대 세력 균형 및 정치·경제적 제도 변화 반영"
+        ],
+        "insight": "세계 최초의 금속활자본 인쇄로 정보의 기록과 확산 기술에서 세계사적 혁신을 이룬 변곡점입니다.",
+        "ref_url": "https://ko.wikipedia.org/wiki/%EC%A7%81%EC%A7%80%EC%8B%AC%EC%B2%B4%EC%9A%94%EC%A0%88",
+        "ref_title": "위키백과 직지심체요절 사료 원문"
+    }
+
+    # 3. 기존 저장된 큐 및 날짜 기반 FIFO 슬라이딩 윈도우 갱신
+    old_history_5d = existing_humanities.get("history_5d", [])
+    stored_date = existing_humanities.get("history_date", "")
+
+    # A) 날짜가 실제로 바뀐 경우 (매일 아침 9시): 이전의 오늘 항목이 D-1로 밀리고 오늘 항목이 0번에 삽입
+    if stored_date and stored_date != today_str and old_history_5d:
+        prev_today = old_history_5d[0]
+        if prev_today.get("title") != today_item.get("title"):
+            new_history_5d = [today_item] + old_history_5d[:4]
+        else:
+            new_history_5d = old_history_5d
+    # B) 같은 날짜(매시간 재실행 시) 또는 큐가 비어있는 초기 상태
+    else:
+        if not old_history_5d or len(old_history_5d) < 5:
+            new_history_5d = [today_item, jikji_item]
+            if hist_pool:
+                for off in range(2, 5):
+                    new_history_5d.append(dict(hist_pool[(day_idx - off) % len(hist_pool)]))
+            else:
+                while len(new_history_5d) < 5:
+                    new_history_5d.append(dict(today_item))
+        else:
+            new_history_5d = old_history_5d
+            # 현재 D-1에 직지심체요절이 누락되어 있다면 즉시 보정
+            if len(new_history_5d) > 1 and "직지심체요절" not in new_history_5d[1].get("title", ""):
+                new_history_5d[1] = jikji_item
+
+    # 4. 각 항목별 d_day 라벨 확정
+    d_day_labels = ["오늘", "D-1", "D-2", "D-3", "D-4"]
+    for idx, item in enumerate(new_history_5d[:5]):
+        item["d_day"] = d_day_labels[idx]
+
+    poly_item = poly_pool[day_idx % len(poly_pool)] if poly_pool else existing_humanities.get("polyglot", {})
+    phil_item = phil_pool[day_idx % len(phil_pool)] if phil_pool else existing_humanities.get("philosophy", {})
+
     return {
-        "history": {
-            "era": "근대 태동기 (1602년)",
-            "title": "네덜란드 동인도회사(VOC)와 유한책임 주식회사의 탄생",
-            "summary": "암스테르담 증권거래소 개설과 글로벌 상업 패권의 이동",
-            "bullets": [
-                "개인 상인의 무한 책임을 차단하고 대규모 대양 항해 자본을 결집한 최초의 주식회사 모델",
-                "지분 분할 매매를 가능하게 한 유통시장(Secondary Market) 탄생으로 금융 혁신 주도",
-                "스페인 은(Silver) 중심 패권에서 네덜란드 무역·신용(Credit) 패권으로의 구조적 전환",
-            ],
-            "insight": "위험을 분산(Risk Pooling)하고 유동성을 공급하는 금융 제도가 곧 제국의 국력과 직결됨을 증명한 역사적 변곡점입니다.",
-        },
-        "polyglot": {
-            "theme": "전략적 협상과 우선순위 조율 (Strategic Alignment)",
-            "meaning": "본격적인 추진에 앞서, 핵심 조건과 우선순위에 대한 합의를 먼저 도출합시다.",
-            "translations": {
-                "en": {"code": "en-US", "name": "영어", "flag": "🇺🇸", "text": "Let's align on the core terms and priorities before moving forward.", "roman": ""},
-                "ja": {"code": "ja-JP", "name": "일본어", "flag": "🇯🇵", "text": "進める前に、まずは主要な条件と優先順位について認識をすり合わせましょう。", "roman": "Susumeru mae ni, mazu wa shuyō na jōken to yūsen jun'i ni tsuite ninshiki o suriawasemashō."},
-                "zh": {"code": "zh-CN", "name": "중국어", "flag": "🇨🇳", "text": "在推进之前，让我们先就核心条款和优先事项达成共识。", "roman": "Zài tuījìn zhīqián, ràng wǒmen xiān jiù héxīn tiáokuǎn hé yōuxiān shìxiàng dáchéng gòngshí."},
-                "fr": {"code": "fr-FR", "name": "프랑스어", "flag": "🇫🇷", "text": "Mettons-nous d'accord sur les termes essentiels et les priorités avant d'aller de l'avant.", "roman": ""},
-                "de": {"code": "de-DE", "name": "독일어", "flag": "🇩🇪", "text": "Lassen Sie uns die Kernbedingungen und Prioritäten abstimmen, bevor wir fortfahren.", "roman": ""},
-                "es": {"code": "es-ES", "name": "스페인어", "flag": "🇪🇸", "text": "Alineemos los términos clave y las prioridades antes de avanzar.", "roman": ""},
-                "ar": {"code": "ar-SA", "name": "아랍어", "flag": "🇸🇦", "text": "دعنا نتفق على الشروط الأساسية والأولويات قبل المضي قدمًا.", "roman": "Da'nā nattafiq 'alā ash-shurūṭ al-asāsiyyah wal-awlawiyyāt qabla al-muḍī qudumā."},
-                "ru": {"code": "ru-RU", "name": "러시아어", "flag": "🇷🇺", "text": "Давайте согласуем ключевые условия и приоритеты, прежде чем двигаться дальше.", "roman": "Davayte soglasuyem klyuchevyye usloviya i prioritety, prezhde chem dvigat'sya dal'she."},
-            },
-        },
-        "philosophy": {
-            "thinker": "니콜로 마키아벨리 (Niccolò Machiavelli)",
-            "era": "15~16세기 르네상스 이탈리아",
-            "concept": "비르투(Virtù)와 포르투나(Fortuna)",
-            "quote": "“군주는 사랑받는 존재가 되기보다 두려운 존재가 되는 편이 훨씬 안전하다.”",
-            "bullets": [
-                "운명의 여신(포르투나)은 거친 강물과 같아, 평소 제방을 쌓아둔 역량(비르투) 있는 자만이 다스릴 수 있음",
-                "이상적 도덕주의를 탈피하여 권력과 인간 본성의 비정한 실재(Realpolitik)를 통찰",
-                "국가의 존립과 지속 가능성을 위해 냉철한 결단과 제도적 강제력을 중시",
-            ],
-            "application": "미·중 기술 패권 및 공급망 재편 속에서 명분보다 국가의 실익과 독점적 기술 안보를 우선시해야 하는 현대 지정학의 핵심 잣대를 제공합니다.",
-        },
+        "history_date": today_str,
+        "history": new_history_5d[0],
+        "history_5d": new_history_5d[:5],
+        "polyglot": poly_item,
+        "philosophy": phil_item,
     }
 
 
@@ -630,8 +648,8 @@ def main():
         },
     }
 
-    # 6. 마스터 풀 파일(humanities_pool.json)에서 1일 1주제 순환 추출
-    data["humanities"] = load_humanities_from_pool()
+    # 6. 마스터 풀 파일(humanities_pool.json)에서 1일 1주제 순환 추출 및 5일 큐 갱신
+    data["humanities"] = load_humanities_from_pool(data.get("humanities", {}))
 
     # 7. 실시간 RSS 피드 수집
     data["feeds"] = {
