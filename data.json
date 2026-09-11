@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11 13:48:02",
+  "updated_at": "2026-09-11 14:00:39",
   "us2y": {
     "value": 4.37,
     "change": -0.29
@@ -236,33 +236,33 @@
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,368.3",
-          "chg": "+0.09%",
+          "val": "$4,371.2",
+          "chg": "+0.15%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$63.97",
-          "chg": "-0.48%",
+          "val": "$64.00",
+          "chg": "-0.44%",
           "up": false
         }
       ],
       "bullets": [
         "구리 $6.54/lb (+1.08%) - AI 전력망 설비 수요 반영",
-        "금 $4,368/oz, 은 $63.97/oz - 통화가치 헤지"
+        "금 $4,371/oz, 은 $64.00/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,344원 | 엔/달러 ¥154.3",
-      "title": "원/달러 1,344.1원선과 엔/달러 ¥154.3",
+      "badge": "원/달러 1,346원 | 엔/달러 ¥154.3",
+      "title": "원/달러 1,345.8원선과 엔/달러 ¥154.3",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,344.1원",
-          "chg": "+0.37%",
+          "val": "1,345.8원",
+          "chg": "+0.49%",
           "up": true
         },
         {
@@ -275,31 +275,31 @@
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥154.30",
-          "chg": "+0.48%",
+          "val": "¥154.34",
+          "chg": "+0.50%",
           "up": true
         }
       ],
       "bullets": [
         "달러 인덱스 99.11pt - 미국 성장 우위 지속",
-        "엔/달러 154.30엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "엔/달러 154.34엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $102.55",
-      "title": "WTI 배럴당 $102.55선 박스권 안정",
+      "badge": "WTI $102.29",
+      "title": "WTI 배럴당 $102.29선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$102.55",
-          "chg": "+0.07%",
-          "up": true
+          "val": "$102.29",
+          "chg": "-0.19%",
+          "up": false
         }
       ],
       "bullets": [
-        "WTI 선물 $102.55/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $102.29/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -311,28 +311,28 @@
       "change": 1.08
     },
     "gold": {
-      "price": 4368.3,
-      "change": 0.09
+      "price": 4371.2,
+      "change": 0.15
     },
     "silver": {
-      "price": 63.97,
-      "change": -0.48
+      "price": 64.0,
+      "change": -0.44
     },
     "wti": {
-      "price": 102.55,
-      "change": 0.07
+      "price": 102.29,
+      "change": -0.19
     },
     "usdkrw": {
-      "price": 1344.08,
-      "change": 0.37
+      "price": 1345.78,
+      "change": 0.49
     },
     "dxy": {
       "price": 99.11,
       "change": 0.02
     },
     "usdjpy": {
-      "price": 154.3,
-      "change": 0.48
+      "price": 154.34,
+      "change": 0.5
     }
   },
   "history_20d": {
@@ -596,8 +596,8 @@
       {
         "date": "09-11",
         "copper": 6.54,
-        "gold": 4368.3,
-        "silver": 63.97
+        "gold": 4371.2,
+        "silver": 64.0
       }
     ],
     "fx": [
@@ -717,9 +717,9 @@
       },
       {
         "date": "09-11",
-        "usdkrw": 1344.08,
+        "usdkrw": 1345.78,
         "dxy": 99.11,
-        "usdjpy": 154.3
+        "usdjpy": 154.34
       }
     ],
     "oil": [
@@ -820,8 +820,8 @@
       },
       {
         "date": "09-11",
-        "wti": 102.55,
-        "change": 0.07
+        "wti": 102.29,
+        "change": -0.19
       }
     ]
   },
@@ -1527,11 +1527,11 @@
     "youtube_popular": [
       {
         "rank": 1,
-        "title": "IU 'Dear my crazy soulmate' MV",
-        "channel": "이지금 [IU Official]",
-        "views": "323만회",
-        "thumb": "https://i.ytimg.com/vi/RdUV9Ms5GM4/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=RdUV9Ms5GM4"
+        "title": "Unknown Planet",
+        "channel": "IU - Topic",
+        "views": "68만회",
+        "thumb": "https://i.ytimg.com/vi/KHqDMwHpdy8/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=KHqDMwHpdy8"
       },
       {
         "rank": 2,
@@ -1545,7 +1545,7 @@
         "rank": 3,
         "title": "아저씨가 잠시 빌려갈게",
         "channel": "랄로",
-        "views": "74만회",
+        "views": "75만회",
         "thumb": "https://i.ytimg.com/vi/rCHln-ke9bw/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=rCHln-ke9bw"
       },
@@ -1575,11 +1575,11 @@
       },
       {
         "rank": 7,
-        "title": "Guitarist",
-        "channel": "D.O. - Topic",
-        "views": "66만회",
-        "thumb": "https://i.ytimg.com/vi/svHUxtHIljw/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=svHUxtHIljw"
+        "title": "My Friend",
+        "channel": "Mark Lee - Topic",
+        "views": "20만회",
+        "thumb": "https://i.ytimg.com/vi/mw0gC7ML-UA/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=mw0gC7ML-UA"
       },
       {
         "rank": 8,
@@ -1591,11 +1591,11 @@
       },
       {
         "rank": 9,
-        "title": "My Friend",
-        "channel": "Mark Lee - Topic",
-        "views": "20만회",
-        "thumb": "https://i.ytimg.com/vi/mw0gC7ML-UA/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=mw0gC7ML-UA"
+        "title": "Guitarist",
+        "channel": "D.O. - Topic",
+        "views": "66만회",
+        "thumb": "https://i.ytimg.com/vi/svHUxtHIljw/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=svHUxtHIljw"
       },
       {
         "rank": 10,
