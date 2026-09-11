@@ -700,30 +700,9 @@ def main():
     raw_30y = fetch_yahoo_series("^TYX", 20)
     hist_30y = [{"date": x["date"], "price": round(x["price"] / 10, 2) if x["price"] > 10 else x["price"]} for x in raw_30y] if raw_30y else [{"date": k, "price": v} for k, v in FALLBACK_30Y]
 # [수정된 코드블럭]
-    # 🔥 2년물 자동화의 궁극적 해결책: 미국 재무부 공식 API (차단 없음, 매일 자동 갱신)
-    hist_2y = []
-    try:
-        # 미국 재무부 API는 차단 방화벽이 없어 Actions에서도 완벽하게 동작합니다.
-        treasury_url = "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v2/accounting/od/yield_curve?sort=-record_date&format=json&page[size]=20"
-        res_t = requests.get(treasury_url, timeout=10)
-        
-        if res_t.status_code == 200:
-            data_list = res_t.json().get("data", [])
-            for item in reversed(data_list):
-                date_val = item.get("record_date")
-                
-                # 🔥 제가 실수했던 바로 그 부분! 실제 JSON 키값은 'tc_2year' 입니다.
-                yield_2y = item.get("tc_2year")
-                
-                if date_val and yield_2y:
-                    mmdd = f"{date_val[5:7]}-{date_val[8:10]}"
-                    hist_2y.append({"date": mmdd, "price": round(float(yield_2y), 2)})
-    except Exception as e:
-        print(f"2년물 재무부 API 수집 오류: {e}")
-
-    # 통신 실패 시에만 안전장치(Fallback) 발동
-    if len(hist_2y) < 10:
-        hist_2y = [{"date": k, "price": v} for k, v in FALLBACK_2Y]
+    # 🔥 2년물 궁극의 해결책: 미국 재무부(Treasury.gov) 공식 XML 피드 다이렉트 수집
+    # 2년물은 야후 파이낸스에 공식 심볼이 존재하지 않으므로, 차단 리스크가 없는 미 정부 공식망을 타격합니다.
+    hist_2y = fetch_treasury_gov_2y(FALLBACK_2Y)
         
     map_10y = {x["date"]: x["price"] for x in hist_10y}
     map_5y  = {x["date"]: x["price"] for x in hist_5y}
