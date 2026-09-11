@@ -7,6 +7,7 @@ import xml.etree.ElementTree as ET
 import requests
 import urllib.parse
 from bs4 import BeautifulSoup
+import random
 
 # 한국 표준시 (KST = UTC+9) 정의
 KST = timezone(timedelta(hours=9))
@@ -498,61 +499,39 @@ def load_humanities_from_pool(existing_humanities=None):
             }}
         ]
 
-    # 1. 오늘의 새 연표 아이템 추출
-    if hist_pool:
-        today_item = dict(hist_pool[day_idx % len(hist_pool)])
-    else:
-        today_item = {
-            "era": "1076년 ~ 1455년 (1388년)",
-            "title": "[1388년] [한국] 이성계, 위화도 회군",
-            "summary": "1388년 - 이성계, 위화도 회군",
-            "bullets": ["발생 연대: 1388년 (한국사)", "이성계, 위화도 회군", "당대 세력 균형 및 정치·경제적 제도 변화 반영"],
-            "insight": "군사적 회군을 통해 신흥 사대부 중심의 조선 건국 기틀을 마련한 대변혁입니다.",
-            "ref_url": "https://ko.wikipedia.org/wiki/%EC%9C%84%ED%99%94%EB%8F%84_%ED%9A%8C%EA%B5%B0",
-            "ref_title": "위키백과 위화도 회군 사료 원문"
-        }
-
-    # 2. 어제 실제 표출되었던 [1377 직지심체요절] 데이터 (D-1 즉시 복원)
-    jikji_item = {
-        "era": "1076년 ~ 1455년 (1377년)",
-        "title": "[1377년] [한국] 「직지심체요절」 인쇄",
-        "summary": "1377년 - 「직지심체요절」 인쇄",
-        "bullets": [
-            "발생 연대: 1377년 (한국사)",
-            "「직지심체요절」 인쇄",
-            "당대 세력 균형 및 정치·경제적 제도 변화 반영"
-        ],
-        "insight": "세계 최초의 금속활자본 인쇄로 정보의 기록과 확산 기술에서 세계사적 혁신을 이룬 변곡점입니다.",
-        "ref_url": "https://ko.wikipedia.org/wiki/%EC%A7%81%EC%A7%80%EC%8B%AC%EC%B2%B4%EC%9A%94%EC%A0%88",
-        "ref_title": "위키백과 직지심체요절 사료 원문"
-    }
-
-    # 3. 기존 저장된 큐 및 날짜 기반 FIFO 슬라이딩 윈도우 갱신
+    # 1~3. 역사 데이터 무작위 추출 및 5일 FIFO 큐 갱신
     old_history_5d = existing_humanities.get("history_5d", [])
     stored_date = existing_humanities.get("history_date", "")
 
-    # A) 날짜가 실제로 바뀐 경우 (매일 아침 9시): 이전의 오늘 항목이 D-1로 밀리고 오늘 항목이 0번에 삽입
+    # JSON의 "region" 키를 활용하여 한국사/세계사 풀(Pool) 완벽 분리
+    kr_pool = [x for x in hist_pool if x.get("region") == "한국"] if hist_pool else []
+    world_pool = [x for x in hist_pool if x.get("region") == "세계"] if hist_pool else []
+
+    # A) 날짜가 실제로 바뀐 경우 (자정 갱신): 무조건 D-1로 밀어내고, 새로운 '오늘' 데이터를 랜덤 추출
     if stored_date and stored_date != today_str and old_history_5d:
-        prev_today = old_history_5d[0]
-        if prev_today.get("title") != today_item.get("title"):
-            new_history_5d = [today_item] + old_history_5d[:4]
-        else:
-            new_history_5d = old_history_5d
-    # B) 같은 날짜(매시간 재실행 시) 또는 큐가 비어있는 초기 상태
+        # 오늘 날짜(day_idx)가 짝수면 세계사, 홀수면 한국사 풀을 선택 (매일 교차)
+        target_pool = world_pool if day_idx % 2 == 0 else kr_pool
+        if not target_pool: target_pool = hist_pool # 예외 처리 방어 로직
+        
+        # 순차 방식이 아닌 무작위(Random) 역사 사건 추출
+        today_item = dict(random.choice(target_pool)) if target_pool else {}
+        
+        # 기존 데이터를 뒤로 밀고(FIFO), 새로운 오늘 데이터를 0번에 삽입 (오류 유발 타이틀 체크 제거)
+        new_history_5d = [today_item] + old_history_5d[:4]
+        
+    # B) 같은 날짜이거나(하루 중 재실행), 큐가 비어있는 초기 상태
     else:
         if not old_history_5d or len(old_history_5d) < 5:
-            new_history_5d = [today_item, jikji_item]
-            if hist_pool:
-                for off in range(2, 5):
-                    new_history_5d.append(dict(hist_pool[(day_idx - off) % len(hist_pool)]))
-            else:
-                while len(new_history_5d) < 5:
-                    new_history_5d.append(dict(today_item))
+            # 최초 실행 시 D-0 부터 D-4 까지 과거 5일 치를 규칙(교차/랜덤)에 맞게 초기화
+            new_history_5d = []
+            for off in range(5):
+                t_pool = world_pool if (day_idx - off) % 2 == 0 else kr_pool
+                if not t_pool: t_pool = hist_pool
+                item = dict(random.choice(t_pool)) if t_pool else {}
+                new_history_5d.append(item)
         else:
+            # 같은 날짜에 스크립트가 여러 번 돌더라도, '오늘'의 내용은 바뀌지 않도록 기존 상태 유지
             new_history_5d = old_history_5d
-            # 현재 D-1에 직지심체요절이 누락되어 있다면 즉시 보정
-            if len(new_history_5d) > 1 and "직지심체요절" not in new_history_5d[1].get("title", ""):
-                new_history_5d[1] = jikji_item
 
     # 4. 각 역사 항목별 d_day 라벨 확정
     d_day_labels = ["오늘", "D-1", "D-2", "D-3", "D-4"]
