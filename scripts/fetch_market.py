@@ -689,9 +689,7 @@ def fetch_rss(url, max_items=5, prefix="", encoding=None):
 def main():
     data = load_existing_data()
 
-# [수정된 코드블럭]
     # 1. 국채금리 실데이터 수집
-    # 10년물, 30년물은 현재 잘 작동하고 있는 야후 파이낸스 로직 유지
     raw_10y = fetch_yahoo_series("^TNX", 20)
     hist_10y = [{"date": x["date"], "price": round(x["price"] / 10, 2) if x["price"] > 10 else x["price"]} for x in raw_10y] if raw_10y else [{"date": k, "price": v} for k, v in FALLBACK_10Y]
 
@@ -701,20 +699,18 @@ def main():
 
     raw_30y = fetch_yahoo_series("^TYX", 20)
     hist_30y = [{"date": x["date"], "price": round(x["price"] / 10, 2) if x["price"] > 10 else x["price"]} for x in raw_30y] if raw_30y else [{"date": k, "price": v} for k, v in FALLBACK_30Y]
-# [수정된 코드블럭]
-    # 🔥 2년물 궁극의 해결책: 미국 재무부(Treasury.gov) 공식 XML 피드 다이렉트 수집
-    # 2년물은 야후 파이낸스에 공식 심볼이 존재하지 않으므로, 차단 리스크가 없는 미 정부 공식망을 타격합니다.
-    hist_2y = fetch_treasury_gov_2y(FALLBACK_2Y)
-    
+
+    raw_2y = fetch_yahoo_series("US2YT=X", 20)
+    hist_2y = [{"date": x["date"], "price": round(x["price"] / 10, 2) if x["price"] > 10 else x["price"]} for x in raw_2y] if raw_2y else [{"date": k, "price": v} for k, v in FALLBACK_2Y]
+
     map_10y = {x["date"]: x["price"] for x in hist_10y}
-    map_2y = {x["date"]: x["price"] for x in hist_2y}
+    map_5y  = {x["date"]: x["price"] for x in hist_5y}
+    map_2y  = {x["date"]: x["price"] for x in hist_2y}
     map_30y = {x["date"]: x["price"] for x in hist_30y}
 
     all_dates = sorted(list(set(list(map_10y.keys()) + list(map_2y.keys()) + list(map_30y.keys()))))
     bonds_history = []
     
-    # 🔥 핵심: 결측치 보정 (Forward Fill) 변수 초기화
-    # 특정 일자에 데이터가 누락되더라도 전일 데이터를 이어받아 차트 절단 방지
     last_p10, last_p2, last_p30 = 4.79, 4.37, 5.25
     
     for d in all_dates:
@@ -730,14 +726,12 @@ def main():
         if p30 is not None: last_p30 = p30
         else: p30 = last_p30
         
-        # 깐깐한 조건문(if p10 is not None and p2 is not None)을 삭제하여 무조건 기록
         sp = round((p10 - p2) * 100)
         bonds_history.append({"date": d, "us10y": p10, "us2y": p2, "us30y": p30, "spread": sp})
 
-    # [수정된 코드블럭]
     latest_10y = hist_10y[-1]["price"] if hist_10y else last_p10
-    latest_5y = hist_5y[-1]["price"] if hist_5y else 4.45  # 5년물 최신값 추출
-    latest_2y = hist_2y[-1]["price"] if hist_2y else last_p2
+    latest_5y  = hist_5y[-1]["price"] if hist_5y else 4.45
+    latest_2y  = hist_2y[-1]["price"] if hist_2y else last_p2
     latest_30y = hist_30y[-1]["price"] if hist_30y else last_p30
     spread_bp = round((latest_10y - latest_2y) * 100)
 
@@ -746,13 +740,19 @@ def main():
         if len(hist) >= 2:
             return round(latest_val - hist[-2]["price"], 2)
         return 0.00
+        
+    chg_10y = get_bond_change(hist_10y, latest_10y)
+    chg_5y  = get_bond_change(hist_5y, latest_5y)
+    chg_2y  = get_bond_change(hist_2y, latest_2y)
+    chg_30y = get_bond_change(hist_30y, latest_30y)
 
-    data["us10y"] = {"value": latest_10y, "change": get_bond_change(hist_10y, latest_10y)}
-    data["us5y"]  = {"value": latest_5y,  "change": get_bond_change(hist_5y, latest_5y)}
-    data["us2y"]  = {"value": latest_2y,  "change": get_bond_change(hist_2y, latest_2y)}
-    data["us30y"] = {"value": latest_30y, "change": get_bond_change(hist_30y, latest_30y)}
+    data["us10y"] = {"value": latest_10y, "change": chg_10y}
+    data["us5y"]  = {"value": latest_5y,  "change": chg_5y}
+    data["us2y"]  = {"value": latest_2y,  "change": chg_2y}
+    data["us30y"] = {"value": latest_30y, "change": chg_30y}
     data["spread"] = {"value": spread_bp, "status": "정상화 (우상향)" if spread_bp >= 0 else "역전 (침체경보)"}
 
+    # (중략 - 글로벌 시세 2, 3번 수집 로직은 그대로 유지) ...
     # 2. 글로벌 시세 수집
     s_cop = fetch_yahoo_series("HG=F", 20)
     s_gold = fetch_yahoo_series("GC=F", 20)
@@ -817,15 +817,17 @@ def main():
 
     # 4. 4대 매크로 리뷰 객체 구성
     ind = data["indicators"]
+
+    # 🔥 macro_reviews 객체 내 하드코딩 제거 및 다이내믹 등락폭 바인딩
     data["macro_reviews"] = {
         "bonds": {
             "badge": f"스프레드 {spread_bp:+d} bp",
             "title": f"미국채 10년물 {latest_10y}%선 공방과 정상화",
             "metrics": [
-                {"id": "spread", "name": "10Y-2Y차", "val": f"{spread_bp:+d} bp", "chg": "정상화 (우상향)", "up": spread_bp >= 0},
-                {"id": "us10y", "name": "10년물", "val": f"{latest_10y:.2f}%", "chg": "+0.05%", "up": True},
-                {"id": "us2y", "name": "2년물", "val": f"{latest_2y:.2f}%", "chg": "-0.29%", "up": False},
-                {"id": "us30y", "name": "30년물", "val": f"{latest_30y:.2f}%", "chg": "-0.01%", "up": False},
+                {"id": "spread", "name": "10Y-2Y차", "val": f"{spread_bp:+d} bp", "chg": "정상화 (우상향)" if spread_bp >= 0 else "역전 (침체경보)", "up": spread_bp >= 0},
+                {"id": "us10y", "name": "10년물", "val": f"{latest_10y:.2f}%", "chg": f"{chg_10y:+.2f}%", "up": chg_10y >= 0},
+                {"id": "us2y", "name": "2년물", "val": f"{latest_2y:.2f}%", "chg": f"{chg_2y:+.2f}%", "up": chg_2y >= 0},
+                {"id": "us30y", "name": "30년물", "val": f"{latest_30y:.2f}%", "chg": f"{chg_30y:+.2f}%", "up": chg_30y >= 0},
             ],
             "bullets": [
                 f"10년물 {latest_10y}%와 2년물 {latest_2y}% 형성으로 스프레드 {spread_bp:+d} bp 유지",
