@@ -702,42 +702,30 @@ def main():
     hist_30y = [{"date": x["date"], "price": round(x["price"] / 10, 2) if x["price"] > 10 else x["price"]} for x in raw_30y] if raw_30y else [{"date": k, "price": v} for k, v in FALLBACK_30Y]
 
 # [수정된 코드블럭]
-    # 🔥 2년물 다중 폴백 수집 (Naver 모바일 API -> FRED API 타임아웃 연장)
+    # 🔥 2년물 궁극의 해결책: 미국 재무부(US Treasury) 공식 API 다이렉트 호출
+    # 개발자용으로 개방된 REST API라 GitHub Actions IP 차단 및 타임아웃 리스크가 0%에 가깝습니다.
     hist_2y = []
-    
-    # 1순위: 응답 속도가 가장 빠른 네이버 모바일 전용 API 타격
     try:
-        url_2y = "https://m.stock.naver.com/api/index/worldMarketIndex/IRRD_BONDU02Y/price?pageSize=20&page=1"
-        res_2y = requests.get(url_2y, headers=HEADERS, timeout=5)
+        # sort=-record_date로 최신 20영업일 JSON 데이터를 즉시 확보
+        treasury_url = "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v2/accounting/od/yield_curve?sort=-record_date&format=json&page[size]=20"
+        res_2y = requests.get(treasury_url, timeout=10)
+        
         if res_2y.status_code == 200:
-            for item in res_2y.json():
-                dt = item.get("localTradedAt", "")
-                pr = str(item.get("closePrice", "0")).replace(",", "")
-                if dt and pr:
-                    parts = dt.split("-")
-                    hist_2y.append({"date": f"{parts[1]}-{parts[2]}", "price": round(float(pr), 2)})
-            hist_2y.reverse() # 네이버는 최신순으로 주므로 과거순 시계열로 뒤집기
+            data_list = res_2y.json().get("data", [])
+            
+            # API가 최신순(내림차순)으로 반환하므로, 차트용 과거순(오름차순)으로 뒤집어서 배열
+            for item in reversed(data_list):
+                date_val = item.get("record_date") # 형식: "YYYY-MM-DD"
+                yield_2y = item.get("2_yr")        # 2년물 금리 (문자열)
+                
+                if date_val and yield_2y:
+                    mmdd = f"{date_val[5:7]}-{date_val[8:10]}" # "09-10" 형태로 절사
+                    hist_2y.append({"date": mmdd, "price": round(float(yield_2y), 2)})
     except Exception as e:
-        print(f"2년물 네이버 수집 오류: {e}")
+        print(f"미국 재무부 2년물 API 수집 오류: {e}")
+        pass
 
-    # 2순위: 네이버 실패 시 FRED 공공 데이터 타격 (타임아웃 30초 대폭 연장)
-    if len(hist_2y) < 10:
-        hist_2y = [] # 찌꺼기 초기화
-        try:
-            past_str = (datetime.now() - timedelta(days=30)).strftime("%Y-%m-%d")
-            fred_url = f"https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS2&cosd={past_str}"
-            res_fred = requests.get(fred_url, headers=HEADERS, timeout=30) # 타임아웃 30초로 넉넉하게 대기
-            if res_fred.status_code == 200:
-                for line in res_fred.text.strip().split('\n')[1:]:
-                    parts = line.split(',')
-                    if len(parts) == 2 and parts[1].strip() != '.':
-                        d_str, val_str = parts[0].strip(), parts[1].strip()
-                        hist_2y.append({"date": f"{d_str[5:7]}-{d_str[8:10]}", "price": round(float(val_str), 2)})
-        except Exception as e:
-            print(f"2년물 FRED 수집 오류: {e}")
-
-    # 3순위: 모두 실패 시 하드코딩 데이터
-    if len(hist_2y) < 10:
+    if not hist_2y:
         hist_2y = [{"date": k, "price": v} for k, v in FALLBACK_2Y]
 
     map_10y = {x["date"]: x["price"] for x in hist_10y}
