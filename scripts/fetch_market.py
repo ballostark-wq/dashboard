@@ -580,30 +580,30 @@ def load_humanities_from_pool(existing_humanities=None):
 
 
 # [교체할 새로운 함수 코드]
-def fetch_global_bond_history(yahoo_symbol, fallback_series):
-    """야후 파이낸스 글로벌 미국채 심볼(US10YT=X 등)을 활용해 국내 포털 차단을 원천 우회"""
+def fetch_fred_bond_history(series_id, fallback_series):
+    """미국 연방준비은행(FRED)의 공식 데이터를 활용해 국채 금리 수집 (차단 없음)"""
     results = {}
-    url = f"https://query1.finance.yahoo.com/v8/finance/chart/{yahoo_symbol}?interval=1d&range=2mo"
+    # 최근 40일치 데이터를 요청하여 공휴일을 제외한 영업일 20일치 확보
+    start_date = (datetime.now() - timedelta(days=40)).strftime("%Y-%m-%d")
+    url = f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={series_id}&cosd={start_date}"
     
     try:
         res = requests.get(url, headers=HEADERS, timeout=10)
         if res.status_code == 200:
-            result = res.json()["chart"]["result"][0]
-            timestamps = result.get("timestamp", [])
-            closes = result.get("indicators", {}).get("quote", [{}])[0].get("close", [])
-            
-            for ts, c in zip(timestamps, closes):
-                if c is not None and c > 0:
-                    # 타임스탬프를 UTC 기준으로 안전하게 변환
-                    d_str = datetime.fromtimestamp(ts, timezone.utc).strftime("%m-%d")
-                    # 국채 금리 특성상 소수점 3자리까지 확보하여 정확도 상승
-                    results[d_str] = round(float(c), 3)
+            lines = res.text.strip().split('\n')
+            for line in lines[1:]:  # 첫 줄(컬럼 헤더) 제외
+                parts = line.split(',')
+                if len(parts) == 2:
+                    d_str, val_str = parts[0].strip(), parts[1].strip()
+                    if val_str != '.':  # 주말/공휴일 등 결측치(.) 제외
+                        mmdd = d_str[5:10]  # 'YYYY-MM-DD' 형식을 'MM-DD'로 변환
+                        results[mmdd] = round(float(val_str), 2)
     except Exception as e:
-        print(f"Yahoo API 수집 오류 ({yahoo_symbol}): {e}")
+        print(f"FRED 데이터 수집 오류 ({series_id}): {e}")
 
-    # 서버 불안정 등으로 수집된 데이터가 10일 치 미만이면 폴백 데이터 사용
+    # 수집 실패 시 하드코딩된 폴백(Fallback) 데이터 적용
     if len(results) < 10:
-        print(f"⚠️ [경고] {yahoo_symbol} 수집 실패로 폴백 데이터가 적용됩니다.")
+        print(f"⚠️ [경고] {series_id} 수집 실패로 폴백 데이터가 적용됩니다.")
         for d_str, val in fallback_series:
             results[d_str] = val
 
@@ -683,10 +683,10 @@ def fetch_rss(url, max_items=5, prefix="", encoding=None):
 def main():
     data = load_existing_data()
 
-    # 1. 국채금리 실데이터 수집 (네이버 의존도 0%, 글로벌 데이터 다이렉트 수집)
-    hist_10y = fetch_global_bond_history("US10YT=X", FALLBACK_10Y)
-    hist_2y  = fetch_global_bond_history("US2YT=X", FALLBACK_2Y)
-    hist_30y = fetch_global_bond_history("US30YT=X", FALLBACK_30Y)
+    # 1. 국채금리 실데이터 수집 (미 연준 FRED 공식 데이터 활용)
+    hist_10y = fetch_fred_bond_history("DGS10", FALLBACK_10Y)
+    hist_2y  = fetch_fred_bond_history("DGS2", FALLBACK_2Y)
+    hist_30y = fetch_fred_bond_history("DGS30", FALLBACK_30Y)
 
     map_10y = {x["date"]: x["price"] for x in hist_10y}
     map_2y = {x["date"]: x["price"] for x in hist_2y}
