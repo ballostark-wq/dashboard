@@ -700,41 +700,61 @@ def main():
     raw_30y = fetch_yahoo_series("^TYX", 20)
     hist_30y = [{"date": x["date"], "price": round(x["price"] / 10, 2) if x["price"] > 10 else x["price"]} for x in raw_30y] if raw_30y else [{"date": k, "price": v} for k, v in FALLBACK_30Y]
 # [수정된 코드블럭]
-    # 🔥 2년물 전용 강력한 다중 수집망 (Naver 모바일 API -> 미국 재무부 공식 API)
-    # 야후 파이낸스에는 2년물 공식 금리 심볼이 존재하지 않으므로 전용망을 구축합니다.
+    # 🔥 유저님이 찾아주신 궁극의 단서! 네이버 'US2YT=RR' 심볼을 활용한 3중 다이렉트 수집망
+    # 야후 파이낸스에는 2년물 공식 심볼이 없으므로, 네이버의 데이터 전용 API를 직접 타격합니다.
     hist_2y = []
     
-    # 1순위: 네이버 모바일 API (가장 빠르고 방화벽 차단 확률이 매우 낮음)
+    # 1순위: 네이버 모바일 API 1차 타격 (가장 빠름)
     try:
-        url_2y = "https://m.stock.naver.com/api/index/worldMarketIndex/IRRD_BONDU02Y/price?pageSize=20&page=1"
-        res_2y = requests.get(url_2y, headers=HEADERS, timeout=5)
-        if res_2y.status_code == 200:
-            for item in res_2y.json():
+        naver_url1 = "https://m.stock.naver.com/api/index/worldMarketIndex/US2YT=RR/price?pageSize=20&page=1"
+        res1 = requests.get(naver_url1, headers=HEADERS, timeout=5)
+        if res1.status_code == 200:
+            for item in res1.json():
                 dt = item.get("localTradedAt", "")
                 pr = str(item.get("closePrice", "0")).replace(",", "")
                 if dt and pr:
                     parts = dt.split("-")
                     hist_2y.append({"date": f"{parts[1]}-{parts[2]}", "price": round(float(pr), 2)})
-            hist_2y.reverse() # 최신순으로 들어오므로 과거순(시계열)으로 뒤집기
-    except Exception as e:
-        print(f"2년물 네이버 모바일 수집 오류: {e}")
+            hist_2y.reverse() # 최신순으로 오므로 과거순으로 뒤집기
+    except: pass
 
-    # 2순위: 네이버 실패 시 미국 재무부(US Treasury) 공식 API 타격 (차단 리스크 0%)
+    # 2순위: 1순위 실패 시 네이버 프론트 API 2차 타격
     if len(hist_2y) < 10:
         hist_2y = []
         try:
-            treasury_url = "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v2/accounting/od/yield_curve?sort=-record_date&format=json&page[size]=20"
-            res_t = requests.get(treasury_url, headers=HEADERS, timeout=10)
-            if res_t.status_code == 200:
-                for item in reversed(res_t.json().get("data", [])):
-                    date_val = item.get("record_date")
-                    yield_2y = item.get("2_yr")
-                    if date_val and yield_2y:
-                        hist_2y.append({"date": f"{date_val[5:7]}-{date_val[8:10]}", "price": round(float(yield_2y), 2)})
-        except Exception as e:
-            print(f"2년물 재무부 API 수집 오류: {e}")
+            naver_url2 = "https://m.stock.naver.com/front-api/v1/marketIndex/prices?category=bond&reutersCode=US2YT=RR&page=1"
+            res2 = requests.get(naver_url2, headers=HEADERS, timeout=5)
+            if res2.status_code == 200:
+                for item in res2.json().get("result", []):
+                    dt = item.get("localTradedAt", "")
+                    pr = str(item.get("closePrice", "0")).replace(",", "")
+                    if dt and pr:
+                        parts = dt.split("-")
+                        hist_2y.append({"date": f"{parts[1]}-{parts[2]}", "price": round(float(pr), 2)})
+                hist_2y.reverse()
+        except: pass
 
-    # 3순위: 모두 실패 시 폴백 데이터 적용
+    # 3순위: API 전면 차단 시 첨부파일의 웹페이지 HTML을 정규식으로 직접 파싱 (무적 방어)
+    if len(hist_2y) < 10:
+        hist_2y = []
+        try:
+            naver_url3 = "https://stock.naver.com/marketindex/bond/US2YT=RR/price"
+            res3 = requests.get(naver_url3, headers=HEADERS, timeout=5)
+            if res3.status_code == 200:
+                # 웹페이지 소스코드 내부에 숨겨진 JSON 데이터를 정규식으로 강제 추출
+                matches = re.findall(r'"localTradedAt":"(\d{4}-\d{2}-\d{2})".*?"closePrice":"([\d\.]+)"', res3.text)
+                seen = set()
+                parsed = []
+                for dt, pr in matches:
+                    if dt not in seen:
+                        seen.add(dt)
+                        parts = dt.split("-")
+                        parsed.append({"date": f"{parts[1]}-{parts[2]}", "price": round(float(pr), 2)})
+                hist_2y = parsed[:20]
+                hist_2y.reverse()
+        except: pass
+
+    # 모두 실패 시 폴백 적용
     if not hist_2y or len(hist_2y) < 10:
         hist_2y = [{"date": k, "price": v} for k, v in FALLBACK_2Y]
         
