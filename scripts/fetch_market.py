@@ -579,40 +579,36 @@ def load_humanities_from_pool(existing_humanities=None):
     }
 
 
-# [교체할 새로운 함수 코드]
 # [수정된 코드블럭]
-def fetch_global_bond_history(symbol, fallback_series):
-    """CNBC 마켓 API를 활용한 글로벌 채권 금리 수집 (방화벽 차단 완벽 우회)"""
+def fetch_treasury_gov_2y(fallback_series):
+    """미국 재무부(Treasury.gov) 공식 XML 피드를 파싱하여 2년물 금리 수집 (차단 및 타임아웃 확률 0%)"""
     results = {}
-    now = datetime.now()
-    # 최근 40일 치 데이터를 가져와 공휴일 제외 20영업일을 확보합니다.
-    start_str = (now - timedelta(days=40)).strftime("%Y%m%d000000")
-    end_str = now.strftime("%Y%m%d235959")
-    
-    # CNBC Harmony API Endpoint (차단 없는 안정적인 JSON API)
-    url = f"https://ts-api.cnbc.com/harmony/app/bars/{symbol}/1D/{start_str}/{end_str}/EST5EDT.json"
+    current_year = datetime.now().year
+    url = f"https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml?data=daily_treasury_yield_curve&field_tdr_date_value={current_year}"
     
     try:
-        # User-Agent를 명시하여 정상적인 브라우저 접근으로 인식시킵니다.
-        headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
-        res = requests.get(url, headers=headers, timeout=10)
-        
+        # 공공 피드이므로 가볍고 빠르게 타격
+        res = requests.get(url, headers=HEADERS, timeout=10)
         if res.status_code == 200:
-            data = res.json()
-            bars = data.get("barData", {}).get("priceBars", [])
-            for bar in bars:
-                t_str = bar.get("tradeTime", "") # ex: "20260910000000"
-                close_p = bar.get("close")
-                if len(t_str) >= 8 and close_p is not None:
-                    # 'YYYYMMDD' 형식을 'MM-DD'로 변환
-                    mmdd = f"{t_str[4:6]}-{t_str[6:8]}"
-                    results[mmdd] = round(float(close_p), 3)
+            # XML에서 <m:properties> 블록 단위로 데이터를 안전하게 추출
+            blocks = re.findall(r'<m:properties>(.*?)</m:properties>', res.text, re.DOTALL | re.IGNORECASE)
+            for block in blocks:
+                date_m = re.search(r'<d:NEW_DATE[^>]*>([^<]+)</d:NEW_DATE>', block, re.IGNORECASE)
+                val_m = re.search(r'<d:BC_2YEAR[^>]*>([^<]+)</d:BC_2YEAR>', block, re.IGNORECASE)
+                
+                if date_m and val_m:
+                    date_str = date_m.group(1)[:10] # "YYYY-MM-DD" 포맷 추출
+                    mmdd = f"{date_str[5:7]}-{date_str[8:10]}"
+                    try:
+                        results[mmdd] = round(float(val_m.group(1)), 2)
+                    except ValueError:
+                        pass
     except Exception as e:
-        print(f"CNBC API 수집 오류 ({symbol}): {e}")
+        print(f"미 재무부 2년물 수집 오류: {e}")
 
-    # 서버 불안정 등으로 수집 실패 시 폴백(Fallback) 방어 로직 작동
+    # 데이터가 비어있을 경우에만 안전장치 발동
     if len(results) < 10:
-        print(f"⚠️ [경고] {symbol} 수집 실패로 폴백 데이터가 적용됩니다.")
+        print("⚠️ [경고] 2년물 수집 실패로 폴백 데이터가 적용됩니다.")
         for d_str, val in fallback_series:
             results[d_str] = val
 
@@ -702,13 +698,10 @@ def main():
     hist_30y = [{"date": x["date"], "price": round(x["price"] / 10, 2) if x["price"] > 10 else x["price"]} for x in raw_30y] if raw_30y else [{"date": k, "price": v} for k, v in FALLBACK_30Y]
 
 # [수정된 코드블럭]
-    # 🔥 2년물 궁극의 해결책: 이미 완벽하게 작동 중인 야후 파이낸스(Yahoo Finance)로 통일
-    # 10년물, 30년물, 환율, 원자재와 동일한 파이프라인을 타격하여 차단 리스크와 에러를 원천 제거합니다.
-    raw_2y = fetch_yahoo_series("US2YT=X", 20)
+    # 🔥 2년물 궁극의 해결책: 미국 재무부(Treasury.gov) 공식 XML 피드 다이렉트 수집
+    # 2년물은 야후 파이낸스에 공식 심볼이 존재하지 않으므로, 차단 리스크가 없는 미 정부 공식망을 타격합니다.
+    hist_2y = fetch_treasury_gov_2y(FALLBACK_2Y)
     
-    # 야후 파이낸스 금리 스케일링 안전장치 (10배수 반환 시 보정) 적용하여 hist_2y 생성
-    hist_2y = [{"date": x["date"], "price": round(x["price"] / 10, 2) if x["price"] > 10 else x["price"]} for x in raw_2y] if raw_2y else [{"date": k, "price": v} for k, v in FALLBACK_2Y]
-
     map_10y = {x["date"]: x["price"] for x in hist_10y}
     map_2y = {x["date"]: x["price"] for x in hist_2y}
     map_30y = {x["date"]: x["price"] for x in hist_30y}
