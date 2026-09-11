@@ -702,31 +702,12 @@ def main():
     hist_30y = [{"date": x["date"], "price": round(x["price"] / 10, 2) if x["price"] > 10 else x["price"]} for x in raw_30y] if raw_30y else [{"date": k, "price": v} for k, v in FALLBACK_30Y]
 
 # [수정된 코드블럭]
-    # 🔥 2년물 궁극의 해결책: 미국 재무부(US Treasury) 공식 API 다이렉트 호출
-    # 개발자용으로 개방된 REST API라 GitHub Actions IP 차단 및 타임아웃 리스크가 0%에 가깝습니다.
-    hist_2y = []
-    try:
-        # sort=-record_date로 최신 20영업일 JSON 데이터를 즉시 확보
-        treasury_url = "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v2/accounting/od/yield_curve?sort=-record_date&format=json&page[size]=20"
-        res_2y = requests.get(treasury_url, timeout=10)
-        
-        if res_2y.status_code == 200:
-            data_list = res_2y.json().get("data", [])
-            
-            # API가 최신순(내림차순)으로 반환하므로, 차트용 과거순(오름차순)으로 뒤집어서 배열
-            for item in reversed(data_list):
-                date_val = item.get("record_date") # 형식: "YYYY-MM-DD"
-                yield_2y = item.get("2_yr")        # 2년물 금리 (문자열)
-                
-                if date_val and yield_2y:
-                    mmdd = f"{date_val[5:7]}-{date_val[8:10]}" # "09-10" 형태로 절사
-                    hist_2y.append({"date": mmdd, "price": round(float(yield_2y), 2)})
-    except Exception as e:
-        print(f"미국 재무부 2년물 API 수집 오류: {e}")
-        pass
-
-    if not hist_2y:
-        hist_2y = [{"date": k, "price": v} for k, v in FALLBACK_2Y]
+    # 🔥 2년물 궁극의 해결책: 이미 완벽하게 작동 중인 야후 파이낸스(Yahoo Finance)로 통일
+    # 10년물, 30년물, 환율, 원자재와 동일한 파이프라인을 타격하여 차단 리스크와 에러를 원천 제거합니다.
+    raw_2y = fetch_yahoo_series("US2YT=X", 20)
+    
+    # 야후 파이낸스 금리 스케일링 안전장치 (10배수 반환 시 보정) 적용하여 hist_2y 생성
+    hist_2y = [{"date": x["date"], "price": round(x["price"] / 10, 2) if x["price"] > 10 else x["price"]} for x in raw_2y] if raw_2y else [{"date": k, "price": v} for k, v in FALLBACK_2Y]
 
     map_10y = {x["date"]: x["price"] for x in hist_10y}
     map_2y = {x["date"]: x["price"] for x in hist_2y}
