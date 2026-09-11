@@ -579,81 +579,31 @@ def load_humanities_from_pool(existing_humanities=None):
     }
 
 
-# [수정된 코드블럭]
-def fetch_naver_bond_history(item_code, fallback_series):
+# [교체할 새로운 함수 코드]
+def fetch_global_bond_history(yahoo_symbol, fallback_series):
+    """야후 파이낸스 글로벌 미국채 심볼(US10YT=X 등)을 활용해 국내 포털 차단을 원천 우회"""
     results = {}
+    url = f"https://query1.finance.yahoo.com/v8/finance/chart/{yahoo_symbol}?interval=1d&range=2mo"
     
-    # 1차 시도: 다음 금융(Daum Finance) API (GitHub Actions 차단 우회용)
-    daum_code_map = {
-        "IRRD_BONDU10Y": "US.T10Y",
-        "IRRD_BONDU02Y": "US.T2Y",
-        "IRRD_BONDU30Y": "US.T30Y",
-    }
-    daum_code = daum_code_map.get(item_code)
-    if daum_code:
-        daum_url = f"https://finance.daum.net/api/global/indexes/{daum_code}/days?symbolCode={daum_code}&page=1&perPage=20"
-        daum_headers = {
-            "User-Agent": HEADERS["User-Agent"],
-            "Referer": f"https://finance.daum.net/global/indexes/{daum_code}"
-        }
-        try:
-            res = requests.get(daum_url, headers=daum_headers, timeout=5)
-            if res.status_code == 200:
-                data = res.json()
-                for item in data.get("data", []):
-                    date_val = item.get("date", "")
-                    price_val = item.get("tradePrice")
-                    if date_val and price_val is not None:
-                        parts = date_val.split()[0].split("-")
-                        if len(parts) >= 3:
-                            mmdd = f"{parts[1]}-{parts[2]}"
-                            results[mmdd] = round(float(price_val), 2)
-        except Exception as e:
-            print(f"Daum API 수집 오류 ({daum_code}): {e}")
+    try:
+        res = requests.get(url, headers=HEADERS, timeout=10)
+        if res.status_code == 200:
+            result = res.json()["chart"]["result"][0]
+            timestamps = result.get("timestamp", [])
+            closes = result.get("indicators", {}).get("quote", [{}])[0].get("close", [])
+            
+            for ts, c in zip(timestamps, closes):
+                if c is not None and c > 0:
+                    # 타임스탬프를 UTC 기준으로 안전하게 변환
+                    d_str = datetime.fromtimestamp(ts, timezone.utc).strftime("%m-%d")
+                    # 국채 금리 특성상 소수점 3자리까지 확보하여 정확도 상승
+                    results[d_str] = round(float(c), 3)
+    except Exception as e:
+        print(f"Yahoo API 수집 오류 ({yahoo_symbol}): {e}")
 
-    # 2차 시도: 네이버 모바일 JSON API (Daum 실패 시 방어 로직)
+    # 서버 불안정 등으로 수집된 데이터가 10일 치 미만이면 폴백 데이터 사용
     if len(results) < 10:
-        naver_api_url = f"https://m.stock.naver.com/api/index/worldMarketIndex/{item_code}/price?pageSize=20&page=1"
-        naver_headers = {"User-Agent": HEADERS["User-Agent"], "Referer": "https://m.stock.naver.com/"}
-        try:
-            res = requests.get(naver_api_url, headers=naver_headers, timeout=5)
-            if res.status_code == 200:
-                data = res.json()
-                for item in data:
-                    dt_str = item.get("localTradedAt", "")
-                    price_str = str(item.get("closePrice", "0")).replace(",", "")
-                    if dt_str and price_str:
-                        parts = dt_str.split("-")
-                        if len(parts) >= 3:
-                            mmdd = f"{parts[1]}-{parts[2]}"
-                            results[mmdd] = round(float(price_str), 2)
-        except Exception as e:
-            print(f"Naver 모바일 API 수집 오류 ({item_code}): {e}")
-
-    # 3차 시도: 기존 네이버 HTML 파싱 (API가 모두 막혔을 경우)
-    if len(results) < 10:
-        headers = {**HEADERS, "Referer": "https://finance.naver.com/"}
-        for page in [1, 2, 3]:
-            url = f"https://finance.naver.com/marketindex/worldDailyQuote.naver?marketindexCd={item_code}&fdtc=4&page={page}"
-            try:
-                res = requests.get(url, headers=headers, timeout=5)
-                if res.status_code == 200:
-                    res.encoding = "euc-kr"
-                    rows = re.findall(
-                        r'<td[^>]*class=["\']date["\'][^>]*>\s*([\d\.]+)\s*</td>\s*<td[^>]*class=["\']num["\'][^>]*>\s*([\d\.,]+)\s*</td>',
-                        res.text,
-                    )
-                    for d_str, p_str in rows:
-                        clean_d = d_str.strip().replace(".", "-")
-                        parts = clean_d.split("-")
-                        mmdd = f"{parts[1]}-{parts[2]}" if len(parts) >= 3 else clean_d
-                        results[mmdd] = round(float(p_str.replace(",", "")), 2)
-            except Exception:
-                pass
-
-    # 모든 수집 실패 시 하드코딩된 폴백(Fallback) 데이터 적용
-    if len(results) < 10:
-        print(f"⚠️ [경고] {item_code} 수집 실패로 폴백 데이터가 적용됩니다.")
+        print(f"⚠️ [경고] {yahoo_symbol} 수집 실패로 폴백 데이터가 적용됩니다.")
         for d_str, val in fallback_series:
             results[d_str] = val
 
@@ -733,10 +683,10 @@ def fetch_rss(url, max_items=5, prefix="", encoding=None):
 def main():
     data = load_existing_data()
 
-    # 1. 국채금리 실데이터 수집
-    hist_10y = fetch_naver_bond_history("IRRD_BONDU10Y", FALLBACK_10Y)
-    hist_2y = fetch_naver_bond_history("IRRD_BONDU02Y", FALLBACK_2Y)
-    hist_30y = fetch_naver_bond_history("IRRD_BONDU30Y", FALLBACK_30Y)
+    # 1. 국채금리 실데이터 수집 (네이버 의존도 0%, 글로벌 데이터 다이렉트 수집)
+    hist_10y = fetch_global_bond_history("US10YT=X", FALLBACK_10Y)
+    hist_2y  = fetch_global_bond_history("US2YT=X", FALLBACK_2Y)
+    hist_30y = fetch_global_bond_history("US30YT=X", FALLBACK_30Y)
 
     map_10y = {x["date"]: x["price"] for x in hist_10y}
     map_2y = {x["date"]: x["price"] for x in hist_2y}
