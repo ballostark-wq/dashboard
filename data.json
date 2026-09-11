@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12 04:05:15",
+  "updated_at": "2026-09-12 05:06:03",
   "us2y": {
     "value": 4.56,
     "change": 0.13
@@ -13,16 +13,16 @@
     "change": 0.03
   },
   "us30y": {
-    "value": 5.36,
-    "change": 0.0
+    "value": 5.35,
+    "change": -0.01
   },
   "spread": {
     "value": 41,
     "status": "정상화 (우상향)"
   },
   "vix": {
-    "value": 15.78,
-    "change": -11.55
+    "value": 15.9,
+    "change": -10.87
   },
   "tech_news": [
     {
@@ -201,14 +201,14 @@
         {
           "id": "us30y",
           "name": "30년물",
-          "val": "5.36%",
-          "chg": "+0.00%",
-          "up": true
+          "val": "5.35%",
+          "chg": "-0.01%",
+          "up": false
         }
       ],
       "bullets": [
         "10년물 4.97%와 2년물 4.56% 형성으로 스프레드 +41 bp 유지",
-        "초장기 30년물 5.36%선 안착 속 재정 적자 발행에 따른 기간 프리미엄"
+        "초장기 30년물 5.35%선 안착 속 재정 적자 발행에 따른 기간 프리미엄"
       ],
       "detail": "10Y-2Y 스프레드가 +41 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
@@ -226,32 +226,32 @@
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,387.3",
-          "chg": "+0.52%",
+          "val": "$4,388.2",
+          "chg": "+0.54%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$64.77",
-          "chg": "+0.76%",
+          "val": "$64.88",
+          "chg": "+0.93%",
           "up": true
         }
       ],
       "bullets": [
         "구리 $6.55/lb (+1.24%) - AI 전력망 설비 수요 반영",
-        "금 $4,387/oz, 은 $64.77/oz - 통화가치 헤지"
+        "금 $4,388/oz, 은 $64.88/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,342원 | 엔/달러 ¥153.8",
-      "title": "원/달러 1,341.6원선과 엔/달러 ¥153.8",
+      "badge": "원/달러 1,342원 | 엔/달러 ¥153.7",
+      "title": "원/달러 1,341.5원선과 엔/달러 ¥153.7",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,341.6원",
+          "val": "1,341.5원",
           "chg": "+0.18%",
           "up": true
         },
@@ -265,31 +265,31 @@
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥153.75",
-          "chg": "+0.12%",
+          "val": "¥153.67",
+          "chg": "+0.07%",
           "up": true
         }
       ],
       "bullets": [
         "달러 인덱스 99.13pt - 미국 성장 우위 지속",
-        "엔/달러 153.75엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "엔/달러 153.67엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $100.5",
-      "title": "WTI 배럴당 $100.5선 박스권 안정",
+      "badge": "WTI $100.67",
+      "title": "WTI 배럴당 $100.67선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$100.50",
-          "chg": "-1.93%",
+          "val": "$100.67",
+          "chg": "-1.77%",
           "up": false
         }
       ],
       "bullets": [
-        "WTI 선물 $100.5/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $100.67/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -301,19 +301,19 @@
       "change": 1.24
     },
     "gold": {
-      "price": 4387.3,
-      "change": 0.52
+      "price": 4388.2,
+      "change": 0.54
     },
     "silver": {
-      "price": 64.77,
-      "change": 0.76
+      "price": 64.88,
+      "change": 0.93
     },
     "wti": {
-      "price": 100.5,
-      "change": -1.93
+      "price": 100.67,
+      "change": -1.77
     },
     "usdkrw": {
-      "price": 1341.56,
+      "price": 1341.52,
       "change": 0.18
     },
     "dxy": {
@@ -321,8 +321,8 @@
       "change": 0.04
     },
     "usdjpy": {
-      "price": 153.75,
-      "change": 0.12
+      "price": 153.67,
+      "change": 0.07
     }
   },
   "history_20d": {
@@ -464,7 +464,7 @@
         "date": "09-11",
         "us10y": 4.97,
         "us2y": 4.56,
-        "us30y": 5.36,
+        "us30y": 5.35,
         "spread": 41
       }
     ],
@@ -586,8 +586,8 @@
       {
         "date": "09-11",
         "copper": 6.55,
-        "gold": 4387.3,
-        "silver": 64.77
+        "gold": 4388.2,
+        "silver": 64.88
       }
     ],
     "fx": [
@@ -707,9 +707,9 @@
       },
       {
         "date": "09-11",
-        "usdkrw": 1341.56,
+        "usdkrw": 1341.52,
         "dxy": 99.13,
-        "usdjpy": 153.75
+        "usdjpy": 153.67
       }
     ],
     "oil": [
@@ -810,8 +810,8 @@
       },
       {
         "date": "09-11",
-        "wti": 100.5,
-        "change": -1.93
+        "wti": 100.67,
+        "change": -1.77
       }
     ]
   },
@@ -1467,43 +1467,43 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "미국 8월 물가 3.4% 상승",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%AF%B8%EA%B5%AD%208%EC%9B%94%20%EB%AC%BC%EA%B0%80%203.4%25%20%EC%83%81%EC%8A%B9"
+        "title": "美 8월 물가 3.4% 상승",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%E7%BE%8E%208%EC%9B%94%20%EB%AC%BC%EA%B0%80%203.4%25%20%EC%83%81%EC%8A%B9"
       },
       {
         "rank": 2,
-        "title": "수시 원서접수 1시간 연장",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%88%98%EC%8B%9C%20%EC%9B%90%EC%84%9C%EC%A0%91%EC%88%98%201%EC%8B%9C%EA%B0%84%20%EC%97%B0%EC%9E%A5"
+        "title": "KT, 롯데 4연승 선두 유지",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=KT%2C%20%EB%A1%AF%EB%8D%B0%204%EC%97%B0%EC%8A%B9%20%EC%84%A0%EB%91%90%20%EC%9C%A0%EC%A7%80"
       },
       {
         "rank": 3,
+        "title": "경복궁 소리 채집 프로젝트",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B2%BD%EB%B3%B5%EA%B6%81%20%EC%86%8C%EB%A6%AC%20%EC%B1%84%EC%A7%91%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8"
+      },
+      {
+        "rank": 4,
         "title": "9월 초 수출 역대 최대",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=9%EC%9B%94%20%EC%B4%88%20%EC%88%98%EC%B6%9C%20%EC%97%AD%EB%8C%80%20%EC%B5%9C%EB%8C%80"
       },
       {
-        "rank": 4,
-        "title": "KB금융 챔피언십 경기 장면",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=KB%EA%B8%88%EC%9C%B5%20%EC%B1%94%ED%94%BC%EC%96%B8%EC%8B%AD%20%EA%B2%BD%EA%B8%B0%20%EC%9E%A5%EB%A9%B4"
-      },
-      {
         "rank": 5,
-        "title": "동남아시아",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%8F%99%EB%82%A8%EC%95%84%EC%8B%9C%EC%95%84"
+        "title": "나스닥",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%82%98%EC%8A%A4%EB%8B%A5"
       },
       {
         "rank": 6,
-        "title": "박명수 할명수 복귀 소식",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B0%95%EB%AA%85%EC%88%98%20%ED%95%A0%EB%AA%85%EC%88%98%20%EB%B3%B5%EA%B7%80%20%EC%86%8C%EC%8B%9D"
+        "title": "오산시 공중화장실 교육",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%98%A4%EC%82%B0%EC%8B%9C%20%EA%B3%B5%EC%A4%91%ED%99%94%EC%9E%A5%EC%8B%A4%20%EA%B5%90%EC%9C%A1"
       },
       {
         "rank": 7,
-        "title": "넷플",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%84%B7%ED%94%8C"
+        "title": "굽네 파티 참석",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B5%BD%EB%84%A4%20%ED%8C%8C%ED%8B%B0%20%EC%B0%B8%EC%84%9D"
       },
       {
         "rank": 8,
-        "title": "오산시 공중화장실 교육",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%98%A4%EC%82%B0%EC%8B%9C%20%EA%B3%B5%EC%A4%91%ED%99%94%EC%9E%A5%EC%8B%A4%20%EA%B5%90%EC%9C%A1"
+        "title": "이서진",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EC%84%9C%EC%A7%84"
       },
       {
         "rank": 9,
@@ -1512,8 +1512,8 @@
       },
       {
         "rank": 10,
-        "title": "KT, 롯데 제압하고 선두 수성",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=KT%2C%20%EB%A1%AF%EB%8D%B0%20%EC%A0%9C%EC%95%95%ED%95%98%EA%B3%A0%20%EC%84%A0%EB%91%90%20%EC%88%98%EC%84%B1"
+        "title": "한번에 성공시킨다",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%9C%EB%B2%88%EC%97%90%20%EC%84%B1%EA%B3%B5%EC%8B%9C%ED%82%A8%EB%8B%A4"
       }
     ],
     "youtube_popular": [
@@ -1521,7 +1521,7 @@
         "rank": 1,
         "title": "Dear my crazy soulmate",
         "channel": "IU - Topic",
-        "views": "99만회",
+        "views": "100만회",
         "thumb": "https://i.ytimg.com/vi/IHIt9S2DWcQ/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=IHIt9S2DWcQ"
       },
@@ -1537,7 +1537,7 @@
         "rank": 3,
         "title": "아저씨가 잠시 빌려갈게",
         "channel": "랄로",
-        "views": "101만회",
+        "views": "102만회",
         "thumb": "https://i.ytimg.com/vi/rCHln-ke9bw/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=rCHln-ke9bw"
       },
@@ -1553,7 +1553,7 @@
         "rank": 5,
         "title": "대회 감독님이 교오탱 존버단 수장..",
         "channel": "튜브김민교",
-        "views": "23만회",
+        "views": "26만회",
         "thumb": "https://i.ytimg.com/vi/8iSq04OgdiY/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=8iSq04OgdiY"
       },
@@ -1561,7 +1561,7 @@
         "rank": 6,
         "title": "My Friend",
         "channel": "Mark Lee - Topic",
-        "views": "33만회",
+        "views": "34만회",
         "thumb": "https://i.ytimg.com/vi/mw0gC7ML-UA/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=mw0gC7ML-UA"
       },
@@ -1569,7 +1569,7 @@
         "rank": 7,
         "title": "리뷰3000개 전부 극찬!! 혜안져스 목숨걸고 하는 생존게임(※40분 순삭)",
         "channel": "혜안",
-        "views": "26만회",
+        "views": "29만회",
         "thumb": "https://i.ytimg.com/vi/NiUP1Pg14RQ/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=NiUP1Pg14RQ"
       },
@@ -1585,7 +1585,7 @@
         "rank": 9,
         "title": "[Limbus Company - PV] Chapter.10 - PUNCTUM",
         "channel": "ProjectMoon Official",
-        "views": "58만회",
+        "views": "63만회",
         "thumb": "https://i.ytimg.com/vi/h5eR27Gle1U/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=h5eR27Gle1U"
       },
