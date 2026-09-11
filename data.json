@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-09-11 14:37:31",
+  "updated_at": "2026-09-11 15:01:40",
   "us2y": {
     "value": 4.56,
-    "change": -0.29
+    "change": 0.13
   },
   "us5y": {
-    "value": 4.45,
-    "change": 0.02
+    "value": 4.73,
+    "change": 0.12
   },
   "us10y": {
     "value": 4.94,
-    "change": 0.05
+    "change": 0.1
   },
   "us30y": {
     "value": 5.36,
-    "change": -0.01
+    "change": 0.07
   },
   "spread": {
     "value": 38,
@@ -118,19 +118,19 @@
     ],
     "tech": [
       {
+        "title": "[디일렉] ASML 코리아, 대한민국 일자리 으뜸기업 5년 연속 선정",
+        "link": "https://www.thelec.kr/news/articleView.html?idxno=62178",
+        "date": "09-11 14:59"
+      },
+      {
+        "title": "[디일렉] 배터리판 통째로 바꾼 GM…차종별 맞춤 셀 한국서 개발",
+        "link": "https://www.thelec.kr/news/articleView.html?idxno=62168",
+        "date": "09-11 14:58"
+      },
+      {
         "title": "[디일렉] 삼성바이오에피스, 우수 일자리 창출 기업 선정",
         "link": "https://www.thelec.kr/news/articleView.html?idxno=62169",
         "date": "09-11 13:57"
-      },
-      {
-        "title": "[디일렉] HD현대로보틱스, 에이딘로보틱스에 130억원 투자",
-        "link": "https://www.thelec.kr/news/articleView.html?idxno=62165",
-        "date": "09-11 13:53"
-      },
-      {
-        "title": "[디일렉] 한화에어로스페이스, 크로아티아에 천무 6411억원 수출",
-        "link": "https://www.thelec.kr/news/articleView.html?idxno=62158",
-        "date": "09-11 13:53"
       },
       {
         "title": "[전자신문] 엑스온, SEO·AEO 다음 단계 'GEO 컨설팅' 정의와 수행 범위 공개",
@@ -223,83 +223,83 @@
       "detail": "10Y-2Y 스프레드가 +38 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.55",
-      "title": "닥터 코퍼 $6.55선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.56",
+      "title": "닥터 코퍼 $6.56선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.55",
-          "chg": "+1.24%",
+          "val": "$6.56",
+          "chg": "+1.39%",
           "up": true
         },
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,375.3",
-          "chg": "+0.25%",
+          "val": "$4,385.0",
+          "chg": "+0.47%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$64.17",
-          "chg": "-0.17%",
-          "up": false
+          "val": "$64.39",
+          "chg": "+0.17%",
+          "up": true
         }
       ],
       "bullets": [
-        "구리 $6.55/lb (+1.24%) - AI 전력망 설비 수요 반영",
-        "금 $4,375/oz, 은 $64.17/oz - 통화가치 헤지"
+        "구리 $6.56/lb (+1.39%) - AI 전력망 설비 수요 반영",
+        "금 $4,385/oz, 은 $64.39/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,345원 | 엔/달러 ¥154.1",
-      "title": "원/달러 1,345.3원선과 엔/달러 ¥154.1",
+      "badge": "원/달러 1,346원 | 엔/달러 ¥154.0",
+      "title": "원/달러 1,346.0원선과 엔/달러 ¥154.0",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,345.3원",
-          "chg": "+0.46%",
+          "val": "1,346.0원",
+          "chg": "+0.51%",
           "up": true
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "99.07pt",
-          "chg": "-0.02%",
+          "val": "99.04pt",
+          "chg": "-0.05%",
           "up": false
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥154.10",
-          "chg": "+0.35%",
+          "val": "¥154.02",
+          "chg": "+0.29%",
           "up": true
         }
       ],
       "bullets": [
-        "달러 인덱스 99.07pt - 미국 성장 우위 지속",
-        "엔/달러 154.10엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 99.04pt - 미국 성장 우위 지속",
+        "엔/달러 154.02엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $101.83",
-      "title": "WTI 배럴당 $101.83선 박스권 안정",
+      "badge": "WTI $100.98",
+      "title": "WTI 배럴당 $100.98선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$101.83",
-          "chg": "-0.63%",
+          "val": "$100.98",
+          "chg": "-1.46%",
           "up": false
         }
       ],
       "bullets": [
-        "WTI 선물 $101.83/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $100.98/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -307,32 +307,32 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.55,
-      "change": 1.24
+      "price": 6.56,
+      "change": 1.39
     },
     "gold": {
-      "price": 4375.3,
-      "change": 0.25
+      "price": 4385.0,
+      "change": 0.47
     },
     "silver": {
-      "price": 64.17,
-      "change": -0.17
+      "price": 64.39,
+      "change": 0.17
     },
     "wti": {
-      "price": 101.83,
-      "change": -0.63
+      "price": 100.98,
+      "change": -1.46
     },
     "usdkrw": {
-      "price": 1345.31,
-      "change": 0.46
+      "price": 1345.98,
+      "change": 0.51
     },
     "dxy": {
-      "price": 99.07,
-      "change": -0.02
+      "price": 99.04,
+      "change": -0.05
     },
     "usdjpy": {
-      "price": 154.1,
-      "change": 0.35
+      "price": 154.02,
+      "change": 0.29
     }
   },
   "history_20d": {
@@ -595,9 +595,9 @@
       },
       {
         "date": "09-11",
-        "copper": 6.55,
-        "gold": 4375.3,
-        "silver": 64.17
+        "copper": 6.56,
+        "gold": 4385.0,
+        "silver": 64.39
       }
     ],
     "fx": [
@@ -717,9 +717,9 @@
       },
       {
         "date": "09-11",
-        "usdkrw": 1345.31,
-        "dxy": 99.07,
-        "usdjpy": 154.1
+        "usdkrw": 1345.98,
+        "dxy": 99.04,
+        "usdjpy": 154.02
       }
     ],
     "oil": [
@@ -820,8 +820,8 @@
       },
       {
         "date": "09-11",
-        "wti": 101.83,
-        "change": -0.63
+        "wti": 100.98,
+        "change": -1.46
       }
     ]
   },
@@ -1529,7 +1529,7 @@
         "rank": 1,
         "title": "Unknown Planet",
         "channel": "IU - Topic",
-        "views": "71만회",
+        "views": "73만회",
         "thumb": "https://i.ytimg.com/vi/KHqDMwHpdy8/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=KHqDMwHpdy8"
       },
@@ -1545,7 +1545,7 @@
         "rank": 3,
         "title": "아저씨가 잠시 빌려갈게",
         "channel": "랄로",
-        "views": "76만회",
+        "views": "77만회",
         "thumb": "https://i.ytimg.com/vi/rCHln-ke9bw/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=rCHln-ke9bw"
       },
@@ -1553,7 +1553,7 @@
         "rank": 4,
         "title": "Please Be Happy",
         "channel": "Lim Young Woong - Topic",
-        "views": "49만회",
+        "views": "50만회",
         "thumb": "https://i.ytimg.com/vi/PEpWLTge234/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=PEpWLTge234"
       },
@@ -1585,7 +1585,7 @@
         "rank": 8,
         "title": "감스트 넥슨 장사 잘하네 1000만원 현질 fc온라인",
         "channel": "감스트GAMST",
-        "views": "66만회",
+        "views": "67만회",
         "thumb": "https://i.ytimg.com/vi/zHpGSnhqXFk/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=zHpGSnhqXFk"
       },
