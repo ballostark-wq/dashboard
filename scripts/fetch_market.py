@@ -701,24 +701,29 @@ def main():
     raw_30y = fetch_yahoo_series("^TYX", 20)
     hist_30y = [{"date": x["date"], "price": round(x["price"] / 10, 2) if x["price"] > 10 else x["price"]} for x in raw_30y] if raw_30y else [{"date": k, "price": v} for k, v in FALLBACK_30Y]
 
-    # 2년물은 야후에 명확한 심볼이 없으므로 차단 리스크가 낮은 Daum 금융 API를 다이렉트 호출
+# [수정된 코드블럭]
+    # 2년물은 방화벽 차단이 없는 미국 연방준비은행(FRED)의 공식 공공 데이터(CSV)를 다이렉트로 수집
     hist_2y = []
     try:
-        daum_headers = {"User-Agent": HEADERS["User-Agent"], "Referer": "https://finance.daum.net/"}
-        res_2y = requests.get("https://finance.daum.net/api/global/indexes/US.T2Y/days?symbolCode=US.T2Y&page=1&perPage=20", headers=daum_headers, timeout=5)
-        if res_2y.status_code == 200:
-            # Daum API는 최신순으로 데이터를 주므로, 시계열 순서에 맞게 reversed 적용
-            for item in reversed(res_2y.json().get("data", [])): 
-                date_val = item.get("date", "")
-                price_val = item.get("tradePrice")
-                if date_val and price_val is not None:
-                    parts = date_val.split()[0].split("-")
-                    if len(parts) >= 3:
-                        hist_2y.append({"date": f"{parts[1]}-{parts[2]}", "price": round(float(price_val), 2)})
-    except Exception as e:
-        print(f"2년물 수집 오류: {e}")
-        pass
+        # 최근 30일 치 데이터를 요청하여 공휴일 제외 영업일 확보
+        past_str = (datetime.now() - timedelta(days=30)).strftime("%Y-%m-%d")
+        fred_url = f"https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS2&cosd={past_str}"
+        res_2y = requests.get(fred_url, headers=HEADERS, timeout=10)
         
+        if res_2y.status_code == 200:
+            lines = res_2y.text.strip().split('\n')
+            for line in lines[1:]:  # 첫 줄(헤더) 제외
+                parts = line.split(',')
+                if len(parts) == 2:
+                    d_str, val_str = parts[0].strip(), parts[1].strip()
+                    # 결측치('.')가 아닐 경우만 데이터 파싱
+                    if val_str != '.':  
+                        mmdd = f"{d_str[5:7]}-{d_str[8:10]}" # 'YYYY-MM-DD' -> 'MM-DD' 변환
+                        hist_2y.append({"date": mmdd, "price": round(float(val_str), 2)})
+    except Exception as e:
+        print(f"2년물 FRED 수집 오류: {e}")
+        pass
+
     if not hist_2y:
         hist_2y = [{"date": k, "price": v} for k, v in FALLBACK_2Y]
 
