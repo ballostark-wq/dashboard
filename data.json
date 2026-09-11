@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11 14:00:39",
+  "updated_at": "2026-09-11 14:05:44",
   "us2y": {
     "value": 4.37,
     "change": -0.29
@@ -118,29 +118,29 @@
     ],
     "tech": [
       {
-        "title": "[디일렉] ISC, 초대형 반도체용 모듈러 테스트 소켓 공개",
-        "link": "https://www.thelec.kr/news/articleView.html?idxno=62151",
-        "date": "09-11 13:41"
+        "title": "[디일렉] 삼성바이오에피스, 우수 일자리 창출 기업 선정",
+        "link": "https://www.thelec.kr/news/articleView.html?idxno=62169",
+        "date": "09-11 13:57"
       },
       {
-        "title": "[디일렉] 돈줄 마른 시지트로닉스, 유증 카드도 실패",
-        "link": "https://www.thelec.kr/news/articleView.html?idxno=62153",
-        "date": "09-11 10:50"
+        "title": "[디일렉] HD현대로보틱스, 에이딘로보틱스에 130억원 투자",
+        "link": "https://www.thelec.kr/news/articleView.html?idxno=62165",
+        "date": "09-11 13:53"
       },
       {
-        "title": "[디일렉] 한화이센셜, 대한민국 일자리 으뜸기업 선정",
-        "link": "https://www.thelec.kr/news/articleView.html?idxno=62147",
-        "date": "09-11 10:44"
+        "title": "[디일렉] 한화에어로스페이스, 크로아티아에 천무 6411억원 수출",
+        "link": "https://www.thelec.kr/news/articleView.html?idxno=62158",
+        "date": "09-11 13:53"
       },
       {
-        "title": "[전자신문] 김민석 “충북, 韓 유일 첨단 풀스택 지역…지역 주도 성장 지원”",
-        "link": "https://www.etnews.com/20260911000190",
-        "date": "09-11 13:30"
+        "title": "[전자신문] 새만금개발청, '민원·청렴 역량 강화 및 향상 워크숍' 실시",
+        "link": "https://www.etnews.com/20260911000206",
+        "date": "09-11 14:01"
       },
       {
-        "title": "[전자신문] 카카오 노조 “인적분할 충분한 설명 필요”…또 다시 대치 예고",
-        "link": "https://www.etnews.com/20260911000188",
-        "date": "09-11 13:16"
+        "title": "[전자신문] 충남도립대, 토지행정학과 국토부 장관상…참가 학생 2명 지적직 공무원 합격",
+        "link": "https://www.etnews.com/20260911000204",
+        "date": "09-11 13:57"
       }
     ],
     "domestic": [
@@ -236,33 +236,33 @@
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,371.2",
-          "chg": "+0.15%",
+          "val": "$4,374.9",
+          "chg": "+0.24%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$64.00",
-          "chg": "-0.44%",
+          "val": "$64.10",
+          "chg": "-0.28%",
           "up": false
         }
       ],
       "bullets": [
         "구리 $6.54/lb (+1.08%) - AI 전력망 설비 수요 반영",
-        "금 $4,371/oz, 은 $64.00/oz - 통화가치 헤지"
+        "금 $4,375/oz, 은 $64.10/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,346원 | 엔/달러 ¥154.3",
-      "title": "원/달러 1,345.8원선과 엔/달러 ¥154.3",
+      "badge": "원/달러 1,345원 | 엔/달러 ¥154.3",
+      "title": "원/달러 1,345.3원선과 엔/달러 ¥154.3",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,345.8원",
-          "chg": "+0.49%",
+          "val": "1,345.3원",
+          "chg": "+0.46%",
           "up": true
         },
         {
@@ -275,31 +275,31 @@
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥154.34",
-          "chg": "+0.50%",
+          "val": "¥154.32",
+          "chg": "+0.49%",
           "up": true
         }
       ],
       "bullets": [
         "달러 인덱스 99.11pt - 미국 성장 우위 지속",
-        "엔/달러 154.34엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "엔/달러 154.32엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $102.29",
-      "title": "WTI 배럴당 $102.29선 박스권 안정",
+      "badge": "WTI $102.2",
+      "title": "WTI 배럴당 $102.2선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$102.29",
-          "chg": "-0.19%",
+          "val": "$102.20",
+          "chg": "-0.27%",
           "up": false
         }
       ],
       "bullets": [
-        "WTI 선물 $102.29/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $102.2/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -311,28 +311,28 @@
       "change": 1.08
     },
     "gold": {
-      "price": 4371.2,
-      "change": 0.15
+      "price": 4374.9,
+      "change": 0.24
     },
     "silver": {
-      "price": 64.0,
-      "change": -0.44
+      "price": 64.1,
+      "change": -0.28
     },
     "wti": {
-      "price": 102.29,
-      "change": -0.19
+      "price": 102.2,
+      "change": -0.27
     },
     "usdkrw": {
-      "price": 1345.78,
-      "change": 0.49
+      "price": 1345.28,
+      "change": 0.46
     },
     "dxy": {
       "price": 99.11,
       "change": 0.02
     },
     "usdjpy": {
-      "price": 154.34,
-      "change": 0.5
+      "price": 154.32,
+      "change": 0.49
     }
   },
   "history_20d": {
@@ -596,8 +596,8 @@
       {
         "date": "09-11",
         "copper": 6.54,
-        "gold": 4371.2,
-        "silver": 64.0
+        "gold": 4374.9,
+        "silver": 64.1
       }
     ],
     "fx": [
@@ -717,9 +717,9 @@
       },
       {
         "date": "09-11",
-        "usdkrw": 1345.78,
+        "usdkrw": 1345.28,
         "dxy": 99.11,
-        "usdjpy": 154.34
+        "usdjpy": 154.32
       }
     ],
     "oil": [
@@ -820,8 +820,8 @@
       },
       {
         "date": "09-11",
-        "wti": 102.29,
-        "change": -0.19
+        "wti": 102.2,
+        "change": -0.27
       }
     ]
   },
@@ -1475,53 +1475,53 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "법원의 날 기념식 조희대 대법원장",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B2%95%EC%9B%90%EC%9D%98%20%EB%82%A0%20%EA%B8%B0%EB%85%90%EC%8B%9D%20%EC%A1%B0%ED%9D%AC%EB%8C%80%20%EB%8C%80%EB%B2%95%EC%9B%90%EC%9E%A5"
+        "title": "법원의 날 조희대 대법원장 참석",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B2%95%EC%9B%90%EC%9D%98%20%EB%82%A0%20%EC%A1%B0%ED%9D%AC%EB%8C%80%20%EB%8C%80%EB%B2%95%EC%9B%90%EC%9E%A5%20%EC%B0%B8%EC%84%9D"
       },
       {
         "rank": 2,
-        "title": "김병기 보완수사 필요",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EB%B3%91%EA%B8%B0%20%EB%B3%B4%EC%99%84%EC%88%98%EC%82%AC%20%ED%95%84%EC%9A%94"
+        "title": "김병기 보완수사 요구",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EB%B3%91%EA%B8%B0%20%EB%B3%B4%EC%99%84%EC%88%98%EC%82%AC%20%EC%9A%94%EA%B5%AC"
       },
       {
         "rank": 3,
-        "title": "SMR 특별법 시행",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=SMR%20%ED%8A%B9%EB%B3%84%EB%B2%95%20%EC%8B%9C%ED%96%89"
-      },
-      {
-        "rank": 4,
-        "title": "구글 성범죄 피해 정보 브리핑",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B5%AC%EA%B8%80%20%EC%84%B1%EB%B2%94%EC%A3%84%20%ED%94%BC%ED%95%B4%20%EC%A0%95%EB%B3%B4%20%EB%B8%8C%EB%A6%AC%ED%95%91"
-      },
-      {
-        "rank": 5,
-        "title": "김민수",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EB%AF%BC%EC%88%98"
-      },
-      {
-        "rank": 6,
-        "title": "나라살림 적자 5년 만에 최소",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%82%98%EB%9D%BC%EC%82%B4%EB%A6%BC%20%EC%A0%81%EC%9E%90%205%EB%85%84%20%EB%A7%8C%EC%97%90%20%EC%B5%9C%EC%86%8C"
-      },
-      {
-        "rank": 7,
-        "title": "이동건",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EB%8F%99%EA%B1%B4"
-      },
-      {
-        "rank": 8,
         "title": "9월 초 수출 역대 최대",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=9%EC%9B%94%20%EC%B4%88%20%EC%88%98%EC%B6%9C%20%EC%97%AD%EB%8C%80%20%EC%B5%9C%EB%8C%80"
       },
       {
+        "rank": 4,
+        "title": "제넨셀 세종메디칼 피해자 회견",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A0%9C%EB%84%A8%EC%85%80%20%EC%84%B8%EC%A2%85%EB%A9%94%EB%94%94%EC%B9%BC%20%ED%94%BC%ED%95%B4%EC%9E%90%20%ED%9A%8C%EA%B2%AC"
+      },
+      {
+        "rank": 5,
+        "title": "유보영",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9C%A0%EB%B3%B4%EC%98%81"
+      },
+      {
+        "rank": 6,
+        "title": "코스피 3% 급락",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%BD%94%EC%8A%A4%ED%94%BC%203%25%20%EA%B8%89%EB%9D%BD"
+      },
+      {
+        "rank": 7,
+        "title": "구글 성범죄 정보 유출 브리핑",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B5%AC%EA%B8%80%20%EC%84%B1%EB%B2%94%EC%A3%84%20%EC%A0%95%EB%B3%B4%20%EC%9C%A0%EC%B6%9C%20%EB%B8%8C%EB%A6%AC%ED%95%91"
+      },
+      {
+        "rank": 8,
+        "title": "2026 아시아 포럼 인도 미래 성장",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=2026%20%EC%95%84%EC%8B%9C%EC%95%84%20%ED%8F%AC%EB%9F%BC%20%EC%9D%B8%EB%8F%84%20%EB%AF%B8%EB%9E%98%20%EC%84%B1%EC%9E%A5"
+      },
+      {
         "rank": 9,
-        "title": "2026 아시아 포럼 인도 성장",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=2026%20%EC%95%84%EC%8B%9C%EC%95%84%20%ED%8F%AC%EB%9F%BC%20%EC%9D%B8%EB%8F%84%20%EC%84%B1%EC%9E%A5"
+        "title": "네팔 KDRT 구호물품",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%84%A4%ED%8C%94%20KDRT%20%EA%B5%AC%ED%98%B8%EB%AC%BC%ED%92%88"
       },
       {
         "rank": 10,
-        "title": "나고야 컨테이너 숙소",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%82%98%EA%B3%A0%EC%95%BC%20%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%20%EC%88%99%EC%86%8C"
+        "title": "이동건",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EB%8F%99%EA%B1%B4"
       }
     ],
     "youtube_popular": [
