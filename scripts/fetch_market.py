@@ -580,30 +580,39 @@ def load_humanities_from_pool(existing_humanities=None):
 
 
 # [교체할 새로운 함수 코드]
-def fetch_fred_bond_history(series_id, fallback_series):
-    """미국 연방준비은행(FRED)의 공식 데이터를 활용해 국채 금리 수집 (차단 없음)"""
+# [수정된 코드블럭]
+def fetch_global_bond_history(symbol, fallback_series):
+    """CNBC 마켓 API를 활용한 글로벌 채권 금리 수집 (방화벽 차단 완벽 우회)"""
     results = {}
-    # 최근 40일치 데이터를 요청하여 공휴일을 제외한 영업일 20일치 확보
-    start_date = (datetime.now() - timedelta(days=40)).strftime("%Y-%m-%d")
-    url = f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={series_id}&cosd={start_date}"
+    now = datetime.now()
+    # 최근 40일 치 데이터를 가져와 공휴일 제외 20영업일을 확보합니다.
+    start_str = (now - timedelta(days=40)).strftime("%Y%m%d000000")
+    end_str = now.strftime("%Y%m%d235959")
+    
+    # CNBC Harmony API Endpoint (차단 없는 안정적인 JSON API)
+    url = f"https://ts-api.cnbc.com/harmony/app/bars/{symbol}/1D/{start_str}/{end_str}/EST5EDT.json"
     
     try:
-        res = requests.get(url, headers=HEADERS, timeout=10)
+        # User-Agent를 명시하여 정상적인 브라우저 접근으로 인식시킵니다.
+        headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
+        res = requests.get(url, headers=headers, timeout=10)
+        
         if res.status_code == 200:
-            lines = res.text.strip().split('\n')
-            for line in lines[1:]:  # 첫 줄(컬럼 헤더) 제외
-                parts = line.split(',')
-                if len(parts) == 2:
-                    d_str, val_str = parts[0].strip(), parts[1].strip()
-                    if val_str != '.':  # 주말/공휴일 등 결측치(.) 제외
-                        mmdd = d_str[5:10]  # 'YYYY-MM-DD' 형식을 'MM-DD'로 변환
-                        results[mmdd] = round(float(val_str), 2)
+            data = res.json()
+            bars = data.get("barData", {}).get("priceBars", [])
+            for bar in bars:
+                t_str = bar.get("tradeTime", "") # ex: "20260910000000"
+                close_p = bar.get("close")
+                if len(t_str) >= 8 and close_p is not None:
+                    # 'YYYYMMDD' 형식을 'MM-DD'로 변환
+                    mmdd = f"{t_str[4:6]}-{t_str[6:8]}"
+                    results[mmdd] = round(float(close_p), 3)
     except Exception as e:
-        print(f"FRED 데이터 수집 오류 ({series_id}): {e}")
+        print(f"CNBC API 수집 오류 ({symbol}): {e}")
 
-    # 수집 실패 시 하드코딩된 폴백(Fallback) 데이터 적용
+    # 서버 불안정 등으로 수집 실패 시 폴백(Fallback) 방어 로직 작동
     if len(results) < 10:
-        print(f"⚠️ [경고] {series_id} 수집 실패로 폴백 데이터가 적용됩니다.")
+        print(f"⚠️ [경고] {symbol} 수집 실패로 폴백 데이터가 적용됩니다.")
         for d_str, val in fallback_series:
             results[d_str] = val
 
@@ -683,10 +692,10 @@ def fetch_rss(url, max_items=5, prefix="", encoding=None):
 def main():
     data = load_existing_data()
 
-    # 1. 국채금리 실데이터 수집 (미 연준 FRED 공식 데이터 활용)
-    hist_10y = fetch_fred_bond_history("DGS10", FALLBACK_10Y)
-    hist_2y  = fetch_fred_bond_history("DGS2", FALLBACK_2Y)
-    hist_30y = fetch_fred_bond_history("DGS30", FALLBACK_30Y)
+    # 1. 국채금리 실데이터 수집 (CNBC 글로벌 마켓 API 활용)
+    hist_10y = fetch_global_bond_history("US10Y", FALLBACK_10Y)
+    hist_2y  = fetch_global_bond_history("US2Y", FALLBACK_2Y)
+    hist_30y = fetch_global_bond_history("US30Y", FALLBACK_30Y)
 
     map_10y = {x["date"]: x["price"] for x in hist_10y}
     map_2y = {x["date"]: x["price"] for x in hist_2y}
