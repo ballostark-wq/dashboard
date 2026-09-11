@@ -1,28 +1,28 @@
 {
-  "updated_at": "2026-09-12 00:05:26",
+  "updated_at": "2026-09-12 00:30:25",
   "us2y": {
-    "value": 4.37,
-    "change": -0.01
+    "value": 4.56,
+    "change": 0.13
   },
   "us5y": {
-    "value": 4.74,
-    "change": 0.01
+    "value": 4.76,
+    "change": 0.03
   },
   "us10y": {
-    "value": 4.93,
-    "change": -0.01
+    "value": 4.94,
+    "change": 0.0
   },
   "us30y": {
-    "value": 5.32,
-    "change": -0.04
+    "value": 5.34,
+    "change": -0.02
   },
   "spread": {
-    "value": 56,
+    "value": 38,
     "status": "정상화 (우상향)"
   },
   "vix": {
-    "value": 15.99,
-    "change": -10.37
+    "value": 15.97,
+    "change": -10.48
   },
   "tech_news": [
     {
@@ -131,16 +131,6 @@
         "title": "[디일렉] 프리뉴, 한강 수난 사고·투신 예방·구조용 자율주행 드론 개발 착수",
         "link": "https://www.thelec.kr/news/articleView.html?idxno=62194",
         "date": "09-11 16:54"
-      },
-      {
-        "title": "[전자신문] 금속 탐지기 돌리다 '잭팟'… 바이킹시대 은화 4.5kg 무더기 발견",
-        "link": "https://www.etnews.com/20260911000306",
-        "date": "09-11 22:30"
-      },
-      {
-        "title": "[전자신문] “삼성전자 HBM, 더 크게 터진다”…'역대급' 증권가 파격 전망 나왔다",
-        "link": "https://www.etnews.com/20260911000368",
-        "date": "09-11 21:08"
       }
     ],
     "domestic": [
@@ -184,122 +174,122 @@
   },
   "macro_reviews": {
     "bonds": {
-      "badge": "스프레드 +56 bp",
-      "title": "미국채 10년물 4.93%선 공방과 정상화",
+      "badge": "스프레드 +38 bp",
+      "title": "미국채 10년물 4.94%선 공방과 정상화",
       "metrics": [
         {
           "id": "spread",
           "name": "10Y-2Y차",
-          "val": "+56 bp",
+          "val": "+38 bp",
           "chg": "정상화 (우상향)",
           "up": true
         },
         {
           "id": "us10y",
           "name": "10년물",
-          "val": "4.93%",
-          "chg": "-0.01%",
-          "up": false
+          "val": "4.94%",
+          "chg": "+0.00%",
+          "up": true
         },
         {
           "id": "us2y",
           "name": "2년물",
-          "val": "4.37%",
-          "chg": "-0.01%",
-          "up": false
+          "val": "4.56%",
+          "chg": "+0.13%",
+          "up": true
         },
         {
           "id": "us30y",
           "name": "30년물",
-          "val": "5.32%",
-          "chg": "-0.04%",
-          "up": false
-        }
-      ],
-      "bullets": [
-        "10년물 4.93%와 2년물 4.37% 형성으로 스프레드 +56 bp 유지",
-        "초장기 30년물 5.32%선 안착 속 재정 적자 발행에 따른 기간 프리미엄"
-      ],
-      "detail": "10Y-2Y 스프레드가 +56 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
-    },
-    "commodities": {
-      "badge": "구리 $6.56",
-      "title": "닥터 코퍼 $6.56선 및 귀금속 헤지 수요",
-      "metrics": [
-        {
-          "id": "copper",
-          "name": "구리(동)",
-          "val": "$6.56",
-          "chg": "+1.39%",
-          "up": true
-        },
-        {
-          "id": "gold",
-          "name": "금(Gold)",
-          "val": "$4,417.9",
-          "chg": "+1.22%",
-          "up": true
-        },
-        {
-          "id": "silver",
-          "name": "은(Silver)",
-          "val": "$65.24",
-          "chg": "+1.49%",
-          "up": true
-        }
-      ],
-      "bullets": [
-        "구리 $6.56/lb (+1.39%) - AI 전력망 설비 수요 반영",
-        "금 $4,418/oz, 은 $65.24/oz - 통화가치 헤지"
-      ],
-      "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
-    },
-    "fx": {
-      "badge": "원/달러 1,340원 | 엔/달러 ¥153.5",
-      "title": "원/달러 1,339.8원선과 엔/달러 ¥153.5",
-      "metrics": [
-        {
-          "id": "usdkrw",
-          "name": "원/달러",
-          "val": "1,339.8원",
-          "chg": "+0.05%",
-          "up": true
-        },
-        {
-          "id": "dxy",
-          "name": "달러인덱스",
-          "val": "99.02pt",
-          "chg": "-0.07%",
-          "up": false
-        },
-        {
-          "id": "usdjpy",
-          "name": "엔/달러",
-          "val": "¥153.54",
+          "val": "5.34%",
           "chg": "-0.02%",
           "up": false
         }
       ],
       "bullets": [
-        "달러 인덱스 99.02pt - 미국 성장 우위 지속",
-        "엔/달러 153.54엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "10년물 4.94%와 2년물 4.56% 형성으로 스프레드 +38 bp 유지",
+        "초장기 30년물 5.34%선 안착 속 재정 적자 발행에 따른 기간 프리미엄"
+      ],
+      "detail": "10Y-2Y 스프레드가 +38 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
+    },
+    "commodities": {
+      "badge": "구리 $6.55",
+      "title": "닥터 코퍼 $6.55선 및 귀금속 헤지 수요",
+      "metrics": [
+        {
+          "id": "copper",
+          "name": "구리(동)",
+          "val": "$6.55",
+          "chg": "+1.24%",
+          "up": true
+        },
+        {
+          "id": "gold",
+          "name": "금(Gold)",
+          "val": "$4,405.2",
+          "chg": "+0.93%",
+          "up": true
+        },
+        {
+          "id": "silver",
+          "name": "은(Silver)",
+          "val": "$64.88",
+          "chg": "+0.93%",
+          "up": true
+        }
+      ],
+      "bullets": [
+        "구리 $6.55/lb (+1.24%) - AI 전력망 설비 수요 반영",
+        "금 $4,405/oz, 은 $64.88/oz - 통화가치 헤지"
+      ],
+      "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
+    },
+    "fx": {
+      "badge": "원/달러 1,340원 | 엔/달러 ¥153.6",
+      "title": "원/달러 1,340.0원선과 엔/달러 ¥153.6",
+      "metrics": [
+        {
+          "id": "usdkrw",
+          "name": "원/달러",
+          "val": "1,340.0원",
+          "chg": "+0.07%",
+          "up": true
+        },
+        {
+          "id": "dxy",
+          "name": "달러인덱스",
+          "val": "99.04pt",
+          "chg": "-0.05%",
+          "up": false
+        },
+        {
+          "id": "usdjpy",
+          "name": "엔/달러",
+          "val": "¥153.57",
+          "chg": "+0.00%",
+          "up": true
+        }
+      ],
+      "bullets": [
+        "달러 인덱스 99.04pt - 미국 성장 우위 지속",
+        "엔/달러 153.57엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $99.26",
-      "title": "WTI 배럴당 $99.26선 박스권 안정",
+      "badge": "WTI $99.35",
+      "title": "WTI 배럴당 $99.35선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$99.26",
-          "chg": "-3.14%",
+          "val": "$99.35",
+          "chg": "-3.05%",
           "up": false
         }
       ],
       "bullets": [
-        "WTI 선물 $99.26/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $99.35/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -307,32 +297,32 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.56,
-      "change": 1.39
+      "price": 6.55,
+      "change": 1.24
     },
     "gold": {
-      "price": 4417.9,
-      "change": 1.22
+      "price": 4405.2,
+      "change": 0.93
     },
     "silver": {
-      "price": 65.24,
-      "change": 1.49
+      "price": 64.88,
+      "change": 0.93
     },
     "wti": {
-      "price": 99.26,
-      "change": -3.14
+      "price": 99.35,
+      "change": -3.05
     },
     "usdkrw": {
-      "price": 1339.85,
-      "change": 0.05
+      "price": 1340.05,
+      "change": 0.07
     },
     "dxy": {
-      "price": 99.02,
-      "change": -0.07
+      "price": 99.04,
+      "change": -0.05
     },
     "usdjpy": {
-      "price": 153.54,
-      "change": -0.02
+      "price": 153.57,
+      "change": 0.0
     }
   },
   "history_20d": {
@@ -347,23 +337,23 @@
       {
         "date": "08-17",
         "us10y": 4.72,
-        "us2y": 4.18,
+        "us2y": 4.19,
         "us30y": 5.31,
-        "spread": 54
+        "spread": 53
       },
       {
         "date": "08-18",
         "us10y": 4.71,
-        "us2y": 4.18,
+        "us2y": 4.19,
         "us30y": 5.28,
-        "spread": 53
+        "spread": 52
       },
       {
         "date": "08-19",
         "us10y": 4.65,
-        "us2y": 4.18,
+        "us2y": 4.19,
         "us30y": 5.19,
-        "spread": 47
+        "spread": 46
       },
       {
         "date": "08-20",
@@ -375,9 +365,9 @@
       {
         "date": "08-21",
         "us10y": 4.74,
-        "us2y": 4.23,
+        "us2y": 4.24,
         "us30y": 5.28,
-        "spread": 51
+        "spread": 50
       },
       {
         "date": "08-24",
@@ -389,37 +379,37 @@
       {
         "date": "08-25",
         "us10y": 4.64,
-        "us2y": 4.2,
+        "us2y": 4.17,
         "us30y": 5.17,
-        "spread": 44
+        "spread": 47
       },
       {
         "date": "08-26",
         "us10y": 4.66,
-        "us2y": 4.22,
+        "us2y": 4.19,
         "us30y": 5.19,
-        "spread": 44
+        "spread": 47
       },
       {
         "date": "08-27",
         "us10y": 4.67,
-        "us2y": 4.23,
+        "us2y": 4.2,
         "us30y": 5.19,
-        "spread": 44
+        "spread": 47
       },
       {
         "date": "08-28",
         "us10y": 4.72,
-        "us2y": 4.35,
+        "us2y": 4.34,
         "us30y": 5.21,
-        "spread": 37
+        "spread": 38
       },
       {
         "date": "08-31",
         "us10y": 4.76,
-        "us2y": 4.35,
+        "us2y": 4.34,
         "us30y": 5.25,
-        "spread": 41
+        "spread": 42
       },
       {
         "date": "09-01",
@@ -438,44 +428,44 @@
       {
         "date": "09-03",
         "us10y": 4.76,
-        "us2y": 4.33,
+        "us2y": 4.34,
         "us30y": 5.24,
-        "spread": 43
+        "spread": 42
       },
       {
         "date": "09-04",
         "us10y": 4.78,
-        "us2y": 4.38,
+        "us2y": 4.37,
         "us30y": 5.25,
-        "spread": 40
+        "spread": 41
       },
       {
         "date": "09-08",
         "us10y": 4.81,
-        "us2y": 4.37,
+        "us2y": 4.39,
         "us30y": 5.26,
-        "spread": 44
+        "spread": 42
       },
       {
         "date": "09-09",
         "us10y": 4.84,
-        "us2y": 4.37,
+        "us2y": 4.43,
         "us30y": 5.29,
-        "spread": 47
+        "spread": 41
       },
       {
         "date": "09-10",
         "us10y": 4.94,
-        "us2y": 4.37,
+        "us2y": 4.56,
         "us30y": 5.36,
-        "spread": 57
+        "spread": 38
       },
       {
         "date": "09-11",
-        "us10y": 4.93,
-        "us2y": 4.37,
-        "us30y": 5.32,
-        "spread": 56
+        "us10y": 4.94,
+        "us2y": 4.56,
+        "us30y": 5.34,
+        "spread": 38
       }
     ],
     "commodities": [
@@ -595,9 +585,9 @@
       },
       {
         "date": "09-11",
-        "copper": 6.56,
-        "gold": 4417.9,
-        "silver": 65.24
+        "copper": 6.55,
+        "gold": 4405.2,
+        "silver": 64.88
       }
     ],
     "fx": [
@@ -717,9 +707,9 @@
       },
       {
         "date": "09-11",
-        "usdkrw": 1339.85,
-        "dxy": 99.02,
-        "usdjpy": 153.54
+        "usdkrw": 1340.05,
+        "dxy": 99.04,
+        "usdjpy": 153.57
       }
     ],
     "oil": [
@@ -820,8 +810,8 @@
       },
       {
         "date": "09-11",
-        "wti": 99.26,
-        "change": -3.14
+        "wti": 99.35,
+        "change": -3.05
       }
     ]
   },
@@ -1531,7 +1521,7 @@
         "rank": 1,
         "title": "Unknown Planet",
         "channel": "IU - Topic",
-        "views": "115만회",
+        "views": "116만회",
         "thumb": "https://i.ytimg.com/vi/KHqDMwHpdy8/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=KHqDMwHpdy8"
       },
@@ -1555,7 +1545,7 @@
         "rank": 4,
         "title": "꿈꾸던 어른이 되었나요?",
         "channel": "meomuru - Topic",
-        "views": "4만회",
+        "views": "5만회",
         "thumb": "https://i.ytimg.com/vi/JJx_WQXOeK0/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=JJx_WQXOeK0"
       },
@@ -1563,7 +1553,7 @@
         "rank": 5,
         "title": "홍상수 감독, 김민희 주연 [눈 둘 데가 없네] 국내 예고편 공개 | Nowhere to Lay My Eyes",
         "channel": "KoreaFilm 코리아필름",
-        "views": "4,880회",
+        "views": "5,096회",
         "thumb": "https://i.ytimg.com/vi/1Z5QujveRE0/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=1Z5QujveRE0"
       },
@@ -1571,7 +1561,7 @@
         "rank": 6,
         "title": "[Limbus Company - PV] Chapter.10 - PUNCTUM",
         "channel": "ProjectMoon Official",
-        "views": "19만회",
+        "views": "28만회",
         "thumb": "https://i.ytimg.com/vi/h5eR27Gle1U/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=h5eR27Gle1U"
       },
@@ -1585,27 +1575,27 @@
       },
       {
         "rank": 8,
-        "title": "미션 임파서블",
-        "channel": "PAKA",
-        "views": "44만회",
-        "thumb": "https://i.ytimg.com/vi/YvcSMp2cexE/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=YvcSMp2cexE"
+        "title": "리뷰3000개 전부 극찬!! 혜안져스 목숨걸고 하는 생존게임(※40분 순삭)",
+        "channel": "혜안",
+        "views": "10만회",
+        "thumb": "https://i.ytimg.com/vi/NiUP1Pg14RQ/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=NiUP1Pg14RQ"
       },
       {
         "rank": 9,
         "title": "My Friend",
         "channel": "Mark Lee - Topic",
-        "views": "30만회",
+        "views": "31만회",
         "thumb": "https://i.ytimg.com/vi/mw0gC7ML-UA/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=mw0gC7ML-UA"
       },
       {
         "rank": 10,
-        "title": "리뷰3000개 전부 극찬!! 혜안져스 목숨걸고 하는 생존게임(※40분 순삭)",
-        "channel": "혜안",
-        "views": "9만회",
-        "thumb": "https://i.ytimg.com/vi/NiUP1Pg14RQ/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=NiUP1Pg14RQ"
+        "title": "미션 임파서블",
+        "channel": "PAKA",
+        "views": "44만회",
+        "thumb": "https://i.ytimg.com/vi/YvcSMp2cexE/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=YvcSMp2cexE"
       }
     ]
   }
