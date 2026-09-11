@@ -689,13 +689,37 @@ def fetch_rss(url, max_items=5, prefix="", encoding=None):
     return items
 
 
+# [수정된 코드블럭]
 def main():
     data = load_existing_data()
 
-    # 1. 국채금리 실데이터 수집 (CNBC 글로벌 마켓 API 활용)
-    hist_10y = fetch_global_bond_history("US10Y", FALLBACK_10Y)
-    hist_2y  = fetch_global_bond_history("US2Y", FALLBACK_2Y)
-    hist_30y = fetch_global_bond_history("US30Y", FALLBACK_30Y)
+    # 1. 국채금리 실데이터 수집 (원자재/환율과 완벽히 동일한 야후 함수 재활용)
+    # 야후는 금리를 10배수(예: 4.79% -> 47.90)로 반환하므로 10으로 나누는 스케일링 안전장치 적용
+    
+    raw_10y = fetch_yahoo_series("^TNX", 20)
+    hist_10y = [{"date": x["date"], "price": round(x["price"] / 10, 2) if x["price"] > 10 else x["price"]} for x in raw_10y] if raw_10y else [{"date": k, "price": v} for k, v in FALLBACK_10Y]
+
+    raw_30y = fetch_yahoo_series("^TYX", 20)
+    hist_30y = [{"date": x["date"], "price": round(x["price"] / 10, 2) if x["price"] > 10 else x["price"]} for x in raw_30y] if raw_30y else [{"date": k, "price": v} for k, v in FALLBACK_30Y]
+
+    # 주의: 야후 파이낸스에는 '2년물 국채 금리' 심볼이 존재하지 않습니다.
+    # 따라서 2년물만 차단 위험이 없는 JSON API를 야후 방식과 동일하게 다이렉트로 호출합니다.
+    hist_2y = []
+    try:
+        now_str = datetime.now().strftime("%Y%m%d235959")
+        past_str = (datetime.now() - timedelta(days=40)).strftime("%Y%m%d000000")
+        res_2y = requests.get(f"https://ts-api.cnbc.com/harmony/app/bars/US2Y/1D/{past_str}/{now_str}/EST5EDT.json", headers=HEADERS, timeout=5)
+        if res_2y.status_code == 200:
+            bars = res_2y.json().get("barData", {}).get("priceBars", [])
+            for b in bars[-20:]:
+                t = b.get("tradeTime", "")
+                if len(t) >= 8:
+                    hist_2y.append({"date": f"{t[4:6]}-{t[6:8]}", "price": round(float(b["close"]), 2)})
+    except Exception:
+        pass
+        
+    if not hist_2y:
+        hist_2y = [{"date": k, "price": v} for k, v in FALLBACK_2Y]
 
     map_10y = {x["date"]: x["price"] for x in hist_10y}
     map_2y = {x["date"]: x["price"] for x in hist_2y}
