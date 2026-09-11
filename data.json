@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-12 00:02:55",
+  "updated_at": "2026-09-12 00:05:26",
   "us2y": {
     "value": 4.37,
     "change": -0.01
   },
   "us5y": {
-    "value": 4.75,
-    "change": 0.02
+    "value": 4.74,
+    "change": 0.01
   },
   "us10y": {
     "value": 4.93,
@@ -21,8 +21,8 @@
     "status": "정상화 (우상향)"
   },
   "vix": {
-    "value": 16.2,
-    "change": -9.19
+    "value": 15.99,
+    "change": -10.37
   },
   "tech_news": [
     {
@@ -236,70 +236,70 @@
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,423.9",
-          "chg": "+1.36%",
+          "val": "$4,417.9",
+          "chg": "+1.22%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$65.43",
-          "chg": "+1.79%",
+          "val": "$65.24",
+          "chg": "+1.49%",
           "up": true
         }
       ],
       "bullets": [
         "구리 $6.56/lb (+1.39%) - AI 전력망 설비 수요 반영",
-        "금 $4,424/oz, 은 $65.43/oz - 통화가치 헤지"
+        "금 $4,418/oz, 은 $65.24/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
       "badge": "원/달러 1,340원 | 엔/달러 ¥153.5",
-      "title": "원/달러 1,339.9원선과 엔/달러 ¥153.5",
+      "title": "원/달러 1,339.8원선과 엔/달러 ¥153.5",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,339.9원",
+          "val": "1,339.8원",
           "chg": "+0.05%",
           "up": true
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "99.01pt",
-          "chg": "-0.08%",
+          "val": "99.02pt",
+          "chg": "-0.07%",
           "up": false
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥153.47",
-          "chg": "-0.07%",
+          "val": "¥153.54",
+          "chg": "-0.02%",
           "up": false
         }
       ],
       "bullets": [
-        "달러 인덱스 99.01pt - 미국 성장 우위 지속",
-        "엔/달러 153.47엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 99.02pt - 미국 성장 우위 지속",
+        "엔/달러 153.54엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $99.09",
-      "title": "WTI 배럴당 $99.09선 박스권 안정",
+      "badge": "WTI $99.26",
+      "title": "WTI 배럴당 $99.26선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$99.09",
-          "chg": "-3.31%",
+          "val": "$99.26",
+          "chg": "-3.14%",
           "up": false
         }
       ],
       "bullets": [
-        "WTI 선물 $99.09/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $99.26/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -311,28 +311,28 @@
       "change": 1.39
     },
     "gold": {
-      "price": 4423.9,
-      "change": 1.36
+      "price": 4417.9,
+      "change": 1.22
     },
     "silver": {
-      "price": 65.43,
-      "change": 1.79
+      "price": 65.24,
+      "change": 1.49
     },
     "wti": {
-      "price": 99.09,
-      "change": -3.31
+      "price": 99.26,
+      "change": -3.14
     },
     "usdkrw": {
-      "price": 1339.87,
+      "price": 1339.85,
       "change": 0.05
     },
     "dxy": {
-      "price": 99.01,
-      "change": -0.08
+      "price": 99.02,
+      "change": -0.07
     },
     "usdjpy": {
-      "price": 153.47,
-      "change": -0.07
+      "price": 153.54,
+      "change": -0.02
     }
   },
   "history_20d": {
@@ -596,8 +596,8 @@
       {
         "date": "09-11",
         "copper": 6.56,
-        "gold": 4423.9,
-        "silver": 65.43
+        "gold": 4417.9,
+        "silver": 65.24
       }
     ],
     "fx": [
@@ -717,9 +717,9 @@
       },
       {
         "date": "09-11",
-        "usdkrw": 1339.87,
-        "dxy": 99.01,
-        "usdjpy": 153.47
+        "usdkrw": 1339.85,
+        "dxy": 99.02,
+        "usdjpy": 153.54
       }
     ],
     "oil": [
@@ -820,8 +820,8 @@
       },
       {
         "date": "09-11",
-        "wti": 99.09,
-        "change": -3.31
+        "wti": 99.26,
+        "change": -3.14
       }
     ]
   },
@@ -1531,7 +1531,7 @@
         "rank": 1,
         "title": "Unknown Planet",
         "channel": "IU - Topic",
-        "views": "114만회",
+        "views": "115만회",
         "thumb": "https://i.ytimg.com/vi/KHqDMwHpdy8/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=KHqDMwHpdy8"
       },
@@ -1571,7 +1571,7 @@
         "rank": 6,
         "title": "[Limbus Company - PV] Chapter.10 - PUNCTUM",
         "channel": "ProjectMoon Official",
-        "views": "17만회",
+        "views": "19만회",
         "thumb": "https://i.ytimg.com/vi/h5eR27Gle1U/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=h5eR27Gle1U"
       },
