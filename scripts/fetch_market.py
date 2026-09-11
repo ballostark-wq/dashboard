@@ -693,29 +693,30 @@ def fetch_rss(url, max_items=5, prefix="", encoding=None):
 def main():
     data = load_existing_data()
 
-    # 1. 국채금리 실데이터 수집 (원자재/환율과 완벽히 동일한 야후 함수 재활용)
-    # 야후는 금리를 10배수(예: 4.79% -> 47.90)로 반환하므로 10으로 나누는 스케일링 안전장치 적용
-    
+    # 1. 국채금리 실데이터 수집
+    # 10년물, 30년물은 현재 잘 작동하고 있는 야후 파이낸스 로직 유지
     raw_10y = fetch_yahoo_series("^TNX", 20)
     hist_10y = [{"date": x["date"], "price": round(x["price"] / 10, 2) if x["price"] > 10 else x["price"]} for x in raw_10y] if raw_10y else [{"date": k, "price": v} for k, v in FALLBACK_10Y]
 
     raw_30y = fetch_yahoo_series("^TYX", 20)
     hist_30y = [{"date": x["date"], "price": round(x["price"] / 10, 2) if x["price"] > 10 else x["price"]} for x in raw_30y] if raw_30y else [{"date": k, "price": v} for k, v in FALLBACK_30Y]
 
-    # 주의: 야후 파이낸스에는 '2년물 국채 금리' 심볼이 존재하지 않습니다.
-    # 따라서 2년물만 차단 위험이 없는 JSON API를 야후 방식과 동일하게 다이렉트로 호출합니다.
+    # 2년물은 야후에 명확한 심볼이 없으므로 차단 리스크가 낮은 Daum 금융 API를 다이렉트 호출
     hist_2y = []
     try:
-        now_str = datetime.now().strftime("%Y%m%d235959")
-        past_str = (datetime.now() - timedelta(days=40)).strftime("%Y%m%d000000")
-        res_2y = requests.get(f"https://ts-api.cnbc.com/harmony/app/bars/US2Y/1D/{past_str}/{now_str}/EST5EDT.json", headers=HEADERS, timeout=5)
+        daum_headers = {"User-Agent": HEADERS["User-Agent"], "Referer": "https://finance.daum.net/"}
+        res_2y = requests.get("https://finance.daum.net/api/global/indexes/US.T2Y/days?symbolCode=US.T2Y&page=1&perPage=20", headers=daum_headers, timeout=5)
         if res_2y.status_code == 200:
-            bars = res_2y.json().get("barData", {}).get("priceBars", [])
-            for b in bars[-20:]:
-                t = b.get("tradeTime", "")
-                if len(t) >= 8:
-                    hist_2y.append({"date": f"{t[4:6]}-{t[6:8]}", "price": round(float(b["close"]), 2)})
-    except Exception:
+            # Daum API는 최신순으로 데이터를 주므로, 시계열 순서에 맞게 reversed 적용
+            for item in reversed(res_2y.json().get("data", [])): 
+                date_val = item.get("date", "")
+                price_val = item.get("tradePrice")
+                if date_val and price_val is not None:
+                    parts = date_val.split()[0].split("-")
+                    if len(parts) >= 3:
+                        hist_2y.append({"date": f"{parts[1]}-{parts[2]}", "price": round(float(price_val), 2)})
+    except Exception as e:
+        print(f"2년물 수집 오류: {e}")
         pass
         
     if not hist_2y:
@@ -727,17 +728,31 @@ def main():
 
     all_dates = sorted(list(set(list(map_10y.keys()) + list(map_2y.keys()) + list(map_30y.keys()))))
     bonds_history = []
+    
+    # 🔥 핵심: 결측치 보정 (Forward Fill) 변수 초기화
+    # 특정 일자에 데이터가 누락되더라도 전일 데이터를 이어받아 차트 절단 방지
+    last_p10, last_p2, last_p30 = 4.79, 4.37, 5.25
+    
     for d in all_dates:
         p10 = map_10y.get(d)
+        if p10 is not None: last_p10 = p10
+        else: p10 = last_p10
+        
         p2 = map_2y.get(d)
-        p30 = map_30y.get(d, 5.25)
-        if p10 is not None and p2 is not None:
-            sp = round((p10 - p2) * 100)
-            bonds_history.append({"date": d, "us10y": p10, "us2y": p2, "us30y": p30, "spread": sp})
+        if p2 is not None: last_p2 = p2
+        else: p2 = last_p2
+        
+        p30 = map_30y.get(d)
+        if p30 is not None: last_p30 = p30
+        else: p30 = last_p30
+        
+        # 깐깐한 조건문(if p10 is not None and p2 is not None)을 삭제하여 무조건 기록
+        sp = round((p10 - p2) * 100)
+        bonds_history.append({"date": d, "us10y": p10, "us2y": p2, "us30y": p30, "spread": sp})
 
-    latest_10y = hist_10y[-1]["price"] if hist_10y else 4.79
-    latest_2y = hist_2y[-1]["price"] if hist_2y else 4.37
-    latest_30y = hist_30y[-1]["price"] if hist_30y else 5.25
+    latest_10y = hist_10y[-1]["price"] if hist_10y else last_p10
+    latest_2y = hist_2y[-1]["price"] if hist_2y else last_p2
+    latest_30y = hist_30y[-1]["price"] if hist_30y else last_p30
     spread_bp = round((latest_10y - latest_2y) * 100)
 
     data["us10y"] = {"value": latest_10y, "change": 0.05}
