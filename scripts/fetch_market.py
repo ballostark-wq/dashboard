@@ -689,14 +689,18 @@ def fetch_rss(url, max_items=5, prefix="", encoding=None):
 def main():
     data = load_existing_data()
 
+# [수정된 코드블럭]
     # 1. 국채금리 실데이터 수집
     # 10년물, 30년물은 현재 잘 작동하고 있는 야후 파이낸스 로직 유지
     raw_10y = fetch_yahoo_series("^TNX", 20)
     hist_10y = [{"date": x["date"], "price": round(x["price"] / 10, 2) if x["price"] > 10 else x["price"]} for x in raw_10y] if raw_10y else [{"date": k, "price": v} for k, v in FALLBACK_10Y]
 
+    # 🔥 누락되어 있던 5년물(미 중기금리) 수집 로직 추가 (^FVX)
+    raw_5y = fetch_yahoo_series("^FVX", 20)
+    hist_5y = [{"date": x["date"], "price": round(x["price"] / 10, 2) if x["price"] > 10 else x["price"]} for x in raw_5y] if raw_5y else [{"date": "09-10", "price": 4.45}]
+
     raw_30y = fetch_yahoo_series("^TYX", 20)
     hist_30y = [{"date": x["date"], "price": round(x["price"] / 10, 2) if x["price"] > 10 else x["price"]} for x in raw_30y] if raw_30y else [{"date": k, "price": v} for k, v in FALLBACK_30Y]
-
 # [수정된 코드블럭]
     # 🔥 2년물 궁극의 해결책: 미국 재무부(Treasury.gov) 공식 XML 피드 다이렉트 수집
     # 2년물은 야후 파이낸스에 공식 심볼이 존재하지 않으므로, 차단 리스크가 없는 미 정부 공식망을 타격합니다.
@@ -730,14 +734,23 @@ def main():
         sp = round((p10 - p2) * 100)
         bonds_history.append({"date": d, "us10y": p10, "us2y": p2, "us30y": p30, "spread": sp})
 
+    # [수정된 코드블럭]
     latest_10y = hist_10y[-1]["price"] if hist_10y else last_p10
+    latest_5y = hist_5y[-1]["price"] if hist_5y else 4.45  # 5년물 최신값 추출
     latest_2y = hist_2y[-1]["price"] if hist_2y else last_p2
     latest_30y = hist_30y[-1]["price"] if hist_30y else last_p30
     spread_bp = round((latest_10y - latest_2y) * 100)
 
-    data["us10y"] = {"value": latest_10y, "change": 0.05}
-    data["us2y"] = {"value": latest_2y, "change": -0.29}
-    data["us30y"] = {"value": latest_30y, "change": -0.01}
+    # 🔥 하드코딩 방지: 전일 대비 등락폭(Change) 자동 계산 함수
+    def get_bond_change(hist, latest_val):
+        if len(hist) >= 2:
+            return round(latest_val - hist[-2]["price"], 2)
+        return 0.00
+
+    data["us10y"] = {"value": latest_10y, "change": get_bond_change(hist_10y, latest_10y)}
+    data["us5y"]  = {"value": latest_5y,  "change": get_bond_change(hist_5y, latest_5y)}
+    data["us2y"]  = {"value": latest_2y,  "change": get_bond_change(hist_2y, latest_2y)}
+    data["us30y"] = {"value": latest_30y, "change": get_bond_change(hist_30y, latest_30y)}
     data["spread"] = {"value": spread_bp, "status": "정상화 (우상향)" if spread_bp >= 0 else "역전 (침체경보)"}
 
     # 2. 글로벌 시세 수집
