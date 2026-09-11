@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11 23:48:36",
+  "updated_at": "2026-09-12 00:02:55",
   "us2y": {
     "value": 4.37,
     "change": -0.01
@@ -13,16 +13,16 @@
     "change": -0.01
   },
   "us30y": {
-    "value": 5.33,
-    "change": -0.03
+    "value": 5.32,
+    "change": -0.04
   },
   "spread": {
     "value": 56,
     "status": "정상화 (우상향)"
   },
   "vix": {
-    "value": 15.86,
-    "change": -11.1
+    "value": 16.2,
+    "change": -9.19
   },
   "tech_news": [
     {
@@ -211,95 +211,95 @@
         {
           "id": "us30y",
           "name": "30년물",
-          "val": "5.33%",
-          "chg": "-0.03%",
+          "val": "5.32%",
+          "chg": "-0.04%",
           "up": false
         }
       ],
       "bullets": [
         "10년물 4.93%와 2년물 4.37% 형성으로 스프레드 +56 bp 유지",
-        "초장기 30년물 5.33%선 안착 속 재정 적자 발행에 따른 기간 프리미엄"
+        "초장기 30년물 5.32%선 안착 속 재정 적자 발행에 따른 기간 프리미엄"
       ],
       "detail": "10Y-2Y 스프레드가 +56 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.54",
-      "title": "닥터 코퍼 $6.54선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.56",
+      "title": "닥터 코퍼 $6.56선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.54",
-          "chg": "+1.08%",
+          "val": "$6.56",
+          "chg": "+1.39%",
           "up": true
         },
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,408.5",
-          "chg": "+1.01%",
+          "val": "$4,423.9",
+          "chg": "+1.36%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$65.11",
-          "chg": "+1.29%",
+          "val": "$65.43",
+          "chg": "+1.79%",
           "up": true
         }
       ],
       "bullets": [
-        "구리 $6.54/lb (+1.08%) - AI 전력망 설비 수요 반영",
-        "금 $4,408/oz, 은 $65.11/oz - 통화가치 헤지"
+        "구리 $6.56/lb (+1.39%) - AI 전력망 설비 수요 반영",
+        "금 $4,424/oz, 은 $65.43/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,341원 | 엔/달러 ¥153.6",
-      "title": "원/달러 1,340.5원선과 엔/달러 ¥153.6",
+      "badge": "원/달러 1,340원 | 엔/달러 ¥153.5",
+      "title": "원/달러 1,339.9원선과 엔/달러 ¥153.5",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,340.5원",
-          "chg": "+0.10%",
+          "val": "1,339.9원",
+          "chg": "+0.05%",
           "up": true
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "99.04pt",
-          "chg": "-0.05%",
+          "val": "99.01pt",
+          "chg": "-0.08%",
           "up": false
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥153.60",
-          "chg": "+0.02%",
-          "up": true
-        }
-      ],
-      "bullets": [
-        "달러 인덱스 99.04pt - 미국 성장 우위 지속",
-        "엔/달러 153.60엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
-      ],
-      "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
-    },
-    "oil": {
-      "badge": "WTI $99.72",
-      "title": "WTI 배럴당 $99.72선 박스권 안정",
-      "metrics": [
-        {
-          "id": "wti",
-          "name": "WTI 원유",
-          "val": "$99.72",
-          "chg": "-2.69%",
+          "val": "¥153.47",
+          "chg": "-0.07%",
           "up": false
         }
       ],
       "bullets": [
-        "WTI 선물 $99.72/배럴 - 에너지 원가 압박 경감",
+        "달러 인덱스 99.01pt - 미국 성장 우위 지속",
+        "엔/달러 153.47엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+      ],
+      "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
+    },
+    "oil": {
+      "badge": "WTI $99.09",
+      "title": "WTI 배럴당 $99.09선 박스권 안정",
+      "metrics": [
+        {
+          "id": "wti",
+          "name": "WTI 원유",
+          "val": "$99.09",
+          "chg": "-3.31%",
+          "up": false
+        }
+      ],
+      "bullets": [
+        "WTI 선물 $99.09/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -307,32 +307,32 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.54,
-      "change": 1.08
+      "price": 6.56,
+      "change": 1.39
     },
     "gold": {
-      "price": 4408.5,
-      "change": 1.01
+      "price": 4423.9,
+      "change": 1.36
     },
     "silver": {
-      "price": 65.11,
-      "change": 1.29
+      "price": 65.43,
+      "change": 1.79
     },
     "wti": {
-      "price": 99.72,
-      "change": -2.69
+      "price": 99.09,
+      "change": -3.31
     },
     "usdkrw": {
-      "price": 1340.53,
-      "change": 0.1
+      "price": 1339.87,
+      "change": 0.05
     },
     "dxy": {
-      "price": 99.04,
-      "change": -0.05
+      "price": 99.01,
+      "change": -0.08
     },
     "usdjpy": {
-      "price": 153.6,
-      "change": 0.02
+      "price": 153.47,
+      "change": -0.07
     }
   },
   "history_20d": {
@@ -474,7 +474,7 @@
         "date": "09-11",
         "us10y": 4.93,
         "us2y": 4.37,
-        "us30y": 5.33,
+        "us30y": 5.32,
         "spread": 56
       }
     ],
@@ -595,9 +595,9 @@
       },
       {
         "date": "09-11",
-        "copper": 6.54,
-        "gold": 4408.5,
-        "silver": 65.11
+        "copper": 6.56,
+        "gold": 4423.9,
+        "silver": 65.43
       }
     ],
     "fx": [
@@ -717,9 +717,9 @@
       },
       {
         "date": "09-11",
-        "usdkrw": 1340.53,
-        "dxy": 99.04,
-        "usdjpy": 153.6
+        "usdkrw": 1339.87,
+        "dxy": 99.01,
+        "usdjpy": 153.47
       }
     ],
     "oil": [
@@ -820,8 +820,8 @@
       },
       {
         "date": "09-11",
-        "wti": 99.72,
-        "change": -2.69
+        "wti": 99.09,
+        "change": -3.31
       }
     ]
   },
@@ -919,24 +919,40 @@
     }
   },
   "humanities": {
-    "history_date": "2026-09-11",
+    "history_date": "2026-09-12",
     "history": {
-      "era": "1466년 ~ 1699년 (1689년)",
-      "region": "세계",
-      "year": "1689년",
-      "title": "[1689년] [세계] 오스트리아－오스만 제국, 카를로바츠 조약",
-      "summary": "1689년 - 오스트리아－오스만 제국, 카를로바츠 조약",
+      "era": "1700년 ~ 1869년 (1746년)",
+      "region": "한국",
+      "year": "1746년",
+      "title": "[1746년] [한국] 「속대전」 간행",
+      "summary": "1746년 - 「속대전」 간행",
       "bullets": [
-        "발생 연대: 1689년 (세계사)",
-        "오스트리아－오스만 제국, 카를로바츠 조약",
+        "발생 연대: 1746년 (한국사)",
+        "「속대전」 간행",
         "당대 세력 균형 및 정치·경제적 제도 변화 반영"
       ],
-      "insight": "1689년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
-      "ref_title": "위키백과 세계사 연표: 1466년 ~ 1699년 (1689년)",
-      "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1466%EB%85%84_~_1699%EB%85%84:~:text=1689",
+      "insight": "1746년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
+      "ref_title": "위키백과 세계사 연표: 1700년 ~ 1869년 (1746년)",
+      "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1700%EB%85%84_~_1869%EB%85%84:~:text=1746",
       "d_day": "오늘"
     },
     "history_5d": [
+      {
+        "era": "1700년 ~ 1869년 (1746년)",
+        "region": "한국",
+        "year": "1746년",
+        "title": "[1746년] [한국] 「속대전」 간행",
+        "summary": "1746년 - 「속대전」 간행",
+        "bullets": [
+          "발생 연대: 1746년 (한국사)",
+          "「속대전」 간행",
+          "당대 세력 균형 및 정치·경제적 제도 변화 반영"
+        ],
+        "insight": "1746년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
+        "ref_title": "위키백과 세계사 연표: 1700년 ~ 1869년 (1746년)",
+        "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1700%EB%85%84_~_1869%EB%85%84:~:text=1746",
+        "d_day": "오늘"
+      },
       {
         "era": "1466년 ~ 1699년 (1689년)",
         "region": "세계",
@@ -951,7 +967,7 @@
         "insight": "1689년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1466년 ~ 1699년 (1689년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1466%EB%85%84_~_1699%EB%85%84:~:text=1689",
-        "d_day": "오늘"
+        "d_day": "D-1"
       },
       {
         "era": "1466년 ~ 1699년 (1654년)",
@@ -967,7 +983,7 @@
         "insight": "1654년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1466년 ~ 1699년 (1654년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1466%EB%85%84_~_1699%EB%85%84:~:text=1654",
-        "d_day": "D-1"
+        "d_day": "D-2"
       },
       {
         "era": "1466년 ~ 1699년 (1689년)",
@@ -983,7 +999,7 @@
         "insight": "1689년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1466년 ~ 1699년 (1689년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1466%EB%85%84_~_1699%EB%85%84:~:text=1689",
-        "d_day": "D-2"
+        "d_day": "D-3"
       },
       {
         "era": "1076년 ~ 1455년 (1441년)",
@@ -999,90 +1015,140 @@
         "insight": "1441년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1076년 ~ 1455년 (1441년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1076%EB%85%84_~_1455%EB%85%84:~:text=1441",
-        "d_day": "D-3"
-      },
-      {
-        "era": "1076년 ~ 1455년 (1096년)",
-        "region": "세계",
-        "year": "1096년",
-        "title": "[1096년] [세계] 제1차 십자군 원정(∼1099)",
-        "summary": "1096년 - 제1차 십자군 원정(∼1099)",
-        "bullets": [
-          "발생 연대: 1096년 (세계사)",
-          "제1차 십자군 원정(∼1099)",
-          "당대 세력 균형 및 정치·경제적 제도 변화 반영"
-        ],
-        "insight": "1096년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
-        "ref_title": "위키백과 세계사 연표: 1076년 ~ 1455년 (1096년)",
-        "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1076%EB%85%84_~_1455%EB%85%84:~:text=1096",
         "d_day": "D-4"
       }
     ],
     "polyglot": {
-      "theme": "음식과 건강: 얼굴·두통",
-      "meaning": "나 코피 나.",
+      "theme": "도움 요청",
+      "type": "기초",
+      "meaning": "잠시 도와주실 수 있나요?",
       "translations": {
         "en": {
           "code": "en-US",
           "name": "영어",
           "flag": "🇺🇸",
-          "text": "I've got a nosebleed.",
-          "roman": ""
+          "text": "Could you please help me for a moment?",
+          "roman": "쿠쥬 플리즈 헬프 미 포 어 모먼트?"
         },
         "ja": {
           "code": "ja-JP",
           "name": "일본어",
           "flag": "🇯🇵",
-          "text": "鼻血が出ちゃった。",
-          "roman": "Hanaji ga dechatta."
+          "text": "少し手伝っていただけますか？",
+          "roman": "스코시 테츠닷테 이타다케마스 카?"
         },
         "zh": {
           "code": "zh-CN",
           "name": "중국어",
           "flag": "🇨🇳",
-          "text": "我流鼻血了。",
-          "roman": "Wǒ liú bíxiě le."
+          "text": "能请你帮我一下吗？",
+          "roman": "넝 칭 니 방 워 이샤 마?"
         },
         "fr": {
           "code": "fr-FR",
           "name": "프랑스어",
           "flag": "🇫🇷",
-          "text": "Je saigne du nez.",
-          "roman": ""
+          "text": "Pourriez-vous m'aider un instant, s'il vous plaît ?",
+          "roman": "푸리에 부 메데 앙 앵스탕, 실 부 플레?"
         },
         "de": {
           "code": "de-DE",
           "name": "독일어",
           "flag": "🇩🇪",
-          "text": "Ich habe Nasenbluten.",
-          "roman": ""
+          "text": "Könnten Sie mir bitte kurz helfen?",
+          "roman": "켠텐 지 미어 비테 쿠르츠 헬펜?"
         },
         "es": {
           "code": "es-ES",
           "name": "스페인어",
           "flag": "🇪🇸",
-          "text": "Me sangra la nariz.",
-          "roman": ""
+          "text": "¿Podría ayudarme un momento, por favor?",
+          "roman": "뽀드리아 아유다르메 운 모멘토, 뽀르 파보르?"
         },
         "ar": {
           "code": "ar-SA",
           "name": "아랍어",
           "flag": "🇸🇦",
-          "text": "أنفي ينزف دمًا.",
-          "roman": "Anfī yanzifu daman."
+          "text": "هل يمكنك مساعدتي للحظة من فضلك؟",
+          "roman": "할 윰키누카 무사아다티 릴라흐자 민 파들릭?"
         },
         "ru": {
           "code": "ru-RU",
           "name": "러시아어",
           "flag": "🇷🇺",
-          "text": "У меня пошла кровь из носа.",
-          "roman": "U menya poshla krov' iz nosa."
+          "text": "Не могли бы вы мне помочь?",
+          "roman": "니 마글리 브이 므녜 빠모치?"
         }
       },
-      "pool_type": "일상",
+      "pool_type": "기초",
       "d_day": "오늘"
     },
     "polyglot_5d": [
+      {
+        "theme": "도움 요청",
+        "type": "기초",
+        "meaning": "잠시 도와주실 수 있나요?",
+        "translations": {
+          "en": {
+            "code": "en-US",
+            "name": "영어",
+            "flag": "🇺🇸",
+            "text": "Could you please help me for a moment?",
+            "roman": "쿠쥬 플리즈 헬프 미 포 어 모먼트?"
+          },
+          "ja": {
+            "code": "ja-JP",
+            "name": "일본어",
+            "flag": "🇯🇵",
+            "text": "少し手伝っていただけますか？",
+            "roman": "스코시 테츠닷테 이타다케마스 카?"
+          },
+          "zh": {
+            "code": "zh-CN",
+            "name": "중국어",
+            "flag": "🇨🇳",
+            "text": "能请你帮我一下吗？",
+            "roman": "넝 칭 니 방 워 이샤 마?"
+          },
+          "fr": {
+            "code": "fr-FR",
+            "name": "프랑스어",
+            "flag": "🇫🇷",
+            "text": "Pourriez-vous m'aider un instant, s'il vous plaît ?",
+            "roman": "푸리에 부 메데 앙 앵스탕, 실 부 플레?"
+          },
+          "de": {
+            "code": "de-DE",
+            "name": "독일어",
+            "flag": "🇩🇪",
+            "text": "Könnten Sie mir bitte kurz helfen?",
+            "roman": "켠텐 지 미어 비테 쿠르츠 헬펜?"
+          },
+          "es": {
+            "code": "es-ES",
+            "name": "스페인어",
+            "flag": "🇪🇸",
+            "text": "¿Podría ayudarme un momento, por favor?",
+            "roman": "뽀드리아 아유다르메 운 모멘토, 뽀르 파보르?"
+          },
+          "ar": {
+            "code": "ar-SA",
+            "name": "아랍어",
+            "flag": "🇸🇦",
+            "text": "هل يمكنك مساعدتي للحظة من فضلك؟",
+            "roman": "할 윰키누카 무사아다티 릴라흐자 민 파들릭?"
+          },
+          "ru": {
+            "code": "ru-RU",
+            "name": "러시아어",
+            "flag": "🇷🇺",
+            "text": "Не могли бы вы мне помочь?",
+            "roman": "니 마글리 브이 므녜 빠모치?"
+          }
+        },
+        "pool_type": "기초",
+        "d_day": "오늘"
+      },
       {
         "theme": "음식과 건강: 얼굴·두통",
         "meaning": "나 코피 나.",
@@ -1145,7 +1211,7 @@
           }
         },
         "pool_type": "일상",
-        "d_day": "오늘"
+        "d_day": "D-1"
       },
       {
         "theme": "첫 대면",
@@ -1210,7 +1276,7 @@
           }
         },
         "pool_type": "기초",
-        "d_day": "D-1"
+        "d_day": "D-2"
       },
       {
         "theme": "음식과 건강: 얼굴·두통",
@@ -1274,7 +1340,7 @@
           }
         },
         "pool_type": "일상",
-        "d_day": "D-2"
+        "d_day": "D-3"
       },
       {
         "theme": "화답 에티켓",
@@ -1339,84 +1405,20 @@
           }
         },
         "pool_type": "기초",
-        "d_day": "D-3"
-      },
-      {
-        "theme": "음식과 건강: 피로와 복통",
-        "meaning": "배가 아파 죽겠어.",
-        "translations": {
-          "en": {
-            "code": "en-US",
-            "name": "영어",
-            "flag": "🇺🇸",
-            "text": "My gut is killing me.",
-            "roman": ""
-          },
-          "ja": {
-            "code": "ja-JP",
-            "name": "일본어",
-            "flag": "🇯🇵",
-            "text": "お腹が痛くてたまらないよ。",
-            "roman": "Onaka ga itakute tamaranai yo."
-          },
-          "zh": {
-            "code": "zh-CN",
-            "name": "중국어",
-            "flag": "🇨🇳",
-            "text": "我肚子疼得要命。",
-            "roman": "Wǒ dùzi téng de yàomìng."
-          },
-          "fr": {
-            "code": "fr-FR",
-            "name": "프랑스어",
-            "flag": "🇫🇷",
-            "text": "J'ai un mal de ventre terrible.",
-            "roman": ""
-          },
-          "de": {
-            "code": "de-DE",
-            "name": "독일어",
-            "flag": "🇩🇪",
-            "text": "Mein Bauch bringt mich um.",
-            "roman": ""
-          },
-          "es": {
-            "code": "es-ES",
-            "name": "스페인어",
-            "flag": "🇪🇸",
-            "text": "Me muero de dolor de estómago.",
-            "roman": ""
-          },
-          "ar": {
-            "code": "ar-SA",
-            "name": "아랍어",
-            "flag": "🇸🇦",
-            "text": "بطني يؤلمني بشدة لا تحتمل.",
-            "roman": "Baṭnī yu'limunī bi-shiddatin lā tuḥtamal."
-          },
-          "ru": {
-            "code": "ru-RU",
-            "name": "러시아어",
-            "flag": "🇷🇺",
-            "text": "Живот болит просто ужасно.",
-            "roman": "Zhivot bolit prosto uzhasno."
-          }
-        },
-        "pool_type": "일상",
         "d_day": "D-4"
       }
     ],
     "philosophy": {
-      "thinker": "손자 (孫子)",
-      "era": "기원전 6세기 춘추시대 중국",
-      "concept": "부전이굴인지병 (不戰而屈人之兵)",
-      "quote": "“백 번 싸워 백 번 이기는 것이 최선이 아니요, 싸우지 않고 적을 굴복시키는 것이 최선이다.”",
+      "thinker": "니콜로 마키아벨리 (Niccolò Machiavelli)",
+      "era": "15~16세기 르네상스 이탈리아",
+      "concept": "비르투(Virtù)와 포르투나(Fortuna)",
+      "quote": "“군주는 사랑받는 존재가 되기보다 두려운 존재가 되는 편이 훨씬 안전하다.”",
       "bullets": [
-        "국력의 전면적 소모를 초래하는 정면충돌(전쟁)을 피하고 지략과 외교로 승기를 굳히는 모공(謀攻)",
-        "적을 알고 나를 알면 백 번 싸워도 위태롭지 않다는 철저한 정보력(Intelligence) 우위",
-        "형세에 따라 물처럼 유연하게 형태를 바꾸는 비대칭 전략의 추구"
+        "운명의 여신(포르투나)은 거친 강물과 같아, 평소 제방을 쌓아둔 역량(비르투) 있는 자만이 다스릴 수 있음",
+        "이상적 도덕주의를 탈피하여 권력과 인간 본성의 비정한 실재(Realpolitik)를 통찰",
+        "국가의 존립과 지속 가능성을 위해 냉철한 결단과 제도적 강제력을 중시"
       ],
-      "application": "출혈 가격 경쟁을 피하고, 생태계 락인(Lock-in)과 우회 기술 개발을 통해 시장을 선점하는 기업 전략의 핵심 근거가 됩니다."
+      "application": "미·중 기술 패권 및 공급망 재편 속에서 명분보다 국가의 실익과 독점적 기술 안보를 우선시해야 하는 현대 지정학의 핵심 잣대를 제공합니다."
     }
   },
   "trends": {
@@ -1475,53 +1477,53 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "서울대 10개 만들기 수시지원",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%84%9C%EC%9A%B8%EB%8C%80%2010%EA%B0%9C%20%EB%A7%8C%EB%93%A4%EA%B8%B0%20%EC%88%98%EC%8B%9C%EC%A7%80%EC%9B%90"
+        "title": "미국 8월 CPI",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%AF%B8%EA%B5%AD%208%EC%9B%94%20CPI"
       },
       {
         "rank": 2,
-        "title": "직원의 한동훈 총리",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A7%81%EC%9B%90%EC%9D%98%20%ED%95%9C%EB%8F%99%ED%9B%88%20%EC%B4%9D%EB%A6%AC"
-      },
-      {
-        "rank": 3,
-        "title": "美 8월 물가 3.4% 상승",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%E7%BE%8E%208%EC%9B%94%20%EB%AC%BC%EA%B0%80%203.4%25%20%EC%83%81%EC%8A%B9"
-      },
-      {
-        "rank": 4,
         "title": "유부녀 킬러 드라마",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9C%A0%EB%B6%80%EB%85%80%20%ED%82%AC%EB%9F%AC%20%EB%93%9C%EB%9D%BC%EB%A7%88"
       },
       {
+        "rank": 3,
+        "title": "직원 개입 총리 사과",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A7%81%EC%9B%90%20%EA%B0%9C%EC%9E%85%20%EC%B4%9D%EB%A6%AC%20%EC%82%AC%EA%B3%BC"
+      },
+      {
+        "rank": 4,
+        "title": "중앙일보",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A4%91%EC%95%99%EC%9D%BC%EB%B3%B4"
+      },
+      {
         "rank": 5,
-        "title": "김원호",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%9B%90%ED%98%B8"
+        "title": "오산시 공중화장실 교육",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%98%A4%EC%82%B0%EC%8B%9C%20%EA%B3%B5%EC%A4%91%ED%99%94%EC%9E%A5%EC%8B%A4%20%EA%B5%90%EC%9C%A1"
       },
       {
         "rank": 6,
-        "title": "주말 아침 쌀쌀 일교차 15도",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A3%BC%EB%A7%90%20%EC%95%84%EC%B9%A8%20%EC%8C%80%EC%8C%80%20%EC%9D%BC%EA%B5%90%EC%B0%A8%2015%EB%8F%84"
+        "title": "가평읍 이장 즉석국 기탁",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B0%80%ED%8F%89%EC%9D%8D%20%EC%9D%B4%EC%9E%A5%20%EC%A6%89%EC%84%9D%EA%B5%AD%20%EA%B8%B0%ED%83%81"
       },
       {
         "rank": 7,
-        "title": "공인중개사",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B3%B5%EC%9D%B8%EC%A4%91%EA%B0%9C%EC%82%AC"
+        "title": "KB금융 챔피언십 2라운드 경기",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=KB%EA%B8%88%EC%9C%B5%20%EC%B1%94%ED%94%BC%EC%96%B8%EC%8B%AD%202%EB%9D%BC%EC%9A%B4%EB%93%9C%20%EA%B2%BD%EA%B8%B0"
       },
       {
         "rank": 8,
-        "title": "황정민 스토킹 항소",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%99%A9%EC%A0%95%EB%AF%BC%20%EC%8A%A4%ED%86%A0%ED%82%B9%20%ED%95%AD%EC%86%8C"
+        "title": "니콜 키드먼",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%8B%88%EC%BD%9C%20%ED%82%A4%EB%93%9C%EB%A8%BC"
       },
       {
         "rank": 9,
-        "title": "재혼한다 웨딩 촬영",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9E%AC%ED%98%BC%ED%95%9C%EB%8B%A4%20%EC%9B%A8%EB%94%A9%20%EC%B4%AC%EC%98%81"
+        "title": "수시 원서접수 1시간 연장",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%88%98%EC%8B%9C%20%EC%9B%90%EC%84%9C%EC%A0%91%EC%88%98%201%EC%8B%9C%EA%B0%84%20%EC%97%B0%EC%9E%A5"
       },
       {
         "rank": 10,
-        "title": "대한민국의 대법관",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%98%20%EB%8C%80%EB%B2%95%EA%B4%80"
+        "title": "안현모와 이혼 라이머 충격 집 상태",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%88%ED%98%84%EB%AA%A8%EC%99%80%20%EC%9D%B4%ED%98%BC%20%EB%9D%BC%EC%9D%B4%EB%A8%B8%20%EC%B6%A9%EA%B2%A9%20%EC%A7%91%20%EC%83%81%ED%83%9C"
       }
     ],
     "youtube_popular": [
@@ -1529,7 +1531,7 @@
         "rank": 1,
         "title": "Unknown Planet",
         "channel": "IU - Topic",
-        "views": "113만회",
+        "views": "114만회",
         "thumb": "https://i.ytimg.com/vi/KHqDMwHpdy8/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=KHqDMwHpdy8"
       },
@@ -1537,7 +1539,7 @@
         "rank": 2,
         "title": "나를 충전해줘 | 공식 티저 예고편 | 넷플릭스",
         "channel": "Netflix Korea 넷플릭스 코리아",
-        "views": "44만회",
+        "views": "45만회",
         "thumb": "https://i.ytimg.com/vi/fksdxa-ylzE/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=fksdxa-ylzE"
       },
@@ -1545,7 +1547,7 @@
         "rank": 3,
         "title": "아저씨가 잠시 빌려갈게",
         "channel": "랄로",
-        "views": "94만회",
+        "views": "95만회",
         "thumb": "https://i.ytimg.com/vi/rCHln-ke9bw/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=rCHln-ke9bw"
       },
@@ -1561,7 +1563,7 @@
         "rank": 5,
         "title": "홍상수 감독, 김민희 주연 [눈 둘 데가 없네] 국내 예고편 공개 | Nowhere to Lay My Eyes",
         "channel": "KoreaFilm 코리아필름",
-        "views": "4,727회",
+        "views": "4,880회",
         "thumb": "https://i.ytimg.com/vi/1Z5QujveRE0/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=1Z5QujveRE0"
       },
@@ -1569,7 +1571,7 @@
         "rank": 6,
         "title": "[Limbus Company - PV] Chapter.10 - PUNCTUM",
         "channel": "ProjectMoon Official",
-        "views": "13만회",
+        "views": "17만회",
         "thumb": "https://i.ytimg.com/vi/h5eR27Gle1U/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=h5eR27Gle1U"
       },
@@ -1599,11 +1601,11 @@
       },
       {
         "rank": 10,
-        "title": "감스트 넥슨 장사 잘하네 1000만원 현질 fc온라인",
-        "channel": "감스트GAMST",
-        "views": "81만회",
-        "thumb": "https://i.ytimg.com/vi/zHpGSnhqXFk/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=zHpGSnhqXFk"
+        "title": "리뷰3000개 전부 극찬!! 혜안져스 목숨걸고 하는 생존게임(※40분 순삭)",
+        "channel": "혜안",
+        "views": "9만회",
+        "thumb": "https://i.ytimg.com/vi/NiUP1Pg14RQ/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=NiUP1Pg14RQ"
       }
     ]
   }
