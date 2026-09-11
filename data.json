@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11 12:05:37",
+  "updated_at": "2026-09-11 12:25:33",
   "us2y": {
     "value": 4.37,
     "change": -0.29
@@ -131,19 +131,19 @@
         "title": "[디일렉] 코웨이 자회사 힐러비, 무신사 뷰티 홍대 입점",
         "link": "https://www.thelec.kr/news/articleView.html?idxno=62148",
         "date": "09-11 10:44"
-      },
-      {
-        "title": "[전자신문] 오텍캐리어, 서울 도심 10MW 이하 데이터센터 공략한다",
-        "link": "https://www.etnews.com/20260911000157",
-        "date": "09-11 12:01"
-      },
-      {
-        "title": "[전자신문] 메모리 내부 '열 흐름' 설계…상변화 메모리 전력 76% 줄였다",
-        "link": "https://www.etnews.com/20260911000086",
-        "date": "09-11 12:00"
       }
     ],
     "domestic": [
+      {
+        "title": "[美 금리 발작] 美 CPI에 쏠린 관심…금리 상승 압력에 기름 부을까",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434463",
+        "date": "09-11 12:18"
+      },
+      {
+        "title": "현대차證 \"AI 투자에 중립금리↑…최종금리 전망 3.5%로 상향\"",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434462",
+        "date": "09-11 12:16"
+      },
       {
         "title": "[美 금리 발작] ING \"10년물 금리 6%도 시야에\"",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434461",
@@ -158,16 +158,6 @@
         "title": "호주 국채 금리 급등…3년물 5.0408%·15년 내 최고(상보)",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434459",
         "date": "09-11 11:34"
-      },
-      {
-        "title": "[단기자금시장 분석(11일)] 당일 지준 부족",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434458",
-        "date": "09-11 11:33"
-      },
-      {
-        "title": "국고채 3년 4%·10년 4.5%대로 급등…美 금리 발작에 연고점(종합)",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434457",
-        "date": "09-11 11:31"
       }
     ]
   },
@@ -223,46 +213,46 @@
       "detail": "10Y-2Y 스프레드가 +42 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.53",
-      "title": "닥터 코퍼 $6.53선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.54",
+      "title": "닥터 코퍼 $6.54선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.53",
-          "chg": "+0.93%",
+          "val": "$6.54",
+          "chg": "+1.08%",
           "up": true
         },
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,361.6",
-          "chg": "-1.23%",
+          "val": "$4,359.6",
+          "chg": "-0.11%",
           "up": false
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$63.78",
-          "chg": "-0.78%",
+          "val": "$63.74",
+          "chg": "-0.84%",
           "up": false
         }
       ],
       "bullets": [
-        "구리 $6.53/lb (+0.93%) - AI 전력망 설비 수요 반영",
-        "금 $4,362/oz, 은 $63.78/oz - 통화가치 헤지"
+        "구리 $6.54/lb (+1.08%) - AI 전력망 설비 수요 반영",
+        "금 $4,360/oz, 은 $63.74/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,345원 | 엔/달러 ¥154.4",
-      "title": "원/달러 1,345.4원선과 엔/달러 ¥154.4",
+      "badge": "원/달러 1,346원 | 엔/달러 ¥154.4",
+      "title": "원/달러 1,346.0원선과 엔/달러 ¥154.4",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,345.4원",
-          "chg": "+0.46%",
+          "val": "1,346.0원",
+          "chg": "+0.51%",
           "up": true
         },
         {
@@ -275,31 +265,31 @@
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥154.40",
-          "chg": "+0.54%",
+          "val": "¥154.44",
+          "chg": "+0.57%",
           "up": true
         }
       ],
       "bullets": [
         "달러 인덱스 99.11pt - 미국 성장 우위 지속",
-        "엔/달러 154.40엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "엔/달러 154.44엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $102.77",
-      "title": "WTI 배럴당 $102.77선 박스권 안정",
+      "badge": "WTI $103.0",
+      "title": "WTI 배럴당 $103.0선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$102.77",
-          "chg": "+7.00%",
+          "val": "$103.00",
+          "chg": "+0.51%",
           "up": true
         }
       ],
       "bullets": [
-        "WTI 선물 $102.77/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $103.0/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -307,32 +297,32 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.53,
-      "change": 0.93
+      "price": 6.54,
+      "change": 1.08
     },
     "gold": {
-      "price": 4361.6,
-      "change": -1.23
+      "price": 4359.6,
+      "change": -0.11
     },
     "silver": {
-      "price": 63.78,
-      "change": -0.78
+      "price": 63.74,
+      "change": -0.84
     },
     "wti": {
-      "price": 102.77,
-      "change": 7.0
+      "price": 103.0,
+      "change": 0.51
     },
     "usdkrw": {
-      "price": 1345.38,
-      "change": 0.46
+      "price": 1345.95,
+      "change": 0.51
     },
     "dxy": {
       "price": 99.11,
       "change": 0.02
     },
     "usdjpy": {
-      "price": 154.4,
-      "change": 0.54
+      "price": 154.44,
+      "change": 0.57
     }
   },
   "history_20d": {
@@ -482,122 +472,122 @@
       {
         "date": "08-14",
         "copper": 6.6,
-        "gold": 4363.6,
+        "gold": 4380.4,
         "silver": 64.99
       },
       {
         "date": "08-17",
         "copper": 6.6,
-        "gold": 4380.4,
+        "gold": 4417.8,
         "silver": 66.12
       },
       {
         "date": "08-18",
         "copper": 6.48,
-        "gold": 4417.8,
+        "gold": 4366.0,
         "silver": 63.94
       },
       {
         "date": "08-19",
         "copper": 6.49,
-        "gold": 4366.0,
+        "gold": 4489.4,
         "silver": 65.73
       },
       {
         "date": "08-20",
         "copper": 6.46,
-        "gold": 4489.4,
+        "gold": 4516.3,
         "silver": 68.03
       },
       {
         "date": "08-21",
         "copper": 6.58,
-        "gold": 4516.3,
+        "gold": 4624.1,
         "silver": 69.47
       },
       {
         "date": "08-24",
         "copper": 6.6,
-        "gold": 4624.1,
+        "gold": 4640.8,
         "silver": 68.54
       },
       {
         "date": "08-25",
         "copper": 6.71,
-        "gold": 4640.8,
+        "gold": 4638.1,
         "silver": 68.64
       },
       {
         "date": "08-26",
         "copper": 6.59,
-        "gold": 4638.1,
+        "gold": 4598.2,
         "silver": 67.99
       },
       {
         "date": "08-27",
         "copper": 6.59,
-        "gold": 4598.2,
+        "gold": 4609.7,
         "silver": 69.43
       },
       {
         "date": "08-28",
         "copper": 6.56,
-        "gold": 4609.7,
+        "gold": 4478.1,
         "silver": 67.0
       },
       {
         "date": "08-31",
         "copper": 6.59,
-        "gold": 4478.1,
+        "gold": 4431.1,
         "silver": 66.22
       },
       {
         "date": "09-01",
         "copper": 6.51,
-        "gold": 4431.1,
+        "gold": 4348.0,
         "silver": 64.62
       },
       {
         "date": "09-02",
         "copper": 6.5,
-        "gold": 4348.0,
+        "gold": 4366.3,
         "silver": 64.72
       },
       {
         "date": "09-03",
         "copper": 6.58,
-        "gold": 4366.3,
+        "gold": 4491.7,
         "silver": 66.97
       },
       {
         "date": "09-04",
         "copper": 6.6,
-        "gold": 4491.7,
+        "gold": 4429.8,
         "silver": 66.05
       },
       {
         "date": "09-08",
         "copper": 6.74,
-        "gold": 4429.8,
+        "gold": 4393.9,
         "silver": 66.3
       },
       {
         "date": "09-09",
         "copper": 6.8,
-        "gold": 4393.9,
+        "gold": 4416.0,
         "silver": 67.94
       },
       {
         "date": "09-10",
         "copper": 6.47,
-        "gold": 4416.0,
+        "gold": 4364.5,
         "silver": 64.28
       },
       {
         "date": "09-11",
-        "copper": 6.53,
-        "gold": 4361.6,
-        "silver": 63.78
+        "copper": 6.54,
+        "gold": 4359.6,
+        "silver": 63.74
       }
     ],
     "fx": [
@@ -717,21 +707,16 @@
       },
       {
         "date": "09-11",
-        "usdkrw": 1345.38,
+        "usdkrw": 1345.95,
         "dxy": 99.11,
-        "usdjpy": 154.4
+        "usdjpy": 154.44
       }
     ],
     "oil": [
       {
-        "date": "08-13",
-        "wti": 81.25,
-        "change": 0.0
-      },
-      {
         "date": "08-14",
         "wti": 82.4,
-        "change": 1.42
+        "change": 0.0
       },
       {
         "date": "08-17",
@@ -819,9 +804,14 @@
         "change": 3.25
       },
       {
+        "date": "09-10",
+        "wti": 102.48,
+        "change": 6.69
+      },
+      {
         "date": "09-11",
-        "wti": 102.77,
-        "change": 7.0
+        "wti": 103.0,
+        "change": 0.51
       }
     ]
   },
@@ -1529,7 +1519,7 @@
         "rank": 1,
         "title": "IU 'Dear my crazy soulmate' MV",
         "channel": "이지금 [IU Official]",
-        "views": "307만회",
+        "views": "310만회",
         "thumb": "https://i.ytimg.com/vi/RdUV9Ms5GM4/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=RdUV9Ms5GM4"
       },
@@ -1553,7 +1543,7 @@
         "rank": 4,
         "title": "Please Be Happy",
         "channel": "Lim Young Woong - Topic",
-        "views": "47만회",
+        "views": "48만회",
         "thumb": "https://i.ytimg.com/vi/PEpWLTge234/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=PEpWLTge234"
       },
@@ -1569,7 +1559,7 @@
         "rank": 6,
         "title": "미션 임파서블",
         "channel": "PAKA",
-        "views": "35만회",
+        "views": "36만회",
         "thumb": "https://i.ytimg.com/vi/YvcSMp2cexE/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=YvcSMp2cexE"
       },
@@ -1577,7 +1567,7 @@
         "rank": 7,
         "title": "Guitarist",
         "channel": "D.O. - Topic",
-        "views": "63만회",
+        "views": "64만회",
         "thumb": "https://i.ytimg.com/vi/svHUxtHIljw/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=svHUxtHIljw"
       },
@@ -1585,7 +1575,7 @@
         "rank": 8,
         "title": "감스트 넥슨 장사 잘하네 1000만원 현질 fc온라인",
         "channel": "감스트GAMST",
-        "views": "61만회",
+        "views": "62만회",
         "thumb": "https://i.ytimg.com/vi/zHpGSnhqXFk/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=zHpGSnhqXFk"
       },
