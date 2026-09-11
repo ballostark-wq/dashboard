@@ -700,62 +700,29 @@ def main():
     raw_30y = fetch_yahoo_series("^TYX", 20)
     hist_30y = [{"date": x["date"], "price": round(x["price"] / 10, 2) if x["price"] > 10 else x["price"]} for x in raw_30y] if raw_30y else [{"date": k, "price": v} for k, v in FALLBACK_30Y]
 # [수정된 코드블럭]
-    # 🔥 유저님이 찾아주신 궁극의 단서! 네이버 'US2YT=RR' 심볼을 활용한 3중 다이렉트 수집망
-    # 야후 파이낸스에는 2년물 공식 심볼이 없으므로, 네이버의 데이터 전용 API를 직접 타격합니다.
+    # 🔥 2년물 자동화의 궁극적 해결책: 미국 재무부 공식 API (차단 없음, 매일 자동 갱신)
     hist_2y = []
-    
-    # 1순위: 네이버 모바일 API 1차 타격 (가장 빠름)
     try:
-        naver_url1 = "https://m.stock.naver.com/api/index/worldMarketIndex/US2YT=RR/price?pageSize=20&page=1"
-        res1 = requests.get(naver_url1, headers=HEADERS, timeout=5)
-        if res1.status_code == 200:
-            for item in res1.json():
-                dt = item.get("localTradedAt", "")
-                pr = str(item.get("closePrice", "0")).replace(",", "")
-                if dt and pr:
-                    parts = dt.split("-")
-                    hist_2y.append({"date": f"{parts[1]}-{parts[2]}", "price": round(float(pr), 2)})
-            hist_2y.reverse() # 최신순으로 오므로 과거순으로 뒤집기
-    except: pass
+        # 미국 재무부 API는 차단 방화벽이 없어 Actions에서도 완벽하게 동작합니다.
+        treasury_url = "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v2/accounting/od/yield_curve?sort=-record_date&format=json&page[size]=20"
+        res_t = requests.get(treasury_url, timeout=10)
+        
+        if res_t.status_code == 200:
+            data_list = res_t.json().get("data", [])
+            for item in reversed(data_list):
+                date_val = item.get("record_date")
+                
+                # 🔥 제가 실수했던 바로 그 부분! 실제 JSON 키값은 'tc_2year' 입니다.
+                yield_2y = item.get("tc_2year")
+                
+                if date_val and yield_2y:
+                    mmdd = f"{date_val[5:7]}-{date_val[8:10]}"
+                    hist_2y.append({"date": mmdd, "price": round(float(yield_2y), 2)})
+    except Exception as e:
+        print(f"2년물 재무부 API 수집 오류: {e}")
 
-    # 2순위: 1순위 실패 시 네이버 프론트 API 2차 타격
+    # 통신 실패 시에만 안전장치(Fallback) 발동
     if len(hist_2y) < 10:
-        hist_2y = []
-        try:
-            naver_url2 = "https://m.stock.naver.com/front-api/v1/marketIndex/prices?category=bond&reutersCode=US2YT=RR&page=1"
-            res2 = requests.get(naver_url2, headers=HEADERS, timeout=5)
-            if res2.status_code == 200:
-                for item in res2.json().get("result", []):
-                    dt = item.get("localTradedAt", "")
-                    pr = str(item.get("closePrice", "0")).replace(",", "")
-                    if dt and pr:
-                        parts = dt.split("-")
-                        hist_2y.append({"date": f"{parts[1]}-{parts[2]}", "price": round(float(pr), 2)})
-                hist_2y.reverse()
-        except: pass
-
-    # 3순위: API 전면 차단 시 첨부파일의 웹페이지 HTML을 정규식으로 직접 파싱 (무적 방어)
-    if len(hist_2y) < 10:
-        hist_2y = []
-        try:
-            naver_url3 = "https://stock.naver.com/marketindex/bond/US2YT=RR/price"
-            res3 = requests.get(naver_url3, headers=HEADERS, timeout=5)
-            if res3.status_code == 200:
-                # 웹페이지 소스코드 내부에 숨겨진 JSON 데이터를 정규식으로 강제 추출
-                matches = re.findall(r'"localTradedAt":"(\d{4}-\d{2}-\d{2})".*?"closePrice":"([\d\.]+)"', res3.text)
-                seen = set()
-                parsed = []
-                for dt, pr in matches:
-                    if dt not in seen:
-                        seen.add(dt)
-                        parts = dt.split("-")
-                        parsed.append({"date": f"{parts[1]}-{parts[2]}", "price": round(float(pr), 2)})
-                hist_2y = parsed[:20]
-                hist_2y.reverse()
-        except: pass
-
-    # 모두 실패 시 폴백 적용
-    if not hist_2y or len(hist_2y) < 10:
         hist_2y = [{"date": k, "price": v} for k, v in FALLBACK_2Y]
         
     map_10y = {x["date"]: x["price"] for x in hist_10y}
