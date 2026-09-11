@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-12 05:06:03",
+  "updated_at": "2026-09-12 06:05:04",
   "us2y": {
-    "value": 4.56,
-    "change": 0.13
+    "value": 4.63,
+    "change": 0.07
   },
   "us5y": {
     "value": 4.79,
@@ -17,12 +17,12 @@
     "change": -0.01
   },
   "spread": {
-    "value": 41,
+    "value": 34,
     "status": "정상화 (우상향)"
   },
   "vix": {
-    "value": 15.9,
-    "change": -10.87
+    "value": 15.84,
+    "change": -11.21
   },
   "tech_news": [
     {
@@ -131,6 +131,16 @@
         "title": "[디일렉] 프리뉴, 한강 수난 사고·투신 예방·구조용 자율주행 드론 개발 착수",
         "link": "https://www.thelec.kr/news/articleView.html?idxno=62194",
         "date": "09-11 16:54"
+      },
+      {
+        "title": "[전자신문] 샤워도 씻을 타이밍이 있다…“수면·피부 건강 챙긴다면 밤 샤워가 유리?”",
+        "link": "https://www.etnews.com/20260911000314",
+        "date": "09-12 06:00"
+      },
+      {
+        "title": "[전자신문] 달리는 트레일러에 차를 주차하라…美 이색 자동차 경주",
+        "link": "https://www.etnews.com/20260911000282",
+        "date": "09-12 06:00"
       }
     ],
     "domestic": [
@@ -174,13 +184,13 @@
   },
   "macro_reviews": {
     "bonds": {
-      "badge": "스프레드 +41 bp",
+      "badge": "스프레드 +34 bp",
       "title": "미국채 10년물 4.97%선 공방과 정상화",
       "metrics": [
         {
           "id": "spread",
           "name": "10Y-2Y차",
-          "val": "+41 bp",
+          "val": "+34 bp",
           "chg": "정상화 (우상향)",
           "up": true
         },
@@ -194,8 +204,8 @@
         {
           "id": "us2y",
           "name": "2년물",
-          "val": "4.56%",
-          "chg": "+0.13%",
+          "val": "4.63%",
+          "chg": "+0.07%",
           "up": true
         },
         {
@@ -207,10 +217,10 @@
         }
       ],
       "bullets": [
-        "10년물 4.97%와 2년물 4.56% 형성으로 스프레드 +41 bp 유지",
+        "10년물 4.97%와 2년물 4.63% 형성으로 스프레드 +34 bp 유지",
         "초장기 30년물 5.35%선 안착 속 재정 적자 발행에 따른 기간 프리미엄"
       ],
-      "detail": "10Y-2Y 스프레드가 +41 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
+      "detail": "10Y-2Y 스프레드가 +34 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
       "badge": "구리 $6.55",
@@ -226,70 +236,70 @@
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,388.2",
-          "chg": "+0.54%",
+          "val": "$4,390.6",
+          "chg": "+0.60%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$64.88",
-          "chg": "+0.93%",
+          "val": "$65.02",
+          "chg": "+1.15%",
           "up": true
         }
       ],
       "bullets": [
         "구리 $6.55/lb (+1.24%) - AI 전력망 설비 수요 반영",
-        "금 $4,388/oz, 은 $64.88/oz - 통화가치 헤지"
+        "금 $4,391/oz, 은 $65.02/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,342원 | 엔/달러 ¥153.7",
-      "title": "원/달러 1,341.5원선과 엔/달러 ¥153.7",
+      "badge": "원/달러 1,341원 | 엔/달러 ¥153.6",
+      "title": "원/달러 1,341.0원선과 엔/달러 ¥153.6",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,341.5원",
-          "chg": "+0.18%",
-          "up": true
+          "val": "1,341.0원",
+          "chg": "-0.53%",
+          "up": false
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "99.13pt",
-          "chg": "+0.04%",
+          "val": "99.10pt",
+          "chg": "+0.01%",
           "up": true
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥153.67",
-          "chg": "+0.07%",
-          "up": true
-        }
-      ],
-      "bullets": [
-        "달러 인덱스 99.13pt - 미국 성장 우위 지속",
-        "엔/달러 153.67엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
-      ],
-      "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
-    },
-    "oil": {
-      "badge": "WTI $100.67",
-      "title": "WTI 배럴당 $100.67선 박스권 안정",
-      "metrics": [
-        {
-          "id": "wti",
-          "name": "WTI 원유",
-          "val": "$100.67",
-          "chg": "-1.77%",
+          "val": "¥153.55",
+          "chg": "-0.60%",
           "up": false
         }
       ],
       "bullets": [
-        "WTI 선물 $100.67/배럴 - 에너지 원가 압박 경감",
+        "달러 인덱스 99.1pt - 미국 성장 우위 지속",
+        "엔/달러 153.55엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+      ],
+      "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
+    },
+    "oil": {
+      "badge": "WTI $100.04",
+      "title": "WTI 배럴당 $100.04선 박스권 안정",
+      "metrics": [
+        {
+          "id": "wti",
+          "name": "WTI 원유",
+          "val": "$100.04",
+          "chg": "-2.38%",
+          "up": false
+        }
+      ],
+      "bullets": [
+        "WTI 선물 $100.04/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -301,28 +311,28 @@
       "change": 1.24
     },
     "gold": {
-      "price": 4388.2,
-      "change": 0.54
+      "price": 4390.6,
+      "change": 0.6
     },
     "silver": {
-      "price": 64.88,
-      "change": 0.93
+      "price": 65.02,
+      "change": 1.15
     },
     "wti": {
-      "price": 100.67,
-      "change": -1.77
+      "price": 100.04,
+      "change": -2.38
     },
     "usdkrw": {
-      "price": 1341.52,
-      "change": 0.18
+      "price": 1341.05,
+      "change": -0.53
     },
     "dxy": {
-      "price": 99.13,
-      "change": 0.04
+      "price": 99.1,
+      "change": 0.01
     },
     "usdjpy": {
-      "price": 153.67,
-      "change": 0.07
+      "price": 153.55,
+      "change": -0.6
     }
   },
   "history_20d": {
@@ -463,9 +473,9 @@
       {
         "date": "09-11",
         "us10y": 4.97,
-        "us2y": 4.56,
+        "us2y": 4.63,
         "us30y": 5.35,
-        "spread": 41
+        "spread": 34
       }
     ],
     "commodities": [
@@ -586,130 +596,130 @@
       {
         "date": "09-11",
         "copper": 6.55,
-        "gold": 4388.2,
-        "silver": 64.88
+        "gold": 4390.6,
+        "silver": 65.02
       }
     ],
     "fx": [
       {
-        "date": "08-16",
-        "usdkrw": 1415.37,
-        "dxy": 99.67,
-        "usdjpy": 159.22
-      },
-      {
         "date": "08-17",
         "usdkrw": 1414.73,
-        "dxy": 99.64,
+        "dxy": 99.67,
         "usdjpy": 159.34
       },
       {
         "date": "08-18",
         "usdkrw": 1413.58,
-        "dxy": 99.65,
+        "dxy": 99.64,
         "usdjpy": 159.55
       },
       {
         "date": "08-19",
         "usdkrw": 1389.4,
-        "dxy": 98.83,
+        "dxy": 99.65,
         "usdjpy": 158.28
       },
       {
         "date": "08-20",
         "usdkrw": 1390.79,
-        "dxy": 98.9,
+        "dxy": 98.83,
         "usdjpy": 158.88
       },
       {
         "date": "08-23",
         "usdkrw": 1384.98,
-        "dxy": 98.8,
+        "dxy": 98.9,
         "usdjpy": 158.9
       },
       {
         "date": "08-24",
         "usdkrw": 1380.76,
-        "dxy": 99.0,
+        "dxy": 98.8,
         "usdjpy": 159.14
       },
       {
         "date": "08-25",
         "usdkrw": 1381.49,
-        "dxy": 98.92,
+        "dxy": 99.0,
         "usdjpy": 159.22
       },
       {
         "date": "08-26",
         "usdkrw": 1383.49,
-        "dxy": 99.17,
+        "dxy": 98.92,
         "usdjpy": 159.26
       },
       {
         "date": "08-27",
         "usdkrw": 1380.45,
-        "dxy": 99.16,
+        "dxy": 99.17,
         "usdjpy": 159.32
       },
       {
         "date": "08-30",
         "usdkrw": 1377.11,
-        "dxy": 99.7,
+        "dxy": 99.16,
         "usdjpy": 160.12
       },
       {
         "date": "08-31",
         "usdkrw": 1366.62,
-        "dxy": 99.43,
+        "dxy": 99.7,
         "usdjpy": 159.75
       },
       {
         "date": "09-01",
         "usdkrw": 1372.86,
-        "dxy": 99.67,
+        "dxy": 99.43,
         "usdjpy": 160.2
       },
       {
         "date": "09-02",
         "usdkrw": 1358.39,
-        "dxy": 99.56,
+        "dxy": 99.67,
         "usdjpy": 158.92
       },
       {
         "date": "09-03",
         "usdkrw": 1355.41,
-        "dxy": 99.0,
+        "dxy": 99.56,
         "usdjpy": 155.66
       },
       {
         "date": "09-06",
         "usdkrw": 1345.06,
-        "dxy": 99.16,
+        "dxy": 99.0,
         "usdjpy": 156.2
       },
       {
         "date": "09-07",
         "usdkrw": 1343.57,
-        "dxy": 98.84,
+        "dxy": 99.16,
         "usdjpy": 153.85
       },
       {
         "date": "09-08",
         "usdkrw": 1339.21,
-        "dxy": 98.77,
+        "dxy": 98.84,
         "usdjpy": 153.48
       },
       {
         "date": "09-09",
         "usdkrw": 1339.17,
-        "dxy": 99.09,
+        "dxy": 98.77,
         "usdjpy": 153.57
       },
       {
+        "date": "09-10",
+        "usdkrw": 1348.17,
+        "dxy": 99.09,
+        "usdjpy": 154.48
+      },
+      {
         "date": "09-11",
-        "usdkrw": 1341.52,
-        "dxy": 99.13,
-        "usdjpy": 153.67
+        "usdkrw": 1341.05,
+        "dxy": 99.1,
+        "usdjpy": 153.55
       }
     ],
     "oil": [
@@ -810,8 +820,8 @@
       },
       {
         "date": "09-11",
-        "wti": 100.67,
-        "change": -1.77
+        "wti": 100.04,
+        "change": -2.38
       }
     ]
   },
@@ -1472,38 +1482,38 @@
       },
       {
         "rank": 2,
-        "title": "KT, 롯데 4연승 선두 유지",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=KT%2C%20%EB%A1%AF%EB%8D%B0%204%EC%97%B0%EC%8A%B9%20%EC%84%A0%EB%91%90%20%EC%9C%A0%EC%A7%80"
-      },
-      {
-        "rank": 3,
-        "title": "경복궁 소리 채집 프로젝트",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B2%BD%EB%B3%B5%EA%B6%81%20%EC%86%8C%EB%A6%AC%20%EC%B1%84%EC%A7%91%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8"
-      },
-      {
-        "rank": 4,
         "title": "9월 초 수출 역대 최대",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=9%EC%9B%94%20%EC%B4%88%20%EC%88%98%EC%B6%9C%20%EC%97%AD%EB%8C%80%20%EC%B5%9C%EB%8C%80"
       },
       {
+        "rank": 3,
+        "title": "KT, 롯데 꺾고 4연승 수성",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=KT%2C%20%EB%A1%AF%EB%8D%B0%20%EA%BA%BE%EA%B3%A0%204%EC%97%B0%EC%8A%B9%20%EC%88%98%EC%84%B1"
+      },
+      {
+        "rank": 4,
+        "title": "경복궁 소리 채집 프로젝트",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B2%BD%EB%B3%B5%EA%B6%81%20%EC%86%8C%EB%A6%AC%20%EC%B1%84%EC%A7%91%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8"
+      },
+      {
         "rank": 5,
-        "title": "나스닥",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%82%98%EC%8A%A4%EB%8B%A5"
+        "title": "홍현희",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%99%8D%ED%98%84%ED%9D%AC"
       },
       {
         "rank": 6,
-        "title": "오산시 공중화장실 교육",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%98%A4%EC%82%B0%EC%8B%9C%20%EA%B3%B5%EC%A4%91%ED%99%94%EC%9E%A5%EC%8B%A4%20%EA%B5%90%EC%9C%A1"
+        "title": "굽네 신제품 런칭 참석",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B5%BD%EB%84%A4%20%EC%8B%A0%EC%A0%9C%ED%92%88%20%EB%9F%B0%EC%B9%AD%20%EC%B0%B8%EC%84%9D"
       },
       {
         "rank": 7,
-        "title": "굽네 파티 참석",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B5%BD%EB%84%A4%20%ED%8C%8C%ED%8B%B0%20%EC%B0%B8%EC%84%9D"
+        "title": "부동산 거품",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B6%80%EB%8F%99%EC%82%B0%20%EA%B1%B0%ED%92%88"
       },
       {
         "rank": 8,
-        "title": "이서진",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EC%84%9C%EC%A7%84"
+        "title": "오산시 공중화장실 교육",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%98%A4%EC%82%B0%EC%8B%9C%20%EA%B3%B5%EC%A4%91%ED%99%94%EC%9E%A5%EC%8B%A4%20%EA%B5%90%EC%9C%A1"
       },
       {
         "rank": 9,
@@ -1512,8 +1522,8 @@
       },
       {
         "rank": 10,
-        "title": "한번에 성공시킨다",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%9C%EB%B2%88%EC%97%90%20%EC%84%B1%EA%B3%B5%EC%8B%9C%ED%82%A8%EB%8B%A4"
+        "title": "한지민",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%9C%EC%A7%80%EB%AF%BC"
       }
     ],
     "youtube_popular": [
@@ -1521,7 +1531,7 @@
         "rank": 1,
         "title": "Dear my crazy soulmate",
         "channel": "IU - Topic",
-        "views": "100만회",
+        "views": "101만회",
         "thumb": "https://i.ytimg.com/vi/IHIt9S2DWcQ/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=IHIt9S2DWcQ"
       },
@@ -1529,7 +1539,7 @@
         "rank": 2,
         "title": "나를 충전해줘 | 공식 티저 예고편 | 넷플릭스",
         "channel": "Netflix Korea 넷플릭스 코리아",
-        "views": "47만회",
+        "views": "48만회",
         "thumb": "https://i.ytimg.com/vi/fksdxa-ylzE/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=fksdxa-ylzE"
       },
@@ -1537,7 +1547,7 @@
         "rank": 3,
         "title": "아저씨가 잠시 빌려갈게",
         "channel": "랄로",
-        "views": "102만회",
+        "views": "103만회",
         "thumb": "https://i.ytimg.com/vi/rCHln-ke9bw/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=rCHln-ke9bw"
       },
@@ -1553,7 +1563,7 @@
         "rank": 5,
         "title": "대회 감독님이 교오탱 존버단 수장..",
         "channel": "튜브김민교",
-        "views": "26만회",
+        "views": "29만회",
         "thumb": "https://i.ytimg.com/vi/8iSq04OgdiY/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=8iSq04OgdiY"
       },
@@ -1569,7 +1579,7 @@
         "rank": 7,
         "title": "리뷰3000개 전부 극찬!! 혜안져스 목숨걸고 하는 생존게임(※40분 순삭)",
         "channel": "혜안",
-        "views": "29만회",
+        "views": "30만회",
         "thumb": "https://i.ytimg.com/vi/NiUP1Pg14RQ/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=NiUP1Pg14RQ"
       },
@@ -1577,7 +1587,7 @@
         "rank": 8,
         "title": "Please Be Happy",
         "channel": "Lim Young Woong - Topic",
-        "views": "59만회",
+        "views": "60만회",
         "thumb": "https://i.ytimg.com/vi/PEpWLTge234/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=PEpWLTge234"
       },
@@ -1585,7 +1595,7 @@
         "rank": 9,
         "title": "[Limbus Company - PV] Chapter.10 - PUNCTUM",
         "channel": "ProjectMoon Official",
-        "views": "63만회",
+        "views": "65만회",
         "thumb": "https://i.ytimg.com/vi/h5eR27Gle1U/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=h5eR27Gle1U"
       },
