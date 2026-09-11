@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11 14:08:17",
+  "updated_at": "2026-09-11 14:15:10",
   "us2y": {
     "value": 4.37,
     "change": -0.29
@@ -236,27 +236,27 @@
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,374.9",
-          "chg": "+0.24%",
+          "val": "$4,369.5",
+          "chg": "+0.11%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$64.14",
-          "chg": "-0.22%",
+          "val": "$64.04",
+          "chg": "-0.37%",
           "up": false
         }
       ],
       "bullets": [
         "구리 $6.54/lb (+1.08%) - AI 전력망 설비 수요 반영",
-        "금 $4,375/oz, 은 $64.14/oz - 통화가치 헤지"
+        "금 $4,370/oz, 은 $64.04/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,345원 | 엔/달러 ¥154.3",
-      "title": "원/달러 1,345.2원선과 엔/달러 ¥154.3",
+      "badge": "원/달러 1,345원 | 엔/달러 ¥154.2",
+      "title": "원/달러 1,345.2원선과 엔/달러 ¥154.2",
       "metrics": [
         {
           "id": "usdkrw",
@@ -275,31 +275,31 @@
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥154.26",
-          "chg": "+0.45%",
+          "val": "¥154.17",
+          "chg": "+0.39%",
           "up": true
         }
       ],
       "bullets": [
         "달러 인덱스 99.11pt - 미국 성장 우위 지속",
-        "엔/달러 154.26엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "엔/달러 154.17엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $102.22",
-      "title": "WTI 배럴당 $102.22선 박스권 안정",
+      "badge": "WTI $102.18",
+      "title": "WTI 배럴당 $102.18선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$102.22",
-          "chg": "-0.25%",
+          "val": "$102.18",
+          "chg": "-0.29%",
           "up": false
         }
       ],
       "bullets": [
-        "WTI 선물 $102.22/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $102.18/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -311,16 +311,16 @@
       "change": 1.08
     },
     "gold": {
-      "price": 4374.9,
-      "change": 0.24
+      "price": 4369.5,
+      "change": 0.11
     },
     "silver": {
-      "price": 64.14,
-      "change": -0.22
+      "price": 64.04,
+      "change": -0.37
     },
     "wti": {
-      "price": 102.22,
-      "change": -0.25
+      "price": 102.18,
+      "change": -0.29
     },
     "usdkrw": {
       "price": 1345.18,
@@ -331,8 +331,8 @@
       "change": 0.02
     },
     "usdjpy": {
-      "price": 154.26,
-      "change": 0.45
+      "price": 154.17,
+      "change": 0.39
     }
   },
   "history_20d": {
@@ -596,8 +596,8 @@
       {
         "date": "09-11",
         "copper": 6.54,
-        "gold": 4374.9,
-        "silver": 64.14
+        "gold": 4369.5,
+        "silver": 64.04
       }
     ],
     "fx": [
@@ -719,7 +719,7 @@
         "date": "09-11",
         "usdkrw": 1345.18,
         "dxy": 99.11,
-        "usdjpy": 154.26
+        "usdjpy": 154.17
       }
     ],
     "oil": [
@@ -820,8 +820,8 @@
       },
       {
         "date": "09-11",
-        "wti": 102.22,
-        "change": -0.25
+        "wti": 102.18,
+        "change": -0.29
       }
     ]
   },
@@ -1529,7 +1529,7 @@
         "rank": 1,
         "title": "Unknown Planet",
         "channel": "IU - Topic",
-        "views": "68만회",
+        "views": "69만회",
         "thumb": "https://i.ytimg.com/vi/KHqDMwHpdy8/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=KHqDMwHpdy8"
       },
@@ -1585,7 +1585,7 @@
         "rank": 8,
         "title": "감스트 넥슨 장사 잘하네 1000만원 현질 fc온라인",
         "channel": "감스트GAMST",
-        "views": "65만회",
+        "views": "66만회",
         "thumb": "https://i.ytimg.com/vi/zHpGSnhqXFk/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=zHpGSnhqXFk"
       },
@@ -1601,7 +1601,7 @@
         "rank": 10,
         "title": "배그 세계 1위 vs 배린이 4명",
         "channel": "말왕TV",
-        "views": "34만회",
+        "views": "35만회",
         "thumb": "https://i.ytimg.com/vi/2t0BRegeS_U/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=2t0BRegeS_U"
       }
