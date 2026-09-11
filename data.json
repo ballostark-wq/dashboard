@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11 12:46:26",
+  "updated_at": "2026-09-11 12:57:00",
   "us2y": {
     "value": 4.37,
     "change": -0.29
@@ -145,6 +145,11 @@
     ],
     "domestic": [
       {
+        "title": "[美 금리 발작] 아시아 시장도 출렁…채권·주식 모두 타격",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434465",
+        "date": "09-11 12:46"
+      },
+      {
         "title": "[美 금리 발작] 美 CPI에 쏠린 관심…금리 상승 압력에 기름 부을까",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434463",
         "date": "09-11 12:18"
@@ -163,11 +168,6 @@
         "title": "S&P500 선물, CPI 대기 속 강보합…美 국채금리↑",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434460",
         "date": "09-11 11:53"
-      },
-      {
-        "title": "호주 국채 금리 급등…3년물 5.0408%·15년 내 최고(상보)",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434459",
-        "date": "09-11 11:34"
       }
     ]
   },
@@ -223,46 +223,46 @@
       "detail": "10Y-2Y 스프레드가 +42 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.52",
-      "title": "닥터 코퍼 $6.52선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.53",
+      "title": "닥터 코퍼 $6.53선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.52",
-          "chg": "+0.77%",
+          "val": "$6.53",
+          "chg": "+0.93%",
           "up": true
         },
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,348.9",
-          "chg": "-0.36%",
+          "val": "$4,344.6",
+          "chg": "-0.46%",
           "up": false
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$63.62",
-          "chg": "-1.03%",
+          "val": "$63.58",
+          "chg": "-1.09%",
           "up": false
         }
       ],
       "bullets": [
-        "구리 $6.52/lb (+0.77%) - AI 전력망 설비 수요 반영",
-        "금 $4,349/oz, 은 $63.62/oz - 통화가치 헤지"
+        "구리 $6.53/lb (+0.93%) - AI 전력망 설비 수요 반영",
+        "금 $4,345/oz, 은 $63.58/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,346원 | 엔/달러 ¥154.5",
-      "title": "원/달러 1,346.0원선과 엔/달러 ¥154.5",
+      "badge": "원/달러 1,345원 | 엔/달러 ¥154.4",
+      "title": "원/달러 1,345.1원선과 엔/달러 ¥154.4",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,346.0원",
-          "chg": "+0.51%",
+          "val": "1,345.1원",
+          "chg": "+0.44%",
           "up": true
         },
         {
@@ -275,31 +275,31 @@
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥154.48",
-          "chg": "+0.59%",
+          "val": "¥154.37",
+          "chg": "+0.52%",
           "up": true
         }
       ],
       "bullets": [
         "달러 인덱스 99.17pt - 미국 성장 우위 지속",
-        "엔/달러 154.48엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "엔/달러 154.37엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $103.0",
-      "title": "WTI 배럴당 $103.0선 박스권 안정",
+      "badge": "WTI $103.13",
+      "title": "WTI 배럴당 $103.13선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$103.00",
-          "chg": "+0.51%",
+          "val": "$103.13",
+          "chg": "+0.63%",
           "up": true
         }
       ],
       "bullets": [
-        "WTI 선물 $103.0/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $103.13/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -307,32 +307,32 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.52,
-      "change": 0.77
+      "price": 6.53,
+      "change": 0.93
     },
     "gold": {
-      "price": 4348.9,
-      "change": -0.36
+      "price": 4344.6,
+      "change": -0.46
     },
     "silver": {
-      "price": 63.62,
-      "change": -1.03
+      "price": 63.58,
+      "change": -1.09
     },
     "wti": {
-      "price": 103.0,
-      "change": 0.51
+      "price": 103.13,
+      "change": 0.63
     },
     "usdkrw": {
-      "price": 1345.98,
-      "change": 0.51
+      "price": 1345.06,
+      "change": 0.44
     },
     "dxy": {
       "price": 99.17,
       "change": 0.08
     },
     "usdjpy": {
-      "price": 154.48,
-      "change": 0.59
+      "price": 154.37,
+      "change": 0.52
     }
   },
   "history_20d": {
@@ -595,9 +595,9 @@
       },
       {
         "date": "09-11",
-        "copper": 6.52,
-        "gold": 4348.9,
-        "silver": 63.62
+        "copper": 6.53,
+        "gold": 4344.6,
+        "silver": 63.58
       }
     ],
     "fx": [
@@ -717,9 +717,9 @@
       },
       {
         "date": "09-11",
-        "usdkrw": 1345.98,
+        "usdkrw": 1345.06,
         "dxy": 99.17,
-        "usdjpy": 154.48
+        "usdjpy": 154.37
       }
     ],
     "oil": [
@@ -820,8 +820,8 @@
       },
       {
         "date": "09-11",
-        "wti": 103.0,
-        "change": 0.51
+        "wti": 103.13,
+        "change": 0.63
       }
     ]
   },
@@ -1529,7 +1529,7 @@
         "rank": 1,
         "title": "IU 'Dear my crazy soulmate' MV",
         "channel": "이지금 [IU Official]",
-        "views": "313만회",
+        "views": "315만회",
         "thumb": "https://i.ytimg.com/vi/RdUV9Ms5GM4/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=RdUV9Ms5GM4"
       },
@@ -1561,7 +1561,7 @@
         "rank": 5,
         "title": "[디거] 파이널 예고편",
         "channel": "Warner Bros. Korea",
-        "views": "8만회",
+        "views": "9만회",
         "thumb": "https://i.ytimg.com/vi/6iPsMGipDsM/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=6iPsMGipDsM"
       },
@@ -1577,7 +1577,7 @@
         "rank": 7,
         "title": "Guitarist",
         "channel": "D.O. - Topic",
-        "views": "64만회",
+        "views": "65만회",
         "thumb": "https://i.ytimg.com/vi/svHUxtHIljw/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=svHUxtHIljw"
       },
