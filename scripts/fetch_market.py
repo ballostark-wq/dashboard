@@ -702,29 +702,42 @@ def main():
     hist_30y = [{"date": x["date"], "price": round(x["price"] / 10, 2) if x["price"] > 10 else x["price"]} for x in raw_30y] if raw_30y else [{"date": k, "price": v} for k, v in FALLBACK_30Y]
 
 # [수정된 코드블럭]
-    # 2년물은 방화벽 차단이 없는 미국 연방준비은행(FRED)의 공식 공공 데이터(CSV)를 다이렉트로 수집
+    # 🔥 2년물 다중 폴백 수집 (Naver 모바일 API -> FRED API 타임아웃 연장)
     hist_2y = []
+    
+    # 1순위: 응답 속도가 가장 빠른 네이버 모바일 전용 API 타격
     try:
-        # 최근 30일 치 데이터를 요청하여 공휴일 제외 영업일 확보
-        past_str = (datetime.now() - timedelta(days=30)).strftime("%Y-%m-%d")
-        fred_url = f"https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS2&cosd={past_str}"
-        res_2y = requests.get(fred_url, headers=HEADERS, timeout=10)
-        
+        url_2y = "https://m.stock.naver.com/api/index/worldMarketIndex/IRRD_BONDU02Y/price?pageSize=20&page=1"
+        res_2y = requests.get(url_2y, headers=HEADERS, timeout=5)
         if res_2y.status_code == 200:
-            lines = res_2y.text.strip().split('\n')
-            for line in lines[1:]:  # 첫 줄(헤더) 제외
-                parts = line.split(',')
-                if len(parts) == 2:
-                    d_str, val_str = parts[0].strip(), parts[1].strip()
-                    # 결측치('.')가 아닐 경우만 데이터 파싱
-                    if val_str != '.':  
-                        mmdd = f"{d_str[5:7]}-{d_str[8:10]}" # 'YYYY-MM-DD' -> 'MM-DD' 변환
-                        hist_2y.append({"date": mmdd, "price": round(float(val_str), 2)})
+            for item in res_2y.json():
+                dt = item.get("localTradedAt", "")
+                pr = str(item.get("closePrice", "0")).replace(",", "")
+                if dt and pr:
+                    parts = dt.split("-")
+                    hist_2y.append({"date": f"{parts[1]}-{parts[2]}", "price": round(float(pr), 2)})
+            hist_2y.reverse() # 네이버는 최신순으로 주므로 과거순 시계열로 뒤집기
     except Exception as e:
-        print(f"2년물 FRED 수집 오류: {e}")
-        pass
+        print(f"2년물 네이버 수집 오류: {e}")
 
-    if not hist_2y:
+    # 2순위: 네이버 실패 시 FRED 공공 데이터 타격 (타임아웃 30초 대폭 연장)
+    if len(hist_2y) < 10:
+        hist_2y = [] # 찌꺼기 초기화
+        try:
+            past_str = (datetime.now() - timedelta(days=30)).strftime("%Y-%m-%d")
+            fred_url = f"https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS2&cosd={past_str}"
+            res_fred = requests.get(fred_url, headers=HEADERS, timeout=30) # 타임아웃 30초로 넉넉하게 대기
+            if res_fred.status_code == 200:
+                for line in res_fred.text.strip().split('\n')[1:]:
+                    parts = line.split(',')
+                    if len(parts) == 2 and parts[1].strip() != '.':
+                        d_str, val_str = parts[0].strip(), parts[1].strip()
+                        hist_2y.append({"date": f"{d_str[5:7]}-{d_str[8:10]}", "price": round(float(val_str), 2)})
+        except Exception as e:
+            print(f"2년물 FRED 수집 오류: {e}")
+
+    # 3순위: 모두 실패 시 하드코딩 데이터
+    if len(hist_2y) < 10:
         hist_2y = [{"date": k, "price": v} for k, v in FALLBACK_2Y]
 
     map_10y = {x["date"]: x["price"] for x in hist_10y}
