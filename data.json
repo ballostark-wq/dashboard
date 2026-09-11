@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-11 23:37:42",
+  "updated_at": "2026-09-11 23:48:36",
   "us2y": {
     "value": 4.37,
     "change": -0.01
   },
   "us5y": {
-    "value": 4.74,
-    "change": 0.01
+    "value": 4.75,
+    "change": 0.02
   },
   "us10y": {
     "value": 4.93,
@@ -21,8 +21,8 @@
     "status": "정상화 (우상향)"
   },
   "vix": {
-    "value": 15.82,
-    "change": -11.32
+    "value": 15.86,
+    "change": -11.1
   },
   "tech_news": [
     {
@@ -223,83 +223,83 @@
       "detail": "10Y-2Y 스프레드가 +56 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.55",
-      "title": "닥터 코퍼 $6.55선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.54",
+      "title": "닥터 코퍼 $6.54선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.55",
-          "chg": "+1.24%",
+          "val": "$6.54",
+          "chg": "+1.08%",
           "up": true
         },
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,419.3",
-          "chg": "+1.26%",
+          "val": "$4,408.5",
+          "chg": "+1.01%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$65.34",
-          "chg": "+1.65%",
+          "val": "$65.11",
+          "chg": "+1.29%",
           "up": true
         }
       ],
       "bullets": [
-        "구리 $6.55/lb (+1.24%) - AI 전력망 설비 수요 반영",
-        "금 $4,419/oz, 은 $65.34/oz - 통화가치 헤지"
+        "구리 $6.54/lb (+1.08%) - AI 전력망 설비 수요 반영",
+        "금 $4,408/oz, 은 $65.11/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,340원 | 엔/달러 ¥153.6",
-      "title": "원/달러 1,340.2원선과 엔/달러 ¥153.6",
+      "badge": "원/달러 1,341원 | 엔/달러 ¥153.6",
+      "title": "원/달러 1,340.5원선과 엔/달러 ¥153.6",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,340.2원",
-          "chg": "+0.08%",
+          "val": "1,340.5원",
+          "chg": "+0.10%",
           "up": true
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "99.03pt",
-          "chg": "-0.06%",
+          "val": "99.04pt",
+          "chg": "-0.05%",
           "up": false
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥153.55",
-          "chg": "-0.01%",
-          "up": false
+          "val": "¥153.60",
+          "chg": "+0.02%",
+          "up": true
         }
       ],
       "bullets": [
-        "달러 인덱스 99.03pt - 미국 성장 우위 지속",
-        "엔/달러 153.55엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 99.04pt - 미국 성장 우위 지속",
+        "엔/달러 153.60엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $99.64",
-      "title": "WTI 배럴당 $99.64선 박스권 안정",
+      "badge": "WTI $99.72",
+      "title": "WTI 배럴당 $99.72선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$99.64",
-          "chg": "-2.77%",
+          "val": "$99.72",
+          "chg": "-2.69%",
           "up": false
         }
       ],
       "bullets": [
-        "WTI 선물 $99.64/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $99.72/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -307,32 +307,32 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.55,
-      "change": 1.24
+      "price": 6.54,
+      "change": 1.08
     },
     "gold": {
-      "price": 4419.3,
-      "change": 1.26
+      "price": 4408.5,
+      "change": 1.01
     },
     "silver": {
-      "price": 65.34,
-      "change": 1.65
+      "price": 65.11,
+      "change": 1.29
     },
     "wti": {
-      "price": 99.64,
-      "change": -2.77
+      "price": 99.72,
+      "change": -2.69
     },
     "usdkrw": {
-      "price": 1340.24,
-      "change": 0.08
+      "price": 1340.53,
+      "change": 0.1
     },
     "dxy": {
-      "price": 99.03,
-      "change": -0.06
+      "price": 99.04,
+      "change": -0.05
     },
     "usdjpy": {
-      "price": 153.55,
-      "change": -0.01
+      "price": 153.6,
+      "change": 0.02
     }
   },
   "history_20d": {
@@ -595,9 +595,9 @@
       },
       {
         "date": "09-11",
-        "copper": 6.55,
-        "gold": 4419.3,
-        "silver": 65.34
+        "copper": 6.54,
+        "gold": 4408.5,
+        "silver": 65.11
       }
     ],
     "fx": [
@@ -717,9 +717,9 @@
       },
       {
         "date": "09-11",
-        "usdkrw": 1340.24,
-        "dxy": 99.03,
-        "usdjpy": 153.55
+        "usdkrw": 1340.53,
+        "dxy": 99.04,
+        "usdjpy": 153.6
       }
     ],
     "oil": [
@@ -820,8 +820,8 @@
       },
       {
         "date": "09-11",
-        "wti": 99.64,
-        "change": -2.77
+        "wti": 99.72,
+        "change": -2.69
       }
     ]
   },
@@ -1529,7 +1529,7 @@
         "rank": 1,
         "title": "Unknown Planet",
         "channel": "IU - Topic",
-        "views": "112만회",
+        "views": "113만회",
         "thumb": "https://i.ytimg.com/vi/KHqDMwHpdy8/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=KHqDMwHpdy8"
       },
@@ -1561,7 +1561,7 @@
         "rank": 5,
         "title": "홍상수 감독, 김민희 주연 [눈 둘 데가 없네] 국내 예고편 공개 | Nowhere to Lay My Eyes",
         "channel": "KoreaFilm 코리아필름",
-        "views": "4,640회",
+        "views": "4,727회",
         "thumb": "https://i.ytimg.com/vi/1Z5QujveRE0/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=1Z5QujveRE0"
       },
@@ -1577,7 +1577,7 @@
         "rank": 7,
         "title": "Please Be Happy",
         "channel": "Lim Young Woong - Topic",
-        "views": "56만회",
+        "views": "57만회",
         "thumb": "https://i.ytimg.com/vi/PEpWLTge234/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=PEpWLTge234"
       },
