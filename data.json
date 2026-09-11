@@ -1,28 +1,28 @@
 {
-  "updated_at": "2026-09-11 23:05:33",
+  "updated_at": "2026-09-11 23:28:58",
   "us2y": {
-    "value": 4.56,
-    "change": 0.13
+    "value": 4.37,
+    "change": -0.01
   },
   "us5y": {
     "value": 4.74,
     "change": 0.01
   },
   "us10y": {
-    "value": 4.92,
-    "change": -0.02
+    "value": 4.93,
+    "change": -0.01
   },
   "us30y": {
-    "value": 5.32,
-    "change": -0.04
+    "value": 5.33,
+    "change": -0.03
   },
   "spread": {
-    "value": 36,
+    "value": 56,
     "status": "정상화 (우상향)"
   },
   "vix": {
-    "value": 16.09,
-    "change": -9.81
+    "value": 15.9,
+    "change": -10.87
   },
   "tech_news": [
     {
@@ -184,43 +184,43 @@
   },
   "macro_reviews": {
     "bonds": {
-      "badge": "스프레드 +36 bp",
-      "title": "미국채 10년물 4.92%선 공방과 정상화",
+      "badge": "스프레드 +56 bp",
+      "title": "미국채 10년물 4.93%선 공방과 정상화",
       "metrics": [
         {
           "id": "spread",
           "name": "10Y-2Y차",
-          "val": "+36 bp",
+          "val": "+56 bp",
           "chg": "정상화 (우상향)",
           "up": true
         },
         {
           "id": "us10y",
           "name": "10년물",
-          "val": "4.92%",
-          "chg": "+0.05%",
-          "up": true
+          "val": "4.93%",
+          "chg": "-0.01%",
+          "up": false
         },
         {
           "id": "us2y",
           "name": "2년물",
-          "val": "4.56%",
-          "chg": "-0.29%",
+          "val": "4.37%",
+          "chg": "-0.01%",
           "up": false
         },
         {
           "id": "us30y",
           "name": "30년물",
-          "val": "5.32%",
-          "chg": "-0.01%",
+          "val": "5.33%",
+          "chg": "-0.03%",
           "up": false
         }
       ],
       "bullets": [
-        "10년물 4.92%와 2년물 4.56% 형성으로 스프레드 +36 bp 유지",
-        "초장기 30년물 5.32%선 안착 속 재정 적자 발행에 따른 기간 프리미엄"
+        "10년물 4.93%와 2년물 4.37% 형성으로 스프레드 +56 bp 유지",
+        "초장기 30년물 5.33%선 안착 속 재정 적자 발행에 따른 기간 프리미엄"
       ],
-      "detail": "10Y-2Y 스프레드가 +36 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
+      "detail": "10Y-2Y 스프레드가 +56 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
       "badge": "구리 $6.56",
@@ -236,34 +236,34 @@
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,432.0",
-          "chg": "+1.55%",
+          "val": "$4,421.1",
+          "chg": "+1.30%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$65.49",
-          "chg": "+1.88%",
+          "val": "$65.32",
+          "chg": "+1.62%",
           "up": true
         }
       ],
       "bullets": [
         "구리 $6.56/lb (+1.39%) - AI 전력망 설비 수요 반영",
-        "금 $4,432/oz, 은 $65.49/oz - 통화가치 헤지"
+        "금 $4,421/oz, 은 $65.32/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,339원 | 엔/달러 ¥153.4",
-      "title": "원/달러 1,339.1원선과 엔/달러 ¥153.4",
+      "badge": "원/달러 1,339원 | 엔/달러 ¥153.6",
+      "title": "원/달러 1,339.5원선과 엔/달러 ¥153.6",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,339.1원",
-          "chg": "-0.01%",
-          "up": false
+          "val": "1,339.5원",
+          "chg": "+0.02%",
+          "up": true
         },
         {
           "id": "dxy",
@@ -275,31 +275,31 @@
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥153.43",
-          "chg": "-0.09%",
-          "up": false
+          "val": "¥153.58",
+          "chg": "+0.01%",
+          "up": true
         }
       ],
       "bullets": [
         "달러 인덱스 99.02pt - 미국 성장 우위 지속",
-        "엔/달러 153.43엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "엔/달러 153.58엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $99.06",
-      "title": "WTI 배럴당 $99.06선 박스권 안정",
+      "badge": "WTI $99.55",
+      "title": "WTI 배럴당 $99.55선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$99.06",
-          "chg": "-3.34%",
+          "val": "$99.55",
+          "chg": "-2.86%",
           "up": false
         }
       ],
       "bullets": [
-        "WTI 선물 $99.06/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $99.55/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -311,28 +311,28 @@
       "change": 1.39
     },
     "gold": {
-      "price": 4432.0,
-      "change": 1.55
+      "price": 4421.1,
+      "change": 1.3
     },
     "silver": {
-      "price": 65.49,
-      "change": 1.88
+      "price": 65.32,
+      "change": 1.62
     },
     "wti": {
-      "price": 99.06,
-      "change": -3.34
+      "price": 99.55,
+      "change": -2.86
     },
     "usdkrw": {
-      "price": 1339.08,
-      "change": -0.01
+      "price": 1339.48,
+      "change": 0.02
     },
     "dxy": {
       "price": 99.02,
       "change": -0.07
     },
     "usdjpy": {
-      "price": 153.43,
-      "change": -0.09
+      "price": 153.58,
+      "change": 0.01
     }
   },
   "history_20d": {
@@ -347,23 +347,23 @@
       {
         "date": "08-17",
         "us10y": 4.72,
-        "us2y": 4.19,
+        "us2y": 4.18,
         "us30y": 5.31,
-        "spread": 53
+        "spread": 54
       },
       {
         "date": "08-18",
         "us10y": 4.71,
-        "us2y": 4.19,
+        "us2y": 4.18,
         "us30y": 5.28,
-        "spread": 52
+        "spread": 53
       },
       {
         "date": "08-19",
         "us10y": 4.65,
-        "us2y": 4.19,
+        "us2y": 4.18,
         "us30y": 5.19,
-        "spread": 46
+        "spread": 47
       },
       {
         "date": "08-20",
@@ -375,9 +375,9 @@
       {
         "date": "08-21",
         "us10y": 4.74,
-        "us2y": 4.24,
+        "us2y": 4.23,
         "us30y": 5.28,
-        "spread": 50
+        "spread": 51
       },
       {
         "date": "08-24",
@@ -389,37 +389,37 @@
       {
         "date": "08-25",
         "us10y": 4.64,
-        "us2y": 4.17,
+        "us2y": 4.2,
         "us30y": 5.17,
-        "spread": 47
+        "spread": 44
       },
       {
         "date": "08-26",
         "us10y": 4.66,
-        "us2y": 4.19,
+        "us2y": 4.22,
         "us30y": 5.19,
-        "spread": 47
+        "spread": 44
       },
       {
         "date": "08-27",
         "us10y": 4.67,
-        "us2y": 4.2,
+        "us2y": 4.23,
         "us30y": 5.19,
-        "spread": 47
+        "spread": 44
       },
       {
         "date": "08-28",
         "us10y": 4.72,
-        "us2y": 4.34,
+        "us2y": 4.35,
         "us30y": 5.21,
-        "spread": 38
+        "spread": 37
       },
       {
         "date": "08-31",
         "us10y": 4.76,
-        "us2y": 4.34,
+        "us2y": 4.35,
         "us30y": 5.25,
-        "spread": 42
+        "spread": 41
       },
       {
         "date": "09-01",
@@ -438,44 +438,44 @@
       {
         "date": "09-03",
         "us10y": 4.76,
-        "us2y": 4.34,
+        "us2y": 4.33,
         "us30y": 5.24,
-        "spread": 42
+        "spread": 43
       },
       {
         "date": "09-04",
         "us10y": 4.78,
-        "us2y": 4.37,
+        "us2y": 4.38,
         "us30y": 5.25,
-        "spread": 41
+        "spread": 40
       },
       {
         "date": "09-08",
         "us10y": 4.81,
-        "us2y": 4.39,
+        "us2y": 4.37,
         "us30y": 5.26,
-        "spread": 42
+        "spread": 44
       },
       {
         "date": "09-09",
         "us10y": 4.84,
-        "us2y": 4.43,
+        "us2y": 4.37,
         "us30y": 5.29,
-        "spread": 41
+        "spread": 47
       },
       {
         "date": "09-10",
         "us10y": 4.94,
-        "us2y": 4.56,
+        "us2y": 4.37,
         "us30y": 5.36,
-        "spread": 38
+        "spread": 57
       },
       {
         "date": "09-11",
-        "us10y": 4.92,
-        "us2y": 4.56,
-        "us30y": 5.32,
-        "spread": 36
+        "us10y": 4.93,
+        "us2y": 4.37,
+        "us30y": 5.33,
+        "spread": 56
       }
     ],
     "commodities": [
@@ -596,8 +596,8 @@
       {
         "date": "09-11",
         "copper": 6.56,
-        "gold": 4432.0,
-        "silver": 65.49
+        "gold": 4421.1,
+        "silver": 65.32
       }
     ],
     "fx": [
@@ -717,9 +717,9 @@
       },
       {
         "date": "09-11",
-        "usdkrw": 1339.08,
+        "usdkrw": 1339.48,
         "dxy": 99.02,
-        "usdjpy": 153.43
+        "usdjpy": 153.58
       }
     ],
     "oil": [
@@ -820,8 +820,8 @@
       },
       {
         "date": "09-11",
-        "wti": 99.06,
-        "change": -3.34
+        "wti": 99.55,
+        "change": -2.86
       }
     ]
   },
@@ -1529,7 +1529,7 @@
         "rank": 1,
         "title": "Unknown Planet",
         "channel": "IU - Topic",
-        "views": "110만회",
+        "views": "112만회",
         "thumb": "https://i.ytimg.com/vi/KHqDMwHpdy8/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=KHqDMwHpdy8"
       },
@@ -1545,36 +1545,12 @@
         "rank": 3,
         "title": "아저씨가 잠시 빌려갈게",
         "channel": "랄로",
-        "views": "93만회",
+        "views": "94만회",
         "thumb": "https://i.ytimg.com/vi/rCHln-ke9bw/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=rCHln-ke9bw"
       },
       {
         "rank": 4,
-        "title": "Please Be Happy",
-        "channel": "Lim Young Woong - Topic",
-        "views": "56만회",
-        "thumb": "https://i.ytimg.com/vi/PEpWLTge234/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=PEpWLTge234"
-      },
-      {
-        "rank": 5,
-        "title": "홍상수 감독, 김민희 주연 [눈 둘 데가 없네] 국내 예고편 공개 | Nowhere to Lay My Eyes",
-        "channel": "KoreaFilm 코리아필름",
-        "views": "4,361회",
-        "thumb": "https://i.ytimg.com/vi/1Z5QujveRE0/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=1Z5QujveRE0"
-      },
-      {
-        "rank": 6,
-        "title": "미션 임파서블",
-        "channel": "PAKA",
-        "views": "43만회",
-        "thumb": "https://i.ytimg.com/vi/YvcSMp2cexE/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=YvcSMp2cexE"
-      },
-      {
-        "rank": 7,
         "title": "꿈꾸던 어른이 되었나요?",
         "channel": "meomuru - Topic",
         "views": "4만회",
@@ -1582,12 +1558,36 @@
         "link": "https://www.youtube.com/watch?v=JJx_WQXOeK0"
       },
       {
+        "rank": 5,
+        "title": "홍상수 감독, 김민희 주연 [눈 둘 데가 없네] 국내 예고편 공개 | Nowhere to Lay My Eyes",
+        "channel": "KoreaFilm 코리아필름",
+        "views": "4,551회",
+        "thumb": "https://i.ytimg.com/vi/1Z5QujveRE0/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=1Z5QujveRE0"
+      },
+      {
+        "rank": 6,
+        "title": "[Limbus Company - PV] Chapter.10 - PUNCTUM",
+        "channel": "ProjectMoon Official",
+        "views": "12만회",
+        "thumb": "https://i.ytimg.com/vi/h5eR27Gle1U/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=h5eR27Gle1U"
+      },
+      {
+        "rank": 7,
+        "title": "Please Be Happy",
+        "channel": "Lim Young Woong - Topic",
+        "views": "56만회",
+        "thumb": "https://i.ytimg.com/vi/PEpWLTge234/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=PEpWLTge234"
+      },
+      {
         "rank": 8,
-        "title": "감스트 넥슨 장사 잘하네 1000만원 현질 fc온라인",
-        "channel": "감스트GAMST",
-        "views": "80만회",
-        "thumb": "https://i.ytimg.com/vi/zHpGSnhqXFk/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=zHpGSnhqXFk"
+        "title": "미션 임파서블",
+        "channel": "PAKA",
+        "views": "44만회",
+        "thumb": "https://i.ytimg.com/vi/YvcSMp2cexE/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=YvcSMp2cexE"
       },
       {
         "rank": 9,
@@ -1599,11 +1599,11 @@
       },
       {
         "rank": 10,
-        "title": "배그 세계 1위 vs 배린이 4명",
-        "channel": "말왕TV",
-        "views": "43만회",
-        "thumb": "https://i.ytimg.com/vi/2t0BRegeS_U/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=2t0BRegeS_U"
+        "title": "감스트 넥슨 장사 잘하네 1000만원 현질 fc온라인",
+        "channel": "감스트GAMST",
+        "views": "81만회",
+        "thumb": "https://i.ytimg.com/vi/zHpGSnhqXFk/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=zHpGSnhqXFk"
       }
     ]
   }
