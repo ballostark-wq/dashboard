@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11 17:06:20",
+  "updated_at": "2026-09-11 18:05:48",
   "us2y": {
     "value": 4.56,
     "change": 0.13
@@ -21,8 +21,8 @@
     "status": "정상화 (우상향)"
   },
   "vix": {
-    "value": 17.71,
-    "change": -0.73
+    "value": 17.41,
+    "change": -2.41
   },
   "tech_news": [
     {
@@ -118,6 +118,11 @@
     ],
     "tech": [
       {
+        "title": "[디일렉] GC녹십자, 코로나19 백신 임상 2상 IND 승인",
+        "link": "https://www.thelec.kr/news/articleView.html?idxno=62173",
+        "date": "09-11 17:21"
+      },
+      {
         "title": "[디일렉] 바이다, 110억 규모 스마트카 국책과제 수행…양산차 개조 없이 무인 이동",
         "link": "https://www.thelec.kr/news/articleView.html?idxno=62184",
         "date": "09-11 16:55"
@@ -128,19 +133,14 @@
         "date": "09-11 16:54"
       },
       {
-        "title": "[디일렉] 이스트소프트-K몬스터그룹, '페르소AI' 글로벌 사업 확대 협력",
-        "link": "https://www.thelec.kr/news/articleView.html?idxno=62192",
-        "date": "09-11 16:54"
+        "title": "[전자신문] 키오스크 치우고…美 패스트푸드가 다시 직원 찾는 이유",
+        "link": "https://www.etnews.com/20260911000313",
+        "date": "09-11 17:51"
       },
       {
-        "title": "[전자신문] 국민연금, 기금운용에 LG '엑사원' 적용…기금운용 AI 전환 시동",
-        "link": "https://www.etnews.com/20260911000173",
-        "date": "09-11 17:01"
-      },
-      {
-        "title": "[전자신문] LG AI연구원, 국민연금공단과 '기금운용 특화 AI' 개발한다",
-        "link": "https://www.etnews.com/20260911000240",
-        "date": "09-11 17:00"
+        "title": "[전자신문] “AI로 인류 멸망” 경고에…앤트로픽 “치명적 '모기 바이러스' 무기화 시도…AI 악용 차단”",
+        "link": "https://www.etnews.com/20260911000108",
+        "date": "09-11 17:50"
       }
     ],
     "domestic": [
@@ -236,70 +236,70 @@
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,384.6",
-          "chg": "+0.46%",
+          "val": "$4,390.3",
+          "chg": "+0.59%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$64.44",
-          "chg": "+0.25%",
+          "val": "$64.62",
+          "chg": "+0.53%",
           "up": true
         }
       ],
       "bullets": [
         "구리 $6.55/lb (+1.24%) - AI 전력망 설비 수요 반영",
-        "금 $4,385/oz, 은 $64.44/oz - 통화가치 헤지"
+        "금 $4,390/oz, 은 $64.62/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,345원 | 엔/달러 ¥154.2",
-      "title": "원/달러 1,345.2원선과 엔/달러 ¥154.2",
+      "badge": "원/달러 1,343원 | 엔/달러 ¥154.1",
+      "title": "원/달러 1,343.4원선과 엔/달러 ¥154.1",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,345.2원",
-          "chg": "+0.45%",
+          "val": "1,343.4원",
+          "chg": "+0.31%",
           "up": true
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "99.09pt",
-          "chg": "+0.00%",
+          "val": "99.12pt",
+          "chg": "+0.03%",
           "up": true
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥154.25",
-          "chg": "+0.44%",
+          "val": "¥154.12",
+          "chg": "+0.36%",
           "up": true
         }
       ],
       "bullets": [
-        "달러 인덱스 99.09pt - 미국 성장 우위 지속",
-        "엔/달러 154.25엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 99.12pt - 미국 성장 우위 지속",
+        "엔/달러 154.12엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $101.08",
-      "title": "WTI 배럴당 $101.08선 박스권 안정",
+      "badge": "WTI $99.96",
+      "title": "WTI 배럴당 $99.96선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$101.08",
-          "chg": "-1.37%",
+          "val": "$99.96",
+          "chg": "-2.46%",
           "up": false
         }
       ],
       "bullets": [
-        "WTI 선물 $101.08/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $99.96/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -311,28 +311,28 @@
       "change": 1.24
     },
     "gold": {
-      "price": 4384.6,
-      "change": 0.46
+      "price": 4390.3,
+      "change": 0.59
     },
     "silver": {
-      "price": 64.44,
-      "change": 0.25
+      "price": 64.62,
+      "change": 0.53
     },
     "wti": {
-      "price": 101.08,
-      "change": -1.37
+      "price": 99.96,
+      "change": -2.46
     },
     "usdkrw": {
-      "price": 1345.18,
-      "change": 0.45
+      "price": 1343.37,
+      "change": 0.31
     },
     "dxy": {
-      "price": 99.09,
-      "change": 0.0
+      "price": 99.12,
+      "change": 0.03
     },
     "usdjpy": {
-      "price": 154.25,
-      "change": 0.44
+      "price": 154.12,
+      "change": 0.36
     }
   },
   "history_20d": {
@@ -596,8 +596,8 @@
       {
         "date": "09-11",
         "copper": 6.55,
-        "gold": 4384.6,
-        "silver": 64.44
+        "gold": 4390.3,
+        "silver": 64.62
       }
     ],
     "fx": [
@@ -717,9 +717,9 @@
       },
       {
         "date": "09-11",
-        "usdkrw": 1345.18,
-        "dxy": 99.09,
-        "usdjpy": 154.25
+        "usdkrw": 1343.37,
+        "dxy": 99.12,
+        "usdjpy": 154.12
       }
     ],
     "oil": [
@@ -820,8 +820,8 @@
       },
       {
         "date": "09-11",
-        "wti": 101.08,
-        "change": -1.37
+        "wti": 99.96,
+        "change": -2.46
       }
     ]
   },
@@ -1475,53 +1475,53 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "코스피 코스닥 하락",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%BD%94%EC%8A%A4%ED%94%BC%20%EC%BD%94%EC%8A%A4%EB%8B%A5%20%ED%95%98%EB%9D%BD"
-      },
-      {
-        "rank": 2,
         "title": "이종섭 1심 무죄",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EC%A2%85%EC%84%AD%201%EC%8B%AC%20%EB%AC%B4%EC%A3%84"
       },
       {
+        "rank": 2,
+        "title": "LG 국민연금 AI 개발",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=LG%20%EA%B5%AD%EB%AF%BC%EC%97%B0%EA%B8%88%20AI%20%EA%B0%9C%EB%B0%9C"
+      },
+      {
         "rank": 3,
-        "title": "이재명 대통령 수석보좌관회의",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EC%9E%AC%EB%AA%85%20%EB%8C%80%ED%86%B5%EB%A0%B9%20%EC%88%98%EC%84%9D%EB%B3%B4%EC%A2%8C%EA%B4%80%ED%9A%8C%EC%9D%98"
-      },
-      {
-        "rank": 4,
-        "title": "한동훈 총리실 직원 논란",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%9C%EB%8F%99%ED%9B%88%20%EC%B4%9D%EB%A6%AC%EC%8B%A4%20%EC%A7%81%EC%9B%90%20%EB%85%BC%EB%9E%80"
-      },
-      {
-        "rank": 5,
-        "title": "무인 항공기",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%AC%B4%EC%9D%B8%20%ED%95%AD%EA%B3%B5%EA%B8%B0"
-      },
-      {
-        "rank": 6,
-        "title": "LH 분리 본사 진주",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=LH%20%EB%B6%84%EB%A6%AC%20%EB%B3%B8%EC%82%AC%20%EC%A7%84%EC%A3%BC"
-      },
-      {
-        "rank": 7,
-        "title": "출석하는 김종인 전 비대위원장",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B6%9C%EC%84%9D%ED%95%98%EB%8A%94%20%EA%B9%80%EC%A2%85%EC%9D%B8%20%EC%A0%84%20%EB%B9%84%EB%8C%80%EC%9C%84%EC%9B%90%EC%9E%A5"
-      },
-      {
-        "rank": 8,
-        "title": "김상욱",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%83%81%EC%9A%B1"
-      },
-      {
-        "rank": 9,
         "title": "나라살림 적자 5년 만에 최소",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%82%98%EB%9D%BC%EC%82%B4%EB%A6%BC%20%EC%A0%81%EC%9E%90%205%EB%85%84%20%EB%A7%8C%EC%97%90%20%EC%B5%9C%EC%86%8C"
       },
       {
+        "rank": 4,
+        "title": "추연성 11월 결혼",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B6%94%EC%97%B0%EC%84%B1%2011%EC%9B%94%20%EA%B2%B0%ED%98%BC"
+      },
+      {
+        "rank": 5,
+        "title": "김도영 선수단 합류",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EB%8F%84%EC%98%81%20%EC%84%A0%EC%88%98%EB%8B%A8%20%ED%95%A9%EB%A5%98"
+      },
+      {
+        "rank": 6,
+        "title": "조용형",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A1%B0%EC%9A%A9%ED%98%95"
+      },
+      {
+        "rank": 7,
+        "title": "9월 초 수출 역대 최대",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=9%EC%9B%94%20%EC%B4%88%20%EC%88%98%EC%B6%9C%20%EC%97%AD%EB%8C%80%20%EC%B5%9C%EB%8C%80"
+      },
+      {
+        "rank": 8,
+        "title": "유현조",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9C%A0%ED%98%84%EC%A1%B0"
+      },
+      {
+        "rank": 9,
+        "title": "SMR 특별법 시행",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=SMR%20%ED%8A%B9%EB%B3%84%EB%B2%95%20%EC%8B%9C%ED%96%89"
+      },
+      {
         "rank": 10,
-        "title": "메이저 우승 정조준",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%A9%94%EC%9D%B4%EC%A0%80%20%EC%9A%B0%EC%8A%B9%20%EC%A0%95%EC%A1%B0%EC%A4%80"
+        "title": "근로복지공단",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B7%BC%EB%A1%9C%EB%B3%B5%EC%A7%80%EA%B3%B5%EB%8B%A8"
       }
     ],
     "youtube_popular": [
@@ -1529,7 +1529,7 @@
         "rank": 1,
         "title": "Unknown Planet",
         "channel": "IU - Topic",
-        "views": "84만회",
+        "views": "86만회",
         "thumb": "https://i.ytimg.com/vi/KHqDMwHpdy8/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=KHqDMwHpdy8"
       },
@@ -1545,7 +1545,7 @@
         "rank": 3,
         "title": "아저씨가 잠시 빌려갈게",
         "channel": "랄로",
-        "views": "83만회",
+        "views": "84만회",
         "thumb": "https://i.ytimg.com/vi/rCHln-ke9bw/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=rCHln-ke9bw"
       },
@@ -1583,27 +1583,27 @@
       },
       {
         "rank": 8,
+        "title": "홍상수 감독, 김민희 주연 [눈 둘 데가 없네] 국내 예고편 공개 | Nowhere to Lay My Eyes",
+        "channel": "KoreaFilm 코리아필름",
+        "views": "1,545회",
+        "thumb": "https://i.ytimg.com/vi/1Z5QujveRE0/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=1Z5QujveRE0"
+      },
+      {
+        "rank": 9,
         "title": "감스트 넥슨 장사 잘하네 1000만원 현질 fc온라인",
         "channel": "감스트GAMST",
-        "views": "72만회",
+        "views": "73만회",
         "thumb": "https://i.ytimg.com/vi/zHpGSnhqXFk/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=zHpGSnhqXFk"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "title": "Guitarist",
         "channel": "D.O. - Topic",
-        "views": "70만회",
+        "views": "71만회",
         "thumb": "https://i.ytimg.com/vi/svHUxtHIljw/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=svHUxtHIljw"
-      },
-      {
-        "rank": 10,
-        "title": "배그 세계 1위 vs 배린이 4명",
-        "channel": "말왕TV",
-        "views": "38만회",
-        "thumb": "https://i.ytimg.com/vi/2t0BRegeS_U/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=2t0BRegeS_U"
       }
     ]
   }
