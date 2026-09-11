@@ -579,28 +579,81 @@ def load_humanities_from_pool(existing_humanities=None):
     }
 
 
+# [수정된 코드블럭]
 def fetch_naver_bond_history(item_code, fallback_series):
     results = {}
-    headers = {**HEADERS, "Referer": "https://finance.naver.com/"}
-    for page in [1, 2, 3]:
-        url = f"https://finance.naver.com/marketindex/worldDailyQuote.naver?marketindexCd={item_code}&fdtc=4&page={page}"
+    
+    # 1차 시도: 다음 금융(Daum Finance) API (GitHub Actions 차단 우회용)
+    daum_code_map = {
+        "IRRD_BONDU10Y": "US.T10Y",
+        "IRRD_BONDU02Y": "US.T2Y",
+        "IRRD_BONDU30Y": "US.T30Y",
+    }
+    daum_code = daum_code_map.get(item_code)
+    if daum_code:
+        daum_url = f"https://finance.daum.net/api/global/indexes/{daum_code}/days?symbolCode={daum_code}&page=1&perPage=20"
+        daum_headers = {
+            "User-Agent": HEADERS["User-Agent"],
+            "Referer": f"https://finance.daum.net/global/indexes/{daum_code}"
+        }
         try:
-            res = requests.get(url, headers=headers, timeout=5)
+            res = requests.get(daum_url, headers=daum_headers, timeout=5)
             if res.status_code == 200:
-                res.encoding = "euc-kr"
-                rows = re.findall(
-                    r'<td[^>]*class=["\']date["\'][^>]*>\s*([\d\.]+)\s*</td>\s*<td[^>]*class=["\']num["\'][^>]*>\s*([\d\.,]+)\s*</td>',
-                    res.text,
-                )
-                for d_str, p_str in rows:
-                    clean_d = d_str.strip().replace(".", "-")
-                    parts = clean_d.split("-")
-                    mmdd = f"{parts[1]}-{parts[2]}" if len(parts) >= 3 else clean_d
-                    results[mmdd] = round(float(p_str.replace(",", "")), 2)
-        except Exception:
-            pass
+                data = res.json()
+                for item in data.get("data", []):
+                    date_val = item.get("date", "")
+                    price_val = item.get("tradePrice")
+                    if date_val and price_val is not None:
+                        parts = date_val.split()[0].split("-")
+                        if len(parts) >= 3:
+                            mmdd = f"{parts[1]}-{parts[2]}"
+                            results[mmdd] = round(float(price_val), 2)
+        except Exception as e:
+            print(f"Daum API 수집 오류 ({daum_code}): {e}")
 
+    # 2차 시도: 네이버 모바일 JSON API (Daum 실패 시 방어 로직)
     if len(results) < 10:
+        naver_api_url = f"https://m.stock.naver.com/api/index/worldMarketIndex/{item_code}/price?pageSize=20&page=1"
+        naver_headers = {"User-Agent": HEADERS["User-Agent"], "Referer": "https://m.stock.naver.com/"}
+        try:
+            res = requests.get(naver_api_url, headers=naver_headers, timeout=5)
+            if res.status_code == 200:
+                data = res.json()
+                for item in data:
+                    dt_str = item.get("localTradedAt", "")
+                    price_str = str(item.get("closePrice", "0")).replace(",", "")
+                    if dt_str and price_str:
+                        parts = dt_str.split("-")
+                        if len(parts) >= 3:
+                            mmdd = f"{parts[1]}-{parts[2]}"
+                            results[mmdd] = round(float(price_str), 2)
+        except Exception as e:
+            print(f"Naver 모바일 API 수집 오류 ({item_code}): {e}")
+
+    # 3차 시도: 기존 네이버 HTML 파싱 (API가 모두 막혔을 경우)
+    if len(results) < 10:
+        headers = {**HEADERS, "Referer": "https://finance.naver.com/"}
+        for page in [1, 2, 3]:
+            url = f"https://finance.naver.com/marketindex/worldDailyQuote.naver?marketindexCd={item_code}&fdtc=4&page={page}"
+            try:
+                res = requests.get(url, headers=headers, timeout=5)
+                if res.status_code == 200:
+                    res.encoding = "euc-kr"
+                    rows = re.findall(
+                        r'<td[^>]*class=["\']date["\'][^>]*>\s*([\d\.]+)\s*</td>\s*<td[^>]*class=["\']num["\'][^>]*>\s*([\d\.,]+)\s*</td>',
+                        res.text,
+                    )
+                    for d_str, p_str in rows:
+                        clean_d = d_str.strip().replace(".", "-")
+                        parts = clean_d.split("-")
+                        mmdd = f"{parts[1]}-{parts[2]}" if len(parts) >= 3 else clean_d
+                        results[mmdd] = round(float(p_str.replace(",", "")), 2)
+            except Exception:
+                pass
+
+    # 모든 수집 실패 시 하드코딩된 폴백(Fallback) 데이터 적용
+    if len(results) < 10:
+        print(f"⚠️ [경고] {item_code} 수집 실패로 폴백 데이터가 적용됩니다.")
         for d_str, val in fallback_series:
             results[d_str] = val
 
