@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12 23:04:58",
+  "updated_at": "2026-09-13 00:05:34",
   "us2y": {
     "value": 4.63,
     "change": 0.07
@@ -919,24 +919,40 @@
     }
   },
   "humanities": {
-    "history_date": "2026-09-12",
+    "history_date": "2026-09-13",
     "history": {
-      "era": "1700년 ~ 1869년 (1746년)",
-      "region": "한국",
-      "year": "1746년",
-      "title": "[1746년] [한국] 「속대전」 간행",
-      "summary": "1746년 - 「속대전」 간행",
+      "era": "1700년 ~ 1869년 (1840년)",
+      "region": "세계",
+      "year": "1840년",
+      "title": "[1840년] [세계] 아편 전쟁(∼1842)",
+      "summary": "1840년 - 아편 전쟁(∼1842)",
       "bullets": [
-        "발생 연대: 1746년 (한국사)",
-        "「속대전」 간행",
+        "발생 연대: 1840년 (세계사)",
+        "아편 전쟁(∼1842)",
         "당대 세력 균형 및 정치·경제적 제도 변화 반영"
       ],
-      "insight": "1746년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
-      "ref_title": "위키백과 세계사 연표: 1700년 ~ 1869년 (1746년)",
-      "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1700%EB%85%84_~_1869%EB%85%84:~:text=1746",
+      "insight": "1840년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
+      "ref_title": "위키백과 세계사 연표: 1700년 ~ 1869년 (1840년)",
+      "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1700%EB%85%84_~_1869%EB%85%84:~:text=1840",
       "d_day": "오늘"
     },
     "history_5d": [
+      {
+        "era": "1700년 ~ 1869년 (1840년)",
+        "region": "세계",
+        "year": "1840년",
+        "title": "[1840년] [세계] 아편 전쟁(∼1842)",
+        "summary": "1840년 - 아편 전쟁(∼1842)",
+        "bullets": [
+          "발생 연대: 1840년 (세계사)",
+          "아편 전쟁(∼1842)",
+          "당대 세력 균형 및 정치·경제적 제도 변화 반영"
+        ],
+        "insight": "1840년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
+        "ref_title": "위키백과 세계사 연표: 1700년 ~ 1869년 (1840년)",
+        "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1700%EB%85%84_~_1869%EB%85%84:~:text=1840",
+        "d_day": "오늘"
+      },
       {
         "era": "1700년 ~ 1869년 (1746년)",
         "region": "한국",
@@ -951,7 +967,7 @@
         "insight": "1746년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1700년 ~ 1869년 (1746년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1700%EB%85%84_~_1869%EB%85%84:~:text=1746",
-        "d_day": "오늘"
+        "d_day": "D-1"
       },
       {
         "era": "1466년 ~ 1699년 (1689년)",
@@ -967,7 +983,7 @@
         "insight": "1689년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1466년 ~ 1699년 (1689년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1466%EB%85%84_~_1699%EB%85%84:~:text=1689",
-        "d_day": "D-1"
+        "d_day": "D-2"
       },
       {
         "era": "1466년 ~ 1699년 (1654년)",
@@ -983,7 +999,7 @@
         "insight": "1654년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1466년 ~ 1699년 (1654년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1466%EB%85%84_~_1699%EB%85%84:~:text=1654",
-        "d_day": "D-2"
+        "d_day": "D-3"
       },
       {
         "era": "1466년 ~ 1699년 (1689년)",
@@ -999,91 +1015,138 @@
         "insight": "1689년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1466년 ~ 1699년 (1689년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1466%EB%85%84_~_1699%EB%85%84:~:text=1689",
-        "d_day": "D-3"
-      },
-      {
-        "era": "1076년 ~ 1455년 (1441년)",
-        "region": "한국",
-        "year": "1441년",
-        "title": "[1441년] [한국] 측우기 제작",
-        "summary": "1441년 - 측우기 제작",
-        "bullets": [
-          "발생 연대: 1441년 (한국사)",
-          "측우기 제작",
-          "당대 세력 균형 및 정치·경제적 제도 변화 반영"
-        ],
-        "insight": "1441년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
-        "ref_title": "위키백과 세계사 연표: 1076년 ~ 1455년 (1441년)",
-        "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1076%EB%85%84_~_1455%EB%85%84:~:text=1441",
         "d_day": "D-4"
       }
     ],
     "polyglot": {
-      "theme": "도움 요청",
-      "type": "기초",
-      "meaning": "잠시 도와주실 수 있나요?",
+      "theme": "음식과 건강: 얼굴·두통",
+      "meaning": "편두통이 있어.",
       "translations": {
         "en": {
           "code": "en-US",
           "name": "영어",
           "flag": "🇺🇸",
-          "text": "Could you please help me for a moment?",
-          "roman": "쿠쥬 플리즈 헬프 미 포 어 모먼트?"
+          "text": "I have a migraine.",
+          "roman": ""
         },
         "ja": {
           "code": "ja-JP",
           "name": "일본어",
           "flag": "🇯🇵",
-          "text": "少し手伝っていただけますか？",
-          "roman": "스코시 테츠닷테 이타다케마스 카?"
+          "text": "偏頭痛がするんだ。",
+          "roman": "Henzutsū ga suru n da."
         },
         "zh": {
           "code": "zh-CN",
           "name": "중국어",
           "flag": "🇨🇳",
-          "text": "能请你帮我一下吗？",
-          "roman": "넝 칭 니 방 워 이샤 마?"
+          "text": "我犯偏头痛了。",
+          "roman": "Wǒ fàn piāntóutòng le."
         },
         "fr": {
           "code": "fr-FR",
           "name": "프랑스어",
           "flag": "🇫🇷",
-          "text": "Pourriez-vous m'aider un instant, s'il vous plaît ?",
-          "roman": "푸리에 부 메데 앙 앵스탕, 실 부 플레?"
+          "text": "J'ai une migraine.",
+          "roman": ""
         },
         "de": {
           "code": "de-DE",
           "name": "독일어",
           "flag": "🇩🇪",
-          "text": "Könnten Sie mir bitte kurz helfen?",
-          "roman": "켠텐 지 미어 비테 쿠르츠 헬펜?"
+          "text": "Ich habe Migräne.",
+          "roman": ""
         },
         "es": {
           "code": "es-ES",
           "name": "스페인어",
           "flag": "🇪🇸",
-          "text": "¿Podría ayudarme un momento, por favor?",
-          "roman": "뽀드리아 아유다르메 운 모멘토, 뽀르 파보르?"
+          "text": "Tengo migraña.",
+          "roman": ""
         },
         "ar": {
           "code": "ar-SA",
           "name": "아랍어",
           "flag": "🇸🇦",
-          "text": "هل يمكنك مساعدتي للحظة من فضلك؟",
-          "roman": "할 윰키누카 무사아다티 릴라흐자 민 파들릭?"
+          "text": "أعاني من صداع نصفي.",
+          "roman": "U'ānī min ṣudā'in niṣfī."
         },
         "ru": {
           "code": "ru-RU",
           "name": "러시아어",
           "flag": "🇷🇺",
-          "text": "Не могли бы вы мне помочь?",
-          "roman": "니 마글리 브이 므녜 빠모치?"
+          "text": "У меня мигрень.",
+          "roman": "U menya migren'."
         }
       },
-      "pool_type": "기초",
+      "pool_type": "일상",
       "d_day": "오늘"
     },
     "polyglot_5d": [
+      {
+        "theme": "음식과 건강: 얼굴·두통",
+        "meaning": "편두통이 있어.",
+        "translations": {
+          "en": {
+            "code": "en-US",
+            "name": "영어",
+            "flag": "🇺🇸",
+            "text": "I have a migraine.",
+            "roman": ""
+          },
+          "ja": {
+            "code": "ja-JP",
+            "name": "일본어",
+            "flag": "🇯🇵",
+            "text": "偏頭痛がするんだ。",
+            "roman": "Henzutsū ga suru n da."
+          },
+          "zh": {
+            "code": "zh-CN",
+            "name": "중국어",
+            "flag": "🇨🇳",
+            "text": "我犯偏头痛了。",
+            "roman": "Wǒ fàn piāntóutòng le."
+          },
+          "fr": {
+            "code": "fr-FR",
+            "name": "프랑스어",
+            "flag": "🇫🇷",
+            "text": "J'ai une migraine.",
+            "roman": ""
+          },
+          "de": {
+            "code": "de-DE",
+            "name": "독일어",
+            "flag": "🇩🇪",
+            "text": "Ich habe Migräne.",
+            "roman": ""
+          },
+          "es": {
+            "code": "es-ES",
+            "name": "스페인어",
+            "flag": "🇪🇸",
+            "text": "Tengo migraña.",
+            "roman": ""
+          },
+          "ar": {
+            "code": "ar-SA",
+            "name": "아랍어",
+            "flag": "🇸🇦",
+            "text": "أعاني من صداع نصفي.",
+            "roman": "U'ānī min ṣudā'in niṣfī."
+          },
+          "ru": {
+            "code": "ru-RU",
+            "name": "러시아어",
+            "flag": "🇷🇺",
+            "text": "У меня мигрень.",
+            "roman": "U menya migren'."
+          }
+        },
+        "pool_type": "일상",
+        "d_day": "오늘"
+      },
       {
         "theme": "도움 요청",
         "type": "기초",
@@ -1147,7 +1210,7 @@
           }
         },
         "pool_type": "기초",
-        "d_day": "오늘"
+        "d_day": "D-1"
       },
       {
         "theme": "음식과 건강: 얼굴·두통",
@@ -1211,7 +1274,7 @@
           }
         },
         "pool_type": "일상",
-        "d_day": "D-1"
+        "d_day": "D-2"
       },
       {
         "theme": "첫 대면",
@@ -1276,7 +1339,7 @@
           }
         },
         "pool_type": "기초",
-        "d_day": "D-2"
+        "d_day": "D-3"
       },
       {
         "theme": "음식과 건강: 얼굴·두통",
@@ -1340,85 +1403,20 @@
           }
         },
         "pool_type": "일상",
-        "d_day": "D-3"
-      },
-      {
-        "theme": "화답 에티켓",
-        "type": "기초",
-        "meaning": "천만에요, 별말씀을요.",
-        "translations": {
-          "en": {
-            "code": "en-US",
-            "name": "영어",
-            "flag": "🇺🇸",
-            "text": "You are very welcome.",
-            "roman": "유 아 베리 웰컴."
-          },
-          "ja": {
-            "code": "ja-JP",
-            "name": "일본어",
-            "flag": "🇯🇵",
-            "text": "どういたしまして。",
-            "roman": "도-이타시마시테."
-          },
-          "zh": {
-            "code": "zh-CN",
-            "name": "중국어",
-            "flag": "🇨🇳",
-            "text": "不客气，不用谢。",
-            "roman": "부커치, 부융 셰."
-          },
-          "fr": {
-            "code": "fr-FR",
-            "name": "프랑스어",
-            "flag": "🇫🇷",
-            "text": "Je vous en prie.",
-            "roman": "즈 부 장 프리."
-          },
-          "de": {
-            "code": "de-DE",
-            "name": "독일어",
-            "flag": "🇩🇪",
-            "text": "Gern geschehen, bitte schön.",
-            "roman": "게른 게셰엔, 비테 쇤."
-          },
-          "es": {
-            "code": "es-ES",
-            "name": "스페인어",
-            "flag": "🇪🇸",
-            "text": "De nada, es un placer.",
-            "roman": "데 나다, 에스 운 쁠라세르."
-          },
-          "ar": {
-            "code": "ar-SA",
-            "name": "아랍어",
-            "flag": "🇸🇦",
-            "text": "على الرحب والسعة.",
-            "roman": "알라르 라흐비 와스-사아."
-          },
-          "ru": {
-            "code": "ru-RU",
-            "name": "러시아어",
-            "flag": "🇷🇺",
-            "text": "Пожалуйста, не за что.",
-            "roman": "빠잘루이스타, 녜 자 슈또."
-          }
-        },
-        "pool_type": "기초",
         "d_day": "D-4"
       }
     ],
     "philosophy": {
-      "thinker": "니콜로 마키아벨리 (Niccolò Machiavelli)",
-      "era": "15~16세기 르네상스 이탈리아",
-      "concept": "비르투(Virtù)와 포르투나(Fortuna)",
-      "quote": "“군주는 사랑받는 존재가 되기보다 두려운 존재가 되는 편이 훨씬 안전하다.”",
+      "thinker": "투키디데스 (Thucydides)",
+      "era": "기원전 5세기 고대 그리스",
+      "concept": "투키디데스 함정 (Thucydides Trap)",
+      "quote": "“전쟁을 불가피하게 만든 것은 아테네의 부상과 그로 인해 스파르타에 심어진 두려움이었다.”",
       "bullets": [
-        "운명의 여신(포르투나)은 거친 강물과 같아, 평소 제방을 쌓아둔 역량(비르투) 있는 자만이 다스릴 수 있음",
-        "이상적 도덕주의를 탈피하여 권력과 인간 본성의 비정한 실재(Realpolitik)를 통찰",
-        "국가의 존립과 지속 가능성을 위해 냉철한 결단과 제도적 강제력을 중시"
+        "급부상하는 신흥 강국과 기존 지배 패권국 사이의 구조적 긴장과 충돌 역학 분석",
+        "국가 행동을 지배하는 3대 근본 동기: 공포(Fear), 명예(Honor), 이익(Interest)",
+        "동맹 네트워크의 확장과 오판이 국지적 갈등을 세계대전급 파국으로 확대시키는 경로 증명"
       ],
-      "application": "미·중 기술 패권 및 공급망 재편 속에서 명분보다 국가의 실익과 독점적 기술 안보를 우선시해야 하는 현대 지정학의 핵심 잣대를 제공합니다."
+      "application": "반도체·AI 인프라를 둘러싼 패권국 간의 배타적 경제 블록화와 전략적 수출 통제 조치의 기저에 깔린 근본 동기를 설명합니다."
     }
   },
   "trends": {
@@ -1477,53 +1475,53 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "사랑의 갈등 온다",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%82%AC%EB%9E%91%EC%9D%98%20%EA%B0%88%EB%93%B1%20%EC%98%A8%EB%8B%A4"
-      },
-      {
-        "rank": 2,
-        "title": "KB금융 챔피언십 3라운드 진행 중",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=KB%EA%B8%88%EC%9C%B5%20%EC%B1%94%ED%94%BC%EC%96%B8%EC%8B%AD%203%EB%9D%BC%EC%9A%B4%EB%93%9C%20%EC%A7%84%ED%96%89%20%EC%A4%91"
-      },
-      {
-        "rank": 3,
         "title": "9월 초 수출 역대 최대",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=9%EC%9B%94%20%EC%B4%88%20%EC%88%98%EC%B6%9C%20%EC%97%AD%EB%8C%80%20%EC%B5%9C%EB%8C%80"
       },
       {
+        "rank": 2,
+        "title": "유부녀 킬러 드라마",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9C%A0%EB%B6%80%EB%85%80%20%ED%82%AC%EB%9F%AC%20%EB%93%9C%EB%9D%BC%EB%A7%88"
+      },
+      {
+        "rank": 3,
+        "title": "너 말고 다른 연애",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%84%88%20%EB%A7%90%EA%B3%A0%20%EB%8B%A4%EB%A5%B8%20%EC%97%B0%EC%95%A0"
+      },
+      {
         "rank": 4,
-        "title": "서인영 쥬얼리 무대에 눈물",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%84%9C%EC%9D%B8%EC%98%81%20%EC%A5%AC%EC%96%BC%EB%A6%AC%20%EB%AC%B4%EB%8C%80%EC%97%90%20%EB%88%88%EB%AC%BC"
+        "title": "고속도로",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B3%A0%EC%86%8D%EB%8F%84%EB%A1%9C"
       },
       {
         "rank": 5,
-        "title": "원자력",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9B%90%EC%9E%90%EB%A0%A5"
-      },
-      {
-        "rank": 6,
         "title": "미국 8월 CPI",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%AF%B8%EA%B5%AD%208%EC%9B%94%20CPI"
       },
       {
+        "rank": 6,
+        "title": "그것이 알고 싶다",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B7%B8%EA%B2%83%EC%9D%B4%20%EC%95%8C%EA%B3%A0%20%EC%8B%B6%EB%8B%A4"
+      },
+      {
         "rank": 7,
-        "title": "안정환 딸 뉴욕대 졸업",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%88%EC%A0%95%ED%99%98%20%EB%94%B8%20%EB%89%B4%EC%9A%95%EB%8C%80%20%EC%A1%B8%EC%97%85"
+        "title": "오산시 공중화장실 교육",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%98%A4%EC%82%B0%EC%8B%9C%20%EA%B3%B5%EC%A4%91%ED%99%94%EC%9E%A5%EC%8B%A4%20%EA%B5%90%EC%9C%A1"
       },
       {
         "rank": 8,
-        "title": "해변",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%B4%EB%B3%80"
-      },
-      {
-        "rank": 9,
         "title": "가평읍 이장 즉석국 기탁",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B0%80%ED%8F%89%EC%9D%8D%20%EC%9D%B4%EC%9E%A5%20%EC%A6%89%EC%84%9D%EA%B5%AD%20%EA%B8%B0%ED%83%81"
       },
       {
+        "rank": 9,
+        "title": "수시 원서접수 먹통 사태",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%88%98%EC%8B%9C%20%EC%9B%90%EC%84%9C%EC%A0%91%EC%88%98%20%EB%A8%B9%ED%86%B5%20%EC%82%AC%ED%83%9C"
+      },
+      {
         "rank": 10,
-        "title": "한동훈 민주당 이빨?",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%9C%EB%8F%99%ED%9B%88%20%EB%AF%BC%EC%A3%BC%EB%8B%B9%20%EC%9D%B4%EB%B9%A8%3F"
+        "title": "무안읍 화재예방 활동",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%AC%B4%EC%95%88%EC%9D%8D%20%ED%99%94%EC%9E%AC%EC%98%88%EB%B0%A9%20%ED%99%9C%EB%8F%99"
       }
     ],
     "youtube_popular": [
@@ -1531,7 +1529,7 @@
         "rank": 1,
         "title": "Dear my crazy soulmate",
         "channel": "IU - Topic",
-        "views": "152만회",
+        "views": "155만회",
         "thumb": "https://i.ytimg.com/vi/IHIt9S2DWcQ/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=IHIt9S2DWcQ"
       },
@@ -1539,7 +1537,7 @@
         "rank": 2,
         "title": "HLE vs T1 | 2026 Wooribank LCK Lower Finals",
         "channel": "LCK Global",
-        "views": "276만회",
+        "views": "281만회",
         "thumb": "https://i.ytimg.com/vi/f9IOOQFgZnw/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=f9IOOQFgZnw"
       },
@@ -1547,7 +1545,7 @@
         "rank": 3,
         "title": "꿈꾸던 어른이 되었나요?",
         "channel": "meomuru - Topic",
-        "views": "20만회",
+        "views": "21만회",
         "thumb": "https://i.ytimg.com/vi/JJx_WQXOeK0/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=JJx_WQXOeK0"
       },
@@ -1555,7 +1553,7 @@
         "rank": 4,
         "title": "리뷰3000개 전부 극찬!! 혜안져스 목숨걸고 하는 생존게임(※40분 순삭)",
         "channel": "혜안",
-        "views": "57만회",
+        "views": "58만회",
         "thumb": "https://i.ytimg.com/vi/NiUP1Pg14RQ/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=NiUP1Pg14RQ"
       },
@@ -1569,17 +1567,17 @@
       },
       {
         "rank": 6,
-        "title": "아저씨가 잠시 빌려갈게",
-        "channel": "랄로",
-        "views": "116만회",
-        "thumb": "https://i.ytimg.com/vi/rCHln-ke9bw/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=rCHln-ke9bw"
+        "title": "원신｜7.1 버전 특별 방송",
+        "channel": "원신",
+        "views": "4만회",
+        "thumb": "https://i.ytimg.com/vi/woqqdemMAgQ/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=woqqdemMAgQ"
       },
       {
         "rank": 7,
         "title": "Made My Night",
         "channel": "LE SSERAFIM - Topic",
-        "views": "42만회",
+        "views": "44만회",
         "thumb": "https://i.ytimg.com/vi/GpsX1d-iMlY/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=GpsX1d-iMlY"
       },
@@ -1587,7 +1585,7 @@
         "rank": 8,
         "title": "똥퍼 아저씨야~",
         "channel": "괴물쥐 유튜브",
-        "views": "52만회",
+        "views": "53만회",
         "thumb": "https://i.ytimg.com/vi/GjaniHnS2ak/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=GjaniHnS2ak"
       },
@@ -1595,17 +1593,17 @@
         "rank": 9,
         "title": "My Friend",
         "channel": "Mark Lee - Topic",
-        "views": "44만회",
+        "views": "45만회",
         "thumb": "https://i.ytimg.com/vi/mw0gC7ML-UA/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=mw0gC7ML-UA"
       },
       {
         "rank": 10,
-        "title": "1000억 본캐 서버 1위 프랑스 80% 완성 최초 공개합니다!",
-        "channel": "두치와뿌꾸",
-        "views": "21만회",
-        "thumb": "https://i.ytimg.com/vi/lik5SoLyxnY/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=lik5SoLyxnY"
+        "title": "아저씨가 잠시 빌려갈게",
+        "channel": "랄로",
+        "views": "117만회",
+        "thumb": "https://i.ytimg.com/vi/rCHln-ke9bw/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=rCHln-ke9bw"
       }
     ]
   }
