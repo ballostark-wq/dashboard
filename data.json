@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14 02:05:24",
+  "updated_at": "2026-09-14 03:06:30",
   "us2y": {
     "value": 4.63,
     "change": 0.07
@@ -131,9 +131,29 @@
         "title": "[디일렉] 한화오션, 60MW급 부유식 데이터센터 첫 공개",
         "link": "https://www.thelec.kr/news/articleView.html?idxno=62203",
         "date": "09-13 20:50"
+      },
+      {
+        "title": "[전자신문] [르포] 반도체·AI 이끌 청정에너지 중심…전남해상풍력 단지를 가다",
+        "link": "https://www.etnews.com/20260911000293",
+        "date": "09-13 23:59"
+      },
+      {
+        "title": "[전자신문] [부음] 안성진(한국산업은행 심사평가부문 부행장)씨 부친상",
+        "link": "https://www.etnews.com/20260913000087",
+        "date": "09-13 19:54"
       }
     ],
     "domestic": [
+      {
+        "title": "앤트로픽 CEO \"업계, AI 위험 오래 숨겨와…'킬 스위치' 좋은 아이디어\"",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434610",
+        "date": "09-14 02:58"
+      },
+      {
+        "title": "백악관, 연준 인상 가능성에 \"100% 존중하지만, 선거 전 건드리지 말아야\"",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434609",
+        "date": "09-14 02:29"
+      },
       {
         "title": "트럼프, FOMC 앞두고 \"美 세계에서 가장 낮은 금리를 지불해야\"(종합)",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434608",
@@ -148,16 +168,6 @@
         "title": "[뉴욕환시-주간] 함께 금리 올리는 美·日…어느 쪽이 더 매파적일까",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434604",
         "date": "09-13 17:09"
-      },
-      {
-        "title": "[뉴욕채권-주간] 단발일까 추가 인상 있을까…장기금리 반응 촉각",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434603",
-        "date": "09-13 17:05"
-      },
-      {
-        "title": "김성환 한투證 대표 \"美 금리 변화할 듯…채권 전략 고민 많아\"",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434596",
-        "date": "09-13 14:00"
       }
     ]
   },
@@ -245,14 +255,14 @@
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,342원 | 엔/달러 ¥153.6",
-      "title": "원/달러 1,342.4원선과 엔/달러 ¥153.6",
+      "badge": "원/달러 1,341원 | 엔/달러 ¥153.6",
+      "title": "원/달러 1,341.0원선과 엔/달러 ¥153.6",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,342.4원",
-          "chg": "-0.43%",
+          "val": "1,341.0원",
+          "chg": "-0.53%",
           "up": false
         },
         {
@@ -313,8 +323,8 @@
       "change": -2.37
     },
     "usdkrw": {
-      "price": 1342.4,
-      "change": -0.43
+      "price": 1341.05,
+      "change": -0.53
     },
     "dxy": {
       "price": 99.12,
@@ -707,7 +717,7 @@
       },
       {
         "date": "09-13",
-        "usdkrw": 1342.4,
+        "usdkrw": 1341.05,
         "dxy": 99.12,
         "usdjpy": 153.55
       }
@@ -1467,53 +1477,53 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "귀국하는 김정관 장관",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B7%80%EA%B5%AD%ED%95%98%EB%8A%94%20%EA%B9%80%EC%A0%95%EA%B4%80%20%EC%9E%A5%EA%B4%80"
-      },
-      {
-        "rank": 2,
         "title": "김도영 최연소 40홈런-100타점-100득점",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EB%8F%84%EC%98%81%20%EC%B5%9C%EC%97%B0%EC%86%8C%2040%ED%99%88%EB%9F%B0-100%ED%83%80%EC%A0%90-100%EB%93%9D%EC%A0%90"
       },
       {
-        "rank": 3,
-        "title": "맨시티",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%A7%A8%EC%8B%9C%ED%8B%B0"
+        "rank": 2,
+        "title": "귀국하는 김정관 장관",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B7%80%EA%B5%AD%ED%95%98%EB%8A%94%20%EA%B9%80%EC%A0%95%EA%B4%80%20%EC%9E%A5%EA%B4%80"
       },
       {
-        "rank": 4,
+        "rank": 3,
         "title": "MBC 사장 이성주 내정",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=MBC%20%EC%82%AC%EC%9E%A5%20%EC%9D%B4%EC%84%B1%EC%A3%BC%20%EB%82%B4%EC%A0%95"
       },
       {
-        "rank": 5,
+        "rank": 4,
         "title": "수시 원서접수 장애",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%88%98%EC%8B%9C%20%EC%9B%90%EC%84%9C%EC%A0%91%EC%88%98%20%EC%9E%A5%EC%95%A0"
       },
       {
+        "rank": 5,
+        "title": "지예은 바타 프러포즈 공개",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A7%80%EC%98%88%EC%9D%80%20%EB%B0%94%ED%83%80%20%ED%94%84%EB%9F%AC%ED%8F%AC%EC%A6%88%20%EA%B3%B5%EA%B0%9C"
+      },
+      {
         "rank": 6,
-        "title": "박보겸 메이저 우승 축하해!",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B0%95%EB%B3%B4%EA%B2%B8%20%EB%A9%94%EC%9D%B4%EC%A0%80%20%EC%9A%B0%EC%8A%B9%20%EC%B6%95%ED%95%98%ED%95%B4%21"
+        "title": "김원효",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%9B%90%ED%9A%A8"
       },
       {
         "rank": 7,
-        "title": "지예은 티파니 반지 착용",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A7%80%EC%98%88%EC%9D%80%20%ED%8B%B0%ED%8C%8C%EB%8B%88%20%EB%B0%98%EC%A7%80%20%EC%B0%A9%EC%9A%A9"
+        "title": "당정 사법통제부 명칭 변경 검토",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%8B%B9%EC%A0%95%20%EC%82%AC%EB%B2%95%ED%86%B5%EC%A0%9C%EB%B6%80%20%EB%AA%85%EC%B9%AD%20%EB%B3%80%EA%B2%BD%20%EA%B2%80%ED%86%A0"
       },
       {
         "rank": 8,
-        "title": "바이에른 뮌헨",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B0%94%EC%9D%B4%EC%97%90%EB%A5%B8%20%EB%AE%8C%ED%97%A8"
-      },
-      {
-        "rank": 9,
         "title": "인도네시아 여객선 침몰",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B8%EB%8F%84%EB%84%A4%EC%8B%9C%EC%95%84%20%EC%97%AC%EA%B0%9D%EC%84%A0%20%EC%B9%A8%EB%AA%B0"
       },
       {
+        "rank": 9,
+        "title": "라민 야말",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%9D%BC%EB%AF%BC%20%EC%95%BC%EB%A7%90"
+      },
+      {
         "rank": 10,
-        "title": "킹콩",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%82%B9%EC%BD%A9"
+        "title": "화성 디지털 배움교실",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%99%94%EC%84%B1%20%EB%94%94%EC%A7%80%ED%84%B8%20%EB%B0%B0%EC%9B%80%EA%B5%90%EC%8B%A4"
       }
     ],
     "youtube_popular": [
@@ -1521,7 +1531,7 @@
         "rank": 1,
         "title": "Dear my crazy soulmate",
         "channel": "IU - Topic",
-        "views": "211만회",
+        "views": "213만회",
         "thumb": "https://i.ytimg.com/vi/IHIt9S2DWcQ/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=IHIt9S2DWcQ"
       },
@@ -1537,7 +1547,7 @@
         "rank": 3,
         "title": "케인으로 극락 보내기",
         "channel": "이상호",
-        "views": "29만회",
+        "views": "33만회",
         "thumb": "https://i.ytimg.com/vi/P50Ag1FGBUY/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=P50Ag1FGBUY"
       },
@@ -1545,7 +1555,7 @@
         "rank": 4,
         "title": "꿈꾸던 어른이 되었나요?",
         "channel": "meomuru - Topic",
-        "views": "38만회",
+        "views": "39만회",
         "thumb": "https://i.ytimg.com/vi/JJx_WQXOeK0/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=JJx_WQXOeK0"
       },
@@ -1561,7 +1571,7 @@
         "rank": 6,
         "title": "모먼트 10카 커플 문신으로 영원을 약속한 두 사람..",
         "channel": "튜브김민교",
-        "views": "43만회",
+        "views": "44만회",
         "thumb": "https://i.ytimg.com/vi/IxxAR8l1CE0/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=IxxAR8l1CE0"
       },
@@ -1577,7 +1587,7 @@
         "rank": 8,
         "title": "스타크래프트 신작 트레일러 영상 공개, 흑운장의 첫 반응은?",
         "channel": "흑운장TV",
-        "views": "10만회",
+        "views": "11만회",
         "thumb": "https://i.ytimg.com/vi/omLatXVqF-E/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=omLatXVqF-E"
       },
@@ -1585,7 +1595,7 @@
         "rank": 9,
         "title": "거지 요네",
         "channel": "PAKA",
-        "views": "27만회",
+        "views": "30만회",
         "thumb": "https://i.ytimg.com/vi/-pTSEEYEu84/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=-pTSEEYEu84"
       },
@@ -1593,7 +1603,7 @@
         "rank": 10,
         "title": "Polaroid Stains",
         "channel": "Forrest Rose - Topic",
-        "views": "15만회",
+        "views": "16만회",
         "thumb": "https://i.ytimg.com/vi/4XycAo8rQJw/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=4XycAo8rQJw"
       }
