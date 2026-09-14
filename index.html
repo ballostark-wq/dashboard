@@ -975,13 +975,21 @@
           </div>
         `).join('');
       } else {
-        earnHtml = '<div style="padding:15px; text-align:center; font-size:0.72rem; color:#64748b; background:#020617; border:1px dashed #334155; border-radius:6px; margin-bottom:6px;">예정된 주요 빅테크 실적 발표가 없습니다.</div>';
+        earnHtml = `
+          <div style="background:#020617; border:1px solid #1e293b; border-radius:8px; padding:16px; text-align:center;">
+              <p style="font-size:0.75rem; color:#cbd5e1; margin-bottom:12px;">주요 기업들의 실적 발표 일정과 예상 실적(EPS)은 <br>인베스팅닷컴 실적 캘린더에서 상세하게 확인하실 수 있습니다.</p>
+              <a href="https://kr.investing.com/earnings-calendar" target="_blank" rel="noopener noreferrer" 
+                 style="display:inline-block; background:rgba(239, 68, 68, 0.15); border:1px solid #ef4444; color:#f87171; text-decoration:none; padding:8px 16px; border-radius:6px; font-size:0.75rem; font-weight:700; transition:all 0.15s;">
+                  📊 인베스팅닷컴 실적 캘린더 바로가기 ↗
+              </a>
+          </div>
+        `;
       }
 
       return `
         <div style="background:#090e1f; border:1px solid #1e293b; border-radius:8px; padding:10px; margin-bottom:12px;">
           <h4 style="font-size:0.8rem; color:#38bdf8; margin-bottom:4px;">📌 글로벌 마켓 타임라인</h4>
-          <span style="font-size:0.68rem; color:#94a3b8;">실시간 거시경제 지표 & 빅테크 실적 (출처: TradingView / FMP)</span>
+          <span style="font-size:0.68rem; color:#94a3b8;">실시간 거시경제 지표 & 빅테크 실적 (출처: TradingView / Investing)</span>
         </div>
         
         <div style="max-height: 500px; overflow-y: auto; padding-right: 6px;">
