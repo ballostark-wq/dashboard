@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14 12:44:04",
+  "updated_at": "2026-09-14 12:59:02",
   "us2y": {
     "value": 4.63,
     "change": 0.07
@@ -131,16 +131,6 @@
         "title": "[디일렉] HD현대, 차세대 LNG운반선 기술 공개",
         "link": "https://www.thelec.kr/news/articleView.html?idxno=62204",
         "date": "09-13 20:50"
-      },
-      {
-        "title": "[전자신문] 국립목포대, 2027 수시 경쟁률 5.58대 1…10년내 최고치",
-        "link": "https://www.etnews.com/20260914000181",
-        "date": "09-14 12:17"
-      },
-      {
-        "title": "[전자신문] 전북대, 16일 '취업박람회' 개최…우수기업·기관 50곳 이상 참여",
-        "link": "https://www.etnews.com/20260914000180",
-        "date": "09-14 12:13"
       }
     ],
     "domestic": [
@@ -223,66 +213,66 @@
       "detail": "10Y-2Y 스프레드가 +34 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.48",
-      "title": "닥터 코퍼 $6.48선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.47",
+      "title": "닥터 코퍼 $6.47선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.48",
-          "chg": "+0.15%",
+          "val": "$6.47",
+          "chg": "+0.00%",
           "up": true
         },
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,371.7",
-          "chg": "+0.13%",
+          "val": "$4,370.2",
+          "chg": "+0.09%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$64.52",
-          "chg": "-0.05%",
+          "val": "$64.42",
+          "chg": "-0.20%",
           "up": false
         }
       ],
       "bullets": [
-        "구리 $6.48/lb (+0.15%) - AI 전력망 설비 수요 반영",
-        "금 $4,372/oz, 은 $64.52/oz - 통화가치 헤지"
+        "구리 $6.47/lb (+0.00%) - AI 전력망 설비 수요 반영",
+        "금 $4,370/oz, 은 $64.42/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,346원 | 엔/달러 ¥154.1",
-      "title": "원/달러 1,345.5원선과 엔/달러 ¥154.1",
+      "badge": "원/달러 1,345원 | 엔/달러 ¥154.1",
+      "title": "원/달러 1,344.9원선과 엔/달러 ¥154.1",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,345.5원",
-          "chg": "-0.20%",
+          "val": "1,344.9원",
+          "chg": "-0.24%",
           "up": false
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "99.31pt",
-          "chg": "+0.19%",
+          "val": "99.32pt",
+          "chg": "+0.20%",
           "up": true
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥154.09",
-          "chg": "-0.25%",
+          "val": "¥154.06",
+          "chg": "-0.27%",
           "up": false
         }
       ],
       "bullets": [
-        "달러 인덱스 99.31pt - 미국 성장 우위 지속",
-        "엔/달러 154.09엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 99.32pt - 미국 성장 우위 지속",
+        "엔/달러 154.06엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
@@ -307,32 +297,32 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.48,
-      "change": 0.15
+      "price": 6.47,
+      "change": 0.0
     },
     "gold": {
-      "price": 4371.7,
-      "change": 0.13
+      "price": 4370.2,
+      "change": 0.09
     },
     "silver": {
-      "price": 64.52,
-      "change": -0.05
+      "price": 64.42,
+      "change": -0.2
     },
     "wti": {
       "price": 103.33,
       "change": 3.28
     },
     "usdkrw": {
-      "price": 1345.52,
-      "change": -0.2
+      "price": 1344.88,
+      "change": -0.24
     },
     "dxy": {
-      "price": 99.31,
-      "change": 0.19
+      "price": 99.32,
+      "change": 0.2
     },
     "usdjpy": {
-      "price": 154.09,
-      "change": -0.25
+      "price": 154.06,
+      "change": -0.27
     }
   },
   "history_20d": {
@@ -595,9 +585,9 @@
       },
       {
         "date": "09-14",
-        "copper": 6.48,
-        "gold": 4371.7,
-        "silver": 64.52
+        "copper": 6.47,
+        "gold": 4370.2,
+        "silver": 64.42
       }
     ],
     "fx": [
@@ -717,9 +707,9 @@
       },
       {
         "date": "09-14",
-        "usdkrw": 1345.52,
-        "dxy": 99.31,
-        "usdjpy": 154.09
+        "usdkrw": 1344.88,
+        "dxy": 99.32,
+        "usdjpy": 154.06
       }
     ],
     "oil": [
@@ -1455,7 +1445,7 @@
         "rank": 1,
         "title": "Dear my crazy soulmate",
         "channel": "IU - Topic",
-        "views": "236만회",
+        "views": "237만회",
         "thumb": "https://i.ytimg.com/vi/IHIt9S2DWcQ/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=IHIt9S2DWcQ"
       },
@@ -1471,7 +1461,7 @@
         "rank": 3,
         "title": "케인으로 극락 보내기",
         "channel": "이상호",
-        "views": "54만회",
+        "views": "55만회",
         "thumb": "https://i.ytimg.com/vi/P50Ag1FGBUY/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=P50Ag1FGBUY"
       },
@@ -1479,7 +1469,7 @@
         "rank": 4,
         "title": "꿈꾸던 어른이 되었나요?",
         "channel": "meomuru - Topic",
-        "views": "46만회",
+        "views": "47만회",
         "thumb": "https://i.ytimg.com/vi/JJx_WQXOeK0/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=JJx_WQXOeK0"
       },
@@ -1527,7 +1517,7 @@
         "rank": 10,
         "title": "Polaroid Stains",
         "channel": "Forrest Rose - Topic",
-        "views": "18만회",
+        "views": "19만회",
         "thumb": "https://i.ytimg.com/vi/4XycAo8rQJw/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=4XycAo8rQJw"
       }
