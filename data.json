@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14 11:35:52",
+  "updated_at": "2026-09-14 11:50:54",
   "us2y": {
     "value": 4.63,
     "change": 0.07
@@ -131,19 +131,14 @@
         "title": "[디일렉] 한화오션, 60MW급 부유식 데이터센터 첫 공개",
         "link": "https://www.thelec.kr/news/articleView.html?idxno=62203",
         "date": "09-13 20:50"
-      },
-      {
-        "title": "[전자신문] 대구·경북·포함 AI통합바우처 사업설명회, 10월 1일 대구상의에서 개최",
-        "link": "https://www.etnews.com/20260914000167",
-        "date": "09-14 11:30"
-      },
-      {
-        "title": "[전자신문] 경북대 학생창업기업 '모드어스 스튜디오', 생성형 AI 영상으로 주요 공모전 잇따라 수상",
-        "link": "https://www.etnews.com/20260914000166",
-        "date": "09-14 11:24"
       }
     ],
     "domestic": [
+      {
+        "title": "[단기자금시장 분석(14일)] 당일 지준 부족",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434705",
+        "date": "09-14 11:38"
+      },
       {
         "title": "3.50%로 끝날까…한은 터미널 금리 상방위험 부각",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434699",
@@ -163,11 +158,6 @@
         "title": "[외환] 9시 이전 마(MAR) '파' 거래…픽싱 스퀘어",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434695",
         "date": "09-14 11:03"
-      },
-      {
-        "title": "레벨 뚫은 채권시장 전망은…\"상단 무의미, 유가 보고 간다\"",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434693",
-        "date": "09-14 11:02"
       }
     ]
   },
@@ -223,83 +213,83 @@
       "detail": "10Y-2Y 스프레드가 +34 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.49",
-      "title": "닥터 코퍼 $6.49선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.48",
+      "title": "닥터 코퍼 $6.48선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.49",
-          "chg": "+0.31%",
+          "val": "$6.48",
+          "chg": "+0.15%",
           "up": true
         },
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,394.2",
-          "chg": "+0.64%",
+          "val": "$4,388.2",
+          "chg": "+0.50%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$64.85",
-          "chg": "+0.46%",
+          "val": "$64.79",
+          "chg": "+0.37%",
           "up": true
         }
       ],
       "bullets": [
-        "구리 $6.49/lb (+0.31%) - AI 전력망 설비 수요 반영",
-        "금 $4,394/oz, 은 $64.85/oz - 통화가치 헤지"
+        "구리 $6.48/lb (+0.15%) - AI 전력망 설비 수요 반영",
+        "금 $4,388/oz, 은 $64.79/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
       "badge": "원/달러 1,345원 | 엔/달러 ¥154.0",
-      "title": "원/달러 1,344.5원선과 엔/달러 ¥154.0",
+      "title": "원/달러 1,345.2원선과 엔/달러 ¥154.0",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,344.5원",
-          "chg": "-0.27%",
+          "val": "1,345.2원",
+          "chg": "-0.22%",
           "up": false
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "99.20pt",
-          "chg": "+0.08%",
+          "val": "99.23pt",
+          "chg": "+0.11%",
           "up": true
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥153.97",
-          "chg": "-0.33%",
+          "val": "¥154.02",
+          "chg": "-0.30%",
           "up": false
         }
       ],
       "bullets": [
-        "달러 인덱스 99.2pt - 미국 성장 우위 지속",
-        "엔/달러 153.97엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 99.23pt - 미국 성장 우위 지속",
+        "엔/달러 154.02엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $102.44",
-      "title": "WTI 배럴당 $102.44선 박스권 안정",
+      "badge": "WTI $102.66",
+      "title": "WTI 배럴당 $102.66선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$102.44",
-          "chg": "+2.39%",
+          "val": "$102.66",
+          "chg": "+2.61%",
           "up": true
         }
       ],
       "bullets": [
-        "WTI 선물 $102.44/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $102.66/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -307,32 +297,32 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.49,
-      "change": 0.31
+      "price": 6.48,
+      "change": 0.15
     },
     "gold": {
-      "price": 4394.2,
-      "change": 0.64
+      "price": 4388.2,
+      "change": 0.5
     },
     "silver": {
-      "price": 64.85,
-      "change": 0.46
+      "price": 64.79,
+      "change": 0.37
     },
     "wti": {
-      "price": 102.44,
-      "change": 2.39
+      "price": 102.66,
+      "change": 2.61
     },
     "usdkrw": {
-      "price": 1344.54,
-      "change": -0.27
+      "price": 1345.22,
+      "change": -0.22
     },
     "dxy": {
-      "price": 99.2,
-      "change": 0.08
+      "price": 99.23,
+      "change": 0.11
     },
     "usdjpy": {
-      "price": 153.97,
-      "change": -0.33
+      "price": 154.02,
+      "change": -0.3
     }
   },
   "history_20d": {
@@ -595,9 +585,9 @@
       },
       {
         "date": "09-14",
-        "copper": 6.49,
-        "gold": 4394.2,
-        "silver": 64.85
+        "copper": 6.48,
+        "gold": 4388.2,
+        "silver": 64.79
       }
     ],
     "fx": [
@@ -717,9 +707,9 @@
       },
       {
         "date": "09-14",
-        "usdkrw": 1344.54,
-        "dxy": 99.2,
-        "usdjpy": 153.97
+        "usdkrw": 1345.22,
+        "dxy": 99.23,
+        "usdjpy": 154.02
       }
     ],
     "oil": [
@@ -820,15 +810,36 @@
       },
       {
         "date": "09-14",
-        "wti": 102.44,
-        "change": 2.39
+        "wti": 102.66,
+        "change": 2.61
       }
     ]
   },
   "calendar_3w": {
     "w1": {
       "title": "이번 주 (09/14 ~ 09/20)",
-      "macro": [],
+      "macro": [
+        {
+          "date": "09-16 12:30pm",
+          "event": "Core Retail Sales m/m",
+          "impact": "HIGH"
+        },
+        {
+          "date": "09-16 12:30pm",
+          "event": "Retail Sales m/m",
+          "impact": "HIGH"
+        },
+        {
+          "date": "09-16 6:00pm",
+          "event": "Federal Funds Rate",
+          "impact": "CRITICAL"
+        },
+        {
+          "date": "09-16 6:00pm",
+          "event": "FOMC Economic Projections",
+          "impact": "CRITICAL"
+        }
+      ],
       "earnings": []
     },
     "w2": {
@@ -1511,7 +1522,7 @@
         "rank": 8,
         "title": "스타크래프트 신작 트레일러 영상 공개, 흑운장의 첫 반응은?",
         "channel": "흑운장TV",
-        "views": "13만회",
+        "views": "14만회",
         "thumb": "https://i.ytimg.com/vi/omLatXVqF-E/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=omLatXVqF-E"
       },
