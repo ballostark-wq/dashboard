@@ -40,6 +40,81 @@ FALLBACK_30Y = [
     ("09-01", 5.27), ("09-02", 5.27), ("09-03", 5.24), ("09-04", 5.25), ("09-08", 5.25),
 ]
 
+def fetch_nasdaq_calendar(week_offset=0):
+    """나스닥 공식 API를 활용하여 특정 주차의 매크로 지표와 실적 발표 일정을 자동 수집합니다."""
+    now_kst = datetime.now(KST)
+    start_of_week = now_kst - timedelta(days=now_kst.weekday()) + timedelta(weeks=week_offset)
+    end_of_week = start_of_week + timedelta(days=6)
+    
+    # 캘린더 상단에 표시될 주차별 타이틀 생성
+    if week_offset == 0:
+        title_prefix = "이번 주"
+    elif week_offset == 1:
+        title_prefix = "다음 주"
+    else:
+        title_prefix = "다다음 주"
+    
+    title_str = f"{title_prefix} ({start_of_week.strftime('%m/%d')} ~ {end_of_week.strftime('%m/%d')})"
+    date_str = start_of_week.strftime('%Y-%m-%d')
+
+    # 나스닥 API는 봇 접근을 차단하므로 일반 브라우저 헤더 필수
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+        "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
+        "Origin": "https://www.nasdaq.com"
+    }
+
+    macro_events = []
+    earnings_events = []
+
+    try:
+        # 1. 거시경제 지표 (Economic Calendar) 수집
+        macro_url = f"https://api.nasdaq.com/api/calendar/economicevents?date={date_str}"
+        m_res = requests.get(macro_url, headers=headers, timeout=10)
+        
+        if m_res.status_code == 200:
+            m_rows = m_res.json().get('data', {}).get('rows', []) or []
+            for row in m_rows:
+                event_name = row.get('eventName', '')
+                # 시장 영향력이 큰 주요 지표 필터링
+                if any(kw in event_name for kw in ['CPI', 'PPI', 'GDP', 'FOMC', 'Initial Claims', 'Retail Sales', 'PCE']):
+                    impact_level = "CRITICAL" if any(k in event_name for k in ['CPI', 'FOMC', 'PCE']) else "HIGH"
+                    macro_events.append({
+                        "date": row.get('timestamp', '')[:10],
+                        "event": event_name,
+                        "impact": impact_level
+                    })
+    except Exception as e:
+        print(f"나스닥 매크로 캘린더 수집 오류 (week_offset={week_offset}): {e}")
+
+    try:
+        # 2. 기업 실적 발표 (Earnings Calendar) 수집
+        earn_url = f"https://api.nasdaq.com/api/calendar/earnings?date={date_str}"
+        e_res = requests.get(earn_url, headers=headers, timeout=10)
+        
+        if e_res.status_code == 200:
+            e_rows = e_res.json().get('data', {}).get('rows', []) or []
+            # 시장 주도주 티커만 필터링 (필요시 추가)
+            target_tickers = ['AAPL', 'MSFT', 'GOOGL', 'AMZN', 'NVDA', 'META', 'TSLA', 'ORCL', 'ADBE', 'MU', 'COST', 'FDX']
+            for row in e_rows:
+                ticker = row.get('symbol')
+                if ticker in target_tickers:
+                    earnings_events.append({
+                        "date": row.get('date', '')[:10],
+                        "ticker": ticker,
+                        "name": row.get('name', ticker),
+                        "time": "장시작 전" if row.get('time') == "time-pre-market" else "장마감 후"
+                    })
+    except Exception as e:
+        print(f"나스닥 실적 캘린더 수집 오류 (week_offset={week_offset}): {e}")
+
+    # UI가 넘치지 않도록 최대 개수 제한하여 반환
+    return {
+        "title": title_str,
+        "macro": macro_events[:4],
+        "earnings": earnings_events[:3]
+    }
+
 def make_naver_news_link(query_text):
     """키워드에서 괄호 및 불필요한 기호를 정제하여 네이버 뉴스 검색 URL 생성"""
     clean_kw = re.sub(r"\(.*?\)", "", query_text).strip()
@@ -878,42 +953,11 @@ def main():
         },
     }
 
-    # 5. 3주 캘린더 생성
+    # 5. 3주 캘린더 생성 (나스닥 API 자동화 적용)
     data["calendar_3w"] = {
-        "w1": {
-            "title": "이번 주 (09/07 ~ 09/13)",
-            "macro": [
-                {"date": "09-10 (목) 21:30", "event": "미 8월 생산자물가지수 (PPI)", "impact": "HIGH"},
-                {"date": "09-11 (금) 21:30", "event": "미 8월 소비자물가지수 (CPI)", "impact": "CRITICAL"},
-                {"date": "09-11 (금) 21:30", "event": "신규 실업수당 청구건수", "impact": "MED"},
-            ],
-            "earnings": [
-                {"date": "09-10 (목) 장후", "ticker": "ORCL", "name": "오라클 (클라우드/AI)", "time": "장마감 후"},
-                {"date": "09-11 (금) 장후", "ticker": "ADBE", "name": "어도비 (생성형 AI)", "time": "장마감 후"},
-            ],
-        },
-        "w2": {
-            "title": "다음 주 (09/14 ~ 09/20) [FOMC 주간]",
-            "macro": [
-                {"date": "09-15 (화) 21:30", "event": "미 8월 소매판매 지표", "impact": "HIGH"},
-                {"date": "09-16 (수) 03:00", "event": "FOMC 기준금리 결정 & 파월 기자회견", "impact": "CRITICAL"},
-                {"date": "09-18 (금) 장마감", "event": "미 선물·옵션 동시만기일 (네 마녀의 날)", "impact": "HIGH"},
-            ],
-            "earnings": [
-                {"date": "09-17 (목) 장후", "ticker": "FDX", "name": "페덱스 (물동량 선행)", "time": "장마감 후"},
-            ],
-        },
-        "w3": {
-            "title": "다다음 주 (09/21 ~ 09/27)",
-            "macro": [
-                {"date": "09-24 (목) 21:30", "event": "미 2분기 GDP 확정치", "impact": "HIGH"},
-                {"date": "09-25 (금) 21:30", "event": "미 8월 근원 PCE 물가지수 (연준 선호)", "impact": "CRITICAL"},
-            ],
-            "earnings": [
-                {"date": "09-23 (수) 장후", "ticker": "MU", "name": "마이크론 (HBM 메모리)", "time": "장마감 후"},
-                {"date": "09-24 (목) 장후", "ticker": "COST", "name": "코스트코 (미 소비지표)", "time": "장마감 후"},
-            ],
-        },
+        "w1": fetch_nasdaq_calendar(0), # 이번 주 데이터 자동 수집
+        "w2": fetch_nasdaq_calendar(1), # 다음 주 데이터 자동 수집
+        "w3": fetch_nasdaq_calendar(2), # 다다음 주 데이터 자동 수집
     }
 
     # 6. 마스터 풀 파일(humanities_pool.json)에서 1일 1주제 순환 추출 및 5일 큐 갱신
