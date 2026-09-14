@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-15 03:06:25",
+  "updated_at": "2026-09-15 04:06:28",
   "us2y": {
     "value": 4.63,
     "change": 0.07
   },
   "us5y": {
-    "value": 4.78,
-    "change": -0.01
+    "value": 4.79,
+    "change": 0.0
   },
   "us10y": {
     "value": 4.96,
@@ -21,8 +21,8 @@
     "status": "정상화 (우상향)"
   },
   "vix": {
-    "value": 16.71,
-    "change": 5.49
+    "value": 16.73,
+    "change": 5.62
   },
   "tech_news": [
     {
@@ -91,6 +91,11 @@
     ],
     "global": [
       {
+        "title": "Bank of America expects third-quarter investment banking fees to fall more than 10%; shares slide",
+        "link": "https://www.cnbc.com/2026/09/14/bank-of-america-bac-q3-investment-banking-fees.html",
+        "date": "09-14 18:39"
+      },
+      {
         "title": "Warsh's credibility is on the line this week as Trump policies put pressure on Fed to hike",
         "link": "https://www.cnbc.com/2026/09/14/warshs-credibility-is-on-the-line-this-week-as-trump-policies-put-pressure-on-fed-to-hike.html",
         "date": "09-14 17:26"
@@ -98,7 +103,7 @@
       {
         "title": "Stocks making the biggest moves midday: Zscaler, CrowdStrike, Marvell Technology, Rum Group & more",
         "link": "https://www.cnbc.com/2026/09/14/stocks-making-the-biggest-moves-midday-zs-crwd-mrvl-rum.html",
-        "date": "09-14 17:58"
+        "date": "09-14 18:32"
       },
       {
         "title": "Prediction market traders think gas prices will hit new highs for the year",
@@ -109,11 +114,6 @@
         "title": "Stocks making the biggest moves premarket: Intel, Marvell, CrowdStrike & more",
         "link": "https://www.cnbc.com/2026/09/14/stocks-making-the-biggest-moves-premarket-intc-mrvl-crwd.html",
         "date": "09-14 12:36"
-      },
-      {
-        "title": "China says AI CEOs' call for a slowdown is 'fear mongering'",
-        "link": "https://www.cnbc.com/2026/09/14/china-ai-slowdown-us-tech-ceos.html",
-        "date": "09-14 13:18"
       }
     ],
     "tech": [
@@ -131,6 +131,16 @@
         "title": "[디일렉] SK바이오팜, MSCI ESG 평가 'AAA' 획득",
         "link": "https://www.thelec.kr/news/articleView.html?idxno=62242",
         "date": "09-14 19:03"
+      },
+      {
+        "title": "[전자신문] [암, 제대로 알고 대처하기②] 암검진도 과유불급…내게 맞는 검사가 우선",
+        "link": "https://www.etnews.com/20260914000450",
+        "date": "09-15 04:00"
+      },
+      {
+        "title": "[전자신문] 식물인데 햇빛 없이 곰팡이 먹으며 산다…'악마의 꽃' 정체는",
+        "link": "https://www.etnews.com/20260914000404",
+        "date": "09-14 22:30"
       }
     ],
     "domestic": [
@@ -213,83 +223,83 @@
       "detail": "10Y-2Y 스프레드가 +33 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.4",
-      "title": "닥터 코퍼 $6.4선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.41",
+      "title": "닥터 코퍼 $6.41선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.40",
-          "chg": "-1.08%",
+          "val": "$6.41",
+          "chg": "-0.93%",
           "up": false
         },
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,352.5",
-          "chg": "-1.28%",
+          "val": "$4,347.2",
+          "chg": "-1.40%",
           "up": false
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$64.25",
-          "chg": "-0.46%",
+          "val": "$64.17",
+          "chg": "-0.59%",
           "up": false
         }
       ],
       "bullets": [
-        "구리 $6.4/lb (-1.08%) - AI 전력망 설비 수요 반영",
-        "금 $4,352/oz, 은 $64.25/oz - 통화가치 헤지"
+        "구리 $6.41/lb (-0.93%) - AI 전력망 설비 수요 반영",
+        "금 $4,347/oz, 은 $64.17/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,346원 | 엔/달러 ¥154.4",
-      "title": "원/달러 1,346.0원선과 엔/달러 ¥154.4",
+      "badge": "원/달러 1,345원 | 엔/달러 ¥154.1",
+      "title": "원/달러 1,345.5원선과 엔/달러 ¥154.1",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,346.0원",
-          "chg": "-0.16%",
+          "val": "1,345.5원",
+          "chg": "-0.20%",
           "up": false
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "99.42pt",
-          "chg": "+0.30%",
+          "val": "99.40pt",
+          "chg": "+0.28%",
           "up": true
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥154.40",
-          "chg": "-0.05%",
+          "val": "¥154.10",
+          "chg": "-0.25%",
           "up": false
         }
       ],
       "bullets": [
-        "달러 인덱스 99.42pt - 미국 성장 우위 지속",
-        "엔/달러 154.40엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 99.4pt - 미국 성장 우위 지속",
+        "엔/달러 154.10엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $101.36",
-      "title": "WTI 배럴당 $101.36선 박스권 안정",
+      "badge": "WTI $100.9",
+      "title": "WTI 배럴당 $100.9선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$101.36",
-          "chg": "+1.31%",
+          "val": "$100.90",
+          "chg": "+0.85%",
           "up": true
         }
       ],
       "bullets": [
-        "WTI 선물 $101.36/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $100.9/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -297,32 +307,32 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.4,
-      "change": -1.08
+      "price": 6.41,
+      "change": -0.93
     },
     "gold": {
-      "price": 4352.5,
-      "change": -1.28
+      "price": 4347.2,
+      "change": -1.4
     },
     "silver": {
-      "price": 64.25,
-      "change": -0.46
+      "price": 64.17,
+      "change": -0.59
     },
     "wti": {
-      "price": 101.36,
-      "change": 1.31
+      "price": 100.9,
+      "change": 0.85
     },
     "usdkrw": {
-      "price": 1345.96,
-      "change": -0.16
+      "price": 1345.47,
+      "change": -0.2
     },
     "dxy": {
-      "price": 99.42,
-      "change": 0.3
+      "price": 99.4,
+      "change": 0.28
     },
     "usdjpy": {
-      "price": 154.4,
-      "change": -0.05
+      "price": 154.1,
+      "change": -0.25
     }
   },
   "history_20d": {
@@ -585,9 +595,9 @@
       },
       {
         "date": "09-14",
-        "copper": 6.4,
-        "gold": 4352.5,
-        "silver": 64.25
+        "copper": 6.41,
+        "gold": 4347.2,
+        "silver": 64.17
       }
     ],
     "fx": [
@@ -707,9 +717,9 @@
       },
       {
         "date": "09-14",
-        "usdkrw": 1345.96,
-        "dxy": 99.42,
-        "usdjpy": 154.4
+        "usdkrw": 1345.47,
+        "dxy": 99.4,
+        "usdjpy": 154.1
       }
     ],
     "oil": [
@@ -810,8 +820,8 @@
       },
       {
         "date": "09-14",
-        "wti": 101.36,
-        "change": 1.31
+        "wti": 100.9,
+        "change": 0.85
       }
     ]
   },
@@ -1410,8 +1420,8 @@
       },
       {
         "rank": 2,
-        "title": "투르크메니스탄 대통령 방문",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%88%AC%EB%A5%B4%ED%81%AC%EB%A9%94%EB%8B%88%EC%8A%A4%ED%83%84%20%EB%8C%80%ED%86%B5%EB%A0%B9%20%EB%B0%A9%EB%AC%B8"
+        "title": "투르크메니스탄 대통령 방한",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%88%AC%EB%A5%B4%ED%81%AC%EB%A9%94%EB%8B%88%EC%8A%A4%ED%83%84%20%EB%8C%80%ED%86%B5%EB%A0%B9%20%EB%B0%A9%ED%95%9C"
       },
       {
         "rank": 3,
@@ -1420,8 +1430,8 @@
       },
       {
         "rank": 4,
-        "title": "김부장 원현준, 이수진 10월 결혼",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EB%B6%80%EC%9E%A5%20%EC%9B%90%ED%98%84%EC%A4%80%2C%20%EC%9D%B4%EC%88%98%EC%A7%84%2010%EC%9B%94%20%EA%B2%B0%ED%98%BC"
+        "title": "정예지와 김선호의 눈물 나는 사랑",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A0%95%EC%98%88%EC%A7%80%EC%99%80%20%EA%B9%80%EC%84%A0%ED%98%B8%EC%9D%98%20%EB%88%88%EB%AC%BC%20%EB%82%98%EB%8A%94%20%EC%82%AC%EB%9E%91"
       },
       {
         "rank": 5,
@@ -1430,8 +1440,8 @@
       },
       {
         "rank": 6,
-        "title": "그랜드 테프트 오토 vi",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B7%B8%EB%9E%9C%EB%93%9C%20%ED%85%8C%ED%94%84%ED%8A%B8%20%EC%98%A4%ED%86%A0%20vi"
+        "title": "함소원",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%A8%EC%86%8C%EC%9B%90"
       },
       {
         "rank": 7,
@@ -1445,13 +1455,13 @@
       },
       {
         "rank": 9,
-        "title": "트리니티항공",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%8A%B8%EB%A6%AC%EB%8B%88%ED%8B%B0%ED%95%AD%EA%B3%B5"
+        "title": "마약",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%A7%88%EC%95%BD"
       },
       {
         "rank": 10,
-        "title": "추미애 사퇴 청원 1만명 넘겨",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B6%94%EB%AF%B8%EC%95%A0%20%EC%82%AC%ED%87%B4%20%EC%B2%AD%EC%9B%90%201%EB%A7%8C%EB%AA%85%20%EB%84%98%EA%B2%A8"
+        "title": "KRX 애프터마켓 첫날 1.8조 거래",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=KRX%20%EC%95%A0%ED%94%84%ED%84%B0%EB%A7%88%EC%BC%93%20%EC%B2%AB%EB%82%A0%201.8%EC%A1%B0%20%EA%B1%B0%EB%9E%98"
       }
     ],
     "youtube_popular": [
@@ -1459,7 +1469,7 @@
         "rank": 1,
         "title": "Dear my crazy soulmate",
         "channel": "IU - Topic",
-        "views": "287만회",
+        "views": "288만회",
         "thumb": "https://i.ytimg.com/vi/IHIt9S2DWcQ/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=IHIt9S2DWcQ"
       },
@@ -1475,7 +1485,7 @@
         "rank": 3,
         "title": "1300억 BP 장전하고 드디어 영입한 1대장 트릭두..?",
         "channel": "튜브김민교",
-        "views": "39만회",
+        "views": "42만회",
         "thumb": "https://i.ytimg.com/vi/RNCCb1s7wis/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=RNCCb1s7wis"
       },
@@ -1483,7 +1493,7 @@
         "rank": 4,
         "title": "[MV] 영탁(YOUNGTAK) '꺾어(GOGO)'",
         "channel": "영탁스클럽 YOUNGTAKsClub",
-        "views": "4만회",
+        "views": "5만회",
         "thumb": "https://i.ytimg.com/vi/Ak1cg1ex0NY/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=Ak1cg1ex0NY"
       },
@@ -1507,7 +1517,7 @@
         "rank": 7,
         "title": "꿈꾸던 어른이 되었나요?",
         "channel": "meomuru - Topic",
-        "views": "64만회",
+        "views": "65만회",
         "thumb": "https://i.ytimg.com/vi/JJx_WQXOeK0/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=JJx_WQXOeK0"
       },
