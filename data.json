@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14 23:06:26",
+  "updated_at": "2026-09-15 00:08:27",
   "us2y": {
     "value": 4.63,
     "change": 0.07
@@ -13,16 +13,16 @@
     "change": 0.02
   },
   "us30y": {
-    "value": 5.36,
-    "change": 0.01
+    "value": 5.37,
+    "change": 0.02
   },
   "spread": {
     "value": 36,
     "status": "정상화 (우상향)"
   },
   "vix": {
-    "value": 17.3,
-    "change": 9.22
+    "value": 17.59,
+    "change": 11.05
   },
   "tech_news": [
     {
@@ -145,6 +145,16 @@
     ],
     "domestic": [
       {
+        "title": "캐나다 8월 CPI 3.0% 상승·전망 부합…휘발유 23%·여행 패키지 26%↑",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434792",
+        "date": "09-14 23:49"
+      },
+      {
+        "title": "'실세' ECB 집행이사 \"최근 에너지 가격 움직임 상당히 우려\"",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434791",
+        "date": "09-14 23:27"
+      },
+      {
         "title": "미 달러화 강세…사우디 송유관 가동 중단發 유가 급등",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434789",
         "date": "09-14 22:39"
@@ -158,16 +168,6 @@
         "title": "獨 10년물 국채금리, 3.54%대 등락…17년 만에 최고 종가 넘봐",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434781",
         "date": "09-14 18:58"
-      },
-      {
-        "title": "IRS 금리, 대체로 하락…장기 구간 오퍼·본드포워드 추정 물량 관측",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434779",
-        "date": "09-14 18:47"
-      },
-      {
-        "title": "[채권-마감] 중단기 금리 약보합…外人 매수·코스피 급락에 선방",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434777",
-        "date": "09-14 18:41"
       }
     ]
   },
@@ -211,95 +211,95 @@
         {
           "id": "us30y",
           "name": "30년물",
-          "val": "5.36%",
-          "chg": "+0.01%",
+          "val": "5.37%",
+          "chg": "+0.02%",
           "up": true
         }
       ],
       "bullets": [
         "10년물 4.99%와 2년물 4.63% 형성으로 스프레드 +36 bp 유지",
-        "초장기 30년물 5.36%선 안착 속 재정 적자 발행에 따른 기간 프리미엄"
+        "초장기 30년물 5.37%선 안착 속 재정 적자 발행에 따른 기간 프리미엄"
       ],
       "detail": "10Y-2Y 스프레드가 +36 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.37",
-      "title": "닥터 코퍼 $6.37선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.36",
+      "title": "닥터 코퍼 $6.36선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.37",
-          "chg": "-1.55%",
+          "val": "$6.36",
+          "chg": "-1.70%",
           "up": false
         },
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,314.5",
-          "chg": "-1.18%",
+          "val": "$4,315.9",
+          "chg": "-1.15%",
           "up": false
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$63.35",
-          "chg": "-1.86%",
+          "val": "$63.33",
+          "chg": "-1.89%",
           "up": false
         }
       ],
       "bullets": [
-        "구리 $6.37/lb (-1.55%) - AI 전력망 설비 수요 반영",
-        "금 $4,314/oz, 은 $63.35/oz - 통화가치 헤지"
+        "구리 $6.36/lb (-1.70%) - AI 전력망 설비 수요 반영",
+        "금 $4,316/oz, 은 $63.33/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,349원 | 엔/달러 ¥154.9",
-      "title": "원/달러 1,349.2원선과 엔/달러 ¥154.9",
+      "badge": "원/달러 1,346원 | 엔/달러 ¥154.6",
+      "title": "원/달러 1,346.5원선과 엔/달러 ¥154.6",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,349.2원",
-          "chg": "+0.08%",
-          "up": true
+          "val": "1,346.5원",
+          "chg": "-0.13%",
+          "up": false
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "99.72pt",
-          "chg": "+0.61%",
+          "val": "99.62pt",
+          "chg": "+0.50%",
           "up": true
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥154.90",
-          "chg": "+0.27%",
+          "val": "¥154.63",
+          "chg": "+0.10%",
           "up": true
         }
       ],
       "bullets": [
-        "달러 인덱스 99.72pt - 미국 성장 우위 지속",
-        "엔/달러 154.90엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 99.62pt - 미국 성장 우위 지속",
+        "엔/달러 154.63엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $104.29",
-      "title": "WTI 배럴당 $104.29선 박스권 안정",
+      "badge": "WTI $103.73",
+      "title": "WTI 배럴당 $103.73선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$104.29",
-          "chg": "+4.24%",
+          "val": "$103.73",
+          "chg": "+3.68%",
           "up": true
         }
       ],
       "bullets": [
-        "WTI 선물 $104.29/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $103.73/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -307,32 +307,32 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.37,
-      "change": -1.55
+      "price": 6.36,
+      "change": -1.7
     },
     "gold": {
-      "price": 4314.5,
-      "change": -1.18
+      "price": 4315.9,
+      "change": -1.15
     },
     "silver": {
-      "price": 63.35,
-      "change": -1.86
+      "price": 63.33,
+      "change": -1.89
     },
     "wti": {
-      "price": 104.29,
-      "change": 4.24
+      "price": 103.73,
+      "change": 3.68
     },
     "usdkrw": {
-      "price": 1349.19,
-      "change": 0.08
+      "price": 1346.48,
+      "change": -0.13
     },
     "dxy": {
-      "price": 99.72,
-      "change": 0.61
+      "price": 99.62,
+      "change": 0.5
     },
     "usdjpy": {
-      "price": 154.9,
-      "change": 0.27
+      "price": 154.63,
+      "change": 0.1
     }
   },
   "history_20d": {
@@ -474,7 +474,7 @@
         "date": "09-14",
         "us10y": 4.99,
         "us2y": 4.63,
-        "us30y": 5.36,
+        "us30y": 5.37,
         "spread": 36
       }
     ],
@@ -595,9 +595,9 @@
       },
       {
         "date": "09-14",
-        "copper": 6.37,
-        "gold": 4314.5,
-        "silver": 63.35
+        "copper": 6.36,
+        "gold": 4315.9,
+        "silver": 63.33
       }
     ],
     "fx": [
@@ -717,9 +717,9 @@
       },
       {
         "date": "09-14",
-        "usdkrw": 1349.19,
-        "dxy": 99.72,
-        "usdjpy": 154.9
+        "usdkrw": 1346.48,
+        "dxy": 99.62,
+        "usdjpy": 154.63
       }
     ],
     "oil": [
@@ -820,8 +820,8 @@
       },
       {
         "date": "09-14",
-        "wti": 104.29,
-        "change": 4.24
+        "wti": 103.73,
+        "change": 3.68
       }
     ]
   },
@@ -859,24 +859,40 @@
     }
   },
   "humanities": {
-    "history_date": "2026-09-14",
+    "history_date": "2026-09-15",
     "history": {
-      "era": "1870년 ~ 1923년 (1889년)",
-      "region": "한국",
-      "year": "1889년",
-      "title": "[1889년] [한국] 함경도에 방곡령 실시",
-      "summary": "1889년 - 함경도에 방곡령 실시",
+      "era": "1466년 ~ 1699년 (1616년)",
+      "region": "세계",
+      "year": "1616년",
+      "title": "[1616년] [세계] 여진족, 후금 창건",
+      "summary": "1616년 - 여진족, 후금 창건",
       "bullets": [
-        "발생 연대: 1889년 (한국사)",
-        "함경도에 방곡령 실시",
+        "발생 연대: 1616년 (세계사)",
+        "여진족, 후금 창건",
         "당대 세력 균형 및 정치·경제적 제도 변화 반영"
       ],
-      "insight": "1889년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
-      "ref_title": "위키백과 세계사 연표: 1870년 ~ 1923년 (1889년)",
-      "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1870%EB%85%84_~_1923%EB%85%84:~:text=1889",
+      "insight": "1616년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
+      "ref_title": "위키백과 세계사 연표: 1466년 ~ 1699년 (1616년)",
+      "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1466%EB%85%84_~_1699%EB%85%84:~:text=1616",
       "d_day": "오늘"
     },
     "history_5d": [
+      {
+        "era": "1466년 ~ 1699년 (1616년)",
+        "region": "세계",
+        "year": "1616년",
+        "title": "[1616년] [세계] 여진족, 후금 창건",
+        "summary": "1616년 - 여진족, 후금 창건",
+        "bullets": [
+          "발생 연대: 1616년 (세계사)",
+          "여진족, 후금 창건",
+          "당대 세력 균형 및 정치·경제적 제도 변화 반영"
+        ],
+        "insight": "1616년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
+        "ref_title": "위키백과 세계사 연표: 1466년 ~ 1699년 (1616년)",
+        "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1466%EB%85%84_~_1699%EB%85%84:~:text=1616",
+        "d_day": "오늘"
+      },
       {
         "era": "1870년 ~ 1923년 (1889년)",
         "region": "한국",
@@ -891,7 +907,7 @@
         "insight": "1889년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1870년 ~ 1923년 (1889년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1870%EB%85%84_~_1923%EB%85%84:~:text=1889",
-        "d_day": "오늘"
+        "d_day": "D-1"
       },
       {
         "era": "1700년 ~ 1869년 (1840년)",
@@ -907,7 +923,7 @@
         "insight": "1840년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1700년 ~ 1869년 (1840년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1700%EB%85%84_~_1869%EB%85%84:~:text=1840",
-        "d_day": "D-1"
+        "d_day": "D-2"
       },
       {
         "era": "1700년 ~ 1869년 (1746년)",
@@ -923,7 +939,7 @@
         "insight": "1746년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1700년 ~ 1869년 (1746년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1700%EB%85%84_~_1869%EB%85%84:~:text=1746",
-        "d_day": "D-2"
+        "d_day": "D-3"
       },
       {
         "era": "1466년 ~ 1699년 (1689년)",
@@ -939,91 +955,138 @@
         "insight": "1689년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1466년 ~ 1699년 (1689년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1466%EB%85%84_~_1699%EB%85%84:~:text=1689",
-        "d_day": "D-3"
-      },
-      {
-        "era": "1466년 ~ 1699년 (1654년)",
-        "region": "한국",
-        "year": "1654년",
-        "title": "[1654년] [한국] 충청도에 대동법 실시",
-        "summary": "1654년 - 충청도에 대동법 실시",
-        "bullets": [
-          "발생 연대: 1654년 (한국사)",
-          "충청도에 대동법 실시",
-          "당대 세력 균형 및 정치·경제적 제도 변화 반영"
-        ],
-        "insight": "1654년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
-        "ref_title": "위키백과 세계사 연표: 1466년 ~ 1699년 (1654년)",
-        "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1466%EB%85%84_~_1699%EB%85%84:~:text=1654",
         "d_day": "D-4"
       }
     ],
     "polyglot": {
-      "theme": "동의 및 수락",
-      "type": "기초",
-      "meaning": "좋습니다! 전혀 문제없어요.",
+      "theme": "음식과 건강: 신체 통증",
+      "meaning": "어깨가 뻐근해 (뭉쳤어).",
       "translations": {
         "en": {
           "code": "en-US",
           "name": "영어",
           "flag": "🇺🇸",
-          "text": "Sounds great! No problem at all.",
-          "roman": "사운즈 그레이트! 노 프라블럼 앳 올."
+          "text": "I have stiff shoulders.",
+          "roman": ""
         },
         "ja": {
           "code": "ja-JP",
           "name": "일본어",
           "flag": "🇯🇵",
-          "text": "いいですね！全く問題ありません。",
-          "roman": "이이데스 네! 맛타쿠 몬다이 아리마센."
+          "text": "肩がガチガチに凝っちゃって。",
+          "roman": "Kata ga gachigachi ni kotchatte."
         },
         "zh": {
           "code": "zh-CN",
           "name": "중국어",
           "flag": "🇨🇳",
-          "text": "太好了！完全没问题。",
-          "roman": "타이 하오 러! 완췐 메이 원티."
+          "text": "我肩膀酸硬得厉害。",
+          "roman": "Wǒ jiānbǎng suānyìng de lìhai."
         },
         "fr": {
           "code": "fr-FR",
           "name": "프랑스어",
           "flag": "🇫🇷",
-          "text": "C'est parfait ! Aucun problème.",
-          "roman": "세 파르페! 오깡 프로블렘."
+          "text": "J'ai les épaules toutes raides.",
+          "roman": ""
         },
         "de": {
           "code": "de-DE",
           "name": "독일어",
           "flag": "🇩🇪",
-          "text": "Klingt gut! Überhaupt kein Problem.",
-          "roman": "클링트 구트! 위버하웁트 카인 프로블렘."
+          "text": "Meine Schultern sind total verspannt.",
+          "roman": ""
         },
         "es": {
           "code": "es-ES",
           "name": "스페인어",
           "flag": "🇪🇸",
-          "text": "¡Suena genial! Ningún problema.",
-          "roman": "수에나 헤니알! 닝군 프로블레마."
+          "text": "Tengo los hombros entumecidos.",
+          "roman": ""
         },
         "ar": {
           "code": "ar-SA",
           "name": "아랍어",
           "flag": "🇸🇦",
-          "text": "يبدو رائعاً! لا توجد مشكلة على الإطلاق.",
-          "roman": "얍두 라이안! 라 투자두 무시키라 알랄 이틀락."
+          "text": "كتفاي متصلبتان ومشدودتان.",
+          "roman": "Kitfāya mutaṣallibatāni wa-mashdūdatān."
         },
         "ru": {
           "code": "ru-RU",
           "name": "러시아어",
           "flag": "🇷🇺",
-          "text": "Отлично! Никаких проблем.",
-          "roman": "아트리치나! 니카키흐 프라블롐."
+          "text": "У меня плечи затекли.",
+          "roman": "U menya plechi zatekli."
         }
       },
-      "pool_type": "기초",
+      "pool_type": "일상",
       "d_day": "오늘"
     },
     "polyglot_5d": [
+      {
+        "theme": "음식과 건강: 신체 통증",
+        "meaning": "어깨가 뻐근해 (뭉쳤어).",
+        "translations": {
+          "en": {
+            "code": "en-US",
+            "name": "영어",
+            "flag": "🇺🇸",
+            "text": "I have stiff shoulders.",
+            "roman": ""
+          },
+          "ja": {
+            "code": "ja-JP",
+            "name": "일본어",
+            "flag": "🇯🇵",
+            "text": "肩がガチガチに凝っちゃって。",
+            "roman": "Kata ga gachigachi ni kotchatte."
+          },
+          "zh": {
+            "code": "zh-CN",
+            "name": "중국어",
+            "flag": "🇨🇳",
+            "text": "我肩膀酸硬得厉害。",
+            "roman": "Wǒ jiānbǎng suānyìng de lìhai."
+          },
+          "fr": {
+            "code": "fr-FR",
+            "name": "프랑스어",
+            "flag": "🇫🇷",
+            "text": "J'ai les épaules toutes raides.",
+            "roman": ""
+          },
+          "de": {
+            "code": "de-DE",
+            "name": "독일어",
+            "flag": "🇩🇪",
+            "text": "Meine Schultern sind total verspannt.",
+            "roman": ""
+          },
+          "es": {
+            "code": "es-ES",
+            "name": "스페인어",
+            "flag": "🇪🇸",
+            "text": "Tengo los hombros entumecidos.",
+            "roman": ""
+          },
+          "ar": {
+            "code": "ar-SA",
+            "name": "아랍어",
+            "flag": "🇸🇦",
+            "text": "كتفاي متصلبتان ومشدودتان.",
+            "roman": "Kitfāya mutaṣallibatāni wa-mashdūdatān."
+          },
+          "ru": {
+            "code": "ru-RU",
+            "name": "러시아어",
+            "flag": "🇷🇺",
+            "text": "У меня плечи затекли.",
+            "roman": "U menya plechi zatekli."
+          }
+        },
+        "pool_type": "일상",
+        "d_day": "오늘"
+      },
       {
         "theme": "동의 및 수락",
         "type": "기초",
@@ -1087,7 +1150,7 @@
           }
         },
         "pool_type": "기초",
-        "d_day": "오늘"
+        "d_day": "D-1"
       },
       {
         "theme": "음식과 건강: 얼굴·두통",
@@ -1151,7 +1214,7 @@
           }
         },
         "pool_type": "일상",
-        "d_day": "D-1"
+        "d_day": "D-2"
       },
       {
         "theme": "도움 요청",
@@ -1216,7 +1279,7 @@
           }
         },
         "pool_type": "기초",
-        "d_day": "D-2"
+        "d_day": "D-3"
       },
       {
         "theme": "음식과 건강: 얼굴·두통",
@@ -1280,85 +1343,20 @@
           }
         },
         "pool_type": "일상",
-        "d_day": "D-3"
-      },
-      {
-        "theme": "첫 대면",
-        "type": "기초",
-        "meaning": "만나서 반갑습니다.",
-        "translations": {
-          "en": {
-            "code": "en-US",
-            "name": "영어",
-            "flag": "🇺🇸",
-            "text": "Nice to meet you.",
-            "roman": "나이스 투 밋 유."
-          },
-          "ja": {
-            "code": "ja-JP",
-            "name": "일본어",
-            "flag": "🇯🇵",
-            "text": "はじめまして、お会いできて嬉しいです。",
-            "roman": "하지메마시테, 오아이 데키테 우레시이 데스."
-          },
-          "zh": {
-            "code": "zh-CN",
-            "name": "중국어",
-            "flag": "🇨🇳",
-            "text": "很高兴认识你。",
-            "roman": "헌 가오싱 런스 니."
-          },
-          "fr": {
-            "code": "fr-FR",
-            "name": "프랑스어",
-            "flag": "🇫🇷",
-            "text": "Ravi de vous rencontrer.",
-            "roman": "라비 드 부 랑콩트레."
-          },
-          "de": {
-            "code": "de-DE",
-            "name": "독일어",
-            "flag": "🇩🇪",
-            "text": "Schön, Sie kennenzulernen.",
-            "roman": "쇤, 지 케넨추러넨."
-          },
-          "es": {
-            "code": "es-ES",
-            "name": "스페인어",
-            "flag": "🇪🇸",
-            "text": "Mucho gusto en conocerte.",
-            "roman": "무초 구스토 엔 코노세르테."
-          },
-          "ar": {
-            "code": "ar-SA",
-            "name": "아랍어",
-            "flag": "🇸🇦",
-            "text": "سعيد بلقائك جداً.",
-            "roman": "사이둔 비리카이카 짓단."
-          },
-          "ru": {
-            "code": "ru-RU",
-            "name": "러시아어",
-            "flag": "🇷🇺",
-            "text": "Очень приятно познакомиться.",
-            "roman": "오친 프리야트나 빠즈나코밋짜."
-          }
-        },
-        "pool_type": "기초",
         "d_day": "D-4"
       }
     ],
     "philosophy": {
-      "thinker": "한비자 (韓非子)",
-      "era": "기원전 3세기 전국시대 중국",
-      "concept": "법(法)·술(術)·세(勢)의 통치공학",
-      "quote": "“호랑이가 개를 굴복시킬 수 있는 까닭은 날카로운 발톱과 이빨(권세)을 쥐고 있기 때문이다.”",
+      "thinker": "토머스 홉스 (Thomas Hobbes)",
+      "era": "17세기 영국 내란기",
+      "concept": "리바이어던(Leviathan)과 자연상태",
+      "quote": "“공통의 권력이 없는 곳에는 법도 없고, 법이 없는 곳에는 불의도 없다.”",
       "bullets": [
-        "인간의 도덕적 선의(善意)에 의존하는 정치를 경계하고 명문화된 법(法)과 엄격한 신상필벌 강조",
-        "신하들의 사익 추구를 간파하고 조직을 장악하는 군주의 인사 관리 기법(術)",
-        "직위와 제도에서 나오는 구조적 권력(勢)의 중요성 역설"
+        "강력한 중앙 권력이 부재할 때 사회는 '만인에 대한 만인의 투쟁' 상태로 전락",
+        "자기 보존의 본능을 지닌 개인들이 평화와 안보를 위해 권력을 국가(리바이어던)에 양도하는 사회계약설",
+        "주권의 통일성과 질서 유지가 자유보다 선행하는 최고의 정치적 가치임을 규정"
       ],
-      "application": "거대 기업 조직의 거버넌스 설계, 시스템적 내부 통제 구축, 독점적 플랫폼의 구조적 지배력 분석에 유효합니다."
+      "application": "세계 정부가 없는 무정부적(Anarchic) 국제 질서에서 각국이 군사력과 경제 안보를 자급화하려는 자조(Self-help) 메커니즘을 규명합니다."
     }
   },
   "trends": {
@@ -1422,23 +1420,23 @@
       },
       {
         "rank": 2,
+        "title": "원현준 이수진과 결혼",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9B%90%ED%98%84%EC%A4%80%20%EC%9D%B4%EC%88%98%EC%A7%84%EA%B3%BC%20%EA%B2%B0%ED%98%BC"
+      },
+      {
+        "rank": 3,
         "title": "가습기살균제 피해자 추가",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B0%80%EC%8A%B5%EA%B8%B0%EC%82%B4%EA%B7%A0%EC%A0%9C%20%ED%94%BC%ED%95%B4%EC%9E%90%20%EC%B6%94%EA%B0%80"
       },
       {
-        "rank": 3,
-        "title": "김민석 탄핵 전조와",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EB%AF%BC%EC%84%9D%20%ED%83%84%ED%95%B5%20%EC%A0%84%EC%A1%B0%EC%99%80"
-      },
-      {
         "rank": 4,
-        "title": "U-18 야구 대표팀 귀국",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=U-18%20%EC%95%BC%EA%B5%AC%20%EB%8C%80%ED%91%9C%ED%8C%80%20%EA%B7%80%EA%B5%AD"
+        "title": "추미애 사퇴 청원 1만명 돌파",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B6%94%EB%AF%B8%EC%95%A0%20%EC%82%AC%ED%87%B4%20%EC%B2%AD%EC%9B%90%201%EB%A7%8C%EB%AA%85%20%EB%8F%8C%ED%8C%8C"
       },
       {
         "rank": 5,
-        "title": "프리시전 캐스트 파츠",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%94%84%EB%A6%AC%EC%8B%9C%EC%A0%84%20%EC%BA%90%EC%8A%A4%ED%8A%B8%20%ED%8C%8C%EC%B8%A0"
+        "title": "그랜드 테프트 오토 vi",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B7%B8%EB%9E%9C%EB%93%9C%20%ED%85%8C%ED%94%84%ED%8A%B8%20%EC%98%A4%ED%86%A0%20vi"
       },
       {
         "rank": 6,
@@ -1447,23 +1445,23 @@
       },
       {
         "rank": 7,
+        "title": "투르크메니스탄 대통령 방문",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%88%AC%EB%A5%B4%ED%81%AC%EB%A9%94%EB%8B%88%EC%8A%A4%ED%83%84%20%EB%8C%80%ED%86%B5%EB%A0%B9%20%EB%B0%A9%EB%AC%B8"
+      },
+      {
+        "rank": 8,
+        "title": "신병4",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%8B%A0%EB%B3%914"
+      },
+      {
+        "rank": 9,
         "title": "여자축구 미얀마전 5-0",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%97%AC%EC%9E%90%EC%B6%95%EA%B5%AC%20%EB%AF%B8%EC%96%80%EB%A7%88%EC%A0%84%205-0"
       },
       {
-        "rank": 8,
-        "title": "추미애 사퇴 청원 1만명",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B6%94%EB%AF%B8%EC%95%A0%20%EC%82%AC%ED%87%B4%20%EC%B2%AD%EC%9B%90%201%EB%A7%8C%EB%AA%85"
-      },
-      {
-        "rank": 9,
-        "title": "이수진과 10월 결혼",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EC%88%98%EC%A7%84%EA%B3%BC%2010%EC%9B%94%20%EA%B2%B0%ED%98%BC"
-      },
-      {
         "rank": 10,
-        "title": "김혜선",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%ED%98%9C%EC%84%A0"
+        "title": "배민 무신사 세무조사",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B0%B0%EB%AF%BC%20%EB%AC%B4%EC%8B%A0%EC%82%AC%20%EC%84%B8%EB%AC%B4%EC%A1%B0%EC%82%AC"
       }
     ],
     "youtube_popular": [
@@ -1471,7 +1469,7 @@
         "rank": 1,
         "title": "Dear my crazy soulmate",
         "channel": "IU - Topic",
-        "views": "271만회",
+        "views": "276만회",
         "thumb": "https://i.ytimg.com/vi/IHIt9S2DWcQ/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=IHIt9S2DWcQ"
       },
@@ -1479,7 +1477,7 @@
         "rank": 2,
         "title": "NCT WISH 엔시티 위시 'I SPY' Trailer Part 1. Confused Boy",
         "channel": "NCT WISH",
-        "views": "16만회",
+        "views": "17만회",
         "thumb": "https://i.ytimg.com/vi/OwgvFefFAVA/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=OwgvFefFAVA"
       },
@@ -1487,7 +1485,7 @@
         "rank": 3,
         "title": "1300억 BP 장전하고 드디어 영입한 1대장 트릭두..?",
         "channel": "튜브김민교",
-        "views": "14만회",
+        "views": "27만회",
         "thumb": "https://i.ytimg.com/vi/RNCCb1s7wis/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=RNCCb1s7wis"
       },
@@ -1495,7 +1493,7 @@
         "rank": 4,
         "title": "꿈꾸던 어른이 되었나요?",
         "channel": "meomuru - Topic",
-        "views": "58만회",
+        "views": "61만회",
         "thumb": "https://i.ytimg.com/vi/JJx_WQXOeK0/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=JJx_WQXOeK0"
       },
@@ -1511,7 +1509,7 @@
         "rank": 6,
         "title": "케인으로 극락 보내기",
         "channel": "이상호",
-        "views": "65만회",
+        "views": "66만회",
         "thumb": "https://i.ytimg.com/vi/P50Ag1FGBUY/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=P50Ag1FGBUY"
       },
@@ -1519,7 +1517,7 @@
         "rank": 7,
         "title": "[MV] 영탁(YOUNGTAK) '꺾어(GOGO)'",
         "channel": "영탁스클럽 YOUNGTAKsClub",
-        "views": "1만회",
+        "views": "3만회",
         "thumb": "https://i.ytimg.com/vi/Ak1cg1ex0NY/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=Ak1cg1ex0NY"
       },
@@ -1535,7 +1533,7 @@
         "rank": 9,
         "title": "만지게 해줘",
         "channel": "괴물쥐 유튜브",
-        "views": "45만회",
+        "views": "47만회",
         "thumb": "https://i.ytimg.com/vi/sByuWVbkWNA/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=sByuWVbkWNA"
       },
@@ -1543,7 +1541,7 @@
         "rank": 10,
         "title": "Sparkle",
         "channel": "Release - Topic",
-        "views": "24만회",
+        "views": "25만회",
         "thumb": "https://i.ytimg.com/vi/xplsbbSxkEg/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=xplsbbSxkEg"
       }
