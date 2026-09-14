@@ -42,8 +42,8 @@ FALLBACK_30Y = [
 
 def fetch_calendar_data(week_offset, api_key):
     """
-    매크로 지표는 무료 공개 피드(ForexFactory)를 사용하고, 
-    실적 발표는 FMP API를 사용하는 하이브리드 자동화 함수입니다.
+    FMP API를 활용하여 특정 주차의 매크로 지표와 실적 발표 일정을 자동 수집합니다.
+    가입한 FMP API를 사용하므로 다음 주, 다다음 주 데이터도 제한 없이 가져올 수 있습니다.
     """
     now_kst = datetime.now(KST)
     start_of_week = now_kst - timedelta(days=now_kst.weekday()) + timedelta(weeks=week_offset)
@@ -57,75 +57,75 @@ def fetch_calendar_data(week_offset, api_key):
         title_prefix = "다다음 주"
     
     title_str = f"{title_prefix} ({start_of_week.strftime('%m/%d')} ~ {end_of_week.strftime('%m/%d')})"
-    
+    start_str = start_of_week.strftime('%Y-%m-%d')
+    end_str = end_of_week.strftime('%Y-%m-%d')
+
     macro_events = []
     earnings_events = []
 
-    # 📌 1. 거시경제 지표 (ForexFactory XML 활용 - 가입 필요없음, 차단 없음)
-    ff_url = ""
-    if week_offset == 0:
-        ff_url = "https://nfs.faireconomy.media/ff_calendar_thisweek.xml"
-    elif week_offset == 1:
-        ff_url = "https://nfs.faireconomy.media/ff_calendar_nextweek.xml"
+    if not api_key:
+        return {"title": title_str, "macro": [], "earnings": []}
 
-    if ff_url:
-        try:
-            res = requests.get(ff_url, headers=HEADERS, timeout=10)
-            if res.status_code == 200:
-                root = ET.fromstring(res.content)
-                for event in root.findall('event'):
-                    country = event.findtext('country', '')
-                    impact = event.findtext('impact', '')
-                    # 미국(USD)의 High/Medium 임팩트 지표만 필터링
-                    if country == 'USD' and impact in ['High', 'Medium']:
-                        title = event.findtext('title', '')
-                        date_str = event.findtext('date', '') # 예: 09-16-2024
-                        time_str = event.findtext('time', '') # 예: 8:30am
+    try:
+        # 📌 1. 거시경제 지표 (FMP API 활용)
+        macro_url = f"https://financialmodelingprep.com/api/v3/economic_calendar?from={start_str}&to={end_str}&apikey={api_key}"
+        m_res = requests.get(macro_url, timeout=10)
+        
+        if m_res.status_code == 200:
+            m_rows = m_res.json()
+            if isinstance(m_rows, list):
+                for row in m_rows:
+                    if row.get('country') != 'US':  # 미국 지표만 필터링
+                        continue
+                    
+                    event_name = row.get('event', '')
+                    # 시장 영향력이 큰 주요 지표 키워드 (실업수당 청구 등 포함)
+                    key_indicators = ['CPI', 'PPI', 'GDP', 'FOMC', 'Initial Jobless Claims', 'Retail Sales', 'PCE', 'Fed', 'Non Farm Payrolls', 'Interest Rate']
+                    
+                    if any(kw.lower() in event_name.lower() for kw in key_indicators):
+                        impact_level = "CRITICAL" if any(k.lower() in event_name.lower() for k in ['cpi', 'fomc', 'pce', 'interest rate', 'non farm']) else "HIGH"
                         
-                        mm_dd = date_str[:5] if len(date_str) >= 5 else date_str
-                        impact_level = "CRITICAL" if impact == 'High' else "HIGH"
+                        # 날짜 포맷팅 (YYYY-MM-DD HH:MM:SS -> MM-DD HH:MM)
+                        raw_date = row.get('date', '')
+                        display_date = raw_date[5:16] if len(raw_date) >= 16 else raw_date
                         
                         macro_events.append({
-                            "date": f"{mm_dd} {time_str}",
-                            "event": title,
+                            "date": display_date,
+                            "event": event_name,
                             "impact": impact_level
                         })
-        except Exception as e:
-            print(f"ForexFactory 매크로 수집 오류: {e}")
+    except Exception as e:
+        print(f"FMP 매크로 캘린더 수집 오류: {e}")
 
-    # 📌 2. 기업 실적 발표 (FMP API 활용)
-    if api_key:
-        try:
-            start_str = start_of_week.strftime('%Y-%m-%d')
-            end_str = end_of_week.strftime('%Y-%m-%d')
-            earn_url = f"https://financialmodelingprep.com/api/v3/earning_calendar?from={start_str}&to={end_str}&apikey={api_key}"
-            e_res = requests.get(earn_url, timeout=10)
-            
-            if e_res.status_code == 200:
-                e_rows = e_res.json()
-                # 비수기에도 잡히도록 타겟 티커 대폭 확대
-                target_tickers = [
-                    'AAPL', 'MSFT', 'GOOGL', 'AMZN', 'NVDA', 'META', 'TSLA', 'ORCL', 'ADBE', 
-                    'MU', 'COST', 'FDX', 'NFLX', 'AMD', 'CRM', 'INTC', 'CSCO', 'QCOM', 'WMT', 'NKE', 'BA'
-                ]
-                # API 응답이 정상 리스트 형태일 때만 처리
-                if isinstance(e_rows, list):
-                    for row in e_rows:
-                        ticker = row.get('symbol')
-                        if ticker in target_tickers:
-                            time_raw = row.get('time', '')
-                            time_str = "장시작 전" if time_raw == "bmo" else "장마감 후" if time_raw == "amc" else time_raw
-                            raw_date = row.get('date', '')
-                            display_date = raw_date[5:10] if len(raw_date) >= 10 else raw_date
+    try:
+        # 📌 2. 기업 실적 발표 (FMP API 활용)
+        earn_url = f"https://financialmodelingprep.com/api/v3/earning_calendar?from={start_str}&to={end_str}&apikey={api_key}"
+        e_res = requests.get(earn_url, timeout=10)
+        
+        if e_res.status_code == 200:
+            e_rows = e_res.json()
+            target_tickers = [
+                'AAPL', 'MSFT', 'GOOGL', 'AMZN', 'NVDA', 'META', 'TSLA', 'ORCL', 'ADBE', 
+                'MU', 'COST', 'FDX', 'NFLX', 'AMD', 'CRM', 'INTC', 'CSCO', 'QCOM', 'WMT', 'NKE', 'BA'
+            ]
+            if isinstance(e_rows, list):
+                for row in e_rows:
+                    ticker = row.get('symbol')
+                    if ticker in target_tickers:
+                        time_raw = row.get('time', '')
+                        time_str = "장시작 전" if time_raw == "bmo" else "장마감 후" if time_raw == "amc" else time_raw
+                        
+                        raw_date = row.get('date', '')
+                        display_date = raw_date[5:10] if len(raw_date) >= 10 else raw_date
 
-                            earnings_events.append({
-                                "date": display_date,
-                                "ticker": ticker,
-                                "name": ticker,
-                                "time": time_str
-                            })
-        except Exception as e:
-            print(f"FMP 실적 수집 오류: {e}")
+                        earnings_events.append({
+                            "date": display_date,
+                            "ticker": ticker,
+                            "name": ticker,
+                            "time": time_str
+                        })
+    except Exception as e:
+        print(f"FMP 실적 캘린더 수집 오류: {e}")
 
     return {
         "title": title_str,
