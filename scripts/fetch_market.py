@@ -129,8 +129,8 @@ def fetch_calendar_data(week_offset, api_key):
 
     return {
         "title": title_str,
-        "macro": macro_events[:4],  # UI를 위해 상위 4개만 추출
-        "earnings": earnings_events[:3] # UI를 위해 상위 3개만 추출
+        "macro": macro_events,
+        "earnings": earnings_events
     }
 
 def make_naver_news_link(query_text):
