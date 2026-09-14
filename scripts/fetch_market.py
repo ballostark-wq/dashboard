@@ -41,7 +41,7 @@ FALLBACK_30Y = [
 ]
 
 def fetch_this_week_events():
-    """ForexFactory 무료 피드를 사용하여 차단 없이 '이번 주' 핵심 매크로 지표만 수집합니다."""
+    """ForexFactory 무료 피드(거시경제) + FMP API(실적)를 결합하여 안정적으로 데이터를 수집합니다."""
     now_kst = datetime.now(KST)
     start_of_week = now_kst - timedelta(days=now_kst.weekday())
     end_of_week = start_of_week + timedelta(days=6)
@@ -49,8 +49,8 @@ def fetch_this_week_events():
     title_str = f"이번 주 ({start_of_week.strftime('%m/%d')} ~ {end_of_week.strftime('%m/%d')})"
     macro_events = []
 
+    # 1. 거시경제 지표 수집 (ForexFactory - 차단 없음)
     try:
-        # 가입/API키 불필요. 클라우드 차단 없는 안전한 공개 피드
         res = requests.get("https://nfs.faireconomy.media/ff_calendar_thisweek.xml", headers=HEADERS, timeout=10)
         if res.status_code == 200:
             root = ET.fromstring(res.content)
@@ -58,7 +58,6 @@ def fetch_this_week_events():
                 country = event.findtext('country', '')
                 impact = event.findtext('impact', '')
                 
-                # 미국(USD)의 High/Medium 임팩트 지표만 필터링
                 if country == 'USD' and impact in ['High', 'Medium']:
                     title = event.findtext('title', '')
                     date_str = event.findtext('date', '') 
@@ -75,10 +74,39 @@ def fetch_this_week_events():
     except Exception as e:
         print(f"ForexFactory 매크로 수집 오류: {e}")
 
+    # 2. 빅테크 실적 수집 (FMP API)
+    api_key = os.environ.get("FMP_API_KEY", "")
+    earnings_list = []
+    if api_key:
+        start_str = start_of_week.strftime('%Y-%m-%d')
+        end_str = (start_of_week + timedelta(days=14)).strftime('%Y-%m-%d') # 서랍용으로 넉넉히 2주치 조회
+        big_tech = ["AAPL", "MSFT", "GOOGL", "AMZN", "META", "NVDA", "TSLA", "NFLX", "AMD", "INTC", "TSM", "AVGO", "ASML", "QCOM", "ARM"]
+        
+        url = f"https://financialmodelingprep.com/api/v3/earning_calendar?from={start_str}&to={end_str}&apikey={api_key}"
+        try:
+            res = requests.get(url, timeout=10)
+            if res.status_code == 200:
+                data = res.json()
+                for item in data:
+                    ticker = item.get("symbol", "")
+                    if ticker in big_tech:
+                        date_val = item.get("date", "")
+                        mm_dd = date_val[5:] if len(date_val) >= 10 else date_val
+                        time_val = item.get("time", "")
+                        time_kr = "장 시작 전" if time_val == "bmo" else "장 마감 후" if time_val == "amc" else time_val
+                        
+                        earnings_list.append({
+                            "date": mm_dd,
+                            "time": time_kr,
+                            "ticker": ticker
+                        })
+        except Exception as e:
+            print(f"FMP 실적 수집 오류: {e}")
+
     return {
         "title": title_str,
-        "macro": macro_events[:5], # 메인 화면 미니 박스용으로 상위 5개만 저장
-        "earnings": [] # 실적은 트레이딩뷰 UI로 대체
+        "macro": macro_events[:5],  # 메인 화면 미니 박스용 상위 5개
+        "earnings": earnings_list   # 서랍용 실적 목록
     }
 
 def make_naver_news_link(query_text):
