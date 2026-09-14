@@ -34,6 +34,7 @@ jobs:
       - name: Run collector script
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
         run: |
           python scripts/fetch_market.py
 
