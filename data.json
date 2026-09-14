@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14 13:05:43",
+  "updated_at": "2026-09-14 13:12:56",
   "us2y": {
     "value": 4.63,
     "change": 0.07
@@ -131,19 +131,19 @@
         "title": "[디일렉] HD현대, 차세대 LNG운반선 기술 공개",
         "link": "https://www.thelec.kr/news/articleView.html?idxno=62204",
         "date": "09-13 20:50"
-      },
-      {
-        "title": "[전자신문] 위즈코어, KRAIN 2026서 피지컬 AI 기반제조 자율 운영 모델 소개",
-        "link": "https://www.etnews.com/20260914000187",
-        "date": "09-14 13:02"
-      },
-      {
-        "title": "[전자신문] [테크 차이나·기고] 중국은 모델이 아니라 '스택'을 판다",
-        "link": "https://www.etnews.com/20260914000134",
-        "date": "09-14 13:00"
       }
     ],
     "domestic": [
+      {
+        "title": "국제유가·대외금리 영향 속 10년 입찰 주시…국고 3년 1.7bp↑",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434723",
+        "date": "09-14 13:07"
+      },
+      {
+        "title": "[외환] 바닥 확인에 저가 매수…1,340원대 중반 박스권",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434722",
+        "date": "09-14 13:05"
+      },
       {
         "title": "[표] 은행간 단기금리 기준-코리보(14일)",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434721",
@@ -158,16 +158,6 @@
         "title": "KIC, 美 실리콘밸리서 韓 벤처 투자유치 지원…\"피지컬 AI 주목\"",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434717",
         "date": "09-14 12:22"
-      },
-      {
-        "title": "ING \"연준 전망 수정…9월 금리 인상하지만 연속은 아냐\"",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434716",
-        "date": "09-14 12:22"
-      },
-      {
-        "title": "마크 잔디 \"연준, 심각한 정책 실수 저지를 가능성 커져\"",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434715",
-        "date": "09-14 12:21"
       }
     ]
   },
@@ -223,83 +213,83 @@
       "detail": "10Y-2Y 스프레드가 +34 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.47",
-      "title": "닥터 코퍼 $6.47선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.46",
+      "title": "닥터 코퍼 $6.46선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.47",
-          "chg": "+0.00%",
-          "up": true
+          "val": "$6.46",
+          "chg": "-0.15%",
+          "up": false
         },
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,366.2",
-          "chg": "+0.04%",
+          "val": "$4,370.0",
+          "chg": "+0.09%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$64.55",
-          "chg": "+0.42%",
-          "up": true
+          "val": "$64.42",
+          "chg": "-0.20%",
+          "up": false
         }
       ],
       "bullets": [
-        "구리 $6.47/lb (+0.00%) - AI 전력망 설비 수요 반영",
-        "금 $4,366/oz, 은 $64.55/oz - 통화가치 헤지"
+        "구리 $6.46/lb (-0.15%) - AI 전력망 설비 수요 반영",
+        "금 $4,370/oz, 은 $64.42/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,344원 | 엔/달러 ¥154.0",
-      "title": "원/달러 1,343.7원선과 엔/달러 ¥154.0",
+      "badge": "원/달러 1,343원 | 엔/달러 ¥154.0",
+      "title": "원/달러 1,343.4원선과 엔/달러 ¥154.0",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,343.7원",
-          "chg": "-0.33%",
+          "val": "1,343.4원",
+          "chg": "-0.36%",
           "up": false
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "99.12pt",
-          "chg": "+0.03%",
+          "val": "99.32pt",
+          "chg": "+0.20%",
           "up": true
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥154.00",
-          "chg": "-0.31%",
+          "val": "¥154.01",
+          "chg": "-0.30%",
           "up": false
         }
       ],
       "bullets": [
-        "달러 인덱스 99.12pt - 미국 성장 우위 지속",
-        "엔/달러 154.00엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 99.32pt - 미국 성장 우위 지속",
+        "엔/달러 154.01엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $100.05",
-      "title": "WTI 배럴당 $100.05선 박스권 안정",
+      "badge": "WTI $103.11",
+      "title": "WTI 배럴당 $103.11선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$100.05",
-          "chg": "-2.37%",
-          "up": false
+          "val": "$103.11",
+          "chg": "+3.06%",
+          "up": true
         }
       ],
       "bullets": [
-        "WTI 선물 $100.05/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $103.11/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -307,32 +297,32 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.47,
-      "change": 0.0
+      "price": 6.46,
+      "change": -0.15
     },
     "gold": {
-      "price": 4366.2,
-      "change": 0.04
+      "price": 4370.0,
+      "change": 0.09
     },
     "silver": {
-      "price": 64.55,
-      "change": 0.42
+      "price": 64.42,
+      "change": -0.2
     },
     "wti": {
-      "price": 100.05,
-      "change": -2.37
+      "price": 103.11,
+      "change": 3.06
     },
     "usdkrw": {
-      "price": 1343.68,
-      "change": -0.33
+      "price": 1343.38,
+      "change": -0.36
     },
     "dxy": {
-      "price": 99.12,
-      "change": 0.03
+      "price": 99.32,
+      "change": 0.2
     },
     "usdjpy": {
-      "price": 154.0,
-      "change": -0.31
+      "price": 154.01,
+      "change": -0.3
     }
   },
   "history_20d": {
@@ -480,12 +470,6 @@
     ],
     "commodities": [
       {
-        "date": "08-14",
-        "copper": 6.6,
-        "gold": 4380.4,
-        "silver": 64.99
-      },
-      {
         "date": "08-17",
         "copper": 6.6,
         "gold": 4417.8,
@@ -598,140 +582,141 @@
         "copper": 6.47,
         "gold": 4366.2,
         "silver": 64.55
+      },
+      {
+        "date": "09-14",
+        "copper": 6.46,
+        "gold": 4370.0,
+        "silver": 64.42
       }
     ],
     "fx": [
       {
         "date": "08-17",
         "usdkrw": 1414.73,
-        "dxy": 99.67,
+        "dxy": 99.64,
         "usdjpy": 159.34
       },
       {
         "date": "08-18",
         "usdkrw": 1413.58,
-        "dxy": 99.64,
+        "dxy": 99.65,
         "usdjpy": 159.55
       },
       {
         "date": "08-19",
         "usdkrw": 1389.4,
-        "dxy": 99.65,
+        "dxy": 98.83,
         "usdjpy": 158.28
       },
       {
         "date": "08-20",
         "usdkrw": 1390.79,
-        "dxy": 98.83,
+        "dxy": 98.9,
         "usdjpy": 158.88
       },
       {
         "date": "08-23",
         "usdkrw": 1384.98,
-        "dxy": 98.9,
+        "dxy": 98.8,
         "usdjpy": 158.9
       },
       {
         "date": "08-24",
         "usdkrw": 1380.76,
-        "dxy": 98.8,
+        "dxy": 99.0,
         "usdjpy": 159.14
       },
       {
         "date": "08-25",
         "usdkrw": 1381.49,
-        "dxy": 99.0,
+        "dxy": 98.92,
         "usdjpy": 159.22
       },
       {
         "date": "08-26",
         "usdkrw": 1383.49,
-        "dxy": 98.92,
+        "dxy": 99.17,
         "usdjpy": 159.26
       },
       {
         "date": "08-27",
         "usdkrw": 1380.45,
-        "dxy": 99.17,
+        "dxy": 99.16,
         "usdjpy": 159.32
       },
       {
         "date": "08-30",
         "usdkrw": 1377.11,
-        "dxy": 99.16,
+        "dxy": 99.7,
         "usdjpy": 160.12
       },
       {
         "date": "08-31",
         "usdkrw": 1366.62,
-        "dxy": 99.7,
+        "dxy": 99.43,
         "usdjpy": 159.75
       },
       {
         "date": "09-01",
         "usdkrw": 1372.86,
-        "dxy": 99.43,
+        "dxy": 99.67,
         "usdjpy": 160.2
       },
       {
         "date": "09-02",
         "usdkrw": 1358.39,
-        "dxy": 99.67,
+        "dxy": 99.56,
         "usdjpy": 158.92
       },
       {
         "date": "09-03",
         "usdkrw": 1355.41,
-        "dxy": 99.56,
+        "dxy": 99.0,
         "usdjpy": 155.66
       },
       {
         "date": "09-06",
         "usdkrw": 1345.06,
-        "dxy": 99.0,
+        "dxy": 99.16,
         "usdjpy": 156.2
       },
       {
         "date": "09-07",
         "usdkrw": 1343.57,
-        "dxy": 99.16,
+        "dxy": 98.84,
         "usdjpy": 153.85
       },
       {
         "date": "09-08",
         "usdkrw": 1339.21,
-        "dxy": 98.84,
+        "dxy": 98.77,
         "usdjpy": 153.48
       },
       {
         "date": "09-09",
         "usdkrw": 1339.17,
-        "dxy": 98.77,
+        "dxy": 99.09,
         "usdjpy": 153.57
       },
       {
         "date": "09-10",
         "usdkrw": 1348.17,
-        "dxy": 99.09,
+        "dxy": 99.12,
         "usdjpy": 154.48
       },
       {
         "date": "09-14",
-        "usdkrw": 1343.68,
-        "dxy": 99.12,
-        "usdjpy": 154.0
+        "usdkrw": 1343.38,
+        "dxy": 99.32,
+        "usdjpy": 154.01
       }
     ],
     "oil": [
       {
-        "date": "08-14",
-        "wti": 82.4,
-        "change": 0.0
-      },
-      {
         "date": "08-17",
         "wti": 84.5,
-        "change": 2.55
+        "change": 0.0
       },
       {
         "date": "08-18",
@@ -822,6 +807,11 @@
         "date": "09-11",
         "wti": 100.05,
         "change": -2.37
+      },
+      {
+        "date": "09-14",
+        "wti": 103.11,
+        "change": 3.06
       }
     ]
   },
@@ -1455,7 +1445,7 @@
         "rank": 1,
         "title": "Dear my crazy soulmate",
         "channel": "IU - Topic",
-        "views": "237만회",
+        "views": "238만회",
         "thumb": "https://i.ytimg.com/vi/IHIt9S2DWcQ/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=IHIt9S2DWcQ"
       },
