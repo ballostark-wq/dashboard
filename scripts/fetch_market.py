@@ -40,13 +40,12 @@ FALLBACK_30Y = [
     ("09-01", 5.27), ("09-02", 5.27), ("09-03", 5.24), ("09-04", 5.25), ("09-08", 5.25),
 ]
 
-def fetch_nasdaq_calendar(week_offset=0):
-    """나스닥 공식 API를 활용하여 특정 주차의 매크로 지표와 실적 발표 일정을 자동 수집합니다."""
+def fetch_fmp_calendar(week_offset, api_key):
+    """FMP 공식 API를 활용하여 특정 주차의 매크로 지표와 실적 발표 일정을 자동 수집합니다."""
     now_kst = datetime.now(KST)
     start_of_week = now_kst - timedelta(days=now_kst.weekday()) + timedelta(weeks=week_offset)
     end_of_week = start_of_week + timedelta(days=6)
     
-    # 캘린더 상단에 표시될 주차별 타이틀 생성
     if week_offset == 0:
         title_prefix = "이번 주"
     elif week_offset == 1:
@@ -55,60 +54,72 @@ def fetch_nasdaq_calendar(week_offset=0):
         title_prefix = "다다음 주"
     
     title_str = f"{title_prefix} ({start_of_week.strftime('%m/%d')} ~ {end_of_week.strftime('%m/%d')})"
-    date_str = start_of_week.strftime('%Y-%m-%d')
-
-    # 나스닥 API는 봇 접근을 차단하므로 일반 브라우저 헤더 필수
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-        "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
-        "Origin": "https://www.nasdaq.com"
-    }
+    start_str = start_of_week.strftime('%Y-%m-%d')
+    end_str = end_of_week.strftime('%Y-%m-%d')
 
     macro_events = []
     earnings_events = []
 
+    if not api_key:
+        print("⚠️ FMP_API_KEY가 설정되지 않았습니다.")
+        return {"title": title_str, "macro": [], "earnings": []}
+
     try:
         # 1. 거시경제 지표 (Economic Calendar) 수집
-        macro_url = f"https://api.nasdaq.com/api/calendar/economicevents?date={date_str}"
-        m_res = requests.get(macro_url, headers=headers, timeout=10)
+        macro_url = f"https://financialmodelingprep.com/api/v3/economic_calendar?from={start_str}&to={end_str}&apikey={api_key}"
+        m_res = requests.get(macro_url, timeout=10)
         
         if m_res.status_code == 200:
-            m_rows = m_res.json().get('data', {}).get('rows', []) or []
+            m_rows = m_res.json()
             for row in m_rows:
-                event_name = row.get('eventName', '')
-                # 시장 영향력이 큰 주요 지표 필터링
-                if any(kw in event_name for kw in ['CPI', 'PPI', 'GDP', 'FOMC', 'Initial Claims', 'Retail Sales', 'PCE']):
-                    impact_level = "CRITICAL" if any(k in event_name for k in ['CPI', 'FOMC', 'PCE']) else "HIGH"
+                if row.get('country') != 'US':  # 미국 지표만 필터링
+                    continue
+                
+                event_name = row.get('event', '')
+                # 시장 영향력이 큰 주요 지표 키워드
+                key_indicators = ['CPI', 'PPI', 'GDP', 'FOMC', 'Initial Jobless Claims', 'Retail Sales', 'PCE', 'Fed', 'Non Farm Payrolls', 'Interest Rate Decision']
+                
+                if any(kw.lower() in event_name.lower() for kw in key_indicators):
+                    impact_level = "CRITICAL" if any(k.lower() in event_name.lower() for k in ['cpi', 'fomc', 'pce', 'interest rate', 'non farm']) else "HIGH"
+                    
+                    # 날짜 포맷팅 (YYYY-MM-DD HH:MM:SS -> MM-DD HH:MM)
+                    raw_date = row.get('date', '')
+                    display_date = raw_date[5:16] if len(raw_date) >= 16 else raw_date
+                    
                     macro_events.append({
-                        "date": row.get('timestamp', '')[:10],
+                        "date": display_date,
                         "event": event_name,
                         "impact": impact_level
                     })
     except Exception as e:
-        print(f"나스닥 매크로 캘린더 수집 오류 (week_offset={week_offset}): {e}")
+        print(f"FMP 매크로 캘린더 수집 오류 (week_offset={week_offset}): {e}")
 
     try:
         # 2. 기업 실적 발표 (Earnings Calendar) 수집
-        earn_url = f"https://api.nasdaq.com/api/calendar/earnings?date={date_str}"
-        e_res = requests.get(earn_url, headers=headers, timeout=10)
+        earn_url = f"https://financialmodelingprep.com/api/v3/earning_calendar?from={start_str}&to={end_str}&apikey={api_key}"
+        e_res = requests.get(earn_url, timeout=10)
         
         if e_res.status_code == 200:
-            e_rows = e_res.json().get('data', {}).get('rows', []) or []
-            # 시장 주도주 티커만 필터링 (필요시 추가)
-            target_tickers = ['AAPL', 'MSFT', 'GOOGL', 'AMZN', 'NVDA', 'META', 'TSLA', 'ORCL', 'ADBE', 'MU', 'COST', 'FDX']
+            e_rows = e_res.json()
+            target_tickers = ['AAPL', 'MSFT', 'GOOGL', 'AMZN', 'NVDA', 'META', 'TSLA', 'ORCL', 'ADBE', 'MU', 'COST', 'FDX', 'NFLX', 'AMD']
             for row in e_rows:
                 ticker = row.get('symbol')
                 if ticker in target_tickers:
+                    time_raw = row.get('time', '')
+                    time_str = "장시작 전" if time_raw == "bmo" else "장마감 후" if time_raw == "amc" else time_raw
+                    
+                    raw_date = row.get('date', '')
+                    display_date = raw_date[5:10] if len(raw_date) >= 10 else raw_date
+
                     earnings_events.append({
-                        "date": row.get('date', '')[:10],
+                        "date": display_date,
                         "ticker": ticker,
-                        "name": row.get('name', ticker),
-                        "time": "장시작 전" if row.get('time') == "time-pre-market" else "장마감 후"
+                        "name": ticker,
+                        "time": time_str
                     })
     except Exception as e:
-        print(f"나스닥 실적 캘린더 수집 오류 (week_offset={week_offset}): {e}")
+        print(f"FMP 실적 캘린더 수집 오류 (week_offset={week_offset}): {e}")
 
-    # UI가 넘치지 않도록 최대 개수 제한하여 반환
     return {
         "title": title_str,
         "macro": macro_events[:4],
@@ -953,11 +964,13 @@ def main():
         },
     }
 
-    # 5. 3주 캘린더 생성 (나스닥 API 자동화 적용)
+    # 5. 3주 캘린더 생성 (FMP API 자동화 적용)
+    fmp_api_key = os.environ.get("FMP_API_KEY", "")
+
     data["calendar_3w"] = {
-        "w1": fetch_nasdaq_calendar(0), # 이번 주 데이터 자동 수집
-        "w2": fetch_nasdaq_calendar(1), # 다음 주 데이터 자동 수집
-        "w3": fetch_nasdaq_calendar(2), # 다다음 주 데이터 자동 수집
+        "w1": fetch_fmp_calendar(0, fmp_api_key), 
+        "w2": fetch_fmp_calendar(1, fmp_api_key), 
+        "w3": fetch_fmp_calendar(2, fmp_api_key), 
     }
 
     # 6. 마스터 풀 파일(humanities_pool.json)에서 1일 1주제 순환 추출 및 5일 큐 갱신
