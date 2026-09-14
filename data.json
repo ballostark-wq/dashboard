@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14 12:31:59",
+  "updated_at": "2026-09-14 12:37:14",
   "us2y": {
     "value": 4.63,
     "change": 0.07
@@ -133,14 +133,14 @@
         "date": "09-13 20:50"
       },
       {
-        "title": "[전자신문] F5, 韓에 분산 클라우드 신규 구축…지연시간 줄이고 보안 강화",
-        "link": "https://www.etnews.com/20260914000178",
-        "date": "09-14 12:01"
+        "title": "[전자신문] 국립목포대, 2027 수시 경쟁률 5.58대 1…10년내 최고치",
+        "link": "https://www.etnews.com/20260914000181",
+        "date": "09-14 12:17"
       },
       {
-        "title": "[전자신문] 전북정보보호지원센터, 중소기업 정보보호 지원사업 수요기업 모집",
-        "link": "https://www.etnews.com/20260914000177",
-        "date": "09-14 12:01"
+        "title": "[전자신문] 전북대, 16일 '취업박람회' 개최…우수기업·기관 50곳 이상 참여",
+        "link": "https://www.etnews.com/20260914000180",
+        "date": "09-14 12:13"
       }
     ],
     "domestic": [
@@ -236,70 +236,70 @@
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,375.0",
-          "chg": "+0.20%",
+          "val": "$4,374.1",
+          "chg": "+0.18%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$64.57",
-          "chg": "+0.03%",
-          "up": true
+          "val": "$64.53",
+          "chg": "-0.03%",
+          "up": false
         }
       ],
       "bullets": [
         "구리 $6.49/lb (+0.31%) - AI 전력망 설비 수요 반영",
-        "금 $4,375/oz, 은 $64.57/oz - 통화가치 헤지"
+        "금 $4,374/oz, 은 $64.53/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,345원 | 엔/달러 ¥154.1",
-      "title": "원/달러 1,345.1원선과 엔/달러 ¥154.1",
+      "badge": "원/달러 1,346원 | 엔/달러 ¥154.1",
+      "title": "원/달러 1,345.6원선과 엔/달러 ¥154.1",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,345.1원",
-          "chg": "-0.23%",
+          "val": "1,345.6원",
+          "chg": "-0.19%",
           "up": false
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "99.29pt",
-          "chg": "+0.17%",
+          "val": "99.30pt",
+          "chg": "+0.18%",
           "up": true
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥154.05",
-          "chg": "-0.28%",
+          "val": "¥154.10",
+          "chg": "-0.25%",
           "up": false
         }
       ],
       "bullets": [
-        "달러 인덱스 99.29pt - 미국 성장 우위 지속",
-        "엔/달러 154.05엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 99.3pt - 미국 성장 우위 지속",
+        "엔/달러 154.10엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $103.2",
-      "title": "WTI 배럴당 $103.2선 박스권 안정",
+      "badge": "WTI $103.32",
+      "title": "WTI 배럴당 $103.32선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$103.20",
-          "chg": "+3.15%",
+          "val": "$103.32",
+          "chg": "+3.27%",
           "up": true
         }
       ],
       "bullets": [
-        "WTI 선물 $103.2/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $103.32/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -311,28 +311,28 @@
       "change": 0.31
     },
     "gold": {
-      "price": 4375.0,
-      "change": 0.2
+      "price": 4374.1,
+      "change": 0.18
     },
     "silver": {
-      "price": 64.57,
-      "change": 0.03
+      "price": 64.53,
+      "change": -0.03
     },
     "wti": {
-      "price": 103.2,
-      "change": 3.15
+      "price": 103.32,
+      "change": 3.27
     },
     "usdkrw": {
-      "price": 1345.08,
-      "change": -0.23
+      "price": 1345.59,
+      "change": -0.19
     },
     "dxy": {
-      "price": 99.29,
-      "change": 0.17
+      "price": 99.3,
+      "change": 0.18
     },
     "usdjpy": {
-      "price": 154.05,
-      "change": -0.28
+      "price": 154.1,
+      "change": -0.25
     }
   },
   "history_20d": {
@@ -596,8 +596,8 @@
       {
         "date": "09-14",
         "copper": 6.49,
-        "gold": 4375.0,
-        "silver": 64.57
+        "gold": 4374.1,
+        "silver": 64.53
       }
     ],
     "fx": [
@@ -717,9 +717,9 @@
       },
       {
         "date": "09-14",
-        "usdkrw": 1345.08,
-        "dxy": 99.29,
-        "usdjpy": 154.05
+        "usdkrw": 1345.59,
+        "dxy": 99.3,
+        "usdjpy": 154.1
       }
     ],
     "oil": [
@@ -820,8 +820,8 @@
       },
       {
         "date": "09-14",
-        "wti": 103.2,
-        "change": 3.15
+        "wti": 103.32,
+        "change": 3.27
       }
     ]
   },
@@ -1442,53 +1442,53 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "김성수 대법관 후보자",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%84%B1%EC%88%98%20%EB%8C%80%EB%B2%95%EA%B4%80%20%ED%9B%84%EB%B3%B4%EC%9E%90"
+        "title": "김성수 대법관 후보자 인사",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%84%B1%EC%88%98%20%EB%8C%80%EB%B2%95%EA%B4%80%20%ED%9B%84%EB%B3%B4%EC%9E%90%20%EC%9D%B8%EC%82%AC"
       },
       {
         "rank": 2,
-        "title": "이기인, 개혁신당 비대위원장 임명",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EA%B8%B0%EC%9D%B8%2C%20%EA%B0%9C%ED%98%81%EC%8B%A0%EB%8B%B9%20%EB%B9%84%EB%8C%80%EC%9C%84%EC%9B%90%EC%9E%A5%20%EC%9E%84%EB%AA%85"
+        "title": "단독 콘서트 성료",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%8B%A8%EB%8F%85%20%EC%BD%98%EC%84%9C%ED%8A%B8%20%EC%84%B1%EB%A3%8C"
       },
       {
         "rank": 3,
-        "title": "서울시 버스 파업 대책",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%84%9C%EC%9A%B8%EC%8B%9C%20%EB%B2%84%EC%8A%A4%20%ED%8C%8C%EC%97%85%20%EB%8C%80%EC%B1%85"
+        "title": "LG 전문가 AI 공개",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=LG%20%EC%A0%84%EB%AC%B8%EA%B0%80%20AI%20%EA%B3%B5%EA%B0%9C"
       },
       {
         "rank": 4,
-        "title": "존박 단독 콘서트 브레이크 성료",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A1%B4%EB%B0%95%20%EB%8B%A8%EB%8F%85%20%EC%BD%98%EC%84%9C%ED%8A%B8%20%EB%B8%8C%EB%A0%88%EC%9D%B4%ED%81%AC%20%EC%84%B1%EB%A3%8C"
+        "title": "LH 입찰 비리",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=LH%20%EC%9E%85%EC%B0%B0%20%EB%B9%84%EB%A6%AC"
       },
       {
         "rank": 5,
-        "title": "은마 종합 상가",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%80%EB%A7%88%20%EC%A2%85%ED%95%A9%20%EC%83%81%EA%B0%80"
+        "title": "유부녀 킬러 정준원 논란 해명 희망",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9C%A0%EB%B6%80%EB%85%80%20%ED%82%AC%EB%9F%AC%20%EC%A0%95%EC%A4%80%EC%9B%90%20%EB%85%BC%EB%9E%80%20%ED%95%B4%EB%AA%85%20%ED%9D%AC%EB%A7%9D"
       },
       {
         "rank": 6,
-        "title": "금감원 임직원 주식투자",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B8%88%EA%B0%90%EC%9B%90%20%EC%9E%84%EC%A7%81%EC%9B%90%20%EC%A3%BC%EC%8B%9D%ED%88%AC%EC%9E%90"
+        "title": "휴대 전화",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%9C%B4%EB%8C%80%20%EC%A0%84%ED%99%94"
       },
       {
         "rank": 7,
-        "title": "발언하는 장동혁 대표",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B0%9C%EC%96%B8%ED%95%98%EB%8A%94%20%EC%9E%A5%EB%8F%99%ED%98%81%20%EB%8C%80%ED%91%9C"
-      },
-      {
-        "rank": 8,
-        "title": "에어로케이",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%97%90%EC%96%B4%EB%A1%9C%EC%BC%80%EC%9D%B4"
-      },
-      {
-        "rank": 9,
         "title": "GTX-C 노선 착공",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=GTX-C%20%EB%85%B8%EC%84%A0%20%EC%B0%A9%EA%B3%B5"
       },
       {
+        "rank": 8,
+        "title": "추석 대비 캠페인 및 환급 추진",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B6%94%EC%84%9D%20%EB%8C%80%EB%B9%84%20%EC%BA%A0%ED%8E%98%EC%9D%B8%20%EB%B0%8F%20%ED%99%98%EA%B8%89%20%EC%B6%94%EC%A7%84"
+      },
+      {
+        "rank": 9,
+        "title": "브룩스 레일리",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B8%8C%EB%A3%A9%EC%8A%A4%20%EB%A0%88%EC%9D%BC%EB%A6%AC"
+      },
+      {
         "rank": 10,
-        "title": "출근하는 조희대 대법원장",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B6%9C%EA%B7%BC%ED%95%98%EB%8A%94%20%EC%A1%B0%ED%9D%AC%EB%8C%80%20%EB%8C%80%EB%B2%95%EC%9B%90%EC%9E%A5"
+        "title": "HL만도 노동부 압수수색",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=HL%EB%A7%8C%EB%8F%84%20%EB%85%B8%EB%8F%99%EB%B6%80%20%EC%95%95%EC%88%98%EC%88%98%EC%83%89"
       }
     ],
     "youtube_popular": [
@@ -1496,7 +1496,7 @@
         "rank": 1,
         "title": "Dear my crazy soulmate",
         "channel": "IU - Topic",
-        "views": "232만회",
+        "views": "233만회",
         "thumb": "https://i.ytimg.com/vi/IHIt9S2DWcQ/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=IHIt9S2DWcQ"
       },
@@ -1504,7 +1504,7 @@
         "rank": 2,
         "title": "NCT WISH 엔시티 위시 'I SPY' Trailer Part 1. Confused Boy",
         "channel": "NCT WISH",
-        "views": "10만회",
+        "views": "11만회",
         "thumb": "https://i.ytimg.com/vi/OwgvFefFAVA/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=OwgvFefFAVA"
       },
@@ -1512,7 +1512,7 @@
         "rank": 3,
         "title": "케인으로 극락 보내기",
         "channel": "이상호",
-        "views": "53만회",
+        "views": "54만회",
         "thumb": "https://i.ytimg.com/vi/P50Ag1FGBUY/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=P50Ag1FGBUY"
       },
