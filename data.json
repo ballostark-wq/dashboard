@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14 13:12:56",
+  "updated_at": "2026-09-14 13:29:52",
   "us2y": {
     "value": 4.63,
     "change": 0.07
@@ -131,6 +131,16 @@
         "title": "[디일렉] HD현대, 차세대 LNG운반선 기술 공개",
         "link": "https://www.thelec.kr/news/articleView.html?idxno=62204",
         "date": "09-13 20:50"
+      },
+      {
+        "title": "[전자신문] 위즈코어, KRAIN 2026서 피지컬 AI 기반제조 자율 운영 모델 소개",
+        "link": "https://www.etnews.com/20260914000187",
+        "date": "09-14 13:02"
+      },
+      {
+        "title": "[전자신문] [테크 차이나·기고] 중국은 모델이 아니라 '스택'을 판다",
+        "link": "https://www.etnews.com/20260914000134",
+        "date": "09-14 13:00"
       }
     ],
     "domestic": [
@@ -213,83 +223,83 @@
       "detail": "10Y-2Y 스프레드가 +34 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.46",
-      "title": "닥터 코퍼 $6.46선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.47",
+      "title": "닥터 코퍼 $6.47선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.46",
-          "chg": "-0.15%",
-          "up": false
+          "val": "$6.47",
+          "chg": "+0.00%",
+          "up": true
         },
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,370.0",
-          "chg": "+0.09%",
+          "val": "$4,369.8",
+          "chg": "+0.08%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$64.42",
-          "chg": "-0.20%",
+          "val": "$64.40",
+          "chg": "-0.23%",
           "up": false
         }
       ],
       "bullets": [
-        "구리 $6.46/lb (-0.15%) - AI 전력망 설비 수요 반영",
-        "금 $4,370/oz, 은 $64.42/oz - 통화가치 헤지"
+        "구리 $6.47/lb (+0.00%) - AI 전력망 설비 수요 반영",
+        "금 $4,370/oz, 은 $64.40/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,343원 | 엔/달러 ¥154.0",
-      "title": "원/달러 1,343.4원선과 엔/달러 ¥154.0",
+      "badge": "원/달러 1,345원 | 엔/달러 ¥154.0",
+      "title": "원/달러 1,345.0원선과 엔/달러 ¥154.0",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,343.4원",
-          "chg": "-0.36%",
+          "val": "1,345.0원",
+          "chg": "-0.23%",
           "up": false
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "99.32pt",
-          "chg": "+0.20%",
+          "val": "99.33pt",
+          "chg": "+0.21%",
           "up": true
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥154.01",
-          "chg": "-0.30%",
+          "val": "¥154.03",
+          "chg": "-0.29%",
           "up": false
         }
       ],
       "bullets": [
-        "달러 인덱스 99.32pt - 미국 성장 우위 지속",
-        "엔/달러 154.01엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 99.33pt - 미국 성장 우위 지속",
+        "엔/달러 154.03엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $103.11",
-      "title": "WTI 배럴당 $103.11선 박스권 안정",
+      "badge": "WTI $103.06",
+      "title": "WTI 배럴당 $103.06선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$103.11",
-          "chg": "+3.06%",
+          "val": "$103.06",
+          "chg": "+3.01%",
           "up": true
         }
       ],
       "bullets": [
-        "WTI 선물 $103.11/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $103.06/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -297,32 +307,32 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.46,
-      "change": -0.15
+      "price": 6.47,
+      "change": 0.0
     },
     "gold": {
-      "price": 4370.0,
-      "change": 0.09
+      "price": 4369.8,
+      "change": 0.08
     },
     "silver": {
-      "price": 64.42,
-      "change": -0.2
+      "price": 64.4,
+      "change": -0.23
     },
     "wti": {
-      "price": 103.11,
-      "change": 3.06
+      "price": 103.06,
+      "change": 3.01
     },
     "usdkrw": {
-      "price": 1343.38,
-      "change": -0.36
+      "price": 1345.04,
+      "change": -0.23
     },
     "dxy": {
-      "price": 99.32,
-      "change": 0.2
+      "price": 99.33,
+      "change": 0.21
     },
     "usdjpy": {
-      "price": 154.01,
-      "change": -0.3
+      "price": 154.03,
+      "change": -0.29
     }
   },
   "history_20d": {
@@ -585,9 +595,9 @@
       },
       {
         "date": "09-14",
-        "copper": 6.46,
-        "gold": 4370.0,
-        "silver": 64.42
+        "copper": 6.47,
+        "gold": 4369.8,
+        "silver": 64.4
       }
     ],
     "fx": [
@@ -707,9 +717,9 @@
       },
       {
         "date": "09-14",
-        "usdkrw": 1343.38,
-        "dxy": 99.32,
-        "usdjpy": 154.01
+        "usdkrw": 1345.04,
+        "dxy": 99.33,
+        "usdjpy": 154.03
       }
     ],
     "oil": [
@@ -810,25 +820,41 @@
       },
       {
         "date": "09-14",
-        "wti": 103.11,
-        "change": 3.06
+        "wti": 103.06,
+        "change": 3.01
       }
     ]
   },
   "calendar_3w": {
     "w1": {
       "title": "이번 주 (09/14 ~ 09/20)",
-      "macro": [],
-      "earnings": []
-    },
-    "w2": {
-      "title": "다음 주 (09/21 ~ 09/27)",
-      "macro": [],
-      "earnings": []
-    },
-    "w3": {
-      "title": "다다음 주 (09/28 ~ 10/04)",
-      "macro": [],
+      "macro": [
+        {
+          "date": "09-16 12:30pm",
+          "event": "Core Retail Sales m/m",
+          "impact": "HIGH"
+        },
+        {
+          "date": "09-16 12:30pm",
+          "event": "Retail Sales m/m",
+          "impact": "HIGH"
+        },
+        {
+          "date": "09-16 6:00pm",
+          "event": "Federal Funds Rate",
+          "impact": "CRITICAL"
+        },
+        {
+          "date": "09-16 6:00pm",
+          "event": "FOMC Economic Projections",
+          "impact": "CRITICAL"
+        },
+        {
+          "date": "09-16 6:00pm",
+          "event": "FOMC Statement",
+          "impact": "CRITICAL"
+        }
+      ],
       "earnings": []
     }
   },
