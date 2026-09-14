@@ -929,8 +929,9 @@
       } else if (tabKey === 'calendar') {
         qView.style.display = 'none';
         sView.style.display = 'flex';
-        note.innerText = '출처: 미 노동통계국(BLS) · 연준(FRB) · 야후 파이낸스 실적';
-        sBox.innerHTML = renderCalendarDrawer(activeCalendarWeek);
+        note.innerText = '출처: TradingView 글로벌 마켓 캘린더';
+        sBox.innerHTML = renderCalendarDrawer('tv-widget-main');
+        injectTradingViewScript('tv-widget-main'); // 💡 스크립트 강제 주입 우회
       } else {
         qView.style.display = 'none';
         sView.style.display = 'flex';
@@ -955,486 +956,38 @@
       }
     }
 
-    // =========================================================================
-    // 🏛️ 인문·역사·다국어 회화 렌더링 & Web Speech API (TTS) 로직
-    // =========================================================================
-    function renderHumanitiesSection() {
-      if (!cachedHumanities) return;
-      const h = cachedHumanities.history;
-      const p = cachedHumanities.polyglot;
-      const ph = cachedHumanities.philosophy;
-
-      // 1. 세계사 카드 (기본: 오늘 D-0 바인딩)
-      if (cachedHumanities.history_5d && cachedHumanities.history_5d.length > 0) {
-        switchHistoryDay(0);
-      } else if (h) {
-        document.getElementById('h-history-era').innerText = h.era;
-        document.getElementById('h-history-title').innerText = h.title;
-        document.getElementById('h-history-summary').innerText = h.summary;
-        document.getElementById('h-history-bullets').innerHTML = h.bullets.map(b => `<li>${b}</li>`).join('');
-      }
-
-      // 2. 다국어 회화 카드 5일치 피드 렌더링 실행
-      switchLanguage(currentLangCode);
-    }
-    // roman 누락 시 100% 자동 매핑하는 한글 발음 보장 사전
-    const HANGUL_PRONUNCIATION_MAP = {
-      "Hello! Good day.": "헬로! 굿 데이.",
-      "こんにちは！": "곤니치와!",
-      "你好！": "니하오!",
-      "Bonjour !": "봉주르!",
-      "Guten Tag!": "구텐 탁!",
-      "¡Hola! Buenos días.": "올라! 부에노스 디아스.",
-      "مرحباً! يوم سعيد.": "마르하반! 야움 사이드.",
-      "Здравствуйте!": "즈드랏스부이쩨!",
-      "Have a wonderful day!": "해브 어 원더풀 데이!",
-      "良い一日をお過ごしください！": "요이 이치니치오 오스고시 구다사이!",
-      "祝你度过美好的一天！": "주 니 두궈 메이하오 더 이톈!",
-      "Passez une bonne journée !": "파세 윈 본 주르네!",
-      "Einen schönen Tag noch!": "아이넨 쇠넨 탁 노흐!",
-      "¡Que tengas un buen día!": "께 뗑가스 운 부엔 디아!",
-      "أتمنى لك يوماً جميلاً!": "아타만나 라카 야우만 자밀란!",
-      "Хорошего вам дня!": "하로쉐바 밤 드냐!",
-      "See you again next time!": "씨 유 어게인 넥스트 타임!",
-      "また次回お会いしましょう！": "마타 지카이 오아이 시마쇼-!",
-      "下次再见！": "샤 츠 짜이지엔!",
-      "À la prochaine fois !": "아 라 프로셴느 푸아!",
-      "Bis zum nächsten Mal!": "비스 춤 넥스텐 말!",
-      "¡Hasta la próxima!": "아스타 라 프록시마!",
-      "أراك في المرة القادمة!": "아라카 필 마르라틸 까디마!",
-      "До следующей встречи!": "다 슬례두유셰이 브스트레치!",
-      "Thank you very much.": "땡큐 베리 머치.",
-      "本当にありがとうございます。": "혼토-니 아리가토- 고자이마스.",
-      "非常感谢你。": "페이창 간셰 니.",
-      "Merci beaucoup.": "메르시 보꾸.",
-      "Vielen Dank.": "필렌 당크.",
-      "Muchas gracias.": "무차스 그라시아스.",
-      "شكراً جزيلاً لك.": "슈크란 자질란 라크.",
-      "Большое спасибо.": "발쇼예 스파시바.",
-      "Excuse me, I am sorry.": "익스큐즈 미, 아임 쏘리.",
-      "すみません、申し訳ありません。": "스미마센, 모-시와케 아리마센.",
-      "不好意思，打扰一下。": "부하오이쓰, 다라오 이샤.",
-      "Excusez-moi, pardon.": "엑스퀴제 무아, 파르동.",
-      "Entschuldigen Sie bitte.": "엔트슐디건 지 비테.",
-      "Disculpe, perdón.": "디스쿨뻬, 뻬르돈.",
-      "معذرة، أنا آسف.": "마디라탄, 아나 아시프.",
-      "Извините, прошу прощения.": "이즈비니쩨, 프라슈 프라셰니야.",
-      "You are very welcome.": "유 아 베리 웰컴.",
-      "どういたしまして。": "도-이타시마시테.",
-      "不客气，不用谢。": "부커치, 부융 셰.",
-      "Je vous en prie.": "즈 부 장 프리.",
-      "Gern geschehen, bitte schön.": "게른 게셰엔, 비테 쇤.",
-      "De nada, es un placer.": "데 나다, 에스 운 쁠라세르.",
-      "على الرحب والسعة.": "알라르 라흐비 와스-사아.",
-      "Пожалуйста, не за что.": "빠잘루이스타, 녜 자 슈또.",
-      "Nice to meet you.": "나이스 투 밋 유.",
-      "はじめまして、お会いできて嬉しいです。": "하지메마시테, 오아이 데키테 우레시이 데스.",
-      "很高兴认识你。": "헌 가오싱 런스 니.",
-      "Ravi de vous rencontrer.": "라비 드 부 랑콩트레.",
-      "Schön, Sie kennenzulernen.": "쇤, 지 케넨추러넨.",
-      "Mucho gusto en conocerte.": "무초 구스토 엔 코노세르테.",
-      "سعيد بلقائك جداً.": "사이둔 비리카이카 짓단.",
-      "Очень приятно познакомиться.": "오친 프리야트나 빠즈나코밋짜.",
-      "Could you please help me for a moment?": "쿠쥬 플리즈 헬프 미 포 어 모먼트?",
-      "少し手伝っていただけますか？": "스코시 테츠닷테 이타다케마스 카?",
-      "能请你帮我一下吗？": "넝 칭 니 방 워 이샤 마?",
-      "Pourriez-vous m'aider un instant, s'il vous plaît ?": "푸리에 부 메데 앙 앵스탕, 실 부 플레?",
-      "Könnten Sie mir bitte kurz helfen?": "켠텐 지 미어 비테 쿠르츠 헬펜?",
-      "¿Podría ayudarme un momento, por favor?": "뽀드리아 아유다르메 운 모멘토, 뽀르 파보르?",
-      "هل يمكنك مساعدتي للحظة من فضلك؟": "할 윰키누카 무사아다티 릴라흐자 민 파들릭?",
-      "Не могли бы вы мне помочь?": "니 마글리 브이 므녜 빠모치?",
-      "Sounds great! No problem at all.": "사운즈 그레이트! 노 프라블럼 앳 올.",
-      "いいですね！全く問題ありません。": "이이데스 네! 맛타쿠 몬다이 아리마센.",
-      "太好了！完全没问题。": "타이 하오 러! 완췐 메이 원티.",
-      "C'est parfait ! Aucun problème.": "세 파르페! 오깡 프로블렘.",
-      "Klingt gut! Überhaupt kein Problem.": "클링트 구트! 위버하웁트 카인 프로블렘.",
-      "¡Suena genial! Ningún problema.": "수에나 헤니알! 닝군 프로블레마.",
-      "يبدو رائعاً! لا توجد مشكلة على الإطلاق.": "얍두 라이안! 라 투자두 무시키라 알랄 이틀락.",
-      "Отлично! Никаких проблем.": "아트리치나! 니카키흐 프라블롐.",
-      "Could you speak a little more slowly, please?": "쿠쥬 스픽 어 리틀 모어 슬로우리, 플리즈?",
-      "もう少しゆっくり話していただけますか？": "모- 스코시 윳쿠리 하나시테 이타다케마스 카?",
-      "请你说得稍微慢一点好吗？": "칭 니 슈오 더 샤오웨이 만 이디엔 하오 마?",
-      "Pourriez-vous parler un peu plus lentement ?": "푸리에 부 파를레 앙 쁘 플뤼 랑트망?",
-      "Könnten Sie bitte etwas langsamer sprechen?": "켠텐 지 비테 에트바스 랑자머 슈프레헨?",
-      "¿Podría hablar un poco más despacio, por favor?": "뽀드리아 아블라르 운 뽀꼬 마스 데스파시오, 뽀르 파보르?",
-      "هل يمكنك التحدث ببطء أكثر من فضلك؟": "할 윰키누카 앗타핫두스 비부틴 악사르 민 파들릭?",
-      "Говорите, пожалуйста, помедленнее.": "가바리쩨, 빠잘루이스타, 빠메들린녜예."
-    };
-
-    // 다국어 탭 전환 및 최근 5일치 [기초/일상] 교차 리스트업 렌더러
-    function switchLanguage(langKey) {
-      currentLangCode = langKey;
-      document.querySelectorAll('#polyglot-lang-chips .lang-tab').forEach(b => b.classList.remove('active'));
-      const activeBtn = Array.from(document.querySelectorAll('#polyglot-lang-chips .lang-tab')).find(b => b.innerText.toLowerCase().includes(langKey));
-      if (activeBtn) activeBtn.classList.add('active');
-
-      const container = document.getElementById('polyglot-list-container');
-      if (!container || !cachedHumanities) return;
-
-      const list = cachedHumanities.polyglot_5d || (cachedHumanities.polyglot ? [cachedHumanities.polyglot] : []);
-      if (list.length === 0) {
-        container.innerHTML = '<div style="font-size:0.72rem; color:#64748b; text-align:center; padding:40px 0;">회화 데이터가 없습니다.</div>';
-        return;
-      }
-
-      container.innerHTML = list.map((p, idx) => {
-        const trans = (p.translations && p.translations[langKey]) ? p.translations[langKey] : null;
-        if (!trans) return '';
-
-        const isToday = idx === 0;
-        const dDayTag = p.d_day || (isToday ? '오늘' : `D-${idx}`);
-        const isBasic = p.pool_type === '기초' || (p.theme && (p.theme.includes('기초') || p.theme.includes('Q&A')));
-        const typeBadge = isBasic 
-          ? '<span style="font-size:0.58rem; font-weight:700; color:#38bdf8; background:rgba(56,189,248,0.15); border:1px solid rgba(56,189,248,0.3); padding:1px 4px; border-radius:3px;">🔰 기초문답</span>'
-          : '<span style="font-size:0.58rem; font-weight:700; color:#a855f7; background:rgba(168,85,247,0.15); border:1px solid rgba(168,85,247,0.3); padding:1px 4px; border-radius:3px;">💡 일상회화</span>';
-
-        // 1순위: JSON의 roman값, 2순위: 내장 한글 사전 매핑값
-        const cleanText = trans.text.trim();
-        const phonetic = trans.roman || HANGUL_PRONUNCIATION_MAP[cleanText] || '';
-
-        return `
-          <div style="background:#020617; border:1px solid ${isToday ? 'rgba(245,158,11,0.45)' : '#1e293b'}; border-radius:8px; padding:7px 9px; display:flex; flex-direction:column; gap:2px;">
-            <div style="display:flex; justify-content:space-between; align-items:center;">
-              <div style="display:flex; align-items:center; gap:5px;">
-                <span style="font-size:0.62rem; font-weight:800; color:${isToday ? '#fbbf24' : '#94a3b8'}; background:#090e1f; padding:1px 5px; border-radius:4px; border:1px solid #334155;">${dDayTag}</span>
-                ${typeBadge}
-                <span style="font-size:0.65rem; color:#94a3b8; font-weight:600;">${p.theme}</span>
-              </div>
-              <button class="tts-btn" onclick="speakSpecificText('${trans.text.replace(/'/g, "\\'")}', '${trans.code || langKey}')" style="padding:1px 6px; font-size:0.6rem;">
-                🔊 발음
-              </button>
-            </div>
-            <div style="font-size:0.78rem; font-weight:800; color:${isToday ? '#fef08a' : '#f8fafc'}; line-height:1.3; margin-top:2px;">
-              "${trans.text}"
-            </div>
-            ${phonetic ? `<div style="font-size:0.65rem; color:#38bdf8; font-weight:600; margin-top:1px;">[${phonetic}]</div>` : ''}
-            <div style="font-size:0.67rem; color:#cbd5e1;">
-              ${p.meaning}
-            </div>
-          </div>
-        `;
-      }).join('');
-    }
-
-    // =========================================================================
-    // 🔊 초자연스러운 8개국어 발음 엔진 (Google Neural Audio + OS 프리미엄 필터)
-    // =========================================================================
-    
-    // 언어 코드 매핑 (Google Audio Stream 호환)
-    const GOOGLE_TTS_LANG_MAP = {
-      en: 'en',
-      ja: 'ja',
-      zh: 'zh-CN',
-      fr: 'fr',
-      de: 'de',
-      es: 'es',
-      ar: 'ar',
-      ru: 'ru'
-    };
-    
-    // OS 내장 음성 중 최고 음질 프리미엄 보이스 스마트 선택기
-    function getSmartOsVoice(langCode) {
-      if (!('speechSynthesis' in window)) return null;
-      const voices = window.speechSynthesis.getVoices();
-      const shortLang = langCode.slice(0, 2).toLowerCase();
-    
-      // 1. 해당 언어 음성 중 이상한 소리(쉰소리, 기계음, 속삭임) 블랙리스트 필터링
-      const excludedKeywords = ['whisper', 'zarvox', 'trinoids', 'deranged', 'bad', 'hysterical', 'pipe', 'albert', 'fred', 'organ', 'cellos'];
-      const candidates = voices.filter(v => {
-        const vLang = v.lang.replace('_', '-').toLowerCase();
-        const isLangMatch = vLang.startsWith(shortLang);
-        const isClean = !excludedKeywords.some(bad => v.name.toLowerCase().includes(bad));
-        return isLangMatch && isClean;
-      });
-    
-      // 2. 가장 자연스러운 프리미엄/신경망(Neural) 음성 우선순위 탐색
-      const preferredKeywords = ['natural', 'google', 'enhanced', 'premium', 'samantha', 'ava', 'jenny', 'karen', 'siri', 'zira'];
-      for (const pref of preferredKeywords) {
-        const found = candidates.find(v => v.name.toLowerCase().includes(pref));
-        if (found) return found;
-      }
-    
-      return candidates[0] || null;
-    }
-    
-    // 음성 목록 사전 로드 (비동기 초기화 보장)
-    if ('speechSynthesis' in window) {
-      window.speechSynthesis.onvoiceschanged = () => {
-        window.speechSynthesis.getVoices();
-      };
-    }
-    
-    // 오디오 인스턴스 전역 관리 (중복 재생 방지)
-    let activeTtsAudio = null;
-    
-    // 모바일 환경 감지
-    const isMobileDevice = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-
-    // 언어별 정확한 BCP-47 표준 로케일 매핑
-    const LANG_LOCALE_MAP = {
-      en: 'en-US',
-      ja: 'ja-JP',
-      zh: 'zh-CN',
-      fr: 'fr-FR',
-      de: 'de-DE',
-      es: 'es-ES',
-      ar: 'ar-SA',
-      ru: 'ru-RU'
-    };
-
-    // 공통 고음질 발음 재생기 (모바일 터치 보안 권한 완벽 대응)
-    function speakNativePhrase(text, langKey, statusCallback) {
-      if (!text) return;
-
-      // 1. 기존 재생 중인 소리 즉각 중단
-      if (activeTtsAudio) {
-        activeTtsAudio.pause();
-        activeTtsAudio = null;
-      }
-      if ('speechSynthesis' in window) {
-        window.speechSynthesis.cancel();
-      }
-
-      if (statusCallback) statusCallback("재생 중...");
-
-      const fullLocale = LANG_LOCALE_MAP[langKey] || langKey;
-
-      // 2. 모바일 기기이거나 Web Speech API를 우선 지원하는 환경 대응
-      // 모바일에서는 비동기 네트워크 대기 없이 터치 즉시 OS 네이티브 음성 동기 실행
-      if (isMobileDevice || !navigator.onLine) {
-        if ('speechSynthesis' in window) {
-          // iOS Safari 슬립 모드 해제
-          window.speechSynthesis.resume();
-
-          const utterance = new SpeechSynthesisUtterance(text);
-          utterance.lang = fullLocale;
-          utterance.rate = 0.92; // 모바일 학습에 최적화된 또렷한 속도
-          utterance.pitch = 1.0;
-
-          const voice = getSmartOsVoice(fullLocale);
-          if (voice) utterance.voice = voice;
-
-          utterance.onend = () => { if (statusCallback) statusCallback("원어민 발음 듣기"); };
-          utterance.onerror = () => { if (statusCallback) statusCallback("원어민 발음 듣기"); };
-
-          window.speechSynthesis.speak(utterance);
-          return;
-        }
-      }
-
-      // 3. PC 데스크톱 환경: 구글 고음질 오디오 스트림 1차 시도
-      const targetLang = GOOGLE_TTS_LANG_MAP[langKey] || langKey.slice(0, 2);
-      const cleanText = encodeURIComponent(text.trim());
-      const googleAudioUrl = `https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=${targetLang}&q=${cleanText}`;
-
-      const audio = new Audio(googleAudioUrl);
-      activeTtsAudio = audio;
-
-      audio.onended = () => {
-        activeTtsAudio = null;
-        if (statusCallback) statusCallback("원어민 발음 듣기");
-      };
-
-      // 데스크톱 스트리밍 차단 시 OS 보이스 폴백
-      audio.onerror = () => {
-        activeTtsAudio = null;
-        if ('speechSynthesis' in window) {
-          const utterance = new SpeechSynthesisUtterance(text);
-          utterance.lang = fullLocale;
-          utterance.rate = 0.95;
-          const voice = getSmartOsVoice(fullLocale);
-          if (voice) utterance.voice = voice;
-          utterance.onend = () => { if (statusCallback) statusCallback("원어민 발음 듣기"); };
-          utterance.onerror = () => { if (statusCallback) statusCallback("원어민 발음 듣기"); };
-          window.speechSynthesis.speak(utterance);
-        } else {
-          if (statusCallback) statusCallback("원어민 발음 듣기");
-        }
-      };
-
-      audio.play().catch(() => {
-        audio.onerror();
-      });
-    }
-    
-    // 메인 카드 [🔊 원어민 발음 듣기] 버튼 핸들러
-    function playTtsVoice() {
-      if (!cachedHumanities || !cachedHumanities.polyglot) return;
-      const item = cachedHumanities.polyglot.translations[currentLangCode];
-      if (!item) return;
-    
-      const ttsLabel = document.getElementById('tts-label');
-      speakNativePhrase(item.text, currentLangCode, (msg) => {
-        if (ttsLabel) ttsLabel.innerText = msg;
-      });
-    }
-    
-    // 서랍(Drawer) 내 [🔊 발음] 개별 버튼 핸들러
-    function speakSpecificText(txt, langCode) {
-      // langCode(예: 'en-US')에서 앞 2자리 언어키 추출
-      const langKey = langCode.slice(0, 2).toLowerCase();
-      speakNativePhrase(txt, langKey, null);
-    }
-    
-    // 서랍 닫을 때 오디오 정지 보장
-    const originalCloseDrawer = closeDrawer;
-    closeDrawer = function() {
-      if (activeTtsAudio) {
-        activeTtsAudio.pause();
-        activeTtsAudio = null;
-      }
-      if ('speechSynthesis' in window) {
-        window.speechSynthesis.cancel();
-      }
-      originalCloseDrawer();
-    };
-
-    // SVG 트렌드 차트
-    function renderSvgSparkline(values, dates, color = "#38bdf8", unit = "") {
-      if (!values || values.length < 2) return '<p style="font-size:0.7rem; color:#64748b; padding:20px;">시계열 데이터를 수집 중입니다...</p>';
-      const min = Math.min(...values);
-      const max = Math.max(...values);
-      const range = max - min || 1;
-      const width = 490;
-      const height = 95;
-      const padding = 12;
-
-      const points = values.map((v, i) => {
-        const x = padding + (i / (values.length - 1)) * (width - padding * 2);
-        const y = height - padding - ((v - min) / range) * (height - padding * 2);
-        return { x, y, v };
-      });
-
-      const pathD = points.reduce((acc, p, i) => i === 0 ? `M ${p.x} ${p.y}` : `${acc} L ${p.x} ${p.y}`, '');
-      const areaD = `${pathD} L ${points[points.length - 1].x} ${height} L ${points[0].x} ${height} Z`;
-
-      const firstV = values[0];
-      const lastV = values[values.length - 1];
-      const chgPct = (((lastV - firstV) / (firstV || 1)) * 100).toFixed(2);
-      const isUp = lastV >= firstV;
-
-      return `
-        <svg viewBox="0 0 ${width} ${height}" class="sparkline-svg">
-          <defs>
-            <linearGradient id="dynSparkGrad" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="0%" stop-color="${color}" stop-opacity="0.4"/>
-              <stop offset="100%" stop-color="${color}" stop-opacity="0.0"/>
-            </linearGradient>
-          </defs>
-          <line x1="${padding}" y1="${padding}" x2="${width - padding}" y2="${padding}" stroke="#334155" stroke-dasharray="3 3" stroke-width="0.8"/>
-          <line x1="${padding}" y1="${height - padding}" x2="${width - padding}" y2="${height - padding}" stroke="#334155" stroke-dasharray="3 3" stroke-width="0.8"/>
-          <path d="${areaD}" fill="url(#dynSparkGrad)"/>
-          <path d="${pathD}" fill="none" stroke="${color}" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
-          <circle cx="${points[0].x}" cy="${points[0].y}" r="3.2" fill="${color}"/>
-          <circle cx="${points[points.length - 1].x}" cy="${points[points.length - 1].y}" r="4.2" fill="#ffffff" stroke="${color}" stroke-width="2.2"/>
-          <text x="${width - padding}" y="${padding - 3}" fill="#94a3b8" font-size="9" text-anchor="end" font-family="monospace">최고: ${max.toLocaleString()}${unit}</text>
-          <text x="${width - padding}" y="${height - 2}" fill="#64748b" font-size="9" text-anchor="end" font-family="monospace">최저: ${min.toLocaleString()}${unit}</text>
-          <text x="${padding}" y="${padding - 3}" fill="${isUp ? '#34d399' : '#fb7185'}" font-size="10" font-weight="bold" font-family="monospace">20D 변동: ${isUp ? '+' : ''}${chgPct}%</text>
-        </svg>
-      `;
-    }
-
-    const SUB_METRIC_CONFIG = {
-      spread: { label: '📊 10Y-2Y 장단기 금리차(스프레드) 20일 추이', color: '#60a5fa', unit: ' bp', field: 'spread' },
-      us10y: { label: '🏛️ 미 국채 10년물 수익률 20일 추이', color: '#818cf8', unit: '%', field: 'us10y' },
-      us2y: { label: '🏛️ 미 국채 2년물 수익률 20일 추이', color: '#a78bfa', unit: '%', field: 'us2y' },
-      us30y: { label: '🏛️ 미 국채 30년물 수익률 20일 추이', color: '#c084fc', unit: '%', field: 'us30y' },
-      copper: { label: '📈 닥터 코퍼 (구리 선물 $/lb) 20일 가격 흐름', color: '#38bdf8', unit: ' $/lb', field: 'copper' },
-      gold: { label: '🪙 국제 금 선물 ($/oz) 20일 가격 흐름', color: '#fbbf24', unit: ' $/oz', field: 'gold' },
-      silver: { label: '🪙 국제 은 선물 ($/oz) 20일 가격 흐름', color: '#cbd5e1', unit: ' $/oz', field: 'silver' },
-      usdkrw: { label: '💵 원/달러 환율 (KRW/USD) 20일 변동 추이', color: '#34d399', unit: '원', field: 'usdkrw' },
-      dxy: { label: '🌐 달러 인덱스 (DXY) 20일 변동 추이', color: '#38bdf8', unit: 'pt', field: 'dxy' },
-      usdjpy: { label: '💴 엔/달러 환율 (JPY/USD) 20일 변동 추이', color: '#f472b6', unit: '엔', field: 'usdjpy' },
-      wti: { label: '🛢️ WTI 원유 선물 ($/배럴) 20일 가격 추이', color: '#f43f5e', unit: ' $/bbl', field: 'wti' }
-    };
-
-    function switchDrawerChart(subKey) {
-      activeDrawerSubKey = subKey;
-      const cfg = SUB_METRIC_CONFIG[subKey];
-      if (!cfg) return;
-
-      document.querySelectorAll('#drawer-metric-strip .metric-chip').forEach(el => {
-        if (el.getAttribute('data-sub-id') === subKey) el.classList.add('active');
-        else el.classList.remove('active');
-      });
-
-      const raw = cachedHistory20d ? (cachedHistory20d[activeDrawerCategory] || []) : [];
-      const values = raw.map(r => r[cfg.field] || 0);
-      const dates = raw.map(r => r.date);
-
-      const chartBox = document.getElementById('drawer-chart-box');
-      const chartLabel = document.getElementById('chart-label');
-      const chartWrapper = document.getElementById('chart-svg-wrapper');
-
-      chartBox.style.display = 'block';
-      chartLabel.innerText = cfg.label;
-      chartWrapper.innerHTML = renderSvgSparkline(values, dates, cfg.color, cfg.unit);
-    }
-
-    function buildHistoryTable(category) {
-      if (!cachedHistory20d || !cachedHistory20d[category]) return '<p style="font-size:0.75rem; color:#64748b;">히스토리 데이터를 불러오는 중입니다...</p>';
-      const list = [...cachedHistory20d[category]].reverse();
-
-      if (category === 'bonds') {
-        const rows = list.map(item => `
-          <tr>
-            <td>${item.date}</td>
-            <td style="color:#c7d2fe; font-weight:700;">${item.us10y.toFixed(2)}%</td>
-            <td style="color:#94a3b8;">${item.us2y.toFixed(2)}%</td>
-            <td style="color:#c084fc; font-weight:700;">${(item.us30y !== undefined ? item.us30y : 5.25).toFixed(2)}%</td>
-            <td class="${item.spread >= 0 ? 'up' : 'warn'}" style="font-weight:800;">${item.spread >= 0 ? '+' : ''}${item.spread} bp</td>
-          </tr>
-        `).join('');
-        return `<div class="history-table-container"><table class="hist-table"><thead><tr><th>일자</th><th>10년물</th><th>2년물</th><th>30년물</th><th>스프레드</th></tr></thead><tbody>${rows}</tbody></table></div>`;
-      } else if (category === 'commodities') {
-        const rows = list.map(item => `
-          <tr><td>${item.date}</td><td style="color:#38bdf8; font-weight:700;">$${item.copper.toFixed(2)}</td><td style="color:#fbbf24; font-weight:700;">$${item.gold.toLocaleString()}</td><td style="color:#cbd5e1;">$${item.silver.toFixed(2)}</td></tr>
-        `).join('');
-        return `<div class="history-table-container"><table class="hist-table"><thead><tr><th>일자</th><th>구리 ($/lb)</th><th>금 ($/oz)</th><th>은 ($/oz)</th></tr></thead><tbody>${rows}</tbody></table></div>`;
-      } else if (category === 'fx') {
-        const rows = list.map(item => `
-          <tr><td>${item.date}</td><td style="color:#34d399; font-weight:700;">${item.usdkrw.toFixed(1)}원</td><td style="color:#38bdf8; font-weight:700;">${item.dxy.toFixed(2)}pt</td><td style="color:#f472b6; font-weight:700;">¥${(item.usdjpy || 147.2).toFixed(2)}</td></tr>
-        `).join('');
-        return `<div class="history-table-container"><table class="hist-table"><thead><tr><th>일자</th><th>원/달러</th><th>달러인덱스</th><th>엔/달러</th></tr></thead><tbody>${rows}</tbody></table></div>`;
-      } else if (category === 'oil') {
-        const rows = list.map(item => `
-          <tr><td>${item.date}</td><td style="color:#f43f5e; font-weight:700;">$${item.wti.toFixed(2)}</td><td class="${item.change >= 0 ? 'up' : 'down'}" style="font-weight:700;">${item.change >= 0 ? '+' : ''}${item.change.toFixed(2)}%</td></tr>
-        `).join('');
-        return `<div class="history-table-container"><table class="hist-table"><thead><tr><th>일자</th><th>WTI 선물 ($/배럴)</th><th>전일대비 등락</th></tr></thead><tbody>${rows}</tbody></table></div>`;
-      }
-      return '';
-    }
-
-    function renderCalendarDrawer() {
-      // 파이썬 백엔드 데이터를 쓰지 않고 트레이딩뷰 위젯을 직접 렌더링합니다.
+    function renderCalendarDrawer(boxId) {
+      // 뼈대가 되는 HTML만 먼저 반환합니다.
       return `
         <div style="background:#090e1f; border:1px solid #1e293b; border-radius:8px; padding:10px; margin-bottom:12px;">
           <h4 style="font-size:0.8rem; color:#38bdf8; margin-bottom:4px;">📌 글로벌 마켓 타임라인</h4>
           <span style="font-size:0.68rem; color:#94a3b8;">실시간 거시경제 지표 & 주요 이벤트 (출처: TradingView)</span>
         </div>
-        
-        <!-- 🔥 트레이딩뷰 경제 캘린더 위젯 삽입 -->
         <div class="tradingview-widget-container" style="height: 500px; width: 100%;">
-          <div class="tradingview-widget-container__widget" style="height: calc(100% - 32px); width: 100%;"></div>
-          <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-events.js" async>
-          {
-            "colorTheme": "dark",
-            "isTransparent": true,
-            "width": "100%",
-            "height": "100%",
-            "locale": "kr",
-            "importanceFilter": "0,1",
-            "countryFilter": "us"
-          }
-          </script>
+          <div id="${boxId}" class="tradingview-widget-container__widget" style="height: calc(100% - 32px); width: 100%;"></div>
         </div>
       `;
     }
 
-    function switchCalendarWeek(weekKey) {
-      document.getElementById('drawer-body').innerHTML = renderCalendarDrawer(weekKey);
-      const sBox = document.getElementById('single-content-box');
-      if (sBox && document.getElementById('single-view').style.display === 'flex') sBox.innerHTML = renderCalendarDrawer(weekKey);
+    function injectTradingViewScript(boxId) {
+      // 보안 정책을 우회하여 동적으로 스크립트 객체를 생성하고 주입합니다.
+      const box = document.getElementById(boxId);
+      if (!box) return;
+      box.innerHTML = '';
+      const script = document.createElement('script');
+      script.type = 'text/javascript';
+      script.src = 'https://s3.tradingview.com/external-embedding/embed-widget-events.js';
+      script.async = true;
+      script.text = JSON.stringify({
+        "colorTheme": "dark",
+        "isTransparent": true,
+        "width": "100%",
+        "height": "100%",
+        "locale": "kr",
+        "importanceFilter": "0,1",
+        "countryFilter": "us"
+      });
+      box.appendChild(script);
     }
 
     function openDrawer(key, targetSubKey = null) {
@@ -1493,9 +1046,10 @@
           </a>
         `;
       } else if (key === 'calendar_3w') {
-        tagEl.innerText = "📅 3주 캘린더 (거시경제 & 빅테크 실적)";
-        titleEl.innerText = "월가 마켓 무버 3주 타임라인 (W1 ~ W3)";
-        bodyEl.innerHTML = renderCalendarDrawer(activeCalendarWeek);
+        tagEl.innerText = "📅 글로벌 경제 캘린더";
+        titleEl.innerText = "월가 마켓 무버 타임라인";
+        bodyEl.innerHTML = renderCalendarDrawer('tv-widget-drawer');
+        injectTradingViewScript('tv-widget-drawer'); // 💡 스크립트 강제 주입
       } else if (key === 'humanities_history') {
         tagEl.innerText = "🏛️ 최근 5일간의 세계사";
         titleEl.innerText = "역사적 변곡점 아카이브 (최근 5일 타임라인)";
@@ -1640,15 +1194,11 @@
       if ('speechSynthesis' in window) window.speechSynthesis.cancel();
     }
 
-    // ==========================================
-    // 🏛️ 세계사 최근 5일 탭 전환 컨트롤러
-    // ==========================================
     let currentHistoryOffset = 0;
 
     function switchHistoryDay(offset) {
       currentHistoryOffset = offset;
       
-      // 탭 스타일 활성화
       for (let i = 0; i < 5; i++) {
         const btn = document.getElementById(`htab-${i}`);
         if (btn) {
@@ -1668,7 +1218,6 @@
       const bulletsEl = document.getElementById('h-history-bullets');
       const refBtn = document.getElementById('h-history-ref-btn');
 
-      // 라벨 강제 보정: 0번은 [오늘], 1번은 [D-1], 2번은 [D-2]... (중복 대괄호 제거)
       const dDayTag = offset === 0 ? '오늘' : `D-${offset}`;
       const cleanEra = (h.era || '').replace(/^\[.*?\]\s*/, '');
       if (eraEl) eraEl.innerText = `[${dDayTag}] ${cleanEra}`;
@@ -1688,9 +1237,6 @@
       }
     }
 
-    // ==========================================
-    // 🔥 트렌드 레이더 탭 컨트롤 및 렌더링 함수
-    // ==========================================
     let currentTrendTab = 'naver';
     
     function switchTrendTab(tab) {
@@ -1724,7 +1270,6 @@
       const trends = window.cachedTrendsData;
       let html = '';
     
-      // 1. 네이버 시사상식사전 주간 1~10위 (2열 바둑판 그리드)
       if (currentTrendTab === 'naver') {
         const list = trends.naver_sisa || [];
         if (list.length > 0) {
@@ -1738,7 +1283,6 @@
           `).join('') + `</div>`;
         }
       } 
-      // 2. 나무위키 실시간 검색어 1~10위 (2열 바둑판 그리드)
       else if (currentTrendTab === 'namu') {
         const list = trends.namu_rank || [];
         if (list.length > 0) {
@@ -1752,7 +1296,6 @@
           `).join('') + `</div>`;
         }
       } 
-      // 3. 유튜브 대한민국 트렌딩 1~10위 전체 출력
       else if (currentTrendTab === 'youtube') {
         const list = trends.youtube_popular || [];
         if (list.length > 0) {
