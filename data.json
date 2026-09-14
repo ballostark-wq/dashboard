@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14 10:56:02",
+  "updated_at": "2026-09-14 11:06:05",
   "us2y": {
     "value": 4.63,
     "change": 0.07
@@ -133,17 +133,32 @@
         "date": "09-13 20:50"
       },
       {
-        "title": "[전자신문] 국순당, 경포해변서 추석 앞두고 환경정화 활동",
-        "link": "https://www.etnews.com/20260914000122",
-        "date": "09-14 10:32"
+        "title": "[전자신문] 노르웨이수산물委, 가을 연어 캠페인 전개…배달앱·박람회 공략",
+        "link": "https://www.etnews.com/20260914000154",
+        "date": "09-14 11:02"
       },
       {
-        "title": "[전자신문] 황정혜, 6년 만에 '개그콘서트' 복귀…박소라와 재회",
-        "link": "https://www.etnews.com/20260914000121",
-        "date": "09-14 10:31"
+        "title": "[전자신문] 가온전선, 석문호·새만금 프로젝트 공급…“수상태양광 시장 진출”",
+        "link": "https://www.etnews.com/20260914000153",
+        "date": "09-14 11:02"
       }
     ],
     "domestic": [
+      {
+        "title": "[외환] 9시 이전 마(MAR) '파' 거래…픽싱 스퀘어",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434695",
+        "date": "09-14 11:03"
+      },
+      {
+        "title": "레벨 뚫은 채권시장 전망은…\"상단 무의미, 유가 보고 간다\"",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434693",
+        "date": "09-14 11:02"
+      },
+      {
+        "title": "서울환시 \"뜨거운 美 CPI에도 달러-원 상단 제한…BOJ·유가 주목\"",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434687",
+        "date": "09-14 10:59"
+      },
       {
         "title": "외환공동검사 석 달…한은·금감원 \"후속 조치 검토 중\"",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434678",
@@ -152,21 +167,6 @@
       {
         "title": "[오늘 외환딜러 환율 예상레인지]",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434677",
-        "date": "09-14 10:30"
-      },
-      {
-        "title": "[중립금리①] 한은 재추정 중…3% 기준금리, 긴축적인가",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434674",
-        "date": "09-14 10:30"
-      },
-      {
-        "title": "[중립금리③] 채권 딜러의 델타 고민…언제 얼마나 오를까",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434676",
-        "date": "09-14 10:30"
-      },
-      {
-        "title": "[중립금리②] 다른 중앙은행도 고심…美 명목 3.50% 해석도",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434675",
         "date": "09-14 10:30"
       }
     ]
@@ -236,70 +236,70 @@
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,385.1",
-          "chg": "+0.43%",
+          "val": "$4,388.8",
+          "chg": "+0.52%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$64.64",
-          "chg": "+0.14%",
+          "val": "$64.62",
+          "chg": "+0.11%",
           "up": true
         }
       ],
       "bullets": [
         "구리 $6.49/lb (+0.31%) - AI 전력망 설비 수요 반영",
-        "금 $4,385/oz, 은 $64.64/oz - 통화가치 헤지"
+        "금 $4,389/oz, 은 $64.62/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,346원 | 엔/달러 ¥153.7",
-      "title": "원/달러 1,345.8원선과 엔/달러 ¥153.7",
+      "badge": "원/달러 1,345원 | 엔/달러 ¥153.8",
+      "title": "원/달러 1,345.2원선과 엔/달러 ¥153.8",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,345.8원",
-          "chg": "-0.18%",
+          "val": "1,345.2원",
+          "chg": "-0.22%",
           "up": false
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "99.17pt",
-          "chg": "+0.05%",
+          "val": "99.19pt",
+          "chg": "+0.07%",
           "up": true
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥153.73",
-          "chg": "-0.49%",
+          "val": "¥153.79",
+          "chg": "-0.45%",
           "up": false
         }
       ],
       "bullets": [
-        "달러 인덱스 99.17pt - 미국 성장 우위 지속",
-        "엔/달러 153.73엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 99.19pt - 미국 성장 우위 지속",
+        "엔/달러 153.79엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $102.51",
-      "title": "WTI 배럴당 $102.51선 박스권 안정",
+      "badge": "WTI $102.35",
+      "title": "WTI 배럴당 $102.35선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$102.51",
-          "chg": "+2.46%",
+          "val": "$102.35",
+          "chg": "+2.30%",
           "up": true
         }
       ],
       "bullets": [
-        "WTI 선물 $102.51/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $102.35/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -311,28 +311,28 @@
       "change": 0.31
     },
     "gold": {
-      "price": 4385.1,
-      "change": 0.43
+      "price": 4388.8,
+      "change": 0.52
     },
     "silver": {
-      "price": 64.64,
-      "change": 0.14
+      "price": 64.62,
+      "change": 0.11
     },
     "wti": {
-      "price": 102.51,
-      "change": 2.46
+      "price": 102.35,
+      "change": 2.3
     },
     "usdkrw": {
-      "price": 1345.8,
-      "change": -0.18
+      "price": 1345.24,
+      "change": -0.22
     },
     "dxy": {
-      "price": 99.17,
-      "change": 0.05
+      "price": 99.19,
+      "change": 0.07
     },
     "usdjpy": {
-      "price": 153.73,
-      "change": -0.49
+      "price": 153.79,
+      "change": -0.45
     }
   },
   "history_20d": {
@@ -596,8 +596,8 @@
       {
         "date": "09-14",
         "copper": 6.49,
-        "gold": 4385.1,
-        "silver": 64.64
+        "gold": 4388.8,
+        "silver": 64.62
       }
     ],
     "fx": [
@@ -717,9 +717,9 @@
       },
       {
         "date": "09-14",
-        "usdkrw": 1345.8,
-        "dxy": 99.17,
-        "usdjpy": 153.73
+        "usdkrw": 1345.24,
+        "dxy": 99.19,
+        "usdjpy": 153.79
       }
     ],
     "oil": [
@@ -820,8 +820,8 @@
       },
       {
         "date": "09-14",
-        "wti": 102.51,
-        "change": 2.46
+        "wti": 102.35,
+        "change": 2.3
       }
     ]
   },
@@ -1401,18 +1401,18 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "단독 콘서트 개최",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%8B%A8%EB%8F%85%20%EC%BD%98%EC%84%9C%ED%8A%B8%20%EA%B0%9C%EC%B5%9C"
+        "title": "AI 표준기구 설립 논의",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=AI%20%ED%91%9C%EC%A4%80%EA%B8%B0%EA%B5%AC%20%EC%84%A4%EB%A6%BD%20%EB%85%BC%EC%9D%98"
       },
       {
         "rank": 2,
-        "title": "출근하는 장관 후보자",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B6%9C%EA%B7%BC%ED%95%98%EB%8A%94%20%EC%9E%A5%EA%B4%80%20%ED%9B%84%EB%B3%B4%EC%9E%90"
+        "title": "존박 단독 콘서트 성료",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A1%B4%EB%B0%95%20%EB%8B%A8%EB%8F%85%20%EC%BD%98%EC%84%9C%ED%8A%B8%20%EC%84%B1%EB%A3%8C"
       },
       {
         "rank": 3,
-        "title": "코스피 3% 급락",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%BD%94%EC%8A%A4%ED%94%BC%203%25%20%EA%B8%89%EB%9D%BD"
+        "title": "김승원 후보자 청년유튜버 항의",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%8A%B9%EC%9B%90%20%ED%9B%84%EB%B3%B4%EC%9E%90%20%EC%B2%AD%EB%85%84%EC%9C%A0%ED%8A%9C%EB%B2%84%20%ED%95%AD%EC%9D%98"
       },
       {
         "rank": 4,
@@ -1421,33 +1421,33 @@
       },
       {
         "rank": 5,
-        "title": "신랑",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%8B%A0%EB%9E%91"
+        "title": "여론 조사",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%97%AC%EB%A1%A0%20%EC%A1%B0%EC%82%AC"
       },
       {
         "rank": 6,
-        "title": "HL만도 노동부 압수수색",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=HL%EB%A7%8C%EB%8F%84%20%EB%85%B8%EB%8F%99%EB%B6%80%20%EC%95%95%EC%88%98%EC%88%98%EC%83%89"
+        "title": "금감원 임직원 주식투자",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B8%88%EA%B0%90%EC%9B%90%20%EC%9E%84%EC%A7%81%EC%9B%90%20%EC%A3%BC%EC%8B%9D%ED%88%AC%EC%9E%90"
       },
       {
         "rank": 7,
-        "title": "폴란드",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%8F%B4%EB%9E%80%EB%93%9C"
+        "title": "김성수 대법관 인사청문회",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%84%B1%EC%88%98%20%EB%8C%80%EB%B2%95%EA%B4%80%20%EC%9D%B8%EC%82%AC%EC%B2%AD%EB%AC%B8%ED%9A%8C"
       },
       {
         "rank": 8,
-        "title": "이재명 대통령 지지율",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EC%9E%AC%EB%AA%85%20%EB%8C%80%ED%86%B5%EB%A0%B9%20%EC%A7%80%EC%A7%80%EC%9C%A8"
+        "title": "생계",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%83%9D%EA%B3%84"
       },
       {
         "rank": 9,
-        "title": "삼전닉스 한전 전기료",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%82%BC%EC%A0%84%EB%8B%89%EC%8A%A4%20%ED%95%9C%EC%A0%84%20%EC%A0%84%EA%B8%B0%EB%A3%8C"
+        "title": "LH 입찰 비리",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=LH%20%EC%9E%85%EC%B0%B0%20%EB%B9%84%EB%A6%AC"
       },
       {
         "rank": 10,
-        "title": "츠베레프, 메이저 2관왕 등극",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B8%A0%EB%B2%A0%EB%A0%88%ED%94%84%2C%20%EB%A9%94%EC%9D%B4%EC%A0%80%202%EA%B4%80%EC%99%95%20%EB%93%B1%EA%B7%B9"
+        "title": "개혁신당 비대위원장에 이기인",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B0%9C%ED%98%81%EC%8B%A0%EB%8B%B9%20%EB%B9%84%EB%8C%80%EC%9C%84%EC%9B%90%EC%9E%A5%EC%97%90%20%EC%9D%B4%EA%B8%B0%EC%9D%B8"
       }
     ],
     "youtube_popular": [
@@ -1455,7 +1455,7 @@
         "rank": 1,
         "title": "Dear my crazy soulmate",
         "channel": "IU - Topic",
-        "views": "228만회",
+        "views": "229만회",
         "thumb": "https://i.ytimg.com/vi/IHIt9S2DWcQ/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=IHIt9S2DWcQ"
       },
