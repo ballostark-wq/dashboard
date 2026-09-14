@@ -1,28 +1,28 @@
 {
-  "updated_at": "2026-09-14 21:07:31",
+  "updated_at": "2026-09-14 22:08:34",
   "us2y": {
     "value": 4.63,
     "change": 0.07
   },
   "us5y": {
-    "value": 4.79,
-    "change": 0.06
+    "value": 4.8,
+    "change": 0.01
   },
   "us10y": {
-    "value": 4.97,
-    "change": 0.03
+    "value": 4.98,
+    "change": 0.01
   },
   "us30y": {
-    "value": 5.35,
-    "change": -0.01
+    "value": 5.36,
+    "change": 0.01
   },
   "spread": {
-    "value": 34,
+    "value": 35,
     "status": "정상화 (우상향)"
   },
   "vix": {
-    "value": 17.53,
-    "change": 10.67
+    "value": 17.73,
+    "change": 11.93
   },
   "tech_news": [
     {
@@ -93,7 +93,7 @@
       {
         "title": "Stocks making the biggest moves premarket: Intel, Marvell, CrowdStrike & more",
         "link": "https://www.cnbc.com/2026/09/14/stocks-making-the-biggest-moves-premarket-intc-mrvl-crwd.html",
-        "date": "09-14 11:51"
+        "date": "09-14 12:36"
       },
       {
         "title": "China says AI CEOs' call for a slowdown is 'fear mongering'",
@@ -113,7 +113,7 @@
       {
         "title": "NFL and midterm elections set up prediction markets for a critical fall season",
         "link": "https://www.cnbc.com/2026/09/13/nfl-and-midterms-mark-key-fall-season-for-prediction-markets.html",
-        "date": "09-13 11:52"
+        "date": "09-14 12:16"
       }
     ],
     "tech": [
@@ -133,14 +133,14 @@
         "date": "09-14 19:03"
       },
       {
+        "title": "[전자신문] 자원·기술·자본 묶는 李대통령…중앙亞 빗장 열고 韓기업 진출 넓힌다",
+        "link": "https://www.etnews.com/20260914000409",
+        "date": "09-14 21:20"
+      },
+      {
         "title": "[전자신문] “주문량 9000% 폭증”…中 Z세대, 스마트폰도 내려놓게 만든 '이 것' 뭔데?",
         "link": "https://www.etnews.com/20260914000390",
         "date": "09-14 20:20"
-      },
-      {
-        "title": "[전자신문] [암, 제대로 알고 대처하기①]암 30~50% 예방 가능…생활습관이 첫걸음",
-        "link": "https://www.etnews.com/20260914000449",
-        "date": "09-14 19:53"
       }
     ],
     "domestic": [
@@ -184,21 +184,21 @@
   },
   "macro_reviews": {
     "bonds": {
-      "badge": "스프레드 +34 bp",
-      "title": "미국채 10년물 4.97%선 공방과 정상화",
+      "badge": "스프레드 +35 bp",
+      "title": "미국채 10년물 4.98%선 공방과 정상화",
       "metrics": [
         {
           "id": "spread",
           "name": "10Y-2Y차",
-          "val": "+34 bp",
+          "val": "+35 bp",
           "chg": "정상화 (우상향)",
           "up": true
         },
         {
           "id": "us10y",
           "name": "10년물",
-          "val": "4.97%",
-          "chg": "+0.03%",
+          "val": "4.98%",
+          "chg": "+0.01%",
           "up": true
         },
         {
@@ -211,95 +211,95 @@
         {
           "id": "us30y",
           "name": "30년물",
-          "val": "5.35%",
-          "chg": "-0.01%",
-          "up": false
+          "val": "5.36%",
+          "chg": "+0.01%",
+          "up": true
         }
       ],
       "bullets": [
-        "10년물 4.97%와 2년물 4.63% 형성으로 스프레드 +34 bp 유지",
-        "초장기 30년물 5.35%선 안착 속 재정 적자 발행에 따른 기간 프리미엄"
+        "10년물 4.98%와 2년물 4.63% 형성으로 스프레드 +35 bp 유지",
+        "초장기 30년물 5.36%선 안착 속 재정 적자 발행에 따른 기간 프리미엄"
       ],
-      "detail": "10Y-2Y 스프레드가 +34 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
+      "detail": "10Y-2Y 스프레드가 +35 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.42",
-      "title": "닥터 코퍼 $6.42선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.38",
+      "title": "닥터 코퍼 $6.38선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.42",
-          "chg": "-0.77%",
+          "val": "$6.38",
+          "chg": "-1.39%",
           "up": false
         },
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,324.7",
-          "chg": "-0.95%",
+          "val": "$4,311.0",
+          "chg": "-1.26%",
           "up": false
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$63.31",
-          "chg": "-1.92%",
+          "val": "$63.18",
+          "chg": "-2.12%",
           "up": false
         }
       ],
       "bullets": [
-        "구리 $6.42/lb (-0.77%) - AI 전력망 설비 수요 반영",
-        "금 $4,325/oz, 은 $63.31/oz - 통화가치 헤지"
+        "구리 $6.38/lb (-1.39%) - AI 전력망 설비 수요 반영",
+        "금 $4,311/oz, 은 $63.18/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,346원 | 엔/달러 ¥154.6",
-      "title": "원/달러 1,345.6원선과 엔/달러 ¥154.6",
+      "badge": "원/달러 1,350원 | 엔/달러 ¥154.9",
+      "title": "원/달러 1,350.0원선과 엔/달러 ¥154.9",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,345.6원",
-          "chg": "-0.19%",
-          "up": false
+          "val": "1,350.0원",
+          "chg": "+0.13%",
+          "up": true
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "99.51pt",
-          "chg": "+0.39%",
+          "val": "99.67pt",
+          "chg": "+0.55%",
           "up": true
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥154.55",
-          "chg": "+0.05%",
+          "val": "¥154.86",
+          "chg": "+0.25%",
           "up": true
         }
       ],
       "bullets": [
-        "달러 인덱스 99.51pt - 미국 성장 우위 지속",
-        "엔/달러 154.55엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 99.67pt - 미국 성장 우위 지속",
+        "엔/달러 154.86엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $103.61",
-      "title": "WTI 배럴당 $103.61선 박스권 안정",
+      "badge": "WTI $104.35",
+      "title": "WTI 배럴당 $104.35선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$103.61",
-          "chg": "+3.56%",
+          "val": "$104.35",
+          "chg": "+4.30%",
           "up": true
         }
       ],
       "bullets": [
-        "WTI 선물 $103.61/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $104.35/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -307,43 +307,36 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.42,
-      "change": -0.77
+      "price": 6.38,
+      "change": -1.39
     },
     "gold": {
-      "price": 4324.7,
-      "change": -0.95
+      "price": 4311.0,
+      "change": -1.26
     },
     "silver": {
-      "price": 63.31,
-      "change": -1.92
+      "price": 63.18,
+      "change": -2.12
     },
     "wti": {
-      "price": 103.61,
-      "change": 3.56
+      "price": 104.35,
+      "change": 4.3
     },
     "usdkrw": {
-      "price": 1345.58,
-      "change": -0.19
+      "price": 1349.95,
+      "change": 0.13
     },
     "dxy": {
-      "price": 99.51,
-      "change": 0.39
+      "price": 99.67,
+      "change": 0.55
     },
     "usdjpy": {
-      "price": 154.55,
-      "change": 0.05
+      "price": 154.86,
+      "change": 0.25
     }
   },
   "history_20d": {
     "bonds": [
-      {
-        "date": "08-14",
-        "us10y": 4.7,
-        "us2y": 4.17,
-        "us30y": 5.26,
-        "spread": 53
-      },
       {
         "date": "08-17",
         "us10y": 4.72,
@@ -476,6 +469,13 @@
         "us2y": 4.63,
         "us30y": 5.35,
         "spread": 34
+      },
+      {
+        "date": "09-14",
+        "us10y": 4.98,
+        "us2y": 4.63,
+        "us30y": 5.36,
+        "spread": 35
       }
     ],
     "commodities": [
@@ -595,9 +595,9 @@
       },
       {
         "date": "09-14",
-        "copper": 6.42,
-        "gold": 4324.7,
-        "silver": 63.31
+        "copper": 6.38,
+        "gold": 4311.0,
+        "silver": 63.18
       }
     ],
     "fx": [
@@ -717,9 +717,9 @@
       },
       {
         "date": "09-14",
-        "usdkrw": 1345.58,
-        "dxy": 99.51,
-        "usdjpy": 154.55
+        "usdkrw": 1349.95,
+        "dxy": 99.67,
+        "usdjpy": 154.86
       }
     ],
     "oil": [
@@ -820,8 +820,8 @@
       },
       {
         "date": "09-14",
-        "wti": 103.61,
-        "change": 3.56
+        "wti": 104.35,
+        "change": 4.3
       }
     ]
   },
@@ -1417,8 +1417,8 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "원현준 이수진 10월 4일 결혼",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9B%90%ED%98%84%EC%A4%80%20%EC%9D%B4%EC%88%98%EC%A7%84%2010%EC%9B%94%204%EC%9D%BC%20%EA%B2%B0%ED%98%BC"
+        "title": "원현준 이수진 결혼 예정",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9B%90%ED%98%84%EC%A4%80%20%EC%9D%B4%EC%88%98%EC%A7%84%20%EA%B2%B0%ED%98%BC%20%EC%98%88%EC%A0%95"
       },
       {
         "rank": 2,
@@ -1437,33 +1437,33 @@
       },
       {
         "rank": 5,
-        "title": "한-우즈벡 협력 확대",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%9C-%EC%9A%B0%EC%A6%88%EB%B2%A1%20%ED%98%91%EB%A0%A5%20%ED%99%95%EB%8C%80"
+        "title": "염경엽",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%97%BC%EA%B2%BD%EC%97%BD"
       },
       {
         "rank": 6,
-        "title": "갤러리아백화점",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B0%A4%EB%9F%AC%EB%A6%AC%EC%95%84%EB%B0%B1%ED%99%94%EC%A0%90"
+        "title": "감사원 YTN 지분매각 개입",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B0%90%EC%82%AC%EC%9B%90%20YTN%20%EC%A7%80%EB%B6%84%EB%A7%A4%EA%B0%81%20%EA%B0%9C%EC%9E%85"
       },
       {
         "rank": 7,
-        "title": "운전 기사",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9A%B4%EC%A0%84%20%EA%B8%B0%EC%82%AC"
+        "title": "로또 1등도 출근합니다",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%A1%9C%EB%98%90%201%EB%93%B1%EB%8F%84%20%EC%B6%9C%EA%B7%BC%ED%95%A9%EB%8B%88%EB%8B%A4"
       },
       {
         "rank": 8,
-        "title": "LH 입찰 비리",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=LH%20%EC%9E%85%EC%B0%B0%20%EB%B9%84%EB%A6%AC"
+        "title": "파업",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%8C%8C%EC%97%85"
       },
       {
         "rank": 9,
-        "title": "석유화학제품 담합 구속영장",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%84%9D%EC%9C%A0%ED%99%94%ED%95%99%EC%A0%9C%ED%92%88%20%EB%8B%B4%ED%95%A9%20%EA%B5%AC%EC%86%8D%EC%98%81%EC%9E%A5"
+        "title": "여주 어린이집 LPG 누출",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%97%AC%EC%A3%BC%20%EC%96%B4%EB%A6%B0%EC%9D%B4%EC%A7%91%20LPG%20%EB%88%84%EC%B6%9C"
       },
       {
         "rank": 10,
-        "title": "이준영의 포핸즈 귀환 변화",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EC%A4%80%EC%98%81%EC%9D%98%20%ED%8F%AC%ED%95%B8%EC%A6%88%20%EA%B7%80%ED%99%98%20%EB%B3%80%ED%99%94"
+        "title": "이다해 임신, 세븐 오열",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EB%8B%A4%ED%95%B4%20%EC%9E%84%EC%8B%A0%2C%20%EC%84%B8%EB%B8%90%20%EC%98%A4%EC%97%B4"
       }
     ],
     "youtube_popular": [
@@ -1471,7 +1471,7 @@
         "rank": 1,
         "title": "Dear my crazy soulmate",
         "channel": "IU - Topic",
-        "views": "263만회",
+        "views": "267만회",
         "thumb": "https://i.ytimg.com/vi/IHIt9S2DWcQ/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=IHIt9S2DWcQ"
       },
@@ -1485,17 +1485,17 @@
       },
       {
         "rank": 3,
-        "title": "케인으로 극락 보내기",
-        "channel": "이상호",
-        "views": "64만회",
-        "thumb": "https://i.ytimg.com/vi/P50Ag1FGBUY/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=P50Ag1FGBUY"
+        "title": "1300억 BP 장전하고 드디어 영입한 1대장 트릭두..?",
+        "channel": "튜브김민교",
+        "views": "9만회",
+        "thumb": "https://i.ytimg.com/vi/RNCCb1s7wis/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=RNCCb1s7wis"
       },
       {
         "rank": 4,
         "title": "꿈꾸던 어른이 되었나요?",
         "channel": "meomuru - Topic",
-        "views": "55만회",
+        "views": "56만회",
         "thumb": "https://i.ytimg.com/vi/JJx_WQXOeK0/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=JJx_WQXOeK0"
       },
@@ -1509,19 +1509,19 @@
       },
       {
         "rank": 6,
-        "title": "만지게 해줘",
-        "channel": "괴물쥐 유튜브",
-        "views": "43만회",
-        "thumb": "https://i.ytimg.com/vi/sByuWVbkWNA/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=sByuWVbkWNA"
+        "title": "케인으로 극락 보내기",
+        "channel": "이상호",
+        "views": "64만회",
+        "thumb": "https://i.ytimg.com/vi/P50Ag1FGBUY/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=P50Ag1FGBUY"
       },
       {
         "rank": 7,
-        "title": "Sparkle",
-        "channel": "Release - Topic",
-        "views": "23만회",
-        "thumb": "https://i.ytimg.com/vi/xplsbbSxkEg/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=xplsbbSxkEg"
+        "title": "[MV] 영탁(YOUNGTAK) '꺾어(GOGO)'",
+        "channel": "영탁스클럽 YOUNGTAKsClub",
+        "views": "9,260회",
+        "thumb": "https://i.ytimg.com/vi/Ak1cg1ex0NY/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=Ak1cg1ex0NY"
       },
       {
         "rank": 8,
@@ -1533,19 +1533,19 @@
       },
       {
         "rank": 9,
-        "title": "거지 요네",
-        "channel": "PAKA",
-        "views": "50만회",
-        "thumb": "https://i.ytimg.com/vi/-pTSEEYEu84/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=-pTSEEYEu84"
+        "title": "만지게 해줘",
+        "channel": "괴물쥐 유튜브",
+        "views": "44만회",
+        "thumb": "https://i.ytimg.com/vi/sByuWVbkWNA/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=sByuWVbkWNA"
       },
       {
         "rank": 10,
-        "title": "Made My Night",
-        "channel": "LE SSERAFIM - Topic",
-        "views": "15만회",
-        "thumb": "https://i.ytimg.com/vi/vK2h7ViyrrE/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=vK2h7ViyrrE"
+        "title": "Sparkle",
+        "channel": "Release - Topic",
+        "views": "23만회",
+        "thumb": "https://i.ytimg.com/vi/xplsbbSxkEg/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=xplsbbSxkEg"
       }
     ]
   }
