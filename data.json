@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15 05:06:21",
+  "updated_at": "2026-09-15 06:05:49",
   "us2y": {
     "value": 4.65,
     "change": 0.02
@@ -21,8 +21,8 @@
     "status": "정상화 (우상향)"
   },
   "vix": {
-    "value": 16.89,
-    "change": 6.63
+    "value": 17.1,
+    "change": 7.95
   },
   "tech_news": [
     {
@@ -93,12 +93,12 @@
       {
         "title": "Bank of America expects third-quarter investment banking fees to fall more than 10%; shares slide",
         "link": "https://www.cnbc.com/2026/09/14/bank-of-america-bac-q3-investment-banking-fees.html",
-        "date": "09-14 20:01"
+        "date": "09-14 20:34"
       },
       {
         "title": "Warsh's credibility is on the line this week as Trump policies put pressure on Fed to hike",
         "link": "https://www.cnbc.com/2026/09/14/warshs-credibility-is-on-the-line-this-week-as-trump-policies-put-pressure-on-fed-to-hike.html",
-        "date": "09-14 17:26"
+        "date": "09-14 20:49"
       },
       {
         "title": "Stocks making the biggest moves midday: Zscaler, CrowdStrike, Marvell Technology, Rum Group & more",
@@ -133,14 +133,14 @@
         "date": "09-14 19:03"
       },
       {
-        "title": "[전자신문] [암, 제대로 알고 대처하기②] 암검진도 과유불급…내게 맞는 검사가 우선",
-        "link": "https://www.etnews.com/20260914000450",
-        "date": "09-15 04:00"
+        "title": "[전자신문] 식당 가면 수저 밑에 휴지 까는 사람들…“테이블보다 휴지가 더 깨끗할 거란 고정관념?”",
+        "link": "https://www.etnews.com/20260914000428",
+        "date": "09-15 06:00"
       },
       {
-        "title": "[전자신문] 식물인데 햇빛 없이 곰팡이 먹으며 산다…'악마의 꽃' 정체는",
-        "link": "https://www.etnews.com/20260914000404",
-        "date": "09-14 22:30"
+        "title": "[전자신문] 10분에 로봇 1대씩…'로봇이 로봇 만드는 공장' 가동",
+        "link": "https://www.etnews.com/20260914000402",
+        "date": "09-15 06:00"
       }
     ],
     "domestic": [
@@ -223,83 +223,83 @@
       "detail": "10Y-2Y 스프레드가 +31 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.39",
-      "title": "닥터 코퍼 $6.39선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.4",
+      "title": "닥터 코퍼 $6.4선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.39",
-          "chg": "-1.24%",
+          "val": "$6.40",
+          "chg": "-1.08%",
           "up": false
         },
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,324.6",
-          "chg": "-1.91%",
+          "val": "$4,339.5",
+          "chg": "-1.57%",
           "up": false
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$63.49",
-          "chg": "-1.64%",
+          "val": "$63.75",
+          "chg": "-1.24%",
           "up": false
         }
       ],
       "bullets": [
-        "구리 $6.39/lb (-1.24%) - AI 전력망 설비 수요 반영",
-        "금 $4,325/oz, 은 $63.49/oz - 통화가치 헤지"
+        "구리 $6.4/lb (-1.08%) - AI 전력망 설비 수요 반영",
+        "금 $4,340/oz, 은 $63.75/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,348원 | 엔/달러 ¥154.4",
-      "title": "원/달러 1,347.5원선과 엔/달러 ¥154.4",
+      "badge": "원/달러 1,346원 | 엔/달러 ¥154.3",
+      "title": "원/달러 1,345.9원선과 엔/달러 ¥154.3",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,347.5원",
-          "chg": "+0.21%",
+          "val": "1,345.9원",
+          "chg": "+0.09%",
           "up": true
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "99.48pt",
-          "chg": "+0.36%",
+          "val": "99.47pt",
+          "chg": "+0.35%",
           "up": true
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥154.41",
-          "chg": "+0.65%",
+          "val": "¥154.30",
+          "chg": "+0.57%",
           "up": true
         }
       ],
       "bullets": [
-        "달러 인덱스 99.48pt - 미국 성장 우위 지속",
-        "엔/달러 154.41엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 99.47pt - 미국 성장 우위 지속",
+        "엔/달러 154.30엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $101.77",
-      "title": "WTI 배럴당 $101.77선 박스권 안정",
+      "badge": "WTI $101.91",
+      "title": "WTI 배럴당 $101.91선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$101.77",
-          "chg": "+1.72%",
+          "val": "$101.91",
+          "chg": "+1.86%",
           "up": true
         }
       ],
       "bullets": [
-        "WTI 선물 $101.77/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $101.91/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -307,32 +307,32 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.39,
-      "change": -1.24
+      "price": 6.4,
+      "change": -1.08
     },
     "gold": {
-      "price": 4324.6,
-      "change": -1.91
+      "price": 4339.5,
+      "change": -1.57
     },
     "silver": {
-      "price": 63.49,
-      "change": -1.64
+      "price": 63.75,
+      "change": -1.24
     },
     "wti": {
-      "price": 101.77,
-      "change": 1.72
+      "price": 101.91,
+      "change": 1.86
     },
     "usdkrw": {
-      "price": 1347.53,
-      "change": 0.21
+      "price": 1345.9,
+      "change": 0.09
     },
     "dxy": {
-      "price": 99.48,
-      "change": 0.36
+      "price": 99.47,
+      "change": 0.35
     },
     "usdjpy": {
-      "price": 154.41,
-      "change": 0.65
+      "price": 154.3,
+      "change": 0.57
     }
   },
   "history_20d": {
@@ -595,9 +595,9 @@
       },
       {
         "date": "09-14",
-        "copper": 6.39,
-        "gold": 4324.6,
-        "silver": 63.49
+        "copper": 6.4,
+        "gold": 4339.5,
+        "silver": 63.75
       }
     ],
     "fx": [
@@ -717,9 +717,9 @@
       },
       {
         "date": "09-14",
-        "usdkrw": 1347.53,
-        "dxy": 99.48,
-        "usdjpy": 154.41
+        "usdkrw": 1345.9,
+        "dxy": 99.47,
+        "usdjpy": 154.3
       }
     ],
     "oil": [
@@ -820,8 +820,8 @@
       },
       {
         "date": "09-14",
-        "wti": 101.77,
-        "change": 1.72
+        "wti": 101.91,
+        "change": 1.86
       }
     ]
   },
@@ -1415,13 +1415,13 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "김민지 해트트릭 5-0 완파",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EB%AF%BC%EC%A7%80%20%ED%95%B4%ED%8A%B8%ED%8A%B8%EB%A6%AD%205-0%20%EC%99%84%ED%8C%8C"
+        "title": "김민지 해트트릭 5-0 승리",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EB%AF%BC%EC%A7%80%20%ED%95%B4%ED%8A%B8%ED%8A%B8%EB%A6%AD%205-0%20%EC%8A%B9%EB%A6%AC"
       },
       {
         "rank": 2,
-        "title": "美 국채 금리 5% 돌파",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%E7%BE%8E%20%EA%B5%AD%EC%B1%84%20%EA%B8%88%EB%A6%AC%205%25%20%EB%8F%8C%ED%8C%8C"
+        "title": "美 10년물 국채 금리 5% 돌파",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%E7%BE%8E%2010%EB%85%84%EB%AC%BC%20%EA%B5%AD%EC%B1%84%20%EA%B8%88%EB%A6%AC%205%25%20%EB%8F%8C%ED%8C%8C"
       },
       {
         "rank": 3,
@@ -1435,13 +1435,13 @@
       },
       {
         "rank": 5,
-        "title": "김선호의 선택은?",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%84%A0%ED%98%B8%EC%9D%98%20%EC%84%A0%ED%83%9D%EC%9D%80%3F"
+        "title": "김선호의 연애 갈등",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%84%A0%ED%98%B8%EC%9D%98%20%EC%97%B0%EC%95%A0%20%EA%B0%88%EB%93%B1"
       },
       {
         "rank": 6,
-        "title": "여자 축구",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%97%AC%EC%9E%90%20%EC%B6%95%EA%B5%AC"
+        "title": "제임스 네일",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A0%9C%EC%9E%84%EC%8A%A4%20%EB%84%A4%EC%9D%BC"
       },
       {
         "rank": 7,
@@ -1450,18 +1450,18 @@
       },
       {
         "rank": 8,
-        "title": "KRX 애프터마켓 첫날 1.8조 거래",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=KRX%20%EC%95%A0%ED%94%84%ED%84%B0%EB%A7%88%EC%BC%93%20%EC%B2%AB%EB%82%A0%201.8%EC%A1%B0%20%EA%B1%B0%EB%9E%98"
+        "title": "바둑",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B0%94%EB%91%91"
       },
       {
         "rank": 9,
-        "title": "함소원",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%A8%EC%86%8C%EC%9B%90"
+        "title": "2026년 9월 15일 운세",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=2026%EB%85%84%209%EC%9B%94%2015%EC%9D%BC%20%EC%9A%B4%EC%84%B8"
       },
       {
         "rank": 10,
-        "title": "22기 현숙, 16기 광수 연애전쟁",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=22%EA%B8%B0%20%ED%98%84%EC%88%99%2C%2016%EA%B8%B0%20%EA%B4%91%EC%88%98%20%EC%97%B0%EC%95%A0%EC%A0%84%EC%9F%81"
+        "title": "관중에 인사하는 여자팀",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B4%80%EC%A4%91%EC%97%90%20%EC%9D%B8%EC%82%AC%ED%95%98%EB%8A%94%20%EC%97%AC%EC%9E%90%ED%8C%80"
       }
     ],
     "youtube_popular": [
@@ -1469,7 +1469,7 @@
         "rank": 1,
         "title": "Dear my crazy soulmate",
         "channel": "IU - Topic",
-        "views": "289만회",
+        "views": "290만회",
         "thumb": "https://i.ytimg.com/vi/IHIt9S2DWcQ/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=IHIt9S2DWcQ"
       },
@@ -1485,7 +1485,7 @@
         "rank": 3,
         "title": "1300억 BP 장전하고 드디어 영입한 1대장 트릭두..?",
         "channel": "튜브김민교",
-        "views": "44만회",
+        "views": "45만회",
         "thumb": "https://i.ytimg.com/vi/RNCCb1s7wis/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=RNCCb1s7wis"
       },
@@ -1541,7 +1541,7 @@
         "rank": 10,
         "title": "BIGBANG - ‘BiiiG’ LIVE PERFORMANCE | BIGBANG 2026-2027 WORLD TOUR [ XX : COSMOS ] IN GOYANG",
         "channel": "BIGBANG",
-        "views": "47만회",
+        "views": "49만회",
         "thumb": "https://i.ytimg.com/vi/YA1IK2HzmGw/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=YA1IK2HzmGw"
       }
