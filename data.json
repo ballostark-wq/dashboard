@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14 11:50:54",
+  "updated_at": "2026-09-14 12:06:05",
   "us2y": {
     "value": 4.63,
     "change": 0.07
@@ -131,6 +131,16 @@
         "title": "[디일렉] 한화오션, 60MW급 부유식 데이터센터 첫 공개",
         "link": "https://www.thelec.kr/news/articleView.html?idxno=62203",
         "date": "09-13 20:50"
+      },
+      {
+        "title": "[전자신문] F5, 韓에 분산 클라우드 신규 구축…지연시간 줄이고 보안 강화",
+        "link": "https://www.etnews.com/20260914000178",
+        "date": "09-14 12:01"
+      },
+      {
+        "title": "[전자신문] 전북정보보호지원센터, 중소기업 정보보호 지원사업 수요기업 모집",
+        "link": "https://www.etnews.com/20260914000177",
+        "date": "09-14 12:01"
       }
     ],
     "domestic": [
@@ -213,83 +223,83 @@
       "detail": "10Y-2Y 스프레드가 +34 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.48",
-      "title": "닥터 코퍼 $6.48선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.46",
+      "title": "닥터 코퍼 $6.46선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.48",
-          "chg": "+0.15%",
-          "up": true
+          "val": "$6.46",
+          "chg": "-0.15%",
+          "up": false
         },
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,388.2",
-          "chg": "+0.50%",
+          "val": "$4,377.0",
+          "chg": "+0.25%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$64.79",
-          "chg": "+0.37%",
-          "up": true
+          "val": "$64.51",
+          "chg": "-0.06%",
+          "up": false
         }
       ],
       "bullets": [
-        "구리 $6.48/lb (+0.15%) - AI 전력망 설비 수요 반영",
-        "금 $4,388/oz, 은 $64.79/oz - 통화가치 헤지"
+        "구리 $6.46/lb (-0.15%) - AI 전력망 설비 수요 반영",
+        "금 $4,377/oz, 은 $64.51/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,345원 | 엔/달러 ¥154.0",
-      "title": "원/달러 1,345.2원선과 엔/달러 ¥154.0",
+      "badge": "원/달러 1,346원 | 엔/달러 ¥154.1",
+      "title": "원/달러 1,345.8원선과 엔/달러 ¥154.1",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,345.2원",
-          "chg": "-0.22%",
+          "val": "1,345.8원",
+          "chg": "-0.17%",
           "up": false
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "99.23pt",
-          "chg": "+0.11%",
+          "val": "99.24pt",
+          "chg": "+0.12%",
           "up": true
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥154.02",
-          "chg": "-0.30%",
+          "val": "¥154.08",
+          "chg": "-0.26%",
           "up": false
         }
       ],
       "bullets": [
-        "달러 인덱스 99.23pt - 미국 성장 우위 지속",
-        "엔/달러 154.02엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 99.24pt - 미국 성장 우위 지속",
+        "엔/달러 154.08엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $102.66",
-      "title": "WTI 배럴당 $102.66선 박스권 안정",
+      "badge": "WTI $102.92",
+      "title": "WTI 배럴당 $102.92선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$102.66",
-          "chg": "+2.61%",
+          "val": "$102.92",
+          "chg": "+2.87%",
           "up": true
         }
       ],
       "bullets": [
-        "WTI 선물 $102.66/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $102.92/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -297,32 +307,32 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.48,
-      "change": 0.15
+      "price": 6.46,
+      "change": -0.15
     },
     "gold": {
-      "price": 4388.2,
-      "change": 0.5
+      "price": 4377.0,
+      "change": 0.25
     },
     "silver": {
-      "price": 64.79,
-      "change": 0.37
+      "price": 64.51,
+      "change": -0.06
     },
     "wti": {
-      "price": 102.66,
-      "change": 2.61
+      "price": 102.92,
+      "change": 2.87
     },
     "usdkrw": {
-      "price": 1345.22,
-      "change": -0.22
+      "price": 1345.85,
+      "change": -0.17
     },
     "dxy": {
-      "price": 99.23,
-      "change": 0.11
+      "price": 99.24,
+      "change": 0.12
     },
     "usdjpy": {
-      "price": 154.02,
-      "change": -0.3
+      "price": 154.08,
+      "change": -0.26
     }
   },
   "history_20d": {
@@ -585,9 +595,9 @@
       },
       {
         "date": "09-14",
-        "copper": 6.48,
-        "gold": 4388.2,
-        "silver": 64.79
+        "copper": 6.46,
+        "gold": 4377.0,
+        "silver": 64.51
       }
     ],
     "fx": [
@@ -707,9 +717,9 @@
       },
       {
         "date": "09-14",
-        "usdkrw": 1345.22,
-        "dxy": 99.23,
-        "usdjpy": 154.02
+        "usdkrw": 1345.85,
+        "dxy": 99.24,
+        "usdjpy": 154.08
       }
     ],
     "oil": [
@@ -810,8 +820,8 @@
       },
       {
         "date": "09-14",
-        "wti": 102.66,
-        "change": 2.61
+        "wti": 102.92,
+        "change": 2.87
       }
     ]
   },
@@ -1412,48 +1422,48 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "김성수 후보자 인사청문회",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%84%B1%EC%88%98%20%ED%9B%84%EB%B3%B4%EC%9E%90%20%EC%9D%B8%EC%82%AC%EC%B2%AD%EB%AC%B8%ED%9A%8C"
+        "title": "김성수 대법관 후보자",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%84%B1%EC%88%98%20%EB%8C%80%EB%B2%95%EA%B4%80%20%ED%9B%84%EB%B3%B4%EC%9E%90"
       },
       {
         "rank": 2,
-        "title": "존박 단독 콘서트 성료",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A1%B4%EB%B0%95%20%EB%8B%A8%EB%8F%85%20%EC%BD%98%EC%84%9C%ED%8A%B8%20%EC%84%B1%EB%A3%8C"
+        "title": "이기인, 개혁신당 비대위원장 임명",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EA%B8%B0%EC%9D%B8%2C%20%EA%B0%9C%ED%98%81%EC%8B%A0%EB%8B%B9%20%EB%B9%84%EB%8C%80%EC%9C%84%EC%9B%90%EC%9E%A5%20%EC%9E%84%EB%AA%85"
       },
       {
         "rank": 3,
-        "title": "GTX-C 노선 착공",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=GTX-C%20%EB%85%B8%EC%84%A0%20%EC%B0%A9%EA%B3%B5"
+        "title": "서울시 버스 파업 대책",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%84%9C%EC%9A%B8%EC%8B%9C%20%EB%B2%84%EC%8A%A4%20%ED%8C%8C%EC%97%85%20%EB%8C%80%EC%B1%85"
       },
       {
         "rank": 4,
-        "title": "발언하는 장동혁 대표",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B0%9C%EC%96%B8%ED%95%98%EB%8A%94%20%EC%9E%A5%EB%8F%99%ED%98%81%20%EB%8C%80%ED%91%9C"
+        "title": "존박 단독 콘서트 브레이크 성료",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A1%B4%EB%B0%95%20%EB%8B%A8%EB%8F%85%20%EC%BD%98%EC%84%9C%ED%8A%B8%20%EB%B8%8C%EB%A0%88%EC%9D%B4%ED%81%AC%20%EC%84%B1%EB%A3%8C"
       },
       {
         "rank": 5,
-        "title": "개혁신당 비대위원장에 이기인",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B0%9C%ED%98%81%EC%8B%A0%EB%8B%B9%20%EB%B9%84%EB%8C%80%EC%9C%84%EC%9B%90%EC%9E%A5%EC%97%90%20%EC%9D%B4%EA%B8%B0%EC%9D%B8"
+        "title": "은마 종합 상가",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%80%EB%A7%88%20%EC%A2%85%ED%95%A9%20%EC%83%81%EA%B0%80"
       },
       {
         "rank": 6,
-        "title": "전준우",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A0%84%EC%A4%80%EC%9A%B0"
-      },
-      {
-        "rank": 7,
         "title": "금감원 임직원 주식투자",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B8%88%EA%B0%90%EC%9B%90%20%EC%9E%84%EC%A7%81%EC%9B%90%20%EC%A3%BC%EC%8B%9D%ED%88%AC%EC%9E%90"
       },
       {
+        "rank": 7,
+        "title": "발언하는 장동혁 대표",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B0%9C%EC%96%B8%ED%95%98%EB%8A%94%20%EC%9E%A5%EB%8F%99%ED%98%81%20%EB%8C%80%ED%91%9C"
+      },
+      {
         "rank": 8,
-        "title": "차태현",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B0%A8%ED%83%9C%ED%98%84"
+        "title": "에어로케이",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%97%90%EC%96%B4%EB%A1%9C%EC%BC%80%EC%9D%B4"
       },
       {
         "rank": 9,
-        "title": "분양가상한제 기본형건축비 인상",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B6%84%EC%96%91%EA%B0%80%EC%83%81%ED%95%9C%EC%A0%9C%20%EA%B8%B0%EB%B3%B8%ED%98%95%EA%B1%B4%EC%B6%95%EB%B9%84%20%EC%9D%B8%EC%83%81"
+        "title": "GTX-C 노선 착공",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=GTX-C%20%EB%85%B8%EC%84%A0%20%EC%B0%A9%EA%B3%B5"
       },
       {
         "rank": 10,
