@@ -1410,37 +1410,56 @@
       if (!cachedCalendar3w) return '<p style="font-size:0.75rem; color:#64748b;">캘린더를 로드 중입니다...</p>';
       const cur = cachedCalendar3w[weekKey];
 
-      const macroHtml = cur.macro.map(m => {
-        const badgeClass = m.impact === 'CRITICAL' ? 'badge-critical' : 'badge-earn';
-        return `
+      // 1. 매크로 일정이 없을 경우의 빈 화면(Empty State) 처리
+      let macroHtml = '';
+      if (cur.macro && cur.macro.length > 0) {
+        macroHtml = cur.macro.map(m => {
+          const badgeClass = m.impact === 'CRITICAL' ? 'badge-critical' : 'badge-earn';
+          return `
+            <div class="cal-event-card">
+              <div><strong style="font-size:0.76rem; color:#fff; display:block;">${m.event}</strong><span style="font-size:0.65rem; color:#94a3b8; font-family:monospace;">${m.date}</span></div>
+              <span class="cal-badge ${badgeClass}">${m.impact}</span>
+            </div>
+          `;
+        }).join('');
+      } else {
+        // 일정이 없을 때 표시할 안내 박스
+        macroHtml = '<div style="padding:15px; text-align:center; font-size:0.72rem; color:#64748b; background:#020617; border:1px dashed #334155; border-radius:6px; margin-bottom:6px;">이번 주에 발표 예정인 주요 거시경제 지표가 없습니다.</div>';
+      }
+
+      // 2. 실적 일정이 없을 경우의 빈 화면(Empty State) 처리
+      let earnHtml = '';
+      if (cur.earnings && cur.earnings.length > 0) {
+        earnHtml = cur.earnings.map(e => `
           <div class="cal-event-card">
-            <div><strong style="font-size:0.76rem; color:#fff; display:block;">${m.event}</strong><span style="font-size:0.65rem; color:#94a3b8; font-family:monospace;">${m.date}</span></div>
-            <span class="cal-badge ${badgeClass}">${m.impact}</span>
+            <div><strong style="font-size:0.76rem; color:#38bdf8; display:block;">${e.name} (${e.ticker})</strong><span style="font-size:0.65rem; color:#94a3b8; font-family:monospace;">${e.date} · ${e.time}</span></div>
+            <span class="cal-badge badge-earn">EARNINGS</span>
           </div>
-        `;
-      }).join('');
+        `).join('');
+      } else {
+        // 일정이 없을 때 표시할 안내 박스
+        earnHtml = '<div style="padding:15px; text-align:center; font-size:0.72rem; color:#64748b; background:#020617; border:1px dashed #334155; border-radius:6px; margin-bottom:6px;">예정된 주요 빅테크 실적 발표가 없습니다.</div>';
+      }
 
-      const earnHtml = cur.earnings.map(e => `
-        <div class="cal-event-card">
-          <div><strong style="font-size:0.76rem; color:#38bdf8; display:block;">${e.name} (${e.ticker})</strong><span style="font-size:0.65rem; color:#94a3b8; font-family:monospace;">${e.date} · ${e.time}</span></div>
-          <span class="cal-badge badge-earn">EARNINGS</span>
-        </div>
-      `).join('');
-
+      // 3. 다다음주(w3) 탭 제거 및 스크롤 컨테이너 적용
       return `
         <div class="cal-week-btn-group">
           <button class="cal-week-btn ${weekKey === 'w1' ? 'active' : ''}" onclick="switchCalendarWeek('w1')">이번 주 (W1)</button>
-          <button class="cal-week-btn ${weekKey === 'w2' ? 'active' : ''}" onclick="switchCalendarWeek('w2')">다음 주 (W2·FOMC)</button>
-          <button class="cal-week-btn ${weekKey === 'w3' ? 'active' : ''}" onclick="switchCalendarWeek('w3')">다다음 주 (W3)</button>
+          <button class="cal-week-btn ${weekKey === 'w2' ? 'active' : ''}" onclick="switchCalendarWeek('w2')">다음 주 (W2)</button>
         </div>
         <div style="background:#090e1f; border:1px solid #1e293b; border-radius:8px; padding:10px; margin-bottom:12px;">
           <h4 style="font-size:0.8rem; color:#38bdf8; margin-bottom:4px;">📌 ${cur.title}</h4>
-          <span style="font-size:0.68rem; color:#94a3b8;">미 노동통계국(BLS) · 연준(FRB) 확정 일정 및 야후 파이낸스 실적</span>
+          <span style="font-size:0.68rem; color:#94a3b8;">출처: ForexFactory 매크로 및 FMP 실적</span>
         </div>
-        <div class="cal-section-title">🏛️ 거시경제 핵심 지표 (Macro Events)</div>
-        ${macroHtml}
-        <div class="cal-section-title" style="margin-top:14px;">💻 빅테크 어닝스 캘린더 (Big Tech Earnings)</div>
-        ${earnHtml}
+        
+        <!-- 🔥 스크롤 가능한 컨테이너 영역 (max-height와 overflow-y 추가) -->
+        <div style="max-height: 400px; overflow-y: auto; padding-right: 6px;">
+            <div class="cal-section-title">🏛️ 거시경제 핵심 지표 (Macro Events)</div>
+            ${macroHtml}
+            
+            <div class="cal-section-title" style="margin-top:14px;">💻 빅테크 어닝스 캘린더 (Big Tech Earnings)</div>
+            ${earnHtml}
+        </div>
       `;
     }
 
