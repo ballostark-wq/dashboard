@@ -745,7 +745,9 @@
       </div>
 
       <div class="card-footer">
-        <span id="trend-source-label">네이버 시사상식사전 주간 랭킹</span>
+        <a id="trend-source-label" href="https://terms.naver.com/~%EC%8B%9C%EC%82%AC%EC%83%81%EC%8B%9D%EC%82%AC%EC%A0%84-5gU3XZbbzbKZlVGdi59MJ9?sort=weekly" target="_blank" rel="noopener noreferrer" style="color:#64748b; text-decoration:none; font-weight:600; cursor:pointer; display:inline-flex; align-items:center; gap:4px; transition:color 0.15s;" onmouseover="this.style.color='#94a3b8'" onmouseout="this.style.color='#64748b'">
+          네이버 시사상식사전 주간 랭킹 ↗
+        </a>
         <span id="trend-sync-label" style="color:#38bdf8;">실시간 연동</span>
       </div>
     </div>
@@ -1591,10 +1593,12 @@
     let currentTrendTab = 'naver';
     function switchTrendTab(tab) {
       currentTrendTab = tab;
+      
+      // 각 탭에 맞는 URL 링크를 추가했습니다
       const tabs = [
-        { key: 'naver', id: 'trend-tab-naver', label: '네이버 시사상식사전 주간 랭킹' },
-        { key: 'namu', id: 'trend-tab-namu', label: '나무위키 실시간 검색어 순위' },
-        { key: 'youtube', id: 'trend-tab-yt', label: 'YouTube 대한민국 트렌딩 동영상' }
+        { key: 'naver', id: 'trend-tab-naver', label: '네이버 시사상식사전 주간 랭킹 ↗', url: 'https://terms.naver.com/~%EC%8B%9C%EC%82%AC%EC%83%81%EC%8B%9D%EC%82%AC%EC%A0%84-5gU3XZbbzbKZlVGdi59MJ9?sort=weekly' },
+        { key: 'namu', id: 'trend-tab-namu', label: '나무위키 실시간 검색어 순위 ↗', url: 'https://namu.wiki/' },
+        { key: 'youtube', id: 'trend-tab-yt', label: 'YouTube 대한민국 트렌딩 동영상 ↗', url: 'https://www.youtube.com/feed/trending' }
       ];
     
       tabs.forEach(t => {
@@ -1603,7 +1607,11 @@
           if (t.key === tab) {
             btn.classList.add('active');
             const labelEl = document.getElementById('trend-source-label');
-            if (labelEl) labelEl.innerText = t.label;
+            if (labelEl) {
+                // 텍스트와 링크(href)를 동시에 업데이트합니다
+                labelEl.innerText = t.label;
+                labelEl.href = t.url;
+            }
           } else {
             btn.classList.remove('active');
           }
