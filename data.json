@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15 11:42:01",
+  "updated_at": "2026-09-15 12:04:31",
   "us2y": {
     "value": 4.65,
     "change": 0.02
@@ -131,6 +131,16 @@
         "title": "[디일렉] LS에코에너지, 美 태양광 발전단지에 전력케이블 공급",
         "link": "https://www.thelec.kr/news/articleView.html?idxno=62273",
         "date": "09-15 08:50"
+      },
+      {
+        "title": "[전자신문] 1.65배 늘어나도 선명…국내 연구진, 1만6000PPI 스트레쳐블 QLED 개발",
+        "link": "https://www.etnews.com/20260915000075",
+        "date": "09-15 12:00"
+      },
+      {
+        "title": "[전자신문] 15년 만에 RPS 막 내린다…재생e '경쟁입찰·장기계약'으로 대전환",
+        "link": "https://www.etnews.com/20260915000060",
+        "date": "09-15 12:00"
       }
     ],
     "domestic": [
@@ -226,70 +236,70 @@
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,350.8",
-          "chg": "-1.32%",
+          "val": "$4,352.3",
+          "chg": "-1.28%",
           "up": false
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$64.01",
-          "chg": "-0.84%",
+          "val": "$63.96",
+          "chg": "-0.91%",
           "up": false
         }
       ],
       "bullets": [
         "구리 $6.4/lb (-1.08%) - AI 전력망 설비 수요 반영",
-        "금 $4,351/oz, 은 $64.01/oz - 통화가치 헤지"
+        "금 $4,352/oz, 은 $63.96/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,355원 | 엔/달러 ¥154.9",
-      "title": "원/달러 1,354.5원선과 엔/달러 ¥154.9",
+      "badge": "원/달러 1,353원 | 엔/달러 ¥154.7",
+      "title": "원/달러 1,352.6원선과 엔/달러 ¥154.7",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,354.5원",
-          "chg": "+0.73%",
+          "val": "1,352.6원",
+          "chg": "+0.59%",
           "up": true
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "99.61pt",
-          "chg": "+0.15%",
+          "val": "99.59pt",
+          "chg": "+0.13%",
           "up": true
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥154.87",
-          "chg": "+0.95%",
+          "val": "¥154.74",
+          "chg": "+0.86%",
           "up": true
         }
       ],
       "bullets": [
-        "달러 인덱스 99.61pt - 미국 성장 우위 지속",
-        "엔/달러 154.87엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 99.59pt - 미국 성장 우위 지속",
+        "엔/달러 154.74엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $102.81",
-      "title": "WTI 배럴당 $102.81선 박스권 안정",
+      "badge": "WTI $102.97",
+      "title": "WTI 배럴당 $102.97선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$102.81",
-          "chg": "+2.76%",
+          "val": "$102.97",
+          "chg": "+2.92%",
           "up": true
         }
       ],
       "bullets": [
-        "WTI 선물 $102.81/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $102.97/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -301,28 +311,28 @@
       "change": -1.08
     },
     "gold": {
-      "price": 4350.8,
-      "change": -1.32
+      "price": 4352.3,
+      "change": -1.28
     },
     "silver": {
-      "price": 64.01,
-      "change": -0.84
+      "price": 63.96,
+      "change": -0.91
     },
     "wti": {
-      "price": 102.81,
-      "change": 2.76
+      "price": 102.97,
+      "change": 2.92
     },
     "usdkrw": {
-      "price": 1354.52,
-      "change": 0.73
+      "price": 1352.56,
+      "change": 0.59
     },
     "dxy": {
-      "price": 99.61,
-      "change": 0.15
+      "price": 99.59,
+      "change": 0.13
     },
     "usdjpy": {
-      "price": 154.87,
-      "change": 0.95
+      "price": 154.74,
+      "change": 0.86
     }
   },
   "history_20d": {
@@ -586,8 +596,8 @@
       {
         "date": "09-15",
         "copper": 6.4,
-        "gold": 4350.8,
-        "silver": 64.01
+        "gold": 4352.3,
+        "silver": 63.96
       }
     ],
     "fx": [
@@ -707,9 +717,9 @@
       },
       {
         "date": "09-15",
-        "usdkrw": 1354.52,
-        "dxy": 99.61,
-        "usdjpy": 154.87
+        "usdkrw": 1352.56,
+        "dxy": 99.59,
+        "usdjpy": 154.74
       }
     ],
     "oil": [
@@ -810,8 +820,8 @@
       },
       {
         "date": "09-15",
-        "wti": 102.81,
-        "change": 2.76
+        "wti": 102.97,
+        "change": 2.92
       }
     ]
   },
@@ -1405,53 +1415,53 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "김승원 법무부 후보자",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%8A%B9%EC%9B%90%20%EB%B2%95%EB%AC%B4%EB%B6%80%20%ED%9B%84%EB%B3%B4%EC%9E%90"
+        "title": "김승원 후보자 인사청문회",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%8A%B9%EC%9B%90%20%ED%9B%84%EB%B3%B4%EC%9E%90%20%EC%9D%B8%EC%82%AC%EC%B2%AD%EB%AC%B8%ED%9A%8C"
       },
       {
         "rank": 2,
-        "title": "서울시 다핵도시 재편",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%84%9C%EC%9A%B8%EC%8B%9C%20%EB%8B%A4%ED%95%B5%EB%8F%84%EC%8B%9C%20%EC%9E%AC%ED%8E%B8"
+        "title": "서울 시내버스 파업 위기",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%84%9C%EC%9A%B8%20%EC%8B%9C%EB%82%B4%EB%B2%84%EC%8A%A4%20%ED%8C%8C%EC%97%85%20%EC%9C%84%EA%B8%B0"
       },
       {
         "rank": 3,
-        "title": "추석 앞두고 조기 지급",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B6%94%EC%84%9D%20%EC%95%9E%EB%91%90%EA%B3%A0%20%EC%A1%B0%EA%B8%B0%20%EC%A7%80%EA%B8%89"
+        "title": "8월 수출물가 하락",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=8%EC%9B%94%20%EC%88%98%EC%B6%9C%EB%AC%BC%EA%B0%80%20%ED%95%98%EB%9D%BD"
       },
       {
         "rank": 4,
-        "title": "백종원",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B0%B1%EC%A2%85%EC%9B%90"
-      },
-      {
-        "rank": 5,
-        "title": "자동차보험 상반기 적자",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9E%90%EB%8F%99%EC%B0%A8%EB%B3%B4%ED%97%98%20%EC%83%81%EB%B0%98%EA%B8%B0%20%EC%A0%81%EC%9E%90"
-      },
-      {
-        "rank": 6,
-        "title": "발언하는 정점식 원내대표",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B0%9C%EC%96%B8%ED%95%98%EB%8A%94%20%EC%A0%95%EC%A0%90%EC%8B%9D%20%EC%9B%90%EB%82%B4%EB%8C%80%ED%91%9C"
-      },
-      {
-        "rank": 7,
-        "title": "고수, BH엔터 15년 동행 마무리",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B3%A0%EC%88%98%2C%20BH%EC%97%94%ED%84%B0%2015%EB%85%84%20%EB%8F%99%ED%96%89%20%EB%A7%88%EB%AC%B4%EB%A6%AC"
-      },
-      {
-        "rank": 8,
-        "title": "홍진영",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%99%8D%EC%A7%84%EC%98%81"
-      },
-      {
-        "rank": 9,
         "title": "홈플러스 임금체불",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%99%88%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EC%9E%84%EA%B8%88%EC%B2%B4%EB%B6%88"
       },
       {
+        "rank": 5,
+        "title": "부산 선박 가스 누출 2명 심정지",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B6%80%EC%82%B0%20%EC%84%A0%EB%B0%95%20%EA%B0%80%EC%8A%A4%20%EB%88%84%EC%B6%9C%202%EB%AA%85%20%EC%8B%AC%EC%A0%95%EC%A7%80"
+      },
+      {
+        "rank": 6,
+        "title": "김혜경",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%ED%98%9C%EA%B2%BD"
+      },
+      {
+        "rank": 7,
+        "title": "이재명·베르디무하메도프 정상회담",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EC%9E%AC%EB%AA%85%C2%B7%EB%B2%A0%EB%A5%B4%EB%94%94%EB%AC%B4%ED%95%98%EB%A9%94%EB%8F%84%ED%94%84%20%EC%A0%95%EC%83%81%ED%9A%8C%EB%8B%B4"
+      },
+      {
+        "rank": 8,
+        "title": "김기수",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EA%B8%B0%EC%88%98"
+      },
+      {
+        "rank": 9,
+        "title": "감사원 YTN 지분매각 개입",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B0%90%EC%82%AC%EC%9B%90%20YTN%20%EC%A7%80%EB%B6%84%EB%A7%A4%EA%B0%81%20%EA%B0%9C%EC%9E%85"
+      },
+      {
         "rank": 10,
-        "title": "한성숙 총리 국무회의 참석",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%9C%EC%84%B1%EC%88%99%20%EC%B4%9D%EB%A6%AC%20%EA%B5%AD%EB%AC%B4%ED%9A%8C%EC%9D%98%20%EC%B0%B8%EC%84%9D"
+        "title": "원현준, 15개월 전부터 이수진과 열애 중",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9B%90%ED%98%84%EC%A4%80%2C%2015%EA%B0%9C%EC%9B%94%20%EC%A0%84%EB%B6%80%ED%84%B0%20%EC%9D%B4%EC%88%98%EC%A7%84%EA%B3%BC%20%EC%97%B4%EC%95%A0%20%EC%A4%91"
       }
     ],
     "youtube_popular": [
@@ -1459,7 +1469,7 @@
         "rank": 1,
         "title": "임영웅 '모이세' Official M/V",
         "channel": "임영웅",
-        "views": "4만회",
+        "views": "5만회",
         "thumb": "https://i.ytimg.com/vi/NwLxMQtlKDY/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=NwLxMQtlKDY"
       },
@@ -1481,11 +1491,11 @@
       },
       {
         "rank": 4,
-        "title": "Dear my crazy soulmate",
-        "channel": "IU - Topic",
-        "views": "303만회",
-        "thumb": "https://i.ytimg.com/vi/IHIt9S2DWcQ/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=IHIt9S2DWcQ"
+        "title": "[MV] 영탁(YOUNGTAK) '꺾어(GOGO)'",
+        "channel": "영탁스클럽 YOUNGTAKsClub",
+        "views": "6만회",
+        "thumb": "https://i.ytimg.com/vi/Ak1cg1ex0NY/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=Ak1cg1ex0NY"
       },
       {
         "rank": 5,
@@ -1505,11 +1515,11 @@
       },
       {
         "rank": 7,
-        "title": "[MV] 영탁(YOUNGTAK) '꺾어(GOGO)'",
-        "channel": "영탁스클럽 YOUNGTAKsClub",
-        "views": "6만회",
-        "thumb": "https://i.ytimg.com/vi/Ak1cg1ex0NY/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=Ak1cg1ex0NY"
+        "title": "Dear my crazy soulmate",
+        "channel": "IU - Topic",
+        "views": "304만회",
+        "thumb": "https://i.ytimg.com/vi/IHIt9S2DWcQ/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=IHIt9S2DWcQ"
       },
       {
         "rank": 8,
@@ -1523,7 +1533,7 @@
         "rank": 9,
         "title": "꿈꾸던 어른이 되었나요?",
         "channel": "meomuru - Topic",
-        "views": "71만회",
+        "views": "72만회",
         "thumb": "https://i.ytimg.com/vi/JJx_WQXOeK0/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=JJx_WQXOeK0"
       },
