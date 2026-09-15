@@ -440,8 +440,11 @@
     .close-btn { background: none; border: none; color: #94a3b8; font-size: 1.6rem; cursor: pointer; line-height: 1; }
     
     .drawer-content-scroll { 
-      overflow-y: auto; flex-grow: 1; padding: 20px 24px; 
-      display: flex; flex-direction: column; gap: 12px;
+      overflow-y: auto; 
+      flex-grow: 1; 
+      padding: 20px 24px; 
+      display: flex; 
+      flex-direction: column; 
     }
     
     .drawer-footer {
@@ -1014,7 +1017,8 @@
           <span style="font-size:0.68rem; color:#94a3b8;">실시간 거시경제 지표 & 빅테크 실적 (출처: TradingView / Investing)</span>
         </div>
         
-        <div style="max-height: 500px; overflow-y: auto; padding-right: 6px;">
+        <!-- max-height 제한을 제거하여 아래 공백에 맞춰 자연스럽게 늘어나도록 수정 -->
+        <div style="width: 100%; padding-right: 2px;">
             <div class="cal-section-title">🏛️ 거시경제 핵심 지표 (Macro Events)</div>
             
             <div class="tradingview-widget-container" style="height: 400px; width: 100%; margin-bottom: 24px;">
