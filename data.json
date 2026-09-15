@@ -1,28 +1,28 @@
 {
-  "updated_at": "2026-09-15 22:06:53",
+  "updated_at": "2026-09-15 23:06:02",
   "us2y": {
     "value": 4.65,
     "change": 0.02
   },
   "us5y": {
-    "value": 4.82,
-    "change": 0.03
+    "value": 4.83,
+    "change": 0.04
   },
   "us10y": {
-    "value": 4.99,
-    "change": 0.03
+    "value": 5.0,
+    "change": 0.04
   },
   "us30y": {
-    "value": 5.36,
-    "change": 0.03
+    "value": 5.38,
+    "change": 0.05
   },
   "spread": {
-    "value": 34,
+    "value": 35,
     "status": "정상화 (우상향)"
   },
   "vix": {
-    "value": 16.86,
-    "change": -1.4
+    "value": 17.09,
+    "change": -0.06
   },
   "tech_news": [
     {
@@ -131,9 +131,29 @@
         "title": "[디일렉] 삼성전자, DDR5 모듈 외주만 늘린다...베트남·인도 등 해외생산 확대",
         "link": "https://www.thelec.kr/news/articleView.html?idxno=62306",
         "date": "09-15 18:51"
+      },
+      {
+        "title": "[전자신문] 학업 스트레스에…'숙제' 먹어버리는 中 학생들, 뭔데?",
+        "link": "https://www.etnews.com/20260915000424",
+        "date": "09-15 22:30"
+      },
+      {
+        "title": "[전자신문] 서울 시내버스 16일 멈춘다…시민 10명 중 8명 파업 반대",
+        "link": "https://www.etnews.com/20260915000472",
+        "date": "09-15 22:04"
       }
     ],
     "domestic": [
+      {
+        "title": "미 국채 10년물 금리, FOMC 앞두고 한때 5.0450%…2007년 이후 최고",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435041",
+        "date": "09-15 22:43"
+      },
+      {
+        "title": "사우디, 후티 공격에 이슬람 성지 메카에도 경보 발령",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435040",
+        "date": "09-15 22:25"
+      },
       {
         "title": "한은 실무부서 \"韓 중립금리 팬더믹 이후 반등 추정\"",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435035",
@@ -148,16 +168,6 @@
         "title": "인플레 공포 엄습…美·獨 장기 국채금리, 십수년래 최고치(종합)",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435033",
         "date": "09-15 19:00"
-      },
-      {
-        "title": "[채권-마감] 유가 불안·글로벌 금리 급등에 휘둘리는 국고채…3년 6.6bp↑",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435032",
-        "date": "09-15 18:48"
-      },
-      {
-        "title": "IRS 금리 전 구간 상승…현물 약세 연동",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435031",
-        "date": "09-15 18:33"
       }
     ]
   },
@@ -174,21 +184,21 @@
   },
   "macro_reviews": {
     "bonds": {
-      "badge": "스프레드 +34 bp",
-      "title": "미국채 10년물 4.99%선 공방과 정상화",
+      "badge": "스프레드 +35 bp",
+      "title": "미국채 10년물 5.0%선 공방과 정상화",
       "metrics": [
         {
           "id": "spread",
           "name": "10Y-2Y차",
-          "val": "+34 bp",
+          "val": "+35 bp",
           "chg": "정상화 (우상향)",
           "up": true
         },
         {
           "id": "us10y",
           "name": "10년물",
-          "val": "4.99%",
-          "chg": "+0.03%",
+          "val": "5.00%",
+          "chg": "+0.04%",
           "up": true
         },
         {
@@ -201,16 +211,16 @@
         {
           "id": "us30y",
           "name": "30년물",
-          "val": "5.36%",
-          "chg": "+0.03%",
+          "val": "5.38%",
+          "chg": "+0.05%",
           "up": true
         }
       ],
       "bullets": [
-        "10년물 4.99%와 2년물 4.65% 형성으로 스프레드 +34 bp 유지",
-        "초장기 30년물 5.36%선 안착 속 재정 적자 발행에 따른 기간 프리미엄"
+        "10년물 5.0%와 2년물 4.65% 형성으로 스프레드 +35 bp 유지",
+        "초장기 30년물 5.38%선 안착 속 재정 적자 발행에 따른 기간 프리미엄"
       ],
-      "detail": "10Y-2Y 스프레드가 +34 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
+      "detail": "10Y-2Y 스프레드가 +35 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
       "badge": "구리 $6.44",
@@ -226,70 +236,70 @@
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,330.1",
-          "chg": "-0.50%",
+          "val": "$4,335.8",
+          "chg": "-0.37%",
           "up": false
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$64.28",
-          "chg": "+1.21%",
+          "val": "$64.33",
+          "chg": "+1.29%",
           "up": true
         }
       ],
       "bullets": [
         "구리 $6.44/lb (+1.74%) - AI 전력망 설비 수요 반영",
-        "금 $4,330/oz, 은 $64.28/oz - 통화가치 헤지"
+        "금 $4,336/oz, 은 $64.33/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,357원 | 엔/달러 ¥154.9",
-      "title": "원/달러 1,357.4원선과 엔/달러 ¥154.9",
+      "badge": "원/달러 1,357원 | 엔/달러 ¥155.0",
+      "title": "원/달러 1,356.7원선과 엔/달러 ¥155.0",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,357.4원",
-          "chg": "+0.95%",
+          "val": "1,356.7원",
+          "chg": "+0.90%",
           "up": true
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "99.58pt",
-          "chg": "+0.12%",
+          "val": "99.53pt",
+          "chg": "+0.07%",
           "up": true
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥154.92",
-          "chg": "+0.98%",
+          "val": "¥155.02",
+          "chg": "+1.04%",
           "up": true
         }
       ],
       "bullets": [
-        "달러 인덱스 99.58pt - 미국 성장 우위 지속",
-        "엔/달러 154.92엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 99.53pt - 미국 성장 우위 지속",
+        "엔/달러 155.02엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $101.67",
-      "title": "WTI 배럴당 $101.67선 박스권 안정",
+      "badge": "WTI $103.03",
+      "title": "WTI 배럴당 $103.03선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$101.67",
-          "chg": "+0.28%",
+          "val": "$103.03",
+          "chg": "+1.62%",
           "up": true
         }
       ],
       "bullets": [
-        "WTI 선물 $101.67/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $103.03/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -301,28 +311,28 @@
       "change": 1.74
     },
     "gold": {
-      "price": 4330.1,
-      "change": -0.5
+      "price": 4335.8,
+      "change": -0.37
     },
     "silver": {
-      "price": 64.28,
-      "change": 1.21
+      "price": 64.33,
+      "change": 1.29
     },
     "wti": {
-      "price": 101.67,
-      "change": 0.28
+      "price": 103.03,
+      "change": 1.62
     },
     "usdkrw": {
-      "price": 1357.4,
-      "change": 0.95
+      "price": 1356.73,
+      "change": 0.9
     },
     "dxy": {
-      "price": 99.58,
-      "change": 0.12
+      "price": 99.53,
+      "change": 0.07
     },
     "usdjpy": {
-      "price": 154.92,
-      "change": 0.98
+      "price": 155.02,
+      "change": 1.04
     }
   },
   "history_20d": {
@@ -462,10 +472,10 @@
       },
       {
         "date": "09-15",
-        "us10y": 4.99,
+        "us10y": 5.0,
         "us2y": 4.65,
-        "us30y": 5.36,
-        "spread": 34
+        "us30y": 5.38,
+        "spread": 35
       }
     ],
     "commodities": [
@@ -586,8 +596,8 @@
       {
         "date": "09-15",
         "copper": 6.44,
-        "gold": 4330.1,
-        "silver": 64.28
+        "gold": 4335.8,
+        "silver": 64.33
       }
     ],
     "fx": [
@@ -707,9 +717,9 @@
       },
       {
         "date": "09-15",
-        "usdkrw": 1357.4,
-        "dxy": 99.58,
-        "usdjpy": 154.92
+        "usdkrw": 1356.73,
+        "dxy": 99.53,
+        "usdjpy": 155.02
       }
     ],
     "oil": [
@@ -810,8 +820,8 @@
       },
       {
         "date": "09-15",
-        "wti": 101.67,
-        "change": 0.28
+        "wti": 103.03,
+        "change": 1.62
       }
     ]
   },
@@ -1405,48 +1415,48 @@
     "namu_rank": [
       {
         "rank": 1,
+        "title": "서울 버스 파업 인천 운행",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%84%9C%EC%9A%B8%20%EB%B2%84%EC%8A%A4%20%ED%8C%8C%EC%97%85%20%EC%9D%B8%EC%B2%9C%20%EC%9A%B4%ED%96%89"
+      },
+      {
+        "rank": 2,
+        "title": "추미애 사퇴 청원 조기 종료",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B6%94%EB%AF%B8%EC%95%A0%20%EC%82%AC%ED%87%B4%20%EC%B2%AD%EC%9B%90%20%EC%A1%B0%EA%B8%B0%20%EC%A2%85%EB%A3%8C"
+      },
+      {
+        "rank": 3,
+        "title": "엄지성 해트트릭 4-1 대승",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%97%84%EC%A7%80%EC%84%B1%20%ED%95%B4%ED%8A%B8%ED%8A%B8%EB%A6%AD%204-1%20%EB%8C%80%EC%8A%B9"
+      },
+      {
+        "rank": 4,
         "title": "李대통령 18일 기자회견",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EF%A7%A1%EB%8C%80%ED%86%B5%EB%A0%B9%2018%EC%9D%BC%20%EA%B8%B0%EC%9E%90%ED%9A%8C%EA%B2%AC"
       },
       {
-        "rank": 2,
-        "title": "서울버스 파업 임박 교섭 진행",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%84%9C%EC%9A%B8%EB%B2%84%EC%8A%A4%20%ED%8C%8C%EC%97%85%20%EC%9E%84%EB%B0%95%20%EA%B5%90%EC%84%AD%20%EC%A7%84%ED%96%89"
-      },
-      {
-        "rank": 3,
-        "title": "엄지성 해트트릭",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%97%84%EC%A7%80%EC%84%B1%20%ED%95%B4%ED%8A%B8%ED%8A%B8%EB%A6%AD"
-      },
-      {
-        "rank": 4,
-        "title": "‘TRY EVERYTHING 2026’ 다양한 혁신 선보여",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%E2%80%98TRY%20EVERYTHING%202026%E2%80%99%20%EB%8B%A4%EC%96%91%ED%95%9C%20%ED%98%81%EC%8B%A0%20%EC%84%A0%EB%B3%B4%EC%97%AC"
-      },
-      {
         "rank": 5,
-        "title": "심은하",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%8B%AC%EC%9D%80%ED%95%98"
+        "title": "로또 1등도 출근합니다",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%A1%9C%EB%98%90%201%EB%93%B1%EB%8F%84%20%EC%B6%9C%EA%B7%BC%ED%95%A9%EB%8B%88%EB%8B%A4"
       },
       {
         "rank": 6,
+        "title": "윤여정",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9C%A4%EC%97%AC%EC%A0%95"
+      },
+      {
+        "rank": 7,
+        "title": "패션",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%8C%A8%EC%85%98"
+      },
+      {
+        "rank": 8,
         "title": "홈플러스 임금체불",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%99%88%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EC%9E%84%EA%B8%88%EC%B2%B4%EB%B6%88"
       },
       {
-        "rank": 7,
-        "title": "송이",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%86%A1%EC%9D%B4"
-      },
-      {
-        "rank": 8,
-        "title": "김지석 이민정과 4시간 키스신 촬영",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%A7%80%EC%84%9D%20%EC%9D%B4%EB%AF%BC%EC%A0%95%EA%B3%BC%204%EC%8B%9C%EA%B0%84%20%ED%82%A4%EC%8A%A4%EC%8B%A0%20%EC%B4%AC%EC%98%81"
-      },
-      {
         "rank": 9,
-        "title": "송치",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%86%A1%EC%B9%98"
+        "title": "양민혁",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%96%91%EB%AF%BC%ED%98%81"
       },
       {
         "rank": 10,
@@ -1459,7 +1469,7 @@
         "rank": 1,
         "title": "임영웅 '모이세' Official M/V",
         "channel": "임영웅",
-        "views": "25만회",
+        "views": "26만회",
         "thumb": "https://i.ytimg.com/vi/NwLxMQtlKDY/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=NwLxMQtlKDY"
       },
@@ -1475,7 +1485,7 @@
         "rank": 3,
         "title": "1300억 BP 장전하고 드디어 영입한 1대장 트릭두..?",
         "channel": "튜브김민교",
-        "views": "59만회",
+        "views": "60만회",
         "thumb": "https://i.ytimg.com/vi/RNCCb1s7wis/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=RNCCb1s7wis"
       },
@@ -1483,7 +1493,7 @@
         "rank": 4,
         "title": "[MV] 영탁(YOUNGTAK) '꺾어(GOGO)'",
         "channel": "영탁스클럽 YOUNGTAKsClub",
-        "views": "10만회",
+        "views": "11만회",
         "thumb": "https://i.ytimg.com/vi/Ak1cg1ex0NY/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=Ak1cg1ex0NY"
       },
@@ -1491,7 +1501,7 @@
         "rank": 5,
         "title": "현질 중독 된 아저씨 둘이 만나면 생기는 일 ㅋㅋㅋ",
         "channel": "게임대장봉준",
-        "views": "7만회",
+        "views": "10만회",
         "thumb": "https://i.ytimg.com/vi/bhXt5Eg3si4/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=bhXt5Eg3si4"
       },
@@ -1499,7 +1509,7 @@
         "rank": 6,
         "title": "Saddle Up (WINTER Solo)",
         "channel": "aespa - Topic",
-        "views": "23만회",
+        "views": "24만회",
         "thumb": "https://i.ytimg.com/vi/qCOvn2GVn6g/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=qCOvn2GVn6g"
       },
@@ -1507,7 +1517,7 @@
         "rank": 7,
         "title": "케인으로 극락 보내기",
         "channel": "이상호",
-        "views": "74만회",
+        "views": "75만회",
         "thumb": "https://i.ytimg.com/vi/P50Ag1FGBUY/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=P50Ag1FGBUY"
       },
@@ -1515,7 +1525,7 @@
         "rank": 8,
         "title": "Dear my crazy soulmate",
         "channel": "IU - Topic",
-        "views": "339만회",
+        "views": "343만회",
         "thumb": "https://i.ytimg.com/vi/IHIt9S2DWcQ/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=IHIt9S2DWcQ"
       },
