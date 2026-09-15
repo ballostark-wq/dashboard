@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15 19:06:41",
+  "updated_at": "2026-09-15 20:06:26",
   "us2y": {
     "value": 4.65,
     "change": 0.02
@@ -21,8 +21,8 @@
     "status": "정상화 (우상향)"
   },
   "vix": {
-    "value": 17.54,
-    "change": 2.57
+    "value": 17.2,
+    "change": 0.58
   },
   "tech_news": [
     {
@@ -118,6 +118,11 @@
     ],
     "tech": [
       {
+        "title": "[디일렉] 한은도 美팔로알토 장비 도입…KISIA, 청와대에 '보안주권' 우려 전달",
+        "link": "https://www.thelec.kr/news/articleView.html?idxno=62299",
+        "date": "09-15 19:19"
+      },
+      {
         "title": "[디일렉] 삼성전자, DDR5 모듈 외주만 늘린다...베트남·인도 등 해외생산 확대",
         "link": "https://www.thelec.kr/news/articleView.html?idxno=62306",
         "date": "09-15 18:51"
@@ -126,24 +131,14 @@
         "title": "[디일렉] SK바이오팜 이동훈 사장, 자사주 추가 매입",
         "link": "https://www.thelec.kr/news/articleView.html?idxno=62317",
         "date": "09-15 18:36"
-      },
-      {
-        "title": "[디일렉] 셀트리온, 자가면역질환 치료제 4상 계획서 제출",
-        "link": "https://www.thelec.kr/news/articleView.html?idxno=62308",
-        "date": "09-15 18:35"
-      },
-      {
-        "title": "[전자신문] [ET포토] 김도연, '가을 바람에 날리는 손 키스'",
-        "link": "https://www.etnews.com/20260915000450",
-        "date": "09-15 19:01"
-      },
-      {
-        "title": "[전자신문] [ET포토] 이정재, '따뜻한 미소'",
-        "link": "https://www.etnews.com/20260915000449",
-        "date": "09-15 19:00"
       }
     ],
     "domestic": [
+      {
+        "title": "한은 실무부서 \"韓 중립금리 팬더믹 이후 반등 추정\"",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435035",
+        "date": "09-15 19:17"
+      },
       {
         "title": "다수 금통위원, 8월 금통위서 물가·금융안정 들며 추가 인상 필요성 시사(종합)",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435034",
@@ -163,11 +158,6 @@
         "title": "IRS 금리 전 구간 상승…현물 약세 연동",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435031",
         "date": "09-15 18:33"
-      },
-      {
-        "title": "獨 10년물 금리, 개장 초 3.5683%까지 상승…2009년 6월 이후 최고",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435030",
-        "date": "09-15 18:32"
       }
     ]
   },
@@ -223,46 +213,46 @@
       "detail": "10Y-2Y 스프레드가 +31 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.39",
-      "title": "닥터 코퍼 $6.39선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.4",
+      "title": "닥터 코퍼 $6.4선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.39",
-          "chg": "+0.95%",
+          "val": "$6.40",
+          "chg": "+1.11%",
           "up": true
         },
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,309.9",
-          "chg": "-0.97%",
+          "val": "$4,323.0",
+          "chg": "-0.66%",
           "up": false
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$63.53",
-          "chg": "+0.03%",
+          "val": "$63.69",
+          "chg": "+0.28%",
           "up": true
         }
       ],
       "bullets": [
-        "구리 $6.39/lb (+0.95%) - AI 전력망 설비 수요 반영",
-        "금 $4,310/oz, 은 $63.53/oz - 통화가치 헤지"
+        "구리 $6.4/lb (+1.11%) - AI 전력망 설비 수요 반영",
+        "금 $4,323/oz, 은 $63.69/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
       "badge": "원/달러 1,361원 | 엔/달러 ¥154.8",
-      "title": "원/달러 1,360.8원선과 엔/달러 ¥154.8",
+      "title": "원/달러 1,360.7원선과 엔/달러 ¥154.8",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,360.8원",
-          "chg": "+1.20%",
+          "val": "1,360.7원",
+          "chg": "+1.19%",
           "up": true
         },
         {
@@ -287,19 +277,19 @@
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $103.82",
-      "title": "WTI 배럴당 $103.82선 박스권 안정",
+      "badge": "WTI $102.65",
+      "title": "WTI 배럴당 $102.65선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$103.82",
-          "chg": "+2.40%",
+          "val": "$102.65",
+          "chg": "+1.24%",
           "up": true
         }
       ],
       "bullets": [
-        "WTI 선물 $103.82/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $102.65/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -307,24 +297,24 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.39,
-      "change": 0.95
+      "price": 6.4,
+      "change": 1.11
     },
     "gold": {
-      "price": 4309.9,
-      "change": -0.97
+      "price": 4323.0,
+      "change": -0.66
     },
     "silver": {
-      "price": 63.53,
-      "change": 0.03
+      "price": 63.69,
+      "change": 0.28
     },
     "wti": {
-      "price": 103.82,
-      "change": 2.4
+      "price": 102.65,
+      "change": 1.24
     },
     "usdkrw": {
-      "price": 1360.78,
-      "change": 1.2
+      "price": 1360.66,
+      "change": 1.19
     },
     "dxy": {
       "price": 99.61,
@@ -595,9 +585,9 @@
       },
       {
         "date": "09-15",
-        "copper": 6.39,
-        "gold": 4309.9,
-        "silver": 63.53
+        "copper": 6.4,
+        "gold": 4323.0,
+        "silver": 63.69
       }
     ],
     "fx": [
@@ -717,7 +707,7 @@
       },
       {
         "date": "09-15",
-        "usdkrw": 1360.78,
+        "usdkrw": 1360.66,
         "dxy": 99.61,
         "usdjpy": 154.82
       }
@@ -820,8 +810,8 @@
       },
       {
         "date": "09-15",
-        "wti": 103.82,
-        "change": 2.4
+        "wti": 102.65,
+        "change": 1.24
       }
     ]
   },
@@ -1415,53 +1405,53 @@
     "namu_rank": [
       {
         "rank": 1,
+        "title": "GTX-C 모형 공개",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=GTX-C%20%EB%AA%A8%ED%98%95%20%EA%B3%B5%EA%B0%9C"
+      },
+      {
+        "rank": 2,
         "title": "李대통령 18일 기자회견",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EF%A7%A1%EB%8C%80%ED%86%B5%EB%A0%B9%2018%EC%9D%BC%20%EA%B8%B0%EC%9E%90%ED%9A%8C%EA%B2%AC"
       },
       {
-        "rank": 2,
+        "rank": 3,
         "title": "2026 소비자만족 1위 수상",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=2026%20%EC%86%8C%EB%B9%84%EC%9E%90%EB%A7%8C%EC%A1%B1%201%EC%9C%84%20%EC%88%98%EC%83%81"
       },
       {
-        "rank": 3,
-        "title": "김승원 브로커 묵묵부답",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%8A%B9%EC%9B%90%20%EB%B8%8C%EB%A1%9C%EC%BB%A4%20%EB%AC%B5%EB%AC%B5%EB%B6%80%EB%8B%B5"
-      },
-      {
         "rank": 4,
-        "title": "신약 급여 등재기간",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%8B%A0%EC%95%BD%20%EA%B8%89%EC%97%AC%20%EB%93%B1%EC%9E%AC%EA%B8%B0%EA%B0%84"
+        "title": "삼성중공업 거제조선소",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%82%BC%EC%84%B1%EC%A4%91%EA%B3%B5%EC%97%85%20%EA%B1%B0%EC%A0%9C%EC%A1%B0%EC%84%A0%EC%86%8C"
       },
       {
         "rank": 5,
-        "title": "김도영 바라보는 류지현",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EB%8F%84%EC%98%81%20%EB%B0%94%EB%9D%BC%EB%B3%B4%EB%8A%94%20%EB%A5%98%EC%A7%80%ED%98%84"
-      },
-      {
-        "rank": 6,
         "title": "홈플러스 임금체불",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%99%88%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EC%9E%84%EA%B8%88%EC%B2%B4%EB%B6%88"
       },
       {
+        "rank": 6,
+        "title": "SSG 김민준 7승 도전",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=SSG%20%EA%B9%80%EB%AF%BC%EC%A4%80%207%EC%8A%B9%20%EB%8F%84%EC%A0%84"
+      },
+      {
         "rank": 7,
-        "title": "김동현 넷째 득남",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EB%8F%99%ED%98%84%20%EB%84%B7%EC%A7%B8%20%EB%93%9D%EB%82%A8"
+        "title": "서울 버스 파업 우려",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%84%9C%EC%9A%B8%20%EB%B2%84%EC%8A%A4%20%ED%8C%8C%EC%97%85%20%EC%9A%B0%EB%A0%A4"
       },
       {
         "rank": 8,
-        "title": "마라톤",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%A7%88%EB%9D%BC%ED%86%A4"
-      },
-      {
-        "rank": 9,
         "title": "8월 코픽스 금리",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=8%EC%9B%94%20%EC%BD%94%ED%94%BD%EC%8A%A4%20%EA%B8%88%EB%A6%AC"
       },
       {
+        "rank": 9,
+        "title": "박위 침묵 속 송지은 눈물",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B0%95%EC%9C%84%20%EC%B9%A8%EB%AC%B5%20%EC%86%8D%20%EC%86%A1%EC%A7%80%EC%9D%80%20%EB%88%88%EB%AC%BC"
+      },
+      {
         "rank": 10,
-        "title": "서울 버스 파업 우려",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%84%9C%EC%9A%B8%20%EB%B2%84%EC%8A%A4%20%ED%8C%8C%EC%97%85%20%EC%9A%B0%EB%A0%A4"
+        "title": "한국 축구",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%9C%EA%B5%AD%20%EC%B6%95%EA%B5%AC"
       }
     ],
     "youtube_popular": [
@@ -1469,7 +1459,7 @@
         "rank": 1,
         "title": "임영웅 '모이세' Official M/V",
         "channel": "임영웅",
-        "views": "20만회",
+        "views": "21만회",
         "thumb": "https://i.ytimg.com/vi/NwLxMQtlKDY/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=NwLxMQtlKDY"
       },
@@ -1499,30 +1489,22 @@
       },
       {
         "rank": 5,
-        "title": "스타크래프트 신작 트레일러 영상 공개, 흑운장의 첫 반응은?",
-        "channel": "흑운장TV",
-        "views": "17만회",
-        "thumb": "https://i.ytimg.com/vi/omLatXVqF-E/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=omLatXVqF-E"
-      },
-      {
-        "rank": 6,
         "title": "케인으로 극락 보내기",
         "channel": "이상호",
-        "views": "73만회",
+        "views": "74만회",
         "thumb": "https://i.ytimg.com/vi/P50Ag1FGBUY/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=P50Ag1FGBUY"
       },
       {
-        "rank": 7,
-        "title": "Dear my crazy soulmate",
-        "channel": "IU - Topic",
-        "views": "329만회",
-        "thumb": "https://i.ytimg.com/vi/IHIt9S2DWcQ/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=IHIt9S2DWcQ"
+        "rank": 6,
+        "title": "Saddle Up (WINTER Solo)",
+        "channel": "aespa - Topic",
+        "views": "21만회",
+        "thumb": "https://i.ytimg.com/vi/qCOvn2GVn6g/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=qCOvn2GVn6g"
       },
       {
-        "rank": 8,
+        "rank": 7,
         "title": "초면에 신상 에토 가격으로 기싸움하는 두 남자ㅋㅋㅋㅋ \"그래서 얼마냐구요\"",
         "channel": "저라뎃 JUSTLIKETHAT",
         "views": "32만회",
@@ -1530,20 +1512,28 @@
         "link": "https://www.youtube.com/watch?v=PGmiCTvvk9o"
       },
       {
-        "rank": 9,
-        "title": "Saddle Up (WINTER Solo)",
-        "channel": "aespa - Topic",
-        "views": "20만회",
-        "thumb": "https://i.ytimg.com/vi/qCOvn2GVn6g/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=qCOvn2GVn6g"
+        "rank": 8,
+        "title": "Dear my crazy soulmate",
+        "channel": "IU - Topic",
+        "views": "332만회",
+        "thumb": "https://i.ytimg.com/vi/IHIt9S2DWcQ/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=IHIt9S2DWcQ"
       },
       {
-        "rank": 10,
+        "rank": 9,
         "title": "만지게 해줘",
         "channel": "괴물쥐 유튜브",
         "views": "53만회",
         "thumb": "https://i.ytimg.com/vi/sByuWVbkWNA/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=sByuWVbkWNA"
+      },
+      {
+        "rank": 10,
+        "title": "꿈꾸던 어른이 되었나요?",
+        "channel": "meomuru - Topic",
+        "views": "84만회",
+        "thumb": "https://i.ytimg.com/vi/JJx_WQXOeK0/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=JJx_WQXOeK0"
       }
     ]
   }
