@@ -423,17 +423,37 @@
       .tab-group { overflow-x: auto; }
     }
 
-    /* 서랍 */
+    /* 서랍 레이아웃 정돈 및 내부 스크롤 완벽 최적화 */
     .drawer {
-      position: fixed; top: 0; right: 0; width: 100%; max-width: 580px; height: 100%;
-      background: #0b1329; border-left: 1px solid #1e293b; box-shadow: -10px 0 30px rgba(0,0,0,0.7);
+      position: fixed; top: 0; right: 0; width: 100%; max-width: 540px; height: 100%;
+      background: #090e1f; border-left: 1px solid #1e293b; box-shadow: -15px 0 40px rgba(0,0,0,0.8);
       z-index: 100; transform: translateX(100%); transition: transform 0.25s ease;
-      padding: 24px; display: flex; flex-direction: column; justify-content: space-between;
+      display: flex; flex-direction: column;
     }
     .drawer.open { transform: translateX(0); }
-    .drawer-content-scroll { overflow-y: auto; flex-grow: 1; padding-right: 6px; }
-    .drawer-header { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #1e293b; padding-bottom: 12px; margin-bottom: 12px; }
-    .close-btn { background: none; border: none; color: #94a3b8; font-size: 1.5rem; cursor: pointer; }
+    
+    .drawer-header { 
+      display: flex; justify-content: space-between; align-items: center; 
+      border-bottom: 1px solid #1e293b; padding: 20px 24px 16px 24px; 
+      flex-shrink: 0; background: #090e1f; 
+    }
+    .close-btn { background: none; border: none; color: #94a3b8; font-size: 1.6rem; cursor: pointer; line-height: 1; }
+    
+    .drawer-content-scroll { 
+      overflow-y: auto; flex-grow: 1; padding: 20px 24px; 
+      display: flex; flex-direction: column; gap: 12px;
+    }
+    
+    .drawer-footer {
+      padding: 16px 24px; border-top: 1px solid #1e293b; background: #090e1f; flex-shrink: 0;
+    }
+    .drawer-close-action-btn {
+      width: 100%; background: #1e293b; border: 1px solid #334155; color: #f8fafc;
+      padding: 10px; border-radius: 8px; font-size: 0.8rem; font-weight: 700; cursor: pointer;
+      transition: background 0.15s, border-color 0.15s;
+    }
+    .drawer-close-action-btn:hover { background: #334155; border-color: #38bdf8; color: #38bdf8; }
+
     .overlay { position: fixed; inset: 0; background: rgba(0, 0, 0, 0.65); backdrop-filter: blur(2px); z-index: 90; display: none; }
     .overlay.show { display: block; }
   </style>
@@ -730,17 +750,18 @@
 
   <!-- 상세 서랍 -->
   <aside id="drawer" class="drawer">
+    <div class="drawer-header">
+      <span id="drawer-tag" class="card-tag" style="background:#1e293b; color:#e2e8f0; margin-bottom:0;"></span>
+      <button class="close-btn" onclick="closeDrawer()">&times;</button>
+    </div>
+
     <div class="drawer-content-scroll">
-      <div class="drawer-header">
-        <span id="drawer-tag" class="card-tag" style="background:#1e293b; color:#e2e8f0; margin-bottom:0;"></span>
-        <button class="close-btn" onclick="closeDrawer()">&times;</button>
-      </div>
-      <h2 id="drawer-title" style="font-size: 1.15rem; font-weight: 700; margin-bottom: 8px; color:#fff;"></h2>
+      <h2 id="drawer-title" style="font-size: 1.15rem; font-weight: 700; margin-bottom: 4px; color:#fff;"></h2>
       
-      <div id="drawer-sub-hint" style="margin-bottom: 6px; display:none;">
+      <div id="drawer-sub-hint" style="margin-bottom: 4px; display:none;">
         <span style="font-size:0.68rem; color:#94a3b8; font-weight:600;">👇 아래 지표를 누르면 트렌드 차트가 즉시 전환됩니다:</span>
       </div>
-      <div id="drawer-metric-strip" class="metric-strip" style="display:none; margin-bottom:12px;"></div>
+      <div id="drawer-metric-strip" class="metric-strip" style="display:none; margin-bottom:8px;"></div>
 
       <div id="drawer-chart-box" class="sparkline-card" style="display:none;">
         <div class="sparkline-header">
@@ -752,8 +773,9 @@
 
       <div id="drawer-body" style="font-size: 0.8rem; line-height: 1.6; color: #cbd5e1;"></div>
     </div>
-    <div style="padding-top: 14px; border-top: 1px solid #1e293b;">
-      <button onclick="closeDrawer()" class="quiz-btn" style="margin-top:0;">닫기</button>
+
+    <div class="drawer-footer">
+      <button onclick="closeDrawer()" class="drawer-close-action-btn">창 닫기</button>
     </div>
   </aside>
 
