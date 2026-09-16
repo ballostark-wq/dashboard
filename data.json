@@ -1,28 +1,28 @@
 {
-  "updated_at": "2026-09-16 23:06:39",
+  "updated_at": "2026-09-17 00:06:21",
   "us2y": {
     "value": 4.67,
     "change": 0.02
   },
   "us5y": {
-    "value": 4.79,
-    "change": -0.04
+    "value": 4.78,
+    "change": -0.05
   },
   "us10y": {
-    "value": 4.97,
-    "change": -0.03
+    "value": 4.96,
+    "change": -0.04
   },
   "us30y": {
-    "value": 5.35,
-    "change": -0.01
+    "value": 5.34,
+    "change": -0.02
   },
   "spread": {
-    "value": 30,
+    "value": 29,
     "status": "정상화 (우상향)"
   },
   "vix": {
-    "value": 16.78,
-    "change": -2.44
+    "value": 16.8,
+    "change": -2.33
   },
   "tech_news": [
     {
@@ -91,6 +91,11 @@
     ],
     "global": [
       {
+        "title": "Senate is still a tossup, but Democrats now have slight edge, prediction market traders think",
+        "link": "https://www.cnbc.com/2026/09/16/prediction-markets-say-democrats-are-slightly-favored-to-win-senate.html",
+        "date": "09-16 14:53"
+      },
+      {
         "title": "Stocks making the biggest moves premarket: SK Hynix, J.B. Hunt, Expedia & more",
         "link": "https://www.cnbc.com/2026/09/16/stocks-making-the-biggest-moves-premarket-skhy-jbht-expe-more.html",
         "date": "09-16 11:44"
@@ -109,11 +114,6 @@
         "title": "Stocks making the biggest moves premarket: Dave & Buster's, Enova, Etsy & more",
         "link": "https://www.cnbc.com/2026/09/15/stocks-making-the-biggest-moves-premarket-play-enva-etsy.html",
         "date": "09-15 11:36"
-      },
-      {
-        "title": "China's August retail sales miss forecast while investment slump deepens, piling pressure on Beijing",
-        "link": "https://www.cnbc.com/2026/09/15/china-august-retail-sales-industrial-output-investment-exports-.html",
-        "date": "09-15 09:46"
       }
     ],
     "tech": [
@@ -131,9 +131,29 @@
         "title": "[디일렉] 글로벌 웨이퍼 업계 덮친 감가상각비…\"대규모 증설 가동 여파\"",
         "link": "https://www.thelec.kr/news/articleView.html?idxno=62363",
         "date": "09-16 18:37"
+      },
+      {
+        "title": "[전자신문] [ET포토] 신수현, '타짜 벨제붑의 노래 관람 왔어요'",
+        "link": "https://www.etnews.com/20260917000001",
+        "date": "09-17 00:01"
+      },
+      {
+        "title": "[전자신문] [ET포토] 신수현, '부드러운 가을 남자'",
+        "link": "https://www.etnews.com/20260916000402",
+        "date": "09-16 23:59"
       }
     ],
     "domestic": [
+      {
+        "title": "美 8월 소매판매 전월비 1.2% 증가…예상치 웃돌아(상보)",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435264",
+        "date": "09-16 23:49"
+      },
+      {
+        "title": "후티 \"얀부 위치한 아람코 및 무사이트 공군기지 공격\"",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435263",
+        "date": "09-16 23:12"
+      },
       {
         "title": "미 달러화 닷새째 강세…FOMC 경계하며 제한적 움직임",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435261",
@@ -148,16 +168,6 @@
         "title": "IRS 금리 대부분 하락…FOMC 앞두고 현물과 동조",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435254",
         "date": "09-16 18:46"
-      },
-      {
-        "title": "[채권-마감] FOMC 경계감에도 外人 3선 매수에 강세…3년물 3.8bp↓",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435253",
-        "date": "09-16 18:44"
-      },
-      {
-        "title": "[외환-마감] 美 FOMC 대기 속 1,370원대 찍고 차익실현에 상승폭 축소…9.20원↑",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435250",
-        "date": "09-16 18:29"
       }
     ]
   },
@@ -174,21 +184,21 @@
   },
   "macro_reviews": {
     "bonds": {
-      "badge": "스프레드 +30 bp",
-      "title": "미국채 10년물 4.97%선 공방과 정상화",
+      "badge": "스프레드 +29 bp",
+      "title": "미국채 10년물 4.96%선 공방과 정상화",
       "metrics": [
         {
           "id": "spread",
           "name": "10Y-2Y차",
-          "val": "+30 bp",
+          "val": "+29 bp",
           "chg": "정상화 (우상향)",
           "up": true
         },
         {
           "id": "us10y",
           "name": "10년물",
-          "val": "4.97%",
-          "chg": "-0.03%",
+          "val": "4.96%",
+          "chg": "-0.04%",
           "up": false
         },
         {
@@ -201,16 +211,16 @@
         {
           "id": "us30y",
           "name": "30년물",
-          "val": "5.35%",
-          "chg": "-0.01%",
+          "val": "5.34%",
+          "chg": "-0.02%",
           "up": false
         }
       ],
       "bullets": [
-        "10년물 4.97%와 2년물 4.67% 형성으로 스프레드 +30 bp 유지",
-        "초장기 30년물 5.35%선 안착 속 재정 적자 발행에 따른 기간 프리미엄"
+        "10년물 4.96%와 2년물 4.67% 형성으로 스프레드 +29 bp 유지",
+        "초장기 30년물 5.34%선 안착 속 재정 적자 발행에 따른 기간 프리미엄"
       ],
-      "detail": "10Y-2Y 스프레드가 +30 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
+      "detail": "10Y-2Y 스프레드가 +29 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
       "badge": "구리 $6.5",
@@ -226,70 +236,70 @@
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,376.8",
-          "chg": "+1.02%",
+          "val": "$4,390.0",
+          "chg": "+1.32%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$64.92",
-          "chg": "+2.66%",
+          "val": "$64.97",
+          "chg": "+2.74%",
           "up": true
         }
       ],
       "bullets": [
         "구리 $6.5/lb (+2.04%) - AI 전력망 설비 수요 반영",
-        "금 $4,377/oz, 은 $64.92/oz - 통화가치 헤지"
+        "금 $4,390/oz, 은 $64.97/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,370원 | 엔/달러 ¥155.3",
-      "title": "원/달러 1,369.6원선과 엔/달러 ¥155.3",
+      "badge": "원/달러 1,367원 | 엔/달러 ¥155.1",
+      "title": "원/달러 1,367.5원선과 엔/달러 ¥155.1",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,369.6원",
-          "chg": "+1.78%",
+          "val": "1,367.5원",
+          "chg": "+1.62%",
           "up": true
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "99.72pt",
-          "chg": "+0.07%",
+          "val": "99.70pt",
+          "chg": "+0.05%",
           "up": true
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥155.27",
-          "chg": "+0.58%",
+          "val": "¥155.07",
+          "chg": "+0.45%",
           "up": true
         }
       ],
       "bullets": [
-        "달러 인덱스 99.72pt - 미국 성장 우위 지속",
-        "엔/달러 155.27엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 99.7pt - 미국 성장 우위 지속",
+        "엔/달러 155.07엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $103.36",
-      "title": "WTI 배럴당 $103.36선 박스권 안정",
+      "badge": "WTI $103.03",
+      "title": "WTI 배럴당 $103.03선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$103.36",
-          "chg": "-2.33%",
+          "val": "$103.03",
+          "chg": "-2.65%",
           "up": false
         }
       ],
       "bullets": [
-        "WTI 선물 $103.36/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $103.03/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -301,28 +311,28 @@
       "change": 2.04
     },
     "gold": {
-      "price": 4376.8,
-      "change": 1.02
+      "price": 4390.0,
+      "change": 1.32
     },
     "silver": {
-      "price": 64.92,
-      "change": 2.66
+      "price": 64.97,
+      "change": 2.74
     },
     "wti": {
-      "price": 103.36,
-      "change": -2.33
+      "price": 103.03,
+      "change": -2.65
     },
     "usdkrw": {
-      "price": 1369.58,
-      "change": 1.78
+      "price": 1367.47,
+      "change": 1.62
     },
     "dxy": {
-      "price": 99.72,
-      "change": 0.07
+      "price": 99.7,
+      "change": 0.05
     },
     "usdjpy": {
-      "price": 155.27,
-      "change": 0.58
+      "price": 155.07,
+      "change": 0.45
     }
   },
   "history_20d": {
@@ -462,10 +472,10 @@
       },
       {
         "date": "09-16",
-        "us10y": 4.97,
+        "us10y": 4.96,
         "us2y": 4.67,
-        "us30y": 5.35,
-        "spread": 30
+        "us30y": 5.34,
+        "spread": 29
       }
     ],
     "commodities": [
@@ -586,8 +596,8 @@
       {
         "date": "09-16",
         "copper": 6.5,
-        "gold": 4376.8,
-        "silver": 64.92
+        "gold": 4390.0,
+        "silver": 64.97
       }
     ],
     "fx": [
@@ -707,9 +717,9 @@
       },
       {
         "date": "09-16",
-        "usdkrw": 1369.58,
-        "dxy": 99.72,
-        "usdjpy": 155.27
+        "usdkrw": 1367.47,
+        "dxy": 99.7,
+        "usdjpy": 155.07
       }
     ],
     "oil": [
@@ -810,8 +820,8 @@
       },
       {
         "date": "09-16",
-        "wti": 103.36,
-        "change": -2.33
+        "wti": 103.03,
+        "change": -2.65
       }
     ]
   },
@@ -849,24 +859,40 @@
     }
   },
   "humanities": {
-    "history_date": "2026-09-16",
+    "history_date": "2026-09-17",
     "history": {
-      "era": "1973년 ~ 2020년 (2019년)",
-      "region": "한국",
-      "year": "2019년",
-      "title": "[2019년] [한국] 2/9~2/25: 평창올림픽",
-      "summary": "2019년 - 2/9~2/25: 평창올림픽",
+      "era": "1973년 ~ 2020년 (2011년)",
+      "region": "세계",
+      "year": "2011년",
+      "title": "[2011년] [세계] 인플루엔자(H1N1) 범유행",
+      "summary": "2011년 - 인플루엔자(H1N1) 범유행",
       "bullets": [
-        "발생 연대: 2019년 (한국사)",
-        "2/9~2/25: 평창올림픽",
+        "발생 연대: 2011년 (세계사)",
+        "인플루엔자(H1N1) 범유행",
         "당대 세력 균형 및 정치·경제적 제도 변화 반영"
       ],
-      "insight": "2019년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
-      "ref_title": "위키백과 세계사 연표: 1973년 ~ 2020년 (2019년)",
-      "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1973%EB%85%84_~_2020%EB%85%84:~:text=2019",
+      "insight": "2011년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
+      "ref_title": "위키백과 세계사 연표: 1973년 ~ 2020년 (2011년)",
+      "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1973%EB%85%84_~_2020%EB%85%84:~:text=2011",
       "d_day": "오늘"
     },
     "history_5d": [
+      {
+        "era": "1973년 ~ 2020년 (2011년)",
+        "region": "세계",
+        "year": "2011년",
+        "title": "[2011년] [세계] 인플루엔자(H1N1) 범유행",
+        "summary": "2011년 - 인플루엔자(H1N1) 범유행",
+        "bullets": [
+          "발생 연대: 2011년 (세계사)",
+          "인플루엔자(H1N1) 범유행",
+          "당대 세력 균형 및 정치·경제적 제도 변화 반영"
+        ],
+        "insight": "2011년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
+        "ref_title": "위키백과 세계사 연표: 1973년 ~ 2020년 (2011년)",
+        "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1973%EB%85%84_~_2020%EB%85%84:~:text=2011",
+        "d_day": "오늘"
+      },
       {
         "era": "1973년 ~ 2020년 (2019년)",
         "region": "한국",
@@ -881,7 +907,7 @@
         "insight": "2019년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1973년 ~ 2020년 (2019년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1973%EB%85%84_~_2020%EB%85%84:~:text=2019",
-        "d_day": "오늘"
+        "d_day": "D-1"
       },
       {
         "era": "1466년 ~ 1699년 (1616년)",
@@ -897,7 +923,7 @@
         "insight": "1616년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1466년 ~ 1699년 (1616년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1466%EB%85%84_~_1699%EB%85%84:~:text=1616",
-        "d_day": "D-1"
+        "d_day": "D-2"
       },
       {
         "era": "1870년 ~ 1923년 (1889년)",
@@ -913,7 +939,7 @@
         "insight": "1889년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1870년 ~ 1923년 (1889년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1870%EB%85%84_~_1923%EB%85%84:~:text=1889",
-        "d_day": "D-2"
+        "d_day": "D-3"
       },
       {
         "era": "1700년 ~ 1869년 (1840년)",
@@ -929,91 +955,138 @@
         "insight": "1840년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1700년 ~ 1869년 (1840년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1700%EB%85%84_~_1869%EB%85%84:~:text=1840",
-        "d_day": "D-3"
-      },
-      {
-        "era": "1700년 ~ 1869년 (1746년)",
-        "region": "한국",
-        "year": "1746년",
-        "title": "[1746년] [한국] 「속대전」 간행",
-        "summary": "1746년 - 「속대전」 간행",
-        "bullets": [
-          "발생 연대: 1746년 (한국사)",
-          "「속대전」 간행",
-          "당대 세력 균형 및 정치·경제적 제도 변화 반영"
-        ],
-        "insight": "1746년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
-        "ref_title": "위키백과 세계사 연표: 1700년 ~ 1869년 (1746년)",
-        "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1700%EB%85%84_~_1869%EB%85%84:~:text=1746",
         "d_day": "D-4"
       }
     ],
     "polyglot": {
-      "theme": "소통 배려",
-      "type": "기초",
-      "meaning": "조금만 천천히 말씀해 주시겠어요?",
+      "theme": "음식과 건강: 신체 통증",
+      "meaning": "다리에 쥐가 났어!",
       "translations": {
         "en": {
           "code": "en-US",
           "name": "영어",
           "flag": "🇺🇸",
-          "text": "Could you speak a little more slowly, please?",
-          "roman": "쿠쥬 스픽 어 리틀 모어 슬로우리, 플리즈?"
+          "text": "I have a cramp in my leg.",
+          "roman": ""
         },
         "ja": {
           "code": "ja-JP",
           "name": "일본어",
           "flag": "🇯🇵",
-          "text": "もう少しゆっくり話していただけますか？",
-          "roman": "모- 스코시 윳쿠리 하나시테 이타다케마스 카?"
+          "text": "足がつっちゃった！",
+          "roman": "Ashi ga tsuttschatta!"
         },
         "zh": {
           "code": "zh-CN",
           "name": "중국어",
           "flag": "🇨🇳",
-          "text": "请你说得稍微慢一点好吗？",
-          "roman": "칭 니 슈오 더 샤오웨이 만 이디엔 하오 마?"
+          "text": "我的腿抽筋了！",
+          "roman": "Wǒ de tuǐ chōujīn le!"
         },
         "fr": {
           "code": "fr-FR",
           "name": "프랑스어",
           "flag": "🇫🇷",
-          "text": "Pourriez-vous parler un peu plus lentement ?",
-          "roman": "푸리에 부 파를레 앙 쁘 플뤼 랑트망?"
+          "text": "J'ai une crampe à la jambe !",
+          "roman": ""
         },
         "de": {
           "code": "de-DE",
           "name": "독일어",
           "flag": "🇩🇪",
-          "text": "Könnten Sie bitte etwas langsamer sprechen?",
-          "roman": "켠텐 지 비테 에트바스 랑자머 슈프레헨?"
+          "text": "Ich habe einen Krampf im Bein!",
+          "roman": ""
         },
         "es": {
           "code": "es-ES",
           "name": "스페인어",
           "flag": "🇪🇸",
-          "text": "¿Podría hablar un poco más despacio, por favor?",
-          "roman": "뽀드리아 아블라르 운 뽀꼬 마스 데스파시오, 뽀르 파보르?"
+          "text": "¡Me dio un calambre en la pierna!",
+          "roman": ""
         },
         "ar": {
           "code": "ar-SA",
           "name": "아랍어",
           "flag": "🇸🇦",
-          "text": "هل يمكنك التحدث ببطء أكثر من فضلك؟",
-          "roman": "할 윰키누카 앗타핫두스 비부틴 악사르 민 파들릭?"
+          "text": "أصبت بتشنج في ساقي!",
+          "roman": "Uṣibtu bi-tashannujin fī sāqī!"
         },
         "ru": {
           "code": "ru-RU",
           "name": "러시아어",
           "flag": "🇷🇺",
-          "text": "Говорите, пожалуйста, помедленнее.",
-          "roman": "가바리쩨, 빠잘루이스타, 빠메들린녜예."
+          "text": "У меня ногу свело судорогой!",
+          "roman": "U menya nogu svelo sudorogoy!"
         }
       },
-      "pool_type": "기초",
+      "pool_type": "일상",
       "d_day": "오늘"
     },
     "polyglot_5d": [
+      {
+        "theme": "음식과 건강: 신체 통증",
+        "meaning": "다리에 쥐가 났어!",
+        "translations": {
+          "en": {
+            "code": "en-US",
+            "name": "영어",
+            "flag": "🇺🇸",
+            "text": "I have a cramp in my leg.",
+            "roman": ""
+          },
+          "ja": {
+            "code": "ja-JP",
+            "name": "일본어",
+            "flag": "🇯🇵",
+            "text": "足がつっちゃった！",
+            "roman": "Ashi ga tsuttschatta!"
+          },
+          "zh": {
+            "code": "zh-CN",
+            "name": "중국어",
+            "flag": "🇨🇳",
+            "text": "我的腿抽筋了！",
+            "roman": "Wǒ de tuǐ chōujīn le!"
+          },
+          "fr": {
+            "code": "fr-FR",
+            "name": "프랑스어",
+            "flag": "🇫🇷",
+            "text": "J'ai une crampe à la jambe !",
+            "roman": ""
+          },
+          "de": {
+            "code": "de-DE",
+            "name": "독일어",
+            "flag": "🇩🇪",
+            "text": "Ich habe einen Krampf im Bein!",
+            "roman": ""
+          },
+          "es": {
+            "code": "es-ES",
+            "name": "스페인어",
+            "flag": "🇪🇸",
+            "text": "¡Me dio un calambre en la pierna!",
+            "roman": ""
+          },
+          "ar": {
+            "code": "ar-SA",
+            "name": "아랍어",
+            "flag": "🇸🇦",
+            "text": "أصبت بتشنج في ساقي!",
+            "roman": "Uṣibtu bi-tashannujin fī sāqī!"
+          },
+          "ru": {
+            "code": "ru-RU",
+            "name": "러시아어",
+            "flag": "🇷🇺",
+            "text": "У меня ногу свело судорогой!",
+            "roman": "U menya nogu svelo sudorogoy!"
+          }
+        },
+        "pool_type": "일상",
+        "d_day": "오늘"
+      },
       {
         "theme": "소통 배려",
         "type": "기초",
@@ -1077,7 +1150,7 @@
           }
         },
         "pool_type": "기초",
-        "d_day": "오늘"
+        "d_day": "D-1"
       },
       {
         "theme": "음식과 건강: 신체 통증",
@@ -1141,7 +1214,7 @@
           }
         },
         "pool_type": "일상",
-        "d_day": "D-1"
+        "d_day": "D-2"
       },
       {
         "theme": "동의 및 수락",
@@ -1206,7 +1279,7 @@
           }
         },
         "pool_type": "기초",
-        "d_day": "D-2"
+        "d_day": "D-3"
       },
       {
         "theme": "음식과 건강: 얼굴·두통",
@@ -1270,85 +1343,20 @@
           }
         },
         "pool_type": "일상",
-        "d_day": "D-3"
-      },
-      {
-        "theme": "도움 요청",
-        "type": "기초",
-        "meaning": "잠시 도와주실 수 있나요?",
-        "translations": {
-          "en": {
-            "code": "en-US",
-            "name": "영어",
-            "flag": "🇺🇸",
-            "text": "Could you please help me for a moment?",
-            "roman": "쿠쥬 플리즈 헬프 미 포 어 모먼트?"
-          },
-          "ja": {
-            "code": "ja-JP",
-            "name": "일본어",
-            "flag": "🇯🇵",
-            "text": "少し手伝っていただけますか？",
-            "roman": "스코시 테츠닷테 이타다케마스 카?"
-          },
-          "zh": {
-            "code": "zh-CN",
-            "name": "중국어",
-            "flag": "🇨🇳",
-            "text": "能请你帮我一下吗？",
-            "roman": "넝 칭 니 방 워 이샤 마?"
-          },
-          "fr": {
-            "code": "fr-FR",
-            "name": "프랑스어",
-            "flag": "🇫🇷",
-            "text": "Pourriez-vous m'aider un instant, s'il vous plaît ?",
-            "roman": "푸리에 부 메데 앙 앵스탕, 실 부 플레?"
-          },
-          "de": {
-            "code": "de-DE",
-            "name": "독일어",
-            "flag": "🇩🇪",
-            "text": "Könnten Sie mir bitte kurz helfen?",
-            "roman": "켠텐 지 미어 비테 쿠르츠 헬펜?"
-          },
-          "es": {
-            "code": "es-ES",
-            "name": "스페인어",
-            "flag": "🇪🇸",
-            "text": "¿Podría ayudarme un momento, por favor?",
-            "roman": "뽀드리아 아유다르메 운 모멘토, 뽀르 파보르?"
-          },
-          "ar": {
-            "code": "ar-SA",
-            "name": "아랍어",
-            "flag": "🇸🇦",
-            "text": "هل يمكنك مساعدتي للحظة من فضلك؟",
-            "roman": "할 윰키누카 무사아다티 릴라흐자 민 파들릭?"
-          },
-          "ru": {
-            "code": "ru-RU",
-            "name": "러시아어",
-            "flag": "🇷🇺",
-            "text": "Не могли бы вы мне помочь?",
-            "roman": "니 마글리 브이 므녜 빠모치?"
-          }
-        },
-        "pool_type": "기초",
         "d_day": "D-4"
       }
     ],
     "philosophy": {
-      "thinker": "손자 (孫子)",
-      "era": "기원전 6세기 춘추시대 중국",
-      "concept": "부전이굴인지병 (不戰而屈人之兵)",
-      "quote": "“백 번 싸워 백 번 이기는 것이 최선이 아니요, 싸우지 않고 적을 굴복시키는 것이 최선이다.”",
+      "thinker": "니콜로 마키아벨리 (Niccolò Machiavelli)",
+      "era": "15~16세기 르네상스 이탈리아",
+      "concept": "비르투(Virtù)와 포르투나(Fortuna)",
+      "quote": "“군주는 사랑받는 존재가 되기보다 두려운 존재가 되는 편이 훨씬 안전하다.”",
       "bullets": [
-        "국력의 전면적 소모를 초래하는 정면충돌(전쟁)을 피하고 지략과 외교로 승기를 굳히는 모공(謀攻)",
-        "적을 알고 나를 알면 백 번 싸워도 위태롭지 않다는 철저한 정보력(Intelligence) 우위",
-        "형세에 따라 물처럼 유연하게 형태를 바꾸는 비대칭 전략의 추구"
+        "운명의 여신(포르투나)은 거친 강물과 같아, 평소 제방을 쌓아둔 역량(비르투) 있는 자만이 다스릴 수 있음",
+        "이상적 도덕주의를 탈피하여 권력과 인간 본성의 비정한 실재(Realpolitik)를 통찰",
+        "국가의 존립과 지속 가능성을 위해 냉철한 결단과 제도적 강제력을 중시"
       ],
-      "application": "출혈 가격 경쟁을 피하고, 생태계 락인(Lock-in)과 우회 기술 개발을 통해 시장을 선점하는 기업 전략의 핵심 근거가 됩니다."
+      "application": "미·중 기술 패권 및 공급망 재편 속에서 명분보다 국가의 실익과 독점적 기술 안보를 우선시해야 하는 현대 지정학의 핵심 잣대를 제공합니다."
     }
   },
   "trends": {
@@ -1407,53 +1415,53 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "강선우 1억 구형 4년",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B0%95%EC%84%A0%EC%9A%B0%201%EC%96%B5%20%EA%B5%AC%ED%98%95%204%EB%85%84"
+        "title": "강선우 징역 4년 구형",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B0%95%EC%84%A0%EC%9A%B0%20%EC%A7%95%EC%97%AD%204%EB%85%84%20%EA%B5%AC%ED%98%95"
       },
       {
         "rank": 2,
-        "title": "한탄강 초등생 1명 심정지",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%9C%ED%83%84%EA%B0%95%20%EC%B4%88%EB%93%B1%EC%83%9D%201%EB%AA%85%20%EC%8B%AC%EC%A0%95%EC%A7%80"
+        "title": "부산 추락사 KBS",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B6%80%EC%82%B0%20%EC%B6%94%EB%9D%BD%EC%82%AC%20KBS"
       },
       {
         "rank": 3,
+        "title": "한탄강서 초등생 7명 실종, 1명 심정지",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%9C%ED%83%84%EA%B0%95%EC%84%9C%20%EC%B4%88%EB%93%B1%EC%83%9D%207%EB%AA%85%20%EC%8B%A4%EC%A2%85%2C%201%EB%AA%85%20%EC%8B%AC%EC%A0%95%EC%A7%80"
+      },
+      {
+        "rank": 4,
         "title": "SK하이닉스 인텔 미국 생산",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=SK%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4%20%EC%9D%B8%ED%85%94%20%EB%AF%B8%EA%B5%AD%20%EC%83%9D%EC%82%B0"
       },
       {
-        "rank": 4,
-        "title": "가해자 누나 부산 추락사",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B0%80%ED%95%B4%EC%9E%90%20%EB%88%84%EB%82%98%20%EB%B6%80%EC%82%B0%20%EC%B6%94%EB%9D%BD%EC%82%AC"
-      },
-      {
         "rank": 5,
-        "title": "집단감염",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A7%91%EB%8B%A8%EA%B0%90%EC%97%BC"
-      },
-      {
-        "rank": 6,
-        "title": "코레일 EMU-370 도입",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%BD%94%EB%A0%88%EC%9D%BC%20EMU-370%20%EB%8F%84%EC%9E%85"
-      },
-      {
-        "rank": 7,
         "title": "고양시 임금체불 점검",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B3%A0%EC%96%91%EC%8B%9C%20%EC%9E%84%EA%B8%88%EC%B2%B4%EB%B6%88%20%EC%A0%90%EA%B2%80"
       },
       {
+        "rank": 6,
+        "title": "쿠팡 10만원 배상 거부",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%BF%A0%ED%8C%A1%2010%EB%A7%8C%EC%9B%90%20%EB%B0%B0%EC%83%81%20%EA%B1%B0%EB%B6%80"
+      },
+      {
+        "rank": 7,
+        "title": "시어머니",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%8B%9C%EC%96%B4%EB%A8%B8%EB%8B%88"
+      },
+      {
         "rank": 8,
-        "title": "백일섭 초상권 무단 사용 배상",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B0%B1%EC%9D%BC%EC%84%AD%20%EC%B4%88%EC%83%81%EA%B6%8C%20%EB%AC%B4%EB%8B%A8%20%EC%82%AC%EC%9A%A9%20%EB%B0%B0%EC%83%81"
+        "title": "여수시 국고지원 사업",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%97%AC%EC%88%98%EC%8B%9C%20%EA%B5%AD%EA%B3%A0%EC%A7%80%EC%9B%90%20%EC%82%AC%EC%97%85"
       },
       {
         "rank": 9,
-        "title": "혈우병",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%98%88%EC%9A%B0%EB%B3%91"
+        "title": "집단감염",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A7%91%EB%8B%A8%EA%B0%90%EC%97%BC"
       },
       {
         "rank": 10,
-        "title": "여수시 국고지원 사업",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%97%AC%EC%88%98%EC%8B%9C%20%EA%B5%AD%EA%B3%A0%EC%A7%80%EC%9B%90%20%EC%82%AC%EC%97%85"
+        "title": "혈우병",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%98%88%EC%9A%B0%EB%B3%91"
       }
     ],
     "youtube_popular": [
@@ -1461,7 +1469,7 @@
         "rank": 1,
         "title": "임영웅 '모이세' Official M/V",
         "channel": "임영웅",
-        "views": "50만회",
+        "views": "51만회",
         "thumb": "https://i.ytimg.com/vi/NwLxMQtlKDY/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=NwLxMQtlKDY"
       },
@@ -1469,7 +1477,7 @@
         "rank": 2,
         "title": "재혼 황후 | 메인 예고편 | 디즈니+",
         "channel": "Disney Plus Korea 디즈니 플러스 코리아",
-        "views": "59만회",
+        "views": "64만회",
         "thumb": "https://i.ytimg.com/vi/ePBZ8oF-0WI/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=ePBZ8oF-0WI"
       },
@@ -1477,7 +1485,7 @@
         "rank": 3,
         "title": "이상호의 뚝배기 딸깍 축구.. 아 피파 쉽다 ㅋㅋㅋㅋ",
         "channel": "이상호",
-        "views": "45만회",
+        "views": "49만회",
         "thumb": "https://i.ytimg.com/vi/I3-tzP_T-So/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=I3-tzP_T-So"
       },
@@ -1485,33 +1493,33 @@
         "rank": 4,
         "title": "Four seasons, and you",
         "channel": "LEE CHANGSUB - Topic",
-        "views": "19만회",
+        "views": "20만회",
         "thumb": "https://i.ytimg.com/vi/4f8Lr9ZJK28/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=4f8Lr9ZJK28"
       },
       {
         "rank": 5,
-        "title": "똘끼 리니지클래식 오만의탑 서버이전",
-        "channel": "똘끼100%",
-        "views": "43만회",
-        "thumb": "https://i.ytimg.com/vi/HpYrnxIbX0A/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=HpYrnxIbX0A"
+        "title": "재획 스웨인",
+        "channel": "PAKA",
+        "views": "14만회",
+        "thumb": "https://i.ytimg.com/vi/-SkTtU07PCA/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=-SkTtU07PCA"
       },
       {
         "rank": 6,
         "title": "IU '이 별로부터(Unknown Planet)' MV",
         "channel": "이지금 [IU Official]",
-        "views": "255만회",
+        "views": "269만회",
         "thumb": "https://i.ytimg.com/vi/nP1xjFX86Po/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=nP1xjFX86Po"
       },
       {
         "rank": 7,
-        "title": "재획 스웨인",
-        "channel": "PAKA",
-        "views": "9만회",
-        "thumb": "https://i.ytimg.com/vi/-SkTtU07PCA/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=-SkTtU07PCA"
+        "title": "똘끼 리니지클래식 오만의탑 서버이전",
+        "channel": "똘끼100%",
+        "views": "44만회",
+        "thumb": "https://i.ytimg.com/vi/HpYrnxIbX0A/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=HpYrnxIbX0A"
       },
       {
         "rank": 8,
@@ -1523,14 +1531,6 @@
       },
       {
         "rank": 9,
-        "title": "공격수 생각정리 중에 갑자기 등장한 메기두...",
-        "channel": "튜브김민교",
-        "views": "49만회",
-        "thumb": "https://i.ytimg.com/vi/v6Z8SHmfIw0/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=v6Z8SHmfIw0"
-      },
-      {
-        "rank": 10,
         "title": "영탁 '꺾어' | Suit Dance | 수트댄스 | Performance | 4K | YOUNGTAK - GOGO",
         "channel": "1theK Originals - 원더케이 오리지널",
         "views": "13만회",
