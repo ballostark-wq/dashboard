@@ -1,28 +1,28 @@
 {
-  "updated_at": "2026-09-17 01:06:41",
+  "updated_at": "2026-09-17 02:05:26",
   "us2y": {
     "value": 4.67,
     "change": 0.02
   },
   "us5y": {
-    "value": 4.78,
-    "change": -0.05
+    "value": 4.77,
+    "change": -0.06
   },
   "us10y": {
-    "value": 4.96,
-    "change": -0.04
+    "value": 4.95,
+    "change": -0.05
   },
   "us30y": {
     "value": 5.34,
     "change": -0.02
   },
   "spread": {
-    "value": 29,
+    "value": 28,
     "status": "정상화 (우상향)"
   },
   "vix": {
-    "value": 16.66,
-    "change": -3.14
+    "value": 16.76,
+    "change": -2.56
   },
   "tech_news": [
     {
@@ -91,9 +91,9 @@
     ],
     "global": [
       {
-        "title": "Senate is still a tossup, but Democrats now have slight edge, prediction market traders think",
+        "title": "Senate is still a toss-up, but Democrats now have slight edge, prediction market traders think",
         "link": "https://www.cnbc.com/2026/09/16/prediction-markets-say-democrats-are-slightly-favored-to-win-senate.html",
-        "date": "09-16 15:34"
+        "date": "09-16 16:26"
       },
       {
         "title": "Stocks making the biggest moves premarket: SK Hynix, J.B. Hunt, Expedia & more",
@@ -133,14 +133,14 @@
         "date": "09-16 18:37"
       },
       {
-        "title": "[전자신문] [ET포토] 기안84, '런닝하다 왔어요'",
-        "link": "https://www.etnews.com/20260917000031",
-        "date": "09-17 01:00"
+        "title": "[전자신문] [ET포토] 노정의, '정의로운 예쁨'",
+        "link": "https://www.etnews.com/20260917000057",
+        "date": "09-17 02:02"
       },
       {
-        "title": "[전자신문] 루트랩·휴컨, 전국 최초 디지털트윈 3D프린팅 의료기기 제조 착수",
-        "link": "https://www.etnews.com/20260916000354",
-        "date": "09-17 01:00"
+        "title": "[전자신문] [ET포토] 타짜 VIP 시사회에 온 변요한의 아내 티파니",
+        "link": "https://www.etnews.com/20260917000056",
+        "date": "09-17 01:54"
       }
     ],
     "domestic": [
@@ -184,21 +184,21 @@
   },
   "macro_reviews": {
     "bonds": {
-      "badge": "스프레드 +29 bp",
-      "title": "미국채 10년물 4.96%선 공방과 정상화",
+      "badge": "스프레드 +28 bp",
+      "title": "미국채 10년물 4.95%선 공방과 정상화",
       "metrics": [
         {
           "id": "spread",
           "name": "10Y-2Y차",
-          "val": "+29 bp",
+          "val": "+28 bp",
           "chg": "정상화 (우상향)",
           "up": true
         },
         {
           "id": "us10y",
           "name": "10년물",
-          "val": "4.96%",
-          "chg": "-0.04%",
+          "val": "4.95%",
+          "chg": "-0.05%",
           "up": false
         },
         {
@@ -217,89 +217,89 @@
         }
       ],
       "bullets": [
-        "10년물 4.96%와 2년물 4.67% 형성으로 스프레드 +29 bp 유지",
+        "10년물 4.95%와 2년물 4.67% 형성으로 스프레드 +28 bp 유지",
         "초장기 30년물 5.34%선 안착 속 재정 적자 발행에 따른 기간 프리미엄"
       ],
-      "detail": "10Y-2Y 스프레드가 +29 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
+      "detail": "10Y-2Y 스프레드가 +28 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.52",
-      "title": "닥터 코퍼 $6.52선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.51",
+      "title": "닥터 코퍼 $6.51선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.52",
-          "chg": "+2.35%",
+          "val": "$6.51",
+          "chg": "+2.20%",
           "up": true
         },
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,392.3",
-          "chg": "+1.37%",
+          "val": "$4,387.7",
+          "chg": "+1.27%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$65.00",
-          "chg": "+2.78%",
+          "val": "$64.96",
+          "chg": "+2.72%",
           "up": true
         }
       ],
       "bullets": [
-        "구리 $6.52/lb (+2.35%) - AI 전력망 설비 수요 반영",
-        "금 $4,392/oz, 은 $65.00/oz - 통화가치 헤지"
+        "구리 $6.51/lb (+2.20%) - AI 전력망 설비 수요 반영",
+        "금 $4,388/oz, 은 $64.96/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,368원 | 엔/달러 ¥155.2",
-      "title": "원/달러 1,367.7원선과 엔/달러 ¥155.2",
+      "badge": "원/달러 1,368원 | 엔/달러 ¥155.1",
+      "title": "원/달러 1,367.9원선과 엔/달러 ¥155.1",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,367.7원",
-          "chg": "+1.64%",
+          "val": "1,367.9원",
+          "chg": "+1.66%",
           "up": true
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "99.69pt",
-          "chg": "+0.04%",
+          "val": "99.70pt",
+          "chg": "+0.05%",
           "up": true
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥155.21",
-          "chg": "+0.54%",
+          "val": "¥155.10",
+          "chg": "+0.47%",
           "up": true
         }
       ],
       "bullets": [
-        "달러 인덱스 99.69pt - 미국 성장 우위 지속",
-        "엔/달러 155.21엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 99.7pt - 미국 성장 우위 지속",
+        "엔/달러 155.10엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $102.02",
-      "title": "WTI 배럴당 $102.02선 박스권 안정",
+      "badge": "WTI $102.68",
+      "title": "WTI 배럴당 $102.68선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$102.02",
-          "chg": "-3.60%",
+          "val": "$102.68",
+          "chg": "-2.98%",
           "up": false
         }
       ],
       "bullets": [
-        "WTI 선물 $102.02/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $102.68/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -307,32 +307,32 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.52,
-      "change": 2.35
+      "price": 6.51,
+      "change": 2.2
     },
     "gold": {
-      "price": 4392.3,
-      "change": 1.37
+      "price": 4387.7,
+      "change": 1.27
     },
     "silver": {
-      "price": 65.0,
-      "change": 2.78
+      "price": 64.96,
+      "change": 2.72
     },
     "wti": {
-      "price": 102.02,
-      "change": -3.6
+      "price": 102.68,
+      "change": -2.98
     },
     "usdkrw": {
-      "price": 1367.73,
-      "change": 1.64
+      "price": 1367.93,
+      "change": 1.66
     },
     "dxy": {
-      "price": 99.69,
-      "change": 0.04
+      "price": 99.7,
+      "change": 0.05
     },
     "usdjpy": {
-      "price": 155.21,
-      "change": 0.54
+      "price": 155.1,
+      "change": 0.47
     }
   },
   "history_20d": {
@@ -472,10 +472,10 @@
       },
       {
         "date": "09-16",
-        "us10y": 4.96,
+        "us10y": 4.95,
         "us2y": 4.67,
         "us30y": 5.34,
-        "spread": 29
+        "spread": 28
       }
     ],
     "commodities": [
@@ -595,9 +595,9 @@
       },
       {
         "date": "09-16",
-        "copper": 6.52,
-        "gold": 4392.3,
-        "silver": 65.0
+        "copper": 6.51,
+        "gold": 4387.7,
+        "silver": 64.96
       }
     ],
     "fx": [
@@ -717,9 +717,9 @@
       },
       {
         "date": "09-16",
-        "usdkrw": 1367.73,
-        "dxy": 99.69,
-        "usdjpy": 155.21
+        "usdkrw": 1367.93,
+        "dxy": 99.7,
+        "usdjpy": 155.1
       }
     ],
     "oil": [
@@ -820,8 +820,8 @@
       },
       {
         "date": "09-16",
-        "wti": 102.02,
-        "change": -3.6
+        "wti": 102.68,
+        "change": -2.98
       }
     ]
   },
@@ -1415,13 +1415,13 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "강선우 징역 4년 구형",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B0%95%EC%84%A0%EC%9A%B0%20%EC%A7%95%EC%97%AD%204%EB%85%84%20%EA%B5%AC%ED%98%95"
+        "title": "강선우 의원 1억 공천헌금 구형",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B0%95%EC%84%A0%EC%9A%B0%20%EC%9D%98%EC%9B%90%201%EC%96%B5%20%EA%B3%B5%EC%B2%9C%ED%97%8C%EA%B8%88%20%EA%B5%AC%ED%98%95"
       },
       {
         "rank": 2,
-        "title": "추석 앞두고 준비 중",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B6%94%EC%84%9D%20%EC%95%9E%EB%91%90%EA%B3%A0%20%EC%A4%80%EB%B9%84%20%EC%A4%91"
+        "title": "북 리광천 감독의 응원과 작전",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B6%81%20%EB%A6%AC%EA%B4%91%EC%B2%9C%20%EA%B0%90%EB%8F%85%EC%9D%98%20%EC%9D%91%EC%9B%90%EA%B3%BC%20%EC%9E%91%EC%A0%84"
       },
       {
         "rank": 3,
@@ -1435,8 +1435,8 @@
       },
       {
         "rank": 5,
-        "title": "리광천 감독 아쉬움 가득",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%A6%AC%EA%B4%91%EC%B2%9C%20%EA%B0%90%EB%8F%85%20%EC%95%84%EC%89%AC%EC%9B%80%20%EA%B0%80%EB%93%9D"
+        "title": "추석 맞이 준비 시작",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B6%94%EC%84%9D%20%EB%A7%9E%EC%9D%B4%20%EC%A4%80%EB%B9%84%20%EC%8B%9C%EC%9E%91"
       },
       {
         "rank": 6,
@@ -1450,18 +1450,18 @@
       },
       {
         "rank": 8,
-        "title": "구교환 폭발적 생존력과 액션 쾌감",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B5%AC%EA%B5%90%ED%99%98%20%ED%8F%AD%EB%B0%9C%EC%A0%81%20%EC%83%9D%EC%A1%B4%EB%A0%A5%EA%B3%BC%20%EC%95%A1%EC%85%98%20%EC%BE%8C%EA%B0%90"
+        "title": "스윙스 김감전 대마 투약 구속",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%8A%A4%EC%9C%99%EC%8A%A4%20%EA%B9%80%EA%B0%90%EC%A0%84%20%EB%8C%80%EB%A7%88%20%ED%88%AC%EC%95%BD%20%EA%B5%AC%EC%86%8D"
       },
       {
         "rank": 9,
-        "title": "sk텔레콤",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=sk%ED%85%94%EB%A0%88%EC%BD%A4"
+        "title": "중고",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A4%91%EA%B3%A0"
       },
       {
         "rank": 10,
-        "title": "이재명 대통령 부부 기념촬영",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EC%9E%AC%EB%AA%85%20%EB%8C%80%ED%86%B5%EB%A0%B9%20%EB%B6%80%EB%B6%80%20%EA%B8%B0%EB%85%90%EC%B4%AC%EC%98%81"
+        "title": "이재명 부부, 외빈 환송",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EC%9E%AC%EB%AA%85%20%EB%B6%80%EB%B6%80%2C%20%EC%99%B8%EB%B9%88%20%ED%99%98%EC%86%A1"
       }
     ],
     "youtube_popular": [
@@ -1469,7 +1469,7 @@
         "rank": 1,
         "title": "임영웅 '모이세' Official M/V",
         "channel": "임영웅",
-        "views": "51만회",
+        "views": "52만회",
         "thumb": "https://i.ytimg.com/vi/NwLxMQtlKDY/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=NwLxMQtlKDY"
       },
@@ -1477,7 +1477,7 @@
         "rank": 2,
         "title": "재혼 황후 | 메인 예고편 | 디즈니+",
         "channel": "Disney Plus Korea 디즈니 플러스 코리아",
-        "views": "68만회",
+        "views": "73만회",
         "thumb": "https://i.ytimg.com/vi/ePBZ8oF-0WI/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=ePBZ8oF-0WI"
       },
@@ -1485,7 +1485,7 @@
         "rank": 3,
         "title": "이상호의 뚝배기 딸깍 축구.. 아 피파 쉽다 ㅋㅋㅋㅋ",
         "channel": "이상호",
-        "views": "52만회",
+        "views": "55만회",
         "thumb": "https://i.ytimg.com/vi/I3-tzP_T-So/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=I3-tzP_T-So"
       },
@@ -1493,7 +1493,7 @@
         "rank": 4,
         "title": "Four seasons, and you",
         "channel": "LEE CHANGSUB - Topic",
-        "views": "21만회",
+        "views": "22만회",
         "thumb": "https://i.ytimg.com/vi/4f8Lr9ZJK28/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=4f8Lr9ZJK28"
       },
@@ -1501,7 +1501,7 @@
         "rank": 5,
         "title": "재획 스웨인",
         "channel": "PAKA",
-        "views": "18만회",
+        "views": "22만회",
         "thumb": "https://i.ytimg.com/vi/-SkTtU07PCA/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=-SkTtU07PCA"
       },
@@ -1509,7 +1509,7 @@
         "rank": 6,
         "title": "IU '이 별로부터(Unknown Planet)' MV",
         "channel": "이지금 [IU Official]",
-        "views": "278만회",
+        "views": "285만회",
         "thumb": "https://i.ytimg.com/vi/nP1xjFX86Po/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=nP1xjFX86Po"
       },
@@ -1517,7 +1517,7 @@
         "rank": 7,
         "title": "똘끼 리니지클래식 오만의탑 서버이전",
         "channel": "똘끼100%",
-        "views": "44만회",
+        "views": "45만회",
         "thumb": "https://i.ytimg.com/vi/HpYrnxIbX0A/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=HpYrnxIbX0A"
       },
@@ -1525,7 +1525,7 @@
         "rank": 8,
         "title": "영탁 '꺾어' | Suit Dance | 수트댄스 | Performance | 4K | YOUNGTAK - GOGO",
         "channel": "1theK Originals - 원더케이 오리지널",
-        "views": "13만회",
+        "views": "14만회",
         "thumb": "https://i.ytimg.com/vi/bKQ-3FzfEAg/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=bKQ-3FzfEAg"
       },
