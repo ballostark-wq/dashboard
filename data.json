@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16 14:05:21",
+  "updated_at": "2026-09-16 15:07:32",
   "us2y": {
     "value": 4.67,
     "change": 0.02
@@ -118,32 +118,27 @@
     ],
     "tech": [
       {
-        "title": "[디일렉] 美 디지털자산 법안 제동...한국 기본법 논의에 변수",
-        "link": "https://www.thelec.kr/news/articleView.html?idxno=62356",
-        "date": "09-16 12:25"
+        "title": "[디일렉] NHN, 국방 AI데이터센터까지 노린다…전장 클라우드에 100억 투입",
+        "link": "https://www.thelec.kr/news/articleView.html?idxno=62372",
+        "date": "09-16 14:53"
       },
       {
-        "title": "[디일렉] 드림에이지, MMORPG ‘아키텍트’ 9개국 통합 서비스",
-        "link": "https://www.thelec.kr/news/articleView.html?idxno=62362",
-        "date": "09-16 12:08"
+        "title": "[디일렉] HD건설기계, 홍콩서 중대형 굴착기 45대 수주",
+        "link": "https://www.thelec.kr/news/articleView.html?idxno=62358",
+        "date": "09-16 14:34"
       },
       {
-        "title": "[디일렉] SK하이닉스, 임단협 수정안 가결…성과급 50% 현금",
-        "link": "https://www.thelec.kr/news/articleView.html?idxno=62350",
-        "date": "09-16 10:37"
-      },
-      {
-        "title": "[전자신문] 씨큐비스타, 암호화 C2 통신 복호화 없이 탐지",
-        "link": "https://www.etnews.com/20260916000227",
-        "date": "09-16 14:02"
-      },
-      {
-        "title": "[전자신문] 메가존클라우드, 데이터독과 은행 서비스 가상환경 장애 대응 '게임 데이' 개최",
-        "link": "https://www.etnews.com/20260916000228",
-        "date": "09-16 14:02"
+        "title": "[디일렉] AI 시대 에너지 해법 찾는다",
+        "link": "https://www.thelec.kr/news/articleView.html?idxno=62354",
+        "date": "09-16 14:33"
       }
     ],
     "domestic": [
+      {
+        "title": "한은, 국내 운용사 위탁 외화자산 10억弗 주식→채권 전환 추진",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435202",
+        "date": "09-16 14:00"
+      },
       {
         "title": "[외환] FOMC 앞두고 1,370원대로…고유가·강달러 여파",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435195",
@@ -163,11 +158,6 @@
         "title": "대외금리 연동 속 FOMC 대기…국고 3년 1.6bp↓",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435192",
         "date": "09-16 13:10"
-      },
-      {
-        "title": "[표] 은행간 단기금리 기준-코리보(16일)",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435190",
-        "date": "09-16 13:00"
       }
     ]
   },
@@ -236,70 +226,70 @@
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,361.7",
-          "chg": "+0.67%",
+          "val": "$4,371.0",
+          "chg": "+0.88%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$65.07",
-          "chg": "+2.89%",
+          "val": "$65.21",
+          "chg": "+3.12%",
           "up": true
         }
       ],
       "bullets": [
         "구리 $6.48/lb (+1.73%) - AI 전력망 설비 수요 반영",
-        "금 $4,362/oz, 은 $65.07/oz - 통화가치 헤지"
+        "금 $4,371/oz, 은 $65.21/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,365원 | 엔/달러 ¥155.3",
-      "title": "원/달러 1,364.7원선과 엔/달러 ¥155.3",
+      "badge": "원/달러 1,368원 | 엔/달러 ¥155.2",
+      "title": "원/달러 1,368.1원선과 엔/달러 ¥155.2",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,364.7원",
-          "chg": "+1.42%",
+          "val": "1,368.1원",
+          "chg": "+1.67%",
           "up": true
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "99.64pt",
-          "chg": "-0.01%",
+          "val": "99.56pt",
+          "chg": "-0.09%",
           "up": false
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥155.31",
-          "chg": "+0.60%",
+          "val": "¥155.21",
+          "chg": "+0.54%",
           "up": true
         }
       ],
       "bullets": [
-        "달러 인덱스 99.64pt - 미국 성장 우위 지속",
-        "엔/달러 155.31엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 99.56pt - 미국 성장 우위 지속",
+        "엔/달러 155.21엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $104.67",
-      "title": "WTI 배럴당 $104.67선 박스권 안정",
+      "badge": "WTI $104.76",
+      "title": "WTI 배럴당 $104.76선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$104.67",
-          "chg": "-1.10%",
+          "val": "$104.76",
+          "chg": "-1.01%",
           "up": false
         }
       ],
       "bullets": [
-        "WTI 선물 $104.67/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $104.76/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -311,28 +301,28 @@
       "change": 1.73
     },
     "gold": {
-      "price": 4361.7,
-      "change": 0.67
+      "price": 4371.0,
+      "change": 0.88
     },
     "silver": {
-      "price": 65.07,
-      "change": 2.89
+      "price": 65.21,
+      "change": 3.12
     },
     "wti": {
-      "price": 104.67,
-      "change": -1.1
+      "price": 104.76,
+      "change": -1.01
     },
     "usdkrw": {
-      "price": 1364.68,
-      "change": 1.42
+      "price": 1368.08,
+      "change": 1.67
     },
     "dxy": {
-      "price": 99.64,
-      "change": -0.01
+      "price": 99.56,
+      "change": -0.09
     },
     "usdjpy": {
-      "price": 155.31,
-      "change": 0.6
+      "price": 155.21,
+      "change": 0.54
     }
   },
   "history_20d": {
@@ -596,8 +586,8 @@
       {
         "date": "09-16",
         "copper": 6.48,
-        "gold": 4361.7,
-        "silver": 65.07
+        "gold": 4371.0,
+        "silver": 65.21
       }
     ],
     "fx": [
@@ -717,9 +707,9 @@
       },
       {
         "date": "09-16",
-        "usdkrw": 1364.68,
-        "dxy": 99.64,
-        "usdjpy": 155.31
+        "usdkrw": 1368.08,
+        "dxy": 99.56,
+        "usdjpy": 155.21
       }
     ],
     "oil": [
@@ -820,8 +810,8 @@
       },
       {
         "date": "09-16",
-        "wti": 104.67,
-        "change": -1.1
+        "wti": 104.76,
+        "change": -1.01
       }
     ]
   },
@@ -1417,53 +1407,53 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "강신철 후보자 답변",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B0%95%EC%8B%A0%EC%B2%A0%20%ED%9B%84%EB%B3%B4%EC%9E%90%20%EB%8B%B5%EB%B3%80"
+        "title": "강신철 장관 후보자",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B0%95%EC%8B%A0%EC%B2%A0%20%EC%9E%A5%EA%B4%80%20%ED%9B%84%EB%B3%B4%EC%9E%90"
       },
       {
         "rank": 2,
-        "title": "조희대 대법원장 세종법률문화상 참석",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A1%B0%ED%9D%AC%EB%8C%80%20%EB%8C%80%EB%B2%95%EC%9B%90%EC%9E%A5%20%EC%84%B8%EC%A2%85%EB%B2%95%EB%A5%A0%EB%AC%B8%ED%99%94%EC%83%81%20%EC%B0%B8%EC%84%9D"
+        "title": "이재명 중앙아시아 정상회담",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EC%9E%AC%EB%AA%85%20%EC%A4%91%EC%95%99%EC%95%84%EC%8B%9C%EC%95%84%20%EC%A0%95%EC%83%81%ED%9A%8C%EB%8B%B4"
       },
       {
         "rank": 3,
-        "title": "작년 수능 N수생 강세",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9E%91%EB%85%84%20%EC%88%98%EB%8A%A5%20N%EC%88%98%EC%83%9D%20%EA%B0%95%EC%84%B8"
-      },
-      {
-        "rank": 4,
-        "title": "임신중지 약물 도입 추진",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9E%84%EC%8B%A0%EC%A4%91%EC%A7%80%20%EC%95%BD%EB%AC%BC%20%EB%8F%84%EC%9E%85%20%EC%B6%94%EC%A7%84"
-      },
-      {
-        "rank": 5,
-        "title": "해병대",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%B4%EB%B3%91%EB%8C%80"
-      },
-      {
-        "rank": 6,
         "title": "북한 연락사무소 배상",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B6%81%ED%95%9C%20%EC%97%B0%EB%9D%BD%EC%82%AC%EB%AC%B4%EC%86%8C%20%EB%B0%B0%EC%83%81"
       },
       {
-        "rank": 7,
+        "rank": 4,
+        "title": "리센느 미나미 광고 제안 100건 이상",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%A6%AC%EC%84%BC%EB%8A%90%20%EB%AF%B8%EB%82%98%EB%AF%B8%20%EA%B4%91%EA%B3%A0%20%EC%A0%9C%EC%95%88%20100%EA%B1%B4%20%EC%9D%B4%EC%83%81"
+      },
+      {
+        "rank": 5,
+        "title": "게임",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B2%8C%EC%9E%84"
+      },
+      {
+        "rank": 6,
         "title": "조지아 한국인 구금 소송",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A1%B0%EC%A7%80%EC%95%84%20%ED%95%9C%EA%B5%AD%EC%9D%B8%20%EA%B5%AC%EA%B8%88%20%EC%86%8C%EC%86%A1"
       },
       {
+        "rank": 7,
+        "title": "김동현 8월 골 수상",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EB%8F%99%ED%98%84%208%EC%9B%94%20%EA%B3%A8%20%EC%88%98%EC%83%81"
+      },
+      {
         "rank": 8,
-        "title": "SK하이닉스 임단협 가결 성과급 50%",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=SK%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4%20%EC%9E%84%EB%8B%A8%ED%98%91%20%EA%B0%80%EA%B2%B0%20%EC%84%B1%EA%B3%BC%EA%B8%89%2050%25"
+        "title": "병무청",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B3%91%EB%AC%B4%EC%B2%AD"
       },
       {
         "rank": 9,
-        "title": "강경준",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B0%95%EA%B2%BD%EC%A4%80"
+        "title": "李대통령 18일 기자회견",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EF%A7%A1%EB%8C%80%ED%86%B5%EB%A0%B9%2018%EC%9D%BC%20%EA%B8%B0%EC%9E%90%ED%9A%8C%EA%B2%AC"
       },
       {
         "rank": 10,
-        "title": "계단 오르기",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B3%84%EB%8B%A8%20%EC%98%A4%EB%A5%B4%EA%B8%B0"
+        "title": "중대 비위 간부 주요 보직 제한",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A4%91%EB%8C%80%20%EB%B9%84%EC%9C%84%20%EA%B0%84%EB%B6%80%20%EC%A3%BC%EC%9A%94%20%EB%B3%B4%EC%A7%81%20%EC%A0%9C%ED%95%9C"
       }
     ],
     "youtube_popular": [
@@ -1471,7 +1461,7 @@
         "rank": 1,
         "title": "임영웅 '모이세' Official M/V",
         "channel": "임영웅",
-        "views": "39만회",
+        "views": "40만회",
         "thumb": "https://i.ytimg.com/vi/NwLxMQtlKDY/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=NwLxMQtlKDY"
       },
@@ -1479,7 +1469,7 @@
         "rank": 2,
         "title": "재혼 황후 | 메인 예고편 | 디즈니+",
         "channel": "Disney Plus Korea 디즈니 플러스 코리아",
-        "views": "1만회",
+        "views": "6만회",
         "thumb": "https://i.ytimg.com/vi/ePBZ8oF-0WI/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=ePBZ8oF-0WI"
       },
@@ -1487,7 +1477,7 @@
         "rank": 3,
         "title": "공격수 생각정리 중에 갑자기 등장한 메기두...",
         "channel": "튜브김민교",
-        "views": "43만회",
+        "views": "44만회",
         "thumb": "https://i.ytimg.com/vi/v6Z8SHmfIw0/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=v6Z8SHmfIw0"
       },
@@ -1495,7 +1485,7 @@
         "rank": 4,
         "title": "Four seasons, and you",
         "channel": "LEE CHANGSUB - Topic",
-        "views": "7만회",
+        "views": "9만회",
         "thumb": "https://i.ytimg.com/vi/4f8Lr9ZJK28/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=4f8Lr9ZJK28"
       },
@@ -1503,7 +1493,7 @@
         "rank": 5,
         "title": "현질 중독 된 아저씨 둘이 만나면 생기는 일 ㅋㅋㅋ",
         "channel": "게임대장봉준",
-        "views": "31만회",
+        "views": "32만회",
         "thumb": "https://i.ytimg.com/vi/bhXt5Eg3si4/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=bhXt5Eg3si4"
       },
@@ -1511,12 +1501,28 @@
         "rank": 6,
         "title": "IU '이 별로부터(Unknown Planet)' MV",
         "channel": "이지금 [IU Official]",
-        "views": "150만회",
+        "views": "156만회",
         "thumb": "https://i.ytimg.com/vi/nP1xjFX86Po/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=nP1xjFX86Po"
       },
       {
         "rank": 7,
+        "title": "이상호의 뚝배기 딸깍 축구.. 아 피파 쉽다 ㅋㅋㅋㅋ",
+        "channel": "이상호",
+        "views": "6만회",
+        "thumb": "https://i.ytimg.com/vi/I3-tzP_T-So/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=I3-tzP_T-So"
+      },
+      {
+        "rank": 8,
+        "title": "[MV] 영탁(YOUNGTAK) '꺾어(GOGO)'",
+        "channel": "영탁스클럽 YOUNGTAKsClub",
+        "views": "14만회",
+        "thumb": "https://i.ytimg.com/vi/Ak1cg1ex0NY/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=Ak1cg1ex0NY"
+      },
+      {
+        "rank": 9,
         "title": "'다크제네시스' 1000억세팅 배메 1위 달리기!!",
         "channel": "레고77",
         "views": "28만회",
@@ -1524,26 +1530,10 @@
         "link": "https://www.youtube.com/watch?v=tcXN74XV0KM"
       },
       {
-        "rank": 8,
-        "title": "[MV] 영탁(YOUNGTAK) '꺾어(GOGO)'",
-        "channel": "영탁스클럽 YOUNGTAKsClub",
-        "views": "13만회",
-        "thumb": "https://i.ytimg.com/vi/Ak1cg1ex0NY/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=Ak1cg1ex0NY"
-      },
-      {
-        "rank": 9,
-        "title": "묵혀 놓은 캐시템 대 방출! 사장님이 미쳤어요 ㄷㄷ [팡이요,  메이플스토리]",
-        "channel": "팡이요",
-        "views": "25만회",
-        "thumb": "https://i.ytimg.com/vi/aTJ_X4Emjt0/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=aTJ_X4Emjt0"
-      },
-      {
         "rank": 10,
         "title": "I Love You But I Gotta Let You Go (NINGNING Solo)",
         "channel": "aespa - Topic",
-        "views": "43만회",
+        "views": "44만회",
         "thumb": "https://i.ytimg.com/vi/If1HVSSs4Ts/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=If1HVSSs4Ts"
       }
