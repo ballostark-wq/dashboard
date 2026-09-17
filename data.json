@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18 00:06:13",
+  "updated_at": "2026-09-18 01:06:45",
   "us2y": {
     "value": 4.74,
     "change": 0.07
@@ -21,8 +21,8 @@
     "status": "정상화 (우상향)"
   },
   "vix": {
-    "value": 15.77,
-    "change": -10.95
+    "value": 15.69,
+    "change": -11.41
   },
   "tech_news": [
     {
@@ -135,6 +135,21 @@
     ],
     "domestic": [
       {
+        "title": "달러-원, 뉴욕장서 1,380원 초반대 거래",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435503",
+        "date": "09-18 00:18"
+      },
+      {
+        "title": "미 달러화 6일만에 하락…사우디, 후티 반군에 2주 휴전 제안설",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435502",
+        "date": "09-18 00:07"
+      },
+      {
+        "title": "美 국채가, 사우디 휴전 제안·BOE 국채 매각 중단에 강세",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435501",
+        "date": "09-18 00:06"
+      },
+      {
         "title": "BOE, 기준금리 3.75%로 동결…내년 4월까지 보유 국채 매각 중단(종합)",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435498",
         "date": "09-17 23:18"
@@ -143,21 +158,6 @@
         "title": "BOE, 장기 국채 1천200억파운드 QT 매각 대상서 제외…30년물 10bp 급락",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435496",
         "date": "09-17 22:48"
-      },
-      {
-        "title": "잉글랜드은행, 기준금리 3.75%로 동결…동결 6 vs 인상 3(상보)",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435495",
-        "date": "09-17 22:31"
-      },
-      {
-        "title": "IRS 금리 플래트닝…현·선물 커브 연동",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435490",
-        "date": "09-17 18:48"
-      },
-      {
-        "title": "[채권-마감] 매파 FOMC 영향·단기 크레딧 약세에 플래트닝",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435488",
-        "date": "09-17 18:44"
       }
     ]
   },
@@ -213,83 +213,83 @@
       "detail": "10Y-2Y 스프레드가 +21 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.65",
-      "title": "닥터 코퍼 $6.65선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.66",
+      "title": "닥터 코퍼 $6.66선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.65",
-          "chg": "+3.42%",
+          "val": "$6.66",
+          "chg": "+3.58%",
           "up": true
         },
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,396.1",
-          "chg": "+0.20%",
+          "val": "$4,407.0",
+          "chg": "+0.44%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$66.07",
-          "chg": "+2.77%",
+          "val": "$66.38",
+          "chg": "+3.25%",
           "up": true
         }
       ],
       "bullets": [
-        "구리 $6.65/lb (+3.42%) - AI 전력망 설비 수요 반영",
-        "금 $4,396/oz, 은 $66.07/oz - 통화가치 헤지"
+        "구리 $6.66/lb (+3.58%) - AI 전력망 설비 수요 반영",
+        "금 $4,407/oz, 은 $66.38/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,381원 | 엔/달러 ¥155.7",
-      "title": "원/달러 1,380.7원선과 엔/달러 ¥155.7",
+      "badge": "원/달러 1,381원 | 엔/달러 ¥155.8",
+      "title": "원/달러 1,381.0원선과 엔/달러 ¥155.8",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,380.7원",
-          "chg": "+1.26%",
+          "val": "1,381.0원",
+          "chg": "+1.28%",
           "up": true
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "100.13pt",
-          "chg": "-0.18%",
+          "val": "100.22pt",
+          "chg": "-0.09%",
           "up": false
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥155.70",
-          "chg": "+0.28%",
+          "val": "¥155.85",
+          "chg": "+0.37%",
           "up": true
         }
       ],
       "bullets": [
-        "달러 인덱스 100.13pt - 미국 성장 우위 지속",
-        "엔/달러 155.70엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 100.22pt - 미국 성장 우위 지속",
+        "엔/달러 155.85엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $101.06",
-      "title": "WTI 배럴당 $101.06선 박스권 안정",
+      "badge": "WTI $101.02",
+      "title": "WTI 배럴당 $101.02선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$101.06",
-          "chg": "-1.34%",
+          "val": "$101.02",
+          "chg": "-1.38%",
           "up": false
         }
       ],
       "bullets": [
-        "WTI 선물 $101.06/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $101.02/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -297,32 +297,32 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.65,
-      "change": 3.42
+      "price": 6.66,
+      "change": 3.58
     },
     "gold": {
-      "price": 4396.1,
-      "change": 0.2
+      "price": 4407.0,
+      "change": 0.44
     },
     "silver": {
-      "price": 66.07,
-      "change": 2.77
+      "price": 66.38,
+      "change": 3.25
     },
     "wti": {
-      "price": 101.06,
-      "change": -1.34
+      "price": 101.02,
+      "change": -1.38
     },
     "usdkrw": {
-      "price": 1380.7,
-      "change": 1.26
+      "price": 1380.99,
+      "change": 1.28
     },
     "dxy": {
-      "price": 100.13,
-      "change": -0.18
+      "price": 100.22,
+      "change": -0.09
     },
     "usdjpy": {
-      "price": 155.7,
-      "change": 0.28
+      "price": 155.85,
+      "change": 0.37
     }
   },
   "history_20d": {
@@ -585,9 +585,9 @@
       },
       {
         "date": "09-17",
-        "copper": 6.65,
-        "gold": 4396.1,
-        "silver": 66.07
+        "copper": 6.66,
+        "gold": 4407.0,
+        "silver": 66.38
       }
     ],
     "fx": [
@@ -707,9 +707,9 @@
       },
       {
         "date": "09-17",
-        "usdkrw": 1380.7,
-        "dxy": 100.13,
-        "usdjpy": 155.7
+        "usdkrw": 1380.99,
+        "dxy": 100.22,
+        "usdjpy": 155.85
       }
     ],
     "oil": [
@@ -810,8 +810,8 @@
       },
       {
         "date": "09-17",
-        "wti": 101.06,
-        "change": -1.34
+        "wti": 101.02,
+        "change": -1.38
       }
     ]
   },
@@ -1407,28 +1407,28 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "나나 집 강도 징역 10년 구형",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%82%98%EB%82%98%20%EC%A7%91%20%EA%B0%95%EB%8F%84%20%EC%A7%95%EC%97%AD%2010%EB%85%84%20%EA%B5%AC%ED%98%95"
+        "title": "김일국, 8년 만에 방일",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%9D%BC%EA%B5%AD%2C%208%EB%85%84%20%EB%A7%8C%EC%97%90%20%EB%B0%A9%EC%9D%BC"
       },
       {
         "rank": 2,
-        "title": "민주노총 메가특구 대화 참여",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%AF%BC%EC%A3%BC%EB%85%B8%EC%B4%9D%20%EB%A9%94%EA%B0%80%ED%8A%B9%EA%B5%AC%20%EB%8C%80%ED%99%94%20%EC%B0%B8%EC%97%AC"
+        "title": "미국 건국 250주년 만찬",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%AF%B8%EA%B5%AD%20%EA%B1%B4%EA%B5%AD%20250%EC%A3%BC%EB%85%84%20%EB%A7%8C%EC%B0%AC"
       },
       {
         "rank": 3,
-        "title": "지진희",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A7%80%EC%A7%84%ED%9D%AC"
-      },
-      {
-        "rank": 4,
         "title": "대전 안전공업 화재",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%8C%80%EC%A0%84%20%EC%95%88%EC%A0%84%EA%B3%B5%EC%97%85%20%ED%99%94%EC%9E%AC"
       },
       {
+        "rank": 4,
+        "title": "수시 먹통 354건 구제 확정",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%88%98%EC%8B%9C%20%EB%A8%B9%ED%86%B5%20354%EA%B1%B4%20%EA%B5%AC%EC%A0%9C%20%ED%99%95%EC%A0%95"
+      },
+      {
         "rank": 5,
-        "title": "불륜 소송 패소 후 복귀",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B6%88%EB%A5%9C%20%EC%86%8C%EC%86%A1%20%ED%8C%A8%EC%86%8C%20%ED%9B%84%20%EB%B3%B5%EA%B7%80"
+        "title": "특공무술",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%8A%B9%EA%B3%B5%EB%AC%B4%EC%88%A0"
       },
       {
         "rank": 6,
@@ -1437,13 +1437,13 @@
       },
       {
         "rank": 7,
-        "title": "챔피언십 1라운드 경기",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B1%94%ED%94%BC%EC%96%B8%EC%8B%AD%201%EB%9D%BC%EC%9A%B4%EB%93%9C%20%EA%B2%BD%EA%B8%B0"
+        "title": "민주노총 메가특구 대화 참여",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%AF%BC%EC%A3%BC%EB%85%B8%EC%B4%9D%20%EB%A9%94%EA%B0%80%ED%8A%B9%EA%B5%AC%20%EB%8C%80%ED%99%94%20%EC%B0%B8%EC%97%AC"
       },
       {
         "rank": 8,
-        "title": "로맥",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%A1%9C%EB%A7%A5"
+        "title": "안선영",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%88%EC%84%A0%EC%98%81"
       },
       {
         "rank": 9,
@@ -1452,8 +1452,8 @@
       },
       {
         "rank": 10,
-        "title": "대통령 신뢰도 추락 문제",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%8C%80%ED%86%B5%EB%A0%B9%20%EC%8B%A0%EB%A2%B0%EB%8F%84%20%EC%B6%94%EB%9D%BD%20%EB%AC%B8%EC%A0%9C"
+        "title": "YG 프로듀서 페리 찾기행렬",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=YG%20%ED%94%84%EB%A1%9C%EB%93%80%EC%84%9C%20%ED%8E%98%EB%A6%AC%20%EC%B0%BE%EA%B8%B0%ED%96%89%EB%A0%AC"
       }
     ],
     "youtube_popular": [
@@ -1461,7 +1461,7 @@
         "rank": 1,
         "title": "Four seasons, and you",
         "channel": "LEE CHANGSUB - Topic",
-        "views": "38만회",
+        "views": "39만회",
         "thumb": "https://i.ytimg.com/vi/4f8Lr9ZJK28/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=4f8Lr9ZJK28"
       },
@@ -1469,7 +1469,7 @@
         "rank": 2,
         "title": "재혼 황후 | 메인 예고편 | 디즈니+",
         "channel": "Disney Plus Korea 디즈니 플러스 코리아",
-        "views": "109만회",
+        "views": "111만회",
         "thumb": "https://i.ytimg.com/vi/ePBZ8oF-0WI/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=ePBZ8oF-0WI"
       },
@@ -1477,7 +1477,7 @@
         "rank": 3,
         "title": "새로운 재능을 찾은 뜨뜨뜨뜨ㅋㅋ",
         "channel": "튜브김민교",
-        "views": "31만회",
+        "views": "35만회",
         "thumb": "https://i.ytimg.com/vi/dg7m1os5mWs/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=dg7m1os5mWs"
       },
@@ -1485,7 +1485,7 @@
         "rank": 4,
         "title": "임영웅 '모이세' Official M/V",
         "channel": "임영웅",
-        "views": "71만회",
+        "views": "73만회",
         "thumb": "https://i.ytimg.com/vi/NwLxMQtlKDY/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=NwLxMQtlKDY"
       },
@@ -1493,7 +1493,7 @@
         "rank": 5,
         "title": "[어벤져스: 둠스데이] 레고 버전 예고편",
         "channel": "MarvelKorea",
-        "views": "32만회",
+        "views": "33만회",
         "thumb": "https://i.ytimg.com/vi/cJUMdxtNoEw/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=cJUMdxtNoEw"
       },
@@ -1501,7 +1501,7 @@
         "rank": 6,
         "title": "재획 스웨인",
         "channel": "PAKA",
-        "views": "49만회",
+        "views": "50만회",
         "thumb": "https://i.ytimg.com/vi/-SkTtU07PCA/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=-SkTtU07PCA"
       },
@@ -1509,7 +1509,7 @@
         "rank": 7,
         "title": "IU '이 별로부터(Unknown Planet)' MV",
         "channel": "이지금 [IU Official]",
-        "views": "535만회",
+        "views": "538만회",
         "thumb": "https://i.ytimg.com/vi/nP1xjFX86Po/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=nP1xjFX86Po"
       },
@@ -1517,7 +1517,7 @@
         "rank": 8,
         "title": "[전자오락수호대] 메인 예고편",
         "channel": "LOCUS Animation Studios",
-        "views": "11만회",
+        "views": "12만회",
         "thumb": "https://i.ytimg.com/vi/CNpGIrrmx18/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=CNpGIrrmx18"
       },
@@ -1533,7 +1533,7 @@
         "rank": 10,
         "title": "Be there (feat. khaki)",
         "channel": "hayawn - Topic",
-        "views": "13만회",
+        "views": "14만회",
         "thumb": "https://i.ytimg.com/vi/CSgZIyvhu1A/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=CSgZIyvhu1A"
       }
