@@ -1,28 +1,28 @@
 {
-  "updated_at": "2026-09-18 21:06:47",
+  "updated_at": "2026-09-18 22:05:09",
   "us2y": {
     "value": 4.67,
     "change": -0.07
   },
   "us5y": {
-    "value": 4.8,
-    "change": -0.06
+    "value": 4.84,
+    "change": 0.04
   },
   "us10y": {
-    "value": 4.95,
-    "change": -0.06
+    "value": 4.98,
+    "change": 0.03
   },
   "us30y": {
-    "value": 5.3,
-    "change": -0.05
+    "value": 5.31,
+    "change": 0.01
   },
   "spread": {
-    "value": 28,
+    "value": 31,
     "status": "정상화 (우상향)"
   },
   "vix": {
-    "value": 15.39,
-    "change": -0.32
+    "value": 15.52,
+    "change": 0.52
   },
   "tech_news": [
     {
@@ -133,14 +133,14 @@
         "date": "09-18 18:46"
       },
       {
-        "title": "[전자신문] [ET포토] 소란 고영배, '하트~얼마든지'",
-        "link": "https://www.etnews.com/20260918000341",
-        "date": "09-18 21:02"
+        "title": "[전자신문] 트럼프에 세게 맞은 사우디…“이란 막아달라” 시진핑에 읍소",
+        "link": "https://www.etnews.com/20260918000349",
+        "date": "09-18 21:51"
       },
       {
-        "title": "[전자신문] [ET포토] 소란 고영배, '가득한 행복 웃음'",
-        "link": "https://www.etnews.com/20260918000340",
-        "date": "09-18 21:01"
+        "title": "[전자신문] 시진핑 '뇌졸중' 건강이상설 확산…中 공식 대응 없어 내주 '美中 정상회담' 촉각",
+        "link": "https://www.etnews.com/20260918000348",
+        "date": "09-18 21:36"
       }
     ],
     "domestic": [
@@ -184,22 +184,22 @@
   },
   "macro_reviews": {
     "bonds": {
-      "badge": "스프레드 +28 bp",
-      "title": "미국채 10년물 4.95%선 공방과 정상화",
+      "badge": "스프레드 +31 bp",
+      "title": "미국채 10년물 4.98%선 공방과 정상화",
       "metrics": [
         {
           "id": "spread",
           "name": "10Y-2Y차",
-          "val": "+28 bp",
+          "val": "+31 bp",
           "chg": "정상화 (우상향)",
           "up": true
         },
         {
           "id": "us10y",
           "name": "10년물",
-          "val": "4.95%",
-          "chg": "-0.06%",
-          "up": false
+          "val": "4.98%",
+          "chg": "+0.03%",
+          "up": true
         },
         {
           "id": "us2y",
@@ -211,16 +211,16 @@
         {
           "id": "us30y",
           "name": "30년물",
-          "val": "5.30%",
-          "chg": "-0.05%",
-          "up": false
+          "val": "5.31%",
+          "chg": "+0.01%",
+          "up": true
         }
       ],
       "bullets": [
-        "10년물 4.95%와 2년물 4.67% 형성으로 스프레드 +28 bp 유지",
-        "초장기 30년물 5.3%선 안착 속 재정 적자 발행에 따른 기간 프리미엄"
+        "10년물 4.98%와 2년물 4.67% 형성으로 스프레드 +31 bp 유지",
+        "초장기 30년물 5.31%선 안착 속 재정 적자 발행에 따른 기간 프리미엄"
       ],
-      "detail": "10Y-2Y 스프레드가 +28 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
+      "detail": "10Y-2Y 스프레드가 +31 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
       "badge": "구리 $6.66",
@@ -236,70 +236,70 @@
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,414.0",
-          "chg": "+0.33%",
+          "val": "$4,407.4",
+          "chg": "+0.18%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$67.36",
-          "chg": "+2.89%",
+          "val": "$67.14",
+          "chg": "+2.55%",
           "up": true
         }
       ],
       "bullets": [
         "구리 $6.66/lb (+1.06%) - AI 전력망 설비 수요 반영",
-        "금 $4,414/oz, 은 $67.36/oz - 통화가치 헤지"
+        "금 $4,407/oz, 은 $67.14/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,388원 | 엔/달러 ¥157.8",
-      "title": "원/달러 1,387.8원선과 엔/달러 ¥157.8",
+      "badge": "원/달러 1,387원 | 엔/달러 ¥157.7",
+      "title": "원/달러 1,387.4원선과 엔/달러 ¥157.7",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,387.8원",
-          "chg": "+0.81%",
+          "val": "1,387.4원",
+          "chg": "+0.78%",
           "up": true
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "100.52pt",
-          "chg": "+0.30%",
+          "val": "100.47pt",
+          "chg": "+0.25%",
           "up": true
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥157.80",
-          "chg": "+1.15%",
+          "val": "¥157.65",
+          "chg": "+1.05%",
           "up": true
         }
       ],
       "bullets": [
-        "달러 인덱스 100.52pt - 미국 성장 우위 지속",
-        "엔/달러 157.80엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 100.47pt - 미국 성장 우위 지속",
+        "엔/달러 157.65엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $96.25",
-      "title": "WTI 배럴당 $96.25선 박스권 안정",
+      "badge": "WTI $96.7",
+      "title": "WTI 배럴당 $96.7선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$96.25",
-          "chg": "-5.55%",
+          "val": "$96.70",
+          "chg": "-5.11%",
           "up": false
         }
       ],
       "bullets": [
-        "WTI 선물 $96.25/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $96.7/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -311,39 +311,32 @@
       "change": 1.06
     },
     "gold": {
-      "price": 4414.0,
-      "change": 0.33
+      "price": 4407.4,
+      "change": 0.18
     },
     "silver": {
-      "price": 67.36,
-      "change": 2.89
+      "price": 67.14,
+      "change": 2.55
     },
     "wti": {
-      "price": 96.25,
-      "change": -5.55
+      "price": 96.7,
+      "change": -5.11
     },
     "usdkrw": {
-      "price": 1387.79,
-      "change": 0.81
+      "price": 1387.38,
+      "change": 0.78
     },
     "dxy": {
-      "price": 100.52,
-      "change": 0.3
+      "price": 100.47,
+      "change": 0.25
     },
     "usdjpy": {
-      "price": 157.8,
-      "change": 1.15
+      "price": 157.65,
+      "change": 1.05
     }
   },
   "history_20d": {
     "bonds": [
-      {
-        "date": "08-20",
-        "us10y": 4.7,
-        "us2y": 4.19,
-        "us30y": 5.24,
-        "spread": 51
-      },
       {
         "date": "08-21",
         "us10y": 4.74,
@@ -476,6 +469,13 @@
         "us2y": 4.67,
         "us30y": 5.3,
         "spread": 28
+      },
+      {
+        "date": "09-18",
+        "us10y": 4.98,
+        "us2y": 4.67,
+        "us30y": 5.31,
+        "spread": 31
       }
     ],
     "commodities": [
@@ -596,8 +596,8 @@
       {
         "date": "09-18",
         "copper": 6.66,
-        "gold": 4414.0,
-        "silver": 67.36
+        "gold": 4407.4,
+        "silver": 67.14
       }
     ],
     "fx": [
@@ -717,9 +717,9 @@
       },
       {
         "date": "09-18",
-        "usdkrw": 1387.79,
-        "dxy": 100.52,
-        "usdjpy": 157.8
+        "usdkrw": 1387.38,
+        "dxy": 100.47,
+        "usdjpy": 157.65
       }
     ],
     "oil": [
@@ -820,8 +820,8 @@
       },
       {
         "date": "09-18",
-        "wti": 96.25,
-        "change": -5.55
+        "wti": 96.7,
+        "change": -5.11
       }
     ]
   },
@@ -1417,43 +1417,43 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "김성수 대법관 임명 재가",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%84%B1%EC%88%98%20%EB%8C%80%EB%B2%95%EA%B4%80%20%EC%9E%84%EB%AA%85%20%EC%9E%AC%EA%B0%80"
+        "title": "버핏, 버크셔 회장직 물러남",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B2%84%ED%95%8F%2C%20%EB%B2%84%ED%81%AC%EC%85%94%20%ED%9A%8C%EC%9E%A5%EC%A7%81%20%EB%AC%BC%EB%9F%AC%EB%82%A8"
       },
       {
         "rank": 2,
-        "title": "KT 로건, 연승 도전!",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=KT%20%EB%A1%9C%EA%B1%B4%2C%20%EC%97%B0%EC%8A%B9%20%EB%8F%84%EC%A0%84%21"
+        "title": "카펫 한상준 배우",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B9%B4%ED%8E%AB%20%ED%95%9C%EC%83%81%EC%A4%80%20%EB%B0%B0%EC%9A%B0"
       },
       {
         "rank": 3,
-        "title": "여의도역 5번 출구 에스컬레이터 화재",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%97%AC%EC%9D%98%EB%8F%84%EC%97%AD%205%EB%B2%88%20%EC%B6%9C%EA%B5%AC%20%EC%97%90%EC%8A%A4%EC%BB%AC%EB%A0%88%EC%9D%B4%ED%84%B0%20%ED%99%94%EC%9E%AC"
-      },
-      {
-        "rank": 4,
         "title": "개인정보 CI 분리",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4%20CI%20%EB%B6%84%EB%A6%AC"
       },
       {
+        "rank": 4,
+        "title": "석유 최고가격 동결",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%84%9D%EC%9C%A0%20%EC%B5%9C%EA%B3%A0%EA%B0%80%EA%B2%A9%20%EB%8F%99%EA%B2%B0"
+      },
+      {
         "rank": 5,
-        "title": "이대통령 레버리지 ETF",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EB%8C%80%ED%86%B5%EB%A0%B9%20%EB%A0%88%EB%B2%84%EB%A6%AC%EC%A7%80%20ETF"
+        "title": "김민하 끝나면 체중계 버릴 것",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EB%AF%BC%ED%95%98%20%EB%81%9D%EB%82%98%EB%A9%B4%20%EC%B2%B4%EC%A4%91%EA%B3%84%20%EB%B2%84%EB%A6%B4%20%EA%B2%83"
       },
       {
         "rank": 6,
-        "title": "청하",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B2%AD%ED%95%98"
+        "title": "롯데",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%A1%AF%EB%8D%B0"
       },
       {
         "rank": 7,
-        "title": "논란 우려로 홈쇼핑 취소",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%85%BC%EB%9E%80%20%EC%9A%B0%EB%A0%A4%EB%A1%9C%20%ED%99%88%EC%87%BC%ED%95%91%20%EC%B7%A8%EC%86%8C"
+        "title": "경상남도",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84"
       },
       {
         "rank": 8,
-        "title": "특별감찰관",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%8A%B9%EB%B3%84%EA%B0%90%EC%B0%B0%EA%B4%80"
+        "title": "재벌 형사 시즌2",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9E%AC%EB%B2%8C%20%ED%98%95%EC%82%AC%20%EC%8B%9C%EC%A6%8C2"
       },
       {
         "rank": 9,
@@ -1462,8 +1462,8 @@
       },
       {
         "rank": 10,
-        "title": "이재용 자택 농성",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EC%9E%AC%EC%9A%A9%20%EC%9E%90%ED%83%9D%20%EB%86%8D%EC%84%B1"
+        "title": "김성수 대법관 임명 재가",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%84%B1%EC%88%98%20%EB%8C%80%EB%B2%95%EA%B4%80%20%EC%9E%84%EB%AA%85%20%EC%9E%AC%EA%B0%80"
       }
     ],
     "youtube_popular": [
@@ -1471,7 +1471,7 @@
         "rank": 1,
         "title": "EPIKISM",
         "channel": "Epik High - Topic",
-        "views": "29만회",
+        "views": "31만회",
         "thumb": "https://i.ytimg.com/vi/T6E130hezSs/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=T6E130hezSs"
       },
@@ -1479,7 +1479,7 @@
         "rank": 2,
         "title": "정점을 향한 마지막 한 걸음 | [메이드 인 코리아 시즌2] 5-6회 예고편 | 디즈니+",
         "channel": "Disney Plus Korea 디즈니 플러스 코리아",
-        "views": "15만회",
+        "views": "16만회",
         "thumb": "https://i.ytimg.com/vi/cYMTSCgTPWo/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=cYMTSCgTPWo"
       },
@@ -1487,7 +1487,7 @@
         "rank": 3,
         "title": "섭종까지 가져갈 아이콘 모먼트 호나우두 10카 영입",
         "channel": "튜브김민교",
-        "views": "27만회",
+        "views": "30만회",
         "thumb": "https://i.ytimg.com/vi/vVtGmV3-yT4/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=vVtGmV3-yT4"
       },
@@ -1495,7 +1495,7 @@
         "rank": 4,
         "title": "ROSÉ - new trick (OFFICIAL MUSIC VIDEO)",
         "channel": "ROSÉ",
-        "views": "757만회",
+        "views": "785만회",
         "thumb": "https://i.ytimg.com/vi/Lufa9QAFFeY/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=Lufa9QAFFeY"
       },
@@ -1519,7 +1519,7 @@
         "rank": 7,
         "title": "Four seasons, and you",
         "channel": "LEE CHANGSUB - Topic",
-        "views": "53만회",
+        "views": "54만회",
         "thumb": "https://i.ytimg.com/vi/4f8Lr9ZJK28/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=4f8Lr9ZJK28"
       },
@@ -1527,7 +1527,7 @@
         "rank": 8,
         "title": "BTS WORLD TOUR ‘ARIRANG’ LIVE VIEWING FROM BUENOS AIRES & SAO PAULO - Official Trailer",
         "channel": "BANGTANTV",
-        "views": "45만회",
+        "views": "46만회",
         "thumb": "https://i.ytimg.com/vi/DmJLy3nunzM/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=DmJLy3nunzM"
       },
@@ -1535,7 +1535,7 @@
         "rank": 9,
         "title": "말도 안 되는 일이 일어났습니다.. [아내와 마크 EP.02]",
         "channel": "말왕TV",
-        "views": "36만회",
+        "views": "37만회",
         "thumb": "https://i.ytimg.com/vi/_6mYM9_SZVc/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=_6mYM9_SZVc"
       },
@@ -1543,7 +1543,7 @@
         "rank": 10,
         "title": "임영웅 '모이세' Official M/V",
         "channel": "임영웅",
-        "views": "86만회",
+        "views": "87만회",
         "thumb": "https://i.ytimg.com/vi/NwLxMQtlKDY/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=NwLxMQtlKDY"
       }
