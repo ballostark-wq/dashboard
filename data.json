@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19 03:06:26",
+  "updated_at": "2026-09-19 04:05:52",
   "us2y": {
     "value": 4.67,
     "change": -0.07
@@ -13,16 +13,16 @@
     "change": 0.05
   },
   "us30y": {
-    "value": 5.34,
-    "change": 0.04
+    "value": 5.33,
+    "change": 0.03
   },
   "spread": {
     "value": 33,
     "status": "정상화 (우상향)"
   },
   "vix": {
-    "value": 15.26,
-    "change": -1.17
+    "value": 14.97,
+    "change": -3.04
   },
   "tech_news": [
     {
@@ -93,7 +93,7 @@
       {
         "title": "Three words from Kevin Warsh have Wall Street wondering how far the Fed will go with rate hikes",
         "link": "https://www.cnbc.com/2026/09/18/three-words-from-kevin-warsh-have-wall-street-wondering-how-far-the-fed-will-go-with-rate-hikes.html",
-        "date": "09-18 16:33"
+        "date": "09-18 18:28"
       },
       {
         "title": "Stocks making the biggest moves premarket: Netflix, Nucor, Xenon Pharmaceuticals & more",
@@ -133,17 +133,27 @@
         "date": "09-18 18:46"
       },
       {
+        "title": "[전자신문] [암, 제대로 알고 대처하기⑤·끝] 암도 대물림될까…3대 가계도에 숨은 위험 신호",
+        "link": "https://www.etnews.com/20260919000001",
+        "date": "09-19 04:00"
+      },
+      {
         "title": "[전자신문] '62억 챙긴' 슈퍼개미…와인 모임서 '47개 계좌' 동원해 시세조종 “주가 4배 부풀려”",
         "link": "https://www.etnews.com/20260918000352",
         "date": "09-18 23:51"
-      },
-      {
-        "title": "[전자신문] 국내선 청사 잘못 내린 국제선 승객들…입국심사 없이 9시간 서울 활보한 일본인",
-        "link": "https://www.etnews.com/20260918000351",
-        "date": "09-18 22:46"
       }
     ],
     "domestic": [
+      {
+        "title": "'이란 전멸' 위협한 트럼프 \"어떻게 되는지 지켜볼 것…후티와 대화 중\"",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435725",
+        "date": "09-19 03:52"
+      },
+      {
+        "title": "캔자스시티 연은 총재 \"인플레, 에너지만의 문제 아냐…연준 할 일 있어\"",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435724",
+        "date": "09-19 03:44"
+      },
       {
         "title": "버핏, 버크셔 회장서 물러나 명예회장으로…60여년 대장정 마침표",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435723",
@@ -158,16 +168,6 @@
         "title": "美 8월 경기선행지수 전월비 0.1%↓…시장 전망치 하회(상보)",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435721",
         "date": "09-19 01:25"
-      },
-      {
-        "title": "美 8월 제조업 생산 예상 밖 0.3% 감소…8개월 만에 마이너스",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435720",
-        "date": "09-19 00:59"
-      },
-      {
-        "title": "미 국채가 하락…길트 금리 반등 속 연준 추가 긴축 경계",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435719",
-        "date": "09-18 23:49"
       }
     ]
   },
@@ -211,14 +211,14 @@
         {
           "id": "us30y",
           "name": "30년물",
-          "val": "5.34%",
-          "chg": "+0.04%",
+          "val": "5.33%",
+          "chg": "+0.03%",
           "up": true
         }
       ],
       "bullets": [
         "10년물 5.0%와 2년물 4.67% 형성으로 스프레드 +33 bp 유지",
-        "초장기 30년물 5.34%선 안착 속 재정 적자 발행에 따른 기간 프리미엄"
+        "초장기 30년물 5.33%선 안착 속 재정 적자 발행에 따른 기간 프리미엄"
       ],
       "detail": "10Y-2Y 스프레드가 +33 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
@@ -236,70 +236,70 @@
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,432.0",
-          "chg": "+0.73%",
+          "val": "$4,420.1",
+          "chg": "+0.46%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$67.26",
-          "chg": "+2.73%",
+          "val": "$67.01",
+          "chg": "+2.35%",
           "up": true
         }
       ],
       "bullets": [
         "구리 $6.7/lb (+1.67%) - AI 전력망 설비 수요 반영",
-        "금 $4,432/oz, 은 $67.26/oz - 통화가치 헤지"
+        "금 $4,420/oz, 은 $67.01/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,386원 | 엔/달러 ¥156.7",
-      "title": "원/달러 1,385.5원선과 엔/달러 ¥156.7",
+      "badge": "원/달러 1,385원 | 엔/달러 ¥156.7",
+      "title": "원/달러 1,385.2원선과 엔/달러 ¥156.7",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,385.5원",
-          "chg": "+0.65%",
+          "val": "1,385.2원",
+          "chg": "+0.62%",
           "up": true
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "100.24pt",
-          "chg": "+0.02%",
+          "val": "100.22pt",
+          "chg": "+0.00%",
           "up": true
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥156.68",
-          "chg": "+0.43%",
+          "val": "¥156.67",
+          "chg": "+0.42%",
           "up": true
         }
       ],
       "bullets": [
-        "달러 인덱스 100.24pt - 미국 성장 우위 지속",
-        "엔/달러 156.68엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 100.22pt - 미국 성장 우위 지속",
+        "엔/달러 156.67엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $96.0",
-      "title": "WTI 배럴당 $96.0선 박스권 안정",
+      "badge": "WTI $95.52",
+      "title": "WTI 배럴당 $95.52선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$96.00",
-          "chg": "-5.80%",
+          "val": "$95.52",
+          "chg": "-6.27%",
           "up": false
         }
       ],
       "bullets": [
-        "WTI 선물 $96.0/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $95.52/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -311,28 +311,28 @@
       "change": 1.67
     },
     "gold": {
-      "price": 4432.0,
-      "change": 0.73
+      "price": 4420.1,
+      "change": 0.46
     },
     "silver": {
-      "price": 67.26,
-      "change": 2.73
+      "price": 67.01,
+      "change": 2.35
     },
     "wti": {
-      "price": 96.0,
-      "change": -5.8
+      "price": 95.52,
+      "change": -6.27
     },
     "usdkrw": {
-      "price": 1385.51,
-      "change": 0.65
+      "price": 1385.18,
+      "change": 0.62
     },
     "dxy": {
-      "price": 100.24,
-      "change": 0.02
+      "price": 100.22,
+      "change": 0.0
     },
     "usdjpy": {
-      "price": 156.68,
-      "change": 0.43
+      "price": 156.67,
+      "change": 0.42
     }
   },
   "history_20d": {
@@ -474,7 +474,7 @@
         "date": "09-18",
         "us10y": 5.0,
         "us2y": 4.67,
-        "us30y": 5.34,
+        "us30y": 5.33,
         "spread": 33
       }
     ],
@@ -596,8 +596,8 @@
       {
         "date": "09-18",
         "copper": 6.7,
-        "gold": 4432.0,
-        "silver": 67.26
+        "gold": 4420.1,
+        "silver": 67.01
       }
     ],
     "fx": [
@@ -717,9 +717,9 @@
       },
       {
         "date": "09-18",
-        "usdkrw": 1385.51,
-        "dxy": 100.24,
-        "usdjpy": 156.68
+        "usdkrw": 1385.18,
+        "dxy": 100.22,
+        "usdjpy": 156.67
       }
     ],
     "oil": [
@@ -820,8 +820,8 @@
       },
       {
         "date": "09-18",
-        "wti": 96.0,
-        "change": -5.8
+        "wti": 95.52,
+        "change": -6.27
       }
     ]
   },
@@ -1415,13 +1415,13 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "버핏, 56년 만에 버크셔 회장 퇴임",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B2%84%ED%95%8F%2C%2056%EB%85%84%20%EB%A7%8C%EC%97%90%20%EB%B2%84%ED%81%AC%EC%85%94%20%ED%9A%8C%EC%9E%A5%20%ED%87%B4%EC%9E%84"
+        "title": "버핏, 버크셔 회장직 퇴임",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B2%84%ED%95%8F%2C%20%EB%B2%84%ED%81%AC%EC%85%94%20%ED%9A%8C%EC%9E%A5%EC%A7%81%20%ED%87%B4%EC%9E%84"
       },
       {
         "rank": 2,
-        "title": "김성수 대법관 임명",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%84%B1%EC%88%98%20%EB%8C%80%EB%B2%95%EA%B4%80%20%EC%9E%84%EB%AA%85"
+        "title": "오지환 5연승 기여",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%98%A4%EC%A7%80%ED%99%98%205%EC%97%B0%EC%8A%B9%20%EA%B8%B0%EC%97%AC"
       },
       {
         "rank": 3,
@@ -1430,13 +1430,13 @@
       },
       {
         "rank": 4,
-        "title": "오지환 2홈런 LG 5연승",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%98%A4%EC%A7%80%ED%99%98%202%ED%99%88%EB%9F%B0%20LG%205%EC%97%B0%EC%8A%B9"
+        "title": "양희은 암 투병",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%96%91%ED%9D%AC%EC%9D%80%20%EC%95%94%20%ED%88%AC%EB%B3%91"
       },
       {
         "rank": 5,
-        "title": "백종원",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B0%B1%EC%A2%85%EC%9B%90"
+        "title": "김성수 대법관 임명안",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%84%B1%EC%88%98%20%EB%8C%80%EB%B2%95%EA%B4%80%20%EC%9E%84%EB%AA%85%EC%95%88"
       },
       {
         "rank": 6,
@@ -1445,8 +1445,8 @@
       },
       {
         "rank": 7,
-        "title": "양희은, 암 수술 후 근황",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%96%91%ED%9D%AC%EC%9D%80%2C%20%EC%95%94%20%EC%88%98%EC%88%A0%20%ED%9B%84%20%EA%B7%BC%ED%99%A9"
+        "title": "주한 미군 사령관",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A3%BC%ED%95%9C%20%EB%AF%B8%EA%B5%B0%20%EC%82%AC%EB%A0%B9%EA%B4%80"
       },
       {
         "rank": 8,
@@ -1455,13 +1455,13 @@
       },
       {
         "rank": 9,
-        "title": "코리아하우스 개관식",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%BD%94%EB%A6%AC%EC%95%84%ED%95%98%EC%9A%B0%EC%8A%A4%20%EA%B0%9C%EA%B4%80%EC%8B%9D"
+        "title": "코리아하우스 개관식 사진첩",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%BD%94%EB%A6%AC%EC%95%84%ED%95%98%EC%9A%B0%EC%8A%A4%20%EA%B0%9C%EA%B4%80%EC%8B%9D%20%EC%82%AC%EC%A7%84%EC%B2%A9"
       },
       {
         "rank": 10,
-        "title": "자동차 산업",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9E%90%EB%8F%99%EC%B0%A8%20%EC%82%B0%EC%97%85"
+        "title": "레알 마드리드 cf",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%A0%88%EC%95%8C%20%EB%A7%88%EB%93%9C%EB%A6%AC%EB%93%9C%20cf"
       }
     ],
     "youtube_popular": [
@@ -1469,7 +1469,7 @@
         "rank": 1,
         "title": "EPIKISM",
         "channel": "Epik High - Topic",
-        "views": "40만회",
+        "views": "41만회",
         "thumb": "https://i.ytimg.com/vi/T6E130hezSs/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=T6E130hezSs"
       },
@@ -1477,7 +1477,7 @@
         "rank": 2,
         "title": "정점을 향한 마지막 한 걸음 | [메이드 인 코리아 시즌2] 5-6회 예고편 | 디즈니+",
         "channel": "Disney Plus Korea 디즈니 플러스 코리아",
-        "views": "21만회",
+        "views": "22만회",
         "thumb": "https://i.ytimg.com/vi/cYMTSCgTPWo/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=cYMTSCgTPWo"
       },
@@ -1485,7 +1485,7 @@
         "rank": 3,
         "title": "섭종까지 가져갈 아이콘 모먼트 호나우두 10카 영입",
         "channel": "튜브김민교",
-        "views": "45만회",
+        "views": "47만회",
         "thumb": "https://i.ytimg.com/vi/vVtGmV3-yT4/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=vVtGmV3-yT4"
       },
@@ -1493,7 +1493,7 @@
         "rank": 4,
         "title": "ROSÉ - new trick (OFFICIAL MUSIC VIDEO)",
         "channel": "ROSÉ",
-        "views": "1037만회",
+        "views": "1071만회",
         "thumb": "https://i.ytimg.com/vi/Lufa9QAFFeY/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=Lufa9QAFFeY"
       },
@@ -1501,7 +1501,7 @@
         "rank": 5,
         "title": "[어벤져스: 둠스데이] 레고 버전 예고편",
         "channel": "MarvelKorea",
-        "views": "45만회",
+        "views": "46만회",
         "thumb": "https://i.ytimg.com/vi/cJUMdxtNoEw/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=cJUMdxtNoEw"
       },
@@ -1525,7 +1525,7 @@
         "rank": 8,
         "title": "BTS WORLD TOUR ‘ARIRANG’ LIVE VIEWING FROM BUENOS AIRES & SAO PAULO - Official Trailer",
         "channel": "BANGTANTV",
-        "views": "53만회",
+        "views": "54만회",
         "thumb": "https://i.ytimg.com/vi/DmJLy3nunzM/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=DmJLy3nunzM"
       },
