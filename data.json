@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18 23:05:40",
+  "updated_at": "2026-09-19 00:05:30",
   "us2y": {
     "value": 4.67,
     "change": -0.07
@@ -9,20 +9,20 @@
     "change": 0.05
   },
   "us10y": {
-    "value": 4.99,
-    "change": 0.04
+    "value": 5.0,
+    "change": 0.05
   },
   "us30y": {
     "value": 5.33,
     "change": 0.03
   },
   "spread": {
-    "value": 32,
+    "value": 33,
     "status": "정상화 (우상향)"
   },
   "vix": {
-    "value": 15.3,
-    "change": -0.91
+    "value": 15.33,
+    "change": -0.71
   },
   "tech_news": [
     {
@@ -133,17 +133,27 @@
         "date": "09-18 18:46"
       },
       {
+        "title": "[전자신문] '62억 챙긴' 슈퍼개미…와인 모임서 '47개 계좌' 동원해 시세조종 “주가 4배 부풀려”",
+        "link": "https://www.etnews.com/20260918000352",
+        "date": "09-18 23:51"
+      },
+      {
         "title": "[전자신문] 국내선 청사 잘못 내린 국제선 승객들…입국심사 없이 9시간 서울 활보한 일본인",
         "link": "https://www.etnews.com/20260918000351",
         "date": "09-18 22:46"
-      },
-      {
-        "title": "[전자신문] 벌금 80만원 내라고? ‘치마 입은’ F1 레전드 딸에…팬들은 “10점 만점에 10점”",
-        "link": "https://www.etnews.com/20260918000092",
-        "date": "09-18 22:30"
       }
     ],
     "domestic": [
+      {
+        "title": "미 국채가 하락…길트 금리 반등 속 연준 추가 긴축 경계",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435719",
+        "date": "09-18 23:49"
+      },
+      {
+        "title": "미 달러화 강세…'BOJ 실망감'에 엔, 달러당 158엔 육박",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435718",
+        "date": "09-18 23:13"
+      },
       {
         "title": "달러-원, 뉴욕장서 1,380원 후반대 거래",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435717",
@@ -158,16 +168,6 @@
         "title": "라가르드 \"금리는 에너지 가격과 보조를 맞춰 움직이지 않아\"",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435714",
         "date": "09-18 22:32"
-      },
-      {
-        "title": "BOJ 총재, '정책 국면 변화' 이후 도로 비둘기…달러-엔 장중 고점 경신(종합)",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435711",
-        "date": "09-18 19:22"
-      },
-      {
-        "title": "IRS 금리 소폭 하락…장 후반 비드 늘기도",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435710",
-        "date": "09-18 18:55"
       }
     ]
   },
@@ -184,21 +184,21 @@
   },
   "macro_reviews": {
     "bonds": {
-      "badge": "스프레드 +32 bp",
-      "title": "미국채 10년물 4.99%선 공방과 정상화",
+      "badge": "스프레드 +33 bp",
+      "title": "미국채 10년물 5.0%선 공방과 정상화",
       "metrics": [
         {
           "id": "spread",
           "name": "10Y-2Y차",
-          "val": "+32 bp",
+          "val": "+33 bp",
           "chg": "정상화 (우상향)",
           "up": true
         },
         {
           "id": "us10y",
           "name": "10년물",
-          "val": "4.99%",
-          "chg": "+0.04%",
+          "val": "5.00%",
+          "chg": "+0.05%",
           "up": true
         },
         {
@@ -217,89 +217,89 @@
         }
       ],
       "bullets": [
-        "10년물 4.99%와 2년물 4.67% 형성으로 스프레드 +32 bp 유지",
+        "10년물 5.0%와 2년물 4.67% 형성으로 스프레드 +33 bp 유지",
         "초장기 30년물 5.33%선 안착 속 재정 적자 발행에 따른 기간 프리미엄"
       ],
-      "detail": "10Y-2Y 스프레드가 +32 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
+      "detail": "10Y-2Y 스프레드가 +33 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.66",
-      "title": "닥터 코퍼 $6.66선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.67",
+      "title": "닥터 코퍼 $6.67선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.66",
-          "chg": "+1.06%",
+          "val": "$6.67",
+          "chg": "+1.21%",
           "up": true
         },
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,387.6",
-          "chg": "-0.28%",
+          "val": "$4,397.4",
+          "chg": "-0.05%",
           "up": false
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$66.79",
-          "chg": "+2.02%",
+          "val": "$66.88",
+          "chg": "+2.15%",
           "up": true
         }
       ],
       "bullets": [
-        "구리 $6.66/lb (+1.06%) - AI 전력망 설비 수요 반영",
-        "금 $4,388/oz, 은 $66.79/oz - 통화가치 헤지"
+        "구리 $6.67/lb (+1.21%) - AI 전력망 설비 수요 반영",
+        "금 $4,397/oz, 은 $66.88/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,389원 | 엔/달러 ¥157.8",
-      "title": "원/달러 1,389.1원선과 엔/달러 ¥157.8",
+      "badge": "원/달러 1,389원 | 엔/달러 ¥157.3",
+      "title": "원/달러 1,389.2원선과 엔/달러 ¥157.3",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,389.1원",
+          "val": "1,389.2원",
           "chg": "+0.91%",
           "up": true
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "100.50pt",
-          "chg": "+0.28%",
+          "val": "100.42pt",
+          "chg": "+0.20%",
           "up": true
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥157.79",
-          "chg": "+1.14%",
+          "val": "¥157.26",
+          "chg": "+0.80%",
           "up": true
         }
       ],
       "bullets": [
-        "달러 인덱스 100.5pt - 미국 성장 우위 지속",
-        "엔/달러 157.79엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 100.42pt - 미국 성장 우위 지속",
+        "엔/달러 157.26엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $97.7",
-      "title": "WTI 배럴당 $97.7선 박스권 안정",
+      "badge": "WTI $97.02",
+      "title": "WTI 배럴당 $97.02선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$97.70",
-          "chg": "-4.13%",
+          "val": "$97.02",
+          "chg": "-4.80%",
           "up": false
         }
       ],
       "bullets": [
-        "WTI 선물 $97.7/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $97.02/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -307,32 +307,32 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.66,
-      "change": 1.06
+      "price": 6.67,
+      "change": 1.21
     },
     "gold": {
-      "price": 4387.6,
-      "change": -0.28
+      "price": 4397.4,
+      "change": -0.05
     },
     "silver": {
-      "price": 66.79,
-      "change": 2.02
+      "price": 66.88,
+      "change": 2.15
     },
     "wti": {
-      "price": 97.7,
-      "change": -4.13
+      "price": 97.02,
+      "change": -4.8
     },
     "usdkrw": {
-      "price": 1389.12,
+      "price": 1389.18,
       "change": 0.91
     },
     "dxy": {
-      "price": 100.5,
-      "change": 0.28
+      "price": 100.42,
+      "change": 0.2
     },
     "usdjpy": {
-      "price": 157.79,
-      "change": 1.14
+      "price": 157.26,
+      "change": 0.8
     }
   },
   "history_20d": {
@@ -472,10 +472,10 @@
       },
       {
         "date": "09-18",
-        "us10y": 4.99,
+        "us10y": 5.0,
         "us2y": 4.67,
         "us30y": 5.33,
-        "spread": 32
+        "spread": 33
       }
     ],
     "commodities": [
@@ -595,9 +595,9 @@
       },
       {
         "date": "09-18",
-        "copper": 6.66,
-        "gold": 4387.6,
-        "silver": 66.79
+        "copper": 6.67,
+        "gold": 4397.4,
+        "silver": 66.88
       }
     ],
     "fx": [
@@ -717,9 +717,9 @@
       },
       {
         "date": "09-18",
-        "usdkrw": 1389.12,
-        "dxy": 100.5,
-        "usdjpy": 157.79
+        "usdkrw": 1389.18,
+        "dxy": 100.42,
+        "usdjpy": 157.26
       }
     ],
     "oil": [
@@ -820,8 +820,8 @@
       },
       {
         "date": "09-18",
-        "wti": 97.7,
-        "change": -4.13
+        "wti": 97.02,
+        "change": -4.8
       }
     ]
   },
@@ -859,24 +859,40 @@
     }
   },
   "humanities": {
-    "history_date": "2026-09-18",
+    "history_date": "2026-09-19",
     "history": {
-      "era": "1973년 ~ 2020년 (1988년)",
-      "region": "한국",
-      "year": "1988년",
-      "title": "[1988년] [한국] 제24회 서울 올림픽대회",
-      "summary": "1988년 - 제24회 서울 올림픽대회",
+      "era": "1076년 ~ 1455년 (1414년)",
+      "region": "세계",
+      "year": "1414년",
+      "title": "[1414년] [세계] 콘스탄츠 공의회, 존 위클리프를 이단으로 몰고 얀 후스 화형 결정(∼1418)",
+      "summary": "1414년 - 콘스탄츠 공의회, 존 위클리프를 이단으로 몰고 얀 후스 화형 결정(∼1418)",
       "bullets": [
-        "발생 연대: 1988년 (한국사)",
-        "제24회 서울 올림픽대회",
+        "발생 연대: 1414년 (세계사)",
+        "콘스탄츠 공의회, 존 위클리프를 이단으로 몰고 얀 후스 화형 결정(∼1418)",
         "당대 세력 균형 및 정치·경제적 제도 변화 반영"
       ],
-      "insight": "1988년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
-      "ref_title": "위키백과 세계사 연표: 1973년 ~ 2020년 (1988년)",
-      "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1973%EB%85%84_~_2020%EB%85%84:~:text=1988",
+      "insight": "1414년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
+      "ref_title": "위키백과 세계사 연표: 1076년 ~ 1455년 (1414년)",
+      "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1076%EB%85%84_~_1455%EB%85%84:~:text=1414",
       "d_day": "오늘"
     },
     "history_5d": [
+      {
+        "era": "1076년 ~ 1455년 (1414년)",
+        "region": "세계",
+        "year": "1414년",
+        "title": "[1414년] [세계] 콘스탄츠 공의회, 존 위클리프를 이단으로 몰고 얀 후스 화형 결정(∼1418)",
+        "summary": "1414년 - 콘스탄츠 공의회, 존 위클리프를 이단으로 몰고 얀 후스 화형 결정(∼1418)",
+        "bullets": [
+          "발생 연대: 1414년 (세계사)",
+          "콘스탄츠 공의회, 존 위클리프를 이단으로 몰고 얀 후스 화형 결정(∼1418)",
+          "당대 세력 균형 및 정치·경제적 제도 변화 반영"
+        ],
+        "insight": "1414년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
+        "ref_title": "위키백과 세계사 연표: 1076년 ~ 1455년 (1414년)",
+        "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1076%EB%85%84_~_1455%EB%85%84:~:text=1414",
+        "d_day": "오늘"
+      },
       {
         "era": "1973년 ~ 2020년 (1988년)",
         "region": "한국",
@@ -891,7 +907,7 @@
         "insight": "1988년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1973년 ~ 2020년 (1988년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1973%EB%85%84_~_2020%EB%85%84:~:text=1988",
-        "d_day": "오늘"
+        "d_day": "D-1"
       },
       {
         "era": "1973년 ~ 2020년 (2011년)",
@@ -907,7 +923,7 @@
         "insight": "2011년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1973년 ~ 2020년 (2011년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1973%EB%85%84_~_2020%EB%85%84:~:text=2011",
-        "d_day": "D-1"
+        "d_day": "D-2"
       },
       {
         "era": "1973년 ~ 2020년 (2019년)",
@@ -923,7 +939,7 @@
         "insight": "2019년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1973년 ~ 2020년 (2019년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1973%EB%85%84_~_2020%EB%85%84:~:text=2019",
-        "d_day": "D-2"
+        "d_day": "D-3"
       },
       {
         "era": "1466년 ~ 1699년 (1616년)",
@@ -939,91 +955,138 @@
         "insight": "1616년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1466년 ~ 1699년 (1616년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1466%EB%85%84_~_1699%EB%85%84:~:text=1616",
-        "d_day": "D-3"
-      },
-      {
-        "era": "1870년 ~ 1923년 (1889년)",
-        "region": "한국",
-        "year": "1889년",
-        "title": "[1889년] [한국] 함경도에 방곡령 실시",
-        "summary": "1889년 - 함경도에 방곡령 실시",
-        "bullets": [
-          "발생 연대: 1889년 (한국사)",
-          "함경도에 방곡령 실시",
-          "당대 세력 균형 및 정치·경제적 제도 변화 반영"
-        ],
-        "insight": "1889년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
-        "ref_title": "위키백과 세계사 연표: 1870년 ~ 1923년 (1889년)",
-        "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1870%EB%85%84_~_1923%EB%85%84:~:text=1889",
         "d_day": "D-4"
       }
     ],
     "polyglot": {
-      "theme": "안부 확인 (Q&A)",
-      "type": "기초",
-      "meaning": "Q: 잘 지내세요? / A: 네, 아주 잘 지내요.",
+      "theme": "음식과 건강: 신체 통증",
+      "meaning": "허리를 삐끗했어.",
       "translations": {
         "en": {
           "code": "en-US",
           "name": "영어",
           "flag": "🇺🇸",
-          "text": "How are you doing? - I'm doing great, thank you.",
-          "roman": "하우 아 유 두잉? - 아임 두잉 그레이트, 땡큐."
+          "text": "I threw out my back.",
+          "roman": ""
         },
         "ja": {
           "code": "ja-JP",
           "name": "일본어",
           "flag": "🇯🇵",
-          "text": "お元気ですか？ - はい、とても元気です。",
-          "roman": "오겐키 데스 카? - 하이, 토테모 겐키 데스."
+          "text": "腰をグキッとやっちゃった。",
+          "roman": "Koshi o gukitto yatchatta."
         },
         "zh": {
           "code": "zh-CN",
           "name": "중국어",
           "flag": "🇨🇳",
-          "text": "你最近好吗？ - 我很好，谢谢你。",
-          "roman": "니 쭈이진 하오 마? - 워 헌 하오, 셰셰 니."
+          "text": "我不小心把腰闪了。",
+          "roman": "Wǒ bù xiǎoxīn bǎ yāo shǎn le."
         },
         "fr": {
           "code": "fr-FR",
           "name": "프랑스어",
           "flag": "🇫🇷",
-          "text": "Comment allez-vous ? - Je vais très bien, merci.",
-          "roman": "코망 탈레 부? - 즈 베 트레 비앙, 메르시."
+          "text": "Je me suis fait un tour de reins.",
+          "roman": ""
         },
         "de": {
           "code": "de-DE",
           "name": "독일어",
           "flag": "🇩🇪",
-          "text": "Wie geht es Ihnen? - Mir geht es sehr gut, danke.",
-          "roman": "비 게트 에스 이넨? - 미어 게트 에스 제어 구트, 당케."
+          "text": "Ich habe mir den Rücken verrenkt.",
+          "roman": ""
         },
         "es": {
           "code": "es-ES",
           "name": "스페인어",
           "flag": "🇪🇸",
-          "text": "¿Cómo estás? - Estoy muy bien, gracias.",
-          "roman": "꼬모 에스따스? - 에스또이 무이 비엔, 그라시아스."
+          "text": "Me lastimé la espalda.",
+          "roman": ""
         },
         "ar": {
           "code": "ar-SA",
           "name": "아랍어",
           "flag": "🇸🇦",
-          "text": "كيف حالك؟ - أنا بخير جداً، شكراً لك.",
-          "roman": "카이파 할룩? - 아나 비카이린 짓단, 슈크란 라크."
+          "text": "تعرضت لالتواء حاد في ظهري.",
+          "roman": "Ta'arraḍtu li-iltiwā'in ḥāddin fī ẓahrī."
         },
         "ru": {
           "code": "ru-RU",
           "name": "러시아어",
           "flag": "🇷🇺",
-          "text": "Как ваши дела? - У меня всё отлично, спасибо.",
-          "roman": "깍 바시 딜라? - 우 미냐 프쇼 아트리치나, 스파시바."
+          "text": "Я сорвал спину.",
+          "roman": "Ya sorval spinu."
         }
       },
-      "pool_type": "기초",
+      "pool_type": "일상",
       "d_day": "오늘"
     },
     "polyglot_5d": [
+      {
+        "theme": "음식과 건강: 신체 통증",
+        "meaning": "허리를 삐끗했어.",
+        "translations": {
+          "en": {
+            "code": "en-US",
+            "name": "영어",
+            "flag": "🇺🇸",
+            "text": "I threw out my back.",
+            "roman": ""
+          },
+          "ja": {
+            "code": "ja-JP",
+            "name": "일본어",
+            "flag": "🇯🇵",
+            "text": "腰をグキッとやっちゃった。",
+            "roman": "Koshi o gukitto yatchatta."
+          },
+          "zh": {
+            "code": "zh-CN",
+            "name": "중국어",
+            "flag": "🇨🇳",
+            "text": "我不小心把腰闪了。",
+            "roman": "Wǒ bù xiǎoxīn bǎ yāo shǎn le."
+          },
+          "fr": {
+            "code": "fr-FR",
+            "name": "프랑스어",
+            "flag": "🇫🇷",
+            "text": "Je me suis fait un tour de reins.",
+            "roman": ""
+          },
+          "de": {
+            "code": "de-DE",
+            "name": "독일어",
+            "flag": "🇩🇪",
+            "text": "Ich habe mir den Rücken verrenkt.",
+            "roman": ""
+          },
+          "es": {
+            "code": "es-ES",
+            "name": "스페인어",
+            "flag": "🇪🇸",
+            "text": "Me lastimé la espalda.",
+            "roman": ""
+          },
+          "ar": {
+            "code": "ar-SA",
+            "name": "아랍어",
+            "flag": "🇸🇦",
+            "text": "تعرضت لالتواء حاد في ظهري.",
+            "roman": "Ta'arraḍtu li-iltiwā'in ḥāddin fī ẓahrī."
+          },
+          "ru": {
+            "code": "ru-RU",
+            "name": "러시아어",
+            "flag": "🇷🇺",
+            "text": "Я сорвал спину.",
+            "roman": "Ya sorval spinu."
+          }
+        },
+        "pool_type": "일상",
+        "d_day": "오늘"
+      },
       {
         "theme": "안부 확인 (Q&A)",
         "type": "기초",
@@ -1087,7 +1150,7 @@
           }
         },
         "pool_type": "기초",
-        "d_day": "오늘"
+        "d_day": "D-1"
       },
       {
         "theme": "음식과 건강: 신체 통증",
@@ -1151,7 +1214,7 @@
           }
         },
         "pool_type": "일상",
-        "d_day": "D-1"
+        "d_day": "D-2"
       },
       {
         "theme": "소통 배려",
@@ -1216,7 +1279,7 @@
           }
         },
         "pool_type": "기초",
-        "d_day": "D-2"
+        "d_day": "D-3"
       },
       {
         "theme": "음식과 건강: 신체 통증",
@@ -1280,85 +1343,20 @@
           }
         },
         "pool_type": "일상",
-        "d_day": "D-3"
-      },
-      {
-        "theme": "동의 및 수락",
-        "type": "기초",
-        "meaning": "좋습니다! 전혀 문제없어요.",
-        "translations": {
-          "en": {
-            "code": "en-US",
-            "name": "영어",
-            "flag": "🇺🇸",
-            "text": "Sounds great! No problem at all.",
-            "roman": "사운즈 그레이트! 노 프라블럼 앳 올."
-          },
-          "ja": {
-            "code": "ja-JP",
-            "name": "일본어",
-            "flag": "🇯🇵",
-            "text": "いいですね！全く問題ありません。",
-            "roman": "이이데스 네! 맛타쿠 몬다이 아리마센."
-          },
-          "zh": {
-            "code": "zh-CN",
-            "name": "중국어",
-            "flag": "🇨🇳",
-            "text": "太好了！完全没问题。",
-            "roman": "타이 하오 러! 완췐 메이 원티."
-          },
-          "fr": {
-            "code": "fr-FR",
-            "name": "프랑스어",
-            "flag": "🇫🇷",
-            "text": "C'est parfait ! Aucun problème.",
-            "roman": "세 파르페! 오깡 프로블렘."
-          },
-          "de": {
-            "code": "de-DE",
-            "name": "독일어",
-            "flag": "🇩🇪",
-            "text": "Klingt gut! Überhaupt kein Problem.",
-            "roman": "클링트 구트! 위버하웁트 카인 프로블렘."
-          },
-          "es": {
-            "code": "es-ES",
-            "name": "스페인어",
-            "flag": "🇪🇸",
-            "text": "¡Suena genial! Ningún problema.",
-            "roman": "수에나 헤니알! 닝군 프로블레마."
-          },
-          "ar": {
-            "code": "ar-SA",
-            "name": "아랍어",
-            "flag": "🇸🇦",
-            "text": "يبدو رائعاً! لا توجد مشكلة على الإطلاق.",
-            "roman": "얍두 라이안! 라 투자두 무시키라 알랄 이틀락."
-          },
-          "ru": {
-            "code": "ru-RU",
-            "name": "러시아어",
-            "flag": "🇷🇺",
-            "text": "Отлично! Никаких проблем.",
-            "roman": "아트리치나! 니카키흐 프라블롐."
-          }
-        },
-        "pool_type": "기초",
         "d_day": "D-4"
       }
     ],
     "philosophy": {
-      "thinker": "투키디데스 (Thucydides)",
-      "era": "기원전 5세기 고대 그리스",
-      "concept": "투키디데스 함정 (Thucydides Trap)",
-      "quote": "“전쟁을 불가피하게 만든 것은 아테네의 부상과 그로 인해 스파르타에 심어진 두려움이었다.”",
+      "thinker": "한비자 (韓非子)",
+      "era": "기원전 3세기 전국시대 중국",
+      "concept": "법(法)·술(術)·세(勢)의 통치공학",
+      "quote": "“호랑이가 개를 굴복시킬 수 있는 까닭은 날카로운 발톱과 이빨(권세)을 쥐고 있기 때문이다.”",
       "bullets": [
-        "급부상하는 신흥 강국과 기존 지배 패권국 사이의 구조적 긴장과 충돌 역학 분석",
-        "국가 행동을 지배하는 3대 근본 동기: 공포(Fear), 명예(Honor), 이익(Interest)",
-        "동맹 네트워크의 확장과 오판이 국지적 갈등을 세계대전급 파국으로 확대시키는 경로 증명"
+        "인간의 도덕적 선의(善意)에 의존하는 정치를 경계하고 명문화된 법(法)과 엄격한 신상필벌 강조",
+        "신하들의 사익 추구를 간파하고 조직을 장악하는 군주의 인사 관리 기법(術)",
+        "직위와 제도에서 나오는 구조적 권력(勢)의 중요성 역설"
       ],
-      "application": "반도체·AI 인프라를 둘러싼 패권국 간의 배타적 경제 블록화와 전략적 수출 통제 조치의 기저에 깔린 근본 동기를 설명합니다."
+      "application": "거대 기업 조직의 거버넌스 설계, 시스템적 내부 통제 구축, 독점적 플랫폼의 구조적 지배력 분석에 유효합니다."
     }
   },
   "trends": {
@@ -1417,53 +1415,53 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "김성수 대법관 임명안 재가",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%84%B1%EC%88%98%20%EB%8C%80%EB%B2%95%EA%B4%80%20%EC%9E%84%EB%AA%85%EC%95%88%20%EC%9E%AC%EA%B0%80"
+        "title": "김성수 대법관 임명 재가",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%84%B1%EC%88%98%20%EB%8C%80%EB%B2%95%EA%B4%80%20%EC%9E%84%EB%AA%85%20%EC%9E%AC%EA%B0%80"
       },
       {
         "rank": 2,
-        "title": "제주 경찰 변호사 알선 사건",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A0%9C%EC%A3%BC%20%EA%B2%BD%EC%B0%B0%20%EB%B3%80%ED%98%B8%EC%82%AC%20%EC%95%8C%EC%84%A0%20%EC%82%AC%EA%B1%B4"
+        "title": "추미애 21억 논란 반박 부족",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B6%94%EB%AF%B8%EC%95%A0%2021%EC%96%B5%20%EB%85%BC%EB%9E%80%20%EB%B0%98%EB%B0%95%20%EB%B6%80%EC%A1%B1"
       },
       {
         "rank": 3,
+        "title": "재벌형사",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9E%AC%EB%B2%8C%ED%98%95%EC%82%AC"
+      },
+      {
+        "rank": 4,
         "title": "개인정보 CI 분리",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4%20CI%20%EB%B6%84%EB%A6%AC"
       },
       {
-        "rank": 4,
+        "rank": 5,
         "title": "석유 최고가격 동결",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%84%9D%EC%9C%A0%20%EC%B5%9C%EA%B3%A0%EA%B0%80%EA%B2%A9%20%EB%8F%99%EA%B2%B0"
       },
       {
-        "rank": 5,
-        "title": "정용진",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A0%95%EC%9A%A9%EC%A7%84"
+        "rank": 6,
+        "title": "업비트",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%97%85%EB%B9%84%ED%8A%B8"
       },
       {
-        "rank": 6,
+        "rank": 7,
+        "title": "워런 버핏, 56년 만에 버크셔 회장 물러남",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9B%8C%EB%9F%B0%20%EB%B2%84%ED%95%8F%2C%2056%EB%85%84%20%EB%A7%8C%EC%97%90%20%EB%B2%84%ED%81%AC%EC%85%94%20%ED%9A%8C%EC%9E%A5%20%EB%AC%BC%EB%9F%AC%EB%82%A8"
+      },
+      {
+        "rank": 8,
         "title": "구리 코스모스 축제 안전",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B5%AC%EB%A6%AC%20%EC%BD%94%EC%8A%A4%EB%AA%A8%EC%8A%A4%20%EC%B6%95%EC%A0%9C%20%EC%95%88%EC%A0%84"
       },
       {
-        "rank": 7,
-        "title": "재벌 형사 시즌2",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9E%AC%EB%B2%8C%20%ED%98%95%EC%82%AC%20%EC%8B%9C%EC%A6%8C2"
-      },
-      {
-        "rank": 8,
-        "title": "조민",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A1%B0%EB%AF%BC"
-      },
-      {
         "rank": 9,
-        "title": "버핏, 56년 만에 버크셔 회장 퇴임",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B2%84%ED%95%8F%2C%2056%EB%85%84%20%EB%A7%8C%EC%97%90%20%EB%B2%84%ED%81%AC%EC%85%94%20%ED%9A%8C%EC%9E%A5%20%ED%87%B4%EC%9E%84"
+        "title": "여의도역 5번출구 에스컬레이터서",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%97%AC%EC%9D%98%EB%8F%84%EC%97%AD%205%EB%B2%88%EC%B6%9C%EA%B5%AC%20%EC%97%90%EC%8A%A4%EC%BB%AC%EB%A0%88%EC%9D%B4%ED%84%B0%EC%84%9C"
       },
       {
         "rank": 10,
-        "title": "사미자",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%82%AC%EB%AF%B8%EC%9E%90"
+        "title": "아스트라에 오라티오",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%84%EC%8A%A4%ED%8A%B8%EB%9D%BC%EC%97%90%20%EC%98%A4%EB%9D%BC%ED%8B%B0%EC%98%A4"
       }
     ],
     "youtube_popular": [
@@ -1471,7 +1469,7 @@
         "rank": 1,
         "title": "EPIKISM",
         "channel": "Epik High - Topic",
-        "views": "34만회",
+        "views": "36만회",
         "thumb": "https://i.ytimg.com/vi/T6E130hezSs/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=T6E130hezSs"
       },
@@ -1479,7 +1477,7 @@
         "rank": 2,
         "title": "정점을 향한 마지막 한 걸음 | [메이드 인 코리아 시즌2] 5-6회 예고편 | 디즈니+",
         "channel": "Disney Plus Korea 디즈니 플러스 코리아",
-        "views": "18만회",
+        "views": "19만회",
         "thumb": "https://i.ytimg.com/vi/cYMTSCgTPWo/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=cYMTSCgTPWo"
       },
@@ -1487,7 +1485,7 @@
         "rank": 3,
         "title": "섭종까지 가져갈 아이콘 모먼트 호나우두 10카 영입",
         "channel": "튜브김민교",
-        "views": "34만회",
+        "views": "38만회",
         "thumb": "https://i.ytimg.com/vi/vVtGmV3-yT4/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=vVtGmV3-yT4"
       },
@@ -1495,7 +1493,7 @@
         "rank": 4,
         "title": "ROSÉ - new trick (OFFICIAL MUSIC VIDEO)",
         "channel": "ROSÉ",
-        "views": "832만회",
+        "views": "893만회",
         "thumb": "https://i.ytimg.com/vi/Lufa9QAFFeY/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=Lufa9QAFFeY"
       },
@@ -1511,7 +1509,7 @@
         "rank": 6,
         "title": "2026 챔스곡 공개... Die For You를 뛰어넘을 역대급 노래가 나왔습니다ㅋㅋㅋㅋㅋㅋㅋㅋ",
         "channel": "김된모",
-        "views": "34만회",
+        "views": "35만회",
         "thumb": "https://i.ytimg.com/vi/NuFazeMLOV8/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=NuFazeMLOV8"
       },
@@ -1519,7 +1517,7 @@
         "rank": 7,
         "title": "Four seasons, and you",
         "channel": "LEE CHANGSUB - Topic",
-        "views": "56만회",
+        "views": "58만회",
         "thumb": "https://i.ytimg.com/vi/4f8Lr9ZJK28/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=4f8Lr9ZJK28"
       },
@@ -1527,7 +1525,7 @@
         "rank": 8,
         "title": "BTS WORLD TOUR ‘ARIRANG’ LIVE VIEWING FROM BUENOS AIRES & SAO PAULO - Official Trailer",
         "channel": "BANGTANTV",
-        "views": "47만회",
+        "views": "49만회",
         "thumb": "https://i.ytimg.com/vi/DmJLy3nunzM/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=DmJLy3nunzM"
       },
@@ -1535,7 +1533,7 @@
         "rank": 9,
         "title": "말도 안 되는 일이 일어났습니다.. [아내와 마크 EP.02]",
         "channel": "말왕TV",
-        "views": "38만회",
+        "views": "39만회",
         "thumb": "https://i.ytimg.com/vi/_6mYM9_SZVc/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=_6mYM9_SZVc"
       },
@@ -1543,7 +1541,7 @@
         "rank": 10,
         "title": "임영웅 '모이세' Official M/V",
         "channel": "임영웅",
-        "views": "88만회",
+        "views": "90만회",
         "thumb": "https://i.ytimg.com/vi/NwLxMQtlKDY/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=NwLxMQtlKDY"
       }
