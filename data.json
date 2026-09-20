@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20 23:05:41",
+  "updated_at": "2026-09-21 00:05:07",
   "us2y": {
     "value": 4.76,
     "change": 0.09
@@ -817,7 +817,7 @@
   },
   "calendar_3w": {
     "w1": {
-      "title": "이번 주 (09/14 ~ 09/20)",
+      "title": "이번 주 (09/21 ~ 09/27)",
       "macro": [
         {
           "date": "09-24 12:30pm",
@@ -839,24 +839,40 @@
     }
   },
   "humanities": {
-    "history_date": "2026-09-20",
+    "history_date": "2026-09-21",
     "history": {
-      "era": "1973년 ~ 2020년 (1982년)",
-      "region": "한국",
-      "year": "1982년",
-      "title": "[1982년] [한국] 정부, 일본에 역사 교과서 왜곡 내용 시정 요구",
-      "summary": "1982년 - 정부, 일본에 역사 교과서 왜곡 내용 시정 요구",
+      "era": "1076년 ~ 1455년 (1254년)",
+      "region": "세계",
+      "year": "1254년",
+      "title": "[1254년] [세계] 독일, 대공위시대 시작(∼1273)",
+      "summary": "1254년 - 독일, 대공위시대 시작(∼1273)",
       "bullets": [
-        "발생 연대: 1982년 (한국사)",
-        "정부, 일본에 역사 교과서 왜곡 내용 시정 요구",
+        "발생 연대: 1254년 (세계사)",
+        "독일, 대공위시대 시작(∼1273)",
         "당대 세력 균형 및 정치·경제적 제도 변화 반영"
       ],
-      "insight": "1982년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
-      "ref_title": "위키백과 세계사 연표: 1973년 ~ 2020년 (1982년)",
-      "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1973%EB%85%84_~_2020%EB%85%84:~:text=1982",
+      "insight": "1254년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
+      "ref_title": "위키백과 세계사 연표: 1076년 ~ 1455년 (1254년)",
+      "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1076%EB%85%84_~_1455%EB%85%84:~:text=1254",
       "d_day": "오늘"
     },
     "history_5d": [
+      {
+        "era": "1076년 ~ 1455년 (1254년)",
+        "region": "세계",
+        "year": "1254년",
+        "title": "[1254년] [세계] 독일, 대공위시대 시작(∼1273)",
+        "summary": "1254년 - 독일, 대공위시대 시작(∼1273)",
+        "bullets": [
+          "발생 연대: 1254년 (세계사)",
+          "독일, 대공위시대 시작(∼1273)",
+          "당대 세력 균형 및 정치·경제적 제도 변화 반영"
+        ],
+        "insight": "1254년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
+        "ref_title": "위키백과 세계사 연표: 1076년 ~ 1455년 (1254년)",
+        "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1076%EB%85%84_~_1455%EB%85%84:~:text=1254",
+        "d_day": "오늘"
+      },
       {
         "era": "1973년 ~ 2020년 (1982년)",
         "region": "한국",
@@ -871,7 +887,7 @@
         "insight": "1982년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1973년 ~ 2020년 (1982년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1973%EB%85%84_~_2020%EB%85%84:~:text=1982",
-        "d_day": "오늘"
+        "d_day": "D-1"
       },
       {
         "era": "1076년 ~ 1455년 (1414년)",
@@ -887,7 +903,7 @@
         "insight": "1414년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1076년 ~ 1455년 (1414년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1076%EB%85%84_~_1455%EB%85%84:~:text=1414",
-        "d_day": "D-1"
+        "d_day": "D-2"
       },
       {
         "era": "1973년 ~ 2020년 (1988년)",
@@ -903,7 +919,7 @@
         "insight": "1988년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1973년 ~ 2020년 (1988년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1973%EB%85%84_~_2020%EB%85%84:~:text=1988",
-        "d_day": "D-2"
+        "d_day": "D-3"
       },
       {
         "era": "1973년 ~ 2020년 (2011년)",
@@ -919,91 +935,138 @@
         "insight": "2011년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1973년 ~ 2020년 (2011년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1973%EB%85%84_~_2020%EB%85%84:~:text=2011",
-        "d_day": "D-3"
-      },
-      {
-        "era": "1973년 ~ 2020년 (2019년)",
-        "region": "한국",
-        "year": "2019년",
-        "title": "[2019년] [한국] 2/9~2/25: 평창올림픽",
-        "summary": "2019년 - 2/9~2/25: 평창올림픽",
-        "bullets": [
-          "발생 연대: 2019년 (한국사)",
-          "2/9~2/25: 평창올림픽",
-          "당대 세력 균형 및 정치·경제적 제도 변화 반영"
-        ],
-        "insight": "2019년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
-        "ref_title": "위키백과 세계사 연표: 1973년 ~ 2020년 (2019년)",
-        "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1973%EB%85%84_~_2020%EB%85%84:~:text=2019",
         "d_day": "D-4"
       }
     ],
     "polyglot": {
-      "theme": "언어 소통 (Q&A)",
-      "type": "기초",
-      "meaning": "Q: 영어 할 수 있나요? / A: 네, 조금 할 수 있어요.",
+      "theme": "음식과 건강: 기타 증상",
+      "meaning": "목소리가 쉬었어.",
       "translations": {
         "en": {
           "code": "en-US",
           "name": "영어",
           "flag": "🇺🇸",
-          "text": "Do you speak English? - Yes, I speak a little.",
-          "roman": "두 유 스픽 잉글리시? - 예스, 아이 스픽 어 리틀."
+          "text": "My voice is hoarse.",
+          "roman": ""
         },
         "ja": {
           "code": "ja-JP",
           "name": "일본어",
           "flag": "🇯🇵",
-          "text": "英語を話せますか？ - はい、少し話せます。",
-          "roman": "에이고오 하나세마스 카? - 하이, 스코시 하나세마스."
+          "text": "声が枯れちゃった。",
+          "roman": "Koe ga karechatta."
         },
         "zh": {
           "code": "zh-CN",
           "name": "중국어",
           "flag": "🇨🇳",
-          "text": "你会说英语吗？ - 是的，会说一点点。",
-          "roman": "니 후이 슈오 잉위 마? - 스더, 후이 슈오 이디엔디엔."
+          "text": "我的嗓子哑了。",
+          "roman": "Wǒ de sǎngzi yǎ le."
         },
         "fr": {
           "code": "fr-FR",
           "name": "프랑스어",
           "flag": "🇫🇷",
-          "text": "Parlez-vous anglais ? - Oui, je parle un peu.",
-          "roman": "파를레 부 앙글레? - 위, 즈 파를 앙 쁘."
+          "text": "J'ai la voix enrouée.",
+          "roman": ""
         },
         "de": {
           "code": "de-DE",
           "name": "독일어",
           "flag": "🇩🇪",
-          "text": "Sprechen Sie Englisch? - Ja, ein bisschen.",
-          "roman": "슈프레헨 지 엥글리쉬? - 야, 아인 비스헨."
+          "text": "Meine Stimme ist ganz heiser.",
+          "roman": ""
         },
         "es": {
           "code": "es-ES",
           "name": "스페인어",
           "flag": "🇪🇸",
-          "text": "¿Hablas inglés? - Sí, hablo un poco.",
-          "roman": "아블라스 잉글레스? - 시, 아블로 운 뽀꼬."
+          "text": "Tengo la voz ronca.",
+          "roman": ""
         },
         "ar": {
           "code": "ar-SA",
           "name": "아랍어",
           "flag": "🇸🇦",
-          "text": "هل تتحدث الإنجليزية؟ - نعم، أتحدث قليلاً.",
-          "roman": "할 타타핫다술 인질리지야? - 나암, 아타핫다수 깔릴란."
+          "text": "صوتي مبحوح تمامًا.",
+          "roman": "Ṣawtī mabḥūḥun tamāman."
         },
         "ru": {
           "code": "ru-RU",
           "name": "러시아어",
           "flag": "🇷🇺",
-          "text": "Вы говорите по-английски? - Да, немного.",
-          "roman": "브이 가바리쩨 빠-앙글리스키? - 다, 니믄오가."
+          "text": "У меня голос охрип.",
+          "roman": "U menya golos okhrip."
         }
       },
-      "pool_type": "기초",
+      "pool_type": "일상",
       "d_day": "오늘"
     },
     "polyglot_5d": [
+      {
+        "theme": "음식과 건강: 기타 증상",
+        "meaning": "목소리가 쉬었어.",
+        "translations": {
+          "en": {
+            "code": "en-US",
+            "name": "영어",
+            "flag": "🇺🇸",
+            "text": "My voice is hoarse.",
+            "roman": ""
+          },
+          "ja": {
+            "code": "ja-JP",
+            "name": "일본어",
+            "flag": "🇯🇵",
+            "text": "声が枯れちゃった。",
+            "roman": "Koe ga karechatta."
+          },
+          "zh": {
+            "code": "zh-CN",
+            "name": "중국어",
+            "flag": "🇨🇳",
+            "text": "我的嗓子哑了。",
+            "roman": "Wǒ de sǎngzi yǎ le."
+          },
+          "fr": {
+            "code": "fr-FR",
+            "name": "프랑스어",
+            "flag": "🇫🇷",
+            "text": "J'ai la voix enrouée.",
+            "roman": ""
+          },
+          "de": {
+            "code": "de-DE",
+            "name": "독일어",
+            "flag": "🇩🇪",
+            "text": "Meine Stimme ist ganz heiser.",
+            "roman": ""
+          },
+          "es": {
+            "code": "es-ES",
+            "name": "스페인어",
+            "flag": "🇪🇸",
+            "text": "Tengo la voz ronca.",
+            "roman": ""
+          },
+          "ar": {
+            "code": "ar-SA",
+            "name": "아랍어",
+            "flag": "🇸🇦",
+            "text": "صوتي مبحوح تمامًا.",
+            "roman": "Ṣawtī mabḥūḥun tamāman."
+          },
+          "ru": {
+            "code": "ru-RU",
+            "name": "러시아어",
+            "flag": "🇷🇺",
+            "text": "У меня голос охрип.",
+            "roman": "U menya golos okhrip."
+          }
+        },
+        "pool_type": "일상",
+        "d_day": "오늘"
+      },
       {
         "theme": "언어 소통 (Q&A)",
         "type": "기초",
@@ -1067,7 +1130,7 @@
           }
         },
         "pool_type": "기초",
-        "d_day": "오늘"
+        "d_day": "D-1"
       },
       {
         "theme": "음식과 건강: 신체 통증",
@@ -1131,7 +1194,7 @@
           }
         },
         "pool_type": "일상",
-        "d_day": "D-1"
+        "d_day": "D-2"
       },
       {
         "theme": "안부 확인 (Q&A)",
@@ -1196,7 +1259,7 @@
           }
         },
         "pool_type": "기초",
-        "d_day": "D-2"
+        "d_day": "D-3"
       },
       {
         "theme": "음식과 건강: 신체 통증",
@@ -1260,85 +1323,20 @@
           }
         },
         "pool_type": "일상",
-        "d_day": "D-3"
-      },
-      {
-        "theme": "소통 배려",
-        "type": "기초",
-        "meaning": "조금만 천천히 말씀해 주시겠어요?",
-        "translations": {
-          "en": {
-            "code": "en-US",
-            "name": "영어",
-            "flag": "🇺🇸",
-            "text": "Could you speak a little more slowly, please?",
-            "roman": "쿠쥬 스픽 어 리틀 모어 슬로우리, 플리즈?"
-          },
-          "ja": {
-            "code": "ja-JP",
-            "name": "일본어",
-            "flag": "🇯🇵",
-            "text": "もう少しゆっくり話していただけますか？",
-            "roman": "모- 스코시 윳쿠리 하나시테 이타다케마스 카?"
-          },
-          "zh": {
-            "code": "zh-CN",
-            "name": "중국어",
-            "flag": "🇨🇳",
-            "text": "请你说得稍微慢一点好吗？",
-            "roman": "칭 니 슈오 더 샤오웨이 만 이디엔 하오 마?"
-          },
-          "fr": {
-            "code": "fr-FR",
-            "name": "프랑스어",
-            "flag": "🇫🇷",
-            "text": "Pourriez-vous parler un peu plus lentement ?",
-            "roman": "푸리에 부 파를레 앙 쁘 플뤼 랑트망?"
-          },
-          "de": {
-            "code": "de-DE",
-            "name": "독일어",
-            "flag": "🇩🇪",
-            "text": "Könnten Sie bitte etwas langsamer sprechen?",
-            "roman": "켠텐 지 비테 에트바스 랑자머 슈프레헨?"
-          },
-          "es": {
-            "code": "es-ES",
-            "name": "스페인어",
-            "flag": "🇪🇸",
-            "text": "¿Podría hablar un poco más despacio, por favor?",
-            "roman": "뽀드리아 아블라르 운 뽀꼬 마스 데스파시오, 뽀르 파보르?"
-          },
-          "ar": {
-            "code": "ar-SA",
-            "name": "아랍어",
-            "flag": "🇸🇦",
-            "text": "هل يمكنك التحدث ببطء أكثر من فضلك؟",
-            "roman": "할 윰키누카 앗타핫두스 비부틴 악사르 민 파들릭?"
-          },
-          "ru": {
-            "code": "ru-RU",
-            "name": "러시아어",
-            "flag": "🇷🇺",
-            "text": "Говорите, пожалуйста, помедленнее.",
-            "roman": "가바리쩨, 빠잘루이스타, 빠메들린녜예."
-          }
-        },
-        "pool_type": "기초",
         "d_day": "D-4"
       }
     ],
     "philosophy": {
-      "thinker": "토머스 홉스 (Thomas Hobbes)",
-      "era": "17세기 영국 내란기",
-      "concept": "리바이어던(Leviathan)과 자연상태",
-      "quote": "“공통의 권력이 없는 곳에는 법도 없고, 법이 없는 곳에는 불의도 없다.”",
+      "thinker": "손자 (孫子)",
+      "era": "기원전 6세기 춘추시대 중국",
+      "concept": "부전이굴인지병 (不戰而屈人之兵)",
+      "quote": "“백 번 싸워 백 번 이기는 것이 최선이 아니요, 싸우지 않고 적을 굴복시키는 것이 최선이다.”",
       "bullets": [
-        "강력한 중앙 권력이 부재할 때 사회는 '만인에 대한 만인의 투쟁' 상태로 전락",
-        "자기 보존의 본능을 지닌 개인들이 평화와 안보를 위해 권력을 국가(리바이어던)에 양도하는 사회계약설",
-        "주권의 통일성과 질서 유지가 자유보다 선행하는 최고의 정치적 가치임을 규정"
+        "국력의 전면적 소모를 초래하는 정면충돌(전쟁)을 피하고 지략과 외교로 승기를 굳히는 모공(謀攻)",
+        "적을 알고 나를 알면 백 번 싸워도 위태롭지 않다는 철저한 정보력(Intelligence) 우위",
+        "형세에 따라 물처럼 유연하게 형태를 바꾸는 비대칭 전략의 추구"
       ],
-      "application": "세계 정부가 없는 무정부적(Anarchic) 국제 질서에서 각국이 군사력과 경제 안보를 자급화하려는 자조(Self-help) 메커니즘을 규명합니다."
+      "application": "출혈 가격 경쟁을 피하고, 생태계 락인(Lock-in)과 우회 기술 개발을 통해 시장을 선점하는 기업 전략의 핵심 근거가 됩니다."
     }
   },
   "trends": {
@@ -1397,53 +1395,53 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "이현중, 우승의 눈물과 NBA 도전.",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%ED%98%84%EC%A4%91%2C%20%EC%9A%B0%EC%8A%B9%EC%9D%98%20%EB%88%88%EB%AC%BC%EA%B3%BC%20NBA%20%EB%8F%84%EC%A0%84."
+        "title": "이현중 NBA 도전 날개 달다",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%ED%98%84%EC%A4%91%20NBA%20%EB%8F%84%EC%A0%84%20%EB%82%A0%EA%B0%9C%20%EB%8B%AC%EB%8B%A4"
       },
       {
         "rank": 2,
-        "title": "니콜라스 마줄스 감독",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%8B%88%EC%BD%9C%EB%9D%BC%EC%8A%A4%20%EB%A7%88%EC%A4%84%EC%8A%A4%20%EA%B0%90%EB%8F%85"
+        "title": "남자 농구 금메달",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%82%A8%EC%9E%90%20%EB%86%8D%EA%B5%AC%20%EA%B8%88%EB%A9%94%EB%8B%AC"
       },
       {
         "rank": 3,
-        "title": "상반기 임금 반도체 영향",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%83%81%EB%B0%98%EA%B8%B0%20%EC%9E%84%EA%B8%88%20%EB%B0%98%EB%8F%84%EC%B2%B4%20%EC%98%81%ED%96%A5"
-      },
-      {
-        "rank": 4,
         "title": "김영범 황선우 아시안게임",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%98%81%EB%B2%94%20%ED%99%A9%EC%84%A0%EC%9A%B0%20%EC%95%84%EC%8B%9C%EC%95%88%EA%B2%8C%EC%9E%84"
       },
       {
+        "rank": 4,
+        "title": "상반기 임금 반도체 영향",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%83%81%EB%B0%98%EA%B8%B0%20%EC%9E%84%EA%B8%88%20%EB%B0%98%EB%8F%84%EC%B2%B4%20%EC%98%81%ED%96%A5"
+      },
+      {
         "rank": 5,
-        "title": "한동훈 김승원 사퇴하라",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%9C%EB%8F%99%ED%9B%88%20%EA%B9%80%EC%8A%B9%EC%9B%90%20%EC%82%AC%ED%87%B4%ED%95%98%EB%9D%BC"
+        "title": "리버풀",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%A6%AC%EB%B2%84%ED%92%80"
       },
       {
         "rank": 6,
+        "title": "하석진, 하니 가족 보호 나섰다",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%98%EC%84%9D%EC%A7%84%2C%20%ED%95%98%EB%8B%88%20%EA%B0%80%EC%A1%B1%20%EB%B3%B4%ED%98%B8%20%EB%82%98%EC%84%B0%EB%8B%A4"
+      },
+      {
+        "rank": 7,
+        "title": "맨시티",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%A7%A8%EC%8B%9C%ED%8B%B0"
+      },
+      {
+        "rank": 8,
         "title": "KTX 승차권 예매 확대",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=KTX%20%EC%8A%B9%EC%B0%A8%EA%B6%8C%20%EC%98%88%EB%A7%A4%20%ED%99%95%EB%8C%80"
       },
       {
-        "rank": 7,
-        "title": "북한, 추가 발사 급증",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B6%81%ED%95%9C%2C%20%EC%B6%94%EA%B0%80%20%EB%B0%9C%EC%82%AC%20%EA%B8%89%EC%A6%9D"
-      },
-      {
-        "rank": 8,
-        "title": "윤남노 3.8% 넘으면 삭발",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9C%A4%EB%82%A8%EB%85%B8%203.8%25%20%EB%84%98%EC%9C%BC%EB%A9%B4%20%EC%82%AD%EB%B0%9C"
-      },
-      {
         "rank": 9,
-        "title": "이주호 배영 동메달",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EC%A3%BC%ED%98%B8%20%EB%B0%B0%EC%98%81%20%EB%8F%99%EB%A9%94%EB%8B%AC"
+        "title": "한동훈 김승원 사퇴하라",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%9C%EB%8F%99%ED%9B%88%20%EA%B9%80%EC%8A%B9%EC%9B%90%20%EC%82%AC%ED%87%B4%ED%95%98%EB%9D%BC"
       },
       {
         "rank": 10,
-        "title": "장인상 비보와 임신 소식",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9E%A5%EC%9D%B8%EC%83%81%20%EB%B9%84%EB%B3%B4%EC%99%80%20%EC%9E%84%EC%8B%A0%20%EC%86%8C%EC%8B%9D"
+        "title": "이주호 배영 동메달",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EC%A3%BC%ED%98%B8%20%EB%B0%B0%EC%98%81%20%EB%8F%99%EB%A9%94%EB%8B%AC"
       }
     ],
     "youtube_popular": [
@@ -1451,7 +1449,7 @@
         "rank": 1,
         "title": "new trick",
         "channel": "ROSÉ - Topic",
-        "views": "52만회",
+        "views": "53만회",
         "thumb": "https://i.ytimg.com/vi/rJlR-b2OvBg/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=rJlR-b2OvBg"
       },
@@ -1467,7 +1465,7 @@
         "rank": 3,
         "title": "감스트 한판 더! 현질에 미친 남자들 1400만원 현질 FC온라인",
         "channel": "감스트GAMST",
-        "views": "91만회",
+        "views": "93만회",
         "thumb": "https://i.ytimg.com/vi/TzElCVVmPvA/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=TzElCVVmPvA"
       },
@@ -1475,7 +1473,7 @@
         "rank": 4,
         "title": "EPIKISM",
         "channel": "Epik High - Topic",
-        "views": "82만회",
+        "views": "83만회",
         "thumb": "https://i.ytimg.com/vi/T6E130hezSs/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=T6E130hezSs"
       },
@@ -1491,7 +1489,7 @@
         "rank": 6,
         "title": "ALLDAY PROJECT - ‘TALK’ M/V TEASER",
         "channel": "THEBLACKLABEL",
-        "views": "37만회",
+        "views": "48만회",
         "thumb": "https://i.ytimg.com/vi/NxFolKBDHds/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=NxFolKBDHds"
       },
@@ -1499,7 +1497,7 @@
         "rank": 7,
         "title": "KOR vs USA Esports 1차전 하이라이트 | 한화생명 초청 리그 오브 레전드 국가대표 평가전",
         "channel": "한국e스포츠협회",
-        "views": "88만회",
+        "views": "91만회",
         "thumb": "https://i.ytimg.com/vi/z0ihuKDvr4U/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=z0ihuKDvr4U"
       },
@@ -1515,7 +1513,7 @@
         "rank": 9,
         "title": "국제대회 우승 프로게이머의 심각한 부정행위",
         "channel": "수피",
-        "views": "54만회",
+        "views": "57만회",
         "thumb": "https://i.ytimg.com/vi/nRzb96rSFvc/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=nRzb96rSFvc"
       },
@@ -1523,7 +1521,7 @@
         "rank": 10,
         "title": "Four seasons, and you",
         "channel": "LEE CHANGSUB - Topic",
-        "views": "95만회",
+        "views": "96만회",
         "thumb": "https://i.ytimg.com/vi/4f8Lr9ZJK28/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=4f8Lr9ZJK28"
       }
