@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20 12:05:40",
+  "updated_at": "2026-09-20 13:05:50",
   "us2y": {
     "value": 4.76,
     "change": 0.09
@@ -131,45 +131,9 @@
         "title": "[디일렉] 온세미, 전력모듈 조립 공정 없앤다…웨이퍼에 칩 통째로 집적",
         "link": "https://www.thelec.kr/news/articleView.html?idxno=62534",
         "date": "09-18 19:46"
-      },
-      {
-        "title": "[전자신문] 추석 귀성길 사고 '연휴 전날' 집중…평상시보다 45.3% 급증",
-        "link": "https://www.etnews.com/20260918000190",
-        "date": "09-20 12:01"
-      },
-      {
-        "title": "[전자신문] [창간기획] AI에게 일을 맡기는 신인류…'호모 에이전티쿠스'가 온다",
-        "link": "https://www.etnews.com/20260920000075",
-        "date": "09-20 12:00"
       }
     ],
-    "domestic": [
-      {
-        "title": "中 기업 환전율 낮아졌는데 위안화는 4년래 최고…이유는",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435780",
-        "date": "09-20 10:05"
-      },
-      {
-        "title": "BOJ, 다음 금리인상 시점은",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435778",
-        "date": "09-20 10:00"
-      },
-      {
-        "title": "이란 안보수장 \"美에 종전 조건 보내…트럼프 대답 기다리고 있어\"",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435764",
-        "date": "09-20 05:43"
-      },
-      {
-        "title": "후티 반군 \"사우디 수도 리야드 타격…얀부항 아람코 시설도\"",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435763",
-        "date": "09-20 05:35"
-      },
-      {
-        "title": "\"달러-원, 단기 반등 후 펀더멘털 반영해 1,200원대로 하락할 것\"",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435749",
-        "date": "09-19 10:00"
-      }
-    ]
+    "domestic": []
   },
   "fedwatch": {
     "history": [
@@ -223,14 +187,14 @@
       "detail": "10Y-2Y 스프레드가 +24 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.61",
-      "title": "닥터 코퍼 $6.61선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.69",
+      "title": "닥터 코퍼 $6.69선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.61",
-          "chg": "+0.30%",
+          "val": "$6.69",
+          "chg": "+1.52%",
           "up": true
         },
         {
@@ -243,14 +207,14 @@
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$66.56",
-          "chg": "+1.66%",
+          "val": "$67.15",
+          "chg": "+2.57%",
           "up": true
         }
       ],
       "bullets": [
-        "구리 $6.61/lb (+0.30%) - AI 전력망 설비 수요 반영",
-        "금 $4,425/oz, 은 $66.56/oz - 통화가치 헤지"
+        "구리 $6.69/lb (+1.52%) - AI 전력망 설비 수요 반영",
+        "금 $4,425/oz, 은 $67.15/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
@@ -287,19 +251,19 @@
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $100.3",
-      "title": "WTI 배럴당 $100.3선 박스권 안정",
+      "badge": "WTI $96.08",
+      "title": "WTI 배럴당 $96.08선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$100.30",
-          "chg": "-1.58%",
+          "val": "$96.08",
+          "chg": "-5.72%",
           "up": false
         }
       ],
       "bullets": [
-        "WTI 선물 $100.3/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $96.08/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -307,20 +271,20 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.61,
-      "change": 0.3
+      "price": 6.69,
+      "change": 1.52
     },
     "gold": {
       "price": 4424.9,
       "change": 0.57
     },
     "silver": {
-      "price": 66.56,
-      "change": 1.66
+      "price": 67.15,
+      "change": 2.57
     },
     "wti": {
-      "price": 100.3,
-      "change": -1.58
+      "price": 96.08,
+      "change": -5.72
     },
     "usdkrw": {
       "price": 1385.0,
@@ -595,9 +559,9 @@
       },
       {
         "date": "09-18",
-        "copper": 6.61,
+        "copper": 6.69,
         "gold": 4424.9,
-        "silver": 66.56
+        "silver": 67.15
       }
     ],
     "fx": [
@@ -716,7 +680,7 @@
         "usdjpy": 156.13
       },
       {
-        "date": "09-19",
+        "date": "09-20",
         "usdkrw": 1385.0,
         "dxy": 100.22,
         "usdjpy": 156.85
@@ -820,8 +784,8 @@
       },
       {
         "date": "09-18",
-        "wti": 100.3,
-        "change": -1.58
+        "wti": 96.08,
+        "change": -5.72
       }
     ]
   },
@@ -1417,53 +1381,53 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "개헌추진단 간담회 김민석",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B0%9C%ED%97%8C%EC%B6%94%EC%A7%84%EB%8B%A8%20%EA%B0%84%EB%8B%B4%ED%9A%8C%20%EA%B9%80%EB%AF%BC%EC%84%9D"
+        "title": "개헌추진단 김민석 대표",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B0%9C%ED%97%8C%EC%B6%94%EC%A7%84%EB%8B%A8%20%EA%B9%80%EB%AF%BC%EC%84%9D%20%EB%8C%80%ED%91%9C"
       },
       {
         "rank": 2,
-        "title": "쿠팡 인천 화재 지원",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%BF%A0%ED%8C%A1%20%EC%9D%B8%EC%B2%9C%20%ED%99%94%EC%9E%AC%20%EC%A7%80%EC%9B%90"
+        "title": "최두호 KO패의 아쉬움",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B5%9C%EB%91%90%ED%98%B8%20KO%ED%8C%A8%EC%9D%98%20%EC%95%84%EC%89%AC%EC%9B%80"
       },
       {
         "rank": 3,
-        "title": "장애물 경기 성승민",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9E%A5%EC%95%A0%EB%AC%BC%20%EA%B2%BD%EA%B8%B0%20%EC%84%B1%EC%8A%B9%EB%AF%BC"
+        "title": "국가 온실가스 배출량",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B5%AD%EA%B0%80%20%EC%98%A8%EC%8B%A4%EA%B0%80%EC%8A%A4%20%EB%B0%B0%EC%B6%9C%EB%9F%89"
       },
       {
         "rank": 4,
-        "title": "LG전자 터보 칠러 출시",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=LG%EC%A0%84%EC%9E%90%20%ED%84%B0%EB%B3%B4%20%EC%B9%A0%EB%9F%AC%20%EC%B6%9C%EC%8B%9C"
+        "title": "추석 귀성길 사고",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B6%94%EC%84%9D%20%EA%B7%80%EC%84%B1%EA%B8%B8%20%EC%82%AC%EA%B3%A0"
       },
       {
         "rank": 5,
-        "title": "KTX 승차권 예매 확대",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=KTX%20%EC%8A%B9%EC%B0%A8%EA%B6%8C%20%EC%98%88%EB%A7%A4%20%ED%99%95%EB%8C%80"
+        "title": "신지은 동메달 첫 메달",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%8B%A0%EC%A7%80%EC%9D%80%20%EB%8F%99%EB%A9%94%EB%8B%AC%20%EC%B2%AB%20%EB%A9%94%EB%8B%AC"
       },
       {
         "rank": 6,
-        "title": "재벌X형사2 11.8% 종영",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9E%AC%EB%B2%8CX%ED%98%95%EC%82%AC2%2011.8%25%20%EC%A2%85%EC%98%81"
-      },
-      {
-        "rank": 7,
-        "title": "우슈 이용현 6위 아쉽다",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9A%B0%EC%8A%88%20%EC%9D%B4%EC%9A%A9%ED%98%84%206%EC%9C%84%20%EC%95%84%EC%89%BD%EB%8B%A4"
-      },
-      {
-        "rank": 8,
         "title": "하피냐",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%98%ED%94%BC%EB%83%90"
       },
       {
+        "rank": 7,
+        "title": "상반기 임금 반도체 영향",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%83%81%EB%B0%98%EA%B8%B0%20%EC%9E%84%EA%B8%88%20%EB%B0%98%EB%8F%84%EC%B2%B4%20%EC%98%81%ED%96%A5"
+      },
+      {
+        "rank": 8,
+        "title": "재벌 형사 시즌2",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9E%AC%EB%B2%8C%20%ED%98%95%EC%82%AC%20%EC%8B%9C%EC%A6%8C2"
+      },
+      {
         "rank": 9,
-        "title": "신지은 아시안게임 동메달",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%8B%A0%EC%A7%80%EC%9D%80%20%EC%95%84%EC%8B%9C%EC%95%88%EA%B2%8C%EC%9E%84%20%EB%8F%99%EB%A9%94%EB%8B%AC"
+        "title": "트럼프 언론 백악관 출입 금지",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%8A%B8%EB%9F%BC%ED%94%84%20%EC%96%B8%EB%A1%A0%20%EB%B0%B1%EC%95%85%EA%B4%80%20%EC%B6%9C%EC%9E%85%20%EA%B8%88%EC%A7%80"
       },
       {
         "rank": 10,
-        "title": "손흥민 LAFC 산호세 무승부",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%86%90%ED%9D%A5%EB%AF%BC%20LAFC%20%EC%82%B0%ED%98%B8%EC%84%B8%20%EB%AC%B4%EC%8A%B9%EB%B6%80"
+        "title": "노엘, 200억 탈세·마약 의혹 격노",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%85%B8%EC%97%98%2C%20200%EC%96%B5%20%ED%83%88%EC%84%B8%C2%B7%EB%A7%88%EC%95%BD%20%EC%9D%98%ED%98%B9%20%EA%B2%A9%EB%85%B8"
       }
     ],
     "youtube_popular": [
@@ -1471,7 +1435,7 @@
         "rank": 1,
         "title": "EPIKISM",
         "channel": "Epik High - Topic",
-        "views": "71만회",
+        "views": "72만회",
         "thumb": "https://i.ytimg.com/vi/T6E130hezSs/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=T6E130hezSs"
       },
@@ -1479,7 +1443,7 @@
         "rank": 2,
         "title": "정점을 향한 마지막 한 걸음 | [메이드 인 코리아 시즌2] 5-6회 예고편 | 디즈니+",
         "channel": "Disney Plus Korea 디즈니 플러스 코리아",
-        "views": "32만회",
+        "views": "33만회",
         "thumb": "https://i.ytimg.com/vi/cYMTSCgTPWo/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=cYMTSCgTPWo"
       },
@@ -1487,7 +1451,7 @@
         "rank": 3,
         "title": "감스트 한판 더! 현질에 미친 남자들 1400만원 현질 FC온라인",
         "channel": "감스트GAMST",
-        "views": "66만회",
+        "views": "70만회",
         "thumb": "https://i.ytimg.com/vi/TzElCVVmPvA/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=TzElCVVmPvA"
       },
@@ -1495,7 +1459,7 @@
         "rank": 4,
         "title": "ROSÉ - new trick (OFFICIAL MUSIC VIDEO)",
         "channel": "ROSÉ",
-        "views": "2189만회",
+        "views": "2230만회",
         "thumb": "https://i.ytimg.com/vi/Lufa9QAFFeY/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=Lufa9QAFFeY"
       },
@@ -1509,33 +1473,33 @@
       },
       {
         "rank": 6,
-        "title": "CS 광산",
-        "channel": "PAKA",
-        "views": "40만회",
-        "thumb": "https://i.ytimg.com/vi/afOVx31FuB8/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=afOVx31FuB8"
+        "title": "동특 최종",
+        "channel": "승상싱",
+        "views": "38만회",
+        "thumb": "https://i.ytimg.com/vi/sCPxdKLVoB4/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=sCPxdKLVoB4"
       },
       {
         "rank": 7,
         "title": "Looks like love",
         "channel": "Juho - Topic",
-        "views": "9만회",
+        "views": "10만회",
         "thumb": "https://i.ytimg.com/vi/YAFxgKFgMCk/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=YAFxgKFgMCk"
       },
       {
         "rank": 8,
-        "title": "동특 최종",
-        "channel": "승상싱",
-        "views": "35만회",
-        "thumb": "https://i.ytimg.com/vi/sCPxdKLVoB4/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=sCPxdKLVoB4"
+        "title": "CS 광산",
+        "channel": "PAKA",
+        "views": "42만회",
+        "thumb": "https://i.ytimg.com/vi/afOVx31FuB8/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=afOVx31FuB8"
       },
       {
         "rank": 9,
         "title": "Four seasons, and you",
         "channel": "LEE CHANGSUB - Topic",
-        "views": "84만회",
+        "views": "85만회",
         "thumb": "https://i.ytimg.com/vi/4f8Lr9ZJK28/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=4f8Lr9ZJK28"
       },
@@ -1543,7 +1507,7 @@
         "rank": 10,
         "title": "KOR vs USA Esports 1차전 하이라이트 | 한화생명 초청 리그 오브 레전드 국가대표 평가전",
         "channel": "한국e스포츠협회",
-        "views": "40만회",
+        "views": "50만회",
         "thumb": "https://i.ytimg.com/vi/z0ihuKDvr4U/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=z0ihuKDvr4U"
       }
