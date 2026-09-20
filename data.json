@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20 10:05:11",
+  "updated_at": "2026-09-20 11:05:47",
   "us2y": {
     "value": 4.76,
     "change": 0.09
@@ -123,7 +123,7 @@
         "date": "09-19 11:30"
       },
       {
-        "title": "[디일렉] 카카오게임즈, 140명 정보 유출…공격 26시간 뒤에야 인지",
+        "title": "[디일렉] 카카오게임즈, 140명 정보 유출…\"개인 특정은 어려울 듯\"",
         "link": "https://www.thelec.kr/news/articleView.html?idxno=62513",
         "date": "09-19 11:20"
       },
@@ -133,17 +133,27 @@
         "date": "09-18 19:46"
       },
       {
-        "title": "[전자신문] NST, 아동양육시설에 위문품 전달 및 봉사...추석 앞두고 사회적 가치 실현",
-        "link": "https://www.etnews.com/20260920000032",
-        "date": "09-20 10:02"
+        "title": "[전자신문] 한우, 카타르 수출길 열렸다…10월 냉장육 100㎏ 첫 선적",
+        "link": "https://www.etnews.com/20260920000054",
+        "date": "09-20 11:00"
       },
       {
-        "title": "[전자신문] 비씨 없는 우리카드, 페이북과 결별…독자카드 매출 절반 넘어",
-        "link": "https://www.etnews.com/20260918000040",
-        "date": "09-20 10:00"
+        "title": "[전자신문] '안전운송용 보험' 의무화...배달종사자 보험료 최대 11% 할인",
+        "link": "https://www.etnews.com/20260920000050",
+        "date": "09-20 11:00"
       }
     ],
     "domestic": [
+      {
+        "title": "中 기업 환전율 낮아졌는데 위안화는 4년래 최고…이유는",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435780",
+        "date": "09-20 10:05"
+      },
+      {
+        "title": "BOJ, 다음 금리인상 시점은",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435778",
+        "date": "09-20 10:00"
+      },
       {
         "title": "이란 안보수장 \"美에 종전 조건 보내…트럼프 대답 기다리고 있어\"",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435764",
@@ -158,16 +168,6 @@
         "title": "\"달러-원, 단기 반등 후 펀더멘털 반영해 1,200원대로 하락할 것\"",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435749",
         "date": "09-19 10:00"
-      },
-      {
-        "title": "\"추석 계절요인에 단기 국채발행까지…단기금리 상승 가능성\"",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435748",
-        "date": "09-19 09:20"
-      },
-      {
-        "title": "BOJ보다 무서운 실버위크…'레이트 체크'까지, 엔화 개입 경계 고조",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435747",
-        "date": "09-19 09:05"
       }
     ]
   },
@@ -1417,53 +1417,53 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "올 뉴 투싼 공개",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%98%AC%20%EB%89%B4%20%ED%88%AC%EC%8B%BC%20%EA%B3%B5%EA%B0%9C"
+        "title": "강인한 디자인의 올 뉴 투싼",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B0%95%EC%9D%B8%ED%95%9C%20%EB%94%94%EC%9E%90%EC%9D%B8%EC%9D%98%20%EC%98%AC%20%EB%89%B4%20%ED%88%AC%EC%8B%BC"
       },
       {
         "rank": 2,
-        "title": "재벌 형사 시즌2",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9E%AC%EB%B2%8C%20%ED%98%95%EC%82%AC%20%EC%8B%9C%EC%A6%8C2"
+        "title": "연기 펼치는 이용현",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%97%B0%EA%B8%B0%20%ED%8E%BC%EC%B9%98%EB%8A%94%20%EC%9D%B4%EC%9A%A9%ED%98%84"
       },
       {
         "rank": 3,
+        "title": "재벌형사2 오늘 종영",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9E%AC%EB%B2%8C%ED%98%95%EC%82%AC2%20%EC%98%A4%EB%8A%98%20%EC%A2%85%EC%98%81"
+      },
+      {
+        "rank": 4,
         "title": "개인정보 CI 분리",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4%20CI%20%EB%B6%84%EB%A6%AC"
       },
       {
-        "rank": 4,
-        "title": "안보현·정은채 마지막 인사",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%88%EB%B3%B4%ED%98%84%C2%B7%EC%A0%95%EC%9D%80%EC%B1%84%20%EB%A7%88%EC%A7%80%EB%A7%89%20%EC%9D%B8%EC%82%AC"
+        "rank": 5,
+        "title": "하피냐",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%98%ED%94%BC%EB%83%90"
       },
       {
-        "rank": 5,
+        "rank": 6,
         "title": "석유 최고가격 동결",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%84%9D%EC%9C%A0%20%EC%B5%9C%EA%B3%A0%EA%B0%80%EA%B2%A9%20%EB%8F%99%EA%B2%B0"
       },
       {
-        "rank": 6,
-        "title": "한국 U-20 여자축구 1-3 패배",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%9C%EA%B5%AD%20U-20%20%EC%97%AC%EC%9E%90%EC%B6%95%EA%B5%AC%201-3%20%ED%8C%A8%EB%B0%B0"
-      },
-      {
         "rank": 7,
-        "title": "추석 연휴 안전·의료 종합대책 마련",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B6%94%EC%84%9D%20%EC%97%B0%ED%9C%B4%20%EC%95%88%EC%A0%84%C2%B7%EC%9D%98%EB%A3%8C%20%EC%A2%85%ED%95%A9%EB%8C%80%EC%B1%85%20%EB%A7%88%EB%A0%A8"
+        "title": "구자은 LS 회장 AI로 가치 창출하자.",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B5%AC%EC%9E%90%EC%9D%80%20LS%20%ED%9A%8C%EC%9E%A5%20AI%EB%A1%9C%20%EA%B0%80%EC%B9%98%20%EC%B0%BD%EC%B6%9C%ED%95%98%EC%9E%90."
       },
       {
         "rank": 8,
-        "title": "유주상",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9C%A0%EC%A3%BC%EC%83%81"
+        "title": "최두호",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B5%9C%EB%91%90%ED%98%B8"
       },
       {
         "rank": 9,
-        "title": "최예나",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B5%9C%EC%98%88%EB%82%98"
+        "title": "구리 코스모스 축제 안전",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B5%AC%EB%A6%AC%20%EC%BD%94%EC%8A%A4%EB%AA%A8%EC%8A%A4%20%EC%B6%95%EC%A0%9C%20%EC%95%88%EC%A0%84"
       },
       {
         "rank": 10,
-        "title": "경기상상캠퍼스 판화 워크숍",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B2%BD%EA%B8%B0%EC%83%81%EC%83%81%EC%BA%A0%ED%8D%BC%EC%8A%A4%20%ED%8C%90%ED%99%94%20%EC%9B%8C%ED%81%AC%EC%88%8D"
+        "title": "일본 호조 아시안게임 첫 금",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%BC%EB%B3%B8%20%ED%98%B8%EC%A1%B0%20%EC%95%84%EC%8B%9C%EC%95%88%EA%B2%8C%EC%9E%84%20%EC%B2%AB%20%EA%B8%88"
       }
     ],
     "youtube_popular": [
@@ -1471,7 +1471,7 @@
         "rank": 1,
         "title": "EPIKISM",
         "channel": "Epik High - Topic",
-        "views": "69만회",
+        "views": "70만회",
         "thumb": "https://i.ytimg.com/vi/T6E130hezSs/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=T6E130hezSs"
       },
@@ -1479,7 +1479,7 @@
         "rank": 2,
         "title": "정점을 향한 마지막 한 걸음 | [메이드 인 코리아 시즌2] 5-6회 예고편 | 디즈니+",
         "channel": "Disney Plus Korea 디즈니 플러스 코리아",
-        "views": "31만회",
+        "views": "32만회",
         "thumb": "https://i.ytimg.com/vi/cYMTSCgTPWo/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=cYMTSCgTPWo"
       },
@@ -1487,7 +1487,7 @@
         "rank": 3,
         "title": "감스트 한판 더! 현질에 미친 남자들 1400만원 현질 FC온라인",
         "channel": "감스트GAMST",
-        "views": "61만회",
+        "views": "63만회",
         "thumb": "https://i.ytimg.com/vi/TzElCVVmPvA/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=TzElCVVmPvA"
       },
@@ -1495,7 +1495,7 @@
         "rank": 4,
         "title": "ROSÉ - new trick (OFFICIAL MUSIC VIDEO)",
         "channel": "ROSÉ",
-        "views": "2069만회",
+        "views": "2131만회",
         "thumb": "https://i.ytimg.com/vi/Lufa9QAFFeY/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=Lufa9QAFFeY"
       },
@@ -1511,7 +1511,7 @@
         "rank": 6,
         "title": "CS 광산",
         "channel": "PAKA",
-        "views": "38만회",
+        "views": "39만회",
         "thumb": "https://i.ytimg.com/vi/afOVx31FuB8/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=afOVx31FuB8"
       },
@@ -1525,27 +1525,27 @@
       },
       {
         "rank": 8,
-        "title": "대피라미드가 생긴 마인크래프트 서버 생존기",
-        "channel": "코마",
-        "views": "77만회",
-        "thumb": "https://i.ytimg.com/vi/oJsTrDDyETE/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=oJsTrDDyETE"
+        "title": "동특 최종",
+        "channel": "승상싱",
+        "views": "32만회",
+        "thumb": "https://i.ytimg.com/vi/sCPxdKLVoB4/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=sCPxdKLVoB4"
       },
       {
         "rank": 9,
         "title": "Four seasons, and you",
         "channel": "LEE CHANGSUB - Topic",
-        "views": "83만회",
+        "views": "84만회",
         "thumb": "https://i.ytimg.com/vi/4f8Lr9ZJK28/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=4f8Lr9ZJK28"
       },
       {
         "rank": 10,
-        "title": "동특 최종",
-        "channel": "승상싱",
-        "views": "29만회",
-        "thumb": "https://i.ytimg.com/vi/sCPxdKLVoB4/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=sCPxdKLVoB4"
+        "title": "대피라미드가 생긴 마인크래프트 서버 생존기",
+        "channel": "코마",
+        "views": "77만회",
+        "thumb": "https://i.ytimg.com/vi/oJsTrDDyETE/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=oJsTrDDyETE"
       }
     ]
   }
