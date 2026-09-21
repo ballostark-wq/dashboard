@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21 19:05:50",
+  "updated_at": "2026-09-21 20:05:29",
   "us2y": {
     "value": 4.76,
     "change": 0.09
@@ -21,8 +21,8 @@
     "status": "정상화 (우상향)"
   },
   "vix": {
-    "value": 14.93,
-    "change": 0.81
+    "value": 14.89,
+    "change": 0.54
   },
   "tech_news": [
     {
@@ -118,32 +118,37 @@
     ],
     "tech": [
       {
-        "title": "[디일렉] 글로벌테크놀로지, 차량용 반도체로 외연 확장...전장사향 제품 양산",
-        "link": "https://www.thelec.kr/news/articleView.html?idxno=62562",
-        "date": "09-21 17:53"
+        "title": "[디일렉] 제이앤티씨, 김천에 3470억 투자…TGV 유리기판 공장 신설",
+        "link": "https://www.thelec.kr/news/articleView.html?idxno=62616",
+        "date": "09-21 19:42"
       },
       {
-        "title": "[디일렉] 네오위즈, ‘디제이맥스 리스펙트 V’ 공연 10월 10일 개최",
-        "link": "https://www.thelec.kr/news/articleView.html?idxno=62612",
-        "date": "09-21 17:29"
+        "title": "[디일렉] HL만도, 평택공장 사고 후 안전보건실 신설",
+        "link": "https://www.thelec.kr/news/articleView.html?idxno=62614",
+        "date": "09-21 19:42"
       },
       {
-        "title": "[디일렉] 엠아이티, 코스닥 상장예비심사 청구...기술특례상장 추진",
-        "link": "https://www.thelec.kr/news/articleView.html?idxno=62581",
-        "date": "09-21 17:28"
+        "title": "[디일렉] 한화에어로, 국내 43개사와 'K-무인기' 생태계 구축",
+        "link": "https://www.thelec.kr/news/articleView.html?idxno=62618",
+        "date": "09-21 19:42"
+      },
+      {
+        "title": "[전자신문] 대만 정부, 쿠팡 '20만명 정보유출'에 6000만원대 과징금 부과",
+        "link": "https://www.etnews.com/20260921000437",
+        "date": "09-21 19:40"
       },
       {
         "title": "[전자신문] 李대통령, 21일 美 뉴욕으로 출국…24일 멕시코 대통령과 정상회담",
         "link": "https://www.etnews.com/20260921000210",
         "date": "09-21 18:30"
-      },
-      {
-        "title": "[전자신문] 대미투자 협상 막판 진통…22일 국회 보고 앞두고 한미 이견",
-        "link": "https://www.etnews.com/20260921000436",
-        "date": "09-21 18:19"
       }
     ],
     "domestic": [
+      {
+        "title": "달러-원, 런던장서 1,371.00원으로 급락",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435974",
+        "date": "09-21 19:35"
+      },
       {
         "title": "IRS 금리 중단기 중심 상승…연휴 앞두고 수급 부진 지속",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435972",
@@ -163,11 +168,6 @@
         "title": "달러-원, 런던장서 1,375.00원 거래는 딜미스…합의 취소(상보)",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435968",
         "date": "09-21 18:30"
-      },
-      {
-        "title": "FX스와프, 분기말·지준일 앞둔 원화 수요에 상승",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435966",
-        "date": "09-21 18:28"
       }
     ]
   },
@@ -223,83 +223,83 @@
       "detail": "10Y-2Y 스프레드가 +24 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.77",
-      "title": "닥터 코퍼 $6.77선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.78",
+      "title": "닥터 코퍼 $6.78선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.77",
-          "chg": "+2.42%",
+          "val": "$6.78",
+          "chg": "+2.57%",
           "up": true
         },
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,383.6",
-          "chg": "-0.93%",
+          "val": "$4,384.6",
+          "chg": "-0.91%",
           "up": false
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$66.67",
-          "chg": "+0.17%",
-          "up": true
+          "val": "$66.51",
+          "chg": "-0.08%",
+          "up": false
         }
       ],
       "bullets": [
-        "구리 $6.77/lb (+2.42%) - AI 전력망 설비 수요 반영",
-        "금 $4,384/oz, 은 $66.67/oz - 통화가치 헤지"
+        "구리 $6.78/lb (+2.57%) - AI 전력망 설비 수요 반영",
+        "금 $4,385/oz, 은 $66.51/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,372원 | 엔/달러 ¥157.2",
-      "title": "원/달러 1,372.2원선과 엔/달러 ¥157.2",
+      "badge": "원/달러 1,372원 | 엔/달러 ¥157.3",
+      "title": "원/달러 1,371.8원선과 엔/달러 ¥157.3",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,372.2원",
-          "chg": "-0.53%",
+          "val": "1,371.8원",
+          "chg": "-0.56%",
           "up": false
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "100.32pt",
-          "chg": "+0.10%",
+          "val": "100.30pt",
+          "chg": "+0.08%",
           "up": true
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥157.23",
-          "chg": "+0.70%",
+          "val": "¥157.27",
+          "chg": "+0.73%",
           "up": true
         }
       ],
       "bullets": [
-        "달러 인덱스 100.32pt - 미국 성장 우위 지속",
-        "엔/달러 157.23엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 100.3pt - 미국 성장 우위 지속",
+        "엔/달러 157.27엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $93.52",
-      "title": "WTI 배럴당 $93.52선 박스권 안정",
+      "badge": "WTI $92.96",
+      "title": "WTI 배럴당 $92.96선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$93.52",
-          "chg": "-6.76%",
+          "val": "$92.96",
+          "chg": "-7.32%",
           "up": false
         }
       ],
       "bullets": [
-        "WTI 선물 $93.52/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $92.96/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -307,32 +307,32 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.77,
-      "change": 2.42
+      "price": 6.78,
+      "change": 2.57
     },
     "gold": {
-      "price": 4383.6,
-      "change": -0.93
+      "price": 4384.6,
+      "change": -0.91
     },
     "silver": {
-      "price": 66.67,
-      "change": 0.17
+      "price": 66.51,
+      "change": -0.08
     },
     "wti": {
-      "price": 93.52,
-      "change": -6.76
+      "price": 92.96,
+      "change": -7.32
     },
     "usdkrw": {
-      "price": 1372.2,
-      "change": -0.53
+      "price": 1371.85,
+      "change": -0.56
     },
     "dxy": {
-      "price": 100.32,
-      "change": 0.1
+      "price": 100.3,
+      "change": 0.08
     },
     "usdjpy": {
-      "price": 157.23,
-      "change": 0.7
+      "price": 157.27,
+      "change": 0.73
     }
   },
   "history_20d": {
@@ -595,9 +595,9 @@
       },
       {
         "date": "09-21",
-        "copper": 6.77,
-        "gold": 4383.6,
-        "silver": 66.67
+        "copper": 6.78,
+        "gold": 4384.6,
+        "silver": 66.51
       }
     ],
     "fx": [
@@ -717,9 +717,9 @@
       },
       {
         "date": "09-21",
-        "usdkrw": 1372.2,
-        "dxy": 100.32,
-        "usdjpy": 157.23
+        "usdkrw": 1371.85,
+        "dxy": 100.3,
+        "usdjpy": 157.27
       }
     ],
     "oil": [
@@ -820,8 +820,8 @@
       },
       {
         "date": "09-21",
-        "wti": 93.52,
-        "change": -6.76
+        "wti": 92.96,
+        "change": -7.32
       }
     ]
   },
@@ -1415,33 +1415,33 @@
       },
       {
         "rank": 3,
-        "title": "조성현 부회장 대치 상황",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A1%B0%EC%84%B1%ED%98%84%20%EB%B6%80%ED%9A%8C%EC%9E%A5%20%EB%8C%80%EC%B9%98%20%EC%83%81%ED%99%A9"
+        "title": "DMZ 지뢰 폭발",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=DMZ%20%EC%A7%80%EB%A2%B0%20%ED%8F%AD%EB%B0%9C"
       },
       {
         "rank": 4,
-        "title": "공공주택 119만호 공급",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B3%B5%EA%B3%B5%EC%A3%BC%ED%83%9D%20119%EB%A7%8C%ED%98%B8%20%EA%B3%B5%EA%B8%89"
+        "title": "아시안게임",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%84%EC%8B%9C%EC%95%88%EA%B2%8C%EC%9E%84"
       },
       {
         "rank": 5,
-        "title": "모레노 감독 훈련 지켜봄",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%AA%A8%EB%A0%88%EB%85%B8%20%EA%B0%90%EB%8F%85%20%ED%9B%88%EB%A0%A8%20%EC%A7%80%EC%BC%9C%EB%B4%84"
+        "title": "김대범 대리기사 폭행 해명",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EB%8C%80%EB%B2%94%20%EB%8C%80%EB%A6%AC%EA%B8%B0%EC%82%AC%20%ED%8F%AD%ED%96%89%20%ED%95%B4%EB%AA%85"
       },
       {
         "rank": 6,
-        "title": "심수봉, 김다현에 사과",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%8B%AC%EC%88%98%EB%B4%89%2C%20%EA%B9%80%EB%8B%A4%ED%98%84%EC%97%90%20%EC%82%AC%EA%B3%BC"
+        "title": "추석 연휴 무료 및 할인 행사",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B6%94%EC%84%9D%20%EC%97%B0%ED%9C%B4%20%EB%AC%B4%EB%A3%8C%20%EB%B0%8F%20%ED%95%A0%EC%9D%B8%20%ED%96%89%EC%82%AC"
       },
       {
         "rank": 7,
-        "title": "벌금 500만원 수면제 대리 수령",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B2%8C%EA%B8%88%20500%EB%A7%8C%EC%9B%90%20%EC%88%98%EB%A9%B4%EC%A0%9C%20%EB%8C%80%EB%A6%AC%20%EC%88%98%EB%A0%B9"
+        "title": "중수청 2차 임용 201명 신청",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A4%91%EC%88%98%EC%B2%AD%202%EC%B0%A8%20%EC%9E%84%EC%9A%A9%20201%EB%AA%85%20%EC%8B%A0%EC%B2%AD"
       },
       {
         "rank": 8,
-        "title": "발로란트 추석 이벤트",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B0%9C%EB%A1%9C%EB%9E%80%ED%8A%B8%20%EC%B6%94%EC%84%9D%20%EC%9D%B4%EB%B2%A4%ED%8A%B8"
+        "title": "고양 의왕 공공주택지구",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B3%A0%EC%96%91%20%EC%9D%98%EC%99%95%20%EA%B3%B5%EA%B3%B5%EC%A3%BC%ED%83%9D%EC%A7%80%EA%B5%AC"
       },
       {
         "rank": 9,
@@ -1450,8 +1450,8 @@
       },
       {
         "rank": 10,
-        "title": "양승혜",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%96%91%EC%8A%B9%ED%98%9C"
+        "title": "포핸즈 강비오 슬럼프 극복 예고",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%8F%AC%ED%95%B8%EC%A6%88%20%EA%B0%95%EB%B9%84%EC%98%A4%20%EC%8A%AC%EB%9F%BC%ED%94%84%20%EA%B7%B9%EB%B3%B5%20%EC%98%88%EA%B3%A0"
       }
     ],
     "youtube_popular": [
@@ -1475,7 +1475,7 @@
         "rank": 3,
         "title": "KOR vs VIE 2차전 하이라이트 | 한화생명 초청 리그 오브 레전드 국가대표 평가전",
         "channel": "한국e스포츠협회",
-        "views": "60만회",
+        "views": "64만회",
         "thumb": "https://i.ytimg.com/vi/DcST-XbCuCI/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=DcST-XbCuCI"
       },
@@ -1483,7 +1483,7 @@
         "rank": 4,
         "title": "Swingin’ Magic (Korean Ver.)",
         "channel": "ILLIT - Topic",
-        "views": "13만회",
+        "views": "14만회",
         "thumb": "https://i.ytimg.com/vi/6Xr3nCSxs_A/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=6Xr3nCSxs_A"
       },
@@ -1499,7 +1499,7 @@
         "rank": 6,
         "title": "\"방플해도 돼?\" 프로게이머의 방플 논란.. 그리고 크래프톤의 말도 안 되는 대응",
         "channel": "저라뎃 JUSTLIKETHAT",
-        "views": "97만회",
+        "views": "100만회",
         "thumb": "https://i.ytimg.com/vi/DA-a0scaugM/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=DA-a0scaugM"
       },
@@ -1507,7 +1507,7 @@
         "rank": 7,
         "title": "new trick",
         "channel": "ROSÉ - Topic",
-        "views": "67만회",
+        "views": "68만회",
         "thumb": "https://i.ytimg.com/vi/rJlR-b2OvBg/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=rJlR-b2OvBg"
       },
@@ -1515,7 +1515,7 @@
         "rank": 8,
         "title": "PUBG의 부정행위 방관과 부정 프로게이머의 사이버불링",
         "channel": "수피",
-        "views": "73만회",
+        "views": "74만회",
         "thumb": "https://i.ytimg.com/vi/1hnrgQm1MP8/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=1hnrgQm1MP8"
       },
@@ -1523,7 +1523,7 @@
         "rank": 9,
         "title": "ALLDAY PROJECT - ‘TALK’ M/V TEASER",
         "channel": "THEBLACKLABEL",
-        "views": "136만회",
+        "views": "137만회",
         "thumb": "https://i.ytimg.com/vi/NxFolKBDHds/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=NxFolKBDHds"
       },
@@ -1531,7 +1531,7 @@
         "rank": 10,
         "title": "미칠 거 같은 남자",
         "channel": "괴물쥐 유튜브",
-        "views": "51만회",
+        "views": "52만회",
         "thumb": "https://i.ytimg.com/vi/PIaap68E-5o/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=PIaap68E-5o"
       }
