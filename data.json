@@ -1,28 +1,28 @@
 {
-  "updated_at": "2026-09-22 03:06:48",
+  "updated_at": "2026-09-22 04:04:58",
   "us2y": {
     "value": 4.76,
     "change": 0.09
   },
   "us5y": {
-    "value": 4.84,
-    "change": -0.02
+    "value": 4.83,
+    "change": -0.03
   },
   "us10y": {
-    "value": 4.97,
-    "change": -0.03
+    "value": 4.96,
+    "change": -0.04
   },
   "us30y": {
     "value": 5.3,
     "change": -0.03
   },
   "spread": {
-    "value": 21,
+    "value": 20,
     "status": "정상화 (우상향)"
   },
   "vix": {
-    "value": 15.03,
-    "change": 1.49
+    "value": 15.01,
+    "change": 1.35
   },
   "tech_news": [
     {
@@ -184,21 +184,21 @@
   },
   "macro_reviews": {
     "bonds": {
-      "badge": "스프레드 +21 bp",
-      "title": "미국채 10년물 4.97%선 공방과 정상화",
+      "badge": "스프레드 +20 bp",
+      "title": "미국채 10년물 4.96%선 공방과 정상화",
       "metrics": [
         {
           "id": "spread",
           "name": "10Y-2Y차",
-          "val": "+21 bp",
+          "val": "+20 bp",
           "chg": "정상화 (우상향)",
           "up": true
         },
         {
           "id": "us10y",
           "name": "10년물",
-          "val": "4.97%",
-          "chg": "-0.03%",
+          "val": "4.96%",
+          "chg": "-0.04%",
           "up": false
         },
         {
@@ -217,59 +217,59 @@
         }
       ],
       "bullets": [
-        "10년물 4.97%와 2년물 4.76% 형성으로 스프레드 +21 bp 유지",
+        "10년물 4.96%와 2년물 4.76% 형성으로 스프레드 +20 bp 유지",
         "초장기 30년물 5.3%선 안착 속 재정 적자 발행에 따른 기간 프리미엄"
       ],
-      "detail": "10Y-2Y 스프레드가 +21 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
+      "detail": "10Y-2Y 스프레드가 +20 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.76",
-      "title": "닥터 코퍼 $6.76선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.78",
+      "title": "닥터 코퍼 $6.78선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.76",
-          "chg": "+2.27%",
+          "val": "$6.78",
+          "chg": "+2.57%",
           "up": true
         },
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,383.0",
-          "chg": "-0.95%",
+          "val": "$4,386.3",
+          "chg": "-0.87%",
           "up": false
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$66.35",
-          "chg": "-0.32%",
-          "up": false
+          "val": "$66.59",
+          "chg": "+0.05%",
+          "up": true
         }
       ],
       "bullets": [
-        "구리 $6.76/lb (+2.27%) - AI 전력망 설비 수요 반영",
-        "금 $4,383/oz, 은 $66.35/oz - 통화가치 헤지"
+        "구리 $6.78/lb (+2.57%) - AI 전력망 설비 수요 반영",
+        "금 $4,386/oz, 은 $66.59/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,374원 | 엔/달러 ¥157.5",
-      "title": "원/달러 1,374.3원선과 엔/달러 ¥157.5",
+      "badge": "원/달러 1,375원 | 엔/달러 ¥157.5",
+      "title": "원/달러 1,375.0원선과 엔/달러 ¥157.5",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,374.3원",
-          "chg": "-0.38%",
+          "val": "1,375.0원",
+          "chg": "-0.33%",
           "up": false
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "100.41pt",
-          "chg": "+0.19%",
+          "val": "100.43pt",
+          "chg": "+0.21%",
           "up": true
         },
         {
@@ -281,25 +281,25 @@
         }
       ],
       "bullets": [
-        "달러 인덱스 100.41pt - 미국 성장 우위 지속",
+        "달러 인덱스 100.43pt - 미국 성장 우위 지속",
         "엔/달러 157.47엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $92.16",
-      "title": "WTI 배럴당 $92.16선 박스권 안정",
+      "badge": "WTI $92.56",
+      "title": "WTI 배럴당 $92.56선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$92.16",
-          "chg": "-8.12%",
+          "val": "$92.56",
+          "chg": "-7.72%",
           "up": false
         }
       ],
       "bullets": [
-        "WTI 선물 $92.16/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $92.56/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -307,28 +307,28 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.76,
-      "change": 2.27
+      "price": 6.78,
+      "change": 2.57
     },
     "gold": {
-      "price": 4383.0,
-      "change": -0.95
+      "price": 4386.3,
+      "change": -0.87
     },
     "silver": {
-      "price": 66.35,
-      "change": -0.32
+      "price": 66.59,
+      "change": 0.05
     },
     "wti": {
-      "price": 92.16,
-      "change": -8.12
+      "price": 92.56,
+      "change": -7.72
     },
     "usdkrw": {
-      "price": 1374.3,
-      "change": -0.38
+      "price": 1374.95,
+      "change": -0.33
     },
     "dxy": {
-      "price": 100.41,
-      "change": 0.19
+      "price": 100.43,
+      "change": 0.21
     },
     "usdjpy": {
       "price": 157.47,
@@ -472,10 +472,10 @@
       },
       {
         "date": "09-21",
-        "us10y": 4.97,
+        "us10y": 4.96,
         "us2y": 4.76,
         "us30y": 5.3,
-        "spread": 21
+        "spread": 20
       }
     ],
     "commodities": [
@@ -595,9 +595,9 @@
       },
       {
         "date": "09-21",
-        "copper": 6.76,
-        "gold": 4383.0,
-        "silver": 66.35
+        "copper": 6.78,
+        "gold": 4386.3,
+        "silver": 66.59
       }
     ],
     "fx": [
@@ -717,8 +717,8 @@
       },
       {
         "date": "09-21",
-        "usdkrw": 1374.3,
-        "dxy": 100.41,
+        "usdkrw": 1374.95,
+        "dxy": 100.43,
         "usdjpy": 157.47
       }
     ],
@@ -820,8 +820,8 @@
       },
       {
         "date": "09-21",
-        "wti": 92.16,
-        "change": -8.12
+        "wti": 92.56,
+        "change": -7.72
       }
     ]
   },
@@ -1407,53 +1407,53 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "남자 계영 동메달 획득",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%82%A8%EC%9E%90%20%EA%B3%84%EC%98%81%20%EB%8F%99%EB%A9%94%EB%8B%AC%20%ED%9A%8D%EB%93%9D"
+        "title": "곽빈 대만 완파! 5연패 시작",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B3%BD%EB%B9%88%20%EB%8C%80%EB%A7%8C%20%EC%99%84%ED%8C%8C%21%205%EC%97%B0%ED%8C%A8%20%EC%8B%9C%EC%9E%91"
       },
       {
         "rank": 2,
-        "title": "강훈식 사의 결단",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B0%95%ED%9B%88%EC%8B%9D%20%EC%82%AC%EC%9D%98%20%EA%B2%B0%EB%8B%A8"
+        "title": "강훈식 비서실장 사의",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B0%95%ED%9B%88%EC%8B%9D%20%EB%B9%84%EC%84%9C%EC%8B%A4%EC%9E%A5%20%EC%82%AC%EC%9D%98"
       },
       {
         "rank": 3,
-        "title": "김영범 자유형 50m 신기록",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%98%81%EB%B2%94%20%EC%9E%90%EC%9C%A0%ED%98%95%2050m%20%EC%8B%A0%EA%B8%B0%EB%A1%9D"
+        "title": "태국 배드민턴 피차몬 퇴출",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%83%9C%EA%B5%AD%20%EB%B0%B0%EB%93%9C%EB%AF%BC%ED%84%B4%20%ED%94%BC%EC%B0%A8%EB%AA%AC%20%ED%87%B4%EC%B6%9C"
       },
       {
         "rank": 4,
-        "title": "곽빈 대만 완파",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B3%BD%EB%B9%88%20%EB%8C%80%EB%A7%8C%20%EC%99%84%ED%8C%8C"
-      },
-      {
-        "rank": 5,
         "title": "DMZ 지뢰 폭발",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=DMZ%20%EC%A7%80%EB%A2%B0%20%ED%8F%AD%EB%B0%9C"
       },
       {
-        "rank": 6,
-        "title": "암살자 VIP 시사회 참석자",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%94%EC%82%B4%EC%9E%90%20VIP%20%EC%8B%9C%EC%82%AC%ED%9A%8C%20%EC%B0%B8%EC%84%9D%EC%9E%90"
+        "rank": 5,
+        "title": "현숙 광수 연애 전쟁",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%98%84%EC%88%99%20%EA%B4%91%EC%88%98%20%EC%97%B0%EC%95%A0%20%EC%A0%84%EC%9F%81"
       },
       {
-        "rank": 7,
+        "rank": 6,
         "title": "구글",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B5%AC%EA%B8%80"
       },
       {
+        "rank": 7,
+        "title": "아시안게임 남자 계영",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%84%EC%8B%9C%EC%95%88%EA%B2%8C%EC%9E%84%20%EB%82%A8%EC%9E%90%20%EA%B3%84%EC%98%81"
+      },
+      {
         "rank": 8,
+        "title": "피부과 원장 구속",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%94%BC%EB%B6%80%EA%B3%BC%20%EC%9B%90%EC%9E%A5%20%EA%B5%AC%EC%86%8D"
+      },
+      {
+        "rank": 9,
         "title": "업비트",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%97%85%EB%B9%84%ED%8A%B8"
       },
       {
-        "rank": 9,
-        "title": "챔피언십 마지막 라운드",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B1%94%ED%94%BC%EC%96%B8%EC%8B%AD%20%EB%A7%88%EC%A7%80%EB%A7%89%20%EB%9D%BC%EC%9A%B4%EB%93%9C"
-      },
-      {
         "rank": 10,
-        "title": "윤동희",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9C%A4%EB%8F%99%ED%9D%AC"
+        "title": "코스피 7000선 탈환",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%BD%94%EC%8A%A4%ED%94%BC%207000%EC%84%A0%20%ED%83%88%ED%99%98"
       }
     ],
     "youtube_popular": [
@@ -1461,7 +1461,7 @@
         "rank": 1,
         "title": "ALLDAY PROJECT - ‘TALK’ M/V",
         "channel": "THEBLACKLABEL",
-        "views": "411만회",
+        "views": "447만회",
         "thumb": "https://i.ytimg.com/vi/1Qx6ktR3CEk/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=1Qx6ktR3CEk"
       },
@@ -1469,7 +1469,7 @@
         "rank": 2,
         "title": "정점을 향한 마지막 한 걸음 | [메이드 인 코리아 시즌2] 5-6회 예고편 | 디즈니+",
         "channel": "Disney Plus Korea 디즈니 플러스 코리아",
-        "views": "38만회",
+        "views": "39만회",
         "thumb": "https://i.ytimg.com/vi/cYMTSCgTPWo/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=cYMTSCgTPWo"
       },
@@ -1477,7 +1477,7 @@
         "rank": 3,
         "title": "KOR vs VIE 2차전 하이라이트 | 한화생명 초청 리그 오브 레전드 국가대표 평가전",
         "channel": "한국e스포츠협회",
-        "views": "87만회",
+        "views": "89만회",
         "thumb": "https://i.ytimg.com/vi/DcST-XbCuCI/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=DcST-XbCuCI"
       },
@@ -1485,7 +1485,7 @@
         "rank": 4,
         "title": "Dreamer",
         "channel": "QWER - Topic",
-        "views": "9만회",
+        "views": "10만회",
         "thumb": "https://i.ytimg.com/vi/62qQxaFZFZo/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=62qQxaFZFZo"
       },
@@ -1499,11 +1499,11 @@
       },
       {
         "rank": 6,
-        "title": "\"방플해도 돼?\" 프로게이머의 방플 논란.. 그리고 크래프톤의 말도 안 되는 대응",
-        "channel": "저라뎃 JUSTLIKETHAT",
-        "views": "115만회",
-        "thumb": "https://i.ytimg.com/vi/DA-a0scaugM/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=DA-a0scaugM"
+        "title": "FCL 우승!! 2티어 1황 대회에서 증명하고 왔습니다!!",
+        "channel": "정준홍",
+        "views": "25만회",
+        "thumb": "https://i.ytimg.com/vi/_H2LKE3DPhc/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=_H2LKE3DPhc"
       },
       {
         "rank": 7,
@@ -1515,17 +1515,17 @@
       },
       {
         "rank": 8,
-        "title": "FCL 우승!! 2티어 1황 대회에서 증명하고 왔습니다!!",
-        "channel": "정준홍",
-        "views": "24만회",
-        "thumb": "https://i.ytimg.com/vi/_H2LKE3DPhc/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=_H2LKE3DPhc"
+        "title": "\"방플해도 돼?\" 프로게이머의 방플 논란.. 그리고 크래프톤의 말도 안 되는 대응",
+        "channel": "저라뎃 JUSTLIKETHAT",
+        "views": "116만회",
+        "thumb": "https://i.ytimg.com/vi/DA-a0scaugM/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=DA-a0scaugM"
       },
       {
         "rank": 9,
         "title": "Swingin’ Magic (Korean Ver.)",
         "channel": "ILLIT - Topic",
-        "views": "18만회",
+        "views": "19만회",
         "thumb": "https://i.ytimg.com/vi/6Xr3nCSxs_A/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=6Xr3nCSxs_A"
       },
@@ -1533,7 +1533,7 @@
         "rank": 10,
         "title": "세계 최초 밥상으로 대회 1인분",
         "channel": "튜브김민교",
-        "views": "35만회",
+        "views": "37만회",
         "thumb": "https://i.ytimg.com/vi/EM5Dfnylqs8/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=EM5Dfnylqs8"
       }
