@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22 06:05:21",
+  "updated_at": "2026-09-22 07:05:31",
   "us2y": {
     "value": 4.76,
     "change": 0.0
@@ -133,14 +133,14 @@
         "date": "09-21 19:42"
       },
       {
-        "title": "[전자신문] 닭다리살 50%·삼겹살 30%↓…이마트, 추석 먹거리 할인전",
-        "link": "https://www.etnews.com/20260921000442",
-        "date": "09-22 06:00"
+        "title": "[전자신문] 미·중 'AI 위험 방지' 대화 시동…美 재무부 장관 공식화",
+        "link": "https://www.etnews.com/20260922000071",
+        "date": "09-22 06:28"
       },
       {
-        "title": "[전자신문] 새 제품인 척…미개봉 '아이폰 18'의 황당한 정체",
-        "link": "https://www.etnews.com/20260921000413",
-        "date": "09-22 06:00"
+        "title": "[전자신문] 트럼프 대통령 “AI·초지능 장려”…개발 가속 필요성 재강조",
+        "link": "https://www.etnews.com/20260922000070",
+        "date": "09-22 06:13"
       }
     ],
     "domestic": [
@@ -236,8 +236,8 @@
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,382.2",
-          "chg": "-0.96%",
+          "val": "$4,381.0",
+          "chg": "-0.99%",
           "up": false
         },
         {
@@ -250,56 +250,56 @@
       ],
       "bullets": [
         "구리 $6.79/lb (+2.72%) - AI 전력망 설비 수요 반영",
-        "금 $4,382/oz, 은 $66.53/oz - 통화가치 헤지"
+        "금 $4,381/oz, 은 $66.53/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,374원 | 엔/달러 ¥157.3",
-      "title": "원/달러 1,374.1원선과 엔/달러 ¥157.3",
+      "badge": "원/달러 1,374원 | 엔/달러 ¥157.4",
+      "title": "원/달러 1,374.5원선과 엔/달러 ¥157.4",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,374.1원",
-          "chg": "-0.78%",
+          "val": "1,374.5원",
+          "chg": "-0.75%",
           "up": false
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "100.42pt",
-          "chg": "+0.20%",
+          "val": "100.40pt",
+          "chg": "+0.18%",
           "up": true
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥157.28",
-          "chg": "+0.15%",
+          "val": "¥157.37",
+          "chg": "+0.20%",
           "up": true
         }
       ],
       "bullets": [
-        "달러 인덱스 100.42pt - 미국 성장 우위 지속",
-        "엔/달러 157.28엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 100.4pt - 미국 성장 우위 지속",
+        "엔/달러 157.37엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $91.96",
-      "title": "WTI 배럴당 $91.96선 박스권 안정",
+      "badge": "WTI $91.97",
+      "title": "WTI 배럴당 $91.97선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$91.96",
-          "chg": "-8.32%",
+          "val": "$91.97",
+          "chg": "-8.31%",
           "up": false
         }
       ],
       "bullets": [
-        "WTI 선물 $91.96/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $91.97/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -311,28 +311,28 @@
       "change": 2.72
     },
     "gold": {
-      "price": 4382.2,
-      "change": -0.96
+      "price": 4381.0,
+      "change": -0.99
     },
     "silver": {
       "price": 66.53,
       "change": -0.05
     },
     "wti": {
-      "price": 91.96,
-      "change": -8.32
+      "price": 91.97,
+      "change": -8.31
     },
     "usdkrw": {
-      "price": 1374.07,
-      "change": -0.78
+      "price": 1374.5,
+      "change": -0.75
     },
     "dxy": {
-      "price": 100.42,
-      "change": 0.2
+      "price": 100.4,
+      "change": 0.18
     },
     "usdjpy": {
-      "price": 157.28,
-      "change": 0.15
+      "price": 157.37,
+      "change": 0.2
     }
   },
   "history_20d": {
@@ -596,7 +596,7 @@
       {
         "date": "09-21",
         "copper": 6.79,
-        "gold": 4382.2,
+        "gold": 4381.0,
         "silver": 66.53
       }
     ],
@@ -717,9 +717,9 @@
       },
       {
         "date": "09-21",
-        "usdkrw": 1374.07,
-        "dxy": 100.42,
-        "usdjpy": 157.28
+        "usdkrw": 1374.5,
+        "dxy": 100.4,
+        "usdjpy": 157.37
       }
     ],
     "oil": [
@@ -820,8 +820,8 @@
       },
       {
         "date": "09-21",
-        "wti": 91.96,
-        "change": -8.32
+        "wti": 91.97,
+        "change": -8.31
       }
     ]
   },
@@ -1407,8 +1407,8 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "태국 미녀배드민턴 도핑 양성",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%83%9C%EA%B5%AD%20%EB%AF%B8%EB%85%80%EB%B0%B0%EB%93%9C%EB%AF%BC%ED%84%B4%20%EB%8F%84%ED%95%91%20%EC%96%91%EC%84%B1"
+        "title": "태국 배드민턴 피차몬 도핑",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%83%9C%EA%B5%AD%20%EB%B0%B0%EB%93%9C%EB%AF%BC%ED%84%B4%20%ED%94%BC%EC%B0%A8%EB%AA%AC%20%EB%8F%84%ED%95%91"
       },
       {
         "rank": 2,
@@ -1417,23 +1417,23 @@
       },
       {
         "rank": 3,
-        "title": "여자 배구 결승 좌절",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%97%AC%EC%9E%90%20%EB%B0%B0%EA%B5%AC%20%EA%B2%B0%EC%8A%B9%20%EC%A2%8C%EC%A0%88"
+        "title": "한미일 북한 대화 촉구",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%9C%EB%AF%B8%EC%9D%BC%20%EB%B6%81%ED%95%9C%20%EB%8C%80%ED%99%94%20%EC%B4%89%EA%B5%AC"
       },
       {
         "rank": 4,
-        "title": "DMZ 지뢰 폭발",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=DMZ%20%EC%A7%80%EB%A2%B0%20%ED%8F%AD%EB%B0%9C"
+        "title": "김영범 금메달 사나이",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%98%81%EB%B2%94%20%EA%B8%88%EB%A9%94%EB%8B%AC%20%EC%82%AC%EB%82%98%EC%9D%B4"
       },
       {
         "rank": 5,
-        "title": "김영범 자유형 50m 신기록",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%98%81%EB%B2%94%20%EC%9E%90%EC%9C%A0%ED%98%95%2050m%20%EC%8B%A0%EA%B8%B0%EB%A1%9D"
+        "title": "7월 은행 연체율",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=7%EC%9B%94%20%EC%9D%80%ED%96%89%20%EC%97%B0%EC%B2%B4%EC%9C%A8"
       },
       {
         "rank": 6,
-        "title": "현숙, 광수 폭로와 고백",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%98%84%EC%88%99%2C%20%EA%B4%91%EC%88%98%20%ED%8F%AD%EB%A1%9C%EC%99%80%20%EA%B3%A0%EB%B0%B1"
+        "title": "“22기 현숙, 16기 광수 폭로”",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%E2%80%9C22%EA%B8%B0%20%ED%98%84%EC%88%99%2C%2016%EA%B8%B0%20%EA%B4%91%EC%88%98%20%ED%8F%AD%EB%A1%9C%E2%80%9D"
       },
       {
         "rank": 7,
@@ -1442,13 +1442,13 @@
       },
       {
         "rank": 8,
-        "title": "아시안게임 남자 계영",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%84%EC%8B%9C%EC%95%88%EA%B2%8C%EC%9E%84%20%EB%82%A8%EC%9E%90%20%EA%B3%84%EC%98%81"
+        "title": "DMZ 지뢰 폭발",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=DMZ%20%EC%A7%80%EB%A2%B0%20%ED%8F%AD%EB%B0%9C"
       },
       {
         "rank": 9,
-        "title": "한미일 비핵화 재확인",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%9C%EB%AF%B8%EC%9D%BC%20%EB%B9%84%ED%95%B5%ED%99%94%20%EC%9E%AC%ED%99%95%EC%9D%B8"
+        "title": "추석 연휴 힐링 여행 떠나세요",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B6%94%EC%84%9D%20%EC%97%B0%ED%9C%B4%20%ED%9E%90%EB%A7%81%20%EC%97%AC%ED%96%89%20%EB%96%A0%EB%82%98%EC%84%B8%EC%9A%94"
       },
       {
         "rank": 10,
@@ -1461,7 +1461,7 @@
         "rank": 1,
         "title": "ALLDAY PROJECT - ‘TALK’ M/V",
         "channel": "THEBLACKLABEL",
-        "views": "483만회",
+        "views": "492만회",
         "thumb": "https://i.ytimg.com/vi/1Qx6ktR3CEk/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=1Qx6ktR3CEk"
       },
@@ -1485,7 +1485,7 @@
         "rank": 4,
         "title": "Dreamer",
         "channel": "QWER - Topic",
-        "views": "10만회",
+        "views": "11만회",
         "thumb": "https://i.ytimg.com/vi/62qQxaFZFZo/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=62qQxaFZFZo"
       },
@@ -1525,7 +1525,7 @@
         "rank": 9,
         "title": "Swingin’ Magic (Korean Ver.)",
         "channel": "ILLIT - Topic",
-        "views": "19만회",
+        "views": "20만회",
         "thumb": "https://i.ytimg.com/vi/6Xr3nCSxs_A/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=6Xr3nCSxs_A"
       },
@@ -1533,7 +1533,7 @@
         "rank": 10,
         "title": "세계 최초 밥상으로 대회 1인분",
         "channel": "튜브김민교",
-        "views": "39만회",
+        "views": "40만회",
         "thumb": "https://i.ytimg.com/vi/EM5Dfnylqs8/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=EM5Dfnylqs8"
       }
