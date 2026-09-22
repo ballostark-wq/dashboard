@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22 20:05:48",
+  "updated_at": "2026-09-22 21:06:53",
   "us2y": {
     "value": 4.76,
     "change": 0.0
@@ -21,8 +21,8 @@
     "status": "정상화 (우상향)"
   },
   "vix": {
-    "value": 14.8,
-    "change": -0.47
+    "value": 14.69,
+    "change": -1.21
   },
   "tech_news": [
     {
@@ -91,6 +91,11 @@
     ],
     "global": [
       {
+        "title": "Stocks making the biggest moves premarket: Alibaba, Quest Diagnostics, On Holding, GameStop & more",
+        "link": "https://www.cnbc.com/2026/09/22/stocks-making-the-biggest-moves-premarket-baba-dgx-onon-gme.html",
+        "date": "09-22 11:49"
+      },
+      {
         "title": "Here's who we know is going to the Trump-Xi dinner so far",
         "link": "https://www.cnbc.com/2026/09/22/heres-who-we-know-is-going-to-the-trump-xi-dinner-so-far.html",
         "date": "09-22 02:41"
@@ -109,11 +114,6 @@
         "title": "‘It's awful’: How tariffs, soaring fuel costs and higher interest rates are squeezing American companies",
         "link": "https://www.cnbc.com/2026/09/20/tariffs-fuel-prices-and-interest-rates-squeeze-us-companies.html",
         "date": "09-21 15:04"
-      },
-      {
-        "title": "Three words from Kevin Warsh have Wall Street wondering how far the Fed will go with rate hikes",
-        "link": "https://www.cnbc.com/2026/09/18/three-words-from-kevin-warsh-have-wall-street-wondering-how-far-the-fed-will-go-with-rate-hikes.html",
-        "date": "09-18 18:28"
       }
     ],
     "tech": [
@@ -131,6 +131,16 @@
         "title": "[디일렉] 정부 ESS 물량 봇물…배터리 3사 2조원대 ESS 수주전 격돌",
         "link": "https://www.thelec.kr/news/articleView.html?idxno=62670",
         "date": "09-22 18:04"
+      },
+      {
+        "title": "[전자신문] 대교CNS, IT 인프라에 보안 결합…사업 시너지 본격화",
+        "link": "https://www.etnews.com/20260922000506",
+        "date": "09-22 20:36"
+      },
+      {
+        "title": "[전자신문] 고대구로병원 '새암병원' 기공식…“중증질환 대응 고도화”",
+        "link": "https://www.etnews.com/20260922000505",
+        "date": "09-22 20:09"
       }
     ],
     "domestic": [
@@ -213,83 +223,83 @@
       "detail": "10Y-2Y 스프레드가 +20 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.86",
-      "title": "닥터 코퍼 $6.86선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.84",
+      "title": "닥터 코퍼 $6.84선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.86",
-          "chg": "+2.54%",
+          "val": "$6.84",
+          "chg": "+2.24%",
           "up": true
         },
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,364.9",
-          "chg": "-0.43%",
+          "val": "$4,358.0",
+          "chg": "-0.59%",
           "up": false
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$66.23",
-          "chg": "+0.62%",
+          "val": "$66.07",
+          "chg": "+0.38%",
           "up": true
         }
       ],
       "bullets": [
-        "구리 $6.86/lb (+2.54%) - AI 전력망 설비 수요 반영",
-        "금 $4,365/oz, 은 $66.23/oz - 통화가치 헤지"
+        "구리 $6.84/lb (+2.24%) - AI 전력망 설비 수요 반영",
+        "금 $4,358/oz, 은 $66.07/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,356원 | 엔/달러 ¥157.1",
-      "title": "원/달러 1,356.3원선과 엔/달러 ¥157.1",
+      "badge": "원/달러 1,355원 | 엔/달러 ¥157.1",
+      "title": "원/달러 1,355.0원선과 엔/달러 ¥157.1",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,356.3원",
-          "chg": "-2.07%",
+          "val": "1,355.0원",
+          "chg": "-2.16%",
           "up": false
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "100.34pt",
-          "chg": "-0.09%",
+          "val": "100.41pt",
+          "chg": "-0.02%",
           "up": false
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥157.08",
-          "chg": "+0.02%",
+          "val": "¥157.13",
+          "chg": "+0.05%",
           "up": true
         }
       ],
       "bullets": [
-        "달러 인덱스 100.34pt - 미국 성장 우위 지속",
-        "엔/달러 157.08엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 100.41pt - 미국 성장 우위 지속",
+        "엔/달러 157.13엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $89.35",
-      "title": "WTI 배럴당 $89.35선 박스권 안정",
+      "badge": "WTI $89.84",
+      "title": "WTI 배럴당 $89.84선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$89.35",
-          "chg": "-6.71%",
+          "val": "$89.84",
+          "chg": "-6.20%",
           "up": false
         }
       ],
       "bullets": [
-        "WTI 선물 $89.35/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $89.84/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -297,32 +307,32 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.86,
-      "change": 2.54
+      "price": 6.84,
+      "change": 2.24
     },
     "gold": {
-      "price": 4364.9,
-      "change": -0.43
+      "price": 4358.0,
+      "change": -0.59
     },
     "silver": {
-      "price": 66.23,
-      "change": 0.62
+      "price": 66.07,
+      "change": 0.38
     },
     "wti": {
-      "price": 89.35,
-      "change": -6.71
+      "price": 89.84,
+      "change": -6.2
     },
     "usdkrw": {
-      "price": 1356.26,
-      "change": -2.07
+      "price": 1354.98,
+      "change": -2.16
     },
     "dxy": {
-      "price": 100.34,
-      "change": -0.09
+      "price": 100.41,
+      "change": -0.02
     },
     "usdjpy": {
-      "price": 157.08,
-      "change": 0.02
+      "price": 157.13,
+      "change": 0.05
     }
   },
   "history_20d": {
@@ -585,9 +595,9 @@
       },
       {
         "date": "09-22",
-        "copper": 6.86,
-        "gold": 4364.9,
-        "silver": 66.23
+        "copper": 6.84,
+        "gold": 4358.0,
+        "silver": 66.07
       }
     ],
     "fx": [
@@ -707,9 +717,9 @@
       },
       {
         "date": "09-22",
-        "usdkrw": 1356.26,
-        "dxy": 100.34,
-        "usdjpy": 157.08
+        "usdkrw": 1354.98,
+        "dxy": 100.41,
+        "usdjpy": 157.13
       }
     ],
     "oil": [
@@ -810,8 +820,8 @@
       },
       {
         "date": "09-22",
-        "wti": 89.35,
-        "change": -6.71
+        "wti": 89.84,
+        "change": -6.2
       }
     ]
   },
@@ -819,6 +829,11 @@
     "w1": {
       "title": "이번 주 (09/21 ~ 09/27)",
       "macro": [
+        {
+          "date": "09-22 1:55pm",
+          "event": "President Trump Speaks",
+          "impact": "HIGH"
+        },
         {
           "date": "09-24 12:30pm",
           "event": "Unemployment Claims",
@@ -1397,53 +1412,53 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "남자 혼계영 동메달 2회 연속",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%82%A8%EC%9E%90%20%ED%98%BC%EA%B3%84%EC%98%81%20%EB%8F%99%EB%A9%94%EB%8B%AC%202%ED%9A%8C%20%EC%97%B0%EC%86%8D"
+        "title": "KF-21 1호기 공군 도입",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=KF-21%201%ED%98%B8%EA%B8%B0%20%EA%B3%B5%EA%B5%B0%20%EB%8F%84%EC%9E%85"
       },
       {
         "rank": 2,
-        "title": "조희대 대법원장 재제청 거부 규탄",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A1%B0%ED%9D%AC%EB%8C%80%20%EB%8C%80%EB%B2%95%EC%9B%90%EC%9E%A5%20%EC%9E%AC%EC%A0%9C%EC%B2%AD%20%EA%B1%B0%EB%B6%80%20%EA%B7%9C%ED%83%84"
+        "title": "남자 혼계영 동메달 수확",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%82%A8%EC%9E%90%20%ED%98%BC%EA%B3%84%EC%98%81%20%EB%8F%99%EB%A9%94%EB%8B%AC%20%EC%88%98%ED%99%95"
       },
       {
         "rank": 3,
-        "title": "아시안게임 야구일정",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%84%EC%8B%9C%EC%95%88%EA%B2%8C%EC%9E%84%20%EC%95%BC%EA%B5%AC%EC%9D%BC%EC%A0%95"
+        "title": "대법관 재제청 거부 규탄",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%8C%80%EB%B2%95%EA%B4%80%20%EC%9E%AC%EC%A0%9C%EC%B2%AD%20%EA%B1%B0%EB%B6%80%20%EA%B7%9C%ED%83%84"
       },
       {
         "rank": 4,
-        "title": "추석 임금체불 적발",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B6%94%EC%84%9D%20%EC%9E%84%EA%B8%88%EC%B2%B4%EB%B6%88%20%EC%A0%81%EB%B0%9C"
+        "title": "이병헌 이민정 첫째 고통 고백",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EB%B3%91%ED%97%8C%20%EC%9D%B4%EB%AF%BC%EC%A0%95%20%EC%B2%AB%EC%A7%B8%20%EA%B3%A0%ED%86%B5%20%EA%B3%A0%EB%B0%B1"
       },
       {
         "rank": 5,
-        "title": "포스코퓨처엠 LFP 양극재 공급",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%8F%AC%EC%8A%A4%EC%BD%94%ED%93%A8%EC%B2%98%EC%97%A0%20LFP%20%EC%96%91%EA%B7%B9%EC%9E%AC%20%EA%B3%B5%EA%B8%89"
+        "title": "도깨비",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%8F%84%EA%B9%A8%EB%B9%84"
       },
       {
         "rank": 6,
-        "title": "태진아",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%83%9C%EC%A7%84%EC%95%84"
+        "title": "이대역 지하철 연기",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EB%8C%80%EC%97%AD%20%EC%A7%80%ED%95%98%EC%B2%A0%20%EC%97%B0%EA%B8%B0"
       },
       {
         "rank": 7,
+        "title": "한덕수",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%9C%EB%8D%95%EC%88%98"
+      },
+      {
+        "rank": 8,
         "title": "7월 은행 연체율",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=7%EC%9B%94%20%EC%9D%80%ED%96%89%20%EC%97%B0%EC%B2%B4%EC%9C%A8"
       },
       {
-        "rank": 8,
-        "title": "이금희 이름으로 기부",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EA%B8%88%ED%9D%AC%20%EC%9D%B4%EB%A6%84%EC%9C%BC%EB%A1%9C%20%EA%B8%B0%EB%B6%80"
-      },
-      {
         "rank": 9,
-        "title": "임태희 펜싱 개인전",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9E%84%ED%83%9C%ED%9D%AC%20%ED%8E%9C%EC%8B%B1%20%EA%B0%9C%EC%9D%B8%EC%A0%84"
+        "title": "김우민 어깨 부상",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%9A%B0%EB%AF%BC%20%EC%96%B4%EA%B9%A8%20%EB%B6%80%EC%83%81"
       },
       {
         "rank": 10,
-        "title": "정몽원 HL그룹 회장",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A0%95%EB%AA%BD%EC%9B%90%20HL%EA%B7%B8%EB%A3%B9%20%ED%9A%8C%EC%9E%A5"
+        "title": "심수봉 정미애 저격?",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%8B%AC%EC%88%98%EB%B4%89%20%EC%A0%95%EB%AF%B8%EC%95%A0%20%EC%A0%80%EA%B2%A9%3F"
       }
     ],
     "youtube_popular": [
@@ -1451,68 +1466,52 @@
         "rank": 1,
         "title": "Dreamer",
         "channel": "QWER - Topic",
-        "views": "31만회",
+        "views": "32만회",
         "thumb": "https://i.ytimg.com/vi/62qQxaFZFZo/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=62qQxaFZFZo"
       },
       {
         "rank": 2,
-        "title": "정점을 향한 마지막 한 걸음 | [메이드 인 코리아 시즌2] 5-6회 예고편 | 디즈니+",
-        "channel": "Disney Plus Korea 디즈니 플러스 코리아",
-        "views": "41만회",
-        "thumb": "https://i.ytimg.com/vi/cYMTSCgTPWo/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=cYMTSCgTPWo"
-      },
-      {
-        "rank": 3,
-        "title": "KOR vs VIE 2차전 하이라이트 | 한화생명 초청 리그 오브 레전드 국가대표 평가전",
-        "channel": "한국e스포츠협회",
-        "views": "99만회",
-        "thumb": "https://i.ytimg.com/vi/DcST-XbCuCI/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=DcST-XbCuCI"
-      },
-      {
-        "rank": 4,
-        "title": "ALLDAY PROJECT - ‘TALK’ M/V",
-        "channel": "THEBLACKLABEL",
-        "views": "702만회",
-        "thumb": "https://i.ytimg.com/vi/1Qx6ktR3CEk/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=1Qx6ktR3CEk"
-      },
-      {
-        "rank": 5,
-        "title": "닥터X: 하얀 마피아의 시대 | 공식 티저 예고편 | 넷플릭스",
-        "channel": "Netflix Korea 넷플릭스 코리아",
-        "views": "6만회",
-        "thumb": "https://i.ytimg.com/vi/EQFXa1yVC98/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=EQFXa1yVC98"
-      },
-      {
-        "rank": 6,
         "title": "챌정글 다패고 스텝업한 저라뎃 ㄷㄷ 결국 이 날이 왔습니다",
         "channel": "클리드",
-        "views": "37만회",
+        "views": "38만회",
         "thumb": "https://i.ytimg.com/vi/PC4MQ0VZHPE/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=PC4MQ0VZHPE"
       },
       {
-        "rank": 7,
+        "rank": 3,
+        "title": "ALLDAY PROJECT - ‘TALK’ M/V",
+        "channel": "THEBLACKLABEL",
+        "views": "726만회",
+        "thumb": "https://i.ytimg.com/vi/1Qx6ktR3CEk/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=1Qx6ktR3CEk"
+      },
+      {
+        "rank": 4,
+        "title": "KOR vs VIE 2차전 하이라이트 | 한화생명 초청 리그 오브 레전드 국가대표 평가전",
+        "channel": "한국e스포츠협회",
+        "views": "100만회",
+        "thumb": "https://i.ytimg.com/vi/DcST-XbCuCI/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=DcST-XbCuCI"
+      },
+      {
+        "rank": 5,
         "title": "임영웅 [모이세] Live Clip. @2026 IMHERO 10 : THE STADIUM CONCERT 2",
         "channel": "임영웅",
-        "views": "18만회",
+        "views": "20만회",
         "thumb": "https://i.ytimg.com/vi/hLc9R9Q-hFo/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=hLc9R9Q-hFo"
       },
       {
-        "rank": 8,
-        "title": "FCL 우승!! 2티어 1황 대회에서 증명하고 왔습니다!!",
-        "channel": "정준홍",
-        "views": "34만회",
-        "thumb": "https://i.ytimg.com/vi/_H2LKE3DPhc/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=_H2LKE3DPhc"
+        "rank": 6,
+        "title": "세계 최초 밥상으로 대회 1인분",
+        "channel": "튜브김민교",
+        "views": "55만회",
+        "thumb": "https://i.ytimg.com/vi/EM5Dfnylqs8/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=EM5Dfnylqs8"
       },
       {
-        "rank": 9,
+        "rank": 7,
         "title": "[MV] Kim Yong Bin(김용빈) _ Only you(당신뿐입니다)",
         "channel": "1theK (원더케이)",
         "views": "11만회",
@@ -1520,12 +1519,28 @@
         "link": "https://www.youtube.com/watch?v=LzW15vQNwPQ"
       },
       {
+        "rank": 8,
+        "title": "FCL 우승!! 2티어 1황 대회에서 증명하고 왔습니다!!",
+        "channel": "정준홍",
+        "views": "35만회",
+        "thumb": "https://i.ytimg.com/vi/_H2LKE3DPhc/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=_H2LKE3DPhc"
+      },
+      {
+        "rank": 9,
+        "title": "Swingin’ Magic (Korean Ver.)",
+        "channel": "ILLIT - Topic",
+        "views": "26만회",
+        "thumb": "https://i.ytimg.com/vi/6Xr3nCSxs_A/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=6Xr3nCSxs_A"
+      },
+      {
         "rank": 10,
-        "title": "세계 최초 밥상으로 대회 1인분",
-        "channel": "튜브김민교",
-        "views": "54만회",
-        "thumb": "https://i.ytimg.com/vi/EM5Dfnylqs8/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=EM5Dfnylqs8"
+        "title": "최악의 운영으로 망해버린 베그 대회 근황",
+        "channel": "영래기",
+        "views": "136만회",
+        "thumb": "https://i.ytimg.com/vi/81tw4OLtYOA/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=81tw4OLtYOA"
       }
     ]
   }
