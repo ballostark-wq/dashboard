@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-23 04:04:56",
+  "updated_at": "2026-09-23 05:05:15",
   "us2y": {
-    "value": 4.76,
-    "change": 0.0
+    "value": 4.71,
+    "change": -0.05
   },
   "us5y": {
     "value": 4.84,
@@ -17,12 +17,12 @@
     "change": 0.0
   },
   "spread": {
-    "value": 21,
+    "value": 26,
     "status": "정상화 (우상향)"
   },
   "vix": {
-    "value": 14.22,
-    "change": -4.37
+    "value": 14.31,
+    "change": -3.77
   },
   "tech_news": [
     {
@@ -133,17 +133,27 @@
         "date": "09-22 18:04"
       },
       {
+        "title": "[전자신문] [테크 차이나] 공장이 교실이 된다…중국은 기술인력 어떻게 산업에서 길러내나",
+        "link": "https://www.etnews.com/20260918000115",
+        "date": "09-23 05:00"
+      },
+      {
         "title": "[전자신문] 이재명 대통령, 이소영 중기부 장관 임명안 재가",
         "link": "https://www.etnews.com/20260923000001",
         "date": "09-23 00:17"
-      },
-      {
-        "title": "[전자신문] 싱가포르·홍콩서 '아이스크림·비상' K-에듀테크 현장 찾아",
-        "link": "https://www.etnews.com/20260922000536",
-        "date": "09-22 23:08"
       }
     ],
     "domestic": [
+      {
+        "title": "리치먼드 연은 총재 \"인플레 충격 완화에 시간 걸릴 수 있다\"",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436198",
+        "date": "09-23 04:48"
+      },
+      {
+        "title": "美 국채 2년물 입찰에 다소 부진한 수요…수익률 예상 소폭 상회",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436197",
+        "date": "09-23 04:25"
+      },
       {
         "title": "보스턴 연은 총재 \"금리인상, 인플레 목표치 달성에 도움될 것\"",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436195",
@@ -158,16 +168,6 @@
         "title": "\"트럼프, '조건 맞으면' 이란과 뉴욕에서 회담하고 싶어 해\"",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436192",
         "date": "09-23 00:51"
-      },
-      {
-        "title": "美 국채가, 이란 유화적 제스처에 강세",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436191",
-        "date": "09-23 00:42"
-      },
-      {
-        "title": "달러-원, 뉴욕장서 1,350원 후반대 거래",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436189",
-        "date": "09-22 23:35"
       }
     ]
   },
@@ -184,13 +184,13 @@
   },
   "macro_reviews": {
     "bonds": {
-      "badge": "스프레드 +21 bp",
+      "badge": "스프레드 +26 bp",
       "title": "미국채 10년물 4.97%선 공방과 정상화",
       "metrics": [
         {
           "id": "spread",
           "name": "10Y-2Y차",
-          "val": "+21 bp",
+          "val": "+26 bp",
           "chg": "정상화 (우상향)",
           "up": true
         },
@@ -204,9 +204,9 @@
         {
           "id": "us2y",
           "name": "2년물",
-          "val": "4.76%",
-          "chg": "+0.00%",
-          "up": true
+          "val": "4.71%",
+          "chg": "-0.05%",
+          "up": false
         },
         {
           "id": "us30y",
@@ -217,89 +217,89 @@
         }
       ],
       "bullets": [
-        "10년물 4.97%와 2년물 4.76% 형성으로 스프레드 +21 bp 유지",
+        "10년물 4.97%와 2년물 4.71% 형성으로 스프레드 +26 bp 유지",
         "초장기 30년물 5.3%선 안착 속 재정 적자 발행에 따른 기간 프리미엄"
       ],
-      "detail": "10Y-2Y 스프레드가 +21 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
+      "detail": "10Y-2Y 스프레드가 +26 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.89",
-      "title": "닥터 코퍼 $6.89선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.91",
+      "title": "닥터 코퍼 $6.91선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.89",
-          "chg": "+2.99%",
+          "val": "$6.91",
+          "chg": "+3.29%",
           "up": true
         },
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,390.1",
-          "chg": "+0.14%",
+          "val": "$4,404.8",
+          "chg": "+0.48%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$67.42",
-          "chg": "+2.43%",
+          "val": "$67.91",
+          "chg": "+3.18%",
           "up": true
         }
       ],
       "bullets": [
-        "구리 $6.89/lb (+2.99%) - AI 전력망 설비 수요 반영",
-        "금 $4,390/oz, 은 $67.42/oz - 통화가치 헤지"
+        "구리 $6.91/lb (+3.29%) - AI 전력망 설비 수요 반영",
+        "금 $4,405/oz, 은 $67.91/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,358원 | 엔/달러 ¥157.5",
-      "title": "원/달러 1,358.3원선과 엔/달러 ¥157.5",
+      "badge": "원/달러 1,356원 | 엔/달러 ¥157.4",
+      "title": "원/달러 1,355.5원선과 엔/달러 ¥157.4",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,358.3원",
-          "chg": "-1.91%",
+          "val": "1,355.5원",
+          "chg": "-1.32%",
           "up": false
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "100.60pt",
-          "chg": "+0.17%",
+          "val": "100.54pt",
+          "chg": "+0.11%",
           "up": true
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥157.51",
-          "chg": "+0.29%",
+          "val": "¥157.39",
+          "chg": "+0.01%",
           "up": true
         }
       ],
       "bullets": [
-        "달러 인덱스 100.6pt - 미국 성장 우위 지속",
-        "엔/달러 157.51엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 100.54pt - 미국 성장 우위 지속",
+        "엔/달러 157.39엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $90.72",
-      "title": "WTI 배럴당 $90.72선 박스권 안정",
+      "badge": "WTI $89.5",
+      "title": "WTI 배럴당 $89.5선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$90.72",
-          "chg": "-5.28%",
+          "val": "$89.50",
+          "chg": "-6.56%",
           "up": false
         }
       ],
       "bullets": [
-        "WTI 선물 $90.72/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $89.5/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -307,32 +307,32 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.89,
-      "change": 2.99
+      "price": 6.91,
+      "change": 3.29
     },
     "gold": {
-      "price": 4390.1,
-      "change": 0.14
+      "price": 4404.8,
+      "change": 0.48
     },
     "silver": {
-      "price": 67.42,
-      "change": 2.43
+      "price": 67.91,
+      "change": 3.18
     },
     "wti": {
-      "price": 90.72,
-      "change": -5.28
+      "price": 89.5,
+      "change": -6.56
     },
     "usdkrw": {
-      "price": 1358.35,
-      "change": -1.91
+      "price": 1355.54,
+      "change": -1.32
     },
     "dxy": {
-      "price": 100.6,
-      "change": 0.17
+      "price": 100.54,
+      "change": 0.11
     },
     "usdjpy": {
-      "price": 157.51,
-      "change": 0.29
+      "price": 157.39,
+      "change": 0.01
     }
   },
   "history_20d": {
@@ -473,9 +473,9 @@
       {
         "date": "09-22",
         "us10y": 4.97,
-        "us2y": 4.76,
+        "us2y": 4.71,
         "us30y": 5.3,
-        "spread": 21
+        "spread": 26
       }
     ],
     "commodities": [
@@ -595,112 +595,106 @@
       },
       {
         "date": "09-22",
-        "copper": 6.89,
-        "gold": 4390.1,
-        "silver": 67.42
+        "copper": 6.91,
+        "gold": 4404.8,
+        "silver": 67.91
       }
     ],
     "fx": [
       {
-        "date": "08-25",
-        "usdkrw": 1381.49,
-        "dxy": 98.92,
-        "usdjpy": 159.22
-      },
-      {
         "date": "08-26",
         "usdkrw": 1383.49,
-        "dxy": 99.17,
+        "dxy": 98.92,
         "usdjpy": 159.26
       },
       {
         "date": "08-27",
         "usdkrw": 1380.45,
-        "dxy": 99.16,
+        "dxy": 99.17,
         "usdjpy": 159.32
       },
       {
         "date": "08-30",
         "usdkrw": 1377.11,
-        "dxy": 99.7,
+        "dxy": 99.16,
         "usdjpy": 160.12
       },
       {
         "date": "08-31",
         "usdkrw": 1366.62,
-        "dxy": 99.43,
+        "dxy": 99.7,
         "usdjpy": 159.75
       },
       {
         "date": "09-01",
         "usdkrw": 1372.86,
-        "dxy": 99.67,
+        "dxy": 99.43,
         "usdjpy": 160.2
       },
       {
         "date": "09-02",
         "usdkrw": 1358.39,
-        "dxy": 99.56,
+        "dxy": 99.67,
         "usdjpy": 158.92
       },
       {
         "date": "09-03",
         "usdkrw": 1355.41,
-        "dxy": 99.0,
+        "dxy": 99.56,
         "usdjpy": 155.66
       },
       {
         "date": "09-06",
         "usdkrw": 1345.06,
-        "dxy": 99.16,
+        "dxy": 99.0,
         "usdjpy": 156.2
       },
       {
         "date": "09-07",
         "usdkrw": 1343.57,
-        "dxy": 98.84,
+        "dxy": 99.16,
         "usdjpy": 153.85
       },
       {
         "date": "09-08",
         "usdkrw": 1339.21,
-        "dxy": 98.77,
+        "dxy": 98.84,
         "usdjpy": 153.48
       },
       {
         "date": "09-09",
         "usdkrw": 1339.17,
-        "dxy": 99.09,
+        "dxy": 98.77,
         "usdjpy": 153.57
       },
       {
         "date": "09-10",
         "usdkrw": 1348.17,
-        "dxy": 99.12,
+        "dxy": 99.09,
         "usdjpy": 154.48
       },
       {
         "date": "09-13",
         "usdkrw": 1344.64,
-        "dxy": 99.46,
+        "dxy": 99.12,
         "usdjpy": 153.42
       },
       {
         "date": "09-14",
         "usdkrw": 1345.61,
-        "dxy": 99.65,
+        "dxy": 99.46,
         "usdjpy": 154.38
       },
       {
         "date": "09-15",
         "usdkrw": 1363.57,
-        "dxy": 100.31,
+        "dxy": 99.65,
         "usdjpy": 155.27
       },
       {
         "date": "09-16",
         "usdkrw": 1376.6,
-        "dxy": 100.22,
+        "dxy": 100.31,
         "usdjpy": 156.01
       },
       {
@@ -712,14 +706,20 @@
       {
         "date": "09-20",
         "usdkrw": 1384.86,
-        "dxy": 100.43,
+        "dxy": 100.22,
         "usdjpy": 157.05
       },
       {
+        "date": "09-21",
+        "usdkrw": 1373.68,
+        "dxy": 100.43,
+        "usdjpy": 157.37
+      },
+      {
         "date": "09-22",
-        "usdkrw": 1358.35,
-        "dxy": 100.6,
-        "usdjpy": 157.51
+        "usdkrw": 1355.54,
+        "dxy": 100.54,
+        "usdjpy": 157.39
       }
     ],
     "oil": [
@@ -820,8 +820,8 @@
       },
       {
         "date": "09-22",
-        "wti": 90.72,
-        "change": -5.28
+        "wti": 89.5,
+        "change": -6.56
       }
     ]
   },
@@ -1410,13 +1410,13 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "송세라 에페 금메달",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%86%A1%EC%84%B8%EB%9D%BC%20%EC%97%90%ED%8E%98%20%EA%B8%88%EB%A9%94%EB%8B%AC"
+        "title": "트럼프 이란과 결정할 것",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%8A%B8%EB%9F%BC%ED%94%84%20%EC%9D%B4%EB%9E%80%EA%B3%BC%20%EA%B2%B0%EC%A0%95%ED%95%A0%20%EA%B2%83"
       },
       {
         "rank": 2,
-        "title": "트럼프 이란과 결정할 것",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%8A%B8%EB%9F%BC%ED%94%84%20%EC%9D%B4%EB%9E%80%EA%B3%BC%20%EA%B2%B0%EC%A0%95%ED%95%A0%20%EA%B2%83"
+        "title": "2호선 이대역 무정차 통과",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=2%ED%98%B8%EC%84%A0%20%EC%9D%B4%EB%8C%80%EC%97%AD%20%EB%AC%B4%EC%A0%95%EC%B0%A8%20%ED%86%B5%EA%B3%BC"
       },
       {
         "rank": 3,
@@ -1425,28 +1425,28 @@
       },
       {
         "rank": 4,
-        "title": "이대역 무정차 통과",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EB%8C%80%EC%97%AD%20%EB%AC%B4%EC%A0%95%EC%B0%A8%20%ED%86%B5%EA%B3%BC"
+        "title": "한국, 홍콩에 13-0 팀 퍼펙트 성공",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%9C%EA%B5%AD%2C%20%ED%99%8D%EC%BD%A9%EC%97%90%2013-0%20%ED%8C%80%20%ED%8D%BC%ED%8E%99%ED%8A%B8%20%EC%84%B1%EA%B3%B5"
       },
       {
         "rank": 5,
-        "title": "아시안게임 여자배구 2연속 노메달",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%84%EC%8B%9C%EC%95%88%EA%B2%8C%EC%9E%84%20%EC%97%AC%EC%9E%90%EB%B0%B0%EA%B5%AC%202%EC%97%B0%EC%86%8D%20%EB%85%B8%EB%A9%94%EB%8B%AC"
+        "title": "송세라 펜싱 금메달",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%86%A1%EC%84%B8%EB%9D%BC%20%ED%8E%9C%EC%8B%B1%20%EA%B8%88%EB%A9%94%EB%8B%AC"
       },
       {
         "rank": 6,
-        "title": "죽음",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A3%BD%EC%9D%8C"
+        "title": "이소영 임명안 재가",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EC%86%8C%EC%98%81%20%EC%9E%84%EB%AA%85%EC%95%88%20%EC%9E%AC%EA%B0%80"
       },
       {
         "rank": 7,
-        "title": "김혜수",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%ED%98%9C%EC%88%98"
+        "title": "연애전쟁",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%97%B0%EC%95%A0%EC%A0%84%EC%9F%81"
       },
       {
         "rank": 8,
-        "title": "대미 투자 프로젝트",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%8C%80%EB%AF%B8%20%ED%88%AC%EC%9E%90%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8"
+        "title": "KT&G 자사주 매입 소각",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=KT%26G%20%EC%9E%90%EC%82%AC%EC%A3%BC%20%EB%A7%A4%EC%9E%85%20%EC%86%8C%EA%B0%81"
       },
       {
         "rank": 9,
@@ -1455,8 +1455,8 @@
       },
       {
         "rank": 10,
-        "title": "이소영 임명안 재가",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EC%86%8C%EC%98%81%20%EC%9E%84%EB%AA%85%EC%95%88%20%EC%9E%AC%EA%B0%80"
+        "title": "유니스, 26일 활동 종료",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9C%A0%EB%8B%88%EC%8A%A4%2C%2026%EC%9D%BC%20%ED%99%9C%EB%8F%99%20%EC%A2%85%EB%A3%8C"
       }
     ],
     "youtube_popular": [
@@ -1464,7 +1464,7 @@
         "rank": 1,
         "title": "Dreamer",
         "channel": "QWER - Topic",
-        "views": "39만회",
+        "views": "40만회",
         "thumb": "https://i.ytimg.com/vi/62qQxaFZFZo/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=62qQxaFZFZo"
       },
@@ -1472,7 +1472,7 @@
         "rank": 2,
         "title": "시우 체험기",
         "channel": "PAKA",
-        "views": "45만회",
+        "views": "47만회",
         "thumb": "https://i.ytimg.com/vi/EKL2T2L2A8c/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=EKL2T2L2A8c"
       },
@@ -1480,7 +1480,7 @@
         "rank": 3,
         "title": "임영웅 [모이세] Live Clip. @2026 IMHERO 10 : THE STADIUM CONCERT 2",
         "channel": "임영웅",
-        "views": "27만회",
+        "views": "28만회",
         "thumb": "https://i.ytimg.com/vi/hLc9R9Q-hFo/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=hLc9R9Q-hFo"
       },
@@ -1488,7 +1488,7 @@
         "rank": 4,
         "title": "현 FC온라인 최고의 카드 UC호날두 11카 최초 영입",
         "channel": "튜브김민교",
-        "views": "22만회",
+        "views": "25만회",
         "thumb": "https://i.ytimg.com/vi/QNBoAnethQ0/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=QNBoAnethQ0"
       },
@@ -1496,7 +1496,7 @@
         "rank": 5,
         "title": "ALLDAY PROJECT - ‘TALK’ M/V",
         "channel": "THEBLACKLABEL",
-        "views": "955만회",
+        "views": "963만회",
         "thumb": "https://i.ytimg.com/vi/1Qx6ktR3CEk/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=1Qx6ktR3CEk"
       },
@@ -1504,7 +1504,7 @@
         "rank": 6,
         "title": "개미친 또라이와 함께",
         "channel": "괴물쥐 유튜브",
-        "views": "22만회",
+        "views": "25만회",
         "thumb": "https://i.ytimg.com/vi/7c43iILPM-o/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=7c43iILPM-o"
       },
