@@ -1,28 +1,28 @@
 {
-  "updated_at": "2026-09-24 01:06:15",
+  "updated_at": "2026-09-24 02:05:33",
   "us2y": {
     "value": 4.71,
     "change": -0.05
   },
   "us5y": {
-    "value": 4.96,
-    "change": 0.13
+    "value": 4.99,
+    "change": 0.16
   },
   "us10y": {
-    "value": 5.08,
-    "change": 0.12
+    "value": 5.1,
+    "change": 0.14
   },
   "us30y": {
     "value": 5.39,
     "change": 0.09
   },
   "spread": {
-    "value": 37,
+    "value": 39,
     "status": "정상화 (우상향)"
   },
   "vix": {
-    "value": 14.81,
-    "change": -0.4
+    "value": 15.01,
+    "change": 0.94
   },
   "tech_news": [
     {
@@ -91,6 +91,11 @@
     ],
     "global": [
       {
+        "title": "Stocks making the biggest moves midday: McDonald's, Cracker Barrel, Alibaba, Worthington & more",
+        "link": "https://www.cnbc.com/2026/09/23/stocks-making-the-biggest-moves-midday-mcd-cbrl-baba-wor-.html",
+        "date": "09-23 16:01"
+      },
+      {
         "title": "Stocks making the biggest moves premarket: IonQ, Maplebear, Worthington & more",
         "link": "https://www.cnbc.com/2026/09/23/stocks-making-the-biggest-moves-premarket-ionq-cart-wor.html",
         "date": "09-23 11:29"
@@ -109,11 +114,6 @@
         "title": "Stocks making the biggest moves midday: Lennar, Capri, Vicor, Amgen & more",
         "link": "https://www.cnbc.com/2026/09/22/stocks-making-the-biggest-moves-midday-len-cpri-vicr-amg.html",
         "date": "09-22 17:45"
-      },
-      {
-        "title": "Kalshi asks CFTC to allow margin trading on its platform, letting users buy with borrowed funds",
-        "link": "https://www.cnbc.com/2026/09/22/kalshi-asks-cftc-to-allow-margin-trading-on-its-platform-letting-users-buy-with-borrowed-funds.html",
-        "date": "09-22 12:28"
       }
     ],
     "tech": [
@@ -131,16 +131,6 @@
         "title": "[디일렉] 딥엑스, CES 2027 사전 행사 참가",
         "link": "https://www.thelec.kr/news/articleView.html?idxno=62747",
         "date": "09-23 22:39"
-      },
-      {
-        "title": "[전자신문] 대웅제약 '펙수클루', 인니 출시…2350억 항궤양제 시장 공략",
-        "link": "https://www.etnews.com/20260924000003",
-        "date": "09-24 00:31"
-      },
-      {
-        "title": "[전자신문] 미래를 보는 새 안경은 과학…양주시, 김범준 교수 초청 시민특강 마련",
-        "link": "https://www.etnews.com/20260924000002",
-        "date": "09-24 00:28"
       }
     ],
     "domestic": [
@@ -184,21 +174,21 @@
   },
   "macro_reviews": {
     "bonds": {
-      "badge": "스프레드 +37 bp",
-      "title": "미국채 10년물 5.08%선 공방과 정상화",
+      "badge": "스프레드 +39 bp",
+      "title": "미국채 10년물 5.1%선 공방과 정상화",
       "metrics": [
         {
           "id": "spread",
           "name": "10Y-2Y차",
-          "val": "+37 bp",
+          "val": "+39 bp",
           "chg": "정상화 (우상향)",
           "up": true
         },
         {
           "id": "us10y",
           "name": "10년물",
-          "val": "5.08%",
-          "chg": "+0.12%",
+          "val": "5.10%",
+          "chg": "+0.14%",
           "up": true
         },
         {
@@ -217,89 +207,89 @@
         }
       ],
       "bullets": [
-        "10년물 5.08%와 2년물 4.71% 형성으로 스프레드 +37 bp 유지",
+        "10년물 5.1%와 2년물 4.71% 형성으로 스프레드 +39 bp 유지",
         "초장기 30년물 5.39%선 안착 속 재정 적자 발행에 따른 기간 프리미엄"
       ],
-      "detail": "10Y-2Y 스프레드가 +37 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
+      "detail": "10Y-2Y 스프레드가 +39 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.77",
-      "title": "닥터 코퍼 $6.77선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.75",
+      "title": "닥터 코퍼 $6.75선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.77",
-          "chg": "+0.15%",
-          "up": true
+          "val": "$6.75",
+          "chg": "-0.15%",
+          "up": false
         },
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,317.3",
-          "chg": "-1.35%",
+          "val": "$4,319.2",
+          "chg": "-1.31%",
           "up": false
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$64.99",
-          "chg": "-1.43%",
+          "val": "$64.94",
+          "chg": "-1.50%",
           "up": false
         }
       ],
       "bullets": [
-        "구리 $6.77/lb (+0.15%) - AI 전력망 설비 수요 반영",
-        "금 $4,317/oz, 은 $64.99/oz - 통화가치 헤지"
+        "구리 $6.75/lb (-0.15%) - AI 전력망 설비 수요 반영",
+        "금 $4,319/oz, 은 $64.94/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,366원 | 엔/달러 ¥158.3",
-      "title": "원/달러 1,366.4원선과 엔/달러 ¥158.3",
+      "badge": "원/달러 1,369원 | 엔/달러 ¥158.4",
+      "title": "원/달러 1,369.5원선과 엔/달러 ¥158.4",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,366.4원",
-          "chg": "-0.53%",
+          "val": "1,369.5원",
+          "chg": "-0.31%",
           "up": false
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "101.05pt",
-          "chg": "+0.62%",
+          "val": "101.17pt",
+          "chg": "+0.74%",
           "up": true
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥158.34",
-          "chg": "+0.62%",
+          "val": "¥158.37",
+          "chg": "+0.64%",
           "up": true
         }
       ],
       "bullets": [
-        "달러 인덱스 101.05pt - 미국 성장 우위 지속",
-        "엔/달러 158.34엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 101.17pt - 미국 성장 우위 지속",
+        "엔/달러 158.37엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $92.62",
-      "title": "WTI 배럴당 $92.62선 박스권 안정",
+      "badge": "WTI $91.48",
+      "title": "WTI 배럴당 $91.48선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$92.62",
-          "chg": "-2.08%",
+          "val": "$91.48",
+          "chg": "-3.29%",
           "up": false
         }
       ],
       "bullets": [
-        "WTI 선물 $92.62/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $91.48/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -307,32 +297,32 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.77,
-      "change": 0.15
+      "price": 6.75,
+      "change": -0.15
     },
     "gold": {
-      "price": 4317.3,
-      "change": -1.35
+      "price": 4319.2,
+      "change": -1.31
     },
     "silver": {
-      "price": 64.99,
-      "change": -1.43
+      "price": 64.94,
+      "change": -1.5
     },
     "wti": {
-      "price": 92.62,
-      "change": -2.08
+      "price": 91.48,
+      "change": -3.29
     },
     "usdkrw": {
-      "price": 1366.44,
-      "change": -0.53
+      "price": 1369.49,
+      "change": -0.31
     },
     "dxy": {
-      "price": 101.05,
-      "change": 0.62
+      "price": 101.17,
+      "change": 0.74
     },
     "usdjpy": {
-      "price": 158.34,
-      "change": 0.62
+      "price": 158.37,
+      "change": 0.64
     }
   },
   "history_20d": {
@@ -472,10 +462,10 @@
       },
       {
         "date": "09-23",
-        "us10y": 5.08,
+        "us10y": 5.1,
         "us2y": 4.71,
         "us30y": 5.39,
-        "spread": 37
+        "spread": 39
       }
     ],
     "commodities": [
@@ -595,9 +585,9 @@
       },
       {
         "date": "09-23",
-        "copper": 6.77,
-        "gold": 4317.3,
-        "silver": 64.99
+        "copper": 6.75,
+        "gold": 4319.2,
+        "silver": 64.94
       }
     ],
     "fx": [
@@ -717,9 +707,9 @@
       },
       {
         "date": "09-23",
-        "usdkrw": 1366.44,
-        "dxy": 101.05,
-        "usdjpy": 158.34
+        "usdkrw": 1369.49,
+        "dxy": 101.17,
+        "usdjpy": 158.37
       }
     ],
     "oil": [
@@ -820,8 +810,8 @@
       },
       {
         "date": "09-23",
-        "wti": 92.62,
-        "change": -2.08
+        "wti": 91.48,
+        "change": -3.29
       }
     ]
   },
@@ -1417,38 +1407,38 @@
       },
       {
         "rank": 2,
-        "title": "추석 연휴 보안 점검",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B6%94%EC%84%9D%20%EC%97%B0%ED%9C%B4%20%EB%B3%B4%EC%95%88%20%EC%A0%90%EA%B2%80"
+        "title": "오상욱 사브르 개인전 2연패",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%98%A4%EC%83%81%EC%9A%B1%20%EC%82%AC%EB%B8%8C%EB%A5%B4%20%EA%B0%9C%EC%9D%B8%EC%A0%84%202%EC%97%B0%ED%8C%A8"
       },
       {
         "rank": 3,
-        "title": "오상욱 사브르 2연패",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%98%A4%EC%83%81%EC%9A%B1%20%EC%82%AC%EB%B8%8C%EB%A5%B4%202%EC%97%B0%ED%8C%A8"
+        "title": "추석 연휴 준비사항 점검",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B6%94%EC%84%9D%20%EC%97%B0%ED%9C%B4%20%EC%A4%80%EB%B9%84%EC%82%AC%ED%95%AD%20%EC%A0%90%EA%B2%80"
       },
       {
         "rank": 4,
-        "title": "GTX-A 삼성역 기둥 보강",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=GTX-A%20%EC%82%BC%EC%84%B1%EC%97%AD%20%EA%B8%B0%EB%91%A5%20%EB%B3%B4%EA%B0%95"
-      },
-      {
-        "rank": 5,
-        "title": "한국 성장률 3.7% 전망",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%9C%EA%B5%AD%20%EC%84%B1%EC%9E%A5%EB%A5%A0%203.7%25%20%EC%A0%84%EB%A7%9D"
-      },
-      {
-        "rank": 6,
-        "title": "신현준",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%8B%A0%ED%98%84%EC%A4%80"
-      },
-      {
-        "rank": 7,
         "title": "LH 성대야구장 주택 착공",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=LH%20%EC%84%B1%EB%8C%80%EC%95%BC%EA%B5%AC%EC%9E%A5%20%EC%A3%BC%ED%83%9D%20%EC%B0%A9%EA%B3%B5"
       },
       {
+        "rank": 5,
+        "title": "신현준",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%8B%A0%ED%98%84%EC%A4%80"
+      },
+      {
+        "rank": 6,
+        "title": "GTX-A 삼성역 기둥 보강",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=GTX-A%20%EC%82%BC%EC%84%B1%EC%97%AD%20%EA%B8%B0%EB%91%A5%20%EB%B3%B4%EA%B0%95"
+      },
+      {
+        "rank": 7,
+        "title": "북한 연기 펼치다",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B6%81%ED%95%9C%20%EC%97%B0%EA%B8%B0%20%ED%8E%BC%EC%B9%98%EB%8B%A4"
+      },
+      {
         "rank": 8,
-        "title": "연기 펼치는 북한",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%97%B0%EA%B8%B0%20%ED%8E%BC%EC%B9%98%EB%8A%94%20%EB%B6%81%ED%95%9C"
+        "title": "황정음 보형물 제거 고백",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%99%A9%EC%A0%95%EC%9D%8C%20%EB%B3%B4%ED%98%95%EB%AC%BC%20%EC%A0%9C%EA%B1%B0%20%EA%B3%A0%EB%B0%B1"
       },
       {
         "rank": 9,
@@ -1457,8 +1447,8 @@
       },
       {
         "rank": 10,
-        "title": "강신철 DMZ 장병 위문",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B0%95%EC%8B%A0%EC%B2%A0%20DMZ%20%EC%9E%A5%EB%B3%91%20%EC%9C%84%EB%AC%B8"
+        "title": "MBK 김병주 불기소",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=MBK%20%EA%B9%80%EB%B3%91%EC%A3%BC%20%EB%B6%88%EA%B8%B0%EC%86%8C"
       }
     ],
     "youtube_popular": [
@@ -1482,7 +1472,7 @@
         "rank": 3,
         "title": "ALLDAY PROJECT - ‘TALK’ M/V",
         "channel": "THEBLACKLABEL",
-        "views": "1051만회",
+        "views": "1053만회",
         "thumb": "https://i.ytimg.com/vi/1Qx6ktR3CEk/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=1Qx6ktR3CEk"
       },
@@ -1490,7 +1480,7 @@
         "rank": 4,
         "title": "현 FC온라인 최고의 카드 UC호날두 11카 최초 영입",
         "channel": "튜브김민교",
-        "views": "59만회",
+        "views": "60만회",
         "thumb": "https://i.ytimg.com/vi/QNBoAnethQ0/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=QNBoAnethQ0"
       },
@@ -1522,7 +1512,7 @@
         "rank": 8,
         "title": "어빌 레레레부터 소울 잠재까지! 아델에 진심이 되기로 했습니다 [팡이요,  메이플스토리]",
         "channel": "팡이요",
-        "views": "43만회",
+        "views": "44만회",
         "thumb": "https://i.ytimg.com/vi/P0yYzKcmzrY/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=P0yYzKcmzrY"
       },
@@ -1538,7 +1528,7 @@
         "rank": 10,
         "title": "돌아온 영웅 【커비 도팡 일당의 습격 켠왕】",
         "channel": "윤가놈",
-        "views": "49만회",
+        "views": "50만회",
         "thumb": "https://i.ytimg.com/vi/nqzb4scVEkI/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=nqzb4scVEkI"
       }
