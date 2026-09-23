@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23 09:07:34",
+  "updated_at": "2026-09-23 10:05:29",
   "us2y": {
     "value": 4.71,
     "change": -0.05
@@ -93,7 +93,7 @@
       {
         "title": "CFTC says prediction markets' 'mentions' contracts present a higher risk of manipulation",
         "link": "https://www.cnbc.com/2026/09/22/cftc-prediction-markets-mentions-contracts-have-manipulation-risk.html",
-        "date": "09-22 22:13"
+        "date": "09-23 00:58"
       },
       {
         "title": "Stocks making the biggest moves midday: Lennar, Capri, Vicor, Amgen & more",
@@ -131,33 +131,43 @@
         "title": "[디일렉] [스냅드래곤 서밋] 퀄컴-마스터카드, 에이전틱 커머스 협력 발표",
         "link": "https://www.thelec.kr/news/articleView.html?idxno=62686",
         "date": "09-23 07:47"
+      },
+      {
+        "title": "[전자신문] 우리금융, 6000억원 규모 포항 AI 데이터센터 PF 약정 체결…그룹 역량 결집",
+        "link": "https://www.etnews.com/20260923000070",
+        "date": "09-23 10:03"
+      },
+      {
+        "title": "[전자신문] 샤브올데이, 경찰·군인·소방관 대상 할인 '올데이 히어로즈' 연장",
+        "link": "https://www.etnews.com/20260923000069",
+        "date": "09-23 10:02"
       }
     ],
     "domestic": [
       {
+        "title": "은행들 '예담' 두 달 새 13조 늘렸다…조달금리도 20bp↑",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436267",
+        "date": "09-23 09:59"
+      },
+      {
+        "title": "8월 원화 실질가치, 10개월만에 64개국 중 '뒤에서 2등' 탈출",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436260",
+        "date": "09-23 09:42"
+      },
+      {
+        "title": "美국채 누가 팔면 금리 더 뛸까…외국기관 14bp↑·헤지펀드 55bp↑",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436258",
+        "date": "09-23 09:29"
+      },
+      {
+        "title": "[오늘의 채권ㆍ외환 메모] (09월23일)",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436256",
+        "date": "09-23 09:22"
+      },
+      {
         "title": "ADB, 올해 韓성장률 전망 3.2%로 0.6%p 상향…내년 2.0→2.3%",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436247",
         "date": "09-23 09:00"
-      },
-      {
-        "title": "NDF, 1,353.10/ 1,353.50원…4.70원↓",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436234",
-        "date": "09-23 08:39"
-      },
-      {
-        "title": "[외환] 미·이란 대표단 회동 속 1,350원대 후반",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436233",
-        "date": "09-23 08:38"
-      },
-      {
-        "title": "국채선물, 美·이란 대화 낙관론에 상승…10년물 20틱↑",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436225",
-        "date": "09-23 08:18"
-      },
-      {
-        "title": "美 중동 특사 윗코프, 이란 외무장관과 회담…\"호르무즈 재개방 조건 전달\"",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436208",
-        "date": "09-23 07:05"
       }
     ]
   },
@@ -213,83 +223,83 @@
       "detail": "10Y-2Y 스프레드가 +26 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.9",
-      "title": "닥터 코퍼 $6.9선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.89",
+      "title": "닥터 코퍼 $6.89선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.90",
-          "chg": "+3.14%",
+          "val": "$6.89",
+          "chg": "+2.99%",
           "up": true
         },
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,401.3",
-          "chg": "+0.40%",
+          "val": "$4,394.8",
+          "chg": "+0.25%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$67.91",
-          "chg": "+3.18%",
+          "val": "$67.88",
+          "chg": "+3.13%",
           "up": true
         }
       ],
       "bullets": [
-        "구리 $6.9/lb (+3.14%) - AI 전력망 설비 수요 반영",
-        "금 $4,401/oz, 은 $67.91/oz - 통화가치 헤지"
+        "구리 $6.89/lb (+2.99%) - AI 전력망 설비 수요 반영",
+        "금 $4,395/oz, 은 $67.88/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,350원 | 엔/달러 ¥157.5",
-      "title": "원/달러 1,350.3원선과 엔/달러 ¥157.5",
+      "badge": "원/달러 1,352원 | 엔/달러 ¥157.6",
+      "title": "원/달러 1,352.4원선과 엔/달러 ¥157.6",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,350.3원",
-          "chg": "-1.70%",
+          "val": "1,352.4원",
+          "chg": "-1.55%",
           "up": false
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "100.55pt",
-          "chg": "+0.12%",
+          "val": "100.56pt",
+          "chg": "+0.13%",
           "up": true
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥157.54",
-          "chg": "+0.11%",
+          "val": "¥157.59",
+          "chg": "+0.14%",
           "up": true
         }
       ],
       "bullets": [
-        "달러 인덱스 100.55pt - 미국 성장 우위 지속",
-        "엔/달러 157.54엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 100.56pt - 미국 성장 우위 지속",
+        "엔/달러 157.59엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $89.61",
-      "title": "WTI 배럴당 $89.61선 박스권 안정",
+      "badge": "WTI $90.07",
+      "title": "WTI 배럴당 $90.07선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$89.61",
-          "chg": "-6.44%",
+          "val": "$90.07",
+          "chg": "-5.96%",
           "up": false
         }
       ],
       "bullets": [
-        "WTI 선물 $89.61/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $90.07/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -297,32 +307,32 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.9,
-      "change": 3.14
+      "price": 6.89,
+      "change": 2.99
     },
     "gold": {
-      "price": 4401.3,
-      "change": 0.4
+      "price": 4394.8,
+      "change": 0.25
     },
     "silver": {
-      "price": 67.91,
-      "change": 3.18
+      "price": 67.88,
+      "change": 3.13
     },
     "wti": {
-      "price": 89.61,
-      "change": -6.44
+      "price": 90.07,
+      "change": -5.96
     },
     "usdkrw": {
-      "price": 1350.28,
-      "change": -1.7
+      "price": 1352.38,
+      "change": -1.55
     },
     "dxy": {
-      "price": 100.55,
-      "change": 0.12
+      "price": 100.56,
+      "change": 0.13
     },
     "usdjpy": {
-      "price": 157.54,
-      "change": 0.11
+      "price": 157.59,
+      "change": 0.14
     }
   },
   "history_20d": {
@@ -584,10 +594,10 @@
         "silver": 65.82
       },
       {
-        "date": "09-22",
-        "copper": 6.9,
-        "gold": 4401.3,
-        "silver": 67.91
+        "date": "09-23",
+        "copper": 6.89,
+        "gold": 4394.8,
+        "silver": 67.88
       }
     ],
     "fx": [
@@ -707,9 +717,9 @@
       },
       {
         "date": "09-23",
-        "usdkrw": 1350.28,
-        "dxy": 100.55,
-        "usdjpy": 157.54
+        "usdkrw": 1352.38,
+        "dxy": 100.56,
+        "usdjpy": 157.59
       }
     ],
     "oil": [
@@ -809,9 +819,9 @@
         "change": -4.51
       },
       {
-        "date": "09-22",
-        "wti": 89.61,
-        "change": -6.44
+        "date": "09-23",
+        "wti": 90.07,
+        "change": -5.96
       }
     ]
   },
@@ -1400,53 +1410,53 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "마지막 아시안게임",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%A7%88%EC%A7%80%EB%A7%89%20%EC%95%84%EC%8B%9C%EC%95%88%EA%B2%8C%EC%9E%84"
+        "title": "추석인사",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B6%94%EC%84%9D%EC%9D%B8%EC%82%AC"
       },
       {
         "rank": 2,
+        "title": "이정현 검찰총장 직무대행",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EC%A0%95%ED%98%84%20%EA%B2%80%EC%B0%B0%EC%B4%9D%EC%9E%A5%20%EC%A7%81%EB%AC%B4%EB%8C%80%ED%96%89"
+      },
+      {
+        "rank": 3,
+        "title": "이번이 마지막 아시안게임",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EB%B2%88%EC%9D%B4%20%EB%A7%88%EC%A7%80%EB%A7%89%20%EC%95%84%EC%8B%9C%EC%95%88%EA%B2%8C%EC%9E%84"
+      },
+      {
+        "rank": 4,
+        "title": "정부 원유 중동의존도",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A0%95%EB%B6%80%20%EC%9B%90%EC%9C%A0%20%EC%A4%91%EB%8F%99%EC%9D%98%EC%A1%B4%EB%8F%84"
+      },
+      {
+        "rank": 5,
         "title": "트럼프 AI 규제 반대",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%8A%B8%EB%9F%BC%ED%94%84%20AI%20%EA%B7%9C%EC%A0%9C%20%EB%B0%98%EB%8C%80"
       },
       {
-        "rank": 3,
-        "title": "김혜경 여사와 멜라니아 오찬 참석",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%ED%98%9C%EA%B2%BD%20%EC%97%AC%EC%82%AC%EC%99%80%20%EB%A9%9C%EB%9D%BC%EB%8B%88%EC%95%84%20%EC%98%A4%EC%B0%AC%20%EC%B0%B8%EC%84%9D"
+        "rank": 6,
+        "title": "리센느 원, 민국과 결혼 생각",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%A6%AC%EC%84%BC%EB%8A%90%20%EC%9B%90%2C%20%EB%AF%BC%EA%B5%AD%EA%B3%BC%20%EA%B2%B0%ED%98%BC%20%EC%83%9D%EA%B0%81"
       },
       {
-        "rank": 4,
+        "rank": 7,
+        "title": "코스피 상승 출발",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%BD%94%EC%8A%A4%ED%94%BC%20%EC%83%81%EC%8A%B9%20%EC%B6%9C%EB%B0%9C"
+      },
+      {
+        "rank": 8,
+        "title": "ADB 한국 성장률 상향",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=ADB%20%ED%95%9C%EA%B5%AD%20%EC%84%B1%EC%9E%A5%EB%A5%A0%20%EC%83%81%ED%96%A5"
+      },
+      {
+        "rank": 9,
         "title": "이강인 태클 발베르데 부상",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EA%B0%95%EC%9D%B8%20%ED%83%9C%ED%81%B4%20%EB%B0%9C%EB%B2%A0%EB%A5%B4%EB%8D%B0%20%EB%B6%80%EC%83%81"
       },
       {
-        "rank": 5,
-        "title": "롯데그룹",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%A1%AF%EB%8D%B0%EA%B7%B8%EB%A3%B9"
-      },
-      {
-        "rank": 6,
-        "title": "코레일 자회사 통합",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%BD%94%EB%A0%88%EC%9D%BC%20%EC%9E%90%ED%9A%8C%EC%82%AC%20%ED%86%B5%ED%95%A9"
-      },
-      {
-        "rank": 7,
-        "title": "부부의 세계",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B6%80%EB%B6%80%EC%9D%98%20%EC%84%B8%EA%B3%84"
-      },
-      {
-        "rank": 8,
-        "title": "KT&G 자사주 매입 소각",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=KT%26G%20%EC%9E%90%EC%82%AC%EC%A3%BC%20%EB%A7%A4%EC%9E%85%20%EC%86%8C%EA%B0%81"
-      },
-      {
-        "rank": 9,
-        "title": "전현무 재산설 해명",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A0%84%ED%98%84%EB%AC%B4%20%EC%9E%AC%EC%82%B0%EC%84%A4%20%ED%95%B4%EB%AA%85"
-      },
-      {
         "rank": 10,
-        "title": "리센느 원이 민국과 결혼 생각",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%A6%AC%EC%84%BC%EB%8A%90%20%EC%9B%90%EC%9D%B4%20%EB%AF%BC%EA%B5%AD%EA%B3%BC%20%EA%B2%B0%ED%98%BC%20%EC%83%9D%EA%B0%81"
+        "title": "25 사단 지뢰",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=25%20%EC%82%AC%EB%8B%A8%20%EC%A7%80%EB%A2%B0"
       }
     ],
     "youtube_popular": [
@@ -1454,7 +1464,7 @@
         "rank": 1,
         "title": "Dreamer",
         "channel": "QWER - Topic",
-        "views": "41만회",
+        "views": "43만회",
         "thumb": "https://i.ytimg.com/vi/62qQxaFZFZo/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=62qQxaFZFZo"
       },
@@ -1462,7 +1472,7 @@
         "rank": 2,
         "title": "시우 체험기",
         "channel": "PAKA",
-        "views": "51만회",
+        "views": "52만회",
         "thumb": "https://i.ytimg.com/vi/EKL2T2L2A8c/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=EKL2T2L2A8c"
       },
@@ -1470,7 +1480,7 @@
         "rank": 3,
         "title": "임영웅 [모이세] Live Clip. @2026 IMHERO 10 : THE STADIUM CONCERT 2",
         "channel": "임영웅",
-        "views": "29만회",
+        "views": "30만회",
         "thumb": "https://i.ytimg.com/vi/hLc9R9Q-hFo/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=hLc9R9Q-hFo"
       },
@@ -1478,7 +1488,7 @@
         "rank": 4,
         "title": "현 FC온라인 최고의 카드 UC호날두 11카 최초 영입",
         "channel": "튜브김민교",
-        "views": "32만회",
+        "views": "34만회",
         "thumb": "https://i.ytimg.com/vi/QNBoAnethQ0/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=QNBoAnethQ0"
       },
@@ -1486,7 +1496,7 @@
         "rank": 5,
         "title": "ALLDAY PROJECT - ‘TALK’ M/V",
         "channel": "THEBLACKLABEL",
-        "views": "980만회",
+        "views": "985만회",
         "thumb": "https://i.ytimg.com/vi/1Qx6ktR3CEk/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=1Qx6ktR3CEk"
       },
@@ -1494,7 +1504,7 @@
         "rank": 6,
         "title": "개미친 또라이와 함께",
         "channel": "괴물쥐 유튜브",
-        "views": "32만회",
+        "views": "34만회",
         "thumb": "https://i.ytimg.com/vi/7c43iILPM-o/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=7c43iILPM-o"
       },
@@ -1502,7 +1512,7 @@
         "rank": 7,
         "title": "[MV] Kim Yong Bin(김용빈) _ Only you(당신뿐입니다)",
         "channel": "1theK (원더케이)",
-        "views": "14만회",
+        "views": "15만회",
         "thumb": "https://i.ytimg.com/vi/LzW15vQNwPQ/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=LzW15vQNwPQ"
       },
@@ -1510,7 +1520,7 @@
         "rank": 8,
         "title": "어빌 레레레부터 소울 잠재까지! 아델에 진심이 되기로 했습니다 [팡이요,  메이플스토리]",
         "channel": "팡이요",
-        "views": "27만회",
+        "views": "29만회",
         "thumb": "https://i.ytimg.com/vi/P0yYzKcmzrY/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=P0yYzKcmzrY"
       },
