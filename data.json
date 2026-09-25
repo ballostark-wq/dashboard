@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25 15:07:17",
+  "updated_at": "2026-09-25 16:06:23",
   "us2y": {
     "value": 4.87,
     "change": 0.02
@@ -91,14 +91,19 @@
     ],
     "global": [
       {
+        "title": "Crypto platform Bitget suspects North Korea is responsible for $352 million hack",
+        "link": "https://www.cnbc.com/2026/09/25/crypto-platform-bitget-suspects-north-korea-in-352-million-hack.html",
+        "date": "09-25 06:13"
+      },
+      {
         "title": "China's Xi urges U.S. to cooperate on AI",
         "link": "https://www.cnbc.com/2026/09/25/chinas-xi-urges-us-to-cooperate-on-ai.html",
         "date": "09-25 01:22"
       },
       {
-        "title": "Here's who is attending the Trump-Xi state dinner",
+        "title": "Here's who attended the Trump-Xi state dinner",
         "link": "https://www.cnbc.com/2026/09/25/heres-who-is-attending-the-trump-xi-state-dinner.html",
-        "date": "09-25 01:02"
+        "date": "09-25 06:30"
       },
       {
         "title": "Philadelphia Fed's Anna Paulson says 'modest' rate moves likely ahead to tame inflation",
@@ -109,11 +114,6 @@
         "title": "Stocks making the biggest moves premarket: MGM, Darden Restaurants, Meta, BlackBerry & more",
         "link": "https://www.cnbc.com/2026/09/24/stocks-making-the-biggest-moves-premarket-mgm-dri-meta-bb.html",
         "date": "09-24 11:53"
-      },
-      {
-        "title": "China confirms first AI talks with U.S. have taken place, hints at trade truce extension",
-        "link": "https://www.cnbc.com/2026/09/24/china-confirms-first-ai-talks-with-us-have-taken-place-hints-at-trade-truce-extension.html",
-        "date": "09-24 14:16"
       }
     ],
     "tech": [
@@ -133,14 +133,14 @@
         "date": "09-25 09:06"
       },
       {
-        "title": "[전자신문] 中 스위치봇, 로봇청소기 K11+ 미국 출시",
-        "link": "https://www.etnews.com/20260925000033",
-        "date": "09-25 14:46"
+        "title": "[전자신문] 혼밥부터 치킨·저당 간식까지…긴 연휴 먹거리 '간편하게'",
+        "link": "https://www.etnews.com/20260925000036",
+        "date": "09-25 15:41"
       },
       {
-        "title": "[전자신문] 내년 코인 과세 앞두고 투자자 '반발'…10명 중 8명 “유예·보완 필요”",
-        "link": "https://www.etnews.com/20260925000032",
-        "date": "09-25 14:18"
+        "title": "[전자신문] 과일, 레몬즙·소주에 5분 담갔더니…식중독균 99.999% 제거",
+        "link": "https://www.etnews.com/20260925000035",
+        "date": "09-25 15:20"
       }
     ],
     "domestic": [
@@ -236,70 +236,70 @@
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,300.6",
-          "chg": "+0.06%",
+          "val": "$4,312.0",
+          "chg": "+0.33%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$64.00",
-          "chg": "+0.85%",
+          "val": "$64.22",
+          "chg": "+1.20%",
           "up": true
         }
       ],
       "bullets": [
         "구리 $6.76/lb (+0.60%) - AI 전력망 설비 수요 반영",
-        "금 $4,301/oz, 은 $64.00/oz - 통화가치 헤지"
+        "금 $4,312/oz, 은 $64.22/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,360원 | 엔/달러 ¥158.2",
-      "title": "원/달러 1,360.0원선과 엔/달러 ¥158.2",
+      "badge": "원/달러 1,357원 | 엔/달러 ¥158.0",
+      "title": "원/달러 1,356.7원선과 엔/달러 ¥158.0",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,360.0원",
-          "chg": "-0.18%",
+          "val": "1,356.7원",
+          "chg": "-0.43%",
           "up": false
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "101.24pt",
-          "chg": "-0.05%",
+          "val": "101.13pt",
+          "chg": "-0.16%",
           "up": false
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥158.21",
-          "chg": "-0.03%",
+          "val": "¥158.04",
+          "chg": "-0.14%",
           "up": false
         }
       ],
       "bullets": [
-        "달러 인덱스 101.24pt - 미국 성장 우위 지속",
-        "엔/달러 158.21엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 101.13pt - 미국 성장 우위 지속",
+        "엔/달러 158.04엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $92.93",
-      "title": "WTI 배럴당 $92.93선 박스권 안정",
+      "badge": "WTI $93.15",
+      "title": "WTI 배럴당 $93.15선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$92.93",
-          "chg": "-1.78%",
+          "val": "$93.15",
+          "chg": "-1.54%",
           "up": false
         }
       ],
       "bullets": [
-        "WTI 선물 $92.93/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $93.15/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -311,28 +311,28 @@
       "change": 0.6
     },
     "gold": {
-      "price": 4300.6,
-      "change": 0.06
+      "price": 4312.0,
+      "change": 0.33
     },
     "silver": {
-      "price": 64.0,
-      "change": 0.85
+      "price": 64.22,
+      "change": 1.2
     },
     "wti": {
-      "price": 92.93,
-      "change": -1.78
+      "price": 93.15,
+      "change": -1.54
     },
     "usdkrw": {
-      "price": 1360.0,
-      "change": -0.18
+      "price": 1356.68,
+      "change": -0.43
     },
     "dxy": {
-      "price": 101.24,
-      "change": -0.05
+      "price": 101.13,
+      "change": -0.16
     },
     "usdjpy": {
-      "price": 158.21,
-      "change": -0.03
+      "price": 158.04,
+      "change": -0.14
     }
   },
   "history_20d": {
@@ -596,8 +596,8 @@
       {
         "date": "09-25",
         "copper": 6.76,
-        "gold": 4300.6,
-        "silver": 64.0
+        "gold": 4312.0,
+        "silver": 64.22
       }
     ],
     "fx": [
@@ -717,9 +717,9 @@
       },
       {
         "date": "09-25",
-        "usdkrw": 1360.0,
-        "dxy": 101.24,
-        "usdjpy": 158.21
+        "usdkrw": 1356.68,
+        "dxy": 101.13,
+        "usdjpy": 158.04
       }
     ],
     "oil": [
@@ -820,8 +820,8 @@
       },
       {
         "date": "09-25",
-        "wti": 92.93,
-        "change": -1.78
+        "wti": 93.15,
+        "change": -1.54
       }
     ]
   },
@@ -1415,53 +1415,53 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "추가은 홍수현 은메달",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B6%94%EA%B0%80%EC%9D%80%20%ED%99%8D%EC%88%98%ED%98%84%20%EC%9D%80%EB%A9%94%EB%8B%AC"
+        "title": "추가은·홍수현 은메달",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B6%94%EA%B0%80%EC%9D%80%C2%B7%ED%99%8D%EC%88%98%ED%98%84%20%EC%9D%80%EB%A9%94%EB%8B%AC"
       },
       {
         "rank": 2,
+        "title": "야마다 리아 사망",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%BC%EB%A7%88%EB%8B%A4%20%EB%A6%AC%EC%95%84%20%EC%82%AC%EB%A7%9D"
+      },
+      {
+        "rank": 3,
+        "title": "위성락 안보실장 관련",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9C%84%EC%84%B1%EB%9D%BD%20%EC%95%88%EB%B3%B4%EC%8B%A4%EC%9E%A5%20%EA%B4%80%EB%A0%A8"
+      },
+      {
+        "rank": 4,
+        "title": "서은혜 초음파 사진 논란",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%84%9C%EC%9D%80%ED%98%9C%20%EC%B4%88%EC%9D%8C%ED%8C%8C%20%EC%82%AC%EC%A7%84%20%EB%85%BC%EB%9E%80"
+      },
+      {
+        "rank": 5,
+        "title": "DMZ 지뢰폭발 은폐",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=DMZ%20%EC%A7%80%EB%A2%B0%ED%8F%AD%EB%B0%9C%20%EC%9D%80%ED%8F%90"
+      },
+      {
+        "rank": 6,
+        "title": "송이",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%86%A1%EC%9D%B4"
+      },
+      {
+        "rank": 7,
         "title": "이재명 연임 언급",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EC%9E%AC%EB%AA%85%20%EC%97%B0%EC%9E%84%20%EC%96%B8%EA%B8%89"
       },
       {
-        "rank": 3,
-        "title": "추석 당일 서울 정체 심각",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B6%94%EC%84%9D%20%EB%8B%B9%EC%9D%BC%20%EC%84%9C%EC%9A%B8%20%EC%A0%95%EC%B2%B4%20%EC%8B%AC%EA%B0%81"
-      },
-      {
-        "rank": 4,
-        "title": "한국 사격 동메달",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%9C%EA%B5%AD%20%EC%82%AC%EA%B2%A9%20%EB%8F%99%EB%A9%94%EB%8B%AC"
-      },
-      {
-        "rank": 5,
-        "title": "스걸파2 댄서 리아 사망 16세",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%8A%A4%EA%B1%B8%ED%8C%8C2%20%EB%8C%84%EC%84%9C%20%EB%A6%AC%EC%95%84%20%EC%82%AC%EB%A7%9D%2016%EC%84%B8"
-      },
-      {
-        "rank": 6,
-        "title": "순위",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%88%9C%EC%9C%84"
-      },
-      {
-        "rank": 7,
-        "title": "조광희 김효빈 첫 2관왕",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A1%B0%EA%B4%91%ED%9D%AC%20%EA%B9%80%ED%9A%A8%EB%B9%88%20%EC%B2%AB%202%EA%B4%80%EC%99%95"
-      },
-      {
         "rank": 8,
-        "title": "포수",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%8F%AC%EC%88%98"
+        "title": "다저스 꺾고 PS 진출 확정",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%8B%A4%EC%A0%80%EC%8A%A4%20%EA%BA%BE%EA%B3%A0%20PS%20%EC%A7%84%EC%B6%9C%20%ED%99%95%EC%A0%95"
       },
       {
         "rank": 9,
-        "title": "탈세 유튜버 세금 추징",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%83%88%EC%84%B8%20%EC%9C%A0%ED%8A%9C%EB%B2%84%20%EC%84%B8%EA%B8%88%20%EC%B6%94%EC%A7%95"
+        "title": "얼룩 고양이",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%96%BC%EB%A3%A9%20%EA%B3%A0%EC%96%91%EC%9D%B4"
       },
       {
         "rank": 10,
-        "title": "박지현, 韓 여배우 최초 에미상 후보",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B0%95%EC%A7%80%ED%98%84%2C%20%E9%9F%93%20%EC%97%AC%EB%B0%B0%EC%9A%B0%20%EC%B5%9C%EC%B4%88%20%EC%97%90%EB%AF%B8%EC%83%81%20%ED%9B%84%EB%B3%B4"
+        "title": "한국 사격 동메달",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%9C%EA%B5%AD%20%EC%82%AC%EA%B2%A9%20%EB%8F%99%EB%A9%94%EB%8B%AC"
       }
     ],
     "youtube_popular": [
@@ -1469,7 +1469,7 @@
         "rank": 1,
         "title": "Toy",
         "channel": "PATEKO - Topic",
-        "views": "24만회",
+        "views": "26만회",
         "thumb": "https://i.ytimg.com/vi/Ra9rIXtlt6M/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=Ra9rIXtlt6M"
       },
@@ -1477,7 +1477,7 @@
         "rank": 2,
         "title": "와.. 진짜 개미쳤습니다.. ≪어벤져스: 엔드게임 앙코르≫ 쿠키 영상 3개 & 모든 떡밥 스포일러 총정리",
         "channel": "무비띵크_Movie Think",
-        "views": "198만회",
+        "views": "199만회",
         "thumb": "https://i.ytimg.com/vi/C-NKIKiQCNE/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=C-NKIKiQCNE"
       },
@@ -1485,7 +1485,7 @@
         "rank": 3,
         "title": "김씨표류기",
         "channel": "랄로",
-        "views": "102만회",
+        "views": "103만회",
         "thumb": "https://i.ytimg.com/vi/E2WMtyE2G5g/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=E2WMtyE2G5g"
       },
@@ -1493,7 +1493,7 @@
         "rank": 4,
         "title": "ALLDAY PROJECT - ‘DO IT LIKE THIS’ M/V",
         "channel": "THEBLACKLABEL",
-        "views": "395만회",
+        "views": "415만회",
         "thumb": "https://i.ytimg.com/vi/KQM9hYlMXsI/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=KQM9hYlMXsI"
       },
@@ -1501,7 +1501,7 @@
         "rank": 5,
         "title": "왜 나 만나면",
         "channel": "괴물쥐 유튜브",
-        "views": "49만회",
+        "views": "51만회",
         "thumb": "https://i.ytimg.com/vi/PETvIraXkbg/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=PETvIraXkbg"
       },
@@ -1509,7 +1509,7 @@
         "rank": 6,
         "title": "Milky Way",
         "channel": "UNIS - Topic",
-        "views": "34만회",
+        "views": "35만회",
         "thumb": "https://i.ytimg.com/vi/OBIXeXfd3Oc/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=OBIXeXfd3Oc"
       },
@@ -1517,7 +1517,7 @@
         "rank": 7,
         "title": "외줄타기",
         "channel": "PAKA",
-        "views": "37만회",
+        "views": "38만회",
         "thumb": "https://i.ytimg.com/vi/RS-K409iCNo/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=RS-K409iCNo"
       },
@@ -1525,17 +1525,17 @@
         "rank": 8,
         "title": "Dreamer",
         "channel": "QWER - Topic",
-        "views": "85만회",
+        "views": "86만회",
         "thumb": "https://i.ytimg.com/vi/62qQxaFZFZo/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=62qQxaFZFZo"
       },
       {
         "rank": 9,
-        "title": "배틀그라운드 베트남 참사, 이제 시작임을 알려드립니다 Thảm họa PUBG tại Việt Nam: Xin thông báo đây mới chỉ là khởi đầu",
-        "channel": "김성회의 G식백과",
-        "views": "100만회",
-        "thumb": "https://i.ytimg.com/vi/cSV9Q9CJrbw/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=cSV9Q9CJrbw"
+        "title": "그 시절 내가 제일 좋아했던 전설의 포켓몬 [마크 코블몬 EP.08]",
+        "channel": "말왕TV",
+        "views": "38만회",
+        "thumb": "https://i.ytimg.com/vi/6UVZ_AQ4XNQ/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=6UVZ_AQ4XNQ"
       },
       {
         "rank": 10,
