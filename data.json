@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26 06:05:54",
+  "updated_at": "2026-09-26 07:05:15",
   "us2y": {
     "value": 4.81,
     "change": -0.06
@@ -91,6 +91,11 @@
     ],
     "global": [
       {
+        "title": "Appeals court rules that states can regulate Kalshi’s sports prediction markets, dealing another legal blow to platforms",
+        "link": "https://www.cnbc.com/2026/09/25/appeals-court-rules-states-can-regulate-sports-prediction-markets.html",
+        "date": "09-25 21:41"
+      },
+      {
         "title": "Stocks making the biggest moves midday: Akamai Technologies, Genius Sports, People Inc & more",
         "link": "https://www.cnbc.com/2026/09/25/stocks-making-the-biggest-moves-midday-akam-geni-ppli.html",
         "date": "09-25 18:27"
@@ -109,11 +114,6 @@
         "title": "China's Xi urges U.S. to cooperate on AI",
         "link": "https://www.cnbc.com/2026/09/25/chinas-xi-urges-us-to-cooperate-on-ai.html",
         "date": "09-25 01:22"
-      },
-      {
-        "title": "Here's who attended the Trump-Xi state dinner",
-        "link": "https://www.cnbc.com/2026/09/25/heres-who-is-attending-the-trump-xi-state-dinner.html",
-        "date": "09-25 14:41"
       }
     ],
     "tech": [
@@ -133,17 +133,22 @@
         "date": "09-25 14:40"
       },
       {
-        "title": "[전자신문] 백스윙 연습하다 '골프채'로 옆사람 '머리 가격'…법원까지 간 연습장 사고, 결말은",
-        "link": "https://www.etnews.com/20260925000041",
-        "date": "09-26 06:00"
+        "title": "[전자신문] 4분기 '신차 대전'…SUV·세단 시장, 국산·수입 격돌",
+        "link": "https://www.etnews.com/20260922000378",
+        "date": "09-26 07:00"
       },
       {
-        "title": "[전자신문] [테크 차이나] 中 AI 에이전트 시장, '대화'에서 '실행'으로",
-        "link": "https://www.etnews.com/20260923000164",
+        "title": "[전자신문] 백스윙 연습하다 '골프채'로 옆사람 '머리 가격'…법원까지 간 연습장 사고, 결말은",
+        "link": "https://www.etnews.com/20260925000041",
         "date": "09-26 06:00"
       }
     ],
     "domestic": [
+      {
+        "title": "클리블랜드 연은 총재 \"美 국채금리 급등, 인플레 우려 때문은 아냐\"",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436512",
+        "date": "09-26 06:49"
+      },
       {
         "title": "日재무상 \"美 재무와 엔화 약세에 대해 논의\"(종합)",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436498",
@@ -163,11 +168,6 @@
         "title": "달러-엔, 日 재무상 구두 개입에 157엔까지 급락…1.18%↓",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436493",
         "date": "09-26 01:15"
-      },
-      {
-        "title": "美 무역대표 \"미·중 무역 협상 세부 사항, 28일에 나올 것\"(상보)",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436491",
-        "date": "09-26 00:39"
       }
     ]
   },
@@ -236,21 +236,21 @@
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,322.4",
-          "chg": "+0.57%",
+          "val": "$4,320.5",
+          "chg": "+0.52%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$64.78",
-          "chg": "+2.08%",
+          "val": "$64.71",
+          "chg": "+1.97%",
           "up": true
         }
       ],
       "bullets": [
         "구리 $6.78/lb (+0.89%) - AI 전력망 설비 수요 반영",
-        "금 $4,322/oz, 은 $64.78/oz - 통화가치 헤지"
+        "금 $4,320/oz, 은 $64.71/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
@@ -268,8 +268,8 @@
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "101.03pt",
-          "chg": "-0.26%",
+          "val": "101.04pt",
+          "chg": "-0.25%",
           "up": false
         },
         {
@@ -281,25 +281,25 @@
         }
       ],
       "bullets": [
-        "달러 인덱스 101.03pt - 미국 성장 우위 지속",
+        "달러 인덱스 101.04pt - 미국 성장 우위 지속",
         "엔/달러 157.18엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $92.46",
-      "title": "WTI 배럴당 $92.46선 박스권 안정",
+      "badge": "WTI $92.44",
+      "title": "WTI 배럴당 $92.44선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$92.46",
-          "chg": "-2.27%",
+          "val": "$92.44",
+          "chg": "-2.29%",
           "up": false
         }
       ],
       "bullets": [
-        "WTI 선물 $92.46/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $92.44/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -311,24 +311,24 @@
       "change": 0.89
     },
     "gold": {
-      "price": 4322.4,
-      "change": 0.57
+      "price": 4320.5,
+      "change": 0.52
     },
     "silver": {
-      "price": 64.78,
-      "change": 2.08
+      "price": 64.71,
+      "change": 1.97
     },
     "wti": {
-      "price": 92.46,
-      "change": -2.27
+      "price": 92.44,
+      "change": -2.29
     },
     "usdkrw": {
       "price": 1355.28,
       "change": -0.88
     },
     "dxy": {
-      "price": 101.03,
-      "change": -0.26
+      "price": 101.04,
+      "change": -0.25
     },
     "usdjpy": {
       "price": 157.18,
@@ -596,8 +596,8 @@
       {
         "date": "09-25",
         "copper": 6.78,
-        "gold": 4322.4,
-        "silver": 64.78
+        "gold": 4320.5,
+        "silver": 64.71
       }
     ],
     "fx": [
@@ -718,7 +718,7 @@
       {
         "date": "09-25",
         "usdkrw": 1355.28,
-        "dxy": 101.03,
+        "dxy": 101.04,
         "usdjpy": 157.18
       }
     ],
@@ -820,8 +820,8 @@
       },
       {
         "date": "09-25",
-        "wti": 92.46,
-        "change": -2.27
+        "wti": 92.44,
+        "change": -2.29
       }
     ]
   },
@@ -1417,13 +1417,13 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "이재명, 한-멕시코 포럼 참석",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EC%9E%AC%EB%AA%85%2C%20%ED%95%9C-%EB%A9%95%EC%8B%9C%EC%BD%94%20%ED%8F%AC%EB%9F%BC%20%EC%B0%B8%EC%84%9D"
+        "title": "한-멕시코 포럼 참석한 이재명",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%9C-%EB%A9%95%EC%8B%9C%EC%BD%94%20%ED%8F%AC%EB%9F%BC%20%EC%B0%B8%EC%84%9D%ED%95%9C%20%EC%9D%B4%EC%9E%AC%EB%AA%85"
       },
       {
         "rank": 2,
-        "title": "여자 3X3 농구 아시안게임 동메달!",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%97%AC%EC%9E%90%203X3%20%EB%86%8D%EA%B5%AC%20%EC%95%84%EC%8B%9C%EC%95%88%EA%B2%8C%EC%9E%84%20%EB%8F%99%EB%A9%94%EB%8B%AC%21"
+        "title": "여자 농구 아시안게임 동메달 쾌거",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%97%AC%EC%9E%90%20%EB%86%8D%EA%B5%AC%20%EC%95%84%EC%8B%9C%EC%95%88%EA%B2%8C%EC%9E%84%20%EB%8F%99%EB%A9%94%EB%8B%AC%20%EC%BE%8C%EA%B1%B0"
       },
       {
         "rank": 3,
@@ -1437,8 +1437,8 @@
       },
       {
         "rank": 5,
-        "title": "적금",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A0%81%EA%B8%88"
+        "title": "여에스더",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%97%AC%EC%97%90%EC%8A%A4%EB%8D%94"
       },
       {
         "rank": 6,
@@ -1447,18 +1447,18 @@
       },
       {
         "rank": 7,
-        "title": "록히드 마틴 f-35 라이트닝 ii",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%A1%9D%ED%9E%88%EB%93%9C%20%EB%A7%88%ED%8B%B4%20f-35%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EB%8B%9D%20ii"
+        "title": "트럼프 시진핑 회동 연속",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%8A%B8%EB%9F%BC%ED%94%84%20%EC%8B%9C%EC%A7%84%ED%95%91%20%ED%9A%8C%EB%8F%99%20%EC%97%B0%EC%86%8D"
       },
       {
         "rank": 8,
-        "title": "윤수정 해트트릭 4강 진출",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9C%A4%EC%88%98%EC%A0%95%20%ED%95%B4%ED%8A%B8%ED%8A%B8%EB%A6%AD%204%EA%B0%95%20%EC%A7%84%EC%B6%9C"
+        "title": "추석 연휴 즐길 거리",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B6%94%EC%84%9D%20%EC%97%B0%ED%9C%B4%20%EC%A6%90%EA%B8%B8%20%EA%B1%B0%EB%A6%AC"
       },
       {
         "rank": 9,
-        "title": "보이스 피싱",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B3%B4%EC%9D%B4%EC%8A%A4%20%ED%94%BC%EC%8B%B1"
+        "title": "박지현",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B0%95%EC%A7%80%ED%98%84"
       },
       {
         "rank": 10,
@@ -1471,7 +1471,7 @@
         "rank": 1,
         "title": "Toy",
         "channel": "PATEKO - Topic",
-        "views": "38만회",
+        "views": "39만회",
         "thumb": "https://i.ytimg.com/vi/Ra9rIXtlt6M/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=Ra9rIXtlt6M"
       },
@@ -1479,7 +1479,7 @@
         "rank": 2,
         "title": "와.. 진짜 개미쳤습니다.. ≪어벤져스: 엔드게임 앙코르≫ 쿠키 영상 3개 & 모든 떡밥 스포일러 총정리",
         "channel": "무비띵크_Movie Think",
-        "views": "221만회",
+        "views": "222만회",
         "thumb": "https://i.ytimg.com/vi/C-NKIKiQCNE/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=C-NKIKiQCNE"
       },
@@ -1487,7 +1487,7 @@
         "rank": 3,
         "title": "⭐혜안져스 추석에 노움강도단 어셈블 했습니닼ㅋㅋㅋㅋㅋㅋㅋ⭐",
         "channel": "혜안",
-        "views": "34만회",
+        "views": "35만회",
         "thumb": "https://i.ytimg.com/vi/Zy_kG4IDtLk/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=Zy_kG4IDtLk"
       },
@@ -1511,7 +1511,7 @@
         "rank": 6,
         "title": "Babylon",
         "channel": "Taylor Swift - Topic",
-        "views": "129만회",
+        "views": "136만회",
         "thumb": "https://i.ytimg.com/vi/cCvLt6gqAIA/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=cCvLt6gqAIA"
       },
@@ -1519,7 +1519,7 @@
         "rank": 7,
         "title": "끝나지 않는 제 6회 후열의 밤",
         "channel": "왈도쿤",
-        "views": "23만회",
+        "views": "24만회",
         "thumb": "https://i.ytimg.com/vi/jY1hyCdMY7I/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=jY1hyCdMY7I"
       },
@@ -1535,7 +1535,7 @@
         "rank": 9,
         "title": "김씨표류기",
         "channel": "랄로",
-        "views": "117만회",
+        "views": "118만회",
         "thumb": "https://i.ytimg.com/vi/E2WMtyE2G5g/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=E2WMtyE2G5g"
       },
