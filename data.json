@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28 19:07:17",
+  "updated_at": "2026-09-28 20:06:23",
   "us2y": {
     "value": 4.81,
     "change": -0.06
@@ -21,8 +21,8 @@
     "status": "정상화 (우상향)"
   },
   "vix": {
-    "value": 16.28,
-    "change": 9.48
+    "value": 16.36,
+    "change": 10.02
   },
   "tech_news": [
     {
@@ -133,17 +133,27 @@
         "date": "09-28 17:23"
       },
       {
-        "title": "[전자신문] “20년 전 음주운전 사고, 기자가 폭로했다”…취임 88일 만에 내려온 中 시장",
-        "link": "https://www.etnews.com/20260928000390",
-        "date": "09-28 18:08"
+        "title": "[전자신문] 손웅희 생기원장 28일 취임...AX 대전환 시대, 사람 중심의 따뜻한 기술 강조",
+        "link": "https://www.etnews.com/20260928000392",
+        "date": "09-28 19:58"
       },
       {
-        "title": "[전자신문] 삼성전기, 세종에 4.2조 투자… AI 서버용 반도체 기판 증설",
-        "link": "https://www.etnews.com/20260928000389",
-        "date": "09-28 18:08"
+        "title": "[전자신문] 권혁빈 스마일게이트 CVO, 이혼·재산분할 1심 판결에 항소",
+        "link": "https://www.etnews.com/20260928000391",
+        "date": "09-28 19:05"
       }
     ],
     "domestic": [
+      {
+        "title": "도종록 외자과장 \"원화 국제화에 4가지 과제…역외 원화결제시스템 주목\"",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436758",
+        "date": "09-28 19:46"
+      },
+      {
+        "title": "한은, 10월 통안채 7조 발행…중도환매 2.0조",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436755",
+        "date": "09-28 19:05"
+      },
       {
         "title": "[채권-마감] 국고 10년 14.7bp↑…연휴 간 미국 금리 급등 반영",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436754",
@@ -158,16 +168,6 @@
         "title": "[외환-마감] 강달러·외인 주식 매도로 상승…7.60원↑",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436749",
         "date": "09-28 18:21"
-      },
-      {
-        "title": "FX스와프, 美 금리 상승 반영하며 하락",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436746",
-        "date": "09-28 18:00"
-      },
-      {
-        "title": "150틱 수준 폭락에도 서울 채권시장 분위기 차분한 이유",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436742",
-        "date": "09-28 17:37"
       }
     ]
   },
@@ -223,83 +223,83 @@
       "detail": "10Y-2Y 스프레드가 +37 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.64",
-      "title": "닥터 코퍼 $6.64선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.63",
+      "title": "닥터 코퍼 $6.63선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.64",
-          "chg": "-0.90%",
+          "val": "$6.63",
+          "chg": "-1.04%",
           "up": false
         },
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,186.5",
-          "chg": "-3.12%",
+          "val": "$4,189.0",
+          "chg": "-3.06%",
           "up": false
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$61.63",
-          "chg": "-4.08%",
+          "val": "$61.74",
+          "chg": "-3.91%",
           "up": false
         }
       ],
       "bullets": [
-        "구리 $6.64/lb (-0.90%) - AI 전력망 설비 수요 반영",
-        "금 $4,186/oz, 은 $61.63/oz - 통화가치 헤지"
+        "구리 $6.63/lb (-1.04%) - AI 전력망 설비 수요 반영",
+        "금 $4,189/oz, 은 $61.74/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,360원 | 엔/달러 ¥157.0",
-      "title": "원/달러 1,360.0원선과 엔/달러 ¥157.0",
+      "badge": "원/달러 1,361원 | 엔/달러 ¥157.1",
+      "title": "원/달러 1,360.6원선과 엔/달러 ¥157.1",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,360.0원",
-          "chg": "-0.54%",
+          "val": "1,360.6원",
+          "chg": "-0.50%",
           "up": false
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "101.13pt",
-          "chg": "+0.16%",
+          "val": "101.14pt",
+          "chg": "+0.17%",
           "up": true
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥157.03",
-          "chg": "-1.12%",
+          "val": "¥157.09",
+          "chg": "-1.08%",
           "up": false
         }
       ],
       "bullets": [
-        "달러 인덱스 101.13pt - 미국 성장 우위 지속",
-        "엔/달러 157.03엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 101.14pt - 미국 성장 우위 지속",
+        "엔/달러 157.09엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $95.88",
-      "title": "WTI 배럴당 $95.88선 박스권 안정",
+      "badge": "WTI $96.12",
+      "title": "WTI 배럴당 $96.12선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$95.88",
-          "chg": "+3.76%",
+          "val": "$96.12",
+          "chg": "+4.01%",
           "up": true
         }
       ],
       "bullets": [
-        "WTI 선물 $95.88/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $96.12/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -307,32 +307,32 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.64,
-      "change": -0.9
+      "price": 6.63,
+      "change": -1.04
     },
     "gold": {
-      "price": 4186.5,
-      "change": -3.12
+      "price": 4189.0,
+      "change": -3.06
     },
     "silver": {
-      "price": 61.63,
-      "change": -4.08
+      "price": 61.74,
+      "change": -3.91
     },
     "wti": {
-      "price": 95.88,
-      "change": 3.76
+      "price": 96.12,
+      "change": 4.01
     },
     "usdkrw": {
-      "price": 1360.03,
-      "change": -0.54
+      "price": 1360.58,
+      "change": -0.5
     },
     "dxy": {
-      "price": 101.13,
-      "change": 0.16
+      "price": 101.14,
+      "change": 0.17
     },
     "usdjpy": {
-      "price": 157.03,
-      "change": -1.12
+      "price": 157.09,
+      "change": -1.08
     }
   },
   "history_20d": {
@@ -595,9 +595,9 @@
       },
       {
         "date": "09-28",
-        "copper": 6.64,
-        "gold": 4186.5,
-        "silver": 61.63
+        "copper": 6.63,
+        "gold": 4189.0,
+        "silver": 61.74
       }
     ],
     "fx": [
@@ -717,9 +717,9 @@
       },
       {
         "date": "09-28",
-        "usdkrw": 1360.03,
-        "dxy": 101.13,
-        "usdjpy": 157.03
+        "usdkrw": 1360.58,
+        "dxy": 101.14,
+        "usdjpy": 157.09
       }
     ],
     "oil": [
@@ -820,8 +820,8 @@
       },
       {
         "date": "09-28",
-        "wti": 95.88,
-        "change": 3.76
+        "wti": 96.12,
+        "change": 4.01
       }
     ]
   },
@@ -1417,63 +1417,63 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "삼성전기 AI 기판 투자",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%82%BC%EC%84%B1%EC%A0%84%EA%B8%B0%20AI%20%EA%B8%B0%ED%8C%90%20%ED%88%AC%EC%9E%90"
+        "title": "삼성전기, AI 기판에 4조 투자",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%82%BC%EC%84%B1%EC%A0%84%EA%B8%B0%2C%20AI%20%EA%B8%B0%ED%8C%90%EC%97%90%204%EC%A1%B0%20%ED%88%AC%EC%9E%90"
       },
       {
         "rank": 2,
-        "title": "김채윤 아시안게임 메달 획득",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%B1%84%EC%9C%A4%20%EC%95%84%EC%8B%9C%EC%95%88%EA%B2%8C%EC%9E%84%20%EB%A9%94%EB%8B%AC%20%ED%9A%8D%EB%93%9D"
+        "title": "하태경 아시안게임 금메달 혜택 없애야",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%98%ED%83%9C%EA%B2%BD%20%EC%95%84%EC%8B%9C%EC%95%88%EA%B2%8C%EC%9E%84%20%EA%B8%88%EB%A9%94%EB%8B%AC%20%ED%98%9C%ED%83%9D%20%EC%97%86%EC%95%A0%EC%95%BC"
       },
       {
         "rank": 3,
-        "title": "이재명 대통령, 세계한인 기념식",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EC%9E%AC%EB%AA%85%20%EB%8C%80%ED%86%B5%EB%A0%B9%2C%20%EC%84%B8%EA%B3%84%ED%95%9C%EC%9D%B8%20%EA%B8%B0%EB%85%90%EC%8B%9D"
+        "title": "이재명, 세계한인의 날 기념식",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EC%9E%AC%EB%AA%85%2C%20%EC%84%B8%EA%B3%84%ED%95%9C%EC%9D%B8%EC%9D%98%20%EB%82%A0%20%EA%B8%B0%EB%85%90%EC%8B%9D"
       },
       {
         "rank": 4,
-        "title": "법사위 조희대 채택",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B2%95%EC%82%AC%EC%9C%84%20%EC%A1%B0%ED%9D%AC%EB%8C%80%20%EC%B1%84%ED%83%9D"
-      },
-      {
-        "rank": 5,
         "title": "청주 10대 흉기 성폭행",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B2%AD%EC%A3%BC%2010%EB%8C%80%20%ED%9D%89%EA%B8%B0%20%EC%84%B1%ED%8F%AD%ED%96%89"
       },
       {
+        "rank": 5,
+        "title": "노경필 법원행정처장 질의 답변",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%85%B8%EA%B2%BD%ED%95%84%20%EB%B2%95%EC%9B%90%ED%96%89%EC%A0%95%EC%B2%98%EC%9E%A5%20%EC%A7%88%EC%9D%98%20%EB%8B%B5%EB%B3%80"
+      },
+      {
         "rank": 6,
-        "title": "kia 타이거즈",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=kia%20%ED%83%80%EC%9D%B4%EA%B1%B0%EC%A6%88"
+        "title": "조희대 국감 증인 채택",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A1%B0%ED%9D%AC%EB%8C%80%20%EA%B5%AD%EA%B0%90%20%EC%A6%9D%EC%9D%B8%20%EC%B1%84%ED%83%9D"
       },
       {
         "rank": 7,
+        "title": "박세인",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B0%95%EC%84%B8%EC%9D%B8"
+      },
+      {
+        "rank": 8,
         "title": "상반기 보험사기 적발",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%B3%B4%ED%97%98%EC%82%AC%EA%B8%B0%20%EC%A0%81%EB%B0%9C"
       },
       {
-        "rank": 8,
-        "title": "답하는 노경필 법원행정처장",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%8B%B5%ED%95%98%EB%8A%94%20%EB%85%B8%EA%B2%BD%ED%95%84%20%EB%B2%95%EC%9B%90%ED%96%89%EC%A0%95%EC%B2%98%EC%9E%A5"
-      },
-      {
         "rank": 9,
-        "title": "정유경",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A0%95%EC%9C%A0%EA%B2%BD"
+        "title": "인천대공원",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B8%EC%B2%9C%EB%8C%80%EA%B3%B5%EC%9B%90"
       },
       {
         "rank": 10,
-        "title": "인터뷰하는 류지현 감독",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B8%ED%84%B0%EB%B7%B0%ED%95%98%EB%8A%94%20%EB%A5%98%EC%A7%80%ED%98%84%20%EA%B0%90%EB%8F%85"
+        "title": "쉰들러 ISDS 정부 승소",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%89%B0%EB%93%A4%EB%9F%AC%20ISDS%20%EC%A0%95%EB%B6%80%20%EC%8A%B9%EC%86%8C"
       }
     ],
     "youtube_popular": [
       {
         "rank": 1,
-        "title": "피노키오",
-        "channel": "Release - Topic",
-        "views": "28만회",
-        "thumb": "https://i.ytimg.com/vi/54j8NrQm3lU/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=54j8NrQm3lU"
+        "title": "BOYNEXTDOOR (보이넥스트도어) 'ANIMAL' Official MV",
+        "channel": "HYBE LABELS",
+        "views": "12만회",
+        "thumb": "https://i.ytimg.com/vi/WI4__7z_dJw/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=WI4__7z_dJw"
       },
       {
         "rank": 2,
@@ -1487,23 +1487,23 @@
         "rank": 3,
         "title": "역주행",
         "channel": "PAKA",
-        "views": "49만회",
+        "views": "50만회",
         "thumb": "https://i.ytimg.com/vi/a4VfqAgVgMs/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=a4VfqAgVgMs"
       },
       {
         "rank": 4,
-        "title": "Vaundy LIVE ＂怪獣の花唄＂| Vaundy ASIA ARENA TOUR 2026 \"HORO\" @ INSPIRE ARENA in SEOUL",
-        "channel": "Vaundy",
-        "views": "35만회",
-        "thumb": "https://i.ytimg.com/vi/I3_jV2zO0l0/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=I3_jV2zO0l0"
+        "title": "ALLDAY PROJECT - ‘CRASH’ M/V",
+        "channel": "THEBLACKLABEL",
+        "views": "19만회",
+        "thumb": "https://i.ytimg.com/vi/lQ-w9M447w0/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=lQ-w9M447w0"
       },
       {
         "rank": 5,
         "title": "나를 충전해줘 | 공식 예고편 | 넷플릭스",
         "channel": "Netflix Korea 넷플릭스 코리아",
-        "views": "4만회",
+        "views": "5만회",
         "thumb": "https://i.ytimg.com/vi/7NrRo_WyJ2A/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=7NrRo_WyJ2A"
       },
@@ -1517,11 +1517,11 @@
       },
       {
         "rank": 7,
-        "title": "With You",
-        "channel": "KyoungSeo - Topic",
-        "views": "2만회",
-        "thumb": "https://i.ytimg.com/vi/fPRPmaPQ4TY/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=fPRPmaPQ4TY"
+        "title": "피노키오",
+        "channel": "Release - Topic",
+        "views": "28만회",
+        "thumb": "https://i.ytimg.com/vi/54j8NrQm3lU/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=54j8NrQm3lU"
       },
       {
         "rank": 8,
@@ -1533,17 +1533,17 @@
       },
       {
         "rank": 9,
-        "title": "RAIN",
-        "channel": "SOOSOJIN - Topic",
-        "views": "27만회",
-        "thumb": "https://i.ytimg.com/vi/S_qgYRNP2Kk/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=S_qgYRNP2Kk"
+        "title": "Vaundy LIVE ＂怪獣の花唄＂| Vaundy ASIA ARENA TOUR 2026 \"HORO\" @ INSPIRE ARENA in SEOUL",
+        "channel": "Vaundy",
+        "views": "37만회",
+        "thumb": "https://i.ytimg.com/vi/I3_jV2zO0l0/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=I3_jV2zO0l0"
       },
       {
         "rank": 10,
         "title": "진짜 망해버린 베그 최신 근황",
         "channel": "영래기",
-        "views": "116만회",
+        "views": "117만회",
         "thumb": "https://i.ytimg.com/vi/t-A0pOjg5i8/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=t-A0pOjg5i8"
       }
