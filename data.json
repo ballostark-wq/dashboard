@@ -1,28 +1,28 @@
 {
-  "updated_at": "2026-09-28 23:08:39",
+  "updated_at": "2026-09-29 00:09:00",
   "us2y": {
     "value": 4.81,
     "change": -0.06
   },
   "us5y": {
-    "value": 5.05,
-    "change": 0.04
+    "value": 5.09,
+    "change": 0.08
   },
   "us10y": {
-    "value": 5.22,
-    "change": 0.04
+    "value": 5.26,
+    "change": 0.08
   },
   "us30y": {
-    "value": 5.54,
-    "change": 0.04
+    "value": 5.57,
+    "change": 0.07
   },
   "spread": {
-    "value": 41,
+    "value": 45,
     "status": "정상화 (우상향)"
   },
   "vix": {
-    "value": 15.91,
-    "change": 6.99
+    "value": 16.41,
+    "change": 10.36
   },
   "tech_news": [
     {
@@ -131,16 +131,6 @@
         "title": "[디일렉] ISC, 송도·베트남에 1000억원 투자…생산능력 2.5배 확대",
         "link": "https://www.thelec.kr/news/articleView.html?idxno=62872",
         "date": "09-28 21:15"
-      },
-      {
-        "title": "[전자신문] 폐품 줍던 20세 여성, 하루아침에 모델로…전업 계약은 거절?",
-        "link": "https://www.etnews.com/20260928000334",
-        "date": "09-28 22:30"
-      },
-      {
-        "title": "[전자신문] 마키나락스, 군 전장망 첫 AI 운용체계 적용…UFS서 실증",
-        "link": "https://www.etnews.com/20260928000394",
-        "date": "09-28 20:48"
       }
     ],
     "domestic": [
@@ -184,21 +174,21 @@
   },
   "macro_reviews": {
     "bonds": {
-      "badge": "스프레드 +41 bp",
-      "title": "미국채 10년물 5.22%선 공방과 정상화",
+      "badge": "스프레드 +45 bp",
+      "title": "미국채 10년물 5.26%선 공방과 정상화",
       "metrics": [
         {
           "id": "spread",
           "name": "10Y-2Y차",
-          "val": "+41 bp",
+          "val": "+45 bp",
           "chg": "정상화 (우상향)",
           "up": true
         },
         {
           "id": "us10y",
           "name": "10년물",
-          "val": "5.22%",
-          "chg": "+0.04%",
+          "val": "5.26%",
+          "chg": "+0.08%",
           "up": true
         },
         {
@@ -211,95 +201,95 @@
         {
           "id": "us30y",
           "name": "30년물",
-          "val": "5.54%",
-          "chg": "+0.04%",
+          "val": "5.57%",
+          "chg": "+0.07%",
           "up": true
         }
       ],
       "bullets": [
-        "10년물 5.22%와 2년물 4.81% 형성으로 스프레드 +41 bp 유지",
-        "초장기 30년물 5.54%선 안착 속 재정 적자 발행에 따른 기간 프리미엄"
+        "10년물 5.26%와 2년물 4.81% 형성으로 스프레드 +45 bp 유지",
+        "초장기 30년물 5.57%선 안착 속 재정 적자 발행에 따른 기간 프리미엄"
       ],
-      "detail": "10Y-2Y 스프레드가 +41 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
+      "detail": "10Y-2Y 스프레드가 +45 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.63",
-      "title": "닥터 코퍼 $6.63선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.61",
+      "title": "닥터 코퍼 $6.61선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.63",
-          "chg": "-1.04%",
+          "val": "$6.61",
+          "chg": "-1.34%",
           "up": false
         },
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,191.2",
-          "chg": "-3.01%",
+          "val": "$4,146.6",
+          "chg": "-4.04%",
           "up": false
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$62.16",
-          "chg": "-3.25%",
+          "val": "$61.25",
+          "chg": "-4.67%",
           "up": false
         }
       ],
       "bullets": [
-        "구리 $6.63/lb (-1.04%) - AI 전력망 설비 수요 반영",
-        "금 $4,191/oz, 은 $62.16/oz - 통화가치 헤지"
+        "구리 $6.61/lb (-1.34%) - AI 전력망 설비 수요 반영",
+        "금 $4,147/oz, 은 $61.25/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,359원 | 엔/달러 ¥157.2",
-      "title": "원/달러 1,358.9원선과 엔/달러 ¥157.2",
+      "badge": "원/달러 1,361원 | 엔/달러 ¥157.5",
+      "title": "원/달러 1,360.6원선과 엔/달러 ¥157.5",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,358.9원",
-          "chg": "-0.62%",
+          "val": "1,360.6원",
+          "chg": "-0.49%",
           "up": false
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "101.19pt",
-          "chg": "+0.22%",
+          "val": "101.24pt",
+          "chg": "+0.27%",
           "up": true
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥157.16",
-          "chg": "-1.04%",
+          "val": "¥157.51",
+          "chg": "-0.82%",
           "up": false
         }
       ],
       "bullets": [
-        "달러 인덱스 101.19pt - 미국 성장 우위 지속",
-        "엔/달러 157.16엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 101.24pt - 미국 성장 우위 지속",
+        "엔/달러 157.51엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $93.86",
-      "title": "WTI 배럴당 $93.86선 박스권 안정",
+      "badge": "WTI $95.61",
+      "title": "WTI 배럴당 $95.61선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$93.86",
-          "chg": "+1.57%",
+          "val": "$95.61",
+          "chg": "+3.46%",
           "up": true
         }
       ],
       "bullets": [
-        "WTI 선물 $93.86/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $95.61/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -307,32 +297,32 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.63,
-      "change": -1.04
+      "price": 6.61,
+      "change": -1.34
     },
     "gold": {
-      "price": 4191.2,
-      "change": -3.01
+      "price": 4146.6,
+      "change": -4.04
     },
     "silver": {
-      "price": 62.16,
-      "change": -3.25
+      "price": 61.25,
+      "change": -4.67
     },
     "wti": {
-      "price": 93.86,
-      "change": 1.57
+      "price": 95.61,
+      "change": 3.46
     },
     "usdkrw": {
-      "price": 1358.88,
-      "change": -0.62
+      "price": 1360.6,
+      "change": -0.49
     },
     "dxy": {
-      "price": 101.19,
-      "change": 0.22
+      "price": 101.24,
+      "change": 0.27
     },
     "usdjpy": {
-      "price": 157.16,
-      "change": -1.04
+      "price": 157.51,
+      "change": -0.82
     }
   },
   "history_20d": {
@@ -472,10 +462,10 @@
       },
       {
         "date": "09-28",
-        "us10y": 5.22,
+        "us10y": 5.26,
         "us2y": 4.81,
-        "us30y": 5.54,
-        "spread": 41
+        "us30y": 5.57,
+        "spread": 45
       }
     ],
     "commodities": [
@@ -595,9 +585,9 @@
       },
       {
         "date": "09-28",
-        "copper": 6.63,
-        "gold": 4191.2,
-        "silver": 62.16
+        "copper": 6.61,
+        "gold": 4146.6,
+        "silver": 61.25
       }
     ],
     "fx": [
@@ -717,9 +707,9 @@
       },
       {
         "date": "09-28",
-        "usdkrw": 1358.88,
-        "dxy": 101.19,
-        "usdjpy": 157.16
+        "usdkrw": 1360.6,
+        "dxy": 101.24,
+        "usdjpy": 157.51
       }
     ],
     "oil": [
@@ -820,8 +810,8 @@
       },
       {
         "date": "09-28",
-        "wti": 93.86,
-        "change": 1.57
+        "wti": 95.61,
+        "change": 3.46
       }
     ]
   },
@@ -859,24 +849,40 @@
     }
   },
   "humanities": {
-    "history_date": "2026-09-28",
+    "history_date": "2026-09-29",
     "history": {
-      "era": "1924년 ~ 1972년 (1967년)",
-      "region": "한국",
-      "year": "1967년",
-      "title": "[1967년] [한국] 1·21사태, 국민교육헌장 선포",
-      "summary": "1967년 - 1·21사태, 국민교육헌장 선포",
+      "era": "1466년 ~ 1699년 (1498년)",
+      "region": "세계",
+      "year": "1498년",
+      "title": "[1498년] [세계] 바스코 다 가마, 인도항로 개척",
+      "summary": "1498년 - 바스코 다 가마, 인도항로 개척",
       "bullets": [
-        "발생 연대: 1967년 (한국사)",
-        "1·21사태, 국민교육헌장 선포",
+        "발생 연대: 1498년 (세계사)",
+        "바스코 다 가마, 인도항로 개척",
         "당대 세력 균형 및 정치·경제적 제도 변화 반영"
       ],
-      "insight": "1967년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
-      "ref_title": "위키백과 세계사 연표: 1924년 ~ 1972년 (1967년)",
-      "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1924%EB%85%84_~_1972%EB%85%84:~:text=1967",
+      "insight": "1498년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
+      "ref_title": "위키백과 세계사 연표: 1466년 ~ 1699년 (1498년)",
+      "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1466%EB%85%84_~_1699%EB%85%84:~:text=1498",
       "d_day": "오늘"
     },
     "history_5d": [
+      {
+        "era": "1466년 ~ 1699년 (1498년)",
+        "region": "세계",
+        "year": "1498년",
+        "title": "[1498년] [세계] 바스코 다 가마, 인도항로 개척",
+        "summary": "1498년 - 바스코 다 가마, 인도항로 개척",
+        "bullets": [
+          "발생 연대: 1498년 (세계사)",
+          "바스코 다 가마, 인도항로 개척",
+          "당대 세력 균형 및 정치·경제적 제도 변화 반영"
+        ],
+        "insight": "1498년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
+        "ref_title": "위키백과 세계사 연표: 1466년 ~ 1699년 (1498년)",
+        "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1466%EB%85%84_~_1699%EB%85%84:~:text=1498",
+        "d_day": "오늘"
+      },
       {
         "era": "1924년 ~ 1972년 (1967년)",
         "region": "한국",
@@ -891,7 +897,7 @@
         "insight": "1967년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1924년 ~ 1972년 (1967년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1924%EB%85%84_~_1972%EB%85%84:~:text=1967",
-        "d_day": "오늘"
+        "d_day": "D-1"
       },
       {
         "era": "1076년 ~ 1455년 (1414년)",
@@ -907,7 +913,7 @@
         "insight": "1414년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1076년 ~ 1455년 (1414년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1076%EB%85%84_~_1455%EB%85%84:~:text=1414",
-        "d_day": "D-1"
+        "d_day": "D-2"
       },
       {
         "era": "1870년 ~ 1923년 (1909년)",
@@ -923,7 +929,7 @@
         "insight": "1909년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1870년 ~ 1923년 (1909년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1870%EB%85%84_~_1923%EB%85%84:~:text=1909",
-        "d_day": "D-2"
+        "d_day": "D-3"
       },
       {
         "era": "1924년 ~ 1972년 (1961년)",
@@ -939,91 +945,138 @@
         "insight": "1961년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1924년 ~ 1972년 (1961년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1924%EB%85%84_~_1972%EB%85%84:~:text=1961",
-        "d_day": "D-3"
-      },
-      {
-        "era": "1973년 ~ 2020년 (1973년)",
-        "region": "한국",
-        "year": "1973년",
-        "title": "[1973년] [한국] 6·23 평화통일선언",
-        "summary": "1973년 - 6·23 평화통일선언",
-        "bullets": [
-          "발생 연대: 1973년 (한국사)",
-          "6·23 평화통일선언",
-          "당대 세력 균형 및 정치·경제적 제도 변화 반영"
-        ],
-        "insight": "1973년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
-        "ref_title": "위키백과 세계사 연표: 1973년 ~ 2020년 (1973년)",
-        "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1973%EB%85%84_~_2020%EB%85%84:~:text=1973",
         "d_day": "D-4"
       }
     ],
     "polyglot": {
-      "theme": "가격 문의 (Q&A)",
-      "type": "기초",
-      "meaning": "Q: 이거 얼마예요? / A: 모두 합쳐서 10달러입니다.",
+      "theme": "입버릇 관용구: 일상 표현",
+      "meaning": "난 아무것도 몰라 (전혀 감이 안 와).",
       "translations": {
         "en": {
           "code": "en-US",
           "name": "영어",
           "flag": "🇺🇸",
-          "text": "How much is this? - It is ten dollars in total.",
-          "roman": "하우 머치 이즈 디스? - 잇 이즈 텐 달러스 인 토털."
+          "text": "I'm clueless.",
+          "roman": ""
         },
         "ja": {
           "code": "ja-JP",
           "name": "일본어",
           "flag": "🇯🇵",
-          "text": "これはいくらですか？ - 全部で10ドルです。",
-          "roman": "코레와 이쿠라 데스 카? - 젠부데 쥬-도루 데스."
+          "text": "さっぱり見当もつかないよ。",
+          "roman": "Sappari kentō mo tsukanai yo."
         },
         "zh": {
           "code": "zh-CN",
           "name": "중국어",
           "flag": "🇨🇳",
-          "text": "这个多少钱？ - 一共是十美元。",
-          "roman": "저거 둬샤오 치엔? - 이궁 스 스 메이위안."
+          "text": "我完全摸不着头脑，一无所知。",
+          "roman": "Wǒ wánquán mōbuzháo tóunǎo, yīwúsuǒzhī."
         },
         "fr": {
           "code": "fr-FR",
           "name": "프랑스어",
           "flag": "🇫🇷",
-          "text": "Combien ça coûte ? - C'est dix dollars au total.",
-          "roman": "꽁비앙 사 꾸트? - 세 디스 달러 오 또탈."
+          "text": "Je n'en ai pas la moindre idée.",
+          "roman": ""
         },
         "de": {
           "code": "de-DE",
           "name": "독일어",
           "flag": "🇩🇪",
-          "text": "Wie viel kostet das? - Es sind insgesamt zehn Dollar.",
-          "roman": "비 필 코스테트 다스? - 에스 진트 인스게잠트 첸 돌라."
+          "text": "Ich habe keinen blassen Schimmer.",
+          "roman": ""
         },
         "es": {
           "code": "es-ES",
           "name": "스페인어",
           "flag": "🇪🇸",
-          "text": "¿Cuánto cuesta esto? - Son diez dólares en total.",
-          "roman": "콴토 쿠에스타 에스토? - 손 디에스 돌라레스 엔 토탈."
+          "text": "No tengo ni la más remota idea.",
+          "roman": ""
         },
         "ar": {
           "code": "ar-SA",
           "name": "아랍어",
           "flag": "🇸🇦",
-          "text": "كم سعر هذا؟ - المجموع عشرة دولارات.",
-          "roman": "캄 시으루 하扎? - 알 마즈무우 아샤라투 둘라라트."
+          "text": "لا أملك أدنى فكرة عما يحدث.",
+          "roman": "Lā amliku adnā fikratin 'ammā yaḥduth."
         },
         "ru": {
           "code": "ru-RU",
           "name": "러시아어",
           "flag": "🇷🇺",
-          "text": "Сколько это стоит? - Всего десять долларов.",
-          "roman": "스꼴카 에또 스또이트? - 프시보 제샤치 달러로프."
+          "text": "Понятия не имею, я в полном неведении.",
+          "roman": "Ponyatiya ne imeyu, ya v polnom nevedenii."
         }
       },
-      "pool_type": "기초",
+      "pool_type": "일상",
       "d_day": "오늘"
     },
     "polyglot_5d": [
+      {
+        "theme": "입버릇 관용구: 일상 표현",
+        "meaning": "난 아무것도 몰라 (전혀 감이 안 와).",
+        "translations": {
+          "en": {
+            "code": "en-US",
+            "name": "영어",
+            "flag": "🇺🇸",
+            "text": "I'm clueless.",
+            "roman": ""
+          },
+          "ja": {
+            "code": "ja-JP",
+            "name": "일본어",
+            "flag": "🇯🇵",
+            "text": "さっぱり見当もつかないよ。",
+            "roman": "Sappari kentō mo tsukanai yo."
+          },
+          "zh": {
+            "code": "zh-CN",
+            "name": "중국어",
+            "flag": "🇨🇳",
+            "text": "我完全摸不着头脑，一无所知。",
+            "roman": "Wǒ wánquán mōbuzháo tóunǎo, yīwúsuǒzhī."
+          },
+          "fr": {
+            "code": "fr-FR",
+            "name": "프랑스어",
+            "flag": "🇫🇷",
+            "text": "Je n'en ai pas la moindre idée.",
+            "roman": ""
+          },
+          "de": {
+            "code": "de-DE",
+            "name": "독일어",
+            "flag": "🇩🇪",
+            "text": "Ich habe keinen blassen Schimmer.",
+            "roman": ""
+          },
+          "es": {
+            "code": "es-ES",
+            "name": "스페인어",
+            "flag": "🇪🇸",
+            "text": "No tengo ni la más remota idea.",
+            "roman": ""
+          },
+          "ar": {
+            "code": "ar-SA",
+            "name": "아랍어",
+            "flag": "🇸🇦",
+            "text": "لا أملك أدنى فكرة عما يحدث.",
+            "roman": "Lā amliku adnā fikratin 'ammā yaḥduth."
+          },
+          "ru": {
+            "code": "ru-RU",
+            "name": "러시아어",
+            "flag": "🇷🇺",
+            "text": "Понятия не имею, я в полном неведении.",
+            "roman": "Ponyatiya ne imeyu, ya v polnom nevedenii."
+          }
+        },
+        "pool_type": "일상",
+        "d_day": "오늘"
+      },
       {
         "theme": "가격 문의 (Q&A)",
         "type": "기초",
@@ -1087,7 +1140,7 @@
           }
         },
         "pool_type": "기초",
-        "d_day": "오늘"
+        "d_day": "D-1"
       },
       {
         "theme": "입버릇 관용구: 일상 표현",
@@ -1151,7 +1204,7 @@
           }
         },
         "pool_type": "일상",
-        "d_day": "D-1"
+        "d_day": "D-2"
       },
       {
         "theme": "현재 위치 (Q&A)",
@@ -1216,7 +1269,7 @@
           }
         },
         "pool_type": "기초",
-        "d_day": "D-2"
+        "d_day": "D-3"
       },
       {
         "theme": "음식과 건강: 기타 증상",
@@ -1280,85 +1333,20 @@
           }
         },
         "pool_type": "일상",
-        "d_day": "D-3"
-      },
-      {
-        "theme": "위치 문의 (Q&A)",
-        "type": "기초",
-        "meaning": "Q: 화장실이 어디에 있나요? / A: 저기 오른쪽에 있어요.",
-        "translations": {
-          "en": {
-            "code": "en-US",
-            "name": "영어",
-            "flag": "🇺🇸",
-            "text": "Where is the restroom? - It's right over there on the right.",
-            "roman": "웨어 이즈 더 레스트룸? - 잇츠 라이트 오버 데어 온 더 라이트."
-          },
-          "ja": {
-            "code": "ja-JP",
-            "name": "일본어",
-            "flag": "🇯🇵",
-            "text": "トイレはどこですか？ - あちらの右側にあります。",
-            "roman": "토이레와 도코 데스 카? - 아치라노 미기가와니 아리마스."
-          },
-          "zh": {
-            "code": "zh-CN",
-            "name": "중국어",
-            "flag": "🇨🇳",
-            "text": "洗手间在哪里？ - 就在那边的右边。",
-            "roman": "시쇼우지엔 짜이 나리? - 지우 짜이 나비엔 더 요우비엔."
-          },
-          "fr": {
-            "code": "fr-FR",
-            "name": "프랑스어",
-            "flag": "🇫🇷",
-            "text": "Où sont les toilettes ? - C'est juste là, sur la droite.",
-            "roman": "우 쏭 레 뚜알레트? - 세 쥐스트 라, 쉬르 라 드루아트."
-          },
-          "de": {
-            "code": "de-DE",
-            "name": "독일어",
-            "flag": "🇩🇪",
-            "text": "Wo ist die Toilette? - Direkt dort drüben auf der rechten Seite.",
-            "roman": "보 이스트 디 토일레테? - 디렉트 도르트 드뤼벤 아우프 데어 레히텐 자이테."
-          },
-          "es": {
-            "code": "es-ES",
-            "name": "스페인어",
-            "flag": "🇪🇸",
-            "text": "¿Dónde está el baño? - Está justo allí, a la derecha.",
-            "roman": "돈데 에스따 엘 바뇨? - 에스따 후스토 아이, 아 라 데레차."
-          },
-          "ar": {
-            "code": "ar-SA",
-            "name": "아랍어",
-            "flag": "🇸🇦",
-            "text": "أين الحمام؟ - إنه هناك على اليمين مباشرة.",
-            "roman": "아이날 함맘? - 인나후 후나카 알랄 야민 무바샤라탄."
-          },
-          "ru": {
-            "code": "ru-RU",
-            "name": "러시아어",
-            "flag": "🇷🇺",
-            "text": "Где находится туалет? - Вон там, прямо направо.",
-            "roman": "그제 나호지차 뚜알례트? - 본 탐, 쁘랴마 나쁘라바."
-          }
-        },
-        "pool_type": "기초",
         "d_day": "D-4"
       }
     ],
     "philosophy": {
-      "thinker": "투키디데스 (Thucydides)",
-      "era": "기원전 5세기 고대 그리스",
-      "concept": "투키디데스 함정 (Thucydides Trap)",
-      "quote": "“전쟁을 불가피하게 만든 것은 아테네의 부상과 그로 인해 스파르타에 심어진 두려움이었다.”",
+      "thinker": "한비자 (韓非子)",
+      "era": "기원전 3세기 전국시대 중국",
+      "concept": "법(法)·술(術)·세(勢)의 통치공학",
+      "quote": "“호랑이가 개를 굴복시킬 수 있는 까닭은 날카로운 발톱과 이빨(권세)을 쥐고 있기 때문이다.”",
       "bullets": [
-        "급부상하는 신흥 강국과 기존 지배 패권국 사이의 구조적 긴장과 충돌 역학 분석",
-        "국가 행동을 지배하는 3대 근본 동기: 공포(Fear), 명예(Honor), 이익(Interest)",
-        "동맹 네트워크의 확장과 오판이 국지적 갈등을 세계대전급 파국으로 확대시키는 경로 증명"
+        "인간의 도덕적 선의(善意)에 의존하는 정치를 경계하고 명문화된 법(法)과 엄격한 신상필벌 강조",
+        "신하들의 사익 추구를 간파하고 조직을 장악하는 군주의 인사 관리 기법(術)",
+        "직위와 제도에서 나오는 구조적 권력(勢)의 중요성 역설"
       ],
-      "application": "반도체·AI 인프라를 둘러싼 패권국 간의 배타적 경제 블록화와 전략적 수출 통제 조치의 기저에 깔린 근본 동기를 설명합니다."
+      "application": "거대 기업 조직의 거버넌스 설계, 시스템적 내부 통제 구축, 독점적 플랫폼의 구조적 지배력 분석에 유효합니다."
     }
   },
   "trends": {
@@ -1417,53 +1405,53 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "김건희, 김기현 징역 1년 구형",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EA%B1%B4%ED%9D%AC%2C%20%EA%B9%80%EA%B8%B0%ED%98%84%20%EC%A7%95%EC%97%AD%201%EB%85%84%20%EA%B5%AC%ED%98%95"
-      },
-      {
-        "rank": 2,
-        "title": "삼성전기 AI 기판 투자",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%82%BC%EC%84%B1%EC%A0%84%EA%B8%B0%20AI%20%EA%B8%B0%ED%8C%90%20%ED%88%AC%EC%9E%90"
-      },
-      {
-        "rank": 3,
         "title": "생각에 잠긴 모레노 감독",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%83%9D%EA%B0%81%EC%97%90%20%EC%9E%A0%EA%B8%B4%20%EB%AA%A8%EB%A0%88%EB%85%B8%20%EA%B0%90%EB%8F%85"
       },
       {
+        "rank": 2,
+        "title": "DMZ 지뢰 폭발 북한 가능성",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=DMZ%20%EC%A7%80%EB%A2%B0%20%ED%8F%AD%EB%B0%9C%20%EB%B6%81%ED%95%9C%20%EA%B0%80%EB%8A%A5%EC%84%B1"
+      },
+      {
+        "rank": 3,
+        "title": "아시안게임 남자 400M 계주 동메달",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%84%EC%8B%9C%EC%95%88%EA%B2%8C%EC%9E%84%20%EB%82%A8%EC%9E%90%20400M%20%EA%B3%84%EC%A3%BC%20%EB%8F%99%EB%A9%94%EB%8B%AC"
+      },
+      {
         "rank": 4,
-        "title": "DMZ 지뢰 폭발 조사 중",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=DMZ%20%EC%A7%80%EB%A2%B0%20%ED%8F%AD%EB%B0%9C%20%EC%A1%B0%EC%82%AC%20%EC%A4%91"
+        "title": "삼성전기 AI 기판 투자",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%82%BC%EC%84%B1%EC%A0%84%EA%B8%B0%20AI%20%EA%B8%B0%ED%8C%90%20%ED%88%AC%EC%9E%90"
       },
       {
         "rank": 5,
-        "title": "김영옥 엄마의 마지막 작품",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%98%81%EC%98%A5%20%EC%97%84%EB%A7%88%EC%9D%98%20%EB%A7%88%EC%A7%80%EB%A7%89%20%EC%9E%91%ED%92%88"
+        "title": "김기현 징역 1년 구형",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EA%B8%B0%ED%98%84%20%EC%A7%95%EC%97%AD%201%EB%85%84%20%EA%B5%AC%ED%98%95"
       },
       {
         "rank": 6,
+        "title": "파운드리",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%8C%8C%EC%9A%B4%EB%93%9C%EB%A6%AC"
+      },
+      {
+        "rank": 7,
+        "title": "쉰들러 ISDS 정부 승소",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%89%B0%EB%93%A4%EB%9F%AC%20ISDS%20%EC%A0%95%EB%B6%80%20%EC%8A%B9%EC%86%8C"
+      },
+      {
+        "rank": 8,
         "title": "채무",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B1%84%EB%AC%B4"
       },
       {
-        "rank": 7,
-        "title": "청주 10대 흉기 성폭행",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B2%AD%EC%A3%BC%2010%EB%8C%80%20%ED%9D%89%EA%B8%B0%20%EC%84%B1%ED%8F%AD%ED%96%89"
-      },
-      {
-        "rank": 8,
-        "title": "아시안게임 관련 이슈들",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%84%EC%8B%9C%EC%95%88%EA%B2%8C%EC%9E%84%20%EA%B4%80%EB%A0%A8%20%EC%9D%B4%EC%8A%88%EB%93%A4"
-      },
-      {
         "rank": 9,
-        "title": "김민수",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EB%AF%BC%EC%88%98"
+        "title": "상반기 보험사기 적발",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%83%81%EB%B0%98%EA%B8%B0%20%EB%B3%B4%ED%97%98%EC%82%AC%EA%B8%B0%20%EC%A0%81%EB%B0%9C"
       },
       {
         "rank": 10,
-        "title": "쉰들러 ISDS 정부 승소",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%89%B0%EB%93%A4%EB%9F%AC%20ISDS%20%EC%A0%95%EB%B6%80%20%EC%8A%B9%EC%86%8C"
+        "title": "30분 단축 합의",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=30%EB%B6%84%20%EB%8B%A8%EC%B6%95%20%ED%95%A9%EC%9D%98"
       }
     ],
     "youtube_popular": [
@@ -1471,7 +1459,7 @@
         "rank": 1,
         "title": "ALLDAY PROJECT - ‘CRASH’ M/V",
         "channel": "THEBLACKLABEL",
-        "views": "128만회",
+        "views": "240만회",
         "thumb": "https://i.ytimg.com/vi/lQ-w9M447w0/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=lQ-w9M447w0"
       },
@@ -1495,7 +1483,7 @@
         "rank": 4,
         "title": "BOYNEXTDOOR (보이넥스트도어) 'ANIMAL' Official MV",
         "channel": "HYBE LABELS",
-        "views": "71만회",
+        "views": "99만회",
         "thumb": "https://i.ytimg.com/vi/WI4__7z_dJw/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=WI4__7z_dJw"
       },
@@ -1511,31 +1499,31 @@
         "rank": 6,
         "title": "3 : 7 처참한 스코어로 밀리고 있는 알파고, 슈퍼 AI를 이길 방법을 깨닫기 시작하는데.. 과연 AI를 정복할 수 있을까?",
         "channel": "[ALTUBE] 김성현TV",
-        "views": "66만회",
+        "views": "67만회",
         "thumb": "https://i.ytimg.com/vi/LO37nGqFGEY/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=LO37nGqFGEY"
       },
       {
         "rank": 7,
-        "title": "피노키오",
-        "channel": "Release - Topic",
-        "views": "30만회",
-        "thumb": "https://i.ytimg.com/vi/54j8NrQm3lU/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=54j8NrQm3lU"
+        "title": "CRASH",
+        "channel": "ALLDAY PROJECT - Topic",
+        "views": "2만회",
+        "thumb": "https://i.ytimg.com/vi/-JInUb_G6Jc/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=-JInUb_G6Jc"
       },
       {
         "rank": 8,
-        "title": "진짜 망해버린 베그 최신 근황",
-        "channel": "영래기",
-        "views": "120만회",
-        "thumb": "https://i.ytimg.com/vi/t-A0pOjg5i8/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=t-A0pOjg5i8"
+        "title": "돈 버리는 게임 *심약자 시청 금지..*",
+        "channel": "동수칸TV",
+        "views": "19만회",
+        "thumb": "https://i.ytimg.com/vi/Hbo-084aB2w/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=Hbo-084aB2w"
       },
       {
         "rank": 9,
         "title": "Vaundy LIVE ＂怪獣の花唄＂| Vaundy ASIA ARENA TOUR 2026 \"HORO\" @ INSPIRE ARENA in SEOUL",
         "channel": "Vaundy",
-        "views": "43만회",
+        "views": "45만회",
         "thumb": "https://i.ytimg.com/vi/I3_jV2zO0l0/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=I3_jV2zO0l0"
       },
@@ -1543,7 +1531,7 @@
         "rank": 10,
         "title": "≪움직이는 성 키우기≫ 리뷰 2000개가 극찬!!! 도파민 개미쳤습니다",
         "channel": "혜안",
-        "views": "84만회",
+        "views": "86만회",
         "thumb": "https://i.ytimg.com/vi/nCJcwO4H8Es/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=nCJcwO4H8Es"
       }
