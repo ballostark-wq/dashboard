@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30 02:06:15",
+  "updated_at": "2026-09-30 03:08:33",
   "us2y": {
     "value": 4.92,
     "change": 0.11
@@ -21,8 +21,8 @@
     "status": "정상화 (우상향)"
   },
   "vix": {
-    "value": 16.27,
-    "change": 1.24
+    "value": 16.36,
+    "change": 1.8
   },
   "tech_news": [
     {
@@ -145,6 +145,16 @@
     ],
     "domestic": [
       {
+        "title": "美 30년물 금리, 5.6%도 돌파…2002년 6월 이후 최고치",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436980",
+        "date": "09-30 02:51"
+      },
+      {
+        "title": "美 9월 소비신뢰지수 81.9…예상 밑돌며 크게 악화(상보)",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436978",
+        "date": "09-30 02:06"
+      },
+      {
         "title": "美 국채가, 유가 하락에 소폭 강세",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436975",
         "date": "09-30 00:17"
@@ -158,16 +168,6 @@
         "title": "달러-원, 뉴욕장서 1,350원 중반대 거래",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436972",
         "date": "09-29 23:10"
-      },
-      {
-        "title": "IRS 금리 일제히 하락…비드 실종 속 장기물 위주 강세",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436969",
-        "date": "09-29 19:01"
-      },
-      {
-        "title": "[채권-마감] 호주 금리 하락·전일 약세 되돌림…국고 10년 6.3bp↓",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436967",
-        "date": "09-29 19:00"
       }
     ]
   },
@@ -236,70 +236,70 @@
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,178.0",
-          "chg": "-3.31%",
-          "up": false
+          "val": "$4,174.7",
+          "chg": "+0.15%",
+          "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$61.14",
-          "chg": "-0.13%",
+          "val": "$61.12",
+          "chg": "-0.16%",
           "up": false
         }
       ],
       "bullets": [
         "구리 $6.61/lb (+0.61%) - AI 전력망 설비 수요 반영",
-        "금 $4,178/oz, 은 $61.14/oz - 통화가치 헤지"
+        "금 $4,175/oz, 은 $61.12/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,355원 | 엔/달러 ¥157.4",
-      "title": "원/달러 1,355.0원선과 엔/달러 ¥157.4",
+      "badge": "원/달러 1,354원 | 엔/달러 ¥157.3",
+      "title": "원/달러 1,354.2원선과 엔/달러 ¥157.3",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,355.0원",
-          "chg": "+0.03%",
-          "up": true
+          "val": "1,354.2원",
+          "chg": "-0.02%",
+          "up": false
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "101.57pt",
-          "chg": "+0.37%",
+          "val": "101.60pt",
+          "chg": "+0.40%",
           "up": true
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥157.45",
-          "chg": "-0.01%",
+          "val": "¥157.31",
+          "chg": "-0.10%",
           "up": false
         }
       ],
       "bullets": [
-        "달러 인덱스 101.57pt - 미국 성장 우위 지속",
-        "엔/달러 157.45엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 101.6pt - 미국 성장 우위 지속",
+        "엔/달러 157.31엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $90.44",
-      "title": "WTI 배럴당 $90.44선 박스권 안정",
+      "badge": "WTI $90.11",
+      "title": "WTI 배럴당 $90.11선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$90.44",
-          "chg": "-2.33%",
+          "val": "$90.11",
+          "chg": "-2.69%",
           "up": false
         }
       ],
       "bullets": [
-        "WTI 선물 $90.44/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $90.11/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -311,28 +311,28 @@
       "change": 0.61
     },
     "gold": {
-      "price": 4178.0,
-      "change": -3.31
+      "price": 4174.7,
+      "change": 0.15
     },
     "silver": {
-      "price": 61.14,
-      "change": -0.13
+      "price": 61.12,
+      "change": -0.16
     },
     "wti": {
-      "price": 90.44,
-      "change": -2.33
+      "price": 90.11,
+      "change": -2.69
     },
     "usdkrw": {
-      "price": 1354.96,
-      "change": 0.03
+      "price": 1354.25,
+      "change": -0.02
     },
     "dxy": {
-      "price": 101.57,
-      "change": 0.37
+      "price": 101.6,
+      "change": 0.4
     },
     "usdjpy": {
-      "price": 157.45,
-      "change": -0.01
+      "price": 157.31,
+      "change": -0.1
     }
   },
   "history_20d": {
@@ -482,122 +482,122 @@
       {
         "date": "09-01",
         "copper": 6.51,
-        "gold": 4481.5,
+        "gold": 4396.4,
         "silver": 64.62
       },
       {
         "date": "09-02",
         "copper": 6.5,
-        "gold": 4396.4,
+        "gold": 4414.6,
         "silver": 64.72
       },
       {
         "date": "09-03",
         "copper": 6.58,
-        "gold": 4414.6,
+        "gold": 4539.9,
         "silver": 66.97
       },
       {
         "date": "09-04",
         "copper": 6.6,
-        "gold": 4539.9,
+        "gold": 4476.6,
         "silver": 66.05
       },
       {
         "date": "09-08",
         "copper": 6.74,
-        "gold": 4476.6,
+        "gold": 4439.0,
         "silver": 66.3
       },
       {
         "date": "09-09",
         "copper": 6.8,
-        "gold": 4439.0,
+        "gold": 4460.7,
         "silver": 67.94
       },
       {
         "date": "09-10",
         "copper": 6.47,
-        "gold": 4460.7,
+        "gold": 4407.3,
         "silver": 64.28
       },
       {
         "date": "09-11",
         "copper": 6.47,
-        "gold": 4407.3,
+        "gold": 4408.9,
         "silver": 64.55
       },
       {
         "date": "09-14",
         "copper": 6.33,
-        "gold": 4408.9,
+        "gold": 4351.9,
         "silver": 63.51
       },
       {
         "date": "09-15",
         "copper": 6.37,
-        "gold": 4351.9,
+        "gold": 4332.8,
         "silver": 63.24
       },
       {
         "date": "09-16",
         "copper": 6.43,
-        "gold": 4332.8,
+        "gold": 4387.5,
         "silver": 64.29
       },
       {
         "date": "09-17",
         "copper": 6.59,
-        "gold": 4387.5,
+        "gold": 4399.7,
         "silver": 65.47
       },
       {
         "date": "09-18",
         "copper": 6.61,
-        "gold": 4399.7,
+        "gold": 4424.9,
         "silver": 66.56
       },
       {
         "date": "09-21",
         "copper": 6.69,
-        "gold": 4424.9,
+        "gold": 4383.9,
         "silver": 65.82
       },
       {
         "date": "09-22",
         "copper": 6.76,
-        "gold": 4383.9,
+        "gold": 4376.4,
         "silver": 65.93
       },
       {
         "date": "09-23",
         "copper": 6.68,
-        "gold": 4376.4,
+        "gold": 4318.4,
         "silver": 64.38
       },
       {
         "date": "09-24",
         "copper": 6.72,
-        "gold": 4318.4,
+        "gold": 4298.0,
         "silver": 63.46
       },
       {
         "date": "09-25",
         "copper": 6.7,
-        "gold": 4298.0,
+        "gold": 4321.2,
         "silver": 64.25
       },
       {
         "date": "09-28",
         "copper": 6.57,
-        "gold": 4321.2,
+        "gold": 4168.4,
         "silver": 61.22
       },
       {
         "date": "09-29",
         "copper": 6.61,
-        "gold": 4178.0,
-        "silver": 61.14
+        "gold": 4174.7,
+        "silver": 61.12
       }
     ],
     "fx": [
@@ -717,9 +717,9 @@
       },
       {
         "date": "09-29",
-        "usdkrw": 1354.96,
-        "dxy": 101.57,
-        "usdjpy": 157.45
+        "usdkrw": 1354.25,
+        "dxy": 101.6,
+        "usdjpy": 157.31
       }
     ],
     "oil": [
@@ -820,8 +820,8 @@
       },
       {
         "date": "09-29",
-        "wti": 90.44,
-        "change": -2.33
+        "wti": 90.11,
+        "change": -2.69
       }
     ]
   },
@@ -1417,53 +1417,53 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "DMZ 지뢰 폭발 조사 종료",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=DMZ%20%EC%A7%80%EB%A2%B0%20%ED%8F%AD%EB%B0%9C%20%EC%A1%B0%EC%82%AC%20%EC%A2%85%EB%A3%8C"
+        "title": "DMZ 지뢰 폭발 사고 규탄",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=DMZ%20%EC%A7%80%EB%A2%B0%20%ED%8F%AD%EB%B0%9C%20%EC%82%AC%EA%B3%A0%20%EA%B7%9C%ED%83%84"
       },
       {
         "rank": 2,
-        "title": "역도 박혜정 은메달",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%97%AD%EB%8F%84%20%EB%B0%95%ED%98%9C%EC%A0%95%20%EC%9D%80%EB%A9%94%EB%8B%AC"
+        "title": "KIA 김도영 첫 타석 홈런",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=KIA%20%EA%B9%80%EB%8F%84%EC%98%81%20%EC%B2%AB%20%ED%83%80%EC%84%9D%20%ED%99%88%EB%9F%B0"
       },
       {
         "rank": 3,
-        "title": "이승철 40주년 기념",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EC%8A%B9%EC%B2%A0%2040%EC%A3%BC%EB%85%84%20%EA%B8%B0%EB%85%90"
+        "title": "여자 축구 일본전 패배",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%97%AC%EC%9E%90%20%EC%B6%95%EA%B5%AC%20%EC%9D%BC%EB%B3%B8%EC%A0%84%20%ED%8C%A8%EB%B0%B0"
       },
       {
         "rank": 4,
-        "title": "KIA 김도영, 복귀 첫 타석 홈런!",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=KIA%20%EA%B9%80%EB%8F%84%EC%98%81%2C%20%EB%B3%B5%EA%B7%80%20%EC%B2%AB%20%ED%83%80%EC%84%9D%20%ED%99%88%EB%9F%B0%21"
-      },
-      {
-        "rank": 5,
         "title": "기후부 재생에너지 대책",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B8%B0%ED%9B%84%EB%B6%80%20%EC%9E%AC%EC%83%9D%EC%97%90%EB%84%88%EC%A7%80%20%EB%8C%80%EC%B1%85"
       },
       {
+        "rank": 5,
+        "title": "박진영 김유정 로맨스 1000점",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B0%95%EC%A7%84%EC%98%81%20%EA%B9%80%EC%9C%A0%EC%A0%95%20%EB%A1%9C%EB%A7%A8%EC%8A%A4%201000%EC%A0%90"
+      },
+      {
         "rank": 6,
-        "title": "클로드",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%81%B4%EB%A1%9C%EB%93%9C"
+        "title": "맨시티",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%A7%A8%EC%8B%9C%ED%8B%B0"
       },
       {
         "rank": 7,
+        "title": "이수현",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EC%88%98%ED%98%84"
+      },
+      {
+        "rank": 8,
         "title": "질병관리청 청소년 건강자료",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A7%88%EB%B3%91%EA%B4%80%EB%A6%AC%EC%B2%AD%20%EC%B2%AD%EC%86%8C%EB%85%84%20%EA%B1%B4%EA%B0%95%EC%9E%90%EB%A3%8C"
       },
       {
-        "rank": 8,
-        "title": "국힘, 암살자들 내로남불 비판",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B5%AD%ED%9E%98%2C%20%EC%95%94%EC%82%B4%EC%9E%90%EB%93%A4%20%EB%82%B4%EB%A1%9C%EB%82%A8%EB%B6%88%20%EB%B9%84%ED%8C%90"
-      },
-      {
         "rank": 9,
-        "title": "정부24",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A0%95%EB%B6%8024"
+        "title": "정조대왕 능행차 기대하세요",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A0%95%EC%A1%B0%EB%8C%80%EC%99%95%20%EB%8A%A5%ED%96%89%EC%B0%A8%20%EA%B8%B0%EB%8C%80%ED%95%98%EC%84%B8%EC%9A%94"
       },
       {
         "rank": 10,
-        "title": "단발",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%8B%A8%EB%B0%9C"
+        "title": "클로드",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%81%B4%EB%A1%9C%EB%93%9C"
       }
     ],
     "youtube_popular": [
@@ -1471,7 +1471,7 @@
         "rank": 1,
         "title": "ALLDAY PROJECT - ‘CRASH’ M/V",
         "channel": "THEBLACKLABEL",
-        "views": "928만회",
+        "views": "957만회",
         "thumb": "https://i.ytimg.com/vi/lQ-w9M447w0/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=lQ-w9M447w0"
       },
@@ -1487,7 +1487,7 @@
         "rank": 3,
         "title": "돈 버리는 게임 *심약자 시청 금지..*",
         "channel": "동수칸TV",
-        "views": "45만회",
+        "views": "46만회",
         "thumb": "https://i.ytimg.com/vi/Hbo-084aB2w/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=Hbo-084aB2w"
       },
@@ -1495,7 +1495,7 @@
         "rank": 4,
         "title": "CRASH",
         "channel": "ALLDAY PROJECT - Topic",
-        "views": "24만회",
+        "views": "25만회",
         "thumb": "https://i.ytimg.com/vi/-JInUb_G6Jc/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=-JInUb_G6Jc"
       },
@@ -1503,7 +1503,7 @@
         "rank": 5,
         "title": "개가 된 이유",
         "channel": "뜨뜨뜨뜨",
-        "views": "36만회",
+        "views": "37만회",
         "thumb": "https://i.ytimg.com/vi/UKI1B-GSbkU/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=UKI1B-GSbkU"
       },
@@ -1527,7 +1527,7 @@
         "rank": 8,
         "title": "BOYNEXTDOOR (보이넥스트도어) 'ANIMAL' Official MV",
         "channel": "HYBE LABELS",
-        "views": "481만회",
+        "views": "535만회",
         "thumb": "https://i.ytimg.com/vi/WI4__7z_dJw/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=WI4__7z_dJw"
       },
@@ -1535,7 +1535,7 @@
         "rank": 9,
         "title": "쉘 위?",
         "channel": "괴물쥐 유튜브",
-        "views": "44만회",
+        "views": "45만회",
         "thumb": "https://i.ytimg.com/vi/8x_pfhUsN5k/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=8x_pfhUsN5k"
       },
