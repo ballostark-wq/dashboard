@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29 19:06:47",
+  "updated_at": "2026-09-29 20:06:09",
   "us2y": {
     "value": 4.92,
     "change": 0.11
@@ -21,8 +21,8 @@
     "status": "정상화 (우상향)"
   },
   "vix": {
-    "value": 16.09,
-    "change": 0.12
+    "value": 16.03,
+    "change": -0.25
   },
   "tech_news": [
     {
@@ -91,6 +91,11 @@
     ],
     "global": [
       {
+        "title": "Trump’s municipal bond portfolio reaches as much as $1 billion as policy overlaps mount",
+        "link": "https://www.cnbc.com/2026/09/29/trump-municipal-bond-portfolio/.html",
+        "date": "09-29 10:00"
+      },
+      {
         "title": "China has three new criteria for humanoid robot IPOs. Few, if any, meet them",
         "link": "https://www.cnbc.com/2026/09/29/china-criteria-humanoid-robot-ipos.html",
         "date": "09-29 07:19"
@@ -109,11 +114,6 @@
         "title": "U.S., China to lower tariffs on $60 billion of goods. Here's what qualifies",
         "link": "https://www.cnbc.com/2026/09/28/us-china-lower-tariffs-trump-xi-meeting.html",
         "date": "09-28 08:31"
-      },
-      {
-        "title": "Trump-Xi summit analysis: 'Tangible outcomes' needed for U.S.-China truce to hold",
-        "link": "https://www.cnbc.com/2026/09/28/trump-xi-summit-tangible-outcomes-us-china-truce.html",
-        "date": "09-28 07:22"
       }
     ],
     "tech": [
@@ -131,6 +131,16 @@
         "title": "[디일렉] 고려아연, 20년간 태양광 전력 220GWh 확보",
         "link": "https://www.thelec.kr/news/articleView.html?idxno=62965",
         "date": "09-29 18:45"
+      },
+      {
+        "title": "[전자신문] [ET포토] 에반, '치명적인 잘생김'",
+        "link": "https://www.etnews.com/20260929000351",
+        "date": "09-29 19:33"
+      },
+      {
+        "title": "[전자신문] [ET포토] 에반, '스위트한 미소'",
+        "link": "https://www.etnews.com/20260929000350",
+        "date": "09-29 19:29"
       }
     ],
     "domestic": [
@@ -226,70 +236,70 @@
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,176.8",
-          "chg": "+0.20%",
-          "up": true
+          "val": "$4,183.9",
+          "chg": "-3.18%",
+          "up": false
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$61.00",
-          "chg": "-0.36%",
+          "val": "$61.13",
+          "chg": "-0.15%",
           "up": false
         }
       ],
       "bullets": [
         "구리 $6.61/lb (+0.61%) - AI 전력망 설비 수요 반영",
-        "금 $4,177/oz, 은 $61.00/oz - 통화가치 헤지"
+        "금 $4,184/oz, 은 $61.13/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,356원 | 엔/달러 ¥157.6",
-      "title": "원/달러 1,355.9원선과 엔/달러 ¥157.6",
+      "badge": "원/달러 1,355원 | 엔/달러 ¥157.3",
+      "title": "원/달러 1,354.8원선과 엔/달러 ¥157.3",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,355.9원",
-          "chg": "+0.10%",
+          "val": "1,354.8원",
+          "chg": "+0.02%",
           "up": true
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "101.46pt",
-          "chg": "+0.26%",
+          "val": "101.35pt",
+          "chg": "+0.15%",
           "up": true
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥157.60",
-          "chg": "+0.09%",
-          "up": true
-        }
-      ],
-      "bullets": [
-        "달러 인덱스 101.46pt - 미국 성장 우위 지속",
-        "엔/달러 157.60엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
-      ],
-      "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
-    },
-    "oil": {
-      "badge": "WTI $92.48",
-      "title": "WTI 배럴당 $92.48선 박스권 안정",
-      "metrics": [
-        {
-          "id": "wti",
-          "name": "WTI 원유",
-          "val": "$92.48",
-          "chg": "-0.13%",
+          "val": "¥157.28",
+          "chg": "-0.11%",
           "up": false
         }
       ],
       "bullets": [
-        "WTI 선물 $92.48/배럴 - 에너지 원가 압박 경감",
+        "달러 인덱스 101.35pt - 미국 성장 우위 지속",
+        "엔/달러 157.28엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+      ],
+      "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
+    },
+    "oil": {
+      "badge": "WTI $91.92",
+      "title": "WTI 배럴당 $91.92선 박스권 안정",
+      "metrics": [
+        {
+          "id": "wti",
+          "name": "WTI 원유",
+          "val": "$91.92",
+          "chg": "-0.73%",
+          "up": false
+        }
+      ],
+      "bullets": [
+        "WTI 선물 $91.92/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -301,28 +311,28 @@
       "change": 0.61
     },
     "gold": {
-      "price": 4176.8,
-      "change": 0.2
+      "price": 4183.9,
+      "change": -3.18
     },
     "silver": {
-      "price": 61.0,
-      "change": -0.36
+      "price": 61.13,
+      "change": -0.15
     },
     "wti": {
-      "price": 92.48,
-      "change": -0.13
+      "price": 91.92,
+      "change": -0.73
     },
     "usdkrw": {
-      "price": 1355.88,
-      "change": 0.1
+      "price": 1354.82,
+      "change": 0.02
     },
     "dxy": {
-      "price": 101.46,
-      "change": 0.26
+      "price": 101.35,
+      "change": 0.15
     },
     "usdjpy": {
-      "price": 157.6,
-      "change": 0.09
+      "price": 157.28,
+      "change": -0.11
     }
   },
   "history_20d": {
@@ -472,122 +482,122 @@
       {
         "date": "09-01",
         "copper": 6.51,
-        "gold": 4396.4,
+        "gold": 4481.5,
         "silver": 64.62
       },
       {
         "date": "09-02",
         "copper": 6.5,
-        "gold": 4414.6,
+        "gold": 4396.4,
         "silver": 64.72
       },
       {
         "date": "09-03",
         "copper": 6.58,
-        "gold": 4539.9,
+        "gold": 4414.6,
         "silver": 66.97
       },
       {
         "date": "09-04",
         "copper": 6.6,
-        "gold": 4476.6,
+        "gold": 4539.9,
         "silver": 66.05
       },
       {
         "date": "09-08",
         "copper": 6.74,
-        "gold": 4439.0,
+        "gold": 4476.6,
         "silver": 66.3
       },
       {
         "date": "09-09",
         "copper": 6.8,
-        "gold": 4460.7,
+        "gold": 4439.0,
         "silver": 67.94
       },
       {
         "date": "09-10",
         "copper": 6.47,
-        "gold": 4407.3,
+        "gold": 4460.7,
         "silver": 64.28
       },
       {
         "date": "09-11",
         "copper": 6.47,
-        "gold": 4408.9,
+        "gold": 4407.3,
         "silver": 64.55
       },
       {
         "date": "09-14",
         "copper": 6.33,
-        "gold": 4351.9,
+        "gold": 4408.9,
         "silver": 63.51
       },
       {
         "date": "09-15",
         "copper": 6.37,
-        "gold": 4332.8,
+        "gold": 4351.9,
         "silver": 63.24
       },
       {
         "date": "09-16",
         "copper": 6.43,
-        "gold": 4387.5,
+        "gold": 4332.8,
         "silver": 64.29
       },
       {
         "date": "09-17",
         "copper": 6.59,
-        "gold": 4399.7,
+        "gold": 4387.5,
         "silver": 65.47
       },
       {
         "date": "09-18",
         "copper": 6.61,
-        "gold": 4424.9,
+        "gold": 4399.7,
         "silver": 66.56
       },
       {
         "date": "09-21",
         "copper": 6.69,
-        "gold": 4383.9,
+        "gold": 4424.9,
         "silver": 65.82
       },
       {
         "date": "09-22",
         "copper": 6.76,
-        "gold": 4376.4,
+        "gold": 4383.9,
         "silver": 65.93
       },
       {
         "date": "09-23",
         "copper": 6.68,
-        "gold": 4318.4,
+        "gold": 4376.4,
         "silver": 64.38
       },
       {
         "date": "09-24",
         "copper": 6.72,
-        "gold": 4298.0,
+        "gold": 4318.4,
         "silver": 63.46
       },
       {
         "date": "09-25",
         "copper": 6.7,
-        "gold": 4321.2,
+        "gold": 4298.0,
         "silver": 64.25
       },
       {
         "date": "09-28",
         "copper": 6.57,
-        "gold": 4168.4,
+        "gold": 4321.2,
         "silver": 61.22
       },
       {
         "date": "09-29",
         "copper": 6.61,
-        "gold": 4176.8,
-        "silver": 61.0
+        "gold": 4183.9,
+        "silver": 61.13
       }
     ],
     "fx": [
@@ -707,9 +717,9 @@
       },
       {
         "date": "09-29",
-        "usdkrw": 1355.88,
-        "dxy": 101.46,
-        "usdjpy": 157.6
+        "usdkrw": 1354.82,
+        "dxy": 101.35,
+        "usdjpy": 157.28
       }
     ],
     "oil": [
@@ -810,8 +820,8 @@
       },
       {
         "date": "09-29",
-        "wti": 92.48,
-        "change": -0.13
+        "wti": 91.92,
+        "change": -0.73
       }
     ]
   },
@@ -1405,48 +1415,48 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "이 대통령 광주 군공항",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%20%EB%8C%80%ED%86%B5%EB%A0%B9%20%EA%B4%91%EC%A3%BC%20%EA%B5%B0%EA%B3%B5%ED%95%AD"
+        "title": "역도 박혜정 은메달",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%97%AD%EB%8F%84%20%EB%B0%95%ED%98%9C%EC%A0%95%20%EC%9D%80%EB%A9%94%EB%8B%AC"
       },
       {
         "rank": 2,
-        "title": "강신철 장관 질의 답변",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B0%95%EC%8B%A0%EC%B2%A0%20%EC%9E%A5%EA%B4%80%20%EC%A7%88%EC%9D%98%20%EB%8B%B5%EB%B3%80"
+        "title": "이승철 데뷔 40주년 기념",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EC%8A%B9%EC%B2%A0%20%EB%8D%B0%EB%B7%94%2040%EC%A3%BC%EB%85%84%20%EA%B8%B0%EB%85%90"
       },
       {
         "rank": 3,
-        "title": "안세영 2연패",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%88%EC%84%B8%EC%98%81%202%EC%97%B0%ED%8C%A8"
+        "title": "기후부 재생에너지 대책",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B8%B0%ED%9B%84%EB%B6%80%20%EC%9E%AC%EC%83%9D%EC%97%90%EB%84%88%EC%A7%80%20%EB%8C%80%EC%B1%85"
       },
       {
         "rank": 4,
-        "title": "심수봉",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%8B%AC%EC%88%98%EB%B4%89"
+        "title": "서울 중구청 압수수색",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%84%9C%EC%9A%B8%20%EC%A4%91%EA%B5%AC%EC%B2%AD%20%EC%95%95%EC%88%98%EC%88%98%EC%83%89"
       },
       {
         "rank": 5,
-        "title": "김유정의 영광, 100일의 거짓말.",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%9C%A0%EC%A0%95%EC%9D%98%20%EC%98%81%EA%B4%91%2C%20100%EC%9D%BC%EC%9D%98%20%EA%B1%B0%EC%A7%93%EB%A7%90."
+        "title": "공매도",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B3%B5%EB%A7%A4%EB%8F%84"
       },
       {
         "rank": 6,
-        "title": "천무 다연장로켓",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B2%9C%EB%AC%B4%20%EB%8B%A4%EC%97%B0%EC%9E%A5%EB%A1%9C%EC%BC%93"
-      },
-      {
-        "rank": 7,
         "title": "질병관리청 청소년 건강자료",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A7%88%EB%B3%91%EA%B4%80%EB%A6%AC%EC%B2%AD%20%EC%B2%AD%EC%86%8C%EB%85%84%20%EA%B1%B4%EA%B0%95%EC%9E%90%EB%A3%8C"
       },
       {
+        "rank": 7,
+        "title": "북 지뢰 매설 책임론",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B6%81%20%EC%A7%80%EB%A2%B0%20%EB%A7%A4%EC%84%A4%20%EC%B1%85%EC%9E%84%EB%A1%A0"
+      },
+      {
         "rank": 8,
-        "title": "박철우 공소청 유임",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B0%95%EC%B2%A0%EC%9A%B0%20%EA%B3%B5%EC%86%8C%EC%B2%AD%20%EC%9C%A0%EC%9E%84"
+        "title": "광주 군공항 2028년 늦다",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B4%91%EC%A3%BC%20%EA%B5%B0%EA%B3%B5%ED%95%AD%202028%EB%85%84%20%EB%8A%A6%EB%8B%A4"
       },
       {
         "rank": 9,
-        "title": "장성범",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9E%A5%EC%84%B1%EB%B2%94"
+        "title": "항소",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%AD%EC%86%8C"
       },
       {
         "rank": 10,
@@ -1459,7 +1469,7 @@
         "rank": 1,
         "title": "ALLDAY PROJECT - ‘CRASH’ M/V",
         "channel": "THEBLACKLABEL",
-        "views": "660만회",
+        "views": "694만회",
         "thumb": "https://i.ytimg.com/vi/lQ-w9M447w0/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=lQ-w9M447w0"
       },
@@ -1475,7 +1485,7 @@
         "rank": 3,
         "title": "돈 버리는 게임 *심약자 시청 금지..*",
         "channel": "동수칸TV",
-        "views": "41만회",
+        "views": "42만회",
         "thumb": "https://i.ytimg.com/vi/Hbo-084aB2w/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=Hbo-084aB2w"
       },
@@ -1483,7 +1493,7 @@
         "rank": 4,
         "title": "CRASH",
         "channel": "ALLDAY PROJECT - Topic",
-        "views": "16만회",
+        "views": "18만회",
         "thumb": "https://i.ytimg.com/vi/-JInUb_G6Jc/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=-JInUb_G6Jc"
       },
@@ -1491,7 +1501,7 @@
         "rank": 5,
         "title": "개가 된 이유",
         "channel": "뜨뜨뜨뜨",
-        "views": "32만회",
+        "views": "33만회",
         "thumb": "https://i.ytimg.com/vi/UKI1B-GSbkU/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=UKI1B-GSbkU"
       },
@@ -1507,7 +1517,7 @@
         "rank": 7,
         "title": "피파 수천만원 현질한 스쿼드로 여캠 울리는 한남 김태민",
         "channel": "클리드",
-        "views": "37만회",
+        "views": "38만회",
         "thumb": "https://i.ytimg.com/vi/wa6N6OiikMw/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=wa6N6OiikMw"
       },
@@ -1515,7 +1525,7 @@
         "rank": 8,
         "title": "BOYNEXTDOOR (보이넥스트도어) 'ANIMAL' Official MV",
         "channel": "HYBE LABELS",
-        "views": "349만회",
+        "views": "364만회",
         "thumb": "https://i.ytimg.com/vi/WI4__7z_dJw/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=WI4__7z_dJw"
       },
@@ -1531,7 +1541,7 @@
         "rank": 10,
         "title": "CLICHE",
         "channel": "BOYNEXTDOOR - Topic",
-        "views": "14만회",
+        "views": "15만회",
         "thumb": "https://i.ytimg.com/vi/sDqaiKIFTDQ/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=sDqaiKIFTDQ"
       }
