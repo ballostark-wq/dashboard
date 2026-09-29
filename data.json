@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30 06:05:45",
+  "updated_at": "2026-09-30 07:05:51",
   "us2y": {
     "value": 4.89,
     "change": -0.03
@@ -131,19 +131,14 @@
         "title": "[디일렉] '고맙사 삼성SDI' 에코프로비엠, BMW·벤츠 신형 전기차에 양극재 공급",
         "link": "https://www.thelec.kr/news/articleView.html?idxno=62926",
         "date": "09-29 18:54"
-      },
-      {
-        "title": "[전자신문] “3명 중 1명은 결혼하면 안 된다”…中 72세 교수 작심 발언에 온라인 '시끌'",
-        "link": "https://www.etnews.com/20260929000095",
-        "date": "09-30 06:00"
-      },
-      {
-        "title": "[전자신문] UFO로 만든 비밀 항공기? 정체불명 비행체 포착",
-        "link": "https://www.etnews.com/20260928000340",
-        "date": "09-30 06:00"
       }
     ],
     "domestic": [
+      {
+        "title": "세인트루이스 연은 총재 \"시장과의 소통, 발 빼선 안돼…정책틀 제시해야\"",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436990",
+        "date": "09-30 06:57"
+      },
       {
         "title": "뉴욕 연은 총재 \"서두를 필요 없다\"…연속 금리 인상에 선그어(상보)",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436985",
@@ -163,11 +158,6 @@
         "title": "美 9월 소비신뢰지수 81.9…예상 밑돌며 크게 악화(상보)",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436978",
         "date": "09-30 02:06"
-      },
-      {
-        "title": "美 국채가, 유가 하락에 소폭 강세",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436975",
-        "date": "09-30 00:17"
       }
     ]
   },
@@ -236,32 +226,32 @@
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,213.6",
-          "chg": "-2.49%",
+          "val": "$4,215.0",
+          "chg": "-2.46%",
           "up": false
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$61.86",
-          "chg": "+1.05%",
+          "val": "$61.85",
+          "chg": "+1.03%",
           "up": true
         }
       ],
       "bullets": [
         "구리 $6.66/lb (+1.37%) - AI 전력망 설비 수요 반영",
-        "금 $4,214/oz, 은 $61.86/oz - 통화가치 헤지"
+        "금 $4,215/oz, 은 $61.85/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,352원 | 엔/달러 ¥157.3",
-      "title": "원/달러 1,352.4원선과 엔/달러 ¥157.3",
+      "badge": "원/달러 1,352원 | 엔/달러 ¥157.2",
+      "title": "원/달러 1,352.3원선과 엔/달러 ¥157.2",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,352.4원",
+          "val": "1,352.3원",
           "chg": "-0.53%",
           "up": false
         },
@@ -275,31 +265,31 @@
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥157.27",
-          "chg": "-0.06%",
+          "val": "¥157.23",
+          "chg": "-0.08%",
           "up": false
         }
       ],
       "bullets": [
         "달러 인덱스 101.38pt - 미국 성장 우위 지속",
-        "엔/달러 157.27엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "엔/달러 157.23엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $89.0",
-      "title": "WTI 배럴당 $89.0선 박스권 안정",
+      "badge": "WTI $88.94",
+      "title": "WTI 배럴당 $88.94선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$89.00",
-          "chg": "-3.89%",
+          "val": "$88.94",
+          "chg": "-3.95%",
           "up": false
         }
       ],
       "bullets": [
-        "WTI 선물 $89.0/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $88.94/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -311,19 +301,19 @@
       "change": 1.37
     },
     "gold": {
-      "price": 4213.6,
-      "change": -2.49
+      "price": 4215.0,
+      "change": -2.46
     },
     "silver": {
-      "price": 61.86,
-      "change": 1.05
+      "price": 61.85,
+      "change": 1.03
     },
     "wti": {
-      "price": 89.0,
-      "change": -3.89
+      "price": 88.94,
+      "change": -3.95
     },
     "usdkrw": {
-      "price": 1352.38,
+      "price": 1352.35,
       "change": -0.53
     },
     "dxy": {
@@ -331,8 +321,8 @@
       "change": 0.18
     },
     "usdjpy": {
-      "price": 157.27,
-      "change": -0.06
+      "price": 157.23,
+      "change": -0.08
     }
   },
   "history_20d": {
@@ -596,8 +586,8 @@
       {
         "date": "09-29",
         "copper": 6.66,
-        "gold": 4213.6,
-        "silver": 61.86
+        "gold": 4215.0,
+        "silver": 61.85
       }
     ],
     "fx": [
@@ -717,9 +707,9 @@
       },
       {
         "date": "09-29",
-        "usdkrw": 1352.38,
+        "usdkrw": 1352.35,
         "dxy": 101.38,
-        "usdjpy": 157.27
+        "usdjpy": 157.23
       }
     ],
     "oil": [
@@ -820,8 +810,8 @@
       },
       {
         "date": "09-29",
-        "wti": 89.0,
-        "change": -3.89
+        "wti": 88.94,
+        "change": -3.95
       }
     ]
   },
@@ -1417,53 +1407,53 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "훈련 못한 배구팀, 조직위 사과",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%9B%88%EB%A0%A8%20%EB%AA%BB%ED%95%9C%20%EB%B0%B0%EA%B5%AC%ED%8C%80%2C%20%EC%A1%B0%EC%A7%81%EC%9C%84%20%EC%82%AC%EA%B3%BC"
+        "title": "2026 아시안게임 한국 일정",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=2026%20%EC%95%84%EC%8B%9C%EC%95%88%EA%B2%8C%EC%9E%84%20%ED%95%9C%EA%B5%AD%20%EC%9D%BC%EC%A0%95"
       },
       {
         "rank": 2,
-        "title": "여자축구 일본에 패배",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%97%AC%EC%9E%90%EC%B6%95%EA%B5%AC%20%EC%9D%BC%EB%B3%B8%EC%97%90%20%ED%8C%A8%EB%B0%B0"
+        "title": "트럼프 있어 김정은 괜찮다",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%8A%B8%EB%9F%BC%ED%94%84%20%EC%9E%88%EC%96%B4%20%EA%B9%80%EC%A0%95%EC%9D%80%20%EA%B4%9C%EC%B0%AE%EB%8B%A4"
       },
       {
         "rank": 3,
-        "title": "기후부 재생에너지 대책",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B8%B0%ED%9B%84%EB%B6%80%20%EC%9E%AC%EC%83%9D%EC%97%90%EB%84%88%EC%A7%80%20%EB%8C%80%EC%B1%85"
-      },
-      {
-        "rank": 4,
         "title": "암살자들 논란 총공세",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%94%EC%82%B4%EC%9E%90%EB%93%A4%20%EB%85%BC%EB%9E%80%20%EC%B4%9D%EA%B3%B5%EC%84%B8"
       },
       {
+        "rank": 4,
+        "title": "중국에 2-3 패배, 8강전 이란과",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A4%91%EA%B5%AD%EC%97%90%202-3%20%ED%8C%A8%EB%B0%B0%2C%208%EA%B0%95%EC%A0%84%20%EC%9D%B4%EB%9E%80%EA%B3%BC"
+      },
+      {
         "rank": 5,
-        "title": "DMZ 지뢰 결의문 불발",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=DMZ%20%EC%A7%80%EB%A2%B0%20%EA%B2%B0%EC%9D%98%EB%AC%B8%20%EB%B6%88%EB%B0%9C"
+        "title": "추신수",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B6%94%EC%8B%A0%EC%88%98"
       },
       {
         "rank": 6,
-        "title": "고소영",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B3%A0%EC%86%8C%EC%98%81"
+        "title": "미 30년물 국채금리",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%AF%B8%2030%EB%85%84%EB%AC%BC%20%EA%B5%AD%EC%B1%84%EA%B8%88%EB%A6%AC"
       },
       {
         "rank": 7,
-        "title": "정부",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A0%95%EB%B6%80"
+        "title": "변요한, 티파니 결혼식 진행",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B3%80%EC%9A%94%ED%95%9C%2C%20%ED%8B%B0%ED%8C%8C%EB%8B%88%20%EA%B2%B0%ED%98%BC%EC%8B%9D%20%EC%A7%84%ED%96%89"
       },
       {
         "rank": 8,
-        "title": "김도영 아시안게임 복귀 홈런",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EB%8F%84%EC%98%81%20%EC%95%84%EC%8B%9C%EC%95%88%EA%B2%8C%EC%9E%84%20%EB%B3%B5%EA%B7%80%20%ED%99%88%EB%9F%B0"
+        "title": "김하성",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%ED%95%98%EC%84%B1"
       },
       {
         "rank": 9,
-        "title": "변요한과 티파니 극비 결혼식",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B3%80%EC%9A%94%ED%95%9C%EA%B3%BC%20%ED%8B%B0%ED%8C%8C%EB%8B%88%20%EA%B7%B9%EB%B9%84%20%EA%B2%B0%ED%98%BC%EC%8B%9D"
+        "title": "DMZ 지뢰 사건 발생",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=DMZ%20%EC%A7%80%EB%A2%B0%20%EC%82%AC%EA%B1%B4%20%EB%B0%9C%EC%83%9D"
       },
       {
         "rank": 10,
-        "title": "야구여왕",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%BC%EA%B5%AC%EC%97%AC%EC%99%95"
+        "title": "해리 케인",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%B4%EB%A6%AC%20%EC%BC%80%EC%9D%B8"
       }
     ],
     "youtube_popular": [
@@ -1471,7 +1461,7 @@
         "rank": 1,
         "title": "ALLDAY PROJECT - ‘CRASH’ M/V",
         "channel": "THEBLACKLABEL",
-        "views": "1076만회",
+        "views": "1085만회",
         "thumb": "https://i.ytimg.com/vi/lQ-w9M447w0/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=lQ-w9M447w0"
       },
@@ -1479,7 +1469,7 @@
         "rank": 2,
         "title": "The Witcher 3: Wild Hunt — Remastered | Official Launch Trailer",
         "channel": "The Witcher",
-        "views": "207만회",
+        "views": "223만회",
         "thumb": "https://i.ytimg.com/vi/OlmuIckOX0c/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=OlmuIckOX0c"
       },
@@ -1487,7 +1477,7 @@
         "rank": 3,
         "title": "슈퍼 AI 플루토 마저도 당황하게 만든 알파고 김성현의 신의 한 수, 과연 그 전략은?",
         "channel": "[ALTUBE] 김성현TV",
-        "views": "47만회",
+        "views": "48만회",
         "thumb": "https://i.ytimg.com/vi/kbG6sOAmVto/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=kbG6sOAmVto"
       },
@@ -1511,7 +1501,7 @@
         "rank": 6,
         "title": "1초 만에 3000억을 버는 남자 ㄷㄷ [팡이요,  메이플스토리]",
         "channel": "팡이요",
-        "views": "27만회",
+        "views": "28만회",
         "thumb": "https://i.ytimg.com/vi/-JH7uZFB1-I/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=-JH7uZFB1-I"
       },
@@ -1527,7 +1517,7 @@
         "rank": 8,
         "title": "[ 불도그 LIVE 생방송 9/29 ] 리니지m 노드상 90렙달성 그리고 .. 투명망토",
         "channel": "불도그",
-        "views": "42만회",
+        "views": "43만회",
         "thumb": "https://i.ytimg.com/vi/DfCcrRKUo8o/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=DfCcrRKUo8o"
       },
@@ -1535,7 +1525,7 @@
         "rank": 9,
         "title": "BOYNEXTDOOR (보이넥스트도어) 'ANIMAL' Official MV",
         "channel": "HYBE LABELS",
-        "views": "550만회",
+        "views": "554만회",
         "thumb": "https://i.ytimg.com/vi/WI4__7z_dJw/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=WI4__7z_dJw"
       },
