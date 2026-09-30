@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30 20:06:58",
+  "updated_at": "2026-09-30 21:08:40",
   "us2y": {
     "value": 4.89,
     "change": -0.03
@@ -21,8 +21,8 @@
     "status": "정상화 (우상향)"
   },
   "vix": {
-    "value": 16.09,
-    "change": 0.31
+    "value": 16.18,
+    "change": 0.87
   },
   "tech_news": [
     {
@@ -91,6 +91,11 @@
     ],
     "global": [
       {
+        "title": "Stocks making the biggest moves premarket: Robinhood, Boeing, Moderna & more",
+        "link": "https://www.cnbc.com/2026/09/30/stocks-making-the-biggest-moves-premarket-hood-ba-mrna-.html",
+        "date": "09-30 11:38"
+      },
+      {
         "title": "Singapore's Temasek to expand Middle East presence, open Abu Dhabi, Riyadh offices",
         "link": "https://www.cnbc.com/2026/09/30/singapores-temasek-expands-in-mideast-with-abu-dhabi-riyadh-offices-.html",
         "date": "09-30 08:45"
@@ -109,28 +114,33 @@
         "title": "Prediction market traders think the U.S. added more jobs in September than economists estimate",
         "link": "https://www.cnbc.com/2026/09/29/prediction-market-traders-september-jobs-report-will-beat-estimates.html",
         "date": "09-29 20:33"
-      },
-      {
-        "title": "Polymarket taps Goldman Sachs veteran Lisa Mantil to attract Wall Street liquidity",
-        "link": "https://www.cnbc.com/2026/09/29/polymarket-lisa-mantil-institutional-growth.html",
-        "date": "09-29 12:00"
       }
     ],
     "tech": [
+      {
+        "title": "[디일렉] KAI, 2040년 항공우주 플랫폼 글로벌 4위권 목표",
+        "link": "https://www.thelec.kr/news/articleView.html?idxno=63053",
+        "date": "09-30 21:01"
+      },
+      {
+        "title": "[디일렉] HS효성첨단소재, 베트남 카페트 공장 건설...1300억 투자",
+        "link": "https://www.thelec.kr/news/articleView.html?idxno=63055",
+        "date": "09-30 21:01"
+      },
       {
         "title": "[디일렉] \"한국, 분산형 AI로 2035년 67조 이상 가치 창출\"",
         "link": "https://www.thelec.kr/news/articleView.html?idxno=63048",
         "date": "09-30 18:38"
       },
       {
-        "title": "[디일렉] JSR, 충북 오창에 EUV MOR 공장 준공",
-        "link": "https://www.thelec.kr/news/articleView.html?idxno=63051",
-        "date": "09-30 18:35"
+        "title": "[전자신문] 펄어비스, 붉은사막 첫 DLC 10월 30일로 조정... 장기 흥행 위한 완성도 승부",
+        "link": "https://www.etnews.com/20260930000456",
+        "date": "09-30 20:18"
       },
       {
-        "title": "[디일렉] 엔비디아, 11월 서울서 'AI 데이' 개최",
-        "link": "https://www.thelec.kr/news/articleView.html?idxno=63050",
-        "date": "09-30 18:32"
+        "title": "[전자신문] UST 입학 지원자 4년 연속 늘었다...지원자 수도 연이어 최다 경신",
+        "link": "https://www.etnews.com/20260930000455",
+        "date": "09-30 19:57"
       }
     ],
     "domestic": [
@@ -213,83 +223,83 @@
       "detail": "10Y-2Y 스프레드가 +37 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.64",
-      "title": "닥터 코퍼 $6.64선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.61",
+      "title": "닥터 코퍼 $6.61선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.64",
-          "chg": "+1.53%",
+          "val": "$6.61",
+          "chg": "+1.07%",
           "up": true
         },
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,215.7",
-          "chg": "+0.86%",
+          "val": "$4,216.2",
+          "chg": "+0.87%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$61.12",
-          "chg": "+0.74%",
+          "val": "$60.96",
+          "chg": "+0.48%",
           "up": true
         }
       ],
       "bullets": [
-        "구리 $6.64/lb (+1.53%) - AI 전력망 설비 수요 반영",
-        "금 $4,216/oz, 은 $61.12/oz - 통화가치 헤지"
+        "구리 $6.61/lb (+1.07%) - AI 전력망 설비 수요 반영",
+        "금 $4,216/oz, 은 $60.96/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
       "badge": "원/달러 1,355원 | 엔/달러 ¥157.0",
-      "title": "원/달러 1,354.5원선과 엔/달러 ¥157.0",
+      "title": "원/달러 1,355.0원선과 엔/달러 ¥157.0",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,354.5원",
-          "chg": "-0.37%",
+          "val": "1,355.0원",
+          "chg": "-0.33%",
           "up": false
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "101.22pt",
-          "chg": "-0.15%",
+          "val": "101.27pt",
+          "chg": "-0.10%",
           "up": false
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥157.04",
-          "chg": "-0.20%",
+          "val": "¥157.00",
+          "chg": "-0.23%",
           "up": false
         }
       ],
       "bullets": [
-        "달러 인덱스 101.22pt - 미국 성장 우위 지속",
-        "엔/달러 157.04엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 101.27pt - 미국 성장 우위 지속",
+        "엔/달러 157.00엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $90.42",
-      "title": "WTI 배럴당 $90.42선 박스권 안정",
+      "badge": "WTI $90.78",
+      "title": "WTI 배럴당 $90.78선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$90.42",
-          "chg": "+1.16%",
+          "val": "$90.78",
+          "chg": "+1.57%",
           "up": true
         }
       ],
       "bullets": [
-        "WTI 선물 $90.42/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $90.78/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -297,32 +307,32 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.64,
-      "change": 1.53
+      "price": 6.61,
+      "change": 1.07
     },
     "gold": {
-      "price": 4215.7,
-      "change": 0.86
+      "price": 4216.2,
+      "change": 0.87
     },
     "silver": {
-      "price": 61.12,
-      "change": 0.74
+      "price": 60.96,
+      "change": 0.48
     },
     "wti": {
-      "price": 90.42,
-      "change": 1.16
+      "price": 90.78,
+      "change": 1.57
     },
     "usdkrw": {
-      "price": 1354.54,
-      "change": -0.37
+      "price": 1355.05,
+      "change": -0.33
     },
     "dxy": {
-      "price": 101.22,
-      "change": -0.15
+      "price": 101.27,
+      "change": -0.1
     },
     "usdjpy": {
-      "price": 157.04,
-      "change": -0.2
+      "price": 157.0,
+      "change": -0.23
     }
   },
   "history_20d": {
@@ -585,9 +595,9 @@
       },
       {
         "date": "09-30",
-        "copper": 6.64,
-        "gold": 4215.7,
-        "silver": 61.12
+        "copper": 6.61,
+        "gold": 4216.2,
+        "silver": 60.96
       }
     ],
     "fx": [
@@ -707,9 +717,9 @@
       },
       {
         "date": "09-30",
-        "usdkrw": 1354.54,
-        "dxy": 101.22,
-        "usdjpy": 157.04
+        "usdkrw": 1355.05,
+        "dxy": 101.27,
+        "usdjpy": 157.0
       }
     ],
     "oil": [
@@ -810,8 +820,8 @@
       },
       {
         "date": "09-30",
-        "wti": 90.42,
-        "change": 1.16
+        "wti": 90.78,
+        "change": 1.57
       }
     ]
   },
@@ -1407,53 +1417,53 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "한화생명 애큐온캐피탈 인수",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%9C%ED%99%94%EC%83%9D%EB%AA%85%20%EC%95%A0%ED%81%90%EC%98%A8%EC%BA%90%ED%94%BC%ED%83%88%20%EC%9D%B8%EC%88%98"
+        "title": "장세윤 여자 은메달",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9E%A5%EC%84%B8%EC%9C%A4%20%EC%97%AC%EC%9E%90%20%EC%9D%80%EB%A9%94%EB%8B%AC"
       },
       {
         "rank": 2,
-        "title": "장세윤 유도 은메달",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9E%A5%EC%84%B8%EC%9C%A4%20%EC%9C%A0%EB%8F%84%20%EC%9D%80%EB%A9%94%EB%8B%AC"
+        "title": "아시안게임 메달순위",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%84%EC%8B%9C%EC%95%88%EA%B2%8C%EC%9E%84%20%EB%A9%94%EB%8B%AC%EC%88%9C%EC%9C%84"
       },
       {
         "rank": 3,
+        "title": "주진우 암살자들 엄호",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A3%BC%EC%A7%84%EC%9A%B0%20%EC%95%94%EC%82%B4%EC%9E%90%EB%93%A4%20%EC%97%84%ED%98%B8"
+      },
+      {
+        "rank": 4,
+        "title": "군 DMZ 지뢰 북한 사과 촉구",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B5%B0%20DMZ%20%EC%A7%80%EB%A2%B0%20%EB%B6%81%ED%95%9C%20%EC%82%AC%EA%B3%BC%20%EC%B4%89%EA%B5%AC"
+      },
+      {
+        "rank": 5,
+        "title": "영풍제지 주가조작 15년형",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%98%81%ED%92%8D%EC%A0%9C%EC%A7%80%20%EC%A3%BC%EA%B0%80%EC%A1%B0%EC%9E%91%2015%EB%85%84%ED%98%95"
+      },
+      {
+        "rank": 6,
+        "title": "서승재",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%84%9C%EC%8A%B9%EC%9E%AC"
+      },
+      {
+        "rank": 7,
         "title": "LH 공공주택 하자 증가",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=LH%20%EA%B3%B5%EA%B3%B5%EC%A3%BC%ED%83%9D%20%ED%95%98%EC%9E%90%20%EC%A6%9D%EA%B0%80"
       },
       {
-        "rank": 4,
-        "title": "암살자들에 대한 논란",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%94%EC%82%B4%EC%9E%90%EB%93%A4%EC%97%90%20%EB%8C%80%ED%95%9C%20%EB%85%BC%EB%9E%80"
-      },
-      {
-        "rank": 5,
-        "title": "동메달",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%8F%99%EB%A9%94%EB%8B%AC"
-      },
-      {
-        "rank": 6,
+        "rank": 8,
         "title": "지자체 지방교부세 반대",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A7%80%EC%9E%90%EC%B2%B4%20%EC%A7%80%EB%B0%A9%EA%B5%90%EB%B6%80%EC%84%B8%20%EB%B0%98%EB%8C%80"
       },
       {
-        "rank": 7,
-        "title": "타짜 100만 돌파",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%83%80%EC%A7%9C%20100%EB%A7%8C%20%EB%8F%8C%ED%8C%8C"
-      },
-      {
-        "rank": 8,
-        "title": "코스모 로보틱스",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%BD%94%EC%8A%A4%EB%AA%A8%20%EB%A1%9C%EB%B3%B4%ED%8B%B1%EC%8A%A4"
-      },
-      {
         "rank": 9,
-        "title": "트럼프 한국 알래스카 LNG",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%8A%B8%EB%9F%BC%ED%94%84%20%ED%95%9C%EA%B5%AD%20%EC%95%8C%EB%9E%98%EC%8A%A4%EC%B9%B4%20LNG"
+        "title": "전직 보좌관 뇌물 구속기소",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A0%84%EC%A7%81%20%EB%B3%B4%EC%A2%8C%EA%B4%80%20%EB%87%8C%EB%AC%BC%20%EA%B5%AC%EC%86%8D%EA%B8%B0%EC%86%8C"
       },
       {
         "rank": 10,
-        "title": "로봇 특화단지 지정",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%A1%9C%EB%B4%87%20%ED%8A%B9%ED%99%94%EB%8B%A8%EC%A7%80%20%EC%A7%80%EC%A0%95"
+        "title": "이동국",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EB%8F%99%EA%B5%AD"
       }
     ],
     "youtube_popular": [
@@ -1461,7 +1471,7 @@
         "rank": 1,
         "title": "ALLDAY PROJECT - ‘CRASH’ M/V",
         "channel": "THEBLACKLABEL",
-        "views": "1122만회",
+        "views": "1124만회",
         "thumb": "https://i.ytimg.com/vi/lQ-w9M447w0/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=lQ-w9M447w0"
       },
@@ -1469,7 +1479,7 @@
         "rank": 2,
         "title": "100일의 거짓말 | 공식 예고편 | 넷플릭스",
         "channel": "Netflix Korea 넷플릭스 코리아",
-        "views": "11만회",
+        "views": "12만회",
         "thumb": "https://i.ytimg.com/vi/h47Vd8BuITA/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=h47Vd8BuITA"
       },
@@ -1485,7 +1495,7 @@
         "rank": 4,
         "title": "CRASH",
         "channel": "ALLDAY PROJECT - Topic",
-        "views": "42만회",
+        "views": "44만회",
         "thumb": "https://i.ytimg.com/vi/-JInUb_G6Jc/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=-JInUb_G6Jc"
       },
@@ -1493,7 +1503,7 @@
         "rank": 5,
         "title": "The Witcher 3: Wild Hunt — Remastered | Official Launch Trailer",
         "channel": "The Witcher",
-        "views": "284만회",
+        "views": "287만회",
         "thumb": "https://i.ytimg.com/vi/OlmuIckOX0c/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=OlmuIckOX0c"
       },
@@ -1501,7 +1511,7 @@
         "rank": 6,
         "title": "1초 만에 3000억을 버는 남자 ㄷㄷ [팡이요,  메이플스토리]",
         "channel": "팡이요",
-        "views": "36만회",
+        "views": "37만회",
         "thumb": "https://i.ytimg.com/vi/-JH7uZFB1-I/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=-JH7uZFB1-I"
       },
@@ -1517,7 +1527,7 @@
         "rank": 8,
         "title": "다소 의역 : 산악회 해체는 노돌리 탓 [산악회 추석 합방 1화]",
         "channel": "동수칸TV",
-        "views": "50만회",
+        "views": "52만회",
         "thumb": "https://i.ytimg.com/vi/yHxzp0nlB20/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=yHxzp0nlB20"
       },
@@ -1525,7 +1535,7 @@
         "rank": 9,
         "title": "Epilogue",
         "channel": "Parc Jae Jung - Topic",
-        "views": "4만회",
+        "views": "5만회",
         "thumb": "https://i.ytimg.com/vi/rE2gwiBwg9s/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=rE2gwiBwg9s"
       },
@@ -1533,7 +1543,7 @@
         "rank": 10,
         "title": "인간변기",
         "channel": "괴물쥐 유튜브",
-        "views": "48만회",
+        "views": "49만회",
         "thumb": "https://i.ytimg.com/vi/SMSL0x2Kzu4/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=SMSL0x2Kzu4"
       }
