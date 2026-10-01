@@ -1,28 +1,28 @@
 {
-  "updated_at": "2026-10-01 23:09:09",
+  "updated_at": "2026-10-02 00:07:32",
   "us2y": {
     "value": 4.88,
     "change": -0.01
   },
   "us5y": {
-    "value": 5.09,
-    "change": 0.0
+    "value": 5.07,
+    "change": -0.02
   },
   "us10y": {
-    "value": 5.32,
-    "change": 0.03
+    "value": 5.3,
+    "change": 0.01
   },
   "us30y": {
-    "value": 5.67,
-    "change": 0.03
+    "value": 5.65,
+    "change": 0.01
   },
   "spread": {
-    "value": 44,
+    "value": 42,
     "status": "정상화 (우상향)"
   },
   "vix": {
-    "value": 16.73,
-    "change": 2.39
+    "value": 17.24,
+    "change": 5.51
   },
   "tech_news": [
     {
@@ -108,7 +108,7 @@
       {
         "title": "Kalshi, Polymarket trading volumes on some products raise questions amid massive growth",
         "link": "https://www.cnbc.com/2026/09/30/kalshi-polymarket-trading-volume-scrutiny.html",
-        "date": "09-30 21:09"
+        "date": "10-01 14:24"
       },
       {
         "title": "Stocks making the biggest moves premarket: Robinhood, Boeing, Moderna & more",
@@ -145,6 +145,11 @@
     ],
     "domestic": [
       {
+        "title": "달러-원, 뉴욕장서 1,360원 초반대 거래",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4437467",
+        "date": "10-01 23:45"
+      },
+      {
         "title": "트럼프 \"美 중간선거 이후 이란 공격 강화할 수도\"",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4437463",
         "date": "10-01 22:50"
@@ -163,11 +168,6 @@
         "title": "日 총리 \"정부 노력이 엔화에 대한 시장 신뢰 강화할 것\"(상보)",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4437457",
         "date": "10-01 19:10"
-      },
-      {
-        "title": "10월 국고채 총발행 '5조' 축소…\"필요시 발행물량 추가 축소\"",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4437456",
-        "date": "10-01 19:08"
       }
     ]
   },
@@ -184,21 +184,21 @@
   },
   "macro_reviews": {
     "bonds": {
-      "badge": "스프레드 +44 bp",
-      "title": "미국채 10년물 5.32%선 공방과 정상화",
+      "badge": "스프레드 +42 bp",
+      "title": "미국채 10년물 5.3%선 공방과 정상화",
       "metrics": [
         {
           "id": "spread",
           "name": "10Y-2Y차",
-          "val": "+44 bp",
+          "val": "+42 bp",
           "chg": "정상화 (우상향)",
           "up": true
         },
         {
           "id": "us10y",
           "name": "10년물",
-          "val": "5.32%",
-          "chg": "+0.03%",
+          "val": "5.30%",
+          "chg": "+0.01%",
           "up": true
         },
         {
@@ -211,95 +211,95 @@
         {
           "id": "us30y",
           "name": "30년물",
-          "val": "5.67%",
-          "chg": "+0.03%",
+          "val": "5.65%",
+          "chg": "+0.01%",
           "up": true
         }
       ],
       "bullets": [
-        "10년물 5.32%와 2년물 4.88% 형성으로 스프레드 +44 bp 유지",
-        "초장기 30년물 5.67%선 안착 속 재정 적자 발행에 따른 기간 프리미엄"
+        "10년물 5.3%와 2년물 4.88% 형성으로 스프레드 +42 bp 유지",
+        "초장기 30년물 5.65%선 안착 속 재정 적자 발행에 따른 기간 프리미엄"
       ],
-      "detail": "10Y-2Y 스프레드가 +44 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
+      "detail": "10Y-2Y 스프레드가 +42 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.59",
-      "title": "닥터 코퍼 $6.59선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.57",
+      "title": "닥터 코퍼 $6.57선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.59",
-          "chg": "+0.46%",
+          "val": "$6.57",
+          "chg": "+0.15%",
           "up": true
         },
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,193.6",
-          "chg": "+0.16%",
+          "val": "$4,195.7",
+          "chg": "+0.21%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$61.47",
-          "chg": "+2.28%",
+          "val": "$61.17",
+          "chg": "+1.78%",
           "up": true
         }
       ],
       "bullets": [
-        "구리 $6.59/lb (+0.46%) - AI 전력망 설비 수요 반영",
-        "금 $4,194/oz, 은 $61.47/oz - 통화가치 헤지"
+        "구리 $6.57/lb (+0.15%) - AI 전력망 설비 수요 반영",
+        "금 $4,196/oz, 은 $61.17/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,361원 | 엔/달러 ¥158.0",
-      "title": "원/달러 1,361.0원선과 엔/달러 ¥158.0",
+      "badge": "원/달러 1,363원 | 엔/달러 ¥157.9",
+      "title": "원/달러 1,362.7원선과 엔/달러 ¥157.9",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,361.0원",
-          "chg": "+0.78%",
+          "val": "1,362.7원",
+          "chg": "+0.90%",
           "up": true
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "101.71pt",
-          "chg": "+0.26%",
+          "val": "101.87pt",
+          "chg": "+0.41%",
           "up": true
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥158.04",
-          "chg": "+0.41%",
+          "val": "¥157.88",
+          "chg": "+0.30%",
           "up": true
         }
       ],
       "bullets": [
-        "달러 인덱스 101.71pt - 미국 성장 우위 지속",
-        "엔/달러 158.04엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 101.87pt - 미국 성장 우위 지속",
+        "엔/달러 157.88엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $91.24",
-      "title": "WTI 배럴당 $91.24선 박스권 안정",
+      "badge": "WTI $92.15",
+      "title": "WTI 배럴당 $92.15선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$91.24",
-          "chg": "+0.91%",
+          "val": "$92.15",
+          "chg": "+1.91%",
           "up": true
         }
       ],
       "bullets": [
-        "WTI 선물 $91.24/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $92.15/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -307,32 +307,32 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.59,
-      "change": 0.46
+      "price": 6.57,
+      "change": 0.15
     },
     "gold": {
-      "price": 4193.6,
-      "change": 0.16
+      "price": 4195.7,
+      "change": 0.21
     },
     "silver": {
-      "price": 61.47,
-      "change": 2.28
+      "price": 61.17,
+      "change": 1.78
     },
     "wti": {
-      "price": 91.24,
-      "change": 0.91
+      "price": 92.15,
+      "change": 1.91
     },
     "usdkrw": {
-      "price": 1361.0,
-      "change": 0.78
+      "price": 1362.68,
+      "change": 0.9
     },
     "dxy": {
-      "price": 101.71,
-      "change": 0.26
+      "price": 101.87,
+      "change": 0.41
     },
     "usdjpy": {
-      "price": 158.04,
-      "change": 0.41
+      "price": 157.88,
+      "change": 0.3
     }
   },
   "history_20d": {
@@ -472,10 +472,10 @@
       },
       {
         "date": "10-01",
-        "us10y": 5.32,
+        "us10y": 5.3,
         "us2y": 4.88,
-        "us30y": 5.67,
-        "spread": 44
+        "us30y": 5.65,
+        "spread": 42
       }
     ],
     "commodities": [
@@ -595,9 +595,9 @@
       },
       {
         "date": "10-01",
-        "copper": 6.59,
-        "gold": 4193.6,
-        "silver": 61.47
+        "copper": 6.57,
+        "gold": 4195.7,
+        "silver": 61.17
       }
     ],
     "fx": [
@@ -717,9 +717,9 @@
       },
       {
         "date": "10-01",
-        "usdkrw": 1361.0,
-        "dxy": 101.71,
-        "usdjpy": 158.04
+        "usdkrw": 1362.68,
+        "dxy": 101.87,
+        "usdjpy": 157.88
       }
     ],
     "oil": [
@@ -820,8 +820,8 @@
       },
       {
         "date": "10-01",
-        "wti": 91.24,
-        "change": 0.91
+        "wti": 92.15,
+        "change": 1.91
       }
     ]
   },
@@ -859,24 +859,40 @@
     }
   },
   "humanities": {
-    "history_date": "2026-10-01",
+    "history_date": "2026-10-02",
     "history": {
-      "era": "1870년 ~ 1923년 (1896년)",
-      "region": "세계",
-      "year": "1896년",
-      "title": "[1896년] [세계] 제1회 하계 올림픽",
-      "summary": "1896년 - 제1회 하계 올림픽",
+      "era": "1924년 ~ 1972년 (1946년)",
+      "region": "한국",
+      "year": "1946년",
+      "title": "[1946년] [한국] 북한, 토지개혁",
+      "summary": "1946년 - 북한, 토지개혁",
       "bullets": [
-        "발생 연대: 1896년 (세계사)",
-        "제1회 하계 올림픽",
+        "발생 연대: 1946년 (한국사)",
+        "북한, 토지개혁",
         "당대 세력 균형 및 정치·경제적 제도 변화 반영"
       ],
-      "insight": "1896년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
-      "ref_title": "위키백과 세계사 연표: 1870년 ~ 1923년 (1896년)",
-      "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1870%EB%85%84_~_1923%EB%85%84:~:text=1896",
+      "insight": "1946년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
+      "ref_title": "위키백과 세계사 연표: 1924년 ~ 1972년 (1946년)",
+      "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1924%EB%85%84_~_1972%EB%85%84:~:text=1946",
       "d_day": "오늘"
     },
     "history_5d": [
+      {
+        "era": "1924년 ~ 1972년 (1946년)",
+        "region": "한국",
+        "year": "1946년",
+        "title": "[1946년] [한국] 북한, 토지개혁",
+        "summary": "1946년 - 북한, 토지개혁",
+        "bullets": [
+          "발생 연대: 1946년 (한국사)",
+          "북한, 토지개혁",
+          "당대 세력 균형 및 정치·경제적 제도 변화 반영"
+        ],
+        "insight": "1946년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
+        "ref_title": "위키백과 세계사 연표: 1924년 ~ 1972년 (1946년)",
+        "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1924%EB%85%84_~_1972%EB%85%84:~:text=1946",
+        "d_day": "오늘"
+      },
       {
         "era": "1870년 ~ 1923년 (1896년)",
         "region": "세계",
@@ -891,7 +907,7 @@
         "insight": "1896년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1870년 ~ 1923년 (1896년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1870%EB%85%84_~_1923%EB%85%84:~:text=1896",
-        "d_day": "오늘"
+        "d_day": "D-1"
       },
       {
         "era": "1870년 ~ 1923년 (1895년)",
@@ -907,7 +923,7 @@
         "insight": "1895년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1870년 ~ 1923년 (1895년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1870%EB%85%84_~_1923%EB%85%84:~:text=1895",
-        "d_day": "D-1"
+        "d_day": "D-2"
       },
       {
         "era": "1466년 ~ 1699년 (1498년)",
@@ -923,7 +939,7 @@
         "insight": "1498년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1466년 ~ 1699년 (1498년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1466%EB%85%84_~_1699%EB%85%84:~:text=1498",
-        "d_day": "D-2"
+        "d_day": "D-3"
       },
       {
         "era": "1924년 ~ 1972년 (1967년)",
@@ -939,90 +955,140 @@
         "insight": "1967년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1924년 ~ 1972년 (1967년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1924%EB%85%84_~_1972%EB%85%84:~:text=1967",
-        "d_day": "D-3"
-      },
-      {
-        "era": "1076년 ~ 1455년 (1414년)",
-        "region": "세계",
-        "year": "1414년",
-        "title": "[1414년] [세계] 콘스탄츠 공의회, 존 위클리프를 이단으로 몰고 얀 후스 화형 결정(∼1418)",
-        "summary": "1414년 - 콘스탄츠 공의회, 존 위클리프를 이단으로 몰고 얀 후스 화형 결정(∼1418)",
-        "bullets": [
-          "발생 연대: 1414년 (세계사)",
-          "콘스탄츠 공의회, 존 위클리프를 이단으로 몰고 얀 후스 화형 결정(∼1418)",
-          "당대 세력 균형 및 정치·경제적 제도 변화 반영"
-        ],
-        "insight": "1414년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
-        "ref_title": "위키백과 세계사 연표: 1076년 ~ 1455년 (1414년)",
-        "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1076%EB%85%84_~_1455%EB%85%84:~:text=1414",
         "d_day": "D-4"
       }
     ],
     "polyglot": {
-      "theme": "입버릇 관용구: 일상 표현",
-      "meaning": "나도 다 겪어봤어 (뻔한 얘기야)!",
+      "theme": "준비 확인 (Q&A)",
+      "type": "기초",
+      "meaning": "Q: 지금 준비되셨나요? / A: 네, 다 준비됐어요. 바로 가요.",
       "translations": {
         "en": {
           "code": "en-US",
           "name": "영어",
           "flag": "🇺🇸",
-          "text": "Been there, done that!",
-          "roman": ""
+          "text": "Are you ready now? - Yes, I'm all set. Let's go.",
+          "roman": "아 유 레디 나우? - 예스, 아임 올 셋. 렛츠 고."
         },
         "ja": {
           "code": "ja-JP",
           "name": "일본어",
           "flag": "🇯🇵",
-          "text": "そんなのもう経験済みだよ！",
-          "roman": "Sonna no mō keiken-zumi da yo!"
+          "text": "準備はできましたか？ - はい、準備完了です。行きましょう。",
+          "roman": "쥰비와 데키마시타 카? - 하이, 쥰비 칸료-데스. 이키마쇼-."
         },
         "zh": {
           "code": "zh-CN",
           "name": "중국어",
           "flag": "🇨🇳",
-          "text": "我早就经历过了，见怪不怪了！",
-          "roman": "Wǒ zǎojiù jīnglì guò le, jiànguàibùguài le!"
+          "text": "你准备好了吗？ - 好了，都准备好了，走吧。",
+          "roman": "니 준베이 하오 러 마? - 하오 러, 더우 준베이 하오 러, 저우 바."
         },
         "fr": {
           "code": "fr-FR",
           "name": "프랑스어",
           "flag": "🇫🇷",
-          "text": "Déjà vu, déjà fait !",
-          "roman": ""
+          "text": "Êtes-vous prêt maintenant ? - Oui, je suis prêt. Allons-y.",
+          "roman": "에트 부 프레 맹트낭? - 위, 즈 슈이 프레. 알롱-지."
         },
         "de": {
           "code": "de-DE",
           "name": "독일어",
           "flag": "🇩🇪",
-          "text": "Schon erlebt, alter Hut!",
-          "roman": ""
+          "text": "Sind Sie jetzt bereit? - Ja, alles bereit. Los geht's.",
+          "roman": "진트 지 제츠트 베라이트? - 야, 알레스 베라이트. 로스 게츠."
         },
         "es": {
           "code": "es-ES",
           "name": "스페인어",
           "flag": "🇪🇸",
-          "text": "¡Ya pasé por eso, nada nuevo!",
-          "roman": ""
+          "text": "¿Estás listo ahora? - Sí, estoy listo. Vamos.",
+          "roman": "에스따스 리스토 아오라? - 시, 에스또이 리스토. 바모스."
         },
         "ar": {
           "code": "ar-SA",
           "name": "아랍어",
           "flag": "🇸🇦",
-          "text": "مررت بذلك وجربته من قبل!",
-          "roman": "Marartu bi-dhālika wa-jarrabtuhu min qabl!"
+          "text": "هل أنت مستعد الآن؟ - نعم، أنا جاهز تماماً. هيا بنا.",
+          "roman": "할 안타 무스타잇둔 알-안? - 나암, 아나 자히준 타마만. 하이야 비나."
         },
         "ru": {
           "code": "ru-RU",
           "name": "러시아어",
           "flag": "🇷🇺",
-          "text": "Плавали, знаем!",
-          "roman": "Plavali, znayem!"
+          "text": "Вы готовы? - Да, всё готово. Поехали.",
+          "roman": "브이 가토븨? - 다, 프쇼 가토바. 빠예할리."
         }
       },
-      "pool_type": "일상",
+      "pool_type": "기초",
       "d_day": "오늘"
     },
     "polyglot_5d": [
+      {
+        "theme": "준비 확인 (Q&A)",
+        "type": "기초",
+        "meaning": "Q: 지금 준비되셨나요? / A: 네, 다 준비됐어요. 바로 가요.",
+        "translations": {
+          "en": {
+            "code": "en-US",
+            "name": "영어",
+            "flag": "🇺🇸",
+            "text": "Are you ready now? - Yes, I'm all set. Let's go.",
+            "roman": "아 유 레디 나우? - 예스, 아임 올 셋. 렛츠 고."
+          },
+          "ja": {
+            "code": "ja-JP",
+            "name": "일본어",
+            "flag": "🇯🇵",
+            "text": "準備はできましたか？ - はい、準備完了です。行きましょう。",
+            "roman": "쥰비와 데키마시타 카? - 하이, 쥰비 칸료-데스. 이키마쇼-."
+          },
+          "zh": {
+            "code": "zh-CN",
+            "name": "중국어",
+            "flag": "🇨🇳",
+            "text": "你准备好了吗？ - 好了，都准备好了，走吧。",
+            "roman": "니 준베이 하오 러 마? - 하오 러, 더우 준베이 하오 러, 저우 바."
+          },
+          "fr": {
+            "code": "fr-FR",
+            "name": "프랑스어",
+            "flag": "🇫🇷",
+            "text": "Êtes-vous prêt maintenant ? - Oui, je suis prêt. Allons-y.",
+            "roman": "에트 부 프레 맹트낭? - 위, 즈 슈이 프레. 알롱-지."
+          },
+          "de": {
+            "code": "de-DE",
+            "name": "독일어",
+            "flag": "🇩🇪",
+            "text": "Sind Sie jetzt bereit? - Ja, alles bereit. Los geht's.",
+            "roman": "진트 지 제츠트 베라이트? - 야, 알레스 베라이트. 로스 게츠."
+          },
+          "es": {
+            "code": "es-ES",
+            "name": "스페인어",
+            "flag": "🇪🇸",
+            "text": "¿Estás listo ahora? - Sí, estoy listo. Vamos.",
+            "roman": "에스따스 리스토 아오라? - 시, 에스또이 리스토. 바모스."
+          },
+          "ar": {
+            "code": "ar-SA",
+            "name": "아랍어",
+            "flag": "🇸🇦",
+            "text": "هل أنت مستعد الآن؟ - نعم، أنا جاهز تماماً. هيا بنا.",
+            "roman": "할 안타 무스타잇둔 알-안? - 나암, 아나 자히준 타마만. 하이야 비나."
+          },
+          "ru": {
+            "code": "ru-RU",
+            "name": "러시아어",
+            "flag": "🇷🇺",
+            "text": "Вы готовы? - Да, всё готово. Поехали.",
+            "roman": "브이 가토븨? - 다, 프쇼 가토바. 빠예할리."
+          }
+        },
+        "pool_type": "기초",
+        "d_day": "오늘"
+      },
       {
         "theme": "입버릇 관용구: 일상 표현",
         "meaning": "나도 다 겪어봤어 (뻔한 얘기야)!",
@@ -1085,7 +1151,7 @@
           }
         },
         "pool_type": "일상",
-        "d_day": "오늘"
+        "d_day": "D-1"
       },
       {
         "theme": "결제 방식 (Q&A)",
@@ -1150,7 +1216,7 @@
           }
         },
         "pool_type": "기초",
-        "d_day": "D-1"
+        "d_day": "D-2"
       },
       {
         "theme": "입버릇 관용구: 일상 표현",
@@ -1214,7 +1280,7 @@
           }
         },
         "pool_type": "일상",
-        "d_day": "D-2"
+        "d_day": "D-3"
       },
       {
         "theme": "가격 문의 (Q&A)",
@@ -1279,84 +1345,20 @@
           }
         },
         "pool_type": "기초",
-        "d_day": "D-3"
-      },
-      {
-        "theme": "입버릇 관용구: 일상 표현",
-        "meaning": "나 노래 진짜 못해 (완전 음치야).",
-        "translations": {
-          "en": {
-            "code": "en-US",
-            "name": "영어",
-            "flag": "🇺🇸",
-            "text": "I can't carry a tune.",
-            "roman": ""
-          },
-          "ja": {
-            "code": "ja-JP",
-            "name": "일본어",
-            "flag": "🇯🇵",
-            "text": "歌が下手で、まったく音痴なんだ。",
-            "roman": "Uta ga heta de, mattaku onchi nan da."
-          },
-          "zh": {
-            "code": "zh-CN",
-            "name": "중국어",
-            "flag": "🇨🇳",
-            "text": "我五音不全，唱歌完全不在调上。",
-            "roman": "Wǒ wǔyīnbùquán, chànggē wánquán bù zài diào shang."
-          },
-          "fr": {
-            "code": "fr-FR",
-            "name": "프랑스어",
-            "flag": "🇫🇷",
-            "text": "Je chante comme une casserole.",
-            "roman": ""
-          },
-          "de": {
-            "code": "de-DE",
-            "name": "독일어",
-            "flag": "🇩🇪",
-            "text": "Ich kann keinen einzigen Ton halten.",
-            "roman": ""
-          },
-          "es": {
-            "code": "es-ES",
-            "name": "스페인어",
-            "flag": "🇪🇸",
-            "text": "Desafino muchísimo, no doy ni una nota.",
-            "roman": ""
-          },
-          "ar": {
-            "code": "ar-SA",
-            "name": "아랍어",
-            "flag": "🇸🇦",
-            "text": "لا أستطيع ضبط نغمة غنائية أبدًا.",
-            "roman": "Lā astaṭī'u ḍabṭa naghmatin ghinā'iyyah abadan."
-          },
-          "ru": {
-            "code": "ru-RU",
-            "name": "러시아어",
-            "flag": "🇷🇺",
-            "text": "Мне медведь на ухо наступил.",
-            "roman": "Mne medved' na ukho nastupil."
-          }
-        },
-        "pool_type": "일상",
         "d_day": "D-4"
       }
     ],
     "philosophy": {
-      "thinker": "손자 (孫子)",
-      "era": "기원전 6세기 춘추시대 중국",
-      "concept": "부전이굴인지병 (不戰而屈人之兵)",
-      "quote": "“백 번 싸워 백 번 이기는 것이 최선이 아니요, 싸우지 않고 적을 굴복시키는 것이 최선이다.”",
+      "thinker": "니콜로 마키아벨리 (Niccolò Machiavelli)",
+      "era": "15~16세기 르네상스 이탈리아",
+      "concept": "비르투(Virtù)와 포르투나(Fortuna)",
+      "quote": "“군주는 사랑받는 존재가 되기보다 두려운 존재가 되는 편이 훨씬 안전하다.”",
       "bullets": [
-        "국력의 전면적 소모를 초래하는 정면충돌(전쟁)을 피하고 지략과 외교로 승기를 굳히는 모공(謀攻)",
-        "적을 알고 나를 알면 백 번 싸워도 위태롭지 않다는 철저한 정보력(Intelligence) 우위",
-        "형세에 따라 물처럼 유연하게 형태를 바꾸는 비대칭 전략의 추구"
+        "운명의 여신(포르투나)은 거친 강물과 같아, 평소 제방을 쌓아둔 역량(비르투) 있는 자만이 다스릴 수 있음",
+        "이상적 도덕주의를 탈피하여 권력과 인간 본성의 비정한 실재(Realpolitik)를 통찰",
+        "국가의 존립과 지속 가능성을 위해 냉철한 결단과 제도적 강제력을 중시"
       ],
-      "application": "출혈 가격 경쟁을 피하고, 생태계 락인(Lock-in)과 우회 기술 개발을 통해 시장을 선점하는 기업 전략의 핵심 근거가 됩니다."
+      "application": "미·중 기술 패권 및 공급망 재편 속에서 명분보다 국가의 실익과 독점적 기술 안보를 우선시해야 하는 현대 지정학의 핵심 잣대를 제공합니다."
     }
   },
   "trends": {
@@ -1415,53 +1417,53 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "서울 아파트값 86주 상승",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%84%9C%EC%9A%B8%20%EC%95%84%ED%8C%8C%ED%8A%B8%EA%B0%92%2086%EC%A3%BC%20%EC%83%81%EC%8A%B9"
+        "title": "김종호 남자 금메달",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%A2%85%ED%98%B8%20%EB%82%A8%EC%9E%90%20%EA%B8%88%EB%A9%94%EB%8B%AC"
       },
       {
         "rank": 2,
-        "title": "남 25Ｍ 속사권총 12년 금메달",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%82%A8%2025%EF%BC%AD%20%EC%86%8D%EC%82%AC%EA%B6%8C%EC%B4%9D%2012%EB%85%84%20%EA%B8%88%EB%A9%94%EB%8B%AC"
+        "title": "서울 86주 상승",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%84%9C%EC%9A%B8%2086%EC%A3%BC%20%EC%83%81%EC%8A%B9"
       },
       {
         "rank": 3,
-        "title": "아시안게임 폭언 사건 발생!",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%84%EC%8B%9C%EC%95%88%EA%B2%8C%EC%9E%84%20%ED%8F%AD%EC%96%B8%20%EC%82%AC%EA%B1%B4%20%EB%B0%9C%EC%83%9D%21"
+        "title": "이민호, 부산영화제 취소",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EB%AF%BC%ED%98%B8%2C%20%EB%B6%80%EC%82%B0%EC%98%81%ED%99%94%EC%A0%9C%20%EC%B7%A8%EC%86%8C"
       },
       {
         "rank": 4,
-        "title": "제주 5성급 호텔서 59명 병원행",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A0%9C%EC%A3%BC%205%EC%84%B1%EA%B8%89%20%ED%98%B8%ED%85%94%EC%84%9C%2059%EB%AA%85%20%EB%B3%91%EC%9B%90%ED%96%89"
+        "title": "분당구",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B6%84%EB%8B%B9%EA%B5%AC"
       },
       {
         "rank": 5,
-        "title": "미사일",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%AF%B8%EC%82%AC%EC%9D%BC"
-      },
-      {
-        "rank": 6,
         "title": "김성환 재생에너지 확대",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%84%B1%ED%99%98%20%EC%9E%AC%EC%83%9D%EC%97%90%EB%84%88%EC%A7%80%20%ED%99%95%EB%8C%80"
       },
       {
+        "rank": 6,
+        "title": "내려가는 검찰 깃발",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%82%B4%EB%A0%A4%EA%B0%80%EB%8A%94%20%EA%B2%80%EC%B0%B0%20%EA%B9%83%EB%B0%9C"
+      },
+      {
         "rank": 7,
-        "title": "짐 캐리, 민아와 비밀 결혼",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A7%90%20%EC%BA%90%EB%A6%AC%2C%20%EB%AF%BC%EC%95%84%EC%99%80%20%EB%B9%84%EB%B0%80%20%EA%B2%B0%ED%98%BC"
+        "title": "포스코 퓨처 엠",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%8F%AC%EC%8A%A4%EC%BD%94%20%ED%93%A8%EC%B2%98%20%EC%97%A0"
       },
       {
         "rank": 8,
-        "title": "군함",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B5%B0%ED%95%A8"
-      },
-      {
-        "rank": 9,
         "title": "공공부문 AI 윤리기준",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B3%B5%EA%B3%B5%EB%B6%80%EB%AC%B8%20AI%20%EC%9C%A4%EB%A6%AC%EA%B8%B0%EC%A4%80"
       },
       {
+        "rank": 9,
+        "title": "송기윤, 아내 향한 눈물",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%86%A1%EA%B8%B0%EC%9C%A4%2C%20%EC%95%84%EB%82%B4%20%ED%96%A5%ED%95%9C%20%EB%88%88%EB%AC%BC"
+      },
+      {
         "rank": 10,
-        "title": "공소청 대검 현판 교체",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B3%B5%EC%86%8C%EC%B2%AD%20%EB%8C%80%EA%B2%80%20%ED%98%84%ED%8C%90%20%EA%B5%90%EC%B2%B4"
+        "title": "미사일",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%AF%B8%EC%82%AC%EC%9D%BC"
       }
     ],
     "youtube_popular": [
@@ -1469,7 +1471,7 @@
         "rank": 1,
         "title": "CRASH",
         "channel": "ALLDAY PROJECT - Topic",
-        "views": "76만회",
+        "views": "77만회",
         "thumb": "https://i.ytimg.com/vi/-JInUb_G6Jc/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=-JInUb_G6Jc"
       },
@@ -1477,7 +1479,7 @@
         "rank": 2,
         "title": "[폭설] 1차 예고편 | 김윤석 X 구교환 11월 극장 개봉!",
         "channel": "쇼박스 SHOWBOX",
-        "views": "74만회",
+        "views": "76만회",
         "thumb": "https://i.ytimg.com/vi/vTPZxufbdUs/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=vTPZxufbdUs"
       },
@@ -1493,7 +1495,7 @@
         "rank": 4,
         "title": "임영웅 [Baila] Live Clip. @2026 IMHERO 10 : THE STADIUM CONCERT 2",
         "channel": "임영웅",
-        "views": "18만회",
+        "views": "19만회",
         "thumb": "https://i.ytimg.com/vi/-wGXnDzPovw/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=-wGXnDzPovw"
       },
@@ -1501,7 +1503,7 @@
         "rank": 5,
         "title": "꿀알바 | 공식 티저 예고편 | 넷플릭스",
         "channel": "Netflix Korea 넷플릭스 코리아",
-        "views": "63만회",
+        "views": "66만회",
         "thumb": "https://i.ytimg.com/vi/kucWTDH7bX4/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=kucWTDH7bX4"
       },
@@ -1509,7 +1511,7 @@
         "rank": 6,
         "title": "[ 불도그 LIVE 생방송 9/30 ] 리니지m 센터형님 최초신화 축하드립니다! 저도 신화도전 해볼게요! (패키지로)",
         "channel": "불도그",
-        "views": "37만회",
+        "views": "38만회",
         "thumb": "https://i.ytimg.com/vi/1cOsKIZtHRc/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=1cOsKIZtHRc"
       },
@@ -1517,7 +1519,7 @@
         "rank": 7,
         "title": "ALLDAY PROJECT - ‘CRASH’ M/V",
         "channel": "THEBLACKLABEL",
-        "views": "1165만회",
+        "views": "1167만회",
         "thumb": "https://i.ytimg.com/vi/lQ-w9M447w0/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=lQ-w9M447w0"
       },
@@ -1533,7 +1535,7 @@
         "rank": 9,
         "title": "세 얼간이",
         "channel": "이도원",
-        "views": "33만회",
+        "views": "34만회",
         "thumb": "https://i.ytimg.com/vi/dkkVNCZUrFc/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=dkkVNCZUrFc"
       },
