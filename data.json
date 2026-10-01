@@ -1,28 +1,28 @@
 {
-  "updated_at": "2026-10-02 01:06:55",
+  "updated_at": "2026-10-02 02:08:17",
   "us2y": {
     "value": 4.88,
     "change": -0.01
   },
   "us5y": {
-    "value": 5.03,
-    "change": -0.06
+    "value": 5.01,
+    "change": -0.08
   },
   "us10y": {
-    "value": 5.26,
-    "change": -0.03
+    "value": 5.24,
+    "change": -0.05
   },
   "us30y": {
-    "value": 5.62,
-    "change": -0.02
+    "value": 5.6,
+    "change": -0.04
   },
   "spread": {
-    "value": 38,
+    "value": 36,
     "status": "정상화 (우상향)"
   },
   "vix": {
-    "value": 17.27,
-    "change": 5.69
+    "value": 16.96,
+    "change": 3.79
   },
   "tech_news": [
     {
@@ -91,6 +91,11 @@
     ],
     "global": [
       {
+        "title": "Stocks making the biggest moves midday: Accenture, Synopsys, United Therapeutics, Vicor and more",
+        "link": "https://www.cnbc.com/2026/10/01/stocks-making-the-biggest-moves-midday-acn-snps-uthr-vicr-.html",
+        "date": "10-01 16:48"
+      },
+      {
         "title": "Stocks making the biggest moves premarket: Alphabet, Accenture, Rocket Lab, Micron and more",
         "link": "https://www.cnbc.com/2026/10/01/stocks-making-the-biggest-moves-premarket-googl-acn-rklb-mu.html",
         "date": "10-01 15:14"
@@ -109,11 +114,6 @@
         "title": "Kalshi, Polymarket trading volumes on some products raise questions amid massive growth",
         "link": "https://www.cnbc.com/2026/09/30/kalshi-polymarket-trading-volume-scrutiny.html",
         "date": "10-01 14:24"
-      },
-      {
-        "title": "Stocks making the biggest moves premarket: Robinhood, Boeing, Moderna & more",
-        "link": "https://www.cnbc.com/2026/09/30/stocks-making-the-biggest-moves-premarket-hood-ba-mrna-.html",
-        "date": "09-30 11:38"
       }
     ],
     "tech": [
@@ -145,6 +145,11 @@
     ],
     "domestic": [
       {
+        "title": "美 9월 ISM 제조업 PMI 54.5…예상치 소폭 하회(상보)",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4437474",
+        "date": "10-02 01:57"
+      },
+      {
         "title": "美 국채, 연준 인사 연설 대기하며 '스티프닝'",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4437472",
         "date": "10-02 00:38"
@@ -163,11 +168,6 @@
         "title": "트럼프 \"美 중간선거 이후 이란 공격 강화할 수도\"",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4437463",
         "date": "10-01 22:50"
-      },
-      {
-        "title": "美 기업 9월 감원계획 4만3천명…4년만에 가장 작아",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4437462",
-        "date": "10-01 22:41"
       }
     ]
   },
@@ -184,21 +184,21 @@
   },
   "macro_reviews": {
     "bonds": {
-      "badge": "스프레드 +38 bp",
-      "title": "미국채 10년물 5.26%선 공방과 정상화",
+      "badge": "스프레드 +36 bp",
+      "title": "미국채 10년물 5.24%선 공방과 정상화",
       "metrics": [
         {
           "id": "spread",
           "name": "10Y-2Y차",
-          "val": "+38 bp",
+          "val": "+36 bp",
           "chg": "정상화 (우상향)",
           "up": true
         },
         {
           "id": "us10y",
           "name": "10년물",
-          "val": "5.26%",
-          "chg": "-0.03%",
+          "val": "5.24%",
+          "chg": "-0.05%",
           "up": false
         },
         {
@@ -211,95 +211,95 @@
         {
           "id": "us30y",
           "name": "30년물",
-          "val": "5.62%",
-          "chg": "-0.02%",
+          "val": "5.60%",
+          "chg": "-0.04%",
           "up": false
         }
       ],
       "bullets": [
-        "10년물 5.26%와 2년물 4.88% 형성으로 스프레드 +38 bp 유지",
-        "초장기 30년물 5.62%선 안착 속 재정 적자 발행에 따른 기간 프리미엄"
+        "10년물 5.24%와 2년물 4.88% 형성으로 스프레드 +36 bp 유지",
+        "초장기 30년물 5.6%선 안착 속 재정 적자 발행에 따른 기간 프리미엄"
       ],
-      "detail": "10Y-2Y 스프레드가 +38 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
+      "detail": "10Y-2Y 스프레드가 +36 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.55",
-      "title": "닥터 코퍼 $6.55선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.54",
+      "title": "닥터 코퍼 $6.54선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.55",
-          "chg": "-0.15%",
+          "val": "$6.54",
+          "chg": "-0.30%",
           "up": false
         },
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,199.2",
-          "chg": "+0.30%",
+          "val": "$4,190.6",
+          "chg": "+0.09%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$60.94",
-          "chg": "+1.40%",
+          "val": "$60.81",
+          "chg": "+1.18%",
           "up": true
         }
       ],
       "bullets": [
-        "구리 $6.55/lb (-0.15%) - AI 전력망 설비 수요 반영",
-        "금 $4,199/oz, 은 $60.94/oz - 통화가치 헤지"
+        "구리 $6.54/lb (-0.30%) - AI 전력망 설비 수요 반영",
+        "금 $4,191/oz, 은 $60.81/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,364원 | 엔/달러 ¥157.6",
-      "title": "원/달러 1,364.1원선과 엔/달러 ¥157.6",
+      "badge": "원/달러 1,362원 | 엔/달러 ¥157.7",
+      "title": "원/달러 1,361.6원선과 엔/달러 ¥157.7",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,364.1원",
-          "chg": "+1.01%",
+          "val": "1,361.6원",
+          "chg": "+0.82%",
           "up": true
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "102.11pt",
-          "chg": "+0.65%",
+          "val": "102.19pt",
+          "chg": "+0.73%",
           "up": true
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥157.60",
-          "chg": "+0.13%",
+          "val": "¥157.74",
+          "chg": "+0.22%",
           "up": true
         }
       ],
       "bullets": [
-        "달러 인덱스 102.11pt - 미국 성장 우위 지속",
-        "엔/달러 157.60엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 102.19pt - 미국 성장 우위 지속",
+        "엔/달러 157.74엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $92.72",
-      "title": "WTI 배럴당 $92.72선 박스권 안정",
+      "badge": "WTI $92.2",
+      "title": "WTI 배럴당 $92.2선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$92.72",
-          "chg": "+2.54%",
+          "val": "$92.20",
+          "chg": "+1.97%",
           "up": true
         }
       ],
       "bullets": [
-        "WTI 선물 $92.72/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $92.2/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -307,32 +307,32 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.55,
-      "change": -0.15
+      "price": 6.54,
+      "change": -0.3
     },
     "gold": {
-      "price": 4199.2,
-      "change": 0.3
+      "price": 4190.6,
+      "change": 0.09
     },
     "silver": {
-      "price": 60.94,
-      "change": 1.4
+      "price": 60.81,
+      "change": 1.18
     },
     "wti": {
-      "price": 92.72,
-      "change": 2.54
+      "price": 92.2,
+      "change": 1.97
     },
     "usdkrw": {
-      "price": 1364.08,
-      "change": 1.01
+      "price": 1361.58,
+      "change": 0.82
     },
     "dxy": {
-      "price": 102.11,
-      "change": 0.65
+      "price": 102.19,
+      "change": 0.73
     },
     "usdjpy": {
-      "price": 157.6,
-      "change": 0.13
+      "price": 157.74,
+      "change": 0.22
     }
   },
   "history_20d": {
@@ -472,10 +472,10 @@
       },
       {
         "date": "10-01",
-        "us10y": 5.26,
+        "us10y": 5.24,
         "us2y": 4.88,
-        "us30y": 5.62,
-        "spread": 38
+        "us30y": 5.6,
+        "spread": 36
       }
     ],
     "commodities": [
@@ -595,9 +595,9 @@
       },
       {
         "date": "10-01",
-        "copper": 6.55,
-        "gold": 4199.2,
-        "silver": 60.94
+        "copper": 6.54,
+        "gold": 4190.6,
+        "silver": 60.81
       }
     ],
     "fx": [
@@ -717,9 +717,9 @@
       },
       {
         "date": "10-01",
-        "usdkrw": 1364.08,
-        "dxy": 102.11,
-        "usdjpy": 157.6
+        "usdkrw": 1361.58,
+        "dxy": 102.19,
+        "usdjpy": 157.74
       }
     ],
     "oil": [
@@ -820,8 +820,8 @@
       },
       {
         "date": "10-01",
-        "wti": 92.72,
-        "change": 2.54
+        "wti": 92.2,
+        "change": 1.97
       }
     ]
   },
@@ -1417,53 +1417,53 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "윤규성 품새 금메달",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9C%A4%EA%B7%9C%EC%84%B1%20%ED%92%88%EC%83%88%20%EA%B8%88%EB%A9%94%EB%8B%AC"
+        "title": "허미미 유도 금메달 획득",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%97%88%EB%AF%B8%EB%AF%B8%20%EC%9C%A0%EB%8F%84%20%EA%B8%88%EB%A9%94%EB%8B%AC%20%ED%9A%8D%EB%93%9D"
       },
       {
         "rank": 2,
-        "title": "현판 교체 작업",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%98%84%ED%8C%90%20%EA%B5%90%EC%B2%B4%20%EC%9E%91%EC%97%85"
+        "title": "비공식 현판 교체",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B9%84%EA%B3%B5%EC%8B%9D%20%ED%98%84%ED%8C%90%20%EA%B5%90%EC%B2%B4"
       },
       {
         "rank": 3,
-        "title": "자동차",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9E%90%EB%8F%99%EC%B0%A8"
+        "title": "석유화학 담합 기소",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%84%9D%EC%9C%A0%ED%99%94%ED%95%99%20%EB%8B%B4%ED%95%A9%20%EA%B8%B0%EC%86%8C"
       },
       {
         "rank": 4,
+        "title": "톰 크루즈 변신과 내한 소망",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%86%B0%20%ED%81%AC%EB%A3%A8%EC%A6%88%20%EB%B3%80%EC%8B%A0%EA%B3%BC%20%EB%82%B4%ED%95%9C%20%EC%86%8C%EB%A7%9D"
+      },
+      {
+        "rank": 5,
+        "title": "알래스카 LNG 투자",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%8C%EB%9E%98%EC%8A%A4%EC%B9%B4%20LNG%20%ED%88%AC%EC%9E%90"
+      },
+      {
+        "rank": 6,
+        "title": "현무-3",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%98%84%EB%AC%B4-3"
+      },
+      {
+        "rank": 7,
         "title": "코스피 코스닥 상승 반도체",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%BD%94%EC%8A%A4%ED%94%BC%20%EC%BD%94%EC%8A%A4%EB%8B%A5%20%EC%83%81%EC%8A%B9%20%EB%B0%98%EB%8F%84%EC%B2%B4"
       },
       {
-        "rank": 5,
-        "title": "영업익 5% 과징금",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%98%81%EC%97%85%EC%9D%B5%205%25%20%EA%B3%BC%EC%A7%95%EA%B8%88"
+        "rank": 8,
+        "title": "자동차",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9E%90%EB%8F%99%EC%B0%A8"
       },
       {
-        "rank": 6,
-        "title": "톰 크루즈, 변함없는 한국 사랑",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%86%B0%20%ED%81%AC%EB%A3%A8%EC%A6%88%2C%20%EB%B3%80%ED%95%A8%EC%97%86%EB%8A%94%20%ED%95%9C%EA%B5%AD%20%EC%82%AC%EB%9E%91"
-      },
-      {
-        "rank": 7,
+        "rank": 9,
         "title": "김성환 재생에너지 확대",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%84%B1%ED%99%98%20%EC%9E%AC%EC%83%9D%EC%97%90%EB%84%88%EC%A7%80%20%ED%99%95%EB%8C%80"
       },
       {
-        "rank": 8,
-        "title": "알래스카 LNG 투자 상황 파악해야",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%8C%EB%9E%98%EC%8A%A4%EC%B9%B4%20LNG%20%ED%88%AC%EC%9E%90%20%EC%83%81%ED%99%A9%20%ED%8C%8C%EC%95%85%ED%95%B4%EC%95%BC"
-      },
-      {
-        "rank": 9,
-        "title": "탄약",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%83%84%EC%95%BD"
-      },
-      {
         "rank": 10,
-        "title": "공공부문 AI 윤리기준",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B3%B5%EA%B3%B5%EB%B6%80%EB%AC%B8%20AI%20%EC%9C%A4%EB%A6%AC%EA%B8%B0%EC%A4%80"
+        "title": "이민호 행사 취소",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EB%AF%BC%ED%98%B8%20%ED%96%89%EC%82%AC%20%EC%B7%A8%EC%86%8C"
       }
     ],
     "youtube_popular": [
@@ -1479,7 +1479,7 @@
         "rank": 2,
         "title": "꿀알바 | 공식 티저 예고편 | 넷플릭스",
         "channel": "Netflix Korea 넷플릭스 코리아",
-        "views": "69만회",
+        "views": "71만회",
         "thumb": "https://i.ytimg.com/vi/kucWTDH7bX4/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=kucWTDH7bX4"
       },
@@ -1495,7 +1495,7 @@
         "rank": 4,
         "title": "CRASH",
         "channel": "ALLDAY PROJECT - Topic",
-        "views": "78만회",
+        "views": "79만회",
         "thumb": "https://i.ytimg.com/vi/-JInUb_G6Jc/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=-JInUb_G6Jc"
       },
@@ -1503,7 +1503,7 @@
         "rank": 5,
         "title": "[폭설] 1차 예고편 | 김윤석 X 구교환 11월 극장 개봉!",
         "channel": "쇼박스 SHOWBOX",
-        "views": "78만회",
+        "views": "82만회",
         "thumb": "https://i.ytimg.com/vi/vTPZxufbdUs/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=vTPZxufbdUs"
       },
@@ -1511,7 +1511,7 @@
         "rank": 6,
         "title": "기특한 게임, 존경스러운 유저 (여자친구 시청 금지)",
         "channel": "동수칸TV",
-        "views": "30만회",
+        "views": "33만회",
         "thumb": "https://i.ytimg.com/vi/ZxC-4VK84zc/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=ZxC-4VK84zc"
       },
@@ -1519,7 +1519,7 @@
         "rank": 7,
         "title": "ALLDAY PROJECT - ‘CRASH’ M/V",
         "channel": "THEBLACKLABEL",
-        "views": "1169만회",
+        "views": "1170만회",
         "thumb": "https://i.ytimg.com/vi/lQ-w9M447w0/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=lQ-w9M447w0"
       },
