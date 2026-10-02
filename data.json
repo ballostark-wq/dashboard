@@ -1,28 +1,28 @@
 {
-  "updated_at": "2026-10-03 01:06:26",
+  "updated_at": "2026-10-03 02:06:10",
   "us2y": {
     "value": 4.78,
     "change": -0.1
   },
   "us5y": {
-    "value": 5.04,
-    "change": 0.03
+    "value": 5.06,
+    "change": 0.05
   },
   "us10y": {
-    "value": 5.25,
-    "change": 0.01
+    "value": 5.28,
+    "change": 0.04
   },
   "us30y": {
-    "value": 5.61,
-    "change": 0.01
+    "value": 5.63,
+    "change": 0.03
   },
   "spread": {
-    "value": 47,
+    "value": 50,
     "status": "정상화 (우상향)"
   },
   "vix": {
-    "value": 15.61,
-    "change": -4.76
+    "value": 15.77,
+    "change": -3.78
   },
   "tech_news": [
     {
@@ -91,6 +91,11 @@
     ],
     "global": [
       {
+        "title": "Stocks making the biggest moves midday: Tesla, Broadcom, Nike, ON Semiconductor & more",
+        "link": "https://www.cnbc.com/2026/10/02/stocks-making-the-biggest-moves-midday-tsla-avgo-nke-on-more-.html",
+        "date": "10-02 17:03"
+      },
+      {
         "title": "Traders now see little chance of a Fed rate hike in October after weak jobs report",
         "link": "https://www.cnbc.com/2026/10/02/fed-rate-hike-odds-decline-after-september-jobs-report.html",
         "date": "10-02 13:29"
@@ -109,11 +114,6 @@
         "title": "How AI is redefining Wall Street jobs — and boosting demand for this new 'hottest skill' by 1,721%",
         "link": "https://www.cnbc.com/2026/10/02/ai-redefining-wall-street-jobs.html",
         "date": "10-02 12:24"
-      },
-      {
-        "title": "Bitget 'not expecting to recover a lot' from $388 million hack, CEO tells CNBC",
-        "link": "https://www.cnbc.com/2026/10/02/bitget-crypto-stolen-hack-recovery.html",
-        "date": "10-02 06:03"
       }
     ],
     "tech": [
@@ -131,9 +131,29 @@
         "title": "[디일렉] 반도체 IP 업계, 'K-온디바이스 국책 과제' 수혜 시작",
         "link": "https://www.thelec.kr/news/articleView.html?idxno=63218",
         "date": "10-02 17:35"
+      },
+      {
+        "title": "[전자신문] 박상현 경기도의원, 원종동 키즈카페에서 부모·아이 함께하는 놀이공간 제안",
+        "link": "https://www.etnews.com/20261003000017",
+        "date": "10-03 01:10"
+      },
+      {
+        "title": "[전자신문] [ET포토] 투모로우바이투게더 연준, '가을 시크'",
+        "link": "https://www.etnews.com/20261003000016",
+        "date": "10-03 00:23"
       }
     ],
     "domestic": [
+      {
+        "title": "G7 \"1억배럴 원유·디젤 방출…美, 디젤 수출금지 않기로\"(종합)",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4437672",
+        "date": "10-03 01:54"
+      },
+      {
+        "title": "美 9월 비농업 신규 고용 2만9천명…10만명 이상 급감(종합)",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4437669",
+        "date": "10-03 01:11"
+      },
       {
         "title": "美 국채가, 전반적 강세…예상 밖 고용 급감에 '반색'",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4437668",
@@ -148,16 +168,6 @@
         "title": "미 달러화 5일만에 약세…예상 밖 美 고용 부진에 DXY 102선 하향 돌파",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4437666",
         "date": "10-03 00:15"
-      },
-      {
-        "title": "美 9월 비농업 신규 고용 2만9천명…10만명 이상 급감(상보)",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4437664",
-        "date": "10-02 23:54"
-      },
-      {
-        "title": "트럼프 \"한미 합의에 원유 회수 증진 프로젝트 위한 84억 달러 포함\"(상보)",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4437663",
-        "date": "10-02 23:49"
       }
     ]
   },
@@ -174,21 +184,21 @@
   },
   "macro_reviews": {
     "bonds": {
-      "badge": "스프레드 +47 bp",
-      "title": "미국채 10년물 5.25%선 공방과 정상화",
+      "badge": "스프레드 +50 bp",
+      "title": "미국채 10년물 5.28%선 공방과 정상화",
       "metrics": [
         {
           "id": "spread",
           "name": "10Y-2Y차",
-          "val": "+47 bp",
+          "val": "+50 bp",
           "chg": "정상화 (우상향)",
           "up": true
         },
         {
           "id": "us10y",
           "name": "10년물",
-          "val": "5.25%",
-          "chg": "+0.01%",
+          "val": "5.28%",
+          "chg": "+0.04%",
           "up": true
         },
         {
@@ -201,16 +211,16 @@
         {
           "id": "us30y",
           "name": "30년물",
-          "val": "5.61%",
-          "chg": "+0.01%",
+          "val": "5.63%",
+          "chg": "+0.03%",
           "up": true
         }
       ],
       "bullets": [
-        "10년물 5.25%와 2년물 4.78% 형성으로 스프레드 +47 bp 유지",
-        "초장기 30년물 5.61%선 안착 속 재정 적자 발행에 따른 기간 프리미엄"
+        "10년물 5.28%와 2년물 4.78% 형성으로 스프레드 +50 bp 유지",
+        "초장기 30년물 5.63%선 안착 속 재정 적자 발행에 따른 기간 프리미엄"
       ],
-      "detail": "10Y-2Y 스프레드가 +47 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
+      "detail": "10Y-2Y 스프레드가 +50 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
       "badge": "구리 $6.55",
@@ -226,70 +236,70 @@
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,159.3",
-          "chg": "-1.02%",
+          "val": "$4,167.9",
+          "chg": "-0.82%",
           "up": false
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$60.12",
-          "chg": "-0.99%",
+          "val": "$60.38",
+          "chg": "-0.56%",
           "up": false
         }
       ],
       "bullets": [
         "구리 $6.55/lb (+1.08%) - AI 전력망 설비 수요 반영",
-        "금 $4,159/oz, 은 $60.12/oz - 통화가치 헤지"
+        "금 $4,168/oz, 은 $60.38/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,345원 | 엔/달러 ¥157.8",
-      "title": "원/달러 1,345.5원선과 엔/달러 ¥157.8",
+      "badge": "원/달러 1,346원 | 엔/달러 ¥157.8",
+      "title": "원/달러 1,345.7원선과 엔/달러 ¥157.8",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,345.5원",
-          "chg": "-0.84%",
+          "val": "1,345.7원",
+          "chg": "-0.82%",
           "up": false
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "101.90pt",
-          "chg": "-0.20%",
+          "val": "101.92pt",
+          "chg": "-0.18%",
           "up": false
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥157.82",
-          "chg": "+0.17%",
+          "val": "¥157.81",
+          "chg": "+0.16%",
           "up": true
         }
       ],
       "bullets": [
-        "달러 인덱스 101.9pt - 미국 성장 우위 지속",
-        "엔/달러 157.82엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 101.92pt - 미국 성장 우위 지속",
+        "엔/달러 157.81엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $90.82",
-      "title": "WTI 배럴당 $90.82선 박스권 안정",
+      "badge": "WTI $91.43",
+      "title": "WTI 배럴당 $91.43선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$90.82",
-          "chg": "-2.21%",
+          "val": "$91.43",
+          "chg": "-1.55%",
           "up": false
         }
       ],
       "bullets": [
-        "WTI 선물 $90.82/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $91.43/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -301,28 +311,28 @@
       "change": 1.08
     },
     "gold": {
-      "price": 4159.3,
-      "change": -1.02
+      "price": 4167.9,
+      "change": -0.82
     },
     "silver": {
-      "price": 60.12,
-      "change": -0.99
+      "price": 60.38,
+      "change": -0.56
     },
     "wti": {
-      "price": 90.82,
-      "change": -2.21
+      "price": 91.43,
+      "change": -1.55
     },
     "usdkrw": {
-      "price": 1345.45,
-      "change": -0.84
+      "price": 1345.73,
+      "change": -0.82
     },
     "dxy": {
-      "price": 101.9,
-      "change": -0.2
+      "price": 101.92,
+      "change": -0.18
     },
     "usdjpy": {
-      "price": 157.82,
-      "change": 0.17
+      "price": 157.81,
+      "change": 0.16
     }
   },
   "history_20d": {
@@ -462,10 +472,10 @@
       },
       {
         "date": "10-02",
-        "us10y": 5.25,
+        "us10y": 5.28,
         "us2y": 4.78,
-        "us30y": 5.61,
-        "spread": 47
+        "us30y": 5.63,
+        "spread": 50
       }
     ],
     "commodities": [
@@ -586,8 +596,8 @@
       {
         "date": "10-02",
         "copper": 6.55,
-        "gold": 4159.3,
-        "silver": 60.12
+        "gold": 4167.9,
+        "silver": 60.38
       }
     ],
     "fx": [
@@ -707,9 +717,9 @@
       },
       {
         "date": "10-02",
-        "usdkrw": 1345.45,
-        "dxy": 101.9,
-        "usdjpy": 157.82
+        "usdkrw": 1345.73,
+        "dxy": 101.92,
+        "usdjpy": 157.81
       }
     ],
     "oil": [
@@ -810,8 +820,8 @@
       },
       {
         "date": "10-02",
-        "wti": 90.82,
-        "change": -2.21
+        "wti": 91.43,
+        "change": -1.55
       }
     ]
   },
@@ -1410,18 +1420,18 @@
       },
       {
         "rank": 2,
-        "title": "모레노 감독, 전원 잘해줘!",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%AA%A8%EB%A0%88%EB%85%B8%20%EA%B0%90%EB%8F%85%2C%20%EC%A0%84%EC%9B%90%20%EC%9E%98%ED%95%B4%EC%A4%98%21"
+        "title": "모레노 감독 항의와 반응",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%AA%A8%EB%A0%88%EB%85%B8%20%EA%B0%90%EB%8F%85%20%ED%95%AD%EC%9D%98%EC%99%80%20%EB%B0%98%EC%9D%91"
       },
       {
         "rank": 3,
-        "title": "한주엽 유도 동메달",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%9C%EC%A3%BC%EC%97%BD%20%EC%9C%A0%EB%8F%84%20%EB%8F%99%EB%A9%94%EB%8B%AC"
+        "title": "트럼프 석유 협상 84억 달러",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%8A%B8%EB%9F%BC%ED%94%84%20%EC%84%9D%EC%9C%A0%20%ED%98%91%EC%83%81%2084%EC%96%B5%20%EB%8B%AC%EB%9F%AC"
       },
       {
         "rank": 4,
-        "title": "김민",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EB%AF%BC"
+        "title": "야구",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%BC%EA%B5%AC"
       },
       {
         "rank": 5,
@@ -1430,28 +1440,28 @@
       },
       {
         "rank": 6,
-        "title": "부캉이 2차 구조작업",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B6%80%EC%BA%89%EC%9D%B4%202%EC%B0%A8%20%EA%B5%AC%EC%A1%B0%EC%9E%91%EC%97%85"
+        "title": "HD현대중 임단협 부결",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=HD%ED%98%84%EB%8C%80%EC%A4%91%20%EC%9E%84%EB%8B%A8%ED%98%91%20%EB%B6%80%EA%B2%B0"
       },
       {
         "rank": 7,
+        "title": "김민",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EB%AF%BC"
+      },
+      {
+        "rank": 8,
+        "title": "노홍철 의사 여친 결별",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%85%B8%ED%99%8D%EC%B2%A0%20%EC%9D%98%EC%82%AC%20%EC%97%AC%EC%B9%9C%20%EA%B2%B0%EB%B3%84"
+      },
+      {
+        "rank": 9,
         "title": "최동원",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B5%9C%EB%8F%99%EC%9B%90"
       },
       {
-        "rank": 8,
-        "title": "최태원 SK 지분 매각",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B5%9C%ED%83%9C%EC%9B%90%20SK%20%EC%A7%80%EB%B6%84%20%EB%A7%A4%EA%B0%81"
-      },
-      {
-        "rank": 9,
-        "title": "김여정 군사적 긴장완화",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%97%AC%EC%A0%95%20%EA%B5%B0%EC%82%AC%EC%A0%81%20%EA%B8%B4%EC%9E%A5%EC%99%84%ED%99%94"
-      },
-      {
         "rank": 10,
-        "title": "여행",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%97%AC%ED%96%89"
+        "title": "65세 이상 독감 코로나 백신",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=65%EC%84%B8%20%EC%9D%B4%EC%83%81%20%EB%8F%85%EA%B0%90%20%EC%BD%94%EB%A1%9C%EB%82%98%20%EB%B0%B1%EC%8B%A0"
       }
     ],
     "youtube_popular": [
@@ -1459,7 +1469,7 @@
         "rank": 1,
         "title": "Call Me",
         "channel": "CHANGMO - Topic",
-        "views": "17만회",
+        "views": "18만회",
         "thumb": "https://i.ytimg.com/vi/C8j3hMJIeFg/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=C8j3hMJIeFg"
       },
@@ -1467,7 +1477,7 @@
         "rank": 2,
         "title": "꿀알바 | 공식 티저 예고편 | 넷플릭스",
         "channel": "Netflix Korea 넷플릭스 코리아",
-        "views": "110만회",
+        "views": "112만회",
         "thumb": "https://i.ytimg.com/vi/kucWTDH7bX4/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=kucWTDH7bX4"
       },
@@ -1475,7 +1485,7 @@
         "rank": 3,
         "title": "드디어 환산 1위 다시 탈환했습니다 [팡이요,  메이플스토리]",
         "channel": "팡이요",
-        "views": "21만회",
+        "views": "24만회",
         "thumb": "https://i.ytimg.com/vi/buWwYQwLWKQ/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=buWwYQwLWKQ"
       },
@@ -1491,7 +1501,7 @@
         "rank": 5,
         "title": "[비전퀘스트] 메인 예고편",
         "channel": "MarvelKorea",
-        "views": "16만회",
+        "views": "20만회",
         "thumb": "https://i.ytimg.com/vi/_uC7fyA37Ts/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=_uC7fyA37Ts"
       },
@@ -1499,7 +1509,7 @@
         "rank": 6,
         "title": "떼쓰기 메타",
         "channel": "괴물쥐 유튜브",
-        "views": "54만회",
+        "views": "55만회",
         "thumb": "https://i.ytimg.com/vi/7_Vs2kbuRDE/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=7_Vs2kbuRDE"
       },
@@ -1515,7 +1525,7 @@
         "rank": 8,
         "title": "[폭설] 1차 예고편 | 김윤석 X 구교환 11월 극장 개봉!",
         "channel": "쇼박스 SHOWBOX",
-        "views": "117만회",
+        "views": "120만회",
         "thumb": "https://i.ytimg.com/vi/vTPZxufbdUs/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=vTPZxufbdUs"
       },
@@ -1523,7 +1533,7 @@
         "rank": 9,
         "title": "[미스터리 수사반 OST] 잠뜰 - Trace My Shadow | Official Minecraft M/V",
         "channel": "잠뜰 TV",
-        "views": "21만회",
+        "views": "23만회",
         "thumb": "https://i.ytimg.com/vi/wTaWNVKfo8o/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=wTaWNVKfo8o"
       },
