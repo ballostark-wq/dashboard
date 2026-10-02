@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02 15:07:58",
+  "updated_at": "2026-10-02 16:08:04",
   "us2y": {
     "value": 4.78,
     "change": -0.1
@@ -118,6 +118,11 @@
     ],
     "tech": [
       {
+        "title": "[디일렉] LG전자, 무선청소기 폐배터리 수거 캠페인 확대",
+        "link": "https://www.thelec.kr/news/articleView.html?idxno=63196",
+        "date": "10-02 15:39"
+      },
+      {
         "title": "[디일렉] 신한은행 대규모 해킹…연소득·대출한도까지 털렸다",
         "link": "https://www.thelec.kr/news/articleView.html?idxno=63112",
         "date": "10-02 12:29"
@@ -128,9 +133,14 @@
         "date": "10-02 12:05"
       },
       {
-        "title": "[디일렉] LG U+, AI 토큰 처리량 최대 4배…GPU 비용 절감 기술 개발",
-        "link": "https://www.thelec.kr/news/articleView.html?idxno=63187",
-        "date": "10-02 12:02"
+        "title": "[전자신문] [김종면의 K브랜드 집중탐구]〈45〉팬덤으로 완성한 클래시 페어라이어(FAIRLIAR)",
+        "link": "https://www.etnews.com/20261002000197",
+        "date": "10-02 15:57"
+      },
+      {
+        "title": "[전자신문] 한국토요타, 소방대원 '전기차 안전구조 교육' 진행",
+        "link": "https://www.etnews.com/20261002000196",
+        "date": "10-02 15:57"
       }
     ],
     "domestic": [
@@ -213,83 +223,83 @@
       "detail": "10Y-2Y 스프레드가 +46 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.58",
-      "title": "닥터 코퍼 $6.58선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.57",
+      "title": "닥터 코퍼 $6.57선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.58",
-          "chg": "+1.54%",
+          "val": "$6.57",
+          "chg": "+1.39%",
           "up": true
         },
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,215.1",
-          "chg": "+0.30%",
+          "val": "$4,209.8",
+          "chg": "+0.18%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$61.57",
-          "chg": "+1.40%",
+          "val": "$61.44",
+          "chg": "+1.19%",
           "up": true
         }
       ],
       "bullets": [
-        "구리 $6.58/lb (+1.54%) - AI 전력망 설비 수요 반영",
-        "금 $4,215/oz, 은 $61.57/oz - 통화가치 헤지"
+        "구리 $6.57/lb (+1.39%) - AI 전력망 설비 수요 반영",
+        "금 $4,210/oz, 은 $61.44/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,350원 | 엔/달러 ¥157.7",
-      "title": "원/달러 1,350.5원선과 엔/달러 ¥157.7",
+      "badge": "원/달러 1,351원 | 엔/달러 ¥157.8",
+      "title": "원/달러 1,350.6원선과 엔/달러 ¥157.8",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,350.5원",
-          "chg": "-0.47%",
+          "val": "1,350.6원",
+          "chg": "-0.46%",
           "up": false
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "101.97pt",
-          "chg": "-0.13%",
+          "val": "101.87pt",
+          "chg": "-0.23%",
           "up": false
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥157.65",
-          "chg": "+0.06%",
+          "val": "¥157.80",
+          "chg": "+0.15%",
           "up": true
         }
       ],
       "bullets": [
-        "달러 인덱스 101.97pt - 미국 성장 우위 지속",
-        "엔/달러 157.65엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 101.87pt - 미국 성장 우위 지속",
+        "엔/달러 157.80엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $92.47",
-      "title": "WTI 배럴당 $92.47선 박스권 안정",
+      "badge": "WTI $91.78",
+      "title": "WTI 배럴당 $91.78선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$92.47",
-          "chg": "-0.43%",
+          "val": "$91.78",
+          "chg": "-1.17%",
           "up": false
         }
       ],
       "bullets": [
-        "WTI 선물 $92.47/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $91.78/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -297,32 +307,32 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.58,
-      "change": 1.54
+      "price": 6.57,
+      "change": 1.39
     },
     "gold": {
-      "price": 4215.1,
-      "change": 0.3
+      "price": 4209.8,
+      "change": 0.18
     },
     "silver": {
-      "price": 61.57,
-      "change": 1.4
+      "price": 61.44,
+      "change": 1.19
     },
     "wti": {
-      "price": 92.47,
-      "change": -0.43
+      "price": 91.78,
+      "change": -1.17
     },
     "usdkrw": {
-      "price": 1350.48,
-      "change": -0.47
+      "price": 1350.58,
+      "change": -0.46
     },
     "dxy": {
-      "price": 101.97,
-      "change": -0.13
+      "price": 101.87,
+      "change": -0.23
     },
     "usdjpy": {
-      "price": 157.65,
-      "change": 0.06
+      "price": 157.8,
+      "change": 0.15
     }
   },
   "history_20d": {
@@ -585,9 +595,9 @@
       },
       {
         "date": "10-02",
-        "copper": 6.58,
-        "gold": 4215.1,
-        "silver": 61.57
+        "copper": 6.57,
+        "gold": 4209.8,
+        "silver": 61.44
       }
     ],
     "fx": [
@@ -707,9 +717,9 @@
       },
       {
         "date": "10-02",
-        "usdkrw": 1350.48,
-        "dxy": 101.97,
-        "usdjpy": 157.65
+        "usdkrw": 1350.58,
+        "dxy": 101.87,
+        "usdjpy": 157.8
       }
     ],
     "oil": [
@@ -810,8 +820,8 @@
       },
       {
         "date": "10-02",
-        "wti": 92.47,
-        "change": -0.43
+        "wti": 91.78,
+        "change": -1.17
       }
     ]
   },
@@ -1407,53 +1417,53 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "탑과 나나 열애 인정",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%83%91%EA%B3%BC%20%EB%82%98%EB%82%98%20%EC%97%B4%EC%95%A0%20%EC%9D%B8%EC%A0%95"
+        "title": "KB국민은행 고객정보 유출",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=KB%EA%B5%AD%EB%AF%BC%EC%9D%80%ED%96%89%20%EA%B3%A0%EA%B0%9D%EC%A0%95%EB%B3%B4%20%EC%9C%A0%EC%B6%9C"
       },
       {
         "rank": 2,
-        "title": "KB국민은행 정보 유출",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=KB%EA%B5%AD%EB%AF%BC%EC%9D%80%ED%96%89%20%EC%A0%95%EB%B3%B4%20%EC%9C%A0%EC%B6%9C"
-      },
-      {
-        "rank": 3,
         "title": "김지용 중수청장 후보자 입장 발표",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%A7%80%EC%9A%A9%20%EC%A4%91%EC%88%98%EC%B2%AD%EC%9E%A5%20%ED%9B%84%EB%B3%B4%EC%9E%90%20%EC%9E%85%EC%9E%A5%20%EB%B0%9C%ED%91%9C"
       },
       {
+        "rank": 3,
+        "title": "한국은행 10월 물가 전망",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%9C%EA%B5%AD%EC%9D%80%ED%96%89%2010%EC%9B%94%20%EB%AC%BC%EA%B0%80%20%EC%A0%84%EB%A7%9D"
+      },
+      {
         "rank": 4,
-        "title": "리커브 혼성 동메달 획득",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%A6%AC%EC%BB%A4%EB%B8%8C%20%ED%98%BC%EC%84%B1%20%EB%8F%99%EB%A9%94%EB%8B%AC%20%ED%9A%8D%EB%93%9D"
+        "title": "이형일 부총리 접견",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%ED%98%95%EC%9D%BC%20%EB%B6%80%EC%B4%9D%EB%A6%AC%20%EC%A0%91%EA%B2%AC"
       },
       {
         "rank": 5,
-        "title": "더중앙플러스",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%8D%94%EC%A4%91%EC%95%99%ED%94%8C%EB%9F%AC%EC%8A%A4"
+        "title": "휴림로봇",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%9C%B4%EB%A6%BC%EB%A1%9C%EB%B4%87"
       },
       {
         "rank": 6,
+        "title": "오세훈",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%98%A4%EC%84%B8%ED%9B%88"
+      },
+      {
+        "rank": 7,
         "title": "CPTPP 가입 검토",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=CPTPP%20%EA%B0%80%EC%9E%85%20%EA%B2%80%ED%86%A0"
       },
       {
-        "rank": 7,
-        "title": "9월 소비자물가 2.9%",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=9%EC%9B%94%20%EC%86%8C%EB%B9%84%EC%9E%90%EB%AC%BC%EA%B0%80%202.9%25"
-      },
-      {
         "rank": 8,
-        "title": "김태규 의원 제명 결의안",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%ED%83%9C%EA%B7%9C%20%EC%9D%98%EC%9B%90%20%EC%A0%9C%EB%AA%85%20%EA%B2%B0%EC%9D%98%EC%95%88"
+        "title": "유도 결승 진출",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9C%A0%EB%8F%84%20%EA%B2%B0%EC%8A%B9%20%EC%A7%84%EC%B6%9C"
       },
       {
         "rank": 9,
-        "title": "조보아",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A1%B0%EB%B3%B4%EC%95%84"
+        "title": "나나, 탑과 열애 인정",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%82%98%EB%82%98%2C%20%ED%83%91%EA%B3%BC%20%EC%97%B4%EC%95%A0%20%EC%9D%B8%EC%A0%95"
       },
       {
         "rank": 10,
-        "title": "김민성 롯데 은퇴식",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EB%AF%BC%EC%84%B1%20%EB%A1%AF%EB%8D%B0%20%EC%9D%80%ED%87%B4%EC%8B%9D"
+        "title": "풍자",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%92%8D%EC%9E%90"
       }
     ],
     "youtube_popular": [
@@ -1461,7 +1471,7 @@
         "rank": 1,
         "title": "Call Me",
         "channel": "CHANGMO - Topic",
-        "views": "8만회",
+        "views": "9만회",
         "thumb": "https://i.ytimg.com/vi/C8j3hMJIeFg/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=C8j3hMJIeFg"
       },
@@ -1469,7 +1479,7 @@
         "rank": 2,
         "title": "꿀알바 | 공식 티저 예고편 | 넷플릭스",
         "channel": "Netflix Korea 넷플릭스 코리아",
-        "views": "88만회",
+        "views": "90만회",
         "thumb": "https://i.ytimg.com/vi/kucWTDH7bX4/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=kucWTDH7bX4"
       },
@@ -1477,7 +1487,7 @@
         "rank": 3,
         "title": "떼쓰기 메타",
         "channel": "괴물쥐 유튜브",
-        "views": "43만회",
+        "views": "44만회",
         "thumb": "https://i.ytimg.com/vi/7_Vs2kbuRDE/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=7_Vs2kbuRDE"
       },
@@ -1493,7 +1503,7 @@
         "rank": 5,
         "title": "[폭설] 1차 예고편 | 김윤석 X 구교환 11월 극장 개봉!",
         "channel": "쇼박스 SHOWBOX",
-        "views": "96만회",
+        "views": "97만회",
         "thumb": "https://i.ytimg.com/vi/vTPZxufbdUs/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=vTPZxufbdUs"
       },
@@ -1501,7 +1511,7 @@
         "rank": 6,
         "title": "장모님 밥상 vs 교머니 밥상｜교간하이라이트",
         "channel": "튜브김민교",
-        "views": "35만회",
+        "views": "37만회",
         "thumb": "https://i.ytimg.com/vi/i9ZtGrum9Uo/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=i9ZtGrum9Uo"
       },
@@ -1509,7 +1519,7 @@
         "rank": 7,
         "title": "Period",
         "channel": "Woody - Topic",
-        "views": "5만회",
+        "views": "6만회",
         "thumb": "https://i.ytimg.com/vi/Vu0sdxb3A8I/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=Vu0sdxb3A8I"
       },
@@ -1525,7 +1535,7 @@
         "rank": 9,
         "title": "기특한 게임, 존경스러운 유저 (여자친구 시청 금지)",
         "channel": "동수칸TV",
-        "views": "45만회",
+        "views": "46만회",
         "thumb": "https://i.ytimg.com/vi/ZxC-4VK84zc/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=ZxC-4VK84zc"
       },
@@ -1533,7 +1543,7 @@
         "rank": 10,
         "title": "CRASH",
         "channel": "ALLDAY PROJECT - Topic",
-        "views": "90만회",
+        "views": "91만회",
         "thumb": "https://i.ytimg.com/vi/-JInUb_G6Jc/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=-JInUb_G6Jc"
       }
