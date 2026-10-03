@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03 11:05:46",
+  "updated_at": "2026-10-03 12:15:47",
   "us2y": {
     "value": 4.83,
     "change": 0.05
@@ -131,6 +131,16 @@
         "title": "[디일렉] 반도체 IP 업계, 'K-온디바이스 국책 과제' 수혜 시작",
         "link": "https://www.thelec.kr/news/articleView.html?idxno=63218",
         "date": "10-02 17:35"
+      },
+      {
+        "title": "[전자신문] [2026 전남광주뷰티산업전] 소담스퀘어 in 광주, 현장 라이브커머스 참여 제품 마케팅 열기 후끈",
+        "link": "https://www.etnews.com/20261003000029",
+        "date": "10-03 10:20"
+      },
+      {
+        "title": "[전자신문] 비젠트로, '2026년 경기가족친화 일하기 좋은 기업' 선정…“기술 혁신 넘어 '사람 중심' 기업문화 입증”",
+        "link": "https://www.etnews.com/20261003000028",
+        "date": "10-03 10:15"
       }
     ],
     "domestic": [
@@ -258,8 +268,8 @@
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "101.92pt",
-          "chg": "-0.18%",
+          "val": "101.93pt",
+          "chg": "-0.17%",
           "up": false
         },
         {
@@ -271,7 +281,7 @@
         }
       ],
       "bullets": [
-        "달러 인덱스 101.92pt - 미국 성장 우위 지속",
+        "달러 인덱스 101.93pt - 미국 성장 우위 지속",
         "엔/달러 157.83엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
@@ -317,8 +327,8 @@
       "change": -1.33
     },
     "dxy": {
-      "price": 101.92,
-      "change": -0.18
+      "price": 101.93,
+      "change": -0.17
     },
     "usdjpy": {
       "price": 157.83,
@@ -708,7 +718,7 @@
       {
         "date": "10-02",
         "usdkrw": 1342.51,
-        "dxy": 101.92,
+        "dxy": 101.93,
         "usdjpy": 157.83
       }
     ],
@@ -1405,33 +1415,33 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "북한 탄도미사일 700KM 비행",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B6%81%ED%95%9C%20%ED%83%84%EB%8F%84%EB%AF%B8%EC%82%AC%EC%9D%BC%20700KM%20%EB%B9%84%ED%96%89"
+        "title": "아시안게임 메달 사냥",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%84%EC%8B%9C%EC%95%88%EA%B2%8C%EC%9E%84%20%EB%A9%94%EB%8B%AC%20%EC%82%AC%EB%83%A5"
       },
       {
         "rank": 2,
-        "title": "아시안게임 사격장 중 코치 포착",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%84%EC%8B%9C%EC%95%88%EA%B2%8C%EC%9E%84%20%EC%82%AC%EA%B2%A9%EC%9E%A5%20%EC%A4%91%20%EC%BD%94%EC%B9%98%20%ED%8F%AC%EC%B0%A9"
-      },
-      {
-        "rank": 3,
-        "title": "BTS와 스트레이 키즈도 그래미 보이콧",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=BTS%EC%99%80%20%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%20%ED%82%A4%EC%A6%88%EB%8F%84%20%EA%B7%B8%EB%9E%98%EB%AF%B8%20%EB%B3%B4%EC%9D%B4%EC%BD%A7"
-      },
-      {
-        "rank": 4,
         "title": "트럼프 한국 LNG 압박",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%8A%B8%EB%9F%BC%ED%94%84%20%ED%95%9C%EA%B5%AD%20LNG%20%EC%95%95%EB%B0%95"
       },
       {
+        "rank": 3,
+        "title": "1호선 선로 사망사고",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=1%ED%98%B8%EC%84%A0%20%EC%84%A0%EB%A1%9C%20%EC%82%AC%EB%A7%9D%EC%82%AC%EA%B3%A0"
+      },
+      {
+        "rank": 4,
+        "title": "개천절 한성숙 국무총리",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B0%9C%EC%B2%9C%EC%A0%88%20%ED%95%9C%EC%84%B1%EC%88%99%20%EA%B5%AD%EB%AC%B4%EC%B4%9D%EB%A6%AC"
+      },
+      {
         "rank": 5,
-        "title": "8강 탈락 강채영의 눈물",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=8%EA%B0%95%20%ED%83%88%EB%9D%BD%20%EA%B0%95%EC%B1%84%EC%98%81%EC%9D%98%20%EB%88%88%EB%AC%BC"
+        "title": "오예진",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%98%A4%EC%98%88%EC%A7%84"
       },
       {
         "rank": 6,
-        "title": "천위페이",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B2%9C%EC%9C%84%ED%8E%98%EC%9D%B4"
+        "title": "2026 춘천연합마라톤 파이팅",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=2026%20%EC%B6%98%EC%B2%9C%EC%97%B0%ED%95%A9%EB%A7%88%EB%9D%BC%ED%86%A4%20%ED%8C%8C%EC%9D%B4%ED%8C%85"
       },
       {
         "rank": 7,
@@ -1440,8 +1450,8 @@
       },
       {
         "rank": 8,
-        "title": "암살자들 논란 지속",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%94%EC%82%B4%EC%9E%90%EB%93%A4%20%EB%85%BC%EB%9E%80%20%EC%A7%80%EC%86%8D"
+        "title": "천위페이",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B2%9C%EC%9C%84%ED%8E%98%EC%9D%B4"
       },
       {
         "rank": 9,
@@ -1450,8 +1460,8 @@
       },
       {
         "rank": 10,
-        "title": "1호선 선로 사망사고",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=1%ED%98%B8%EC%84%A0%20%EC%84%A0%EB%A1%9C%20%EC%82%AC%EB%A7%9D%EC%82%AC%EA%B3%A0"
+        "title": "은행권 AI 해킹 내사",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%80%ED%96%89%EA%B6%8C%20AI%20%ED%95%B4%ED%82%B9%20%EB%82%B4%EC%82%AC"
       }
     ],
     "youtube_popular": [
@@ -1459,7 +1469,7 @@
         "rank": 1,
         "title": "Call Me",
         "channel": "CHANGMO - Topic",
-        "views": "19만회",
+        "views": "20만회",
         "thumb": "https://i.ytimg.com/vi/C8j3hMJIeFg/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=C8j3hMJIeFg"
       },
@@ -1467,7 +1477,7 @@
         "rank": 2,
         "title": "[비전퀘스트] 메인 예고편",
         "channel": "MarvelKorea",
-        "views": "41만회",
+        "views": "43만회",
         "thumb": "https://i.ytimg.com/vi/_uC7fyA37Ts/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=_uC7fyA37Ts"
       },
@@ -1475,7 +1485,7 @@
         "rank": 3,
         "title": "드디어 환산 1위 다시 탈환했습니다 [팡이요,  메이플스토리]",
         "channel": "팡이요",
-        "views": "32만회",
+        "views": "33만회",
         "thumb": "https://i.ytimg.com/vi/buWwYQwLWKQ/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=buWwYQwLWKQ"
       },
@@ -1483,7 +1493,7 @@
         "rank": 4,
         "title": "임영웅 [Baila] Live Clip. @2026 IMHERO 10 : THE STADIUM CONCERT 2",
         "channel": "임영웅",
-        "views": "38만회",
+        "views": "39만회",
         "thumb": "https://i.ytimg.com/vi/-wGXnDzPovw/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=-wGXnDzPovw"
       },
@@ -1491,7 +1501,7 @@
         "rank": 5,
         "title": "꿀알바 | 공식 티저 예고편 | 넷플릭스",
         "channel": "Netflix Korea 넷플릭스 코리아",
-        "views": "122만회",
+        "views": "124만회",
         "thumb": "https://i.ytimg.com/vi/kucWTDH7bX4/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=kucWTDH7bX4"
       },
@@ -1499,7 +1509,7 @@
         "rank": 6,
         "title": "[미스터리 수사반 OST] 잠뜰 - Trace My Shadow | Official Minecraft M/V",
         "channel": "잠뜰 TV",
-        "views": "30만회",
+        "views": "31만회",
         "thumb": "https://i.ytimg.com/vi/wTaWNVKfo8o/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=wTaWNVKfo8o"
       },
@@ -1515,23 +1525,23 @@
         "rank": 8,
         "title": "[폭설] 1차 예고편 | 김윤석 X 구교환 11월 극장 개봉!",
         "channel": "쇼박스 SHOWBOX",
-        "views": "131만회",
+        "views": "133만회",
         "thumb": "https://i.ytimg.com/vi/vTPZxufbdUs/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=vTPZxufbdUs"
       },
       {
         "rank": 9,
-        "title": "🔥혜안져스, 마인크래프트 시작합니다!!!🔥",
-        "channel": "혜안",
-        "views": "41만회",
-        "thumb": "https://i.ytimg.com/vi/l0cnzNXjaaI/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=l0cnzNXjaaI"
+        "title": "돌아온 좀비 원정대",
+        "channel": "괴물쥐 유튜브",
+        "views": "34만회",
+        "thumb": "https://i.ytimg.com/vi/OD_9Z89vBu0/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=OD_9Z89vBu0"
       },
       {
         "rank": 10,
         "title": "Dime Girl",
         "channel": "Release - Topic",
-        "views": "4만회",
+        "views": "5만회",
         "thumb": "https://i.ytimg.com/vi/VDxg_Shr_4U/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=VDxg_Shr_4U"
       }
