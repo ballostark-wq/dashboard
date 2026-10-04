@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04 19:58:15",
+  "updated_at": "2026-10-05 02:50:38",
   "us2y": {
     "value": 4.83,
     "change": 0.05
@@ -91,6 +91,11 @@
     ],
     "global": [
       {
+        "title": "Sports betting is increasingly the norm for Gen Z.  Here’s why some financial and mental health experts are worried",
+        "link": "https://www.cnbc.com/2026/10/04/gen-z-sports-betting-financial-and-mental-health-risks.html",
+        "date": "10-04 12:57"
+      },
+      {
         "title": "Lula or Bolsonaro: Wall Street braces for two wildly different results in Brazil election",
         "link": "https://www.cnbc.com/2026/10/03/lula-or-bolsonaro-wall-street-braces-for-two-wildly-different-results-in-brazil-election.html",
         "date": "10-03 13:12"
@@ -109,11 +114,6 @@
         "title": "Stocks making the biggest moves premarket: Nike, ON Semiconductor, Synaptics, Vylor & more",
         "link": "https://www.cnbc.com/2026/10/02/stocks-making-the-biggest-moves-premarket-nike-on-semiconductor-synaptics-vylor-more.html",
         "date": "10-02 12:03"
-      },
-      {
-        "title": "'The hottest skill on Wall Street’: Demand for this AI ability jumped 1,721% as banks embrace agents",
-        "link": "https://www.cnbc.com/2026/10/02/ai-skills-most-in-demand-at-jpmorgan-chase-citigroup-capital-one.html",
-        "date": "10-02 11:03"
       }
     ],
     "tech": [
@@ -133,14 +133,14 @@
         "date": "10-03 08:00"
       },
       {
-        "title": "[전자신문] '개그콘서트' 신윤승, 新 코너 '고독한 신회장' 예고",
-        "link": "https://www.etnews.com/20261004000021",
-        "date": "10-04 17:11"
+        "title": "[전자신문] “국군 비하 의도 아냐”…축구金 최우진 '절뚝, 지뢰 세리머니' 논란 해명",
+        "link": "https://www.etnews.com/20261005000002",
+        "date": "10-05 00:54"
       },
       {
-        "title": "[전자신문] “나치 강제수용소 스타일”…자라 핼러윈 아동복에 유럽 '발칵'",
-        "link": "https://www.etnews.com/20261004000020",
-        "date": "10-04 16:38"
+        "title": "[전자신문] 2.8만 기업에 보안점검 권고…과기정통부-KISA, 해킹 총력 대응",
+        "link": "https://www.etnews.com/20261004000031",
+        "date": "10-04 23:59"
       }
     ],
     "domestic": [
@@ -716,7 +716,7 @@
         "usdjpy": 157.93
       },
       {
-        "date": "10-02",
+        "date": "10-04",
         "usdkrw": 1342.51,
         "dxy": 101.93,
         "usdjpy": 157.83
@@ -827,7 +827,7 @@
   },
   "calendar_3w": {
     "w1": {
-      "title": "이번 주 (09/28 ~ 10/04)",
+      "title": "이번 주 (10/05 ~ 10/11)",
       "macro": [
         {
           "date": "10-05 2:00pm",
@@ -859,24 +859,40 @@
     }
   },
   "humanities": {
-    "history_date": "2026-10-04",
+    "history_date": "2026-10-05",
     "history": {
-      "era": "1870년 ~ 1923년 (1903년)",
-      "region": "한국",
-      "year": "1903년",
-      "title": "[1903년] [한국] YMCA 발족",
-      "summary": "1903년 - YMCA 발족",
+      "era": "395년 ~ 1071년 (710년)",
+      "region": "세계",
+      "year": "710년",
+      "title": "[710년] [세계] 일본, 헤이조쿄(지금의 나라시)로 수도를 옮김.",
+      "summary": "710년 - 일본, 헤이조쿄(지금의 나라시)로 수도를 옮김.",
       "bullets": [
-        "발생 연대: 1903년 (한국사)",
-        "YMCA 발족",
+        "발생 연대: 710년 (세계사)",
+        "일본, 헤이조쿄(지금의 나라시)로 수도를 옮김.",
         "당대 세력 균형 및 정치·경제적 제도 변화 반영"
       ],
-      "insight": "1903년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
-      "ref_title": "위키백과 세계사 연표: 1870년 ~ 1923년 (1903년)",
-      "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1870%EB%85%84_~_1923%EB%85%84:~:text=1903",
+      "insight": "710년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
+      "ref_title": "위키백과 세계사 연표: 395년 ~ 1071년 (710년)",
+      "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#395%EB%85%84_~_1071%EB%85%84:~:text=710",
       "d_day": "오늘"
     },
     "history_5d": [
+      {
+        "era": "395년 ~ 1071년 (710년)",
+        "region": "세계",
+        "year": "710년",
+        "title": "[710년] [세계] 일본, 헤이조쿄(지금의 나라시)로 수도를 옮김.",
+        "summary": "710년 - 일본, 헤이조쿄(지금의 나라시)로 수도를 옮김.",
+        "bullets": [
+          "발생 연대: 710년 (세계사)",
+          "일본, 헤이조쿄(지금의 나라시)로 수도를 옮김.",
+          "당대 세력 균형 및 정치·경제적 제도 변화 반영"
+        ],
+        "insight": "710년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
+        "ref_title": "위키백과 세계사 연표: 395년 ~ 1071년 (710년)",
+        "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#395%EB%85%84_~_1071%EB%85%84:~:text=710",
+        "d_day": "오늘"
+      },
       {
         "era": "1870년 ~ 1923년 (1903년)",
         "region": "한국",
@@ -891,7 +907,7 @@
         "insight": "1903년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1870년 ~ 1923년 (1903년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1870%EB%85%84_~_1923%EB%85%84:~:text=1903",
-        "d_day": "오늘"
+        "d_day": "D-1"
       },
       {
         "era": "1700년 ~ 1869년 (1700년)",
@@ -907,7 +923,7 @@
         "insight": "1700년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1700년 ~ 1869년 (1700년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1700%EB%85%84_~_1869%EB%85%84:~:text=1700",
-        "d_day": "D-1"
+        "d_day": "D-2"
       },
       {
         "era": "1924년 ~ 1972년 (1946년)",
@@ -923,7 +939,7 @@
         "insight": "1946년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1924년 ~ 1972년 (1946년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1924%EB%85%84_~_1972%EB%85%84:~:text=1946",
-        "d_day": "D-2"
+        "d_day": "D-3"
       },
       {
         "era": "1870년 ~ 1923년 (1896년)",
@@ -939,91 +955,138 @@
         "insight": "1896년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1870년 ~ 1923년 (1896년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1870%EB%85%84_~_1923%EB%85%84:~:text=1896",
-        "d_day": "D-3"
-      },
-      {
-        "era": "1870년 ~ 1923년 (1895년)",
-        "region": "한국",
-        "year": "1895년",
-        "title": "[1895년] [한국] 을미사변",
-        "summary": "1895년 - 을미사변",
-        "bullets": [
-          "발생 연대: 1895년 (한국사)",
-          "을미사변",
-          "당대 세력 균형 및 정치·경제적 제도 변화 반영"
-        ],
-        "insight": "1895년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
-        "ref_title": "위키백과 세계사 연표: 1870년 ~ 1923년 (1895년)",
-        "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1870%EB%85%84_~_1923%EB%85%84:~:text=1895",
         "d_day": "D-4"
       }
     ],
     "polyglot": {
-      "theme": "일치 확인 (Q&A)",
-      "type": "기초",
-      "meaning": "Q: 이게 맞나요? / A: 네, 정확히 맞습니다.",
+      "theme": "입버릇 관용구: 난이도",
+      "meaning": "결코 만만치 않은 일이야 (쉽지 않아).",
       "translations": {
         "en": {
           "code": "en-US",
           "name": "영어",
           "flag": "🇺🇸",
-          "text": "Is this correct? - Yes, that is exactly right.",
-          "roman": "이즈 디스 코렉트? - 예스, 댓 이즈 이그잭틀리 라이트."
+          "text": "It's no picnic.",
+          "roman": ""
         },
         "ja": {
           "code": "ja-JP",
           "name": "일본어",
           "flag": "🇯🇵",
-          "text": "これで合っていますか？ - はい、その通りです。",
-          "roman": "코레데 앗테 이마스 카? - 하이, 소노 토-리 데스."
+          "text": "決して楽なことじゃないよ。",
+          "roman": "Kesshite raku na koto ja nai yo."
         },
         "zh": {
           "code": "zh-CN",
           "name": "중국어",
           "flag": "🇨🇳",
-          "text": "这个对吗？ - 是的，完全正确。",
-          "roman": "저거 뚜이 마? - 스더, 완췐 정췌."
+          "text": "这可绝不是什么轻松好玩的事。",
+          "roman": "Zhè kě jué bù shì shénme qīngsōng hǎowán de shì."
         },
         "fr": {
           "code": "fr-FR",
           "name": "프랑스어",
           "flag": "🇫🇷",
-          "text": "Est-ce exact ? - Oui, c'est tout à fait correct.",
-          "roman": "에스 엑작트? - 위, 세 투 타 페 코렉트."
+          "text": "Ce n'est pas une partie de plaisir.",
+          "roman": ""
         },
         "de": {
           "code": "de-DE",
           "name": "독일어",
           "flag": "🇩🇪",
-          "text": "Ist das richtig so? - Ja, das ist absolut richtig.",
-          "roman": "이스트 다스 리히티히 조? - 야, 다스 이스트 압졸루트 리히티히."
+          "text": "Das ist weiß Gott kein Zuckerschlecken.",
+          "roman": ""
         },
         "es": {
           "code": "es-ES",
           "name": "스페인어",
           "flag": "🇪🇸",
-          "text": "¿Es esto correcto? - Sí, es exactamente así.",
-          "roman": "에스 에스토 코렉토? - 시, 에스 엑삭타멘테 아시."
+          "text": "No es ningún camino de rosas.",
+          "roman": ""
         },
         "ar": {
           "code": "ar-SA",
           "name": "아랍어",
           "flag": "🇸🇦",
-          "text": "هل هذا صحيح؟ - نعم، هذا صحيح تماماً.",
-          "roman": "할 하扎 사히흐? - 나암, 하扎 사히훈 타마만."
+          "text": "الأمر ليس نزهة سهلة على الإطلاق.",
+          "roman": "Al-amru laysa nuzhatan sahlatun 'alā al-iṭlāq."
         },
         "ru": {
           "code": "ru-RU",
           "name": "러시아어",
           "flag": "🇷🇺",
-          "text": "Это правильно? - Да, совершенно верно.",
-          "roman": "에또 프라빌나? - 다, 사베르셰나 베르나."
+          "text": "Это далеко не сахар и не подарок.",
+          "roman": "Eto daleko ne sakhar i ne podarok."
         }
       },
-      "pool_type": "기초",
+      "pool_type": "일상",
       "d_day": "오늘"
     },
     "polyglot_5d": [
+      {
+        "theme": "입버릇 관용구: 난이도",
+        "meaning": "결코 만만치 않은 일이야 (쉽지 않아).",
+        "translations": {
+          "en": {
+            "code": "en-US",
+            "name": "영어",
+            "flag": "🇺🇸",
+            "text": "It's no picnic.",
+            "roman": ""
+          },
+          "ja": {
+            "code": "ja-JP",
+            "name": "일본어",
+            "flag": "🇯🇵",
+            "text": "決して楽なことじゃないよ。",
+            "roman": "Kesshite raku na koto ja nai yo."
+          },
+          "zh": {
+            "code": "zh-CN",
+            "name": "중국어",
+            "flag": "🇨🇳",
+            "text": "这可绝不是什么轻松好玩的事。",
+            "roman": "Zhè kě jué bù shì shénme qīngsōng hǎowán de shì."
+          },
+          "fr": {
+            "code": "fr-FR",
+            "name": "프랑스어",
+            "flag": "🇫🇷",
+            "text": "Ce n'est pas une partie de plaisir.",
+            "roman": ""
+          },
+          "de": {
+            "code": "de-DE",
+            "name": "독일어",
+            "flag": "🇩🇪",
+            "text": "Das ist weiß Gott kein Zuckerschlecken.",
+            "roman": ""
+          },
+          "es": {
+            "code": "es-ES",
+            "name": "스페인어",
+            "flag": "🇪🇸",
+            "text": "No es ningún camino de rosas.",
+            "roman": ""
+          },
+          "ar": {
+            "code": "ar-SA",
+            "name": "아랍어",
+            "flag": "🇸🇦",
+            "text": "الأمر ليس نزهة سهلة على الإطلاق.",
+            "roman": "Al-amru laysa nuzhatan sahlatun 'alā al-iṭlāq."
+          },
+          "ru": {
+            "code": "ru-RU",
+            "name": "러시아어",
+            "flag": "🇷🇺",
+            "text": "Это далеко не сахар и не подарок.",
+            "roman": "Eto daleko ne sakhar i ne podarok."
+          }
+        },
+        "pool_type": "일상",
+        "d_day": "오늘"
+      },
       {
         "theme": "일치 확인 (Q&A)",
         "type": "기초",
@@ -1087,7 +1150,7 @@
           }
         },
         "pool_type": "기초",
-        "d_day": "오늘"
+        "d_day": "D-1"
       },
       {
         "theme": "입버릇 관용구: 인과응보",
@@ -1151,7 +1214,7 @@
           }
         },
         "pool_type": "일상",
-        "d_day": "D-1"
+        "d_day": "D-2"
       },
       {
         "theme": "준비 확인 (Q&A)",
@@ -1216,7 +1279,7 @@
           }
         },
         "pool_type": "기초",
-        "d_day": "D-2"
+        "d_day": "D-3"
       },
       {
         "theme": "입버릇 관용구: 일상 표현",
@@ -1280,85 +1343,20 @@
           }
         },
         "pool_type": "일상",
-        "d_day": "D-3"
-      },
-      {
-        "theme": "결제 방식 (Q&A)",
-        "type": "기초",
-        "meaning": "Q: 카드 결제 되나요? / A: 네, 신용카드 가능합니다.",
-        "translations": {
-          "en": {
-            "code": "en-US",
-            "name": "영어",
-            "flag": "🇺🇸",
-            "text": "Can I pay by card? - Yes, we accept credit cards.",
-            "roman": "캔 아이 페이 바이 카드? - 예스, 위 억셉트 크레딧 카즈."
-          },
-          "ja": {
-            "code": "ja-JP",
-            "name": "일본어",
-            "flag": "🇯🇵",
-            "text": "カードで支払えますか？ - はい、クレジットカードが使えます。",
-            "roman": "카-도데 시하라에마스 카? - 하이, 쿠레짓토 카-도가 츠카에마스."
-          },
-          "zh": {
-            "code": "zh-CN",
-            "name": "중국어",
-            "flag": "🇨🇳",
-            "text": "可以刷卡吗？ - 可以，支持信用卡支付。",
-            "roman": "커이 슈아카 마? - 커이, 즈츠 신융카 즈푸."
-          },
-          "fr": {
-            "code": "fr-FR",
-            "name": "프랑스어",
-            "flag": "🇫🇷",
-            "text": "Puis-je payer par carte ? - Oui, nous acceptons les cartes.",
-            "roman": "퓌이-즈 페예 파르 카르트? - 위, 누 작셉통 레 카르트."
-          },
-          "de": {
-            "code": "de-DE",
-            "name": "독일어",
-            "flag": "🇩🇪",
-            "text": "Kann ich mit Karte zahlen? - Ja, Kreditkarten sind möglich.",
-            "roman": "칸 이히 밋 카르테 찰렌? - 야, 크레딧카르텐 진트 뫼글리히."
-          },
-          "es": {
-            "code": "es-ES",
-            "name": "스페인어",
-            "flag": "🇪🇸",
-            "text": "¿Puedo pagar con tarjeta? - Sí, aceptamos tarjetas de crédito.",
-            "roman": "푸에도 파가르 콘 타르헤타? - 시, 아셉타모스 타르헤타스 데 크레디토."
-          },
-          "ar": {
-            "code": "ar-SA",
-            "name": "아랍어",
-            "flag": "🇸🇦",
-            "text": "هل يمكنني الدفع بالبطاقة؟ - نعم، نقبل بطاقات الائتمان.",
-            "roman": "할 윰키누니 앗다프으 빌비타까? - 나암, 나끄발 비타까틸 이으티만."
-          },
-          "ru": {
-            "code": "ru-RU",
-            "name": "러시아어",
-            "flag": "🇷🇺",
-            "text": "Можно оплатить картой? - Да, мы принимаем кредитные карты.",
-            "roman": "모즈나 아플라티치 카르타이? - 다, 믜 프리니마옘 크레디트느예 카르트이."
-          }
-        },
-        "pool_type": "기초",
         "d_day": "D-4"
       }
     ],
     "philosophy": {
-      "thinker": "한비자 (韓非子)",
-      "era": "기원전 3세기 전국시대 중국",
-      "concept": "법(法)·술(術)·세(勢)의 통치공학",
-      "quote": "“호랑이가 개를 굴복시킬 수 있는 까닭은 날카로운 발톱과 이빨(권세)을 쥐고 있기 때문이다.”",
+      "thinker": "토머스 홉스 (Thomas Hobbes)",
+      "era": "17세기 영국 내란기",
+      "concept": "리바이어던(Leviathan)과 자연상태",
+      "quote": "“공통의 권력이 없는 곳에는 법도 없고, 법이 없는 곳에는 불의도 없다.”",
       "bullets": [
-        "인간의 도덕적 선의(善意)에 의존하는 정치를 경계하고 명문화된 법(法)과 엄격한 신상필벌 강조",
-        "신하들의 사익 추구를 간파하고 조직을 장악하는 군주의 인사 관리 기법(術)",
-        "직위와 제도에서 나오는 구조적 권력(勢)의 중요성 역설"
+        "강력한 중앙 권력이 부재할 때 사회는 '만인에 대한 만인의 투쟁' 상태로 전락",
+        "자기 보존의 본능을 지닌 개인들이 평화와 안보를 위해 권력을 국가(리바이어던)에 양도하는 사회계약설",
+        "주권의 통일성과 질서 유지가 자유보다 선행하는 최고의 정치적 가치임을 규정"
       ],
-      "application": "거대 기업 조직의 거버넌스 설계, 시스템적 내부 통제 구축, 독점적 플랫폼의 구조적 지배력 분석에 유효합니다."
+      "application": "세계 정부가 없는 무정부적(Anarchic) 국제 질서에서 각국이 군사력과 경제 안보를 자급화하려는 자조(Self-help) 메커니즘을 규명합니다."
     }
   },
   "trends": {
@@ -1417,53 +1415,53 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "한전 개인정보 노출",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%9C%EC%A0%84%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4%20%EB%85%B8%EC%B6%9C"
+        "title": "금융권 해킹 비상 대응 강화",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B8%88%EC%9C%B5%EA%B6%8C%20%ED%95%B4%ED%82%B9%20%EB%B9%84%EC%83%81%20%EB%8C%80%EC%9D%91%20%EA%B0%95%ED%99%94"
       },
       {
         "rank": 2,
-        "title": "아시안게임 카타르에서",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%84%EC%8B%9C%EC%95%88%EA%B2%8C%EC%9E%84%20%EC%B9%B4%ED%83%80%EB%A5%B4%EC%97%90%EC%84%9C"
+        "title": "아이치·나고야 아시안게임 종료",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%84%EC%9D%B4%EC%B9%98%C2%B7%EB%82%98%EA%B3%A0%EC%95%BC%20%EC%95%84%EC%8B%9C%EC%95%88%EA%B2%8C%EC%9E%84%20%EC%A2%85%EB%A3%8C"
       },
       {
         "rank": 3,
-        "title": "폐회식 입장하는 한국",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%8F%90%ED%9A%8C%EC%8B%9D%20%EC%9E%85%EC%9E%A5%ED%95%98%EB%8A%94%20%ED%95%9C%EA%B5%AD"
-      },
-      {
-        "rank": 4,
-        "title": "트럼프 김정은 핵미사일",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%8A%B8%EB%9F%BC%ED%94%84%20%EA%B9%80%EC%A0%95%EC%9D%80%20%ED%95%B5%EB%AF%B8%EC%82%AC%EC%9D%BC"
-      },
-      {
-        "rank": 5,
-        "title": "2026 정조대왕 능행차",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=2026%20%EC%A0%95%EC%A1%B0%EB%8C%80%EC%99%95%20%EB%8A%A5%ED%96%89%EC%B0%A8"
-      },
-      {
-        "rank": 6,
-        "title": "유해란 하이트진로 우승",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9C%A0%ED%95%B4%EB%9E%80%20%ED%95%98%EC%9D%B4%ED%8A%B8%EC%A7%84%EB%A1%9C%20%EC%9A%B0%EC%8A%B9"
-      },
-      {
-        "rank": 7,
-        "title": "당진시",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%8B%B9%EC%A7%84%EC%8B%9C"
-      },
-      {
-        "rank": 8,
         "title": "유도 정수진 실격 폭로",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9C%A0%EB%8F%84%20%EC%A0%95%EC%88%98%EC%A7%84%20%EC%8B%A4%EA%B2%A9%20%ED%8F%AD%EB%A1%9C"
       },
       {
+        "rank": 4,
+        "title": "폐회식 입장하는 선수단",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%8F%90%ED%9A%8C%EC%8B%9D%20%EC%9E%85%EC%9E%A5%ED%95%98%EB%8A%94%20%EC%84%A0%EC%88%98%EB%8B%A8"
+      },
+      {
+        "rank": 5,
+        "title": "한전 개인정보 노출",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%9C%EC%A0%84%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4%20%EB%85%B8%EC%B6%9C"
+      },
+      {
+        "rank": 6,
+        "title": "트럼프 김정은 핵미사일",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%8A%B8%EB%9F%BC%ED%94%84%20%EA%B9%80%EC%A0%95%EC%9D%80%20%ED%95%B5%EB%AF%B8%EC%82%AC%EC%9D%BC"
+      },
+      {
+        "rank": 7,
+        "title": "김혜자",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%ED%98%9C%EC%9E%90"
+      },
+      {
+        "rank": 8,
+        "title": "OCA 깃발 전달 퍼포먼스",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=OCA%20%EA%B9%83%EB%B0%9C%20%EC%A0%84%EB%8B%AC%20%ED%8D%BC%ED%8F%AC%EB%A8%BC%EC%8A%A4"
+      },
+      {
         "rank": 9,
-        "title": "금융권 해킹 긴급소집",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B8%88%EC%9C%B5%EA%B6%8C%20%ED%95%B4%ED%82%B9%20%EA%B8%B4%EA%B8%89%EC%86%8C%EC%A7%91"
+        "title": "이희진",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%ED%9D%AC%EC%A7%84"
       },
       {
         "rank": 10,
-        "title": "폭음",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%8F%AD%EC%9D%8C"
+        "title": "포핸즈 이준영 재회",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%8F%AC%ED%95%B8%EC%A6%88%20%EC%9D%B4%EC%A4%80%EC%98%81%20%EC%9E%AC%ED%9A%8C"
       }
     ],
     "youtube_popular": [
@@ -1471,7 +1469,7 @@
         "rank": 1,
         "title": "Call Me",
         "channel": "CHANGMO - Topic",
-        "views": "37만회",
+        "views": "40만회",
         "thumb": "https://i.ytimg.com/vi/C8j3hMJIeFg/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=C8j3hMJIeFg"
       },
@@ -1479,7 +1477,7 @@
         "rank": 2,
         "title": "[비전퀘스트] 메인 예고편",
         "channel": "MarvelKorea",
-        "views": "88만회",
+        "views": "96만회",
         "thumb": "https://i.ytimg.com/vi/_uC7fyA37Ts/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=_uC7fyA37Ts"
       },
@@ -1487,7 +1485,7 @@
         "rank": 3,
         "title": "끝날때까지 예측 불가능한 넥서스 피1 사건ㅋㅋㅋㅋㅋ",
         "channel": "튜브김민교",
-        "views": "51만회",
+        "views": "54만회",
         "thumb": "https://i.ytimg.com/vi/l1XWcbS8mhU/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=l1XWcbS8mhU"
       },
@@ -1495,57 +1493,57 @@
         "rank": 4,
         "title": "Dime Girl",
         "channel": "Release - Topic",
-        "views": "14만회",
+        "views": "15만회",
         "thumb": "https://i.ytimg.com/vi/VDxg_Shr_4U/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=VDxg_Shr_4U"
       },
       {
         "rank": 5,
-        "title": "[포핸즈|최종화 예고]죄책감의 고리를 끊는 마지막 한 수! 낙원상가 창고에서 완성될 '포핸즈'의 소름 돋는 반전 결말 #tvN #포핸즈#송강 #이준영",
-        "channel": "Dramatic Drama",
-        "views": "2만회",
-        "thumb": "https://i.ytimg.com/vi/MYAQbRcpAI8/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=MYAQbRcpAI8"
+        "title": "LOUD vs GE / FUT vs T1 - 챔피언스 상하이 - 그룹 스테이지 - 10일차",
+        "channel": "발로란트 챔피언스 투어",
+        "views": "36만회",
+        "thumb": "https://i.ytimg.com/vi/d0qG4GztbHQ/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=d0qG4GztbHQ"
       },
       {
         "rank": 6,
-        "title": "키즈존에서 살아남기",
-        "channel": "PAKA",
-        "views": "42만회",
-        "thumb": "https://i.ytimg.com/vi/XwvYuUO7jQ0/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=XwvYuUO7jQ0"
-      },
-      {
-        "rank": 7,
         "title": "Period",
         "channel": "Woody - Topic",
-        "views": "23만회",
+        "views": "24만회",
         "thumb": "https://i.ytimg.com/vi/Vu0sdxb3A8I/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=Vu0sdxb3A8I"
       },
       {
-        "rank": 8,
+        "rank": 7,
         "title": "버리지 마!!",
         "channel": "괴물쥐 유튜브",
-        "views": "42만회",
+        "views": "48만회",
         "thumb": "https://i.ytimg.com/vi/Vg2zv9rlsRg/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=Vg2zv9rlsRg"
       },
       {
-        "rank": 9,
+        "rank": 8,
         "title": "크게 울어라 미리 불러 봄",
         "channel": "로이킴 Roy Kim",
-        "views": "14만회",
+        "views": "16만회",
         "thumb": "https://i.ytimg.com/vi/7AkqZ5snmDQ/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=7AkqZ5snmDQ"
       },
       {
-        "rank": 10,
-        "title": "알파고의 풀파워 주종 vs 슈퍼 AI 플루토의 11판 6선 지옥의 멸망전.. 과연 승자는 누가 될 것인가??",
+        "rank": 9,
+        "title": "플루토와 플루토가 싸우면 어떤 종족이 최강일까?",
         "channel": "[ALTUBE] 김성현TV",
-        "views": "47만회",
-        "thumb": "https://i.ytimg.com/vi/kIPb5RWI5uc/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=kIPb5RWI5uc"
+        "views": "45만회",
+        "thumb": "https://i.ytimg.com/vi/f7o66ATk2Do/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=f7o66ATk2Do"
+      },
+      {
+        "rank": 10,
+        "title": "임영웅 [Baila] Live Clip. @2026 IMHERO 10 : THE STADIUM CONCERT 2",
+        "channel": "임영웅",
+        "views": "58만회",
+        "thumb": "https://i.ytimg.com/vi/-wGXnDzPovw/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=-wGXnDzPovw"
       }
     ]
   }
