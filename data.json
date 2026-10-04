@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04 13:34:29",
+  "updated_at": "2026-10-04 19:58:15",
   "us2y": {
     "value": 4.83,
     "change": 0.05
@@ -131,9 +131,29 @@
         "title": "[디일렉] [제조AI①]중견 IT기업, ‘현장 데이터’ 앞세워 특화 AI 경쟁",
         "link": "https://www.thelec.kr/news/articleView.html?idxno=63213",
         "date": "10-03 08:00"
+      },
+      {
+        "title": "[전자신문] '개그콘서트' 신윤승, 新 코너 '고독한 신회장' 예고",
+        "link": "https://www.etnews.com/20261004000021",
+        "date": "10-04 17:11"
+      },
+      {
+        "title": "[전자신문] “나치 강제수용소 스타일”…자라 핼러윈 아동복에 유럽 '발칵'",
+        "link": "https://www.etnews.com/20261004000020",
+        "date": "10-04 16:38"
       }
     ],
     "domestic": [
+      {
+        "title": "[뉴욕환시-주간] 물가안정 vs 금융안정…ECB, '佛 개입' 고민 시작될까",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4437728",
+        "date": "10-04 17:45"
+      },
+      {
+        "title": "[뉴욕채권-주간] '10월은 동결' 교통정리됐나…장기물은 프랑스 주목",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4437727",
+        "date": "10-04 17:43"
+      },
       {
         "title": "[외환-주간] 美 고용 둔화에 열린 달러-원 하방…국채금리가 제동 걸까",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4437720",
@@ -148,16 +168,6 @@
         "title": "美재무 \"미 국채 금리 상승에 특이점 없어\"…추가 개입 가능성도 시사",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4437708",
         "date": "10-04 04:35"
-      },
-      {
-        "title": "매달 만기 도래만 7조…은행채 발행 폭탄 막아설 두 변수는",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4437699",
-        "date": "10-03 09:26"
-      },
-      {
-        "title": "NDF, 1,342.10/ 1,342.50원…7.50원↓",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4437698",
-        "date": "10-03 09:15"
       }
     ]
   },
@@ -820,29 +830,29 @@
       "title": "이번 주 (09/28 ~ 10/04)",
       "macro": [
         {
-          "date": "09-29 2:00pm",
-          "event": "CB Consumer Confidence",
+          "date": "10-05 2:00pm",
+          "event": "ISM Services PMI",
           "impact": "HIGH"
         },
         {
-          "date": "09-29 2:00pm",
-          "event": "JOLTS Job Openings",
-          "impact": "HIGH"
-        },
-        {
-          "date": "09-30 12:15pm",
-          "event": "ADP Non-Farm Employment Change",
-          "impact": "HIGH"
-        },
-        {
-          "date": "09-30 12:30pm",
-          "event": "Core PCE Price Index m/m",
+          "date": "10-07 6:00pm",
+          "event": "FOMC Meeting Minutes",
           "impact": "CRITICAL"
         },
         {
-          "date": "09-30 12:30pm",
-          "event": "Final GDP q/q",
-          "impact": "CRITICAL"
+          "date": "10-08 12:30pm",
+          "event": "Unemployment Claims",
+          "impact": "HIGH"
+        },
+        {
+          "date": "10-09 2:00pm",
+          "event": "Prelim UoM Consumer Sentiment",
+          "impact": "HIGH"
+        },
+        {
+          "date": "10-09 2:00pm",
+          "event": "Prelim UoM Inflation Expectations",
+          "impact": "HIGH"
         }
       ],
       "earnings": []
@@ -1407,53 +1417,53 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "아시안게임 MVP 선정",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%84%EC%8B%9C%EC%95%88%EA%B2%8C%EC%9E%84%20MVP%20%EC%84%A0%EC%A0%95"
+        "title": "한전 개인정보 노출",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%9C%EC%A0%84%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4%20%EB%85%B8%EC%B6%9C"
       },
       {
         "rank": 2,
+        "title": "아시안게임 카타르에서",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%84%EC%8B%9C%EC%95%88%EA%B2%8C%EC%9E%84%20%EC%B9%B4%ED%83%80%EB%A5%B4%EC%97%90%EC%84%9C"
+      },
+      {
+        "rank": 3,
+        "title": "폐회식 입장하는 한국",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%8F%90%ED%9A%8C%EC%8B%9D%20%EC%9E%85%EC%9E%A5%ED%95%98%EB%8A%94%20%ED%95%9C%EA%B5%AD"
+      },
+      {
+        "rank": 4,
         "title": "트럼프 김정은 핵미사일",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%8A%B8%EB%9F%BC%ED%94%84%20%EA%B9%80%EC%A0%95%EC%9D%80%20%ED%95%B5%EB%AF%B8%EC%82%AC%EC%9D%BC"
       },
       {
-        "rank": 3,
+        "rank": 5,
+        "title": "2026 정조대왕 능행차",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=2026%20%EC%A0%95%EC%A1%B0%EB%8C%80%EC%99%95%20%EB%8A%A5%ED%96%89%EC%B0%A8"
+      },
+      {
+        "rank": 6,
+        "title": "유해란 하이트진로 우승",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9C%A0%ED%95%B4%EB%9E%80%20%ED%95%98%EC%9D%B4%ED%8A%B8%EC%A7%84%EB%A1%9C%20%EC%9A%B0%EC%8A%B9"
+      },
+      {
+        "rank": 7,
+        "title": "당진시",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%8B%B9%EC%A7%84%EC%8B%9C"
+      },
+      {
+        "rank": 8,
+        "title": "유도 정수진 실격 폭로",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9C%A0%EB%8F%84%20%EC%A0%95%EC%88%98%EC%A7%84%20%EC%8B%A4%EA%B2%A9%20%ED%8F%AD%EB%A1%9C"
+      },
+      {
+        "rank": 9,
         "title": "금융권 해킹 긴급소집",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B8%88%EC%9C%B5%EA%B6%8C%20%ED%95%B4%ED%82%B9%20%EA%B8%B4%EA%B8%89%EC%86%8C%EC%A7%91"
       },
       {
-        "rank": 4,
-        "title": "김혜경 여사 결혼식 참석",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%ED%98%9C%EA%B2%BD%20%EC%97%AC%EC%82%AC%20%EA%B2%B0%ED%98%BC%EC%8B%9D%20%EC%B0%B8%EC%84%9D"
-      },
-      {
-        "rank": 5,
-        "title": "조희대 증인 출석 촉구",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A1%B0%ED%9D%AC%EB%8C%80%20%EC%A6%9D%EC%9D%B8%20%EC%B6%9C%EC%84%9D%20%EC%B4%89%EA%B5%AC"
-      },
-      {
-        "rank": 6,
-        "title": "조여정",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A1%B0%EC%97%AC%EC%A0%95"
-      },
-      {
-        "rank": 7,
-        "title": "경찰 AI 성착취물 유포",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B2%BD%EC%B0%B0%20AI%20%EC%84%B1%EC%B0%A9%EC%B7%A8%EB%AC%BC%20%EC%9C%A0%ED%8F%AC"
-      },
-      {
-        "rank": 8,
-        "title": "띠별 운세",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%9D%A0%EB%B3%84%20%EC%9A%B4%EC%84%B8"
-      },
-      {
-        "rank": 9,
-        "title": "롯데 레이예스 200안타 도전",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%A1%AF%EB%8D%B0%20%EB%A0%88%EC%9D%B4%EC%98%88%EC%8A%A4%20200%EC%95%88%ED%83%80%20%EB%8F%84%EC%A0%84"
-      },
-      {
         "rank": 10,
-        "title": "1244회 로또 당첨",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=1244%ED%9A%8C%20%EB%A1%9C%EB%98%90%20%EB%8B%B9%EC%B2%A8"
+        "title": "폭음",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%8F%AD%EC%9D%8C"
       }
     ],
     "youtube_popular": [
@@ -1461,7 +1471,7 @@
         "rank": 1,
         "title": "Call Me",
         "channel": "CHANGMO - Topic",
-        "views": "32만회",
+        "views": "37만회",
         "thumb": "https://i.ytimg.com/vi/C8j3hMJIeFg/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=C8j3hMJIeFg"
       },
@@ -1469,7 +1479,7 @@
         "rank": 2,
         "title": "[비전퀘스트] 메인 예고편",
         "channel": "MarvelKorea",
-        "views": "79만회",
+        "views": "88만회",
         "thumb": "https://i.ytimg.com/vi/_uC7fyA37Ts/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=_uC7fyA37Ts"
       },
@@ -1477,7 +1487,7 @@
         "rank": 3,
         "title": "끝날때까지 예측 불가능한 넥서스 피1 사건ㅋㅋㅋㅋㅋ",
         "channel": "튜브김민교",
-        "views": "41만회",
+        "views": "51만회",
         "thumb": "https://i.ytimg.com/vi/l1XWcbS8mhU/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=l1XWcbS8mhU"
       },
@@ -1485,7 +1495,7 @@
         "rank": 4,
         "title": "Dime Girl",
         "channel": "Release - Topic",
-        "views": "12만회",
+        "views": "14만회",
         "thumb": "https://i.ytimg.com/vi/VDxg_Shr_4U/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=VDxg_Shr_4U"
       },
@@ -1493,7 +1503,7 @@
         "rank": 5,
         "title": "[포핸즈|최종화 예고]죄책감의 고리를 끊는 마지막 한 수! 낙원상가 창고에서 완성될 '포핸즈'의 소름 돋는 반전 결말 #tvN #포핸즈#송강 #이준영",
         "channel": "Dramatic Drama",
-        "views": "1만회",
+        "views": "2만회",
         "thumb": "https://i.ytimg.com/vi/MYAQbRcpAI8/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=MYAQbRcpAI8"
       },
@@ -1501,7 +1511,7 @@
         "rank": 6,
         "title": "키즈존에서 살아남기",
         "channel": "PAKA",
-        "views": "36만회",
+        "views": "42만회",
         "thumb": "https://i.ytimg.com/vi/XwvYuUO7jQ0/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=XwvYuUO7jQ0"
       },
@@ -1509,33 +1519,33 @@
         "rank": 7,
         "title": "Period",
         "channel": "Woody - Topic",
-        "views": "19만회",
+        "views": "23만회",
         "thumb": "https://i.ytimg.com/vi/Vu0sdxb3A8I/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=Vu0sdxb3A8I"
       },
       {
         "rank": 8,
-        "title": "꿀알바 | 공식 티저 예고편 | 넷플릭스",
-        "channel": "Netflix Korea 넷플릭스 코리아",
-        "views": "146만회",
-        "thumb": "https://i.ytimg.com/vi/kucWTDH7bX4/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=kucWTDH7bX4"
+        "title": "버리지 마!!",
+        "channel": "괴물쥐 유튜브",
+        "views": "42만회",
+        "thumb": "https://i.ytimg.com/vi/Vg2zv9rlsRg/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=Vg2zv9rlsRg"
       },
       {
         "rank": 9,
-        "title": "알파고의 풀파워 주종 vs 슈퍼 AI 플루토의 11판 6선 지옥의 멸망전.. 과연 승자는 누가 될 것인가??",
-        "channel": "[ALTUBE] 김성현TV",
-        "views": "43만회",
-        "thumb": "https://i.ytimg.com/vi/kIPb5RWI5uc/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=kIPb5RWI5uc"
+        "title": "크게 울어라 미리 불러 봄",
+        "channel": "로이킴 Roy Kim",
+        "views": "14만회",
+        "thumb": "https://i.ytimg.com/vi/7AkqZ5snmDQ/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=7AkqZ5snmDQ"
       },
       {
         "rank": 10,
-        "title": "임영웅 [Baila] Live Clip. @2026 IMHERO 10 : THE STADIUM CONCERT 2",
-        "channel": "임영웅",
-        "views": "51만회",
-        "thumb": "https://i.ytimg.com/vi/-wGXnDzPovw/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=-wGXnDzPovw"
+        "title": "알파고의 풀파워 주종 vs 슈퍼 AI 플루토의 11판 6선 지옥의 멸망전.. 과연 승자는 누가 될 것인가??",
+        "channel": "[ALTUBE] 김성현TV",
+        "views": "47만회",
+        "thumb": "https://i.ytimg.com/vi/kIPb5RWI5uc/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=kIPb5RWI5uc"
       }
     ]
   }
