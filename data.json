@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06 07:06:43",
+  "updated_at": "2026-10-06 08:05:37",
   "us2y": {
     "value": 4.84,
     "change": 0.01
@@ -133,14 +133,14 @@
         "date": "10-05 12:26"
       },
       {
-        "title": "[전자신문] 누리호 5차, 오전 6시 발사대 이송 시작",
-        "link": "https://www.etnews.com/20261006000001",
-        "date": "10-06 06:25"
+        "title": "[전자신문] “평범한 집안일의 위대한 가치” KCC건설 스위첸 캠페인 '위대한 집안일' 유튜브 7000만뷰 돌파",
+        "link": "https://www.etnews.com/20261002000201",
+        "date": "10-06 08:00"
       },
       {
-        "title": "[전자신문] “공사판 드릴 수준”…131dB 찍은 '세계에서 가장 시끄러운 새'는?",
-        "link": "https://www.etnews.com/20261004000022",
-        "date": "10-06 06:00"
+        "title": "[전자신문] GIST, 유전자 발현 예측하고 조직 영역 구분하는 AI 프레임워크 개발",
+        "link": "https://www.etnews.com/20261006000004",
+        "date": "10-06 07:57"
       }
     ],
     "domestic": [
@@ -223,83 +223,83 @@
       "detail": "10Y-2Y 스프레드가 +47 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.63",
-      "title": "닥터 코퍼 $6.63선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.64",
+      "title": "닥터 코퍼 $6.64선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.63",
-          "chg": "+2.16%",
+          "val": "$6.64",
+          "chg": "+2.31%",
           "up": true
         },
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,167.6",
-          "chg": "+0.13%",
+          "val": "$4,168.2",
+          "chg": "+0.14%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$61.40",
-          "chg": "+2.37%",
+          "val": "$61.42",
+          "chg": "+2.40%",
           "up": true
         }
       ],
       "bullets": [
-        "구리 $6.63/lb (+2.16%) - AI 전력망 설비 수요 반영",
-        "금 $4,168/oz, 은 $61.40/oz - 통화가치 헤지"
+        "구리 $6.64/lb (+2.31%) - AI 전력망 설비 수요 반영",
+        "금 $4,168/oz, 은 $61.42/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,340원 | 엔/달러 ¥157.9",
-      "title": "원/달러 1,340.2원선과 엔/달러 ¥157.9",
+      "badge": "원/달러 1,342원 | 엔/달러 ¥157.9",
+      "title": "원/달러 1,342.2원선과 엔/달러 ¥157.9",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,340.2원",
-          "chg": "-0.17%",
+          "val": "1,342.2원",
+          "chg": "-0.02%",
           "up": false
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "102.12pt",
-          "chg": "+0.19%",
+          "val": "102.10pt",
+          "chg": "+0.17%",
           "up": true
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥157.89",
-          "chg": "+0.10%",
+          "val": "¥157.92",
+          "chg": "+0.12%",
           "up": true
         }
       ],
       "bullets": [
-        "달러 인덱스 102.12pt - 미국 성장 우위 지속",
-        "엔/달러 157.89엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 102.1pt - 미국 성장 우위 지속",
+        "엔/달러 157.92엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $89.3",
-      "title": "WTI 배럴당 $89.3선 박스권 안정",
+      "badge": "WTI $89.25",
+      "title": "WTI 배럴당 $89.25선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$89.30",
-          "chg": "-1.99%",
+          "val": "$89.25",
+          "chg": "-2.04%",
           "up": false
         }
       ],
       "bullets": [
-        "WTI 선물 $89.3/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $89.25/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -307,32 +307,32 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.63,
-      "change": 2.16
+      "price": 6.64,
+      "change": 2.31
     },
     "gold": {
-      "price": 4167.6,
-      "change": 0.13
+      "price": 4168.2,
+      "change": 0.14
     },
     "silver": {
-      "price": 61.4,
-      "change": 2.37
+      "price": 61.42,
+      "change": 2.4
     },
     "wti": {
-      "price": 89.3,
-      "change": -1.99
+      "price": 89.25,
+      "change": -2.04
     },
     "usdkrw": {
-      "price": 1340.22,
-      "change": -0.17
+      "price": 1342.25,
+      "change": -0.02
     },
     "dxy": {
-      "price": 102.12,
-      "change": 0.19
+      "price": 102.1,
+      "change": 0.17
     },
     "usdjpy": {
-      "price": 157.89,
-      "change": 0.1
+      "price": 157.92,
+      "change": 0.12
     }
   },
   "history_20d": {
@@ -595,9 +595,9 @@
       },
       {
         "date": "10-05",
-        "copper": 6.63,
-        "gold": 4167.6,
-        "silver": 61.4
+        "copper": 6.64,
+        "gold": 4168.2,
+        "silver": 61.42
       }
     ],
     "fx": [
@@ -717,9 +717,9 @@
       },
       {
         "date": "10-05",
-        "usdkrw": 1340.22,
-        "dxy": 102.12,
-        "usdjpy": 157.89
+        "usdkrw": 1342.25,
+        "dxy": 102.1,
+        "usdjpy": 157.92
       }
     ],
     "oil": [
@@ -820,8 +820,8 @@
       },
       {
         "date": "10-05",
-        "wti": 89.3,
-        "change": -1.99
+        "wti": 89.25,
+        "change": -2.04
       }
     ]
   },
@@ -1365,13 +1365,13 @@
     "naver_sisa": [
       {
         "rank": 1,
-        "title": "엉덩이 기억상실증",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%97%89%EB%8D%A9%EC%9D%B4%20%EA%B8%B0%EC%96%B5%EC%83%81%EC%8B%A4%EC%A6%9D"
+        "title": "제주 4·3 사건",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A0%9C%EC%A3%BC%204%C2%B73%20%EC%82%AC%EA%B1%B4"
       },
       {
         "rank": 2,
-        "title": "제주 4·3 사건",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A0%9C%EC%A3%BC%204%C2%B73%20%EC%82%AC%EA%B1%B4"
+        "title": "국중박 분장놀이",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B5%AD%EC%A4%91%EB%B0%95%20%EB%B6%84%EC%9E%A5%EB%86%80%EC%9D%B4"
       },
       {
         "rank": 3,
@@ -1380,45 +1380,45 @@
       },
       {
         "rank": 4,
-        "title": "국중박 분장놀이",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B5%AD%EC%A4%91%EB%B0%95%20%EB%B6%84%EC%9E%A5%EB%86%80%EC%9D%B4"
+        "title": "엉덩이 기억상실증",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%97%89%EB%8D%A9%EC%9D%B4%20%EA%B8%B0%EC%96%B5%EC%83%81%EC%8B%A4%EC%A6%9D"
       },
       {
         "rank": 5,
-        "title": "조총련",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A1%B0%EC%B4%9D%EB%A0%A8"
-      },
-      {
-        "rank": 6,
-        "title": "쿠라시",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%BF%A0%EB%9D%BC%EC%8B%9C"
-      },
-      {
-        "rank": 7,
-        "title": "동학농민혁명",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%8F%99%ED%95%99%EB%86%8D%EB%AF%BC%ED%98%81%EB%AA%85"
-      },
-      {
-        "rank": 8,
         "title": "노벨상",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%85%B8%EB%B2%A8%EC%83%81"
       },
       {
+        "rank": 6,
+        "title": "동학농민혁명",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%8F%99%ED%95%99%EB%86%8D%EB%AF%BC%ED%98%81%EB%AA%85"
+      },
+      {
+        "rank": 7,
+        "title": "쿠라시",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%BF%A0%EB%9D%BC%EC%8B%9C"
+      },
+      {
+        "rank": 8,
+        "title": "조총련",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A1%B0%EC%B4%9D%EB%A0%A8"
+      },
+      {
         "rank": 9,
-        "title": "북한 DMZ 지뢰 도발 사건(2015)",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B6%81%ED%95%9C%20DMZ%20%EC%A7%80%EB%A2%B0%20%EB%8F%84%EB%B0%9C%20%EC%82%AC%EA%B1%B4"
+        "title": "인공기",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B8%EA%B3%B5%EA%B8%B0"
       },
       {
         "rank": 10,
-        "title": "FIFA랭킹",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=FIFA%EB%9E%AD%ED%82%B9"
+        "title": "북한 DMZ 지뢰 도발 사건(2015)",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B6%81%ED%95%9C%20DMZ%20%EC%A7%80%EB%A2%B0%20%EB%8F%84%EB%B0%9C%20%EC%82%AC%EA%B1%B4"
       }
     ],
     "namu_rank": [
       {
         "rank": 1,
-        "title": "김재열 WOF 회장 선출",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%9E%AC%EC%97%B4%20WOF%20%ED%9A%8C%EC%9E%A5%20%EC%84%A0%EC%B6%9C"
+        "title": "알래스카 LNG 한국 협의 필요",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%8C%EB%9E%98%EC%8A%A4%EC%B9%B4%20LNG%20%ED%95%9C%EA%B5%AD%20%ED%98%91%EC%9D%98%20%ED%95%84%EC%9A%94"
       },
       {
         "rank": 2,
@@ -1427,43 +1427,43 @@
       },
       {
         "rank": 3,
-        "title": "나스닥 사상 최고",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%82%98%EC%8A%A4%EB%8B%A5%20%EC%82%AC%EC%83%81%20%EC%B5%9C%EA%B3%A0"
+        "title": "나스닥 최고치 갱신",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%82%98%EC%8A%A4%EB%8B%A5%20%EC%B5%9C%EA%B3%A0%EC%B9%98%20%EA%B0%B1%EC%8B%A0"
       },
       {
         "rank": 4,
-        "title": "알래스카 LNG 사업, 한국과 협의 필요",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%8C%EB%9E%98%EC%8A%A4%EC%B9%B4%20LNG%20%EC%82%AC%EC%97%85%2C%20%ED%95%9C%EA%B5%AD%EA%B3%BC%20%ED%98%91%EC%9D%98%20%ED%95%84%EC%9A%94"
+        "title": "이효리 카페 폐업 사연",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%ED%9A%A8%EB%A6%AC%20%EC%B9%B4%ED%8E%98%20%ED%8F%90%EC%97%85%20%EC%82%AC%EC%97%B0"
       },
       {
         "rank": 5,
-        "title": "이효리 카페 폐업 언급",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%ED%9A%A8%EB%A6%AC%20%EC%B9%B4%ED%8E%98%20%ED%8F%90%EC%97%85%20%EC%96%B8%EA%B8%89"
+        "title": "중앙일보",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A4%91%EC%95%99%EC%9D%BC%EB%B3%B4"
       },
       {
         "rank": 6,
-        "title": "닥터x: 하얀 마피아의 시대",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%8B%A5%ED%84%B0x%3A%20%ED%95%98%EC%96%80%20%EB%A7%88%ED%94%BC%EC%95%84%EC%9D%98%20%EC%8B%9C%EB%8C%80"
-      },
-      {
-        "rank": 7,
-        "title": "32기 영수, 계약결혼 절박",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=32%EA%B8%B0%20%EC%98%81%EC%88%98%2C%20%EA%B3%84%EC%95%BD%EA%B2%B0%ED%98%BC%20%EC%A0%88%EB%B0%95"
-      },
-      {
-        "rank": 8,
-        "title": "나는 solo",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%82%98%EB%8A%94%20solo"
-      },
-      {
-        "rank": 9,
         "title": "노벨 생리의학상",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%85%B8%EB%B2%A8%20%EC%83%9D%EB%A6%AC%EC%9D%98%ED%95%99%EC%83%81"
       },
       {
+        "rank": 7,
+        "title": "KT 정규우승 확정",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=KT%20%EC%A0%95%EA%B7%9C%EC%9A%B0%EC%8A%B9%20%ED%99%95%EC%A0%95"
+      },
+      {
+        "rank": 8,
+        "title": "은행",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%80%ED%96%89"
+      },
+      {
+        "rank": 9,
+        "title": "연애박사 디즈니+ 공개",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%97%B0%EC%95%A0%EB%B0%95%EC%82%AC%20%EB%94%94%EC%A6%88%EB%8B%88%2B%20%EA%B3%B5%EA%B0%9C"
+      },
+      {
         "rank": 10,
-        "title": "현행범",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%98%84%ED%96%89%EB%B2%94"
+        "title": "청라하늘대교",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B2%AD%EB%9D%BC%ED%95%98%EB%8A%98%EB%8C%80%EA%B5%90"
       }
     ],
     "youtube_popular": [
@@ -1477,11 +1477,11 @@
       },
       {
         "rank": 2,
-        "title": "이번 크로스 메타 최대 실수 '공격수 반다이크' 발견..",
-        "channel": "튜브김민교",
-        "views": "39만회",
-        "thumb": "https://i.ytimg.com/vi/o9XDkwN5D6s/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=o9XDkwN5D6s"
+        "title": "더욱 풍성하게 돌아온 그 ㅅㄲ들의 하드코어 좀보이드 [좀비원정대 리벤지 1화]",
+        "channel": "동수칸TV",
+        "views": "45만회",
+        "thumb": "https://i.ytimg.com/vi/ICETZPwgu-Q/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=ICETZPwgu-Q"
       },
       {
         "rank": 3,
@@ -1493,11 +1493,11 @@
       },
       {
         "rank": 4,
-        "title": "더욱 풍성하게 돌아온 그 ㅅㄲ들의 하드코어 좀보이드 [좀비원정대 리벤지 1화]",
-        "channel": "동수칸TV",
-        "views": "44만회",
-        "thumb": "https://i.ytimg.com/vi/ICETZPwgu-Q/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=ICETZPwgu-Q"
+        "title": "이번 크로스 메타 최대 실수 '공격수 반다이크' 발견..",
+        "channel": "튜브김민교",
+        "views": "40만회",
+        "thumb": "https://i.ytimg.com/vi/o9XDkwN5D6s/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=o9XDkwN5D6s"
       },
       {
         "rank": 5,
@@ -1543,7 +1543,7 @@
         "rank": 10,
         "title": "아니; 어디까지 커짐??? ≪움직이는 성 키우기≫ 갈수록 스케일 미쳤습니다ㄷㄷ",
         "channel": "혜안",
-        "views": "54만회",
+        "views": "55만회",
         "thumb": "https://i.ytimg.com/vi/9kUvDvuJX-0/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=9kUvDvuJX-0"
       }
