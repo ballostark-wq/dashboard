@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05 14:18:47",
+  "updated_at": "2026-10-05 15:11:47",
   "us2y": {
     "value": 4.83,
     "change": 0.05
@@ -133,14 +133,14 @@
         "date": "10-05 08:00"
       },
       {
-        "title": "[전자신문] [단독] K-UAM 실증체계 새판…상용화에 1500억·'Neo 그랜드챌린지' 추진",
-        "link": "https://www.etnews.com/20261005000033",
-        "date": "10-05 14:00"
+        "title": "[전자신문] 상반기 자금 쓸어담은 증권사, 3분기 급감…실적잔치는 끝났다",
+        "link": "https://www.etnews.com/20261005000010",
+        "date": "10-05 15:00"
       },
       {
-        "title": "[전자신문] [단독]캐피탈-렌터카업계, 갈등 격화...SK렌터카 '규제 완화 반대 연합회'등록",
-        "link": "https://www.etnews.com/20261005000012",
-        "date": "10-05 14:00"
+        "title": "[전자신문] W컨셉, 대화형 AI 쇼핑 도입…'대화·이미지'로 상품 찾는다",
+        "link": "https://www.etnews.com/20261001000413",
+        "date": "10-05 14:45"
       }
     ],
     "domestic": [
@@ -236,70 +236,70 @@
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,163.8",
-          "chg": "+0.04%",
+          "val": "$4,170.8",
+          "chg": "+0.20%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$61.31",
-          "chg": "+2.22%",
+          "val": "$61.43",
+          "chg": "+2.42%",
           "up": true
         }
       ],
       "bullets": [
         "구리 $6.57/lb (+1.23%) - AI 전력망 설비 수요 반영",
-        "금 $4,164/oz, 은 $61.31/oz - 통화가치 헤지"
+        "금 $4,171/oz, 은 $61.43/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,345원 | 엔/달러 ¥157.9",
-      "title": "원/달러 1,345.0원선과 엔/달러 ¥157.9",
+      "badge": "원/달러 1,343원 | 엔/달러 ¥157.7",
+      "title": "원/달러 1,343.4원선과 엔/달러 ¥157.7",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,345.0원",
-          "chg": "-1.14%",
+          "val": "1,343.4원",
+          "chg": "-1.26%",
           "up": false
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "102.37pt",
-          "chg": "+0.43%",
+          "val": "102.29pt",
+          "chg": "+0.35%",
           "up": true
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥157.94",
-          "chg": "+0.01%",
-          "up": true
-        }
-      ],
-      "bullets": [
-        "달러 인덱스 102.37pt - 미국 성장 우위 지속",
-        "엔/달러 157.94엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
-      ],
-      "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
-    },
-    "oil": {
-      "badge": "WTI $89.95",
-      "title": "WTI 배럴당 $89.95선 박스권 안정",
-      "metrics": [
-        {
-          "id": "wti",
-          "name": "WTI 원유",
-          "val": "$89.95",
-          "chg": "-1.27%",
+          "val": "¥157.72",
+          "chg": "-0.13%",
           "up": false
         }
       ],
       "bullets": [
-        "WTI 선물 $89.95/배럴 - 에너지 원가 압박 경감",
+        "달러 인덱스 102.29pt - 미국 성장 우위 지속",
+        "엔/달러 157.72엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+      ],
+      "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
+    },
+    "oil": {
+      "badge": "WTI $89.81",
+      "title": "WTI 배럴당 $89.81선 박스권 안정",
+      "metrics": [
+        {
+          "id": "wti",
+          "name": "WTI 원유",
+          "val": "$89.81",
+          "chg": "-1.43%",
+          "up": false
+        }
+      ],
+      "bullets": [
+        "WTI 선물 $89.81/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -311,28 +311,28 @@
       "change": 1.23
     },
     "gold": {
-      "price": 4163.8,
-      "change": 0.04
+      "price": 4170.8,
+      "change": 0.2
     },
     "silver": {
-      "price": 61.31,
-      "change": 2.22
+      "price": 61.43,
+      "change": 2.42
     },
     "wti": {
-      "price": 89.95,
-      "change": -1.27
+      "price": 89.81,
+      "change": -1.43
     },
     "usdkrw": {
-      "price": 1345.05,
-      "change": -1.14
+      "price": 1343.44,
+      "change": -1.26
     },
     "dxy": {
-      "price": 102.37,
-      "change": 0.43
+      "price": 102.29,
+      "change": 0.35
     },
     "usdjpy": {
-      "price": 157.94,
-      "change": 0.01
+      "price": 157.72,
+      "change": -0.13
     }
   },
   "history_20d": {
@@ -596,8 +596,8 @@
       {
         "date": "10-05",
         "copper": 6.57,
-        "gold": 4163.8,
-        "silver": 61.31
+        "gold": 4170.8,
+        "silver": 61.43
       }
     ],
     "fx": [
@@ -717,9 +717,9 @@
       },
       {
         "date": "10-05",
-        "usdkrw": 1345.05,
-        "dxy": 102.37,
-        "usdjpy": 157.94
+        "usdkrw": 1343.44,
+        "dxy": 102.29,
+        "usdjpy": 157.72
       }
     ],
     "oil": [
@@ -820,8 +820,8 @@
       },
       {
         "date": "10-05",
-        "wti": 89.95,
-        "change": -1.27
+        "wti": 89.81,
+        "change": -1.43
       }
     ]
   },
@@ -1415,53 +1415,53 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "검찰개혁 빙자한 사심 인사 안돼",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B2%80%EC%B0%B0%EA%B0%9C%ED%98%81%20%EB%B9%99%EC%9E%90%ED%95%9C%20%EC%82%AC%EC%8B%AC%20%EC%9D%B8%EC%82%AC%20%EC%95%88%EB%8F%BC"
+        "title": "한전 직원 개인정보 유출",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%9C%EC%A0%84%20%EC%A7%81%EC%9B%90%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4%20%EC%9C%A0%EC%B6%9C"
       },
       {
         "rank": 2,
-        "title": "이강철 감독 매직넘버",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EA%B0%95%EC%B2%A0%20%EA%B0%90%EB%8F%85%20%EB%A7%A4%EC%A7%81%EB%84%98%EB%B2%84"
+        "title": "이대통령 지지율",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EB%8C%80%ED%86%B5%EB%A0%B9%20%EC%A7%80%EC%A7%80%EC%9C%A8"
       },
       {
         "rank": 3,
-        "title": "일라이 양육비 85만원",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%BC%EB%9D%BC%EC%9D%B4%20%EC%96%91%EC%9C%A1%EB%B9%84%2085%EB%A7%8C%EC%9B%90"
+        "title": "지노 티띠꾼 롯데 챔피언십 우승",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A7%80%EB%85%B8%20%ED%8B%B0%EB%9D%A0%EA%BE%BC%20%EB%A1%AF%EB%8D%B0%20%EC%B1%94%ED%94%BC%EC%96%B8%EC%8B%AD%20%EC%9A%B0%EC%8A%B9"
       },
       {
         "rank": 4,
-        "title": "AMRO, 韓 성장률 3.3% 상향",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=AMRO%2C%20%E9%9F%93%20%EC%84%B1%EC%9E%A5%EB%A5%A0%203.3%25%20%EC%83%81%ED%96%A5"
+        "title": "자유 평가는 암살자들 신변위협 파괴",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9E%90%EC%9C%A0%20%ED%8F%89%EA%B0%80%EB%8A%94%20%EC%95%94%EC%82%B4%EC%9E%90%EB%93%A4%20%EC%8B%A0%EB%B3%80%EC%9C%84%ED%98%91%20%ED%8C%8C%EA%B4%B4"
       },
       {
         "rank": 5,
-        "title": "애틀랜타 다저스 NLDS 1승1패",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%A0%ED%8B%80%EB%9E%9C%ED%83%80%20%EB%8B%A4%EC%A0%80%EC%8A%A4%20NLDS%201%EC%8A%B91%ED%8C%A8"
+        "title": "애틀랜타, 다저스와 NLDS 1승1패",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%A0%ED%8B%80%EB%9E%9C%ED%83%80%2C%20%EB%8B%A4%EC%A0%80%EC%8A%A4%EC%99%80%20NLDS%201%EC%8A%B91%ED%8C%A8"
       },
       {
         "rank": 6,
+        "title": "매운탕",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%A7%A4%EC%9A%B4%ED%83%95"
+      },
+      {
+        "rank": 7,
         "title": "경찰 마약사범 검거",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B2%BD%EC%B0%B0%20%EB%A7%88%EC%95%BD%EC%82%AC%EB%B2%94%20%EA%B2%80%EA%B1%B0"
       },
       {
-        "rank": 7,
-        "title": "이동건",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EB%8F%99%EA%B1%B4"
-      },
-      {
         "rank": 8,
-        "title": "주민번호 유출 505만건",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A3%BC%EB%AF%BC%EB%B2%88%ED%98%B8%20%EC%9C%A0%EC%B6%9C%20505%EB%A7%8C%EA%B1%B4"
+        "title": "연휴 마무리 날",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%97%B0%ED%9C%B4%20%EB%A7%88%EB%AC%B4%EB%A6%AC%20%EB%82%A0"
       },
       {
         "rank": 9,
-        "title": "오타니 쇼헤이",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%98%A4%ED%83%80%EB%8B%88%20%EC%87%BC%ED%97%A4%EC%9D%B4"
+        "title": "별사랑",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B3%84%EC%82%AC%EB%9E%91"
       },
       {
         "rank": 10,
-        "title": "이대통령 지지율",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EB%8C%80%ED%86%B5%EB%A0%B9%20%EC%A7%80%EC%A7%80%EC%9C%A8"
+        "title": "임은정 김지용 비판자",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9E%84%EC%9D%80%EC%A0%95%20%EA%B9%80%EC%A7%80%EC%9A%A9%20%EB%B9%84%ED%8C%90%EC%9E%90"
       }
     ],
     "youtube_popular": [
@@ -1477,7 +1477,7 @@
         "rank": 2,
         "title": "[비전퀘스트] 메인 예고편",
         "channel": "MarvelKorea",
-        "views": "108만회",
+        "views": "109만회",
         "thumb": "https://i.ytimg.com/vi/_uC7fyA37Ts/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=_uC7fyA37Ts"
       },
@@ -1485,7 +1485,7 @@
         "rank": 3,
         "title": "사람 미치게 하는 노인",
         "channel": "괴물쥐 유튜브",
-        "views": "45만회",
+        "views": "46만회",
         "thumb": "https://i.ytimg.com/vi/_prDFd4mgVk/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=_prDFd4mgVk"
       },
@@ -1501,7 +1501,7 @@
         "rank": 5,
         "title": "플루토와 플루토가 싸우면 어떤 종족이 최강일까?",
         "channel": "[ALTUBE] 김성현TV",
-        "views": "56만회",
+        "views": "57만회",
         "thumb": "https://i.ytimg.com/vi/f7o66ATk2Do/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=f7o66ATk2Do"
       },
@@ -1517,7 +1517,7 @@
         "rank": 7,
         "title": "'1억 쓰고 받은 넥슨의 선물' 현 메타 레알 최고 공격수 벤제마",
         "channel": "튜브김민교",
-        "views": "47만회",
+        "views": "48만회",
         "thumb": "https://i.ytimg.com/vi/yyAGypUiai0/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=yyAGypUiai0"
       },
@@ -1541,7 +1541,7 @@
         "rank": 10,
         "title": "임영웅 [Baila] Live Clip. @2026 IMHERO 10 : THE STADIUM CONCERT 2",
         "channel": "임영웅",
-        "views": "61만회",
+        "views": "62만회",
         "thumb": "https://i.ytimg.com/vi/-wGXnDzPovw/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=-wGXnDzPovw"
       }
