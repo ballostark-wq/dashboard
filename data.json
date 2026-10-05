@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06 02:06:19",
+  "updated_at": "2026-10-06 03:09:06",
   "us2y": {
     "value": 4.83,
     "change": 0.05
@@ -9,20 +9,20 @@
     "change": 0.04
   },
   "us10y": {
-    "value": 5.33,
-    "change": 0.05
+    "value": 5.35,
+    "change": 0.07
   },
   "us30y": {
-    "value": 5.69,
-    "change": 0.06
+    "value": 5.7,
+    "change": 0.07
   },
   "spread": {
-    "value": 50,
+    "value": 52,
     "status": "정상화 (우상향)"
   },
   "vix": {
-    "value": 15.5,
-    "change": 1.24
+    "value": 15.54,
+    "change": 1.5
   },
   "tech_news": [
     {
@@ -184,21 +184,21 @@
   },
   "macro_reviews": {
     "bonds": {
-      "badge": "스프레드 +50 bp",
-      "title": "미국채 10년물 5.33%선 공방과 정상화",
+      "badge": "스프레드 +52 bp",
+      "title": "미국채 10년물 5.35%선 공방과 정상화",
       "metrics": [
         {
           "id": "spread",
           "name": "10Y-2Y차",
-          "val": "+50 bp",
+          "val": "+52 bp",
           "chg": "정상화 (우상향)",
           "up": true
         },
         {
           "id": "us10y",
           "name": "10년물",
-          "val": "5.33%",
-          "chg": "+0.05%",
+          "val": "5.35%",
+          "chg": "+0.07%",
           "up": true
         },
         {
@@ -211,16 +211,16 @@
         {
           "id": "us30y",
           "name": "30년물",
-          "val": "5.69%",
-          "chg": "+0.06%",
+          "val": "5.70%",
+          "chg": "+0.07%",
           "up": true
         }
       ],
       "bullets": [
-        "10년물 5.33%와 2년물 4.83% 형성으로 스프레드 +50 bp 유지",
-        "초장기 30년물 5.69%선 안착 속 재정 적자 발행에 따른 기간 프리미엄"
+        "10년물 5.35%와 2년물 4.83% 형성으로 스프레드 +52 bp 유지",
+        "초장기 30년물 5.7%선 안착 속 재정 적자 발행에 따른 기간 프리미엄"
       ],
-      "detail": "10Y-2Y 스프레드가 +50 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
+      "detail": "10Y-2Y 스프레드가 +52 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
       "badge": "구리 $6.64",
@@ -236,9 +236,9 @@
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,159.2",
-          "chg": "-0.07%",
-          "up": false
+          "val": "$4,163.4",
+          "chg": "+0.03%",
+          "up": true
         },
         {
           "id": "silver",
@@ -250,56 +250,56 @@
       ],
       "bullets": [
         "구리 $6.64/lb (+2.31%) - AI 전력망 설비 수요 반영",
-        "금 $4,159/oz, 은 $61.34/oz - 통화가치 헤지"
+        "금 $4,163/oz, 은 $61.34/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,342원 | 엔/달러 ¥158.1",
-      "title": "원/달러 1,342.3원선과 엔/달러 ¥158.1",
+      "badge": "원/달러 1,341원 | 엔/달러 ¥158.0",
+      "title": "원/달러 1,341.3원선과 엔/달러 ¥158.0",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,342.3원",
-          "chg": "-1.35%",
+          "val": "1,341.3원",
+          "chg": "-1.42%",
           "up": false
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "102.24pt",
-          "chg": "+0.30%",
+          "val": "102.21pt",
+          "chg": "+0.27%",
           "up": true
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥158.12",
-          "chg": "+0.12%",
+          "val": "¥158.01",
+          "chg": "+0.05%",
           "up": true
         }
       ],
       "bullets": [
-        "달러 인덱스 102.24pt - 미국 성장 우위 지속",
-        "엔/달러 158.12엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 102.21pt - 미국 성장 우위 지속",
+        "엔/달러 158.01엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $90.07",
-      "title": "WTI 배럴당 $90.07선 박스권 안정",
+      "badge": "WTI $90.02",
+      "title": "WTI 배럴당 $90.02선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$90.07",
-          "chg": "-1.14%",
+          "val": "$90.02",
+          "chg": "-1.20%",
           "up": false
         }
       ],
       "bullets": [
-        "WTI 선물 $90.07/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $90.02/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -311,28 +311,28 @@
       "change": 2.31
     },
     "gold": {
-      "price": 4159.2,
-      "change": -0.07
+      "price": 4163.4,
+      "change": 0.03
     },
     "silver": {
       "price": 61.34,
       "change": 2.27
     },
     "wti": {
-      "price": 90.07,
-      "change": -1.14
+      "price": 90.02,
+      "change": -1.2
     },
     "usdkrw": {
-      "price": 1342.27,
-      "change": -1.35
+      "price": 1341.32,
+      "change": -1.42
     },
     "dxy": {
-      "price": 102.24,
-      "change": 0.3
+      "price": 102.21,
+      "change": 0.27
     },
     "usdjpy": {
-      "price": 158.12,
-      "change": 0.12
+      "price": 158.01,
+      "change": 0.05
     }
   },
   "history_20d": {
@@ -472,10 +472,10 @@
       },
       {
         "date": "10-05",
-        "us10y": 5.33,
+        "us10y": 5.35,
         "us2y": 4.83,
-        "us30y": 5.69,
-        "spread": 50
+        "us30y": 5.7,
+        "spread": 52
       }
     ],
     "commodities": [
@@ -596,7 +596,7 @@
       {
         "date": "10-05",
         "copper": 6.64,
-        "gold": 4159.2,
+        "gold": 4163.4,
         "silver": 61.34
       }
     ],
@@ -717,9 +717,9 @@
       },
       {
         "date": "10-05",
-        "usdkrw": 1342.27,
-        "dxy": 102.24,
-        "usdjpy": 158.12
+        "usdkrw": 1341.32,
+        "dxy": 102.21,
+        "usdjpy": 158.01
       }
     ],
     "oil": [
@@ -820,8 +820,8 @@
       },
       {
         "date": "10-05",
-        "wti": 90.07,
-        "change": -1.14
+        "wti": 90.02,
+        "change": -1.2
       }
     ]
   },
@@ -1417,8 +1417,8 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "노벨 의학상 3인 수상",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%85%B8%EB%B2%A8%20%EC%9D%98%ED%95%99%EC%83%81%203%EC%9D%B8%20%EC%88%98%EC%83%81"
+        "title": "노벨 생리의학상 3인 수상",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%85%B8%EB%B2%A8%20%EC%83%9D%EB%A6%AC%EC%9D%98%ED%95%99%EC%83%81%203%EC%9D%B8%20%EC%88%98%EC%83%81"
       },
       {
         "rank": 2,
@@ -1427,8 +1427,8 @@
       },
       {
         "rank": 3,
-        "title": "김도영 9회 역전홈런",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EB%8F%84%EC%98%81%209%ED%9A%8C%20%EC%97%AD%EC%A0%84%ED%99%88%EB%9F%B0"
+        "title": "LG전자 5GW 냉각",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=LG%EC%A0%84%EC%9E%90%205GW%20%EB%83%89%EA%B0%81"
       },
       {
         "rank": 4,
@@ -1437,23 +1437,23 @@
       },
       {
         "rank": 5,
+        "title": "주병진 200평 저택 떠나 임시 거처 생활",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A3%BC%EB%B3%91%EC%A7%84%20200%ED%8F%89%20%EC%A0%80%ED%83%9D%20%EB%96%A0%EB%82%98%20%EC%9E%84%EC%8B%9C%20%EA%B1%B0%EC%B2%98%20%EC%83%9D%ED%99%9C"
+      },
+      {
+        "rank": 6,
         "title": "치어리더",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B9%98%EC%96%B4%EB%A6%AC%EB%8D%94"
       },
       {
-        "rank": 6,
+        "rank": 7,
         "title": "주민번호 유출 505만건",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A3%BC%EB%AF%BC%EB%B2%88%ED%98%B8%20%EC%9C%A0%EC%B6%9C%20505%EB%A7%8C%EA%B1%B4"
       },
       {
-        "rank": 7,
-        "title": "우리들의 발라드2",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9A%B0%EB%A6%AC%EB%93%A4%EC%9D%98%20%EB%B0%9C%EB%9D%BC%EB%93%9C2"
-      },
-      {
         "rank": 8,
-        "title": "LG전자 5GW 냉각 수주",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=LG%EC%A0%84%EC%9E%90%205GW%20%EB%83%89%EA%B0%81%20%EC%88%98%EC%A3%BC"
+        "title": "김재열 WOF 회장 선출",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%9E%AC%EC%97%B4%20WOF%20%ED%9A%8C%EC%9E%A5%20%EC%84%A0%EC%B6%9C"
       },
       {
         "rank": 9,
@@ -1462,8 +1462,8 @@
       },
       {
         "rank": 10,
-        "title": "주병진, 대저택 떠나 외로움",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A3%BC%EB%B3%91%EC%A7%84%2C%20%EB%8C%80%EC%A0%80%ED%83%9D%20%EB%96%A0%EB%82%98%20%EC%99%B8%EB%A1%9C%EC%9B%80"
+        "title": "나는 반딧불 마지막 공연",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%82%98%EB%8A%94%20%EB%B0%98%EB%94%A7%EB%B6%88%20%EB%A7%88%EC%A7%80%EB%A7%89%20%EA%B3%B5%EC%97%B0"
       }
     ],
     "youtube_popular": [
@@ -1479,7 +1479,7 @@
         "rank": 2,
         "title": "사람 미치게 하는 노인",
         "channel": "괴물쥐 유튜브",
-        "views": "59만회",
+        "views": "60만회",
         "thumb": "https://i.ytimg.com/vi/_prDFd4mgVk/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=_prDFd4mgVk"
       },
@@ -1495,7 +1495,7 @@
         "rank": 4,
         "title": "\"현 클리드는 LCK에서 먹힐까?\" 실제 프로들과 멸망전 했습니다 ㄷㄷ",
         "channel": "클리드",
-        "views": "39만회",
+        "views": "40만회",
         "thumb": "https://i.ytimg.com/vi/pywxif8NAUo/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=pywxif8NAUo"
       },
@@ -1503,7 +1503,7 @@
         "rank": 5,
         "title": "Rendezvous",
         "channel": "Mili - Topic",
-        "views": "15만회",
+        "views": "16만회",
         "thumb": "https://i.ytimg.com/vi/3UqfwnJlAKc/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=3UqfwnJlAKc"
       },
@@ -1527,7 +1527,7 @@
         "rank": 8,
         "title": "경쟁과 정치",
         "channel": "이도원",
-        "views": "27만회",
+        "views": "29만회",
         "thumb": "https://i.ytimg.com/vi/dkv5RdBPD14/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=dkv5RdBPD14"
       },
