@@ -1,28 +1,28 @@
 {
-  "updated_at": "2026-10-06 01:07:05",
+  "updated_at": "2026-10-06 02:06:19",
   "us2y": {
     "value": 4.83,
     "change": 0.05
   },
   "us5y": {
-    "value": 5.08,
-    "change": 0.03
-  },
-  "us10y": {
-    "value": 5.32,
+    "value": 5.09,
     "change": 0.04
   },
-  "us30y": {
-    "value": 5.68,
+  "us10y": {
+    "value": 5.33,
     "change": 0.05
   },
+  "us30y": {
+    "value": 5.69,
+    "change": 0.06
+  },
   "spread": {
-    "value": 49,
+    "value": 50,
     "status": "정상화 (우상향)"
   },
   "vix": {
-    "value": 15.58,
-    "change": 1.76
+    "value": 15.5,
+    "change": 1.24
   },
   "tech_news": [
     {
@@ -184,21 +184,21 @@
   },
   "macro_reviews": {
     "bonds": {
-      "badge": "스프레드 +49 bp",
-      "title": "미국채 10년물 5.32%선 공방과 정상화",
+      "badge": "스프레드 +50 bp",
+      "title": "미국채 10년물 5.33%선 공방과 정상화",
       "metrics": [
         {
           "id": "spread",
           "name": "10Y-2Y차",
-          "val": "+49 bp",
+          "val": "+50 bp",
           "chg": "정상화 (우상향)",
           "up": true
         },
         {
           "id": "us10y",
           "name": "10년물",
-          "val": "5.32%",
-          "chg": "+0.04%",
+          "val": "5.33%",
+          "chg": "+0.05%",
           "up": true
         },
         {
@@ -211,95 +211,95 @@
         {
           "id": "us30y",
           "name": "30년물",
-          "val": "5.68%",
-          "chg": "+0.05%",
-          "up": true
-        }
-      ],
-      "bullets": [
-        "10년물 5.32%와 2년물 4.83% 형성으로 스프레드 +49 bp 유지",
-        "초장기 30년물 5.68%선 안착 속 재정 적자 발행에 따른 기간 프리미엄"
-      ],
-      "detail": "10Y-2Y 스프레드가 +49 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
-    },
-    "commodities": {
-      "badge": "구리 $6.65",
-      "title": "닥터 코퍼 $6.65선 및 귀금속 헤지 수요",
-      "metrics": [
-        {
-          "id": "copper",
-          "name": "구리(동)",
-          "val": "$6.65",
-          "chg": "+2.47%",
-          "up": true
-        },
-        {
-          "id": "gold",
-          "name": "금(Gold)",
-          "val": "$4,167.0",
-          "chg": "+0.11%",
-          "up": true
-        },
-        {
-          "id": "silver",
-          "name": "은(Silver)",
-          "val": "$61.51",
-          "chg": "+2.55%",
-          "up": true
-        }
-      ],
-      "bullets": [
-        "구리 $6.65/lb (+2.47%) - AI 전력망 설비 수요 반영",
-        "금 $4,167/oz, 은 $61.51/oz - 통화가치 헤지"
-      ],
-      "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
-    },
-    "fx": {
-      "badge": "원/달러 1,342원 | 엔/달러 ¥158.0",
-      "title": "원/달러 1,342.4원선과 엔/달러 ¥158.0",
-      "metrics": [
-        {
-          "id": "usdkrw",
-          "name": "원/달러",
-          "val": "1,342.4원",
-          "chg": "-1.34%",
-          "up": false
-        },
-        {
-          "id": "dxy",
-          "name": "달러인덱스",
-          "val": "102.18pt",
-          "chg": "+0.25%",
-          "up": true
-        },
-        {
-          "id": "usdjpy",
-          "name": "엔/달러",
-          "val": "¥158.03",
+          "val": "5.69%",
           "chg": "+0.06%",
           "up": true
         }
       ],
       "bullets": [
-        "달러 인덱스 102.18pt - 미국 성장 우위 지속",
-        "엔/달러 158.03엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "10년물 5.33%와 2년물 4.83% 형성으로 스프레드 +50 bp 유지",
+        "초장기 30년물 5.69%선 안착 속 재정 적자 발행에 따른 기간 프리미엄"
+      ],
+      "detail": "10Y-2Y 스프레드가 +50 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
+    },
+    "commodities": {
+      "badge": "구리 $6.64",
+      "title": "닥터 코퍼 $6.64선 및 귀금속 헤지 수요",
+      "metrics": [
+        {
+          "id": "copper",
+          "name": "구리(동)",
+          "val": "$6.64",
+          "chg": "+2.31%",
+          "up": true
+        },
+        {
+          "id": "gold",
+          "name": "금(Gold)",
+          "val": "$4,159.2",
+          "chg": "-0.07%",
+          "up": false
+        },
+        {
+          "id": "silver",
+          "name": "은(Silver)",
+          "val": "$61.34",
+          "chg": "+2.27%",
+          "up": true
+        }
+      ],
+      "bullets": [
+        "구리 $6.64/lb (+2.31%) - AI 전력망 설비 수요 반영",
+        "금 $4,159/oz, 은 $61.34/oz - 통화가치 헤지"
+      ],
+      "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
+    },
+    "fx": {
+      "badge": "원/달러 1,342원 | 엔/달러 ¥158.1",
+      "title": "원/달러 1,342.3원선과 엔/달러 ¥158.1",
+      "metrics": [
+        {
+          "id": "usdkrw",
+          "name": "원/달러",
+          "val": "1,342.3원",
+          "chg": "-1.35%",
+          "up": false
+        },
+        {
+          "id": "dxy",
+          "name": "달러인덱스",
+          "val": "102.24pt",
+          "chg": "+0.30%",
+          "up": true
+        },
+        {
+          "id": "usdjpy",
+          "name": "엔/달러",
+          "val": "¥158.12",
+          "chg": "+0.12%",
+          "up": true
+        }
+      ],
+      "bullets": [
+        "달러 인덱스 102.24pt - 미국 성장 우위 지속",
+        "엔/달러 158.12엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $90.06",
-      "title": "WTI 배럴당 $90.06선 박스권 안정",
+      "badge": "WTI $90.07",
+      "title": "WTI 배럴당 $90.07선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$90.06",
-          "chg": "-1.15%",
+          "val": "$90.07",
+          "chg": "-1.14%",
           "up": false
         }
       ],
       "bullets": [
-        "WTI 선물 $90.06/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $90.07/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -307,32 +307,32 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.65,
-      "change": 2.47
+      "price": 6.64,
+      "change": 2.31
     },
     "gold": {
-      "price": 4167.0,
-      "change": 0.11
+      "price": 4159.2,
+      "change": -0.07
     },
     "silver": {
-      "price": 61.51,
-      "change": 2.55
+      "price": 61.34,
+      "change": 2.27
     },
     "wti": {
-      "price": 90.06,
-      "change": -1.15
+      "price": 90.07,
+      "change": -1.14
     },
     "usdkrw": {
-      "price": 1342.36,
-      "change": -1.34
+      "price": 1342.27,
+      "change": -1.35
     },
     "dxy": {
-      "price": 102.18,
-      "change": 0.25
+      "price": 102.24,
+      "change": 0.3
     },
     "usdjpy": {
-      "price": 158.03,
-      "change": 0.06
+      "price": 158.12,
+      "change": 0.12
     }
   },
   "history_20d": {
@@ -472,10 +472,10 @@
       },
       {
         "date": "10-05",
-        "us10y": 5.32,
+        "us10y": 5.33,
         "us2y": 4.83,
-        "us30y": 5.68,
-        "spread": 49
+        "us30y": 5.69,
+        "spread": 50
       }
     ],
     "commodities": [
@@ -595,9 +595,9 @@
       },
       {
         "date": "10-05",
-        "copper": 6.65,
-        "gold": 4167.0,
-        "silver": 61.51
+        "copper": 6.64,
+        "gold": 4159.2,
+        "silver": 61.34
       }
     ],
     "fx": [
@@ -717,9 +717,9 @@
       },
       {
         "date": "10-05",
-        "usdkrw": 1342.36,
-        "dxy": 102.18,
-        "usdjpy": 158.03
+        "usdkrw": 1342.27,
+        "dxy": 102.24,
+        "usdjpy": 158.12
       }
     ],
     "oil": [
@@ -820,8 +820,8 @@
       },
       {
         "date": "10-05",
-        "wti": 90.06,
-        "change": -1.15
+        "wti": 90.07,
+        "change": -1.14
       }
     ]
   },
@@ -1417,18 +1417,18 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "노벨 생리의학상 3인 수상",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%85%B8%EB%B2%A8%20%EC%83%9D%EB%A6%AC%EC%9D%98%ED%95%99%EC%83%81%203%EC%9D%B8%20%EC%88%98%EC%83%81"
+        "title": "노벨 의학상 3인 수상",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%85%B8%EB%B2%A8%20%EC%9D%98%ED%95%99%EC%83%81%203%EC%9D%B8%20%EC%88%98%EC%83%81"
       },
       {
         "rank": 2,
-        "title": "KT 정규우승 축하",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=KT%20%EC%A0%95%EA%B7%9C%EC%9A%B0%EC%8A%B9%20%EC%B6%95%ED%95%98"
+        "title": "KT 정규시즌 우승!",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=KT%20%EC%A0%95%EA%B7%9C%EC%8B%9C%EC%A6%8C%20%EC%9A%B0%EC%8A%B9%21"
       },
       {
         "rank": 3,
-        "title": "DMZ 지뢰 최종 판단",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=DMZ%20%EC%A7%80%EB%A2%B0%20%EC%B5%9C%EC%A2%85%20%ED%8C%90%EB%8B%A8"
+        "title": "김도영 9회 역전홈런",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EB%8F%84%EC%98%81%209%ED%9A%8C%20%EC%97%AD%EC%A0%84%ED%99%88%EB%9F%B0"
       },
       {
         "rank": 4,
@@ -1437,33 +1437,33 @@
       },
       {
         "rank": 5,
-        "title": "김도영 9회 역전",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EB%8F%84%EC%98%81%209%ED%9A%8C%20%EC%97%AD%EC%A0%84"
-      },
-      {
-        "rank": 6,
         "title": "치어리더",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B9%98%EC%96%B4%EB%A6%AC%EB%8D%94"
       },
       {
-        "rank": 7,
+        "rank": 6,
         "title": "주민번호 유출 505만건",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A3%BC%EB%AF%BC%EB%B2%88%ED%98%B8%20%EC%9C%A0%EC%B6%9C%20505%EB%A7%8C%EA%B1%B4"
       },
       {
+        "rank": 7,
+        "title": "우리들의 발라드2",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9A%B0%EB%A6%AC%EB%93%A4%EC%9D%98%20%EB%B0%9C%EB%9D%BC%EB%93%9C2"
+      },
+      {
         "rank": 8,
+        "title": "LG전자 5GW 냉각 수주",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=LG%EC%A0%84%EC%9E%90%205GW%20%EB%83%89%EA%B0%81%20%EC%88%98%EC%A3%BC"
+      },
+      {
+        "rank": 9,
         "title": "노바크 조코비치",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%85%B8%EB%B0%94%ED%81%AC%20%EC%A1%B0%EC%BD%94%EB%B9%84%EC%B9%98"
       },
       {
-        "rank": 9,
-        "title": "연애박사 오늘 공개!",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%97%B0%EC%95%A0%EB%B0%95%EC%82%AC%20%EC%98%A4%EB%8A%98%20%EA%B3%B5%EA%B0%9C%21"
-      },
-      {
         "rank": 10,
-        "title": "김현태",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%ED%98%84%ED%83%9C"
+        "title": "주병진, 대저택 떠나 외로움",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A3%BC%EB%B3%91%EC%A7%84%2C%20%EB%8C%80%EC%A0%80%ED%83%9D%20%EB%96%A0%EB%82%98%20%EC%99%B8%EB%A1%9C%EC%9B%80"
       }
     ],
     "youtube_popular": [
@@ -1471,7 +1471,7 @@
         "rank": 1,
         "title": "Call Me",
         "channel": "CHANGMO - Topic",
-        "views": "47만회",
+        "views": "48만회",
         "thumb": "https://i.ytimg.com/vi/C8j3hMJIeFg/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=C8j3hMJIeFg"
       },
@@ -1479,7 +1479,7 @@
         "rank": 2,
         "title": "사람 미치게 하는 노인",
         "channel": "괴물쥐 유튜브",
-        "views": "57만회",
+        "views": "59만회",
         "thumb": "https://i.ytimg.com/vi/_prDFd4mgVk/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=_prDFd4mgVk"
       },
@@ -1527,7 +1527,7 @@
         "rank": 8,
         "title": "경쟁과 정치",
         "channel": "이도원",
-        "views": "25만회",
+        "views": "27만회",
         "thumb": "https://i.ytimg.com/vi/dkv5RdBPD14/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=dkv5RdBPD14"
       },
