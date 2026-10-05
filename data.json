@@ -1,28 +1,28 @@
 {
-  "updated_at": "2026-10-05 23:10:23",
+  "updated_at": "2026-10-06 00:09:10",
   "us2y": {
     "value": 4.83,
     "change": 0.05
   },
   "us5y": {
-    "value": 5.06,
-    "change": 0.01
+    "value": 5.08,
+    "change": 0.03
   },
   "us10y": {
-    "value": 5.3,
-    "change": 0.02
+    "value": 5.32,
+    "change": 0.04
   },
   "us30y": {
     "value": 5.67,
     "change": 0.04
   },
   "spread": {
-    "value": 47,
+    "value": 49,
     "status": "정상화 (우상향)"
   },
   "vix": {
-    "value": 15.87,
-    "change": 3.66
+    "value": 15.52,
+    "change": 1.37
   },
   "tech_news": [
     {
@@ -133,17 +133,22 @@
         "date": "10-05 12:26"
       },
       {
+        "title": "[전자신문] 경기도, 이천 죽당천 조사…염소·황산이온 배출기준 마련 정부에 건의",
+        "link": "https://www.etnews.com/20261005000141",
+        "date": "10-05 23:16"
+      },
+      {
         "title": "[전자신문] 아무리 봐도 밤인데…잘못 먹었다가 '호흡곤란' 응급실 찾는 '이 열매'",
         "link": "https://www.etnews.com/20261005000136",
         "date": "10-05 22:30"
-      },
-      {
-        "title": "[전자신문] LG전자, 美 '에어 컨트롤 콘셉트'와 5GW AIDC 냉각솔루션 장기 공급계약",
-        "link": "https://www.etnews.com/20261005000109",
-        "date": "10-05 22:00"
       }
     ],
     "domestic": [
+      {
+        "title": "미 달러화 강세…유로 '프랑스 불안 + 인상 기대 후퇴'에 17개월來 최저",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4437772",
+        "date": "10-05 23:31"
+      },
       {
         "title": "ECB 수석 이코노미스트, 추가 인상에 신중…\"수요 위축, 조정 폭 제한\"",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4437770",
@@ -163,11 +168,6 @@
         "title": "[도쿄환시] 달러-엔, 여전한 美 금리 부담·유가 우려에 상승",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4437761",
         "date": "10-05 15:33"
-      },
-      {
-        "title": "[채권-주간] 정부發 훈풍 이어질까…글로벌 채권시장 주목",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4437753",
-        "date": "10-05 13:00"
       }
     ]
   },
@@ -184,21 +184,21 @@
   },
   "macro_reviews": {
     "bonds": {
-      "badge": "스프레드 +47 bp",
-      "title": "미국채 10년물 5.3%선 공방과 정상화",
+      "badge": "스프레드 +49 bp",
+      "title": "미국채 10년물 5.32%선 공방과 정상화",
       "metrics": [
         {
           "id": "spread",
           "name": "10Y-2Y차",
-          "val": "+47 bp",
+          "val": "+49 bp",
           "chg": "정상화 (우상향)",
           "up": true
         },
         {
           "id": "us10y",
           "name": "10년물",
-          "val": "5.30%",
-          "chg": "+0.02%",
+          "val": "5.32%",
+          "chg": "+0.04%",
           "up": true
         },
         {
@@ -217,89 +217,89 @@
         }
       ],
       "bullets": [
-        "10년물 5.3%와 2년물 4.83% 형성으로 스프레드 +47 bp 유지",
+        "10년물 5.32%와 2년물 4.83% 형성으로 스프레드 +49 bp 유지",
         "초장기 30년물 5.67%선 안착 속 재정 적자 발행에 따른 기간 프리미엄"
       ],
-      "detail": "10Y-2Y 스프레드가 +47 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
+      "detail": "10Y-2Y 스프레드가 +49 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.62",
-      "title": "닥터 코퍼 $6.62선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.65",
+      "title": "닥터 코퍼 $6.65선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.62",
-          "chg": "+2.00%",
+          "val": "$6.65",
+          "chg": "+2.47%",
           "up": true
         },
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,163.9",
-          "chg": "+0.04%",
+          "val": "$4,175.6",
+          "chg": "+0.32%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$61.42",
-          "chg": "+2.40%",
+          "val": "$61.61",
+          "chg": "+2.72%",
           "up": true
         }
       ],
       "bullets": [
-        "구리 $6.62/lb (+2.00%) - AI 전력망 설비 수요 반영",
-        "금 $4,164/oz, 은 $61.42/oz - 통화가치 헤지"
+        "구리 $6.65/lb (+2.47%) - AI 전력망 설비 수요 반영",
+        "금 $4,176/oz, 은 $61.61/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,342원 | 엔/달러 ¥158.1",
-      "title": "원/달러 1,341.9원선과 엔/달러 ¥158.1",
+      "badge": "원/달러 1,342원 | 엔/달러 ¥158.0",
+      "title": "원/달러 1,341.6원선과 엔/달러 ¥158.0",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,341.9원",
-          "chg": "-1.37%",
+          "val": "1,341.6원",
+          "chg": "-1.39%",
           "up": false
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "102.34pt",
-          "chg": "+0.40%",
+          "val": "102.20pt",
+          "chg": "+0.26%",
           "up": true
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥158.09",
-          "chg": "+0.10%",
+          "val": "¥157.96",
+          "chg": "+0.02%",
           "up": true
         }
       ],
       "bullets": [
-        "달러 인덱스 102.34pt - 미국 성장 우위 지속",
-        "엔/달러 158.09엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 102.2pt - 미국 성장 우위 지속",
+        "엔/달러 157.96엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $89.71",
-      "title": "WTI 배럴당 $89.71선 박스권 안정",
+      "badge": "WTI $90.44",
+      "title": "WTI 배럴당 $90.44선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$89.71",
-          "chg": "-1.54%",
+          "val": "$90.44",
+          "chg": "-0.74%",
           "up": false
         }
       ],
       "bullets": [
-        "WTI 선물 $89.71/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $90.44/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -307,32 +307,32 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.62,
-      "change": 2.0
+      "price": 6.65,
+      "change": 2.47
     },
     "gold": {
-      "price": 4163.9,
-      "change": 0.04
+      "price": 4175.6,
+      "change": 0.32
     },
     "silver": {
-      "price": 61.42,
-      "change": 2.4
+      "price": 61.61,
+      "change": 2.72
     },
     "wti": {
-      "price": 89.71,
-      "change": -1.54
+      "price": 90.44,
+      "change": -0.74
     },
     "usdkrw": {
-      "price": 1341.91,
-      "change": -1.37
+      "price": 1341.61,
+      "change": -1.39
     },
     "dxy": {
-      "price": 102.34,
-      "change": 0.4
+      "price": 102.2,
+      "change": 0.26
     },
     "usdjpy": {
-      "price": 158.09,
-      "change": 0.1
+      "price": 157.96,
+      "change": 0.02
     }
   },
   "history_20d": {
@@ -472,10 +472,10 @@
       },
       {
         "date": "10-05",
-        "us10y": 5.3,
+        "us10y": 5.32,
         "us2y": 4.83,
         "us30y": 5.67,
-        "spread": 47
+        "spread": 49
       }
     ],
     "commodities": [
@@ -595,9 +595,9 @@
       },
       {
         "date": "10-05",
-        "copper": 6.62,
-        "gold": 4163.9,
-        "silver": 61.42
+        "copper": 6.65,
+        "gold": 4175.6,
+        "silver": 61.61
       }
     ],
     "fx": [
@@ -717,9 +717,9 @@
       },
       {
         "date": "10-05",
-        "usdkrw": 1341.91,
-        "dxy": 102.34,
-        "usdjpy": 158.09
+        "usdkrw": 1341.61,
+        "dxy": 102.2,
+        "usdjpy": 157.96
       }
     ],
     "oil": [
@@ -820,8 +820,8 @@
       },
       {
         "date": "10-05",
-        "wti": 89.71,
-        "change": -1.54
+        "wti": 90.44,
+        "change": -0.74
       }
     ]
   },
@@ -859,24 +859,40 @@
     }
   },
   "humanities": {
-    "history_date": "2026-10-05",
+    "history_date": "2026-10-06",
     "history": {
-      "era": "395년 ~ 1071년 (710년)",
-      "region": "세계",
-      "year": "710년",
-      "title": "[710년] [세계] 일본, 헤이조쿄(지금의 나라시)로 수도를 옮김.",
-      "summary": "710년 - 일본, 헤이조쿄(지금의 나라시)로 수도를 옮김.",
+      "era": "1466년 ~ 1699년 (1592년)",
+      "region": "한국",
+      "year": "1592년",
+      "title": "[1592년] [한국] 임진왜란, 한산도대첩",
+      "summary": "1592년 - 임진왜란, 한산도대첩",
       "bullets": [
-        "발생 연대: 710년 (세계사)",
-        "일본, 헤이조쿄(지금의 나라시)로 수도를 옮김.",
+        "발생 연대: 1592년 (한국사)",
+        "임진왜란, 한산도대첩",
         "당대 세력 균형 및 정치·경제적 제도 변화 반영"
       ],
-      "insight": "710년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
-      "ref_title": "위키백과 세계사 연표: 395년 ~ 1071년 (710년)",
-      "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#395%EB%85%84_~_1071%EB%85%84:~:text=710",
+      "insight": "1592년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
+      "ref_title": "위키백과 세계사 연표: 1466년 ~ 1699년 (1592년)",
+      "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1466%EB%85%84_~_1699%EB%85%84:~:text=1592",
       "d_day": "오늘"
     },
     "history_5d": [
+      {
+        "era": "1466년 ~ 1699년 (1592년)",
+        "region": "한국",
+        "year": "1592년",
+        "title": "[1592년] [한국] 임진왜란, 한산도대첩",
+        "summary": "1592년 - 임진왜란, 한산도대첩",
+        "bullets": [
+          "발생 연대: 1592년 (한국사)",
+          "임진왜란, 한산도대첩",
+          "당대 세력 균형 및 정치·경제적 제도 변화 반영"
+        ],
+        "insight": "1592년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
+        "ref_title": "위키백과 세계사 연표: 1466년 ~ 1699년 (1592년)",
+        "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1466%EB%85%84_~_1699%EB%85%84:~:text=1592",
+        "d_day": "오늘"
+      },
       {
         "era": "395년 ~ 1071년 (710년)",
         "region": "세계",
@@ -891,7 +907,7 @@
         "insight": "710년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 395년 ~ 1071년 (710년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#395%EB%85%84_~_1071%EB%85%84:~:text=710",
-        "d_day": "오늘"
+        "d_day": "D-1"
       },
       {
         "era": "1870년 ~ 1923년 (1903년)",
@@ -907,7 +923,7 @@
         "insight": "1903년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1870년 ~ 1923년 (1903년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1870%EB%85%84_~_1923%EB%85%84:~:text=1903",
-        "d_day": "D-1"
+        "d_day": "D-2"
       },
       {
         "era": "1700년 ~ 1869년 (1700년)",
@@ -923,7 +939,7 @@
         "insight": "1700년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1700년 ~ 1869년 (1700년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1700%EB%85%84_~_1869%EB%85%84:~:text=1700",
-        "d_day": "D-2"
+        "d_day": "D-3"
       },
       {
         "era": "1924년 ~ 1972년 (1946년)",
@@ -939,90 +955,140 @@
         "insight": "1946년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1924년 ~ 1972년 (1946년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1924%EB%85%84_~_1972%EB%85%84:~:text=1946",
-        "d_day": "D-3"
-      },
-      {
-        "era": "1870년 ~ 1923년 (1896년)",
-        "region": "세계",
-        "year": "1896년",
-        "title": "[1896년] [세계] 제1회 하계 올림픽",
-        "summary": "1896년 - 제1회 하계 올림픽",
-        "bullets": [
-          "발생 연대: 1896년 (세계사)",
-          "제1회 하계 올림픽",
-          "당대 세력 균형 및 정치·경제적 제도 변화 반영"
-        ],
-        "insight": "1896년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
-        "ref_title": "위키백과 세계사 연표: 1870년 ~ 1923년 (1896년)",
-        "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1870%EB%85%84_~_1923%EB%85%84:~:text=1896",
         "d_day": "D-4"
       }
     ],
     "polyglot": {
-      "theme": "입버릇 관용구: 난이도",
-      "meaning": "결코 만만치 않은 일이야 (쉽지 않아).",
+      "theme": "물품 요청 (Q&A)",
+      "type": "기초",
+      "meaning": "Q: 물 한 잔 주시겠어요? / A: 네, 여기 있습니다.",
       "translations": {
         "en": {
           "code": "en-US",
           "name": "영어",
           "flag": "🇺🇸",
-          "text": "It's no picnic.",
-          "roman": ""
+          "text": "May I have a glass of water, please? - Sure, here you go.",
+          "roman": "메이 아이 해브 어 글래스 오브 워터, 플리즈? - 슈어, 히어 유 고."
         },
         "ja": {
           "code": "ja-JP",
           "name": "일본어",
           "flag": "🇯🇵",
-          "text": "決して楽なことじゃないよ。",
-          "roman": "Kesshite raku na koto ja nai yo."
+          "text": "お水を一杯いただけますか？ - はい、どうぞ。",
+          "roman": "오미즈오 잇파이 이타다케마스 카? - 하이, 도-조."
         },
         "zh": {
           "code": "zh-CN",
           "name": "중국어",
           "flag": "🇨🇳",
-          "text": "这可绝不是什么轻松好玩的事。",
-          "roman": "Zhè kě jué bù shì shénme qīngsōng hǎowán de shì."
+          "text": "可以给我一杯水吗？ - 好的，请用。",
+          "roman": "커이 게이 워 이베이 슈이 마? - 하오 더, 칭 융."
         },
         "fr": {
           "code": "fr-FR",
           "name": "프랑스어",
           "flag": "🇫🇷",
-          "text": "Ce n'est pas une partie de plaisir.",
-          "roman": ""
+          "text": "Puis-je avoir un verre d'eau, s'il vous plaît ? - Bien sûr, voici.",
+          "roman": "퓌이-즈 아부아 앙 베르 도, 실 부 플레? - 비앙 쉬르, 부아시."
         },
         "de": {
           "code": "de-DE",
           "name": "독일어",
           "flag": "🇩🇪",
-          "text": "Das ist weiß Gott kein Zuckerschlecken.",
-          "roman": ""
+          "text": "Könnte ich bitte ein Glas Wasser haben? - Sicher, bitte sehr.",
+          "roman": "켠테 이히 비테 아인 글라스 바서 하벤? - 지허, 비테 제어."
         },
         "es": {
           "code": "es-ES",
           "name": "스페인어",
           "flag": "🇪🇸",
-          "text": "No es ningún camino de rosas.",
-          "roman": ""
+          "text": "¿Me da un vaso de agua, por favor? - Claro, aquí tiene.",
+          "roman": "메 다 운 바소 데 아구아, 뽀르 파보르? - 클라로, 아키 티에네."
         },
         "ar": {
           "code": "ar-SA",
           "name": "아랍어",
           "flag": "🇸🇦",
-          "text": "الأمر ليس نزهة سهلة على الإطلاق.",
-          "roman": "Al-amru laysa nuzhatan sahlatun 'alā al-iṭlāq."
+          "text": "هل يمكنني الحصول على كوب ماء؟ - بالطبع، تفضل.",
+          "roman": "할 윰키누닐 후술 알라 쿠비 마? - 빗탑으, 타팟달."
         },
         "ru": {
           "code": "ru-RU",
           "name": "러시아어",
           "flag": "🇷🇺",
-          "text": "Это далеко не сахар и не подарок.",
-          "roman": "Eto daleko ne sakhar i ne podarok."
+          "text": "Можно стакан воды, пожалуйста? - Конечно, вот, держите.",
+          "roman": "모즈나 스타칸 바듸, 빠잘루이스타? - 카녜시나, 보트, 제르지쩨."
         }
       },
-      "pool_type": "일상",
+      "pool_type": "기초",
       "d_day": "오늘"
     },
     "polyglot_5d": [
+      {
+        "theme": "물품 요청 (Q&A)",
+        "type": "기초",
+        "meaning": "Q: 물 한 잔 주시겠어요? / A: 네, 여기 있습니다.",
+        "translations": {
+          "en": {
+            "code": "en-US",
+            "name": "영어",
+            "flag": "🇺🇸",
+            "text": "May I have a glass of water, please? - Sure, here you go.",
+            "roman": "메이 아이 해브 어 글래스 오브 워터, 플리즈? - 슈어, 히어 유 고."
+          },
+          "ja": {
+            "code": "ja-JP",
+            "name": "일본어",
+            "flag": "🇯🇵",
+            "text": "お水を一杯いただけますか？ - はい、どうぞ。",
+            "roman": "오미즈오 잇파이 이타다케마스 카? - 하이, 도-조."
+          },
+          "zh": {
+            "code": "zh-CN",
+            "name": "중국어",
+            "flag": "🇨🇳",
+            "text": "可以给我一杯水吗？ - 好的，请用。",
+            "roman": "커이 게이 워 이베이 슈이 마? - 하오 더, 칭 융."
+          },
+          "fr": {
+            "code": "fr-FR",
+            "name": "프랑스어",
+            "flag": "🇫🇷",
+            "text": "Puis-je avoir un verre d'eau, s'il vous plaît ? - Bien sûr, voici.",
+            "roman": "퓌이-즈 아부아 앙 베르 도, 실 부 플레? - 비앙 쉬르, 부아시."
+          },
+          "de": {
+            "code": "de-DE",
+            "name": "독일어",
+            "flag": "🇩🇪",
+            "text": "Könnte ich bitte ein Glas Wasser haben? - Sicher, bitte sehr.",
+            "roman": "켠테 이히 비테 아인 글라스 바서 하벤? - 지허, 비테 제어."
+          },
+          "es": {
+            "code": "es-ES",
+            "name": "스페인어",
+            "flag": "🇪🇸",
+            "text": "¿Me da un vaso de agua, por favor? - Claro, aquí tiene.",
+            "roman": "메 다 운 바소 데 아구아, 뽀르 파보르? - 클라로, 아키 티에네."
+          },
+          "ar": {
+            "code": "ar-SA",
+            "name": "아랍어",
+            "flag": "🇸🇦",
+            "text": "هل يمكنني الحصول على كوب ماء؟ - بالطبع، تفضل.",
+            "roman": "할 윰키누닐 후술 알라 쿠비 마? - 빗탑으, 타팟달."
+          },
+          "ru": {
+            "code": "ru-RU",
+            "name": "러시아어",
+            "flag": "🇷🇺",
+            "text": "Можно стакан воды, пожалуйста? - Конечно, вот, держите.",
+            "roman": "모즈나 스타칸 바듸, 빠잘루이스타? - 카녜시나, 보트, 제르지쩨."
+          }
+        },
+        "pool_type": "기초",
+        "d_day": "오늘"
+      },
       {
         "theme": "입버릇 관용구: 난이도",
         "meaning": "결코 만만치 않은 일이야 (쉽지 않아).",
@@ -1085,7 +1151,7 @@
           }
         },
         "pool_type": "일상",
-        "d_day": "오늘"
+        "d_day": "D-1"
       },
       {
         "theme": "일치 확인 (Q&A)",
@@ -1150,7 +1216,7 @@
           }
         },
         "pool_type": "기초",
-        "d_day": "D-1"
+        "d_day": "D-2"
       },
       {
         "theme": "입버릇 관용구: 인과응보",
@@ -1214,7 +1280,7 @@
           }
         },
         "pool_type": "일상",
-        "d_day": "D-2"
+        "d_day": "D-3"
       },
       {
         "theme": "준비 확인 (Q&A)",
@@ -1279,84 +1345,20 @@
           }
         },
         "pool_type": "기초",
-        "d_day": "D-3"
-      },
-      {
-        "theme": "입버릇 관용구: 일상 표현",
-        "meaning": "나도 다 겪어봤어 (뻔한 얘기야)!",
-        "translations": {
-          "en": {
-            "code": "en-US",
-            "name": "영어",
-            "flag": "🇺🇸",
-            "text": "Been there, done that!",
-            "roman": ""
-          },
-          "ja": {
-            "code": "ja-JP",
-            "name": "일본어",
-            "flag": "🇯🇵",
-            "text": "そんなのもう経験済みだよ！",
-            "roman": "Sonna no mō keiken-zumi da yo!"
-          },
-          "zh": {
-            "code": "zh-CN",
-            "name": "중국어",
-            "flag": "🇨🇳",
-            "text": "我早就经历过了，见怪不怪了！",
-            "roman": "Wǒ zǎojiù jīnglì guò le, jiànguàibùguài le!"
-          },
-          "fr": {
-            "code": "fr-FR",
-            "name": "프랑스어",
-            "flag": "🇫🇷",
-            "text": "Déjà vu, déjà fait !",
-            "roman": ""
-          },
-          "de": {
-            "code": "de-DE",
-            "name": "독일어",
-            "flag": "🇩🇪",
-            "text": "Schon erlebt, alter Hut!",
-            "roman": ""
-          },
-          "es": {
-            "code": "es-ES",
-            "name": "스페인어",
-            "flag": "🇪🇸",
-            "text": "¡Ya pasé por eso, nada nuevo!",
-            "roman": ""
-          },
-          "ar": {
-            "code": "ar-SA",
-            "name": "아랍어",
-            "flag": "🇸🇦",
-            "text": "مررت بذلك وجربته من قبل!",
-            "roman": "Marartu bi-dhālika wa-jarrabtuhu min qabl!"
-          },
-          "ru": {
-            "code": "ru-RU",
-            "name": "러시아어",
-            "flag": "🇷🇺",
-            "text": "Плавали, знаем!",
-            "roman": "Plavali, znayem!"
-          }
-        },
-        "pool_type": "일상",
         "d_day": "D-4"
       }
     ],
     "philosophy": {
-      "thinker": "토머스 홉스 (Thomas Hobbes)",
-      "era": "17세기 영국 내란기",
-      "concept": "리바이어던(Leviathan)과 자연상태",
-      "quote": "“공통의 권력이 없는 곳에는 법도 없고, 법이 없는 곳에는 불의도 없다.”",
+      "thinker": "손자 (孫子)",
+      "era": "기원전 6세기 춘추시대 중국",
+      "concept": "부전이굴인지병 (不戰而屈人之兵)",
+      "quote": "“백 번 싸워 백 번 이기는 것이 최선이 아니요, 싸우지 않고 적을 굴복시키는 것이 최선이다.”",
       "bullets": [
-        "강력한 중앙 권력이 부재할 때 사회는 '만인에 대한 만인의 투쟁' 상태로 전락",
-        "자기 보존의 본능을 지닌 개인들이 평화와 안보를 위해 권력을 국가(리바이어던)에 양도하는 사회계약설",
-        "주권의 통일성과 질서 유지가 자유보다 선행하는 최고의 정치적 가치임을 규정"
+        "국력의 전면적 소모를 초래하는 정면충돌(전쟁)을 피하고 지략과 외교로 승기를 굳히는 모공(謀攻)",
+        "적을 알고 나를 알면 백 번 싸워도 위태롭지 않다는 철저한 정보력(Intelligence) 우위",
+        "형세에 따라 물처럼 유연하게 형태를 바꾸는 비대칭 전략의 추구"
       ],
-      "application": "세계 정부가 없는 무정부적(Anarchic) 국제 질서에서 각국이 군사력과 경제 안보를 자급화하려는 자조(Self-help) 메커니즘을 규명합니다."
+      "application": "출혈 가격 경쟁을 피하고, 생태계 락인(Lock-in)과 우회 기술 개발을 통해 시장을 선점하는 기업 전략의 핵심 근거가 됩니다."
     }
   },
   "trends": {
@@ -1415,53 +1417,53 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "이수영, 16살 子 백혈병 진단",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EC%88%98%EC%98%81%2C%2016%EC%82%B4%20%E5%AD%90%20%EB%B0%B1%ED%98%88%EB%B3%91%20%EC%A7%84%EB%8B%A8"
+        "title": "KT, 5년 만에 정규시즌 우승!",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=KT%2C%205%EB%85%84%20%EB%A7%8C%EC%97%90%20%EC%A0%95%EA%B7%9C%EC%8B%9C%EC%A6%8C%20%EC%9A%B0%EC%8A%B9%21"
       },
       {
         "rank": 2,
-        "title": "KT, 5년 만에 KS 도전!",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=KT%2C%205%EB%85%84%20%EB%A7%8C%EC%97%90%20KS%20%EB%8F%84%EC%A0%84%21"
+        "title": "LG전자 5GW 냉각",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=LG%EC%A0%84%EC%9E%90%205GW%20%EB%83%89%EA%B0%81"
       },
       {
         "rank": 3,
+        "title": "이수영, 아들 백혈병 활동 중단",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EC%88%98%EC%98%81%2C%20%EC%95%84%EB%93%A4%20%EB%B0%B1%ED%98%88%EB%B3%91%20%ED%99%9C%EB%8F%99%20%EC%A4%91%EB%8B%A8"
+      },
+      {
+        "rank": 4,
+        "title": "연애박사 오늘 공개!",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%97%B0%EC%95%A0%EB%B0%95%EC%82%AC%20%EC%98%A4%EB%8A%98%20%EA%B3%B5%EA%B0%9C%21"
+      },
+      {
+        "rank": 5,
         "title": "AMRO 한국 성장률",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=AMRO%20%ED%95%9C%EA%B5%AD%20%EC%84%B1%EC%9E%A5%EB%A5%A0"
       },
       {
-        "rank": 4,
-        "title": "엄마가 미쳤어요",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%97%84%EB%A7%88%EA%B0%80%20%EB%AF%B8%EC%B3%A4%EC%96%B4%EC%9A%94"
-      },
-      {
-        "rank": 5,
-        "title": "부산국제영화제 전야제 개막",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B6%80%EC%82%B0%EA%B5%AD%EC%A0%9C%EC%98%81%ED%99%94%EC%A0%9C%20%EC%A0%84%EC%95%BC%EC%A0%9C%20%EA%B0%9C%EB%A7%89"
-      },
-      {
         "rank": 6,
-        "title": "노바크 조코비치",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%85%B8%EB%B0%94%ED%81%AC%20%EC%A1%B0%EC%BD%94%EB%B9%84%EC%B9%98"
-      },
-      {
-        "rank": 7,
-        "title": "주민번호 유출 505만건",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A3%BC%EB%AF%BC%EB%B2%88%ED%98%B8%20%EC%9C%A0%EC%B6%9C%20505%EB%A7%8C%EA%B1%B4"
-      },
-      {
-        "rank": 8,
-        "title": "김현태",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%ED%98%84%ED%83%9C"
-      },
-      {
-        "rank": 9,
         "title": "노벨 생리의학상",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%85%B8%EB%B2%A8%20%EC%83%9D%EB%A6%AC%EC%9D%98%ED%95%99%EC%83%81"
       },
       {
+        "rank": 7,
+        "title": "치어리더",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B9%98%EC%96%B4%EB%A6%AC%EB%8D%94"
+      },
+      {
+        "rank": 8,
+        "title": "주민번호 유출 505만건",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A3%BC%EB%AF%BC%EB%B2%88%ED%98%B8%20%EC%9C%A0%EC%B6%9C%20505%EB%A7%8C%EA%B1%B4"
+      },
+      {
+        "rank": 9,
+        "title": "박성광♥이솔이, 이혼설 해명 후 KCM 결혼식 참석",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B0%95%EC%84%B1%EA%B4%91%E2%99%A5%EC%9D%B4%EC%86%94%EC%9D%B4%2C%20%EC%9D%B4%ED%98%BC%EC%84%A4%20%ED%95%B4%EB%AA%85%20%ED%9B%84%20KCM%20%EA%B2%B0%ED%98%BC%EC%8B%9D%20%EC%B0%B8%EC%84%9D"
+      },
+      {
         "rank": 10,
-        "title": "마지막 반딧불 공연",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%A7%88%EC%A7%80%EB%A7%89%20%EB%B0%98%EB%94%A7%EB%B6%88%20%EA%B3%B5%EC%97%B0"
+        "title": "노바크 조코비치",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%85%B8%EB%B0%94%ED%81%AC%20%EC%A1%B0%EC%BD%94%EB%B9%84%EC%B9%98"
       }
     ],
     "youtube_popular": [
@@ -1477,7 +1479,7 @@
         "rank": 2,
         "title": "사람 미치게 하는 노인",
         "channel": "괴물쥐 유튜브",
-        "views": "56만회",
+        "views": "57만회",
         "thumb": "https://i.ytimg.com/vi/_prDFd4mgVk/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=_prDFd4mgVk"
       },
@@ -1501,7 +1503,7 @@
         "rank": 5,
         "title": "Rendezvous",
         "channel": "Mili - Topic",
-        "views": "13만회",
+        "views": "14만회",
         "thumb": "https://i.ytimg.com/vi/3UqfwnJlAKc/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=3UqfwnJlAKc"
       },
@@ -1517,7 +1519,7 @@
         "rank": 7,
         "title": "Period",
         "channel": "Woody - Topic",
-        "views": "29만회",
+        "views": "30만회",
         "thumb": "https://i.ytimg.com/vi/Vu0sdxb3A8I/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=Vu0sdxb3A8I"
       },
@@ -1525,7 +1527,7 @@
         "rank": 8,
         "title": "경쟁과 정치",
         "channel": "이도원",
-        "views": "19만회",
+        "views": "22만회",
         "thumb": "https://i.ytimg.com/vi/dkv5RdBPD14/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=dkv5RdBPD14"
       },
