@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08 06:06:50",
+  "updated_at": "2026-10-08 07:05:48",
   "us2y": {
     "value": 4.77,
     "change": -0.02
@@ -133,17 +133,22 @@
         "date": "10-07 19:48"
       },
       {
-        "title": "[전자신문] “영유아용 생선이라더니”…8개월간 은대구 먹은 2세 아이 '수은 중독'",
-        "link": "https://www.etnews.com/20261007000450",
-        "date": "10-08 06:00"
+        "title": "[전자신문] 챗GPT, 질문 따라 답변 화면 바꾼다…GPT-6 시각화 기능 도입",
+        "link": "https://www.etnews.com/20261008000001",
+        "date": "10-08 07:01"
       },
       {
-        "title": "[전자신문] 초고령 땅거북 산모의 첫 출산…100살에 '엄마' 됐다",
-        "link": "https://www.etnews.com/20261007000446",
-        "date": "10-08 06:00"
+        "title": "[전자신문] 뉴엔AI, AI 기술 선도 기업 사업화 플랫폼 코오롱베니트 AI 얼라이언스 합류",
+        "link": "https://www.etnews.com/20261007000493",
+        "date": "10-08 06:09"
       }
     ],
     "domestic": [
+      {
+        "title": "긴축 선회 9월 FOMC…\"연내 추가 인상 적절하지만 '열린 마음'\"(상보)",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4438222",
+        "date": "10-08 06:05"
+      },
       {
         "title": "[뉴욕증시-1보] 채권 불안과 저가 매수의 혼조…약세 마감",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4438219",
@@ -163,11 +168,6 @@
         "title": "영국·프랑스 국채 투매…유가 고공행진 속 재정문제 부각(종합)",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4438212",
         "date": "10-08 01:12"
-      },
-      {
-        "title": "美 국채가 동반 약세…佛 국채 발작 여파",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4438211",
-        "date": "10-08 00:53"
       }
     ]
   },
@@ -236,70 +236,70 @@
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,135.9",
-          "chg": "-1.22%",
+          "val": "$4,136.7",
+          "chg": "-1.20%",
           "up": false
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$60.06",
-          "chg": "-1.81%",
+          "val": "$60.05",
+          "chg": "-1.83%",
           "up": false
         }
       ],
       "bullets": [
         "구리 $6.64/lb (+0.76%) - AI 전력망 설비 수요 반영",
-        "금 $4,136/oz, 은 $60.06/oz - 통화가치 헤지"
+        "금 $4,137/oz, 은 $60.05/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
       "badge": "원/달러 1,339원 | 엔/달러 ¥158.0",
-      "title": "원/달러 1,339.2원선과 엔/달러 ¥158.0",
+      "title": "원/달러 1,339.4원선과 엔/달러 ¥158.0",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,339.2원",
-          "chg": "-0.04%",
+          "val": "1,339.4원",
+          "chg": "-0.03%",
           "up": false
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "102.28pt",
-          "chg": "+0.44%",
+          "val": "102.27pt",
+          "chg": "+0.43%",
           "up": true
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥158.02",
+          "val": "¥158.01",
           "chg": "-0.18%",
           "up": false
         }
       ],
       "bullets": [
-        "달러 인덱스 102.28pt - 미국 성장 우위 지속",
-        "엔/달러 158.02엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 102.27pt - 미국 성장 우위 지속",
+        "엔/달러 158.01엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $88.9",
-      "title": "WTI 배럴당 $88.9선 박스권 안정",
+      "badge": "WTI $88.94",
+      "title": "WTI 배럴당 $88.94선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$88.90",
-          "chg": "-0.60%",
+          "val": "$88.94",
+          "chg": "-0.56%",
           "up": false
         }
       ],
       "bullets": [
-        "WTI 선물 $88.9/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $88.94/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -311,27 +311,27 @@
       "change": 0.76
     },
     "gold": {
-      "price": 4135.9,
-      "change": -1.22
+      "price": 4136.7,
+      "change": -1.2
     },
     "silver": {
-      "price": 60.06,
-      "change": -1.81
+      "price": 60.05,
+      "change": -1.83
     },
     "wti": {
-      "price": 88.9,
-      "change": -0.6
+      "price": 88.94,
+      "change": -0.56
     },
     "usdkrw": {
-      "price": 1339.25,
-      "change": -0.04
+      "price": 1339.37,
+      "change": -0.03
     },
     "dxy": {
-      "price": 102.28,
-      "change": 0.44
+      "price": 102.27,
+      "change": 0.43
     },
     "usdjpy": {
-      "price": 158.02,
+      "price": 158.01,
       "change": -0.18
     }
   },
@@ -596,8 +596,8 @@
       {
         "date": "10-07",
         "copper": 6.64,
-        "gold": 4135.9,
-        "silver": 60.06
+        "gold": 4136.7,
+        "silver": 60.05
       }
     ],
     "fx": [
@@ -717,9 +717,9 @@
       },
       {
         "date": "10-07",
-        "usdkrw": 1339.25,
-        "dxy": 102.28,
-        "usdjpy": 158.02
+        "usdkrw": 1339.37,
+        "dxy": 102.27,
+        "usdjpy": 158.01
       }
     ],
     "oil": [
@@ -820,8 +820,8 @@
       },
       {
         "date": "10-07",
-        "wti": 88.9,
-        "change": -0.6
+        "wti": 88.94,
+        "change": -0.56
       }
     ]
   },
@@ -1417,53 +1417,53 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "LG 잠실 마지막",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=LG%20%EC%9E%A0%EC%8B%A4%20%EB%A7%88%EC%A7%80%EB%A7%89"
+        "title": "알래스카 LNG 완수",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%8C%EB%9E%98%EC%8A%A4%EC%B9%B4%20LNG%20%EC%99%84%EC%88%98"
       },
       {
         "rank": 2,
-        "title": "누리호 5차 발사",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%88%84%EB%A6%AC%ED%98%B8%205%EC%B0%A8%20%EB%B0%9C%EC%82%AC"
+        "title": "최원준 204안타 신기록",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B5%9C%EC%9B%90%EC%A4%80%20204%EC%95%88%ED%83%80%20%EC%8B%A0%EA%B8%B0%EB%A1%9D"
       },
       {
         "rank": 3,
-        "title": "CJ제일제당 삼양사 담합",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=CJ%EC%A0%9C%EC%9D%BC%EC%A0%9C%EB%8B%B9%20%EC%82%BC%EC%96%91%EC%82%AC%20%EB%8B%B4%ED%95%A9"
+        "title": "국제유가 하락 IEA",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B5%AD%EC%A0%9C%EC%9C%A0%EA%B0%80%20%ED%95%98%EB%9D%BD%20IEA"
       },
       {
         "rank": 4,
-        "title": "나주 부부 살해 50대 검거",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%82%98%EC%A3%BC%20%EB%B6%80%EB%B6%80%20%EC%82%B4%ED%95%B4%2050%EB%8C%80%20%EA%B2%80%EA%B1%B0"
-      },
-      {
-        "rank": 5,
         "title": "오만석 개런티 낮춰 다작 비결",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%98%A4%EB%A7%8C%EC%84%9D%20%EA%B0%9C%EB%9F%B0%ED%8B%B0%20%EB%82%AE%EC%B6%B0%20%EB%8B%A4%EC%9E%91%20%EB%B9%84%EA%B2%B0"
       },
       {
+        "rank": 5,
+        "title": "2026년 10월 8일 운세",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=2026%EB%85%84%2010%EC%9B%94%208%EC%9D%BC%20%EC%9A%B4%EC%84%B8"
+      },
+      {
         "rank": 6,
-        "title": "암",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%94"
+        "title": "핑클",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%91%ED%81%B4"
       },
       {
         "rank": 7,
-        "title": "공수처 검사 각하",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B3%B5%EC%88%98%EC%B2%98%20%EA%B2%80%EC%82%AC%20%EA%B0%81%ED%95%98"
+        "title": "CJ제일제당 삼양사 담합",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=CJ%EC%A0%9C%EC%9D%BC%EC%A0%9C%EB%8B%B9%20%EC%82%BC%EC%96%91%EC%82%AC%20%EB%8B%B4%ED%95%A9"
       },
       {
         "rank": 8,
-        "title": "회사채",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%9A%8C%EC%82%AC%EC%B1%84"
+        "title": "금융지주 상반기 17.6조",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B8%88%EC%9C%B5%EC%A7%80%EC%A3%BC%20%EC%83%81%EB%B0%98%EA%B8%B0%2017.6%EC%A1%B0"
       },
       {
         "rank": 9,
-        "title": "2분기 기업 여유자금",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=2%EB%B6%84%EA%B8%B0%20%EA%B8%B0%EC%97%85%20%EC%97%AC%EC%9C%A0%EC%9E%90%EA%B8%88"
+        "title": "김도영",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EB%8F%84%EC%98%81"
       },
       {
         "rank": 10,
-        "title": "47세 한다감 아들",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=47%EC%84%B8%20%ED%95%9C%EB%8B%A4%EA%B0%90%20%EC%95%84%EB%93%A4"
+        "title": "한가인 결혼 이틀 전 파혼 선언",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%9C%EA%B0%80%EC%9D%B8%20%EA%B2%B0%ED%98%BC%20%EC%9D%B4%ED%8B%80%20%EC%A0%84%20%ED%8C%8C%ED%98%BC%20%EC%84%A0%EC%96%B8"
       }
     ],
     "youtube_popular": [
@@ -1495,7 +1495,7 @@
         "rank": 4,
         "title": "나 어떡해",
         "channel": "괴물쥐 유튜브",
-        "views": "29만회",
+        "views": "31만회",
         "thumb": "https://i.ytimg.com/vi/Orh_Ab7OGNk/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=Orh_Ab7OGNk"
       },
@@ -1517,11 +1517,11 @@
       },
       {
         "rank": 7,
-        "title": "Tic Tac Toe",
-        "channel": "ONEW - Topic",
-        "views": "3만회",
-        "thumb": "https://i.ytimg.com/vi/tNRpc6Ffyfo/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=tNRpc6Ffyfo"
+        "title": "Call It Love",
+        "channel": "KIM JAE HWAN - Topic",
+        "views": "1만회",
+        "thumb": "https://i.ytimg.com/vi/gOcj3W_KKlI/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=gOcj3W_KKlI"
       },
       {
         "rank": 8,
@@ -1533,11 +1533,11 @@
       },
       {
         "rank": 9,
-        "title": "Call It Love",
-        "channel": "KIM JAE HWAN - Topic",
-        "views": "1만회",
-        "thumb": "https://i.ytimg.com/vi/gOcj3W_KKlI/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=gOcj3W_KKlI"
+        "title": "Tic Tac Toe",
+        "channel": "ONEW - Topic",
+        "views": "3만회",
+        "thumb": "https://i.ytimg.com/vi/tNRpc6Ffyfo/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=tNRpc6Ffyfo"
       },
       {
         "rank": 10,
