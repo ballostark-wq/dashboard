@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08 08:04:52",
+  "updated_at": "2026-10-08 09:07:58",
   "us2y": {
     "value": 4.77,
     "change": -0.02
@@ -118,6 +118,11 @@
     ],
     "tech": [
       {
+        "title": "[디일렉] 삼성전자, 3분기 영업이익 107.4조…첫 100조 돌파",
+        "link": "https://www.thelec.kr/news/articleView.html?idxno=63449",
+        "date": "10-08 08:36"
+      },
+      {
         "title": "[디일렉] 전력반도체 생태계 구축에 산학연 협력",
         "link": "https://www.thelec.kr/news/articleView.html?idxno=63437",
         "date": "10-07 20:12"
@@ -128,22 +133,32 @@
         "date": "10-07 19:49"
       },
       {
-        "title": "[디일렉] HD현대중공업, 해양 SMR 실증 추진",
-        "link": "https://www.thelec.kr/news/articleView.html?idxno=63441",
-        "date": "10-07 19:48"
+        "title": "[전자신문] 엑스큐어넷 'X-GEN AI', GS 인증 획득…공공·기업 AI 보안시장 공략",
+        "link": "https://www.etnews.com/20261007000380",
+        "date": "10-08 09:00"
       },
       {
-        "title": "[전자신문] [오늘의 운세] 2026년 10월 8일 띠별 운세",
-        "link": "https://www.etnews.com/20261008000007",
-        "date": "10-08 08:00"
-      },
-      {
-        "title": "[전자신문] 드림시큐리티, AI 계정탈취 대응 'FIDO2 생체인증' 제안",
-        "link": "https://www.etnews.com/20261008000004",
-        "date": "10-08 08:00"
+        "title": "[전자신문] 솔루엠, 日 'APRCE 2026'서 비프로지와 '모든 공간을 위한 E-Paper Signage' 비전 제시",
+        "link": "https://www.etnews.com/20261007000378",
+        "date": "10-08 09:00"
       }
     ],
     "domestic": [
+      {
+        "title": "NDF, 1,338.60/ 1,339.00원…0.75원↓",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4438240",
+        "date": "10-08 08:16"
+      },
+      {
+        "title": "[외환] 달러 강세에도 평온…1,339.00원 보합권 마감",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4438238",
+        "date": "10-08 08:12"
+      },
+      {
+        "title": "국채선물, 美 국채 따라 혼조…10년물 20틱↓",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4438236",
+        "date": "10-08 08:07"
+      },
       {
         "title": "긴축 선회 9월 FOMC…\"연내 추가 인상 적절하지만 '열린 마음'\"(상보)",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4438222",
@@ -153,21 +168,6 @@
         "title": "[뉴욕증시-1보] 채권 불안과 저가 매수의 혼조…약세 마감",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4438219",
         "date": "10-08 05:14"
-      },
-      {
-        "title": "美 10년물 국채，2000년 이후 최고 수익률 낙찰…강한 수요에 금리 급락",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4438216",
-        "date": "10-08 04:34"
-      },
-      {
-        "title": "IEA \"석유 비축유 방출 가속 지지…디젤 방출 우선\"",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4438213",
-        "date": "10-08 02:06"
-      },
-      {
-        "title": "영국·프랑스 국채 투매…유가 고공행진 속 재정문제 부각(종합)",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4438212",
-        "date": "10-08 01:12"
       }
     ]
   },
@@ -236,33 +236,33 @@
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,131.1",
-          "chg": "-1.34%",
+          "val": "$4,134.3",
+          "chg": "-1.26%",
           "up": false
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$60.01",
-          "chg": "-1.90%",
+          "val": "$60.03",
+          "chg": "-1.86%",
           "up": false
         }
       ],
       "bullets": [
         "구리 $6.64/lb (+0.76%) - AI 전력망 설비 수요 반영",
-        "금 $4,131/oz, 은 $60.01/oz - 통화가치 헤지"
+        "금 $4,134/oz, 은 $60.03/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,339원 | 엔/달러 ¥158.0",
-      "title": "원/달러 1,339.4원선과 엔/달러 ¥158.0",
+      "badge": "원/달러 1,338원 | 엔/달러 ¥157.9",
+      "title": "원/달러 1,338.0원선과 엔/달러 ¥157.9",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,339.4원",
-          "chg": "-0.03%",
+          "val": "1,338.0원",
+          "chg": "-0.13%",
           "up": false
         },
         {
@@ -275,31 +275,31 @@
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥157.99",
-          "chg": "-0.20%",
+          "val": "¥157.91",
+          "chg": "-0.25%",
           "up": false
         }
       ],
       "bullets": [
         "달러 인덱스 102.25pt - 미국 성장 우위 지속",
-        "엔/달러 157.99엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "엔/달러 157.91엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $88.91",
-      "title": "WTI 배럴당 $88.91선 박스권 안정",
+      "badge": "WTI $88.97",
+      "title": "WTI 배럴당 $88.97선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$88.91",
-          "chg": "-0.59%",
+          "val": "$88.97",
+          "chg": "-0.53%",
           "up": false
         }
       ],
       "bullets": [
-        "WTI 선물 $88.91/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $88.97/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -311,28 +311,28 @@
       "change": 0.76
     },
     "gold": {
-      "price": 4131.1,
-      "change": -1.34
+      "price": 4134.3,
+      "change": -1.26
     },
     "silver": {
-      "price": 60.01,
-      "change": -1.9
+      "price": 60.03,
+      "change": -1.86
     },
     "wti": {
-      "price": 88.91,
-      "change": -0.59
+      "price": 88.97,
+      "change": -0.53
     },
     "usdkrw": {
-      "price": 1339.39,
-      "change": -0.03
+      "price": 1337.97,
+      "change": -0.13
     },
     "dxy": {
       "price": 102.25,
       "change": 0.41
     },
     "usdjpy": {
-      "price": 157.99,
-      "change": -0.2
+      "price": 157.91,
+      "change": -0.25
     }
   },
   "history_20d": {
@@ -596,8 +596,8 @@
       {
         "date": "10-07",
         "copper": 6.64,
-        "gold": 4131.1,
-        "silver": 60.01
+        "gold": 4134.3,
+        "silver": 60.03
       }
     ],
     "fx": [
@@ -716,10 +716,10 @@
         "usdjpy": 158.3
       },
       {
-        "date": "10-07",
-        "usdkrw": 1339.39,
+        "date": "10-08",
+        "usdkrw": 1337.97,
         "dxy": 102.25,
-        "usdjpy": 157.99
+        "usdjpy": 157.91
       }
     ],
     "oil": [
@@ -820,8 +820,8 @@
       },
       {
         "date": "10-07",
-        "wti": 88.91,
-        "change": -0.59
+        "wti": 88.97,
+        "change": -0.53
       }
     ]
   },
@@ -1417,53 +1417,53 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "9월 FOMC 금리인상",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=9%EC%9B%94%20FOMC%20%EA%B8%88%EB%A6%AC%EC%9D%B8%EC%83%81"
+        "title": "삼성전자 3분기 영업익 100조 돌파",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90%203%EB%B6%84%EA%B8%B0%20%EC%98%81%EC%97%85%EC%9D%B5%20100%EC%A1%B0%20%EB%8F%8C%ED%8C%8C"
       },
       {
         "rank": 2,
-        "title": "뉴욕증시 하락 마감",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%89%B4%EC%9A%95%EC%A6%9D%EC%8B%9C%20%ED%95%98%EB%9D%BD%20%EB%A7%88%EA%B0%90"
+        "title": "8월 경상수지 2위 461억 달러",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=8%EC%9B%94%20%EA%B2%BD%EC%83%81%EC%88%98%EC%A7%80%202%EC%9C%84%20461%EC%96%B5%20%EB%8B%AC%EB%9F%AC"
       },
       {
         "rank": 3,
-        "title": "美부통령 알래스카 LNG",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%E7%BE%8E%EB%B6%80%ED%86%B5%EB%A0%B9%20%EC%95%8C%EB%9E%98%EC%8A%A4%EC%B9%B4%20LNG"
+        "title": "치이카와 굿즈 대기",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B9%98%EC%9D%B4%EC%B9%B4%EC%99%80%20%EA%B5%BF%EC%A6%88%20%EB%8C%80%EA%B8%B0"
       },
       {
         "rank": 4,
-        "title": "양치승 20억 사기 피해",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%96%91%EC%B9%98%EC%8A%B9%2020%EC%96%B5%20%EC%82%AC%EA%B8%B0%20%ED%94%BC%ED%95%B4"
+        "title": "임윤찬",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9E%84%EC%9C%A4%EC%B0%AC"
       },
       {
         "rank": 5,
-        "title": "2026년 10월 8일 운세",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=2026%EB%85%84%2010%EC%9B%94%208%EC%9D%BC%20%EC%9A%B4%EC%84%B8"
+        "title": "에이티즈 11월 13일 컴백",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%97%90%EC%9D%B4%ED%8B%B0%EC%A6%88%2011%EC%9B%94%2013%EC%9D%BC%20%EC%BB%B4%EB%B0%B1"
       },
       {
         "rank": 6,
-        "title": "김주형",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%A3%BC%ED%98%95"
+        "title": "성심당",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%84%B1%EC%8B%AC%EB%8B%B9"
       },
       {
         "rank": 7,
-        "title": "이슬 맺히는 한로",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EC%8A%AC%20%EB%A7%BA%ED%9E%88%EB%8A%94%20%ED%95%9C%EB%A1%9C"
+        "title": "도미노피자 가격 인상",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%8F%84%EB%AF%B8%EB%85%B8%ED%94%BC%EC%9E%90%20%EA%B0%80%EA%B2%A9%20%EC%9D%B8%EC%83%81"
       },
       {
         "rank": 8,
-        "title": "서울지하철",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%84%9C%EC%9A%B8%EC%A7%80%ED%95%98%EC%B2%A0"
+        "title": "손민수 초호화 돌잔치",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%86%90%EB%AF%BC%EC%88%98%20%EC%B4%88%ED%98%B8%ED%99%94%20%EB%8F%8C%EC%9E%94%EC%B9%98"
       },
       {
         "rank": 9,
-        "title": "누리호 5차 발사",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%88%84%EB%A6%AC%ED%98%B8%205%EC%B0%A8%20%EB%B0%9C%EC%82%AC"
+        "title": "두나무 업비트 사기 경고",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%91%90%EB%82%98%EB%AC%B4%20%EC%97%85%EB%B9%84%ED%8A%B8%20%EC%82%AC%EA%B8%B0%20%EA%B2%BD%EA%B3%A0"
       },
       {
         "rank": 10,
-        "title": "CJ제일제당 삼양사 담합",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=CJ%EC%A0%9C%EC%9D%BC%EC%A0%9C%EB%8B%B9%20%EC%82%BC%EC%96%91%EC%82%AC%20%EB%8B%B4%ED%95%A9"
+        "title": "美부통령 알래스카 LNG",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%E7%BE%8E%EB%B6%80%ED%86%B5%EB%A0%B9%20%EC%95%8C%EB%9E%98%EC%8A%A4%EC%B9%B4%20LNG"
       }
     ],
     "youtube_popular": [
@@ -1471,17 +1471,17 @@
         "rank": 1,
         "title": "CRY OUT LOUD",
         "channel": "Roy Kim - Topic",
-        "views": "25만회",
+        "views": "26만회",
         "thumb": "https://i.ytimg.com/vi/R4kmk4CDVHM/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=R4kmk4CDVHM"
       },
       {
         "rank": 2,
-        "title": "'역대급 재능' 반다이크 톱으로 슈챔 찍어버린 김민교",
-        "channel": "튜브김민교",
-        "views": "38만회",
-        "thumb": "https://i.ytimg.com/vi/tx3tyTI3NW0/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=tx3tyTI3NW0"
+        "title": "나 어떡해",
+        "channel": "괴물쥐 유튜브",
+        "views": "33만회",
+        "thumb": "https://i.ytimg.com/vi/Orh_Ab7OGNk/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=Orh_Ab7OGNk"
       },
       {
         "rank": 3,
@@ -1493,35 +1493,35 @@
       },
       {
         "rank": 4,
-        "title": "나 어떡해",
-        "channel": "괴물쥐 유튜브",
-        "views": "32만회",
-        "thumb": "https://i.ytimg.com/vi/Orh_Ab7OGNk/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=Orh_Ab7OGNk"
+        "title": "'역대급 재능' 반다이크 톱으로 슈챔 찍어버린 김민교",
+        "channel": "튜브김민교",
+        "views": "39만회",
+        "thumb": "https://i.ytimg.com/vi/tx3tyTI3NW0/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=tx3tyTI3NW0"
       },
       {
         "rank": 5,
-        "title": "ICONIC HEART (Korean Version)",
-        "channel": "Hearts2Hearts - Topic",
-        "views": "29만회",
-        "thumb": "https://i.ytimg.com/vi/iUNLe0iD9P8/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=iUNLe0iD9P8"
-      },
-      {
-        "rank": 6,
-        "title": "똘끼 리니지클래식 돌아왔구나  인형! 예전별명이 인형공장장이였습니다",
-        "channel": "똘끼100%",
-        "views": "40만회",
-        "thumb": "https://i.ytimg.com/vi/hZ3Zfla4JrQ/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=hZ3Zfla4JrQ"
-      },
-      {
-        "rank": 7,
         "title": "Call It Love",
         "channel": "KIM JAE HWAN - Topic",
         "views": "1만회",
         "thumb": "https://i.ytimg.com/vi/gOcj3W_KKlI/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=gOcj3W_KKlI"
+      },
+      {
+        "rank": 6,
+        "title": "똘끼 리니지클래식 돌아왔구나  인형! 예전별명이 인형공장장이였습니다",
+        "channel": "똘끼100%",
+        "views": "41만회",
+        "thumb": "https://i.ytimg.com/vi/hZ3Zfla4JrQ/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=hZ3Zfla4JrQ"
+      },
+      {
+        "rank": 7,
+        "title": "Tic Tac Toe",
+        "channel": "ONEW - Topic",
+        "views": "3만회",
+        "thumb": "https://i.ytimg.com/vi/tNRpc6Ffyfo/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=tNRpc6Ffyfo"
       },
       {
         "rank": 8,
@@ -1533,11 +1533,11 @@
       },
       {
         "rank": 9,
-        "title": "Tic Tac Toe",
-        "channel": "ONEW - Topic",
-        "views": "3만회",
-        "thumb": "https://i.ytimg.com/vi/tNRpc6Ffyfo/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=tNRpc6Ffyfo"
+        "title": "ICONIC HEART (Korean Version)",
+        "channel": "Hearts2Hearts - Topic",
+        "views": "29만회",
+        "thumb": "https://i.ytimg.com/vi/iUNLe0iD9P8/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=iUNLe0iD9P8"
       },
       {
         "rank": 10,
