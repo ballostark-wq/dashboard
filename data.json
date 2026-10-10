@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10 06:24:50",
+  "updated_at": "2026-10-10 10:25:35",
   "us2y": {
     "value": 4.8,
     "change": 0.05
@@ -118,56 +118,46 @@
     ],
     "tech": [
       {
+        "title": "[디일렉] 무라타, 베트남 호치민에 인덕터 코일 공장 증설 완료",
+        "link": "https://www.thelec.kr/news/articleView.html?idxno=63513",
+        "date": "10-10 09:53"
+      },
+      {
+        "title": "[디일렉] ASML, 유지보수용 노광장비 부품값 10% 일괄 인상",
+        "link": "https://www.thelec.kr/news/articleView.html?idxno=63515",
+        "date": "10-10 09:37"
+      },
+      {
         "title": "[디일렉] 광주 간 최태원 \"용수 전력 늦어도 착공\"... 美시설 반환이 변수",
         "link": "https://www.thelec.kr/news/articleView.html?idxno=63512",
         "date": "10-09 20:02"
-      },
-      {
-        "title": "[디일렉] 앤트로픽, 오피스 툴 정식 출시…자연어 기반 데이터 시각화 추가",
-        "link": "https://www.thelec.kr/news/articleView.html?idxno=63510",
-        "date": "10-09 17:25"
-      },
-      {
-        "title": "[디일렉] 아마존, 고급 안드로이드 태블릿으로 갤탭‧아이패드 맞불",
-        "link": "https://www.thelec.kr/news/articleView.html?idxno=63509",
-        "date": "10-09 17:20"
-      },
-      {
-        "title": "[전자신문] “매일 아침 챙겨먹었는데”…“다이어트 아닌 독 된다” 의사가 경고한 이 음식",
-        "link": "https://www.etnews.com/20261009000024",
-        "date": "10-10 06:00"
-      },
-      {
-        "title": "[전자신문] [SOOP, 토종플랫폼 20년]〈3〉오리지널 e스포츠 콘텐츠  확대…글로벌 정조준",
-        "link": "https://www.etnews.com/20261008000264",
-        "date": "10-10 06:00"
       }
     ],
     "domestic": [
       {
+        "title": "유례없는 경상수지 흑자에 8월 준비자산 증가액 신기록",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4438538",
+        "date": "10-10 10:08"
+      },
+      {
+        "title": "NDF, 1,339.50/ 1,339.90원…2.30원↓",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4438529",
+        "date": "10-10 08:54"
+      },
+      {
+        "title": "[외환] 트럼프 유가 안정대책 발표 속 1,340원대 초반 거래",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4438528",
+        "date": "10-10 08:42"
+      },
+      {
+        "title": "투기 세력 '엔화 쇼트' 더 늘었다…2주 연속 매도 우위",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4438526",
+        "date": "10-10 08:07"
+      },
+      {
         "title": "美 재무부, 러시아산 경유 거래 한시 허용…임시 면허 발급",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4438514",
         "date": "10-10 06:11"
-      },
-      {
-        "title": "트럼프의 경유 구원투수는 푸틴…\"즉각 30만톤 이상 공급 합의\"(상보)",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4438513",
-        "date": "10-10 06:10"
-      },
-      {
-        "title": "[글로벌차트] 美 10년물 기간 프리미엄, 90bp 돌파…2014년 이후 처음",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4438510",
-        "date": "10-10 04:50"
-      },
-      {
-        "title": "美 10월 미시간대 소비심리지수 예비치 46.3…3개월째 하락세(상보)",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4438506",
-        "date": "10-10 02:17"
-      },
-      {
-        "title": "美 국채, 안전 선호 완화·반발 매도에 '베어 플랫'",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4438502",
-        "date": "10-10 00:37"
       }
     ]
   },
@@ -287,19 +277,19 @@
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $91.67",
-      "title": "WTI 배럴당 $91.67선 박스권 안정",
+      "badge": "WTI $91.66",
+      "title": "WTI 배럴당 $91.66선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$91.67",
-          "chg": "+0.20%",
+          "val": "$91.66",
+          "chg": "+0.19%",
           "up": true
         }
       ],
       "bullets": [
-        "WTI 선물 $91.67/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $91.66/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -319,8 +309,8 @@
       "change": 3.47
     },
     "wti": {
-      "price": 91.67,
-      "change": 0.2
+      "price": 91.66,
+      "change": 0.19
     },
     "usdkrw": {
       "price": 1340.02,
@@ -820,8 +810,8 @@
       },
       {
         "date": "10-09",
-        "wti": 91.67,
-        "change": 0.2
+        "wti": 91.66,
+        "change": 0.19
       }
     ]
   },
@@ -1395,35 +1385,35 @@
       },
       {
         "rank": 7,
+        "title": "군대 계급",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B5%B0%EB%8C%80%20%EA%B3%84%EA%B8%89"
+      },
+      {
+        "rank": 8,
         "title": "엉덩이 기억상실증",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%97%89%EB%8D%A9%EC%9D%B4%20%EA%B8%B0%EC%96%B5%EC%83%81%EC%8B%A4%EC%A6%9D"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "title": "레임덕",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%A0%88%EC%9E%84%EB%8D%95"
       },
       {
-        "rank": 9,
-        "title": "여신거래 안심차단",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%97%AC%EC%8B%A0%EA%B1%B0%EB%9E%98%20%EC%95%88%EC%8B%AC%EC%B0%A8%EB%8B%A8"
-      },
-      {
         "rank": 10,
-        "title": "군대 계급",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B5%B0%EB%8C%80%20%EA%B3%84%EA%B8%89"
+        "title": "임산부의 날",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9E%84%EC%82%B0%EB%B6%80%EC%9D%98%20%EB%82%A0"
       }
     ],
     "namu_rank": [
       {
         "rank": 1,
-        "title": "트럼프 푸틴 경유 합의",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%8A%B8%EB%9F%BC%ED%94%84%20%ED%91%B8%ED%8B%B4%20%EA%B2%BD%EC%9C%A0%20%ED%95%A9%EC%9D%98"
+        "title": "이수희 강동구청장 인터뷰",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EC%88%98%ED%9D%AC%20%EA%B0%95%EB%8F%99%EA%B5%AC%EC%B2%AD%EC%9E%A5%20%EC%9D%B8%ED%84%B0%EB%B7%B0"
       },
       {
         "rank": 2,
-        "title": "김신영 밥 소믈리에 도전",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%8B%A0%EC%98%81%20%EB%B0%A5%20%EC%86%8C%EB%AF%88%EB%A6%AC%EC%97%90%20%EB%8F%84%EC%A0%84"
+        "title": "김지원 닥터X 시청률 11.4%",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%A7%80%EC%9B%90%20%EB%8B%A5%ED%84%B0X%20%EC%8B%9C%EC%B2%AD%EB%A5%A0%2011.4%25"
       },
       {
         "rank": 3,
@@ -1432,38 +1422,38 @@
       },
       {
         "rank": 4,
-        "title": "쿠팡 먹통 보상",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%BF%A0%ED%8C%A1%20%EB%A8%B9%ED%86%B5%20%EB%B3%B4%EC%83%81"
+        "title": "박태준, 파리서 은메달 패배",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B0%95%ED%83%9C%EC%A4%80%2C%20%ED%8C%8C%EB%A6%AC%EC%84%9C%20%EC%9D%80%EB%A9%94%EB%8B%AC%20%ED%8C%A8%EB%B0%B0"
       },
       {
         "rank": 5,
-        "title": "이율린, 티샷 강하게 날림",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EC%9C%A8%EB%A6%B0%2C%20%ED%8B%B0%EC%83%B7%20%EA%B0%95%ED%95%98%EA%B2%8C%20%EB%82%A0%EB%A6%BC"
+        "title": "ATM 발베르데 축하",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=ATM%20%EB%B0%9C%EB%B2%A0%EB%A5%B4%EB%8D%B0%20%EC%B6%95%ED%95%98"
       },
       {
         "rank": 6,
-        "title": "죽음",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A3%BD%EC%9D%8C"
+        "title": "매일경제신문",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%A7%A4%EC%9D%BC%EA%B2%BD%EC%A0%9C%EC%8B%A0%EB%AC%B8"
       },
       {
         "rank": 7,
-        "title": "천우희, 이주승에게 그림 선물",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B2%9C%EC%9A%B0%ED%9D%AC%2C%20%EC%9D%B4%EC%A3%BC%EC%8A%B9%EC%97%90%EA%B2%8C%20%EA%B7%B8%EB%A6%BC%20%EC%84%A0%EB%AC%BC"
+        "title": "국내 기름값 하락",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B5%AD%EB%82%B4%20%EA%B8%B0%EB%A6%84%EA%B0%92%20%ED%95%98%EB%9D%BD"
       },
       {
         "rank": 8,
-        "title": "박승수",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B0%95%EC%8A%B9%EC%88%98"
+        "title": "어린이대공원",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%96%B4%EB%A6%B0%EC%9D%B4%EB%8C%80%EA%B3%B5%EC%9B%90"
       },
       {
         "rank": 9,
-        "title": "서장훈 소문 해명",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%84%9C%EC%9E%A5%ED%9B%88%20%EC%86%8C%EB%AC%B8%20%ED%95%B4%EB%AA%85"
+        "title": "파나마 강진",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%8C%8C%EB%82%98%EB%A7%88%20%EA%B0%95%EC%A7%84"
       },
       {
         "rank": 10,
-        "title": "애덤 올러",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%A0%EB%8D%A4%20%EC%98%AC%EB%9F%AC"
+        "title": "쿠팡 먹통 보상",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%BF%A0%ED%8C%A1%20%EB%A8%B9%ED%86%B5%20%EB%B3%B4%EC%83%81"
       }
     ],
     "youtube_popular": [
@@ -1471,7 +1461,7 @@
         "rank": 1,
         "title": "Still",
         "channel": "N.Flying - Topic",
-        "views": "23만회",
+        "views": "24만회",
         "thumb": "https://i.ytimg.com/vi/JqdlzX5zFzg/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=JqdlzX5zFzg"
       },
@@ -1479,7 +1469,7 @@
         "rank": 2,
         "title": "와.. 뒤지게 재밌겠다.. ≪비전퀘스트≫ 메인 예고편 리뷰 & 떡밥 총정리",
         "channel": "무비띵크_Movie Think",
-        "views": "54만회",
+        "views": "55만회",
         "thumb": "https://i.ytimg.com/vi/uhiQFGuniyo/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=uhiQFGuniyo"
       },
@@ -1487,7 +1477,7 @@
         "rank": 3,
         "title": "Know My Name ft. True Damage (Official Music Video) | League of Legends Worlds 2026 Anthem",
         "channel": "League of Legends",
-        "views": "556만회",
+        "views": "595만회",
         "thumb": "https://i.ytimg.com/vi/mlFxxNsExJc/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=mlFxxNsExJc"
       },
@@ -1495,7 +1485,7 @@
         "rank": 4,
         "title": "CRY OUT LOUD",
         "channel": "Roy Kim - Topic",
-        "views": "60만회",
+        "views": "62만회",
         "thumb": "https://i.ytimg.com/vi/R4kmk4CDVHM/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=R4kmk4CDVHM"
       },
@@ -1503,7 +1493,7 @@
         "rank": 5,
         "title": "세계 1위 우영우 일본판 2차 예고편 공개되자 전세계가 뒤집어진 이유 해외반응 \"박은빈과 너무 비교되잖아\"",
         "channel": "재미주의",
-        "views": "22만회",
+        "views": "23만회",
         "thumb": "https://i.ytimg.com/vi/EhreM6O-AL8/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=EhreM6O-AL8"
       },
@@ -1511,7 +1501,7 @@
         "rank": 6,
         "title": "감스트 패키지에서 uc호날두11카(현금5천만원) 뽑았습니다!! 트릭두 개레전드 fc온라인",
         "channel": "감스트GAMST",
-        "views": "64만회",
+        "views": "73만회",
         "thumb": "https://i.ytimg.com/vi/s8eBq0YE6Nk/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=s8eBq0YE6Nk"
       },
@@ -1527,7 +1517,7 @@
         "rank": 8,
         "title": "미스터리 수사반2 [사건파일: 허가받지 못한 종결사건 재수사]",
         "channel": "잠뜰 TV",
-        "views": "31만회",
+        "views": "35만회",
         "thumb": "https://i.ytimg.com/vi/QMPNd0dsRhk/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=QMPNd0dsRhk"
       },
@@ -1535,7 +1525,7 @@
         "rank": 9,
         "title": "Know My Name",
         "channel": "True Damage - Topic",
-        "views": "23만회",
+        "views": "25만회",
         "thumb": "https://i.ytimg.com/vi/ON1a7XYDa1E/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=ON1a7XYDa1E"
       },
