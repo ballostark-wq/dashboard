@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10 10:25:35",
+  "updated_at": "2026-10-10 16:57:45",
   "us2y": {
     "value": 4.8,
     "change": 0.05
@@ -213,53 +213,53 @@
       "detail": "10Y-2Y 스프레드가 +44 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.71",
-      "title": "닥터 코퍼 $6.71선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.64",
+      "title": "닥터 코퍼 $6.64선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.71",
-          "chg": "+2.91%",
+          "val": "$6.64",
+          "chg": "+1.84%",
           "up": true
         },
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,220.3",
-          "chg": "+1.52%",
+          "val": "$4,216.3",
+          "chg": "+1.43%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$61.11",
-          "chg": "+3.47%",
+          "val": "$60.67",
+          "chg": "+2.73%",
           "up": true
         }
       ],
       "bullets": [
-        "구리 $6.71/lb (+2.91%) - AI 전력망 설비 수요 반영",
-        "금 $4,220/oz, 은 $61.11/oz - 통화가치 헤지"
+        "구리 $6.64/lb (+1.84%) - AI 전력망 설비 수요 반영",
+        "금 $4,216/oz, 은 $60.67/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,340원 | 엔/달러 ¥158.2",
-      "title": "원/달러 1,340.0원선과 엔/달러 ¥158.2",
+      "badge": "원/달러 1,341원 | 엔/달러 ¥158.2",
+      "title": "원/달러 1,340.9원선과 엔/달러 ¥158.2",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,340.0원",
-          "chg": "-0.22%",
+          "val": "1,340.9원",
+          "chg": "-0.16%",
           "up": false
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "102.23pt",
-          "chg": "+0.09%",
+          "val": "102.21pt",
+          "chg": "+0.07%",
           "up": true
         },
         {
@@ -271,25 +271,25 @@
         }
       ],
       "bullets": [
-        "달러 인덱스 102.23pt - 미국 성장 우위 지속",
+        "달러 인덱스 102.21pt - 미국 성장 우위 지속",
         "엔/달러 158.25엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $91.66",
-      "title": "WTI 배럴당 $91.66선 박스권 안정",
+      "badge": "WTI $91.85",
+      "title": "WTI 배럴당 $91.85선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$91.66",
-          "chg": "+0.19%",
+          "val": "$91.85",
+          "chg": "+0.39%",
           "up": true
         }
       ],
       "bullets": [
-        "WTI 선물 $91.66/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $91.85/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -297,28 +297,28 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.71,
-      "change": 2.91
+      "price": 6.64,
+      "change": 1.84
     },
     "gold": {
-      "price": 4220.3,
-      "change": 1.52
+      "price": 4216.3,
+      "change": 1.43
     },
     "silver": {
-      "price": 61.11,
-      "change": 3.47
+      "price": 60.67,
+      "change": 2.73
     },
     "wti": {
-      "price": 91.66,
-      "change": 0.19
+      "price": 91.85,
+      "change": 0.39
     },
     "usdkrw": {
-      "price": 1340.02,
-      "change": -0.22
+      "price": 1340.9,
+      "change": -0.16
     },
     "dxy": {
-      "price": 102.23,
-      "change": 0.09
+      "price": 102.21,
+      "change": 0.07
     },
     "usdjpy": {
       "price": 158.25,
@@ -585,9 +585,9 @@
       },
       {
         "date": "10-09",
-        "copper": 6.71,
-        "gold": 4220.3,
-        "silver": 61.11
+        "copper": 6.64,
+        "gold": 4216.3,
+        "silver": 60.67
       }
     ],
     "fx": [
@@ -706,9 +706,9 @@
         "usdjpy": 158.06
       },
       {
-        "date": "10-09",
-        "usdkrw": 1340.02,
-        "dxy": 102.23,
+        "date": "10-10",
+        "usdkrw": 1340.9,
+        "dxy": 102.21,
         "usdjpy": 158.25
       }
     ],
@@ -810,8 +810,8 @@
       },
       {
         "date": "10-09",
-        "wti": 91.66,
-        "change": 0.19
+        "wti": 91.85,
+        "change": 0.39
       }
     ]
   },
@@ -1407,53 +1407,53 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "이수희 강동구청장 인터뷰",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EC%88%98%ED%9D%AC%20%EA%B0%95%EB%8F%99%EA%B5%AC%EC%B2%AD%EC%9E%A5%20%EC%9D%B8%ED%84%B0%EB%B7%B0"
+        "title": "광양 등유탱크 사고 1명 사망",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B4%91%EC%96%91%20%EB%93%B1%EC%9C%A0%ED%83%B1%ED%81%AC%20%EC%82%AC%EA%B3%A0%201%EB%AA%85%20%EC%82%AC%EB%A7%9D"
       },
       {
         "rank": 2,
-        "title": "김지원 닥터X 시청률 11.4%",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%A7%80%EC%9B%90%20%EB%8B%A5%ED%84%B0X%20%EC%8B%9C%EC%B2%AD%EB%A5%A0%2011.4%25"
+        "title": "신유빈 임종훈 WTT 스매시 우승",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%8B%A0%EC%9C%A0%EB%B9%88%20%EC%9E%84%EC%A2%85%ED%9B%88%20WTT%20%EC%8A%A4%EB%A7%A4%EC%8B%9C%20%EC%9A%B0%EC%8A%B9"
       },
       {
         "rank": 3,
+        "title": "코르티스 6만 관객 열광",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%BD%94%EB%A5%B4%ED%8B%B0%EC%8A%A4%206%EB%A7%8C%20%EA%B4%80%EA%B0%9D%20%EC%97%B4%EA%B4%91"
+      },
+      {
+        "rank": 4,
+        "title": "톰 홀랜드",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%86%B0%20%ED%99%80%EB%9E%9C%EB%93%9C"
+      },
+      {
+        "rank": 5,
+        "title": "아르텍스 공개 중단",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%84%EB%A5%B4%ED%85%8D%EC%8A%A4%20%EA%B3%B5%EA%B0%9C%20%EC%A4%91%EB%8B%A8"
+      },
+      {
+        "rank": 6,
+        "title": "아시아콘텐츠 필름마켓 시작",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%84%EC%8B%9C%EC%95%84%EC%BD%98%ED%85%90%EC%B8%A0%20%ED%95%84%EB%A6%84%EB%A7%88%EC%BC%93%20%EC%8B%9C%EC%9E%91"
+      },
+      {
+        "rank": 7,
+        "title": "국제 통화 기금",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B5%AD%EC%A0%9C%20%ED%86%B5%ED%99%94%20%EA%B8%B0%EA%B8%88"
+      },
+      {
+        "rank": 8,
         "title": "중국 EU 하이브리드 희토류",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A4%91%EA%B5%AD%20EU%20%ED%95%98%EC%9D%B4%EB%B8%8C%EB%A6%AC%EB%93%9C%20%ED%9D%AC%ED%86%A0%EB%A5%98"
       },
       {
-        "rank": 4,
-        "title": "박태준, 파리서 은메달 패배",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B0%95%ED%83%9C%EC%A4%80%2C%20%ED%8C%8C%EB%A6%AC%EC%84%9C%20%EC%9D%80%EB%A9%94%EB%8B%AC%20%ED%8C%A8%EB%B0%B0"
-      },
-      {
-        "rank": 5,
-        "title": "ATM 발베르데 축하",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=ATM%20%EB%B0%9C%EB%B2%A0%EB%A5%B4%EB%8D%B0%20%EC%B6%95%ED%95%98"
-      },
-      {
-        "rank": 6,
-        "title": "매일경제신문",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%A7%A4%EC%9D%BC%EA%B2%BD%EC%A0%9C%EC%8B%A0%EB%AC%B8"
-      },
-      {
-        "rank": 7,
-        "title": "국내 기름값 하락",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B5%AD%EB%82%B4%20%EA%B8%B0%EB%A6%84%EA%B0%92%20%ED%95%98%EB%9D%BD"
-      },
-      {
-        "rank": 8,
-        "title": "어린이대공원",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%96%B4%EB%A6%B0%EC%9D%B4%EB%8C%80%EA%B3%B5%EC%9B%90"
-      },
-      {
         "rank": 9,
-        "title": "파나마 강진",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%8C%8C%EB%82%98%EB%A7%88%20%EA%B0%95%EC%A7%84"
+        "title": "정소민",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A0%95%EC%86%8C%EB%AF%BC"
       },
       {
         "rank": 10,
-        "title": "쿠팡 먹통 보상",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%BF%A0%ED%8C%A1%20%EB%A8%B9%ED%86%B5%20%EB%B3%B4%EC%83%81"
+        "title": "박종훈, SSG 방출",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B0%95%EC%A2%85%ED%9B%88%2C%20SSG%20%EB%B0%A9%EC%B6%9C"
       }
     ],
     "youtube_popular": [
@@ -1461,7 +1461,7 @@
         "rank": 1,
         "title": "Still",
         "channel": "N.Flying - Topic",
-        "views": "24만회",
+        "views": "28만회",
         "thumb": "https://i.ytimg.com/vi/JqdlzX5zFzg/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=JqdlzX5zFzg"
       },
@@ -1469,7 +1469,7 @@
         "rank": 2,
         "title": "와.. 뒤지게 재밌겠다.. ≪비전퀘스트≫ 메인 예고편 리뷰 & 떡밥 총정리",
         "channel": "무비띵크_Movie Think",
-        "views": "55만회",
+        "views": "58만회",
         "thumb": "https://i.ytimg.com/vi/uhiQFGuniyo/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=uhiQFGuniyo"
       },
@@ -1477,63 +1477,63 @@
         "rank": 3,
         "title": "Know My Name ft. True Damage (Official Music Video) | League of Legends Worlds 2026 Anthem",
         "channel": "League of Legends",
-        "views": "595만회",
+        "views": "653만회",
         "thumb": "https://i.ytimg.com/vi/mlFxxNsExJc/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=mlFxxNsExJc"
       },
       {
         "rank": 4,
-        "title": "CRY OUT LOUD",
-        "channel": "Roy Kim - Topic",
-        "views": "62만회",
-        "thumb": "https://i.ytimg.com/vi/R4kmk4CDVHM/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=R4kmk4CDVHM"
+        "title": "Recharge Me",
+        "channel": "WENDY - Topic",
+        "views": "6만회",
+        "thumb": "https://i.ytimg.com/vi/MAIWvlrymlE/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=MAIWvlrymlE"
       },
       {
         "rank": 5,
         "title": "세계 1위 우영우 일본판 2차 예고편 공개되자 전세계가 뒤집어진 이유 해외반응 \"박은빈과 너무 비교되잖아\"",
         "channel": "재미주의",
-        "views": "23만회",
+        "views": "24만회",
         "thumb": "https://i.ytimg.com/vi/EhreM6O-AL8/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=EhreM6O-AL8"
       },
       {
         "rank": 6,
-        "title": "감스트 패키지에서 uc호날두11카(현금5천만원) 뽑았습니다!! 트릭두 개레전드 fc온라인",
-        "channel": "감스트GAMST",
-        "views": "73만회",
-        "thumb": "https://i.ytimg.com/vi/s8eBq0YE6Nk/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=s8eBq0YE6Nk"
+        "title": "미스터리 수사반2 [사건파일: 허가받지 못한 종결사건 재수사]",
+        "channel": "잠뜰 TV",
+        "views": "50만회",
+        "thumb": "https://i.ytimg.com/vi/QMPNd0dsRhk/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=QMPNd0dsRhk"
       },
       {
         "rank": 7,
         "title": "Waste My Time",
         "channel": "Marc Atlas - Topic",
-        "views": "9만회",
+        "views": "12만회",
         "thumb": "https://i.ytimg.com/vi/n9h7WZg1oYs/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=n9h7WZg1oYs"
       },
       {
         "rank": 8,
-        "title": "미스터리 수사반2 [사건파일: 허가받지 못한 종결사건 재수사]",
-        "channel": "잠뜰 TV",
-        "views": "35만회",
-        "thumb": "https://i.ytimg.com/vi/QMPNd0dsRhk/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=QMPNd0dsRhk"
+        "title": "감스트 패키지에서 uc호날두11카(현금5천만원) 뽑았습니다!! 트릭두 개레전드 fc온라인",
+        "channel": "감스트GAMST",
+        "views": "94만회",
+        "thumb": "https://i.ytimg.com/vi/s8eBq0YE6Nk/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=s8eBq0YE6Nk"
       },
       {
         "rank": 9,
-        "title": "Know My Name",
-        "channel": "True Damage - Topic",
-        "views": "25만회",
-        "thumb": "https://i.ytimg.com/vi/ON1a7XYDa1E/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=ON1a7XYDa1E"
+        "title": "CRY OUT LOUD",
+        "channel": "Roy Kim - Topic",
+        "views": "68만회",
+        "thumb": "https://i.ytimg.com/vi/R4kmk4CDVHM/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=R4kmk4CDVHM"
       },
       {
         "rank": 10,
         "title": "T1 vs PRX / 100T vs NS - 챔피언스 상하이- 플레이오프 - 13일차",
         "channel": "발로란트 챔피언스 투어",
-        "views": "61만회",
+        "views": "62만회",
         "thumb": "https://i.ytimg.com/vi/YERCwvTn5Fk/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=YERCwvTn5Fk"
       }
