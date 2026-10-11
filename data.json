@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11 12:13:55",
+  "updated_at": "2026-10-11 19:28:34",
   "us2y": {
     "value": 4.8,
     "change": 0.05
@@ -133,41 +133,41 @@
         "date": "10-09 20:02"
       },
       {
-        "title": "[전자신문] 국세청, 중기부와 2559개 AI 중소·스타트업 집중 지원",
-        "link": "https://www.etnews.com/20261011000061",
-        "date": "10-11 12:02"
+        "title": "[전자신문] 최태원 SK 회장 “미·중 반도체 증설 시 우리 점유율 축소…최대한 빨리 확장 해야”",
+        "link": "https://www.etnews.com/20261011000091",
+        "date": "10-11 18:23"
       },
       {
-        "title": "[전자신문] 현대차, 인도 진출 30년 만에 판매 1000만대 돌파",
-        "link": "https://www.etnews.com/20261011000060",
-        "date": "10-11 12:01"
+        "title": "[전자신문] [포토] 공간 자체가 AI가 되는 세계 최초 공간 주도형 AI 플랫폼",
+        "link": "https://www.etnews.com/20261011000089",
+        "date": "10-11 17:21"
       }
     ],
     "domestic": [
       {
+        "title": "[뉴욕채권-주간] 장기금리 정점 지났을까…중동 긴장·美 물가지표 주목",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4438575",
+        "date": "10-11 17:50"
+      },
+      {
+        "title": "[뉴욕환시-주간] 佛 우려 속 관심받는 라가르드…美 물가·워시도 촉각",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4438574",
+        "date": "10-11 17:49"
+      },
+      {
+        "title": "[외환-주간] 연저점 앞두고 중동 불안 확대…'美 CPI·워시 발언' 주목",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4438567",
+        "date": "10-11 13:00"
+      },
+      {
+        "title": "[채권-주간] 사우디 긴장 고조 속 韓銀 국정감사 주시",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4438566",
+        "date": "10-11 13:00"
+      },
+      {
         "title": "'원화지수' 개발 필요성 대두…교역에 서학개미까지 담는 환율 잣대",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4438544",
         "date": "10-11 07:50"
-      },
-      {
-        "title": "유례없는 경상수지 흑자에 8월 준비자산 증가액 신기록",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4438538",
-        "date": "10-10 10:08"
-      },
-      {
-        "title": "NDF, 1,339.50/ 1,339.90원…2.30원↓",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4438529",
-        "date": "10-10 08:54"
-      },
-      {
-        "title": "[외환] 트럼프 유가 안정대책 발표 속 1,340원대 초반 거래",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4438528",
-        "date": "10-10 08:42"
-      },
-      {
-        "title": "투기 세력 '엔화 쇼트' 더 늘었다…2주 연속 매도 우위",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4438526",
-        "date": "10-10 08:07"
       }
     ]
   },
@@ -223,14 +223,14 @@
       "detail": "10Y-2Y 스프레드가 +44 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.64",
-      "title": "닥터 코퍼 $6.64선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.69",
+      "title": "닥터 코퍼 $6.69선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.64",
-          "chg": "+1.84%",
+          "val": "$6.69",
+          "chg": "+2.61%",
           "up": true
         },
         {
@@ -243,14 +243,14 @@
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$60.67",
-          "chg": "+2.73%",
+          "val": "$61.05",
+          "chg": "+3.37%",
           "up": true
         }
       ],
       "bullets": [
-        "구리 $6.64/lb (+1.84%) - AI 전력망 설비 수요 반영",
-        "금 $4,216/oz, 은 $60.67/oz - 통화가치 헤지"
+        "구리 $6.69/lb (+2.61%) - AI 전력망 설비 수요 반영",
+        "금 $4,216/oz, 은 $61.05/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
@@ -307,16 +307,16 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.64,
-      "change": 1.84
+      "price": 6.69,
+      "change": 2.61
     },
     "gold": {
       "price": 4216.3,
       "change": 1.43
     },
     "silver": {
-      "price": 60.67,
-      "change": 2.73
+      "price": 61.05,
+      "change": 3.37
     },
     "wti": {
       "price": 91.85,
@@ -595,9 +595,9 @@
       },
       {
         "date": "10-09",
-        "copper": 6.64,
+        "copper": 6.69,
         "gold": 4216.3,
-        "silver": 60.67
+        "silver": 61.05
       }
     ],
     "fx": [
@@ -716,7 +716,7 @@
         "usdjpy": 158.06
       },
       {
-        "date": "10-10",
+        "date": "10-11",
         "usdkrw": 1340.9,
         "dxy": 102.21,
         "usdjpy": 158.25
@@ -830,29 +830,29 @@
       "title": "이번 주 (10/05 ~ 10/11)",
       "macro": [
         {
-          "date": "10-05 2:00pm",
-          "event": "ISM Services PMI",
-          "impact": "HIGH"
-        },
-        {
-          "date": "10-07 5:00pm",
-          "event": "President Trump Speaks",
-          "impact": "HIGH"
-        },
-        {
-          "date": "10-07 6:00pm",
-          "event": "FOMC Meeting Minutes",
+          "date": "10-14 12:30pm",
+          "event": "Core CPI m/m",
           "impact": "CRITICAL"
         },
         {
-          "date": "10-08 8:30am",
-          "event": "FOMC Member Waller Speaks",
-          "impact": "HIGH"
+          "date": "10-14 12:30pm",
+          "event": "Core CPI y/y",
+          "impact": "CRITICAL"
         },
         {
-          "date": "10-08 12:30pm",
-          "event": "Unemployment Claims",
-          "impact": "HIGH"
+          "date": "10-14 12:30pm",
+          "event": "CPI m/m",
+          "impact": "CRITICAL"
+        },
+        {
+          "date": "10-14 12:30pm",
+          "event": "CPI y/y",
+          "impact": "CRITICAL"
+        },
+        {
+          "date": "10-15 12:30pm",
+          "event": "Core PPI m/m",
+          "impact": "CRITICAL"
         }
       ],
       "earnings": []
@@ -1415,69 +1415,69 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "김지원의 닥터X 시청률 14.9%",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%A7%80%EC%9B%90%EC%9D%98%20%EB%8B%A5%ED%84%B0X%20%EC%8B%9C%EC%B2%AD%EB%A5%A0%2014.9%25"
+        "title": "유현조 HJ중공업 동부건설",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9C%A0%ED%98%84%EC%A1%B0%20HJ%EC%A4%91%EA%B3%B5%EC%97%85%20%EB%8F%99%EB%B6%80%EA%B1%B4%EC%84%A4"
       },
       {
         "rank": 2,
-        "title": "대구 상가 붕괴 현장",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%8C%80%EA%B5%AC%20%EC%83%81%EA%B0%80%20%EB%B6%95%EA%B4%B4%20%ED%98%84%EC%9E%A5"
+        "title": "북한, 당 창건 81주년 공연",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B6%81%ED%95%9C%2C%20%EB%8B%B9%20%EC%B0%BD%EA%B1%B4%2081%EC%A3%BC%EB%85%84%20%EA%B3%B5%EC%97%B0"
       },
       {
         "rank": 3,
-        "title": "오디세이 외화 매출 1위",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%98%A4%EB%94%94%EC%84%B8%EC%9D%B4%20%EC%99%B8%ED%99%94%20%EB%A7%A4%EC%B6%9C%201%EC%9C%84"
+        "title": "닥터X 의학 고증 문제",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%8B%A5%ED%84%B0X%20%EC%9D%98%ED%95%99%20%EA%B3%A0%EC%A6%9D%20%EB%AC%B8%EC%A0%9C"
       },
       {
         "rank": 4,
-        "title": "하리수",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%98%EB%A6%AC%EC%88%98"
+        "title": "한국경제신문",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%9C%EA%B5%AD%EA%B2%BD%EC%A0%9C%EC%8B%A0%EB%AC%B8"
       },
       {
         "rank": 5,
-        "title": "한윤서, 문준웅과 결혼",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%9C%EC%9C%A4%EC%84%9C%2C%20%EB%AC%B8%EC%A4%80%EC%9B%85%EA%B3%BC%20%EA%B2%B0%ED%98%BC"
+        "title": "가계대출 변동금리",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B0%80%EA%B3%84%EB%8C%80%EC%B6%9C%20%EB%B3%80%EB%8F%99%EA%B8%88%EB%A6%AC"
       },
       {
         "rank": 6,
-        "title": "고소",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B3%A0%EC%86%8C"
-      },
-      {
-        "rank": 7,
         "title": "국세 체납 116조",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B5%AD%EC%84%B8%20%EC%B2%B4%EB%82%A9%20116%EC%A1%B0"
       },
       {
+        "rank": 7,
+        "title": "김용빈, 무한도전 멤버 모름",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%9A%A9%EB%B9%88%2C%20%EB%AC%B4%ED%95%9C%EB%8F%84%EC%A0%84%20%EB%A9%A4%EB%B2%84%20%EB%AA%A8%EB%A6%84"
+      },
+      {
         "rank": 8,
-        "title": "라밤바 박근서 롯데 계약 완료",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%9D%BC%EB%B0%A4%EB%B0%94%20%EB%B0%95%EA%B7%BC%EC%84%9C%20%EB%A1%AF%EB%8D%B0%20%EA%B3%84%EC%95%BD%20%EC%99%84%EB%A3%8C"
+        "title": "기금",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B8%B0%EA%B8%88"
       },
       {
         "rank": 9,
-        "title": "박군",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B0%95%EA%B5%B0"
+        "title": "손흥민 LAFC 무승부",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%86%90%ED%9D%A5%EB%AF%BC%20LAFC%20%EB%AC%B4%EC%8A%B9%EB%B6%80"
       },
       {
         "rank": 10,
-        "title": "서울 아파트값 상승 지속",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%84%9C%EC%9A%B8%20%EC%95%84%ED%8C%8C%ED%8A%B8%EA%B0%92%20%EC%83%81%EC%8A%B9%20%EC%A7%80%EC%86%8D"
+        "title": "이승기 딸 육아 고충",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EC%8A%B9%EA%B8%B0%20%EB%94%B8%20%EC%9C%A1%EC%95%84%20%EA%B3%A0%EC%B6%A9"
       }
     ],
     "youtube_popular": [
       {
         "rank": 1,
-        "title": "Still",
-        "channel": "N.Flying - Topic",
-        "views": "35만회",
-        "thumb": "https://i.ytimg.com/vi/JqdlzX5zFzg/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=JqdlzX5zFzg"
+        "title": "Recharge Me",
+        "channel": "WENDY - Topic",
+        "views": "12만회",
+        "thumb": "https://i.ytimg.com/vi/MAIWvlrymlE/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=MAIWvlrymlE"
       },
       {
         "rank": 2,
         "title": "와.. 뒤지게 재밌겠다.. ≪비전퀘스트≫ 메인 예고편 리뷰 & 떡밥 총정리",
         "channel": "무비띵크_Movie Think",
-        "views": "64만회",
+        "views": "66만회",
         "thumb": "https://i.ytimg.com/vi/uhiQFGuniyo/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=uhiQFGuniyo"
       },
@@ -1485,65 +1485,65 @@
         "rank": 3,
         "title": "Know My Name ft. True Damage (Official Music Video) | League of Legends Worlds 2026 Anthem",
         "channel": "League of Legends",
-        "views": "787만회",
+        "views": "1408만회",
         "thumb": "https://i.ytimg.com/vi/mlFxxNsExJc/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=mlFxxNsExJc"
       },
       {
         "rank": 4,
-        "title": "Recharge Me",
-        "channel": "WENDY - Topic",
-        "views": "11만회",
-        "thumb": "https://i.ytimg.com/vi/MAIWvlrymlE/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=MAIWvlrymlE"
+        "title": "Still",
+        "channel": "N.Flying - Topic",
+        "views": "39만회",
+        "thumb": "https://i.ytimg.com/vi/JqdlzX5zFzg/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=JqdlzX5zFzg"
       },
       {
         "rank": 5,
-        "title": "세계 1위 우영우 일본판 2차 예고편 공개되자 전세계가 뒤집어진 이유 해외반응 \"박은빈과 너무 비교되잖아\"",
-        "channel": "재미주의",
-        "views": "30만회",
-        "thumb": "https://i.ytimg.com/vi/EhreM6O-AL8/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=EhreM6O-AL8"
-      },
-      {
-        "rank": 6,
         "title": "미스터리 수사반2 [사건파일: 허가받지 못한 종결사건 재수사 上]",
         "channel": "잠뜰 TV",
-        "views": "79만회",
+        "views": "86만회",
         "thumb": "https://i.ytimg.com/vi/QMPNd0dsRhk/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=QMPNd0dsRhk"
       },
       {
-        "rank": 7,
+        "rank": 6,
         "title": "Sunset",
         "channel": "Lim Ga Young - Topic",
-        "views": "21만회",
+        "views": "23만회",
         "thumb": "https://i.ytimg.com/vi/i6HW_p5V1-8/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=i6HW_p5V1-8"
       },
       {
+        "rank": 7,
+        "title": "대재앙 좀비 무리에게서 살아남기 [좀비원정대 4화]",
+        "channel": "동수칸TV",
+        "views": "36만회",
+        "thumb": "https://i.ytimg.com/vi/4QKfXWPXw2Y/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=4QKfXWPXw2Y"
+      },
+      {
         "rank": 8,
-        "title": "[더 엑소시스트: 순교자들] 1차 예고편",
-        "channel": "유니버설 픽쳐스",
-        "views": "49만회",
-        "thumb": "https://i.ytimg.com/vi/ixmLonqupeI/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=ixmLonqupeI"
+        "title": "Waste My Time",
+        "channel": "Marc Atlas - Topic",
+        "views": "19만회",
+        "thumb": "https://i.ytimg.com/vi/n9h7WZg1oYs/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=n9h7WZg1oYs"
       },
       {
         "rank": 9,
-        "title": "감스트 패키지에서 uc호날두11카(현금5천만원) 뽑았습니다!! 트릭두 개레전드 fc온라인",
-        "channel": "감스트GAMST",
-        "views": "113만회",
-        "thumb": "https://i.ytimg.com/vi/s8eBq0YE6Nk/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=s8eBq0YE6Nk"
+        "title": "5000만명이 접속?! 로블록스 신작 ≪왁뿌타≫ 소리부터 다릅니다;;",
+        "channel": "혜안",
+        "views": "65만회",
+        "thumb": "https://i.ytimg.com/vi/EyhSn_Bn_hM/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=EyhSn_Bn_hM"
       },
       {
         "rank": 10,
-        "title": "Waste My Time",
-        "channel": "Marc Atlas - Topic",
-        "views": "17만회",
-        "thumb": "https://i.ytimg.com/vi/n9h7WZg1oYs/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=n9h7WZg1oYs"
+        "title": "Know My Name",
+        "channel": "True Damage - Topic",
+        "views": "46만회",
+        "thumb": "https://i.ytimg.com/vi/ON1a7XYDa1E/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=ON1a7XYDa1E"
       }
     ]
   }
