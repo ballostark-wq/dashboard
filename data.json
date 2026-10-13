@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-10-13 21:23:38",
+  "updated_at": "2026-10-14 04:41:27",
   "us2y": {
     "value": 4.8,
     "change": 0.05
   },
   "us5y": {
-    "value": 5.02,
-    "change": 0.0
+    "value": 5.01,
+    "change": -0.01
   },
   "us10y": {
-    "value": 5.24,
-    "change": 0.0
+    "value": 5.22,
+    "change": -0.02
   },
   "us30y": {
-    "value": 5.6,
-    "change": 0.0
+    "value": 5.56,
+    "change": -0.04
   },
   "spread": {
-    "value": 44,
+    "value": 42,
     "status": "정상화 (우상향)"
   },
   "vix": {
@@ -91,6 +91,11 @@
     ],
     "global": [
       {
+        "title": "JPMorgan Chase blocks outside AI agents like Muse, Instinct from directly accessing accounts",
+        "link": "https://www.cnbc.com/2026/10/13/jpmorgan-ai-agents-account-access.html",
+        "date": "10-13 18:46"
+      },
+      {
         "title": "Stocks making the biggest moves premarket: JPMorgan Chase, Micron, UnitedHealth & more",
         "link": "https://www.cnbc.com/2026/10/13/stocks-making-the-biggest-moves-premarket-jpm-mu-unh.html",
         "date": "10-13 11:49"
@@ -109,11 +114,6 @@
         "title": "The bull market turned 4 years old on Monday. Investors say reaching a fifth birthday could be challenging",
         "link": "https://www.cnbc.com/2026/10/12/the-bull-market-just-turned-four-after-climbing-a-wall-of-worry.html",
         "date": "10-12 18:18"
-      },
-      {
-        "title": "Higher rates could be needed to avoid 'inflationary mindset' taking hold, says Fed's Hammack",
-        "link": "https://www.cnbc.com/2026/10/12/beth-hammack-fed-inflation-policy.html",
-        "date": "10-13 02:58"
       }
     ],
     "tech": [
@@ -131,43 +131,33 @@
         "title": "[디일렉] 지멘스 \"HD현대 등 대기업과 ICX 시험 중\"... 6대 제조업 공략",
         "link": "https://www.thelec.kr/news/articleView.html?idxno=63634",
         "date": "10-13 17:33"
-      },
-      {
-        "title": "[전자신문] 코난테크놀로지, 11월 '국방 AI 서밋' 개최…정보분석 플랫폼 공개",
-        "link": "https://www.etnews.com/20261013000450",
-        "date": "10-13 19:11"
-      },
-      {
-        "title": "[전자신문] [ET포토] A2O 라이트 헤메키, '폼나게~'",
-        "link": "https://www.etnews.com/20261013000449",
-        "date": "10-13 18:54"
       }
     ],
     "domestic": [
       {
-        "title": "IRS, 강세 플래트닝…\"장중 비드 찾아볼 수 없을 정도\"",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4439054",
-        "date": "10-13 18:45"
+        "title": "美 9월 기존주택판매 전월비 1.5%↑…예상치 상회",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4439070",
+        "date": "10-14 02:36"
       },
       {
-        "title": "[채권-마감] 外人 주도의 가파른 강세…주가 급락까지",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4439053",
-        "date": "10-13 18:45"
+        "title": "JP모건, 3분기 실적 이례적 '어닝 미스'…채권이 갉아먹었다",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4439067",
+        "date": "10-14 01:17"
       },
       {
-        "title": "[외환-마감] 코스피 급락 속 달러선물 올해 최대 순매수…10.00원↑",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4439052",
-        "date": "10-13 18:44"
+        "title": "美 국채, 글로벌 증시 투매에 고금리 부각…'불 플랫'",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4439066",
+        "date": "10-14 00:27"
       },
       {
-        "title": "FX스와프, 에셋 우위에 하락…美 CPI 대기",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4439048",
-        "date": "10-13 17:59"
+        "title": "달러-원, 뉴욕장서 1,340원 초반대 거래",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4439065",
+        "date": "10-14 00:20"
       },
       {
-        "title": "달러-원, 코스피 폭락에 10원 급등…서울장 1,345.10원 마감",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4439045",
-        "date": "10-13 17:30"
+        "title": "미 달러화 약세…국제유가 나흘만에 하락 속 월러 '비둘기' 발언",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4439064",
+        "date": "10-13 23:56"
       }
     ]
   },
@@ -184,22 +174,22 @@
   },
   "macro_reviews": {
     "bonds": {
-      "badge": "스프레드 +44 bp",
-      "title": "미국채 10년물 5.24%선 공방과 정상화",
+      "badge": "스프레드 +42 bp",
+      "title": "미국채 10년물 5.22%선 공방과 정상화",
       "metrics": [
         {
           "id": "spread",
           "name": "10Y-2Y차",
-          "val": "+44 bp",
+          "val": "+42 bp",
           "chg": "정상화 (우상향)",
           "up": true
         },
         {
           "id": "us10y",
           "name": "10년물",
-          "val": "5.24%",
-          "chg": "+0.00%",
-          "up": true
+          "val": "5.22%",
+          "chg": "-0.02%",
+          "up": false
         },
         {
           "id": "us2y",
@@ -211,16 +201,16 @@
         {
           "id": "us30y",
           "name": "30년물",
-          "val": "5.60%",
-          "chg": "+0.00%",
-          "up": true
+          "val": "5.56%",
+          "chg": "-0.04%",
+          "up": false
         }
       ],
       "bullets": [
-        "10년물 5.24%와 2년물 4.8% 형성으로 스프레드 +44 bp 유지",
-        "초장기 30년물 5.6%선 안착 속 재정 적자 발행에 따른 기간 프리미엄"
+        "10년물 5.22%와 2년물 4.8% 형성으로 스프레드 +42 bp 유지",
+        "초장기 30년물 5.56%선 안착 속 재정 적자 발행에 따른 기간 프리미엄"
       ],
-      "detail": "10Y-2Y 스프레드가 +44 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
+      "detail": "10Y-2Y 스프레드가 +42 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
       "badge": "구리 $6.73",
@@ -236,70 +226,70 @@
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,212.2",
-          "chg": "+0.52%",
-          "up": true
+          "val": "$4,188.4",
+          "chg": "-0.05%",
+          "up": false
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$60.67",
-          "chg": "+0.88%",
-          "up": true
+          "val": "$59.55",
+          "chg": "-0.98%",
+          "up": false
         }
       ],
       "bullets": [
         "구리 $6.73/lb (+0.45%) - AI 전력망 설비 수요 반영",
-        "금 $4,212/oz, 은 $60.67/oz - 통화가치 헤지"
+        "금 $4,188/oz, 은 $59.55/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,341원 | 엔/달러 ¥158.1",
-      "title": "원/달러 1,341.3원선과 엔/달러 ¥158.1",
+      "badge": "원/달러 1,342원 | 엔/달러 ¥158.3",
+      "title": "원/달러 1,341.6원선과 엔/달러 ¥158.3",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,341.3원",
-          "chg": "-0.13%",
+          "val": "1,341.6원",
+          "chg": "-0.11%",
           "up": false
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "102.26pt",
-          "chg": "-0.31%",
+          "val": "102.19pt",
+          "chg": "-0.38%",
           "up": false
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥158.12",
-          "chg": "+0.04%",
+          "val": "¥158.31",
+          "chg": "+0.16%",
           "up": true
         }
       ],
       "bullets": [
-        "달러 인덱스 102.26pt - 미국 성장 우위 지속",
-        "엔/달러 158.12엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "달러 인덱스 102.19pt - 미국 성장 우위 지속",
+        "엔/달러 158.31엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $92.24",
-      "title": "WTI 배럴당 $92.24선 박스권 안정",
+      "badge": "WTI $94.43",
+      "title": "WTI 배럴당 $94.43선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$92.24",
-          "chg": "-1.60%",
-          "up": false
+          "val": "$94.43",
+          "chg": "+0.74%",
+          "up": true
         }
       ],
       "bullets": [
-        "WTI 선물 $92.24/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $94.43/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -311,39 +301,32 @@
       "change": 0.45
     },
     "gold": {
-      "price": 4212.2,
-      "change": 0.52
+      "price": 4188.4,
+      "change": -0.05
     },
     "silver": {
-      "price": 60.67,
-      "change": 0.88
+      "price": 59.55,
+      "change": -0.98
     },
     "wti": {
-      "price": 92.24,
-      "change": -1.6
+      "price": 94.43,
+      "change": 0.74
     },
     "usdkrw": {
-      "price": 1341.3,
-      "change": -0.13
+      "price": 1341.56,
+      "change": -0.11
     },
     "dxy": {
-      "price": 102.26,
-      "change": -0.31
+      "price": 102.19,
+      "change": -0.38
     },
     "usdjpy": {
-      "price": 158.12,
-      "change": 0.04
+      "price": 158.31,
+      "change": 0.16
     }
   },
   "history_20d": {
     "bonds": [
-      {
-        "date": "09-15",
-        "us10y": 5.0,
-        "us2y": 4.67,
-        "us30y": 5.36,
-        "spread": 33
-      },
       {
         "date": "09-16",
         "us10y": 5.01,
@@ -476,6 +459,13 @@
         "us2y": 4.8,
         "us30y": 5.6,
         "spread": 44
+      },
+      {
+        "date": "10-13",
+        "us10y": 5.22,
+        "us2y": 4.8,
+        "us30y": 5.56,
+        "spread": 42
       }
     ],
     "commodities": [
@@ -596,8 +586,8 @@
       {
         "date": "10-13",
         "copper": 6.73,
-        "gold": 4212.2,
-        "silver": 60.67
+        "gold": 4188.4,
+        "silver": 59.55
       }
     ],
     "fx": [
@@ -717,9 +707,9 @@
       },
       {
         "date": "10-13",
-        "usdkrw": 1341.3,
-        "dxy": 102.26,
-        "usdjpy": 158.12
+        "usdkrw": 1341.56,
+        "dxy": 102.19,
+        "usdjpy": 158.31
       }
     ],
     "oil": [
@@ -820,8 +810,8 @@
       },
       {
         "date": "10-13",
-        "wti": 92.24,
-        "change": -1.6
+        "wti": 94.43,
+        "change": 0.74
       }
     ]
   },
@@ -859,24 +849,40 @@
     }
   },
   "humanities": {
-    "history_date": "2026-10-13",
+    "history_date": "2026-10-14",
     "history": {
-      "era": "1700년 ~ 1869년 (1773년)",
-      "region": "세계",
-      "year": "1773년",
-      "title": "[1773년] [세계] 러시아에서 푸가초프의 난 발발(∼1774), 보스턴 차 사건",
-      "summary": "1773년 - 러시아에서 푸가초프의 난 발발(∼1774), 보스턴 차 사건",
+      "era": "395년 ~ 1071년 (527년)",
+      "region": "한국",
+      "year": "527년",
+      "title": "[527년] [한국] 신라, 불교를 공인",
+      "summary": "527년 - 신라, 불교를 공인",
       "bullets": [
-        "발생 연대: 1773년 (세계사)",
-        "러시아에서 푸가초프의 난 발발(∼1774), 보스턴 차 사건",
+        "발생 연대: 527년 (한국사)",
+        "신라, 불교를 공인",
         "당대 세력 균형 및 정치·경제적 제도 변화 반영"
       ],
-      "insight": "1773년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
-      "ref_title": "위키백과 세계사 연표: 1700년 ~ 1869년 (1773년)",
-      "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1700%EB%85%84_~_1869%EB%85%84:~:text=1773",
+      "insight": "527년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
+      "ref_title": "위키백과 세계사 연표: 395년 ~ 1071년 (527년)",
+      "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#395%EB%85%84_~_1071%EB%85%84:~:text=527",
       "d_day": "오늘"
     },
     "history_5d": [
+      {
+        "era": "395년 ~ 1071년 (527년)",
+        "region": "한국",
+        "year": "527년",
+        "title": "[527년] [한국] 신라, 불교를 공인",
+        "summary": "527년 - 신라, 불교를 공인",
+        "bullets": [
+          "발생 연대: 527년 (한국사)",
+          "신라, 불교를 공인",
+          "당대 세력 균형 및 정치·경제적 제도 변화 반영"
+        ],
+        "insight": "527년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
+        "ref_title": "위키백과 세계사 연표: 395년 ~ 1071년 (527년)",
+        "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#395%EB%85%84_~_1071%EB%85%84:~:text=527",
+        "d_day": "오늘"
+      },
       {
         "era": "1700년 ~ 1869년 (1773년)",
         "region": "세계",
@@ -891,7 +897,7 @@
         "insight": "1773년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1700년 ~ 1869년 (1773년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1700%EB%85%84_~_1869%EB%85%84:~:text=1773",
-        "d_day": "오늘"
+        "d_day": "D-1"
       },
       {
         "era": "1076년 ~ 1455년 (1411년)",
@@ -907,7 +913,7 @@
         "insight": "1411년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1076년 ~ 1455년 (1411년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1076%EB%85%84_~_1455%EB%85%84:~:text=1411",
-        "d_day": "D-1"
+        "d_day": "D-2"
       },
       {
         "era": "선사시대 ~ 384년 (226년)",
@@ -923,7 +929,7 @@
         "insight": "226년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 선사시대 ~ 384년 (226년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#%EC%84%A0%EC%82%AC%EC%8B%9C%EB%8C%80_~_384%EB%85%84:~:text=226",
-        "d_day": "D-2"
+        "d_day": "D-3"
       },
       {
         "era": "1870년 ~ 1923년 (1884년)",
@@ -939,90 +945,140 @@
         "insight": "1884년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1870년 ~ 1923년 (1884년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1870%EB%85%84_~_1923%EB%85%84:~:text=1884",
-        "d_day": "D-3"
-      },
-      {
-        "era": "1924년 ~ 1972년 (1939년)",
-        "region": "세계",
-        "year": "1939년",
-        "title": "[1939년] [세계] 히틀러와 스탈린, 독소 불가침 조약 체결",
-        "summary": "1939년 - 히틀러와 스탈린, 독소 불가침 조약 체결",
-        "bullets": [
-          "발생 연대: 1939년 (세계사)",
-          "히틀러와 스탈린, 독소 불가침 조약 체결",
-          "당대 세력 균형 및 정치·경제적 제도 변화 반영"
-        ],
-        "insight": "1939년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
-        "ref_title": "위키백과 세계사 연표: 1924년 ~ 1972년 (1939년)",
-        "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1924%EB%85%84_~_1972%EB%85%84:~:text=1939",
         "d_day": "D-4"
       }
     ],
     "polyglot": {
-      "theme": "입버릇 관용구: 격차",
-      "meaning": "우린 노는 물(급)이 달라.",
+      "theme": "감사 표현",
+      "type": "기초",
+      "meaning": "정말 감사합니다.",
       "translations": {
         "en": {
           "code": "en-US",
           "name": "영어",
           "flag": "🇺🇸",
-          "text": "We're not in the same league.",
-          "roman": ""
+          "text": "Thank you very much.",
+          "roman": "땡큐 베리 머치."
         },
         "ja": {
           "code": "ja-JP",
           "name": "일본어",
           "flag": "🇯🇵",
-          "text": "私たちと彼らじゃ格が違うよ。",
-          "roman": "Watashitachi to karera ja kaku ga chigau yo."
+          "text": "本当にありがとうございます。",
+          "roman": "혼토-니 아리가토- 고자이마스."
         },
         "zh": {
           "code": "zh-CN",
           "name": "중국어",
           "flag": "🇨🇳",
-          "text": "我们跟他们根本不是一个档次的。",
-          "roman": "Wǒmen gēn tāmen gēnběn bù shì yī ge dàngcì de."
+          "text": "非常感谢你。",
+          "roman": "페이창 간셰 니."
         },
         "fr": {
           "code": "fr-FR",
           "name": "프랑스어",
           "flag": "🇫🇷",
-          "text": "On ne joue pas du tout dans la même cour.",
-          "roman": ""
+          "text": "Merci beaucoup.",
+          "roman": "메르시 보꾸."
         },
         "de": {
           "code": "de-DE",
           "name": "독일어",
           "flag": "🇩🇪",
-          "text": "Wir spielen überhaupt nicht in derselben Liga.",
-          "roman": ""
+          "text": "Vielen Dank.",
+          "roman": "필렌 당크."
         },
         "es": {
           "code": "es-ES",
           "name": "스페인어",
           "flag": "🇪🇸",
-          "text": "No jugamos en la misma liga.",
-          "roman": ""
+          "text": "Muchas gracias.",
+          "roman": "무차스 그라시아스."
         },
         "ar": {
           "code": "ar-SA",
           "name": "아랍어",
           "flag": "🇸🇦",
-          "text": "لسنا في نفس المستوى أو المكانة إطلاقًا.",
-          "roman": "Lasnā fī nafsi al-mustawā aw al-makānah iṭlāqan."
+          "text": "شكراً جزيلاً لك.",
+          "roman": "슈크란 자질란 라크."
         },
         "ru": {
           "code": "ru-RU",
           "name": "러시아어",
           "flag": "🇷🇺",
-          "text": "Мы птицы совершенно разного полёта.",
-          "roman": "My ptitsy sovershenno raznogo polyota."
+          "text": "Большое спасибо.",
+          "roman": "발쇼예 스파시바."
         }
       },
-      "pool_type": "일상",
+      "pool_type": "기초",
       "d_day": "오늘"
     },
     "polyglot_5d": [
+      {
+        "theme": "감사 표현",
+        "type": "기초",
+        "meaning": "정말 감사합니다.",
+        "translations": {
+          "en": {
+            "code": "en-US",
+            "name": "영어",
+            "flag": "🇺🇸",
+            "text": "Thank you very much.",
+            "roman": "땡큐 베리 머치."
+          },
+          "ja": {
+            "code": "ja-JP",
+            "name": "일본어",
+            "flag": "🇯🇵",
+            "text": "本当にありがとうございます。",
+            "roman": "혼토-니 아리가토- 고자이마스."
+          },
+          "zh": {
+            "code": "zh-CN",
+            "name": "중국어",
+            "flag": "🇨🇳",
+            "text": "非常感谢你。",
+            "roman": "페이창 간셰 니."
+          },
+          "fr": {
+            "code": "fr-FR",
+            "name": "프랑스어",
+            "flag": "🇫🇷",
+            "text": "Merci beaucoup.",
+            "roman": "메르시 보꾸."
+          },
+          "de": {
+            "code": "de-DE",
+            "name": "독일어",
+            "flag": "🇩🇪",
+            "text": "Vielen Dank.",
+            "roman": "필렌 당크."
+          },
+          "es": {
+            "code": "es-ES",
+            "name": "스페인어",
+            "flag": "🇪🇸",
+            "text": "Muchas gracias.",
+            "roman": "무차스 그라시아스."
+          },
+          "ar": {
+            "code": "ar-SA",
+            "name": "아랍어",
+            "flag": "🇸🇦",
+            "text": "شكراً جزيلاً لك.",
+            "roman": "슈크란 자질란 라크."
+          },
+          "ru": {
+            "code": "ru-RU",
+            "name": "러시아어",
+            "flag": "🇷🇺",
+            "text": "Большое спасибо.",
+            "roman": "발쇼예 스파시바."
+          }
+        },
+        "pool_type": "기초",
+        "d_day": "오늘"
+      },
       {
         "theme": "입버릇 관용구: 격차",
         "meaning": "우린 노는 물(급)이 달라.",
@@ -1085,7 +1141,7 @@
           }
         },
         "pool_type": "일상",
-        "d_day": "오늘"
+        "d_day": "D-1"
       },
       {
         "theme": "작별 인사",
@@ -1150,7 +1206,7 @@
           }
         },
         "pool_type": "기초",
-        "d_day": "D-1"
+        "d_day": "D-2"
       },
       {
         "theme": "입버릇 관용구: 궁합",
@@ -1214,7 +1270,7 @@
           }
         },
         "pool_type": "일상",
-        "d_day": "D-2"
+        "d_day": "D-3"
       },
       {
         "theme": "덕담",
@@ -1279,84 +1335,20 @@
           }
         },
         "pool_type": "기초",
-        "d_day": "D-3"
-      },
-      {
-        "theme": "입버릇 관용구: 분주함",
-        "meaning": "손이 열 개라도 모자라 (너무 바빠).",
-        "translations": {
-          "en": {
-            "code": "en-US",
-            "name": "영어",
-            "flag": "🇺🇸",
-            "text": "My hands are full.",
-            "roman": ""
-          },
-          "ja": {
-            "code": "ja-JP",
-            "name": "일본어",
-            "flag": "🇯🇵",
-            "text": "手がふさがってて、いっぱいいっぱいなんだ。",
-            "roman": "Te ga fusagattete, ippai ippai nan da."
-          },
-          "zh": {
-            "code": "zh-CN",
-            "name": "중국어",
-            "flag": "🇨🇳",
-            "text": "我手头上的事多得忙不过来。",
-            "roman": "Wǒ shǒutóu shang de shì duō de máng bù guòlái."
-          },
-          "fr": {
-            "code": "fr-FR",
-            "name": "프랑스어",
-            "flag": "🇫🇷",
-            "text": "Je suis débordé, j'ai déjà trop à faire.",
-            "roman": ""
-          },
-          "de": {
-            "code": "de-DE",
-            "name": "독일어",
-            "flag": "🇩🇪",
-            "text": "Ich habe alle Hände voll zu tun.",
-            "roman": ""
-          },
-          "es": {
-            "code": "es-ES",
-            "name": "스페인어",
-            "flag": "🇪🇸",
-            "text": "Estoy hasta arriba de trabajo.",
-            "roman": ""
-          },
-          "ar": {
-            "code": "ar-SA",
-            "name": "아랍어",
-            "flag": "🇸🇦",
-            "text": "يداي ممتلئتان بالعمل ولا مجال للمزيد.",
-            "roman": "Yadāya mumtali'atāni bil-'amal wa-lā majāla lil-mazīd."
-          },
-          "ru": {
-            "code": "ru-RU",
-            "name": "러시아어",
-            "flag": "🇷🇺",
-            "text": "У меня дел выше крыши, руки заняты.",
-            "roman": "U menya del vyshe kryshi, ruki zanyaty."
-          }
-        },
-        "pool_type": "일상",
         "d_day": "D-4"
       }
     ],
     "philosophy": {
-      "thinker": "투키디데스 (Thucydides)",
-      "era": "기원전 5세기 고대 그리스",
-      "concept": "투키디데스 함정 (Thucydides Trap)",
-      "quote": "“전쟁을 불가피하게 만든 것은 아테네의 부상과 그로 인해 스파르타에 심어진 두려움이었다.”",
+      "thinker": "한비자 (韓非子)",
+      "era": "기원전 3세기 전국시대 중국",
+      "concept": "법(法)·술(術)·세(勢)의 통치공학",
+      "quote": "“호랑이가 개를 굴복시킬 수 있는 까닭은 날카로운 발톱과 이빨(권세)을 쥐고 있기 때문이다.”",
       "bullets": [
-        "급부상하는 신흥 강국과 기존 지배 패권국 사이의 구조적 긴장과 충돌 역학 분석",
-        "국가 행동을 지배하는 3대 근본 동기: 공포(Fear), 명예(Honor), 이익(Interest)",
-        "동맹 네트워크의 확장과 오판이 국지적 갈등을 세계대전급 파국으로 확대시키는 경로 증명"
+        "인간의 도덕적 선의(善意)에 의존하는 정치를 경계하고 명문화된 법(法)과 엄격한 신상필벌 강조",
+        "신하들의 사익 추구를 간파하고 조직을 장악하는 군주의 인사 관리 기법(術)",
+        "직위와 제도에서 나오는 구조적 권력(勢)의 중요성 역설"
       ],
-      "application": "반도체·AI 인프라를 둘러싼 패권국 간의 배타적 경제 블록화와 전략적 수출 통제 조치의 기저에 깔린 근본 동기를 설명합니다."
+      "application": "거대 기업 조직의 거버넌스 설계, 시스템적 내부 통제 구축, 독점적 플랫폼의 구조적 지배력 분석에 유효합니다."
     }
   },
   "trends": {
@@ -1415,53 +1407,53 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "장모 살해 20대 구속",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9E%A5%EB%AA%A8%20%EC%82%B4%ED%95%B4%2020%EB%8C%80%20%EA%B5%AC%EC%86%8D"
+        "title": "김홍근 경기남부경찰청장 직무대리",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%ED%99%8D%EA%B7%BC%20%EA%B2%BD%EA%B8%B0%EB%82%A8%EB%B6%80%EA%B2%BD%EC%B0%B0%EC%B2%AD%EC%9E%A5%20%EC%A7%81%EB%AC%B4%EB%8C%80%EB%A6%AC"
       },
       {
         "rank": 2,
-        "title": "정성숙 감독 귀국 논란",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A0%95%EC%84%B1%EC%88%99%20%EA%B0%90%EB%8F%85%20%EA%B7%80%EA%B5%AD%20%EB%85%BC%EB%9E%80"
+        "title": "인천경찰청 흉기 난동 경위 보고",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B8%EC%B2%9C%EA%B2%BD%EC%B0%B0%EC%B2%AD%20%ED%9D%89%EA%B8%B0%20%EB%82%9C%EB%8F%99%20%EA%B2%BD%EC%9C%84%20%EB%B3%B4%EA%B3%A0"
       },
       {
         "rank": 3,
-        "title": "김용지, 결혼과 임신 발표",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%9A%A9%EC%A7%80%2C%20%EA%B2%B0%ED%98%BC%EA%B3%BC%20%EC%9E%84%EC%8B%A0%20%EB%B0%9C%ED%91%9C"
+        "title": "무니 정관장 소노 격파 2연승",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%AC%B4%EB%8B%88%20%EC%A0%95%EA%B4%80%EC%9E%A5%20%EC%86%8C%EB%85%B8%20%EA%B2%A9%ED%8C%8C%202%EC%97%B0%EC%8A%B9"
       },
       {
         "rank": 4,
-        "title": "장생포고래문화특구",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9E%A5%EC%83%9D%ED%8F%AC%EA%B3%A0%EB%9E%98%EB%AC%B8%ED%99%94%ED%8A%B9%EA%B5%AC"
+        "title": "김소현, 연애박사 설렘 매력",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%86%8C%ED%98%84%2C%20%EC%97%B0%EC%95%A0%EB%B0%95%EC%82%AC%20%EC%84%A4%EB%A0%98%20%EB%A7%A4%EB%A0%A5"
       },
       {
         "rank": 5,
-        "title": "알렉산더 즈베레프",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%8C%EB%A0%89%EC%82%B0%EB%8D%94%20%EC%A6%88%EB%B2%A0%EB%A0%88%ED%94%84"
+        "title": "40㎏ 감량 성형수술",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=40%E3%8E%8F%20%EA%B0%90%EB%9F%89%20%EC%84%B1%ED%98%95%EC%88%98%EC%88%A0"
       },
       {
         "rank": 6,
-        "title": "인천 흉기 난동 전면 재점검",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B8%EC%B2%9C%20%ED%9D%89%EA%B8%B0%20%EB%82%9C%EB%8F%99%20%EC%A0%84%EB%A9%B4%20%EC%9E%AC%EC%A0%90%EA%B2%80"
+        "title": "김지영 출산 후 변화",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%A7%80%EC%98%81%20%EC%B6%9C%EC%82%B0%20%ED%9B%84%20%EB%B3%80%ED%99%94"
       },
       {
         "rank": 7,
-        "title": "국민연금공단",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B5%AD%EB%AF%BC%EC%97%B0%EA%B8%88%EA%B3%B5%EB%8B%A8"
+        "title": "이찬원",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EC%B0%AC%EC%9B%90"
       },
       {
         "rank": 8,
-        "title": "DB 손해보험",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=DB%20%EC%86%90%ED%95%B4%EB%B3%B4%ED%97%98"
+        "title": "킨델란 39점 흥국생명",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%82%A8%EB%8D%B8%EB%9E%80%2039%EC%A0%90%20%ED%9D%A5%EA%B5%AD%EC%83%9D%EB%AA%85"
       },
       {
         "rank": 9,
-        "title": "리센느 앨범",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%A6%AC%EC%84%BC%EB%8A%90%20%EC%95%A8%EB%B2%94"
+        "title": "애플 홈뷰",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%A0%ED%94%8C%20%ED%99%88%EB%B7%B0"
       },
       {
         "rank": 10,
-        "title": "이병헌 아들 용돈 10만원",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EB%B3%91%ED%97%8C%20%EC%95%84%EB%93%A4%20%EC%9A%A9%EB%8F%88%2010%EB%A7%8C%EC%9B%90"
+        "title": "정성숙 감독 사퇴",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A0%95%EC%84%B1%EC%88%99%20%EA%B0%90%EB%8F%85%20%EC%82%AC%ED%87%B4"
       }
     ],
     "youtube_popular": [
@@ -1469,7 +1461,7 @@
         "rank": 1,
         "title": "PLAVE 'Star Trace' M/V",
         "channel": "PLAVE 플레이브",
-        "views": "52만회",
+        "views": "64만회",
         "thumb": "https://i.ytimg.com/vi/TBmE7m0yEwY/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=TBmE7m0yEwY"
       },
@@ -1477,7 +1469,7 @@
         "rank": 2,
         "title": "데블스 플랜: 데드 어게인 | 공식 티저 예고편 | 넷플릭스",
         "channel": "Netflix Korea 넷플릭스 코리아",
-        "views": "33만회",
+        "views": "41만회",
         "thumb": "https://i.ytimg.com/vi/6Qt-7vh49NI/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=6Qt-7vh49NI"
       },
@@ -1485,7 +1477,7 @@
         "rank": 3,
         "title": "응수 전문가",
         "channel": "PAKA",
-        "views": "48만회",
+        "views": "52만회",
         "thumb": "https://i.ytimg.com/vi/L3RpIEKxqas/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=L3RpIEKxqas"
       },
@@ -1493,7 +1485,7 @@
         "rank": 4,
         "title": "I SPY",
         "channel": "NCT WISH - Topic",
-        "views": "22만회",
+        "views": "26만회",
         "thumb": "https://i.ytimg.com/vi/TNC6ZdLylXM/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=TNC6ZdLylXM"
       },
@@ -1501,7 +1493,7 @@
         "rank": 5,
         "title": "[슬픈 열대] 티저 예고편",
         "channel": "마인드마크",
-        "views": "6만회",
+        "views": "9만회",
         "thumb": "https://i.ytimg.com/vi/LZdmL3jUpOI/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=LZdmL3jUpOI"
       },
@@ -1509,39 +1501,39 @@
         "rank": 6,
         "title": "쉬어가는 타입  : 강철타입 하트골드【포켓몬 모든타입 깨기】#1",
         "channel": "근가놈",
-        "views": "55만회",
+        "views": "61만회",
         "thumb": "https://i.ytimg.com/vi/_5vf07Yn57s/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=_5vf07Yn57s"
       },
       {
         "rank": 7,
-        "title": "NCT WISH 엔시티 위시 'I SPY' MV",
-        "channel": "SMTOWN",
-        "views": "386만회",
-        "thumb": "https://i.ytimg.com/vi/xIlFjHHUfI0/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=xIlFjHHUfI0"
+        "title": "에픽하이 x 다비치 '미장센' Official M/V",
+        "channel": "GENIE MUSIC",
+        "views": "47만회",
+        "thumb": "https://i.ytimg.com/vi/pTziJ4RaYnk/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=pTziJ4RaYnk"
       },
       {
         "rank": 8,
-        "title": "[티저 예고편] 잘하면 우승도 할 수 있겠는데? | 데블스 플랜: 데드 어게인",
-        "channel": "TEO 테오",
-        "views": "8만회",
-        "thumb": "https://i.ytimg.com/vi/d8zHj4bk1bU/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=d8zHj4bk1bU"
+        "title": "Kabaddi 5 (OFFICIAL TRAILER)- Dayahang Rai, Bipin Karki, Rishma Gurung, Sirjana Gurung, Bijay,Buddhi",
+        "channel": "Baasuri Films",
+        "views": "51만회",
+        "thumb": "https://i.ytimg.com/vi/40TTPzoePK0/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=40TTPzoePK0"
       },
       {
         "rank": 9,
-        "title": "전 국민께 사과드립니다... [좀비원정대 5화]",
-        "channel": "동수칸TV",
-        "views": "41만회",
-        "thumb": "https://i.ytimg.com/vi/-KWk8HVTh38/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=-KWk8HVTh38"
+        "title": "감스트 본캐 UC호날두11카 영입!! 진짜 개사기입니다...FC온라인",
+        "channel": "감스트GAMST",
+        "views": "49만회",
+        "thumb": "https://i.ytimg.com/vi/i6JzDqr93mw/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=i6JzDqr93mw"
       },
       {
         "rank": 10,
         "title": "MEOVV(미야오) - ‘GO HARD’ M/V",
         "channel": "THEBLACKLABEL",
-        "views": "780만회",
+        "views": "807만회",
         "thumb": "https://i.ytimg.com/vi/8aKR2Ho--5k/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=8aKR2Ho--5k"
       }
