@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17 11:25:29",
+  "updated_at": "2026-10-17 16:23:33",
   "us2y": {
     "value": 4.74,
     "change": -0.03
@@ -133,14 +133,14 @@
         "date": "10-17 00:24"
       },
       {
-        "title": "[전자신문] “상자 열었더니 수류탄이”…美 중고물품 세일서 나온 '2차대전 실탄'",
-        "link": "https://www.etnews.com/20261016000268",
-        "date": "10-17 10:30"
+        "title": "[전자신문] 방발기금 조성액 4년 새 44% 급감…학계 “부과체계 전면 개편해야”",
+        "link": "https://www.etnews.com/20261017000012",
+        "date": "10-17 15:55"
       },
       {
-        "title": "[전자신문] 경북TP, 경북식품박람회에 식품첨단관 꾸리고 미래 식품산업 발전가능성 소",
-        "link": "https://www.etnews.com/20261017000007",
-        "date": "10-17 09:12"
+        "title": "[전자신문] 아르테미스 하슬, 소극장 콘서트 'INNER-EGO' 개최",
+        "link": "https://www.etnews.com/20261017000011",
+        "date": "10-17 14:50"
       }
     ],
     "domestic": [
@@ -223,53 +223,53 @@
       "detail": "10Y-2Y 스프레드가 +36 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.56",
-      "title": "닥터 코퍼 $6.56선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.53",
+      "title": "닥터 코퍼 $6.53선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.56",
-          "chg": "+0.77%",
+          "val": "$6.53",
+          "chg": "+0.31%",
           "up": true
         },
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$4,186.7",
-          "chg": "+0.40%",
+          "val": "$4,181.1",
+          "chg": "+0.26%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$57.13",
-          "chg": "+0.51%",
+          "val": "$56.99",
+          "chg": "+0.26%",
           "up": true
         }
       ],
       "bullets": [
-        "구리 $6.56/lb (+0.77%) - AI 전력망 설비 수요 반영",
-        "금 $4,187/oz, 은 $57.13/oz - 통화가치 헤지"
+        "구리 $6.53/lb (+0.31%) - AI 전력망 설비 수요 반영",
+        "금 $4,181/oz, 은 $56.99/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,334원 | 엔/달러 ¥158.0",
-      "title": "원/달러 1,334.2원선과 엔/달러 ¥158.0",
+      "badge": "원/달러 1,330원 | 엔/달러 ¥158.0",
+      "title": "원/달러 1,329.6원선과 엔/달러 ¥158.0",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,334.2원",
-          "chg": "-0.50%",
+          "val": "1,329.6원",
+          "chg": "-0.85%",
           "up": false
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "101.78pt",
-          "chg": "-0.22%",
+          "val": "101.84pt",
+          "chg": "-0.16%",
           "up": false
         },
         {
@@ -281,25 +281,25 @@
         }
       ],
       "bullets": [
-        "달러 인덱스 101.78pt - 미국 성장 우위 지속",
+        "달러 인덱스 101.84pt - 미국 성장 우위 지속",
         "엔/달러 157.99엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $99.04",
-      "title": "WTI 배럴당 $99.04선 박스권 안정",
+      "badge": "WTI $101.41",
+      "title": "WTI 배럴당 $101.41선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$99.04",
-          "chg": "+1.09%",
+          "val": "$101.41",
+          "chg": "+3.51%",
           "up": true
         }
       ],
       "bullets": [
-        "WTI 선물 $99.04/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $101.41/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -307,28 +307,28 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.56,
-      "change": 0.77
+      "price": 6.53,
+      "change": 0.31
     },
     "gold": {
-      "price": 4186.7,
-      "change": 0.4
+      "price": 4181.1,
+      "change": 0.26
     },
     "silver": {
-      "price": 57.13,
-      "change": 0.51
+      "price": 56.99,
+      "change": 0.26
     },
     "wti": {
-      "price": 99.04,
-      "change": 1.09
+      "price": 101.41,
+      "change": 3.51
     },
     "usdkrw": {
-      "price": 1334.2,
-      "change": -0.5
+      "price": 1329.6,
+      "change": -0.85
     },
     "dxy": {
-      "price": 101.78,
-      "change": -0.22
+      "price": 101.84,
+      "change": -0.16
     },
     "usdjpy": {
       "price": 157.99,
@@ -595,9 +595,9 @@
       },
       {
         "date": "10-16",
-        "copper": 6.56,
-        "gold": 4186.7,
-        "silver": 57.13
+        "copper": 6.53,
+        "gold": 4181.1,
+        "silver": 56.99
       }
     ],
     "fx": [
@@ -716,9 +716,9 @@
         "usdjpy": 158.14
       },
       {
-        "date": "10-16",
-        "usdkrw": 1334.2,
-        "dxy": 101.78,
+        "date": "10-17",
+        "usdkrw": 1329.6,
+        "dxy": 101.84,
         "usdjpy": 157.99
       }
     ],
@@ -820,8 +820,8 @@
       },
       {
         "date": "10-16",
-        "wti": 99.04,
-        "change": 1.09
+        "wti": 101.41,
+        "change": 3.51
       }
     ]
   },
@@ -1415,53 +1415,53 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "부천 공장 화재 40대 소방관 사망",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B6%80%EC%B2%9C%20%EA%B3%B5%EC%9E%A5%20%ED%99%94%EC%9E%AC%2040%EB%8C%80%20%EC%86%8C%EB%B0%A9%EA%B4%80%20%EC%82%AC%EB%A7%9D"
+        "title": "부천 화재 합동감식",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B6%80%EC%B2%9C%20%ED%99%94%EC%9E%AC%20%ED%95%A9%EB%8F%99%EA%B0%90%EC%8B%9D"
       },
       {
         "rank": 2,
-        "title": "다카이치 야스쿠니 참배",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%8B%A4%EC%B9%B4%EC%9D%B4%EC%B9%98%20%EC%95%BC%EC%8A%A4%EC%BF%A0%EB%8B%88%20%EC%B0%B8%EB%B0%B0"
+        "title": "송찬의 솔로포 발사",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%86%A1%EC%B0%AC%EC%9D%98%20%EC%86%94%EB%A1%9C%ED%8F%AC%20%EB%B0%9C%EC%82%AC"
       },
       {
         "rank": 3,
-        "title": "증여세",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A6%9D%EC%97%AC%EC%84%B8"
+        "title": "추미애 소방관 발언 논란",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B6%94%EB%AF%B8%EC%95%A0%20%EC%86%8C%EB%B0%A9%EA%B4%80%20%EB%B0%9C%EC%96%B8%20%EB%85%BC%EB%9E%80"
       },
       {
         "rank": 4,
-        "title": "김준호 김지민 산후우울증 걱정",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%A4%80%ED%98%B8%20%EA%B9%80%EC%A7%80%EB%AF%BC%20%EC%82%B0%ED%9B%84%EC%9A%B0%EC%9A%B8%EC%A6%9D%20%EA%B1%B1%EC%A0%95"
+        "title": "기아타이거즈",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B8%B0%EC%95%84%ED%83%80%EC%9D%B4%EA%B1%B0%EC%A6%88"
       },
       {
         "rank": 5,
-        "title": "제이비어 브런슨",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A0%9C%EC%9D%B4%EB%B9%84%EC%96%B4%20%EB%B8%8C%EB%9F%B0%EC%8A%A8"
+        "title": "라이브 공연 김루꾸밴드",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%9D%BC%EC%9D%B4%EB%B8%8C%20%EA%B3%B5%EC%97%B0%20%EA%B9%80%EB%A3%A8%EA%BE%B8%EB%B0%B4%EB%93%9C"
       },
       {
         "rank": 6,
-        "title": "미국 재정적자 2조달러",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%AF%B8%EA%B5%AD%20%EC%9E%AC%EC%A0%95%EC%A0%81%EC%9E%90%202%EC%A1%B0%EB%8B%AC%EB%9F%AC"
+        "title": "하주석",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%98%EC%A3%BC%EC%84%9D"
       },
       {
         "rank": 7,
-        "title": "베스티 완전체 재결합",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B2%A0%EC%8A%A4%ED%8B%B0%20%EC%99%84%EC%A0%84%EC%B2%B4%20%EC%9E%AC%EA%B2%B0%ED%95%A9"
+        "title": "야스쿠니 공물 유감",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%BC%EC%8A%A4%EC%BF%A0%EB%8B%88%20%EA%B3%B5%EB%AC%BC%20%EC%9C%A0%EA%B0%90"
       },
       {
         "rank": 8,
-        "title": "안세영 17세 인도 신예 완파 4강 진출",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%88%EC%84%B8%EC%98%81%2017%EC%84%B8%20%EC%9D%B8%EB%8F%84%20%EC%8B%A0%EC%98%88%20%EC%99%84%ED%8C%8C%204%EA%B0%95%20%EC%A7%84%EC%B6%9C"
+        "title": "코스피 반대매매 3000억",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%BD%94%EC%8A%A4%ED%94%BC%20%EB%B0%98%EB%8C%80%EB%A7%A4%EB%A7%A4%203000%EC%96%B5"
       },
       {
         "rank": 9,
-        "title": "서효림",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%84%9C%ED%9A%A8%EB%A6%BC"
+        "title": "우크라 스타링크 제한",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9A%B0%ED%81%AC%EB%9D%BC%20%EC%8A%A4%ED%83%80%EB%A7%81%ED%81%AC%20%EC%A0%9C%ED%95%9C"
       },
       {
         "rank": 10,
-        "title": "우크라 스타링크 제한",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9A%B0%ED%81%AC%EB%9D%BC%20%EC%8A%A4%ED%83%80%EB%A7%81%ED%81%AC%20%EC%A0%9C%ED%95%9C"
+        "title": "남원 SUV와 오토바이 충돌",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%82%A8%EC%9B%90%20SUV%EC%99%80%20%EC%98%A4%ED%86%A0%EB%B0%94%EC%9D%B4%20%EC%B6%A9%EB%8F%8C"
       }
     ],
     "youtube_popular": [
@@ -1469,23 +1469,23 @@
         "rank": 1,
         "title": "NEON",
         "channel": "A2O - Topic",
-        "views": "480만회",
+        "views": "536만회",
         "thumb": "https://i.ytimg.com/vi/rlYOsUfpi3M/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=rlYOsUfpi3M"
       },
       {
         "rank": 2,
-        "title": "Grand Theft Auto VI Launch Trailer",
-        "channel": "Rockstar Games",
-        "views": "3086만회",
-        "thumb": "https://i.ytimg.com/vi/rz1B4B2yBZY/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=rz1B4B2yBZY"
+        "title": "꿀알바 | 공식 예고편 | 넷플릭스",
+        "channel": "Netflix Korea 넷플릭스 코리아",
+        "views": "50만회",
+        "thumb": "https://i.ytimg.com/vi/LV7t01LnTDA/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=LV7t01LnTDA"
       },
       {
         "rank": 3,
         "title": "안 들리고 + 안 보이고 + 말을 못하는 ㅁㅣ친 협동게임ㅋㅋㅋㅋㅋㅋㅋㅋ(※30분 순삭)",
         "channel": "혜안",
-        "views": "47만회",
+        "views": "64만회",
         "thumb": "https://i.ytimg.com/vi/DJiaa1f1fVk/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=DJiaa1f1fVk"
       },
@@ -1493,20 +1493,36 @@
         "rank": 4,
         "title": "Mise en scène",
         "channel": "Epik High - Topic",
-        "views": "144만회",
+        "views": "156만회",
         "thumb": "https://i.ytimg.com/vi/F_EGihOgXsg/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=F_EGihOgXsg"
       },
       {
         "rank": 5,
-        "title": "꿀알바 | 공식 예고편 | 넷플릭스",
-        "channel": "Netflix Korea 넷플릭스 코리아",
-        "views": "40만회",
-        "thumb": "https://i.ytimg.com/vi/LV7t01LnTDA/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=LV7t01LnTDA"
+        "title": "Grand Theft Auto VI Launch Trailer",
+        "channel": "Rockstar Games",
+        "views": "3204만회",
+        "thumb": "https://i.ytimg.com/vi/rz1B4B2yBZY/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=rz1B4B2yBZY"
       },
       {
         "rank": 6,
+        "title": "민머리 샹크스와 에드워드 공익 [좀비원정대 7화]",
+        "channel": "동수칸TV",
+        "views": "37만회",
+        "thumb": "https://i.ytimg.com/vi/zvwI1sx_0ZI/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=zvwI1sx_0ZI"
+      },
+      {
+        "rank": 7,
+        "title": "Every Moment Of You",
+        "channel": "D.O. - Topic",
+        "views": "33만회",
+        "thumb": "https://i.ytimg.com/vi/mzaDWi7mU38/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=mzaDWi7mU38"
+      },
+      {
+        "rank": 8,
         "title": "[Live] 로스트아크 On Air l 2026.10.16 19:00",
         "channel": "로스트아크 LOST ARK",
         "views": "24만회",
@@ -1514,36 +1530,20 @@
         "link": "https://www.youtube.com/watch?v=wZ0rwJWBLec"
       },
       {
-        "rank": 7,
-        "title": "Every Moment Of You",
-        "channel": "D.O. - Topic",
-        "views": "29만회",
-        "thumb": "https://i.ytimg.com/vi/mzaDWi7mU38/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=mzaDWi7mU38"
-      },
-      {
-        "rank": 8,
-        "title": "사이버펑크: 엣지러너 2 | 최종 트레일러 (한국어 자막, 일본어 음성)",
-        "channel": "인벤",
-        "views": "16만회",
-        "thumb": "https://i.ytimg.com/vi/GPhNtDEYTp4/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=GPhNtDEYTp4"
-      },
-      {
         "rank": 9,
-        "title": "민머리 샹크스와 에드워드 공익 [좀비원정대 7화]",
-        "channel": "동수칸TV",
-        "views": "31만회",
-        "thumb": "https://i.ytimg.com/vi/zvwI1sx_0ZI/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=zvwI1sx_0ZI"
+        "title": "TATA",
+        "channel": "Loco - Topic",
+        "views": "14만회",
+        "thumb": "https://i.ytimg.com/vi/Mx481RQ2VAw/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=Mx481RQ2VAw"
       },
       {
         "rank": 10,
-        "title": "TATA",
-        "channel": "Loco - Topic",
-        "views": "12만회",
-        "thumb": "https://i.ytimg.com/vi/Mx481RQ2VAw/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=Mx481RQ2VAw"
+        "title": "홍수로 멸망한 마인크래프트 드래곤 잡기",
+        "channel": "이루의 마인크래프트",
+        "views": "24만회",
+        "thumb": "https://i.ytimg.com/vi/UDCbzZJHpl4/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=UDCbzZJHpl4"
       }
     ]
   }
