@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18 21:20:46",
+  "updated_at": "2026-10-19 01:16:47",
   "us2y": {
     "value": 4.74,
     "change": -0.03
@@ -118,6 +118,11 @@
     ],
     "tech": [
       {
+        "title": "[디일렉] SK온, LFP 배터리 제조원가 낮추는 공정 기술 개발",
+        "link": "https://www.thelec.kr/news/articleView.html?idxno=63873",
+        "date": "10-18 21:40"
+      },
+      {
         "title": "[디일렉] 엔비디아 \"소비자 GPU 품귀, 우리 통제 영역 아냐\"",
         "link": "https://www.thelec.kr/news/articleView.html?idxno=63864",
         "date": "10-18 11:11"
@@ -128,19 +133,14 @@
         "date": "10-18 08:19"
       },
       {
-        "title": "[디일렉] 코웨이라이프솔루션, 액티브 시니어 대상 제휴 혜택 확대",
-        "link": "https://www.thelec.kr/news/articleView.html?idxno=63845",
-        "date": "10-18 08:19"
+        "title": "[전자신문] 줄 당기고 계주 뛰고…광명시민 2000여 명 함께한 가을날 생일잔치",
+        "link": "https://www.etnews.com/20261019000001",
+        "date": "10-19 00:02"
       },
       {
-        "title": "[전자신문] 할리스, 해킹으로 고객 개인정보 유출…비밀번호·주소까지 포함",
-        "link": "https://www.etnews.com/20261018000081",
-        "date": "10-18 20:22"
-      },
-      {
-        "title": "[전자신문] 경기남부 반도체 잇는 수원시 역할은?…경제자유구역 특화 방안을 논의",
-        "link": "https://www.etnews.com/20261018000078",
-        "date": "10-18 17:13"
+        "title": "[전자신문] 용인시, 24~25일 농촌테마파크서 도농 어울림 가을 축제 개최",
+        "link": "https://www.etnews.com/20261018000089",
+        "date": "10-18 23:56"
       }
     ],
     "domestic": [
@@ -255,14 +255,14 @@
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,330원 | 엔/달러 ¥158.0",
-      "title": "원/달러 1,329.6원선과 엔/달러 ¥158.0",
+      "badge": "원/달러 1,334원 | 엔/달러 ¥158.0",
+      "title": "원/달러 1,334.2원선과 엔/달러 ¥158.0",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,329.6원",
-          "chg": "-0.85%",
+          "val": "1,334.2원",
+          "chg": "-0.50%",
           "up": false
         },
         {
@@ -323,8 +323,8 @@
       "change": 1.07
     },
     "usdkrw": {
-      "price": 1329.6,
-      "change": -0.85
+      "price": 1334.2,
+      "change": -0.5
     },
     "dxy": {
       "price": 101.84,
@@ -717,7 +717,7 @@
       },
       {
         "date": "10-18",
-        "usdkrw": 1329.6,
+        "usdkrw": 1334.2,
         "dxy": 101.84,
         "usdjpy": 157.99
       }
@@ -827,7 +827,7 @@
   },
   "calendar_3w": {
     "w1": {
-      "title": "이번 주 (10/12 ~ 10/18)",
+      "title": "이번 주 (10/19 ~ 10/25)",
       "macro": [
         {
           "date": "10-22 12:30pm",
@@ -859,24 +859,40 @@
     }
   },
   "humanities": {
-    "history_date": "2026-10-18",
+    "history_date": "2026-10-19",
     "history": {
-      "era": "395년 ~ 1071년 (900년)",
-      "region": "한국",
-      "year": "900년",
-      "title": "[900년] [한국] 견훤, 후백제 건국",
-      "summary": "900년 - 견훤, 후백제 건국",
+      "era": "1466년 ~ 1699년 (1479년)",
+      "region": "세계",
+      "year": "1479년",
+      "title": "[1479년] [세계] 아라곤 왕국과 카스티야 왕국의 합병",
+      "summary": "1479년 - 아라곤 왕국과 카스티야 왕국의 합병",
       "bullets": [
-        "발생 연대: 900년 (한국사)",
-        "견훤, 후백제 건국",
+        "발생 연대: 1479년 (세계사)",
+        "아라곤 왕국과 카스티야 왕국의 합병",
         "당대 세력 균형 및 정치·경제적 제도 변화 반영"
       ],
-      "insight": "900년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
-      "ref_title": "위키백과 세계사 연표: 395년 ~ 1071년 (900년)",
-      "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#395%EB%85%84_~_1071%EB%85%84:~:text=900",
+      "insight": "1479년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
+      "ref_title": "위키백과 세계사 연표: 1466년 ~ 1699년 (1479년)",
+      "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1466%EB%85%84_~_1699%EB%85%84:~:text=1479",
       "d_day": "오늘"
     },
     "history_5d": [
+      {
+        "era": "1466년 ~ 1699년 (1479년)",
+        "region": "세계",
+        "year": "1479년",
+        "title": "[1479년] [세계] 아라곤 왕국과 카스티야 왕국의 합병",
+        "summary": "1479년 - 아라곤 왕국과 카스티야 왕국의 합병",
+        "bullets": [
+          "발생 연대: 1479년 (세계사)",
+          "아라곤 왕국과 카스티야 왕국의 합병",
+          "당대 세력 균형 및 정치·경제적 제도 변화 반영"
+        ],
+        "insight": "1479년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
+        "ref_title": "위키백과 세계사 연표: 1466년 ~ 1699년 (1479년)",
+        "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1466%EB%85%84_~_1699%EB%85%84:~:text=1479",
+        "d_day": "오늘"
+      },
       {
         "era": "395년 ~ 1071년 (900년)",
         "region": "한국",
@@ -891,7 +907,7 @@
         "insight": "900년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 395년 ~ 1071년 (900년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#395%EB%85%84_~_1071%EB%85%84:~:text=900",
-        "d_day": "오늘"
+        "d_day": "D-1"
       },
       {
         "era": "1466년 ~ 1699년 (1685년)",
@@ -907,7 +923,7 @@
         "insight": "1685년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1466년 ~ 1699년 (1685년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1466%EB%85%84_~_1699%EB%85%84:~:text=1685",
-        "d_day": "D-1"
+        "d_day": "D-2"
       },
       {
         "era": "1973년 ~ 2020년 (1986년)",
@@ -923,7 +939,7 @@
         "insight": "1986년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1973년 ~ 2020년 (1986년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1973%EB%85%84_~_2020%EB%85%84:~:text=1986",
-        "d_day": "D-2"
+        "d_day": "D-3"
       },
       {
         "era": "1076년 ~ 1455년 (1096년)",
@@ -939,91 +955,138 @@
         "insight": "1096년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1076년 ~ 1455년 (1096년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1076%EB%85%84_~_1455%EB%85%84:~:text=1096",
-        "d_day": "D-3"
-      },
-      {
-        "era": "395년 ~ 1071년 (527년)",
-        "region": "한국",
-        "year": "527년",
-        "title": "[527년] [한국] 신라, 불교를 공인",
-        "summary": "527년 - 신라, 불교를 공인",
-        "bullets": [
-          "발생 연대: 527년 (한국사)",
-          "신라, 불교를 공인",
-          "당대 세력 균형 및 정치·경제적 제도 변화 반영"
-        ],
-        "insight": "527년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
-        "ref_title": "위키백과 세계사 연표: 395년 ~ 1071년 (527년)",
-        "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#395%EB%85%84_~_1071%EB%85%84:~:text=527",
         "d_day": "D-4"
       }
     ],
     "polyglot": {
-      "theme": "화답 에티켓",
-      "type": "기초",
-      "meaning": "천만에요, 별말씀을요.",
+      "theme": "입버릇 관용구: 세상사",
+      "meaning": "나무만 보고 숲을 보지 못하네.",
       "translations": {
         "en": {
           "code": "en-US",
           "name": "영어",
           "flag": "🇺🇸",
-          "text": "You are very welcome.",
-          "roman": "유 아 베리 웰컴."
+          "text": "You can't see the forest for the trees.",
+          "roman": ""
         },
         "ja": {
           "code": "ja-JP",
           "name": "일본어",
           "flag": "🇯🇵",
-          "text": "どういたしまして。",
-          "roman": "도-이타시마시테."
+          "text": "木を見て森を見ず、だよ。",
+          "roman": "Ki o mite mori o mizu, da yo."
         },
         "zh": {
           "code": "zh-CN",
           "name": "중국어",
           "flag": "🇨🇳",
-          "text": "不客气，不用谢。",
-          "roman": "부커치, 부융 셰."
+          "text": "只见树木，不见森林。",
+          "roman": "Zhǐ jiàn shùmù, bù jiàn sēnlín."
         },
         "fr": {
           "code": "fr-FR",
           "name": "프랑스어",
           "flag": "🇫🇷",
-          "text": "Je vous en prie.",
-          "roman": "즈 부 장 프리."
+          "text": "Tu vois l'arbre qui cache la forêt.",
+          "roman": ""
         },
         "de": {
           "code": "de-DE",
           "name": "독일어",
           "flag": "🇩🇪",
-          "text": "Gern geschehen, bitte schön.",
-          "roman": "게른 게셰엔, 비테 쇤."
+          "text": "Du siehst den Wald vor lauter Bäumen nicht.",
+          "roman": ""
         },
         "es": {
           "code": "es-ES",
           "name": "스페인어",
           "flag": "🇪🇸",
-          "text": "De nada, es un placer.",
-          "roman": "데 나다, 에스 운 쁠라세르."
+          "text": "Los árboles no te dejan ver el bosque.",
+          "roman": ""
         },
         "ar": {
           "code": "ar-SA",
           "name": "아랍어",
           "flag": "🇸🇦",
-          "text": "على الرحب والسعة.",
-          "roman": "알라르 라흐비 와스-사아."
+          "text": "لا ترى الغابة من كثرة الأشجار أمامك.",
+          "roman": "Lā tarā al-ghābata min kathrati al-ashjār amāmak."
         },
         "ru": {
           "code": "ru-RU",
           "name": "러시아어",
           "flag": "🇷🇺",
-          "text": "Пожалуйста, не за что.",
-          "roman": "빠잘루이스타, 녜 자 슈또."
+          "text": "За деревьями леса не видно.",
+          "roman": "Za derev'yami lesa ne vidno."
         }
       },
-      "pool_type": "기초",
+      "pool_type": "일상",
       "d_day": "오늘"
     },
     "polyglot_5d": [
+      {
+        "theme": "입버릇 관용구: 세상사",
+        "meaning": "나무만 보고 숲을 보지 못하네.",
+        "translations": {
+          "en": {
+            "code": "en-US",
+            "name": "영어",
+            "flag": "🇺🇸",
+            "text": "You can't see the forest for the trees.",
+            "roman": ""
+          },
+          "ja": {
+            "code": "ja-JP",
+            "name": "일본어",
+            "flag": "🇯🇵",
+            "text": "木を見て森を見ず、だよ。",
+            "roman": "Ki o mite mori o mizu, da yo."
+          },
+          "zh": {
+            "code": "zh-CN",
+            "name": "중국어",
+            "flag": "🇨🇳",
+            "text": "只见树木，不见森林。",
+            "roman": "Zhǐ jiàn shùmù, bù jiàn sēnlín."
+          },
+          "fr": {
+            "code": "fr-FR",
+            "name": "프랑스어",
+            "flag": "🇫🇷",
+            "text": "Tu vois l'arbre qui cache la forêt.",
+            "roman": ""
+          },
+          "de": {
+            "code": "de-DE",
+            "name": "독일어",
+            "flag": "🇩🇪",
+            "text": "Du siehst den Wald vor lauter Bäumen nicht.",
+            "roman": ""
+          },
+          "es": {
+            "code": "es-ES",
+            "name": "스페인어",
+            "flag": "🇪🇸",
+            "text": "Los árboles no te dejan ver el bosque.",
+            "roman": ""
+          },
+          "ar": {
+            "code": "ar-SA",
+            "name": "아랍어",
+            "flag": "🇸🇦",
+            "text": "لا ترى الغابة من كثرة الأشجار أمامك.",
+            "roman": "Lā tarā al-ghābata min kathrati al-ashjār amāmak."
+          },
+          "ru": {
+            "code": "ru-RU",
+            "name": "러시아어",
+            "flag": "🇷🇺",
+            "text": "За деревьями леса не видно.",
+            "roman": "Za derev'yami lesa ne vidno."
+          }
+        },
+        "pool_type": "일상",
+        "d_day": "오늘"
+      },
       {
         "theme": "화답 에티켓",
         "type": "기초",
@@ -1087,7 +1150,7 @@
           }
         },
         "pool_type": "기초",
-        "d_day": "오늘"
+        "d_day": "D-1"
       },
       {
         "theme": "입버릇 관용구: 세상사",
@@ -1151,7 +1214,7 @@
           }
         },
         "pool_type": "일상",
-        "d_day": "D-1"
+        "d_day": "D-2"
       },
       {
         "theme": "정중한 양해",
@@ -1216,7 +1279,7 @@
           }
         },
         "pool_type": "기초",
-        "d_day": "D-2"
+        "d_day": "D-3"
       },
       {
         "theme": "입버릇 관용구: 세상사",
@@ -1280,85 +1343,20 @@
           }
         },
         "pool_type": "일상",
-        "d_day": "D-3"
-      },
-      {
-        "theme": "감사 표현",
-        "type": "기초",
-        "meaning": "정말 감사합니다.",
-        "translations": {
-          "en": {
-            "code": "en-US",
-            "name": "영어",
-            "flag": "🇺🇸",
-            "text": "Thank you very much.",
-            "roman": "땡큐 베리 머치."
-          },
-          "ja": {
-            "code": "ja-JP",
-            "name": "일본어",
-            "flag": "🇯🇵",
-            "text": "本当にありがとうございます。",
-            "roman": "혼토-니 아리가토- 고자이마스."
-          },
-          "zh": {
-            "code": "zh-CN",
-            "name": "중국어",
-            "flag": "🇨🇳",
-            "text": "非常感谢你。",
-            "roman": "페이창 간셰 니."
-          },
-          "fr": {
-            "code": "fr-FR",
-            "name": "프랑스어",
-            "flag": "🇫🇷",
-            "text": "Merci beaucoup.",
-            "roman": "메르시 보꾸."
-          },
-          "de": {
-            "code": "de-DE",
-            "name": "독일어",
-            "flag": "🇩🇪",
-            "text": "Vielen Dank.",
-            "roman": "필렌 당크."
-          },
-          "es": {
-            "code": "es-ES",
-            "name": "스페인어",
-            "flag": "🇪🇸",
-            "text": "Muchas gracias.",
-            "roman": "무차스 그라시아스."
-          },
-          "ar": {
-            "code": "ar-SA",
-            "name": "아랍어",
-            "flag": "🇸🇦",
-            "text": "شكراً جزيلاً لك.",
-            "roman": "슈크란 자질란 라크."
-          },
-          "ru": {
-            "code": "ru-RU",
-            "name": "러시아어",
-            "flag": "🇷🇺",
-            "text": "Большое спасибо.",
-            "roman": "발쇼예 스파시바."
-          }
-        },
-        "pool_type": "기초",
         "d_day": "D-4"
       }
     ],
     "philosophy": {
-      "thinker": "투키디데스 (Thucydides)",
-      "era": "기원전 5세기 고대 그리스",
-      "concept": "투키디데스 함정 (Thucydides Trap)",
-      "quote": "“전쟁을 불가피하게 만든 것은 아테네의 부상과 그로 인해 스파르타에 심어진 두려움이었다.”",
+      "thinker": "한비자 (韓非子)",
+      "era": "기원전 3세기 전국시대 중국",
+      "concept": "법(法)·술(術)·세(勢)의 통치공학",
+      "quote": "“호랑이가 개를 굴복시킬 수 있는 까닭은 날카로운 발톱과 이빨(권세)을 쥐고 있기 때문이다.”",
       "bullets": [
-        "급부상하는 신흥 강국과 기존 지배 패권국 사이의 구조적 긴장과 충돌 역학 분석",
-        "국가 행동을 지배하는 3대 근본 동기: 공포(Fear), 명예(Honor), 이익(Interest)",
-        "동맹 네트워크의 확장과 오판이 국지적 갈등을 세계대전급 파국으로 확대시키는 경로 증명"
+        "인간의 도덕적 선의(善意)에 의존하는 정치를 경계하고 명문화된 법(法)과 엄격한 신상필벌 강조",
+        "신하들의 사익 추구를 간파하고 조직을 장악하는 군주의 인사 관리 기법(術)",
+        "직위와 제도에서 나오는 구조적 권력(勢)의 중요성 역설"
       ],
-      "application": "반도체·AI 인프라를 둘러싼 패권국 간의 배타적 경제 블록화와 전략적 수출 통제 조치의 기저에 깔린 근본 동기를 설명합니다."
+      "application": "거대 기업 조직의 거버넌스 설계, 시스템적 내부 통제 구축, 독점적 플랫폼의 구조적 지배력 분석에 유효합니다."
     }
   },
   "trends": {
@@ -1417,53 +1415,53 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "닥터X : 하얀 마피아의 시대",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%8B%A5%ED%84%B0X%20%3A%20%ED%95%98%EC%96%80%20%EB%A7%88%ED%94%BC%EC%95%84%EC%9D%98%20%EC%8B%9C%EB%8C%80"
+        "title": "마서영 생애 첫 우승",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%A7%88%EC%84%9C%EC%98%81%20%EC%83%9D%EC%95%A0%20%EC%B2%AB%20%EC%9A%B0%EC%8A%B9"
       },
       {
         "rank": 2,
-        "title": "대한민국 선수단 등장!",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%20%EC%84%A0%EC%88%98%EB%8B%A8%20%EB%93%B1%EC%9E%A5%21"
+        "title": "부천 소방관 빈소 조문",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B6%80%EC%B2%9C%20%EC%86%8C%EB%B0%A9%EA%B4%80%20%EB%B9%88%EC%86%8C%20%EC%A1%B0%EB%AC%B8"
       },
       {
         "rank": 3,
-        "title": "프랑스 대규모 시위",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%94%84%EB%9E%91%EC%8A%A4%20%EB%8C%80%EA%B7%9C%EB%AA%A8%20%EC%8B%9C%EC%9C%84"
+        "title": "이범호 감독의 경기",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EB%B2%94%ED%98%B8%20%EA%B0%90%EB%8F%85%EC%9D%98%20%EA%B2%BD%EA%B8%B0"
       },
       {
         "rank": 4,
-        "title": "아이치 장애인아시아경기대회 개회식",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%84%EC%9D%B4%EC%B9%98%20%EC%9E%A5%EC%95%A0%EC%9D%B8%EC%95%84%EC%8B%9C%EC%95%84%EA%B2%BD%EA%B8%B0%EB%8C%80%ED%9A%8C%20%EA%B0%9C%ED%9A%8C%EC%8B%9D"
-      },
-      {
-        "rank": 5,
-        "title": "우크라이나",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9A%B0%ED%81%AC%EB%9D%BC%EC%9D%B4%EB%82%98"
-      },
-      {
-        "rank": 6,
         "title": "평택 아파트 투척",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%8F%89%ED%83%9D%20%EC%95%84%ED%8C%8C%ED%8A%B8%20%ED%88%AC%EC%B2%99"
       },
       {
+        "rank": 5,
+        "title": "서울 곳곳 침수",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%84%9C%EC%9A%B8%20%EA%B3%B3%EA%B3%B3%20%EC%B9%A8%EC%88%98"
+      },
+      {
+        "rank": 6,
+        "title": "프랑스 대규모 시위",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%94%84%EB%9E%91%EC%8A%A4%20%EB%8C%80%EA%B7%9C%EB%AA%A8%20%EC%8B%9C%EC%9C%84"
+      },
+      {
         "rank": 7,
-        "title": "유라 양세찬과 열애 중?",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9C%A0%EB%9D%BC%20%EC%96%91%EC%84%B8%EC%B0%AC%EA%B3%BC%20%EC%97%B4%EC%95%A0%20%EC%A4%91%3F"
+        "title": "아일릿 이로하 부상",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%84%EC%9D%BC%EB%A6%BF%20%EC%9D%B4%EB%A1%9C%ED%95%98%20%EB%B6%80%EC%83%81"
       },
       {
         "rank": 8,
-        "title": "암표",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%94%ED%91%9C"
+        "title": "선관위 특검 탈세 조사",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%84%A0%EA%B4%80%EC%9C%84%20%ED%8A%B9%EA%B2%80%20%ED%83%88%EC%84%B8%20%EC%A1%B0%EC%82%AC"
       },
       {
         "rank": 9,
-        "title": "부천 공장 대표 입건",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B6%80%EC%B2%9C%20%EA%B3%B5%EC%9E%A5%20%EB%8C%80%ED%91%9C%20%EC%9E%85%EA%B1%B4"
+        "title": "아이치-나고야 아시안 패러게임",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%84%EC%9D%B4%EC%B9%98-%EB%82%98%EA%B3%A0%EC%95%BC%20%EC%95%84%EC%8B%9C%EC%95%88%20%ED%8C%A8%EB%9F%AC%EA%B2%8C%EC%9E%84"
       },
       {
         "rank": 10,
-        "title": "할리스 개인정보 유출",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%A0%EB%A6%AC%EC%8A%A4%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4%20%EC%9C%A0%EC%B6%9C"
+        "title": "던롭 엑스오픈 소식 모음",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%8D%98%EB%A1%AD%20%EC%97%91%EC%8A%A4%EC%98%A4%ED%94%88%20%EC%86%8C%EC%8B%9D%20%EB%AA%A8%EC%9D%8C"
       }
     ],
     "youtube_popular": [
@@ -1471,7 +1469,7 @@
         "rank": 1,
         "title": "NEON",
         "channel": "A2O - Topic",
-        "views": "751만회",
+        "views": "780만회",
         "thumb": "https://i.ytimg.com/vi/rlYOsUfpi3M/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=rlYOsUfpi3M"
       },
@@ -1479,7 +1477,7 @@
         "rank": 2,
         "title": "꿀알바 | 공식 예고편 | 넷플릭스",
         "channel": "Netflix Korea 넷플릭스 코리아",
-        "views": "83만회",
+        "views": "88만회",
         "thumb": "https://i.ytimg.com/vi/LV7t01LnTDA/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=LV7t01LnTDA"
       },
@@ -1487,7 +1485,7 @@
         "rank": 3,
         "title": "전역하자마자 PTSD 오기",
         "channel": "김재원의 즐거운 세상",
-        "views": "94만회",
+        "views": "98만회",
         "thumb": "https://i.ytimg.com/vi/40J-3gY1Oz0/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=40J-3gY1Oz0"
       },
@@ -1495,7 +1493,7 @@
         "rank": 4,
         "title": "Every Moment Of You",
         "channel": "D.O. - Topic",
-        "views": "48만회",
+        "views": "51만회",
         "thumb": "https://i.ytimg.com/vi/mzaDWi7mU38/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=mzaDWi7mU38"
       },
@@ -1503,49 +1501,49 @@
         "rank": 5,
         "title": "Grand Theft Auto VI Launch Trailer",
         "channel": "Rockstar Games",
-        "views": "4081만회",
+        "views": "4215만회",
         "thumb": "https://i.ytimg.com/vi/rz1B4B2yBZY/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=rz1B4B2yBZY"
       },
       {
         "rank": 6,
-        "title": "안 들리고 + 안 보이고 + 말을 못하는 ㅁㅣ친 협동게임ㅋㅋㅋㅋㅋㅋㅋㅋ(※30분 순삭)",
-        "channel": "혜안",
-        "views": "114만회",
-        "thumb": "https://i.ytimg.com/vi/DJiaa1f1fVk/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=DJiaa1f1fVk"
+        "title": "TS 말포이는 '빈유'여야 합니다 : 강철타입 하트골드【포켓몬 모든타입 깨기】#2",
+        "channel": "근가놈",
+        "views": "34만회",
+        "thumb": "https://i.ytimg.com/vi/HRynkjB7dgc/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=HRynkjB7dgc"
       },
       {
         "rank": 7,
-        "title": "Mise en scène",
-        "channel": "Epik High - Topic",
-        "views": "195만회",
-        "thumb": "https://i.ytimg.com/vi/F_EGihOgXsg/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=F_EGihOgXsg"
-      },
-      {
-        "rank": 8,
-        "title": "차에 타봐",
-        "channel": "랄로",
-        "views": "82만회",
-        "thumb": "https://i.ytimg.com/vi/aslRbI1RIUk/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=aslRbI1RIUk"
-      },
-      {
-        "rank": 9,
         "title": "Hide and Seek",
         "channel": "Kim Gyeol - Topic",
-        "views": "5만회",
+        "views": "6만회",
         "thumb": "https://i.ytimg.com/vi/wlmQnXVWV5I/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=wlmQnXVWV5I"
       },
       {
-        "rank": 10,
+        "rank": 8,
         "title": "공익(훈련소 찍먹)으로 살아남기 [좀비원정대 8화]",
         "channel": "동수칸TV",
-        "views": "31만회",
+        "views": "36만회",
         "thumb": "https://i.ytimg.com/vi/_DcM_Jw4xB8/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=_DcM_Jw4xB8"
+      },
+      {
+        "rank": 9,
+        "title": "Mise en scène",
+        "channel": "Epik High - Topic",
+        "views": "199만회",
+        "thumb": "https://i.ytimg.com/vi/F_EGihOgXsg/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=F_EGihOgXsg"
+      },
+      {
+        "rank": 10,
+        "title": "차에 타봐",
+        "channel": "랄로",
+        "views": "86만회",
+        "thumb": "https://i.ytimg.com/vi/aslRbI1RIUk/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=aslRbI1RIUk"
       }
     ]
   }
