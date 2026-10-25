@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25 22:00:34",
+  "updated_at": "2026-10-26 02:20:06",
   "us2y": {
     "value": 4.69,
     "change": 0.04
@@ -133,14 +133,14 @@
         "date": "10-23 17:58"
       },
       {
-        "title": "[전자신문] 피지컬 AI 로봇 전문 '로보아이', 내년 상반기 코넥스 상장 추진",
-        "link": "https://www.etnews.com/20261023000030",
-        "date": "10-25 21:00"
+        "title": "[전자신문] 박상현 경기도의원, 부천 오정산단 기업인 간담회…입주업종 제한 개선 방안 모색",
+        "link": "https://www.etnews.com/20261025000108",
+        "date": "10-25 23:17"
       },
       {
-        "title": "[전자신문] 전자캘린더(10월 26~30일)",
-        "link": "https://www.etnews.com/20261025000103",
-        "date": "10-25 20:36"
+        "title": "[전자신문] 경기도 선수단, 아시안패러게임 메달 25개…금메달 13개 따내 마감",
+        "link": "https://www.etnews.com/20261025000107",
+        "date": "10-25 22:47"
       }
     ],
     "domestic": [
@@ -255,14 +255,14 @@
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,325원 | 엔/달러 ¥156.8",
-      "title": "원/달러 1,325.4원선과 엔/달러 ¥156.8",
+      "badge": "원/달러 1,324원 | 엔/달러 ¥156.8",
+      "title": "원/달러 1,323.7원선과 엔/달러 ¥156.8",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,325.4원",
-          "chg": "-0.04%",
+          "val": "1,323.7원",
+          "chg": "-0.18%",
           "up": false
         },
         {
@@ -323,8 +323,8 @@
       "change": 3.82
     },
     "usdkrw": {
-      "price": 1325.4,
-      "change": -0.04
+      "price": 1323.66,
+      "change": -0.18
     },
     "dxy": {
       "price": 101.81,
@@ -717,7 +717,7 @@
       },
       {
         "date": "10-25",
-        "usdkrw": 1325.4,
+        "usdkrw": 1323.66,
         "dxy": 101.81,
         "usdjpy": 156.81
       }
@@ -827,7 +827,7 @@
   },
   "calendar_3w": {
     "w1": {
-      "title": "이번 주 (10/19 ~ 10/25)",
+      "title": "이번 주 (10/26 ~ 11/01)",
       "macro": [
         {
           "date": "10-27 2:00pm",
@@ -859,24 +859,40 @@
     }
   },
   "humanities": {
-    "history_date": "2026-10-25",
+    "history_date": "2026-10-26",
     "history": {
-      "era": "1700년 ~ 1869년 (1730년)",
-      "region": "세계",
-      "year": "1730년",
-      "title": "[1730년] [세계] 영국 산업혁명 시작",
-      "summary": "1730년 - 영국 산업혁명 시작",
+      "era": "1700년 ~ 1869년 (1776년)",
+      "region": "한국",
+      "year": "1776년",
+      "title": "[1776년] [한국] 정조 즉위, 규장각 설치",
+      "summary": "1776년 - 정조 즉위, 규장각 설치",
       "bullets": [
-        "발생 연대: 1730년 (세계사)",
-        "영국 산업혁명 시작",
+        "발생 연대: 1776년 (한국사)",
+        "정조 즉위, 규장각 설치",
         "당대 세력 균형 및 정치·경제적 제도 변화 반영"
       ],
-      "insight": "1730년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
-      "ref_title": "위키백과 세계사 연표: 1700년 ~ 1869년 (1730년)",
-      "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1700%EB%85%84_~_1869%EB%85%84:~:text=1730",
+      "insight": "1776년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
+      "ref_title": "위키백과 세계사 연표: 1700년 ~ 1869년 (1776년)",
+      "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1700%EB%85%84_~_1869%EB%85%84:~:text=1776",
       "d_day": "오늘"
     },
     "history_5d": [
+      {
+        "era": "1700년 ~ 1869년 (1776년)",
+        "region": "한국",
+        "year": "1776년",
+        "title": "[1776년] [한국] 정조 즉위, 규장각 설치",
+        "summary": "1776년 - 정조 즉위, 규장각 설치",
+        "bullets": [
+          "발생 연대: 1776년 (한국사)",
+          "정조 즉위, 규장각 설치",
+          "당대 세력 균형 및 정치·경제적 제도 변화 반영"
+        ],
+        "insight": "1776년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
+        "ref_title": "위키백과 세계사 연표: 1700년 ~ 1869년 (1776년)",
+        "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1700%EB%85%84_~_1869%EB%85%84:~:text=1776",
+        "d_day": "오늘"
+      },
       {
         "era": "1700년 ~ 1869년 (1730년)",
         "region": "세계",
@@ -891,7 +907,7 @@
         "insight": "1730년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1700년 ~ 1869년 (1730년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1700%EB%85%84_~_1869%EB%85%84:~:text=1730",
-        "d_day": "오늘"
+        "d_day": "D-1"
       },
       {
         "era": "1973년 ~ 2020년 (1992년)",
@@ -907,7 +923,7 @@
         "insight": "1992년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1973년 ~ 2020년 (1992년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1973%EB%85%84_~_2020%EB%85%84:~:text=1992",
-        "d_day": "D-1"
+        "d_day": "D-2"
       },
       {
         "era": "1870년 ~ 1923년 (1919년)",
@@ -923,7 +939,7 @@
         "insight": "1919년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1870년 ~ 1923년 (1919년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1870%EB%85%84_~_1923%EB%85%84:~:text=1919",
-        "d_day": "D-2"
+        "d_day": "D-3"
       },
       {
         "era": "선사시대 ~ 384년 (108년)",
@@ -939,90 +955,140 @@
         "insight": "108년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 선사시대 ~ 384년 (108년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#%EC%84%A0%EC%82%AC%EC%8B%9C%EB%8C%80_~_384%EB%85%84:~:text=108",
-        "d_day": "D-3"
-      },
-      {
-        "era": "1076년 ~ 1455년 (1338년)",
-        "region": "세계",
-        "year": "1338년",
-        "title": "[1338년] [세계] 영국, 프랑스, 백년전쟁(∼1453)",
-        "summary": "1338년 - 영국, 프랑스, 백년전쟁(∼1453)",
-        "bullets": [
-          "발생 연대: 1338년 (세계사)",
-          "영국, 프랑스, 백년전쟁(∼1453)",
-          "당대 세력 균형 및 정치·경제적 제도 변화 반영"
-        ],
-        "insight": "1338년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
-        "ref_title": "위키백과 세계사 연표: 1076년 ~ 1455년 (1338년)",
-        "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1076%EB%85%84_~_1455%EB%85%84:~:text=1338",
         "d_day": "D-4"
       }
     ],
     "polyglot": {
-      "theme": "입버릇 관용구: 인물 묘사",
-      "meaning": "그는 모른 척 눈감아주었어.",
+      "theme": "소통 배려",
+      "type": "기초",
+      "meaning": "조금만 천천히 말씀해 주시겠어요?",
       "translations": {
         "en": {
           "code": "en-US",
           "name": "영어",
           "flag": "🇺🇸",
-          "text": "He looked the other way.",
-          "roman": ""
+          "text": "Could you speak a little more slowly, please?",
+          "roman": "쿠쥬 스픽 어 리틀 모어 슬로우리, 플리즈?"
         },
         "ja": {
           "code": "ja-JP",
           "name": "일본어",
           "flag": "🇯🇵",
-          "text": "彼は見て見ぬふりをしてくれたよ。",
-          "roman": "Kare wa mite minu furi o shite kureta yo."
+          "text": "もう少しゆっくり話していただけますか？",
+          "roman": "모- 스코시 윳쿠리 하나시테 이타다케마스 카?"
         },
         "zh": {
           "code": "zh-CN",
           "name": "중국어",
           "flag": "🇨🇳",
-          "text": "他假装没看见，睁一只眼闭一只眼。",
-          "roman": "Tā jiǎzhuāng méi kànjiàn, zhēng yī zhī yǎn bì yī zhī yǎn."
+          "text": "请你说得稍微慢一点好吗？",
+          "roman": "칭 니 슈오 더 샤오웨이 만 이디엔 하오 마?"
         },
         "fr": {
           "code": "fr-FR",
           "name": "프랑스어",
           "flag": "🇫🇷",
-          "text": "Il a fermé les yeux là-dessus.",
-          "roman": ""
+          "text": "Pourriez-vous parler un peu plus lentement ?",
+          "roman": "푸리에 부 파를레 앙 쁘 플뤼 랑트망?"
         },
         "de": {
           "code": "de-DE",
           "name": "독일어",
           "flag": "🇩🇪",
-          "text": "Er hat einfach weggeschaut.",
-          "roman": ""
+          "text": "Könnten Sie bitte etwas langsamer sprechen?",
+          "roman": "켠텐 지 비테 에트바스 랑자머 슈프레헨?"
         },
         "es": {
           "code": "es-ES",
           "name": "스페인어",
           "flag": "🇪🇸",
-          "text": "Hizo la vista gorda con el asunto.",
-          "roman": ""
+          "text": "¿Podría hablar un poco más despacio, por favor?",
+          "roman": "뽀드리아 아블라르 운 뽀꼬 마스 데스파시오, 뽀르 파보르?"
         },
         "ar": {
           "code": "ar-SA",
           "name": "아랍어",
           "flag": "🇸🇦",
-          "text": "تغاضى عن الأمر وتظاهر بعدم الرؤية.",
-          "roman": "Taghāḍā 'an al-amri wa-taẓāhara bi-'adami ar-ru'yah."
+          "text": "هل يمكنك التحدث ببطء أكثر من فضلك؟",
+          "roman": "할 윰키누카 앗타핫두스 비부틴 악사르 민 파들릭?"
         },
         "ru": {
           "code": "ru-RU",
           "name": "러시아어",
           "flag": "🇷🇺",
-          "text": "Он закрыл на это глаза и промолчал.",
-          "roman": "On zakryl na eto glaza i promolchal."
+          "text": "Говорите, пожалуйста, помедленнее.",
+          "roman": "가바리쩨, 빠잘루이스타, 빠메들린녜예."
         }
       },
-      "pool_type": "일상",
+      "pool_type": "기초",
       "d_day": "오늘"
     },
     "polyglot_5d": [
+      {
+        "theme": "소통 배려",
+        "type": "기초",
+        "meaning": "조금만 천천히 말씀해 주시겠어요?",
+        "translations": {
+          "en": {
+            "code": "en-US",
+            "name": "영어",
+            "flag": "🇺🇸",
+            "text": "Could you speak a little more slowly, please?",
+            "roman": "쿠쥬 스픽 어 리틀 모어 슬로우리, 플리즈?"
+          },
+          "ja": {
+            "code": "ja-JP",
+            "name": "일본어",
+            "flag": "🇯🇵",
+            "text": "もう少しゆっくり話していただけますか？",
+            "roman": "모- 스코시 윳쿠리 하나시테 이타다케마스 카?"
+          },
+          "zh": {
+            "code": "zh-CN",
+            "name": "중국어",
+            "flag": "🇨🇳",
+            "text": "请你说得稍微慢一点好吗？",
+            "roman": "칭 니 슈오 더 샤오웨이 만 이디엔 하오 마?"
+          },
+          "fr": {
+            "code": "fr-FR",
+            "name": "프랑스어",
+            "flag": "🇫🇷",
+            "text": "Pourriez-vous parler un peu plus lentement ?",
+            "roman": "푸리에 부 파를레 앙 쁘 플뤼 랑트망?"
+          },
+          "de": {
+            "code": "de-DE",
+            "name": "독일어",
+            "flag": "🇩🇪",
+            "text": "Könnten Sie bitte etwas langsamer sprechen?",
+            "roman": "켠텐 지 비테 에트바스 랑자머 슈프레헨?"
+          },
+          "es": {
+            "code": "es-ES",
+            "name": "스페인어",
+            "flag": "🇪🇸",
+            "text": "¿Podría hablar un poco más despacio, por favor?",
+            "roman": "뽀드리아 아블라르 운 뽀꼬 마스 데스파시오, 뽀르 파보르?"
+          },
+          "ar": {
+            "code": "ar-SA",
+            "name": "아랍어",
+            "flag": "🇸🇦",
+            "text": "هل يمكنك التحدث ببطء أكثر من فضلك؟",
+            "roman": "할 윰키누카 앗타핫두스 비부틴 악사르 민 파들릭?"
+          },
+          "ru": {
+            "code": "ru-RU",
+            "name": "러시아어",
+            "flag": "🇷🇺",
+            "text": "Говорите, пожалуйста, помедленнее.",
+            "roman": "가바리쩨, 빠잘루이스타, 빠메들린녜예."
+          }
+        },
+        "pool_type": "기초",
+        "d_day": "오늘"
+      },
       {
         "theme": "입버릇 관용구: 인물 묘사",
         "meaning": "그는 모른 척 눈감아주었어.",
@@ -1085,7 +1151,7 @@
           }
         },
         "pool_type": "일상",
-        "d_day": "오늘"
+        "d_day": "D-1"
       },
       {
         "theme": "동의 및 수락",
@@ -1150,7 +1216,7 @@
           }
         },
         "pool_type": "기초",
-        "d_day": "D-1"
+        "d_day": "D-2"
       },
       {
         "theme": "입버릇 관용구: 인물 묘사",
@@ -1214,7 +1280,7 @@
           }
         },
         "pool_type": "일상",
-        "d_day": "D-2"
+        "d_day": "D-3"
       },
       {
         "theme": "도움 요청",
@@ -1279,84 +1345,20 @@
           }
         },
         "pool_type": "기초",
-        "d_day": "D-3"
-      },
-      {
-        "theme": "입버릇 관용구: 인물 묘사",
-        "meaning": "그는 발이 참 넓어 (아는 사람이 많아).",
-        "translations": {
-          "en": {
-            "code": "en-US",
-            "name": "영어",
-            "flag": "🇺🇸",
-            "text": "He knows a lot of people.",
-            "roman": ""
-          },
-          "ja": {
-            "code": "ja-JP",
-            "name": "일본어",
-            "flag": "🇯🇵",
-            "text": "彼は顔がすごく広いんだ。",
-            "roman": "Kare wa kao ga sugoku hiroi n da."
-          },
-          "zh": {
-            "code": "zh-CN",
-            "name": "중국어",
-            "flag": "🇨🇳",
-            "text": "他人脉极广，朋友遍天下。",
-            "roman": "Tā rénmài jí guǎng, péngyou biàn tiānxià."
-          },
-          "fr": {
-            "code": "fr-FR",
-            "name": "프랑스어",
-            "flag": "🇫🇷",
-            "text": "Il a le bras long et connaît tout le monde.",
-            "roman": ""
-          },
-          "de": {
-            "code": "de-DE",
-            "name": "독일어",
-            "flag": "🇩🇪",
-            "text": "Er kennt Gott und die Welt.",
-            "roman": ""
-          },
-          "es": {
-            "code": "es-ES",
-            "name": "스페인어",
-            "flag": "🇪🇸",
-            "text": "Tiene muchísimos contactos conocidos.",
-            "roman": ""
-          },
-          "ar": {
-            "code": "ar-SA",
-            "name": "아랍어",
-            "flag": "🇸🇦",
-            "text": "لديه معارف وعلاقات واسعة في كل مكان.",
-            "roman": "Ladayhi ma'ārifu wa-'alāqātun wāsi'ah fī kulli makān."
-          },
-          "ru": {
-            "code": "ru-RU",
-            "name": "러시아어",
-            "flag": "🇷🇺",
-            "text": "У него везде связи и полно знакомых.",
-            "roman": "U nego vezde svyazi i polno znakomykh."
-          }
-        },
-        "pool_type": "일상",
         "d_day": "D-4"
       }
     ],
     "philosophy": {
-      "thinker": "토머스 홉스 (Thomas Hobbes)",
-      "era": "17세기 영국 내란기",
-      "concept": "리바이어던(Leviathan)과 자연상태",
-      "quote": "“공통의 권력이 없는 곳에는 법도 없고, 법이 없는 곳에는 불의도 없다.”",
+      "thinker": "손자 (孫子)",
+      "era": "기원전 6세기 춘추시대 중국",
+      "concept": "부전이굴인지병 (不戰而屈人之兵)",
+      "quote": "“백 번 싸워 백 번 이기는 것이 최선이 아니요, 싸우지 않고 적을 굴복시키는 것이 최선이다.”",
       "bullets": [
-        "강력한 중앙 권력이 부재할 때 사회는 '만인에 대한 만인의 투쟁' 상태로 전락",
-        "자기 보존의 본능을 지닌 개인들이 평화와 안보를 위해 권력을 국가(리바이어던)에 양도하는 사회계약설",
-        "주권의 통일성과 질서 유지가 자유보다 선행하는 최고의 정치적 가치임을 규정"
+        "국력의 전면적 소모를 초래하는 정면충돌(전쟁)을 피하고 지략과 외교로 승기를 굳히는 모공(謀攻)",
+        "적을 알고 나를 알면 백 번 싸워도 위태롭지 않다는 철저한 정보력(Intelligence) 우위",
+        "형세에 따라 물처럼 유연하게 형태를 바꾸는 비대칭 전략의 추구"
       ],
-      "application": "세계 정부가 없는 무정부적(Anarchic) 국제 질서에서 각국이 군사력과 경제 안보를 자급화하려는 자조(Self-help) 메커니즘을 규명합니다."
+      "application": "출혈 가격 경쟁을 피하고, 생태계 락인(Lock-in)과 우회 기술 개발을 통해 시장을 선점하는 기업 전략의 핵심 근거가 됩니다."
     }
   },
   "trends": {
@@ -1415,69 +1417,69 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "안세영, 프랑스오픈 3연패 10승 축하",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%88%EC%84%B8%EC%98%81%2C%20%ED%94%84%EB%9E%91%EC%8A%A4%EC%98%A4%ED%94%88%203%EC%97%B0%ED%8C%A8%2010%EC%8A%B9%20%EC%B6%95%ED%95%98"
+        "title": "삼성 개막 8연승!",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%82%BC%EC%84%B1%20%EA%B0%9C%EB%A7%89%208%EC%97%B0%EC%8A%B9%21"
       },
       {
         "rank": 2,
-        "title": "이란 호르무즈 정책 불변",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EB%9E%80%20%ED%98%B8%EB%A5%B4%EB%AC%B4%EC%A6%88%20%EC%A0%95%EC%B1%85%20%EB%B6%88%EB%B3%80"
+        "title": "태풍 참피 제주 폭우 피해",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%83%9C%ED%92%8D%20%EC%B0%B8%ED%94%BC%20%EC%A0%9C%EC%A3%BC%20%ED%8F%AD%EC%9A%B0%20%ED%94%BC%ED%95%B4"
       },
       {
         "rank": 3,
-        "title": "브라질 대선 결선투표",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B8%8C%EB%9D%BC%EC%A7%88%20%EB%8C%80%EC%84%A0%20%EA%B2%B0%EC%84%A0%ED%88%AC%ED%91%9C"
+        "title": "sc 프라이부르크 대 바이에른",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=sc%20%ED%94%84%EB%9D%BC%EC%9D%B4%EB%B6%80%EB%A5%B4%ED%81%AC%20%EB%8C%80%20%EB%B0%94%EC%9D%B4%EC%97%90%EB%A5%B8"
       },
       {
         "rank": 4,
-        "title": "주진우 개표 상황표 불일치",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A3%BC%EC%A7%84%EC%9A%B0%20%EA%B0%9C%ED%91%9C%20%EC%83%81%ED%99%A9%ED%91%9C%20%EB%B6%88%EC%9D%BC%EC%B9%98"
+        "title": "가상자산 과세 유예",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B0%80%EC%83%81%EC%9E%90%EC%82%B0%20%EA%B3%BC%EC%84%B8%20%EC%9C%A0%EC%98%88"
       },
       {
         "rank": 5,
-        "title": "기프티엘 해킹 개인정보 유출",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B8%B0%ED%94%84%ED%8B%B0%EC%97%98%20%ED%95%B4%ED%82%B9%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4%20%EC%9C%A0%EC%B6%9C"
+        "title": "한국 경상흑자 독일 일본",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%9C%EA%B5%AD%20%EA%B2%BD%EC%83%81%ED%9D%91%EC%9E%90%20%EB%8F%85%EC%9D%BC%20%EC%9D%BC%EB%B3%B8"
       },
       {
         "rank": 6,
-        "title": "지예은 결혼식 유재석 사회 김종국 축가",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A7%80%EC%98%88%EC%9D%80%20%EA%B2%B0%ED%98%BC%EC%8B%9D%20%EC%9C%A0%EC%9E%AC%EC%84%9D%20%EC%82%AC%ED%9A%8C%20%EA%B9%80%EC%A2%85%EA%B5%AD%20%EC%B6%95%EA%B0%80"
+        "title": "조세호 도라이버 종영",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A1%B0%EC%84%B8%ED%98%B8%20%EB%8F%84%EB%9D%BC%EC%9D%B4%EB%B2%84%20%EC%A2%85%EC%98%81"
       },
       {
         "rank": 7,
-        "title": "국민연금공단",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B5%AD%EB%AF%BC%EC%97%B0%EA%B8%88%EA%B3%B5%EB%8B%A8"
+        "title": "100일의 거짓말",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=100%EC%9D%BC%EC%9D%98%20%EA%B1%B0%EC%A7%93%EB%A7%90"
       },
       {
         "rank": 8,
-        "title": "장희진 문채원 결혼에 뿔났다",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9E%A5%ED%9D%AC%EC%A7%84%20%EB%AC%B8%EC%B1%84%EC%9B%90%20%EA%B2%B0%ED%98%BC%EC%97%90%20%EB%BF%94%EB%82%AC%EB%8B%A4"
+        "title": "LIG D&A 방산업체 제재",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=LIG%20D%26A%20%EB%B0%A9%EC%82%B0%EC%97%85%EC%B2%B4%20%EC%A0%9C%EC%9E%AC"
       },
       {
         "rank": 9,
-        "title": "건강",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B1%B4%EA%B0%95"
+        "title": "트럼프 아우디 투자 발표",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%8A%B8%EB%9F%BC%ED%94%84%20%EC%95%84%EC%9A%B0%EB%94%94%20%ED%88%AC%EC%9E%90%20%EB%B0%9C%ED%91%9C"
       },
       {
         "rank": 10,
-        "title": "이형일 국내생산세액공제 논의",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%ED%98%95%EC%9D%BC%20%EA%B5%AD%EB%82%B4%EC%83%9D%EC%82%B0%EC%84%B8%EC%95%A1%EA%B3%B5%EC%A0%9C%20%EB%85%BC%EC%9D%98"
+        "title": "기프티엘 해킹 개인정보 유출",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B8%B0%ED%94%84%ED%8B%B0%EC%97%98%20%ED%95%B4%ED%82%B9%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4%20%EC%9C%A0%EC%B6%9C"
       }
     ],
     "youtube_popular": [
       {
         "rank": 1,
-        "title": "ATEEZ(에이티즈) - 'Drip' Official MV",
-        "channel": "KQ ENTERTAINMENT",
-        "views": "1138만회",
-        "thumb": "https://i.ytimg.com/vi/iqQWCYMlMw0/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=iqQWCYMlMw0"
+        "title": "RIIZE 라이즈 'Insomnia' MV",
+        "channel": "SMTOWN",
+        "views": "15만회",
+        "thumb": "https://i.ytimg.com/vi/RgkoXU4BlOE/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=RgkoXU4BlOE"
       },
       {
         "rank": 2,
         "title": "아니 이게 진짜 스티브라고..? ≪어벤져스: 둠스데이≫ 스페셜 예고편 & TV 스팟 떡밥 총정리",
         "channel": "무비띵크_Movie Think",
-        "views": "12만회",
+        "views": "50만회",
         "thumb": "https://i.ytimg.com/vi/OiTUOgShd7M/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=OiTUOgShd7M"
       },
@@ -1485,65 +1487,65 @@
         "rank": 3,
         "title": "스위스 스테이지 Day 2 | 2026 월드 챔피언십",
         "channel": "LCK",
-        "views": "254만회",
+        "views": "253만회",
         "thumb": "https://i.ytimg.com/vi/h91KAt-Qzs4/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=h91KAt-Qzs4"
       },
       {
         "rank": 4,
-        "title": "Drip",
-        "channel": "ATEEZ - Topic",
-        "views": "72만회",
-        "thumb": "https://i.ytimg.com/vi/SsUU0-rysY4/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=SsUU0-rysY4"
+        "title": "ATEEZ(에이티즈) - 'Drip' Official MV",
+        "channel": "KQ ENTERTAINMENT",
+        "views": "1211만회",
+        "thumb": "https://i.ytimg.com/vi/iqQWCYMlMw0/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=iqQWCYMlMw0"
       },
       {
         "rank": 5,
         "title": "Avengers: Doomsday | In Theaters December 18",
         "channel": "Marvel Entertainment",
-        "views": "733만회",
+        "views": "896만회",
         "thumb": "https://i.ytimg.com/vi/UfNu7pcR0e8/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=UfNu7pcR0e8"
       },
       {
         "rank": 6,
-        "title": "롤드컵 딮기전, 다 이긴 게임 '이 선수' 때문에 졌다. l T1 vs DK",
-        "channel": "정글선생 진 영준",
-        "views": "45만회",
-        "thumb": "https://i.ytimg.com/vi/RdCFiHSgbbA/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=RdCFiHSgbbA"
+        "title": "롤대남들의 멀쩡한 사람 하나 보내는 방법ㅋㅋㅋ",
+        "channel": "튜브김민교",
+        "views": "49만회",
+        "thumb": "https://i.ytimg.com/vi/7ltNfCtWdlk/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=7ltNfCtWdlk"
       },
       {
         "rank": 7,
-        "title": "삐그덕 (seesaw)",
-        "channel": "Crush - Topic",
-        "views": "103만회",
-        "thumb": "https://i.ytimg.com/vi/bB8rDZPNjyI/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=bB8rDZPNjyI"
+        "title": "Drip",
+        "channel": "ATEEZ - Topic",
+        "views": "77만회",
+        "thumb": "https://i.ytimg.com/vi/SsUU0-rysY4/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=SsUU0-rysY4"
       },
       {
         "rank": 8,
         "title": "RESCENE [PULSE] Concept Trailer",
         "channel": "RESCENE",
-        "views": "95만회",
+        "views": "97만회",
         "thumb": "https://i.ytimg.com/vi/JCdkBe3d2b8/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=JCdkBe3d2b8"
       },
       {
         "rank": 9,
-        "title": "롤대남들의 멀쩡한 사람 하나 보내는 방법ㅋㅋㅋ",
-        "channel": "튜브김민교",
-        "views": "42만회",
-        "thumb": "https://i.ytimg.com/vi/7ltNfCtWdlk/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=7ltNfCtWdlk"
+        "title": "롤드컵 딮기전, 다 이긴 게임 '이 선수' 때문에 졌다. l T1 vs DK",
+        "channel": "정글선생 진 영준",
+        "views": "49만회",
+        "thumb": "https://i.ytimg.com/vi/RdCFiHSgbbA/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=RdCFiHSgbbA"
       },
       {
         "rank": 10,
-        "title": "DESERVE",
-        "channel": "BABYMONSTER - Topic",
-        "views": "88만회",
-        "thumb": "https://i.ytimg.com/vi/K2yUigzpe9M/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=K2yUigzpe9M"
+        "title": "삐그덕 (seesaw)",
+        "channel": "Crush - Topic",
+        "views": "106만회",
+        "thumb": "https://i.ytimg.com/vi/bB8rDZPNjyI/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=bB8rDZPNjyI"
       }
     ]
   }
