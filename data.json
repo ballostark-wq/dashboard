@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01 17:30:17",
+  "updated_at": "2026-11-02 00:38:43",
   "us2y": {
     "value": 4.56,
     "change": -0.05
@@ -118,6 +118,11 @@
     ],
     "tech": [
       {
+        "title": "[디일렉] 더존비즈온 해킹, 고객사로 확산 '일파만파'...10곳 유출 우려 긴급 공지",
+        "link": "https://www.thelec.kr/news/articleView.html?idxno=64641",
+        "date": "11-01 19:55"
+      },
+      {
         "title": "[디일렉] 한화오션, 잠수함 수평발사장치 국산화",
         "link": "https://www.thelec.kr/news/articleView.html?idxno=64639",
         "date": "11-01 16:11"
@@ -128,9 +133,14 @@
         "date": "11-01 16:11"
       },
       {
-        "title": "[디일렉] HD현대로보틱스, 팔란티어와 피지컬 AI 협력 확대",
-        "link": "https://www.thelec.kr/news/articleView.html?idxno=64637",
-        "date": "11-01 16:11"
+        "title": "[전자신문] “어린 소녀들만 노렸다”… 日서 한국인 남성 성범죄 혐의로 5번째 체포",
+        "link": "https://www.etnews.com/20261101000105",
+        "date": "11-01 22:30"
+      },
+      {
+        "title": "[전자신문] 핵폭발에도 버틴다…중국이 짓는 '이동식 섬'",
+        "link": "https://www.etnews.com/20261030000274",
+        "date": "11-01 22:30"
       }
     ],
     "domestic": [
@@ -245,14 +255,14 @@
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,335원 | 엔/달러 ¥157.8",
-      "title": "원/달러 1,335.1원선과 엔/달러 ¥157.8",
+      "badge": "원/달러 1,333원 | 엔/달러 ¥157.8",
+      "title": "원/달러 1,333.4원선과 엔/달러 ¥157.8",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,335.1원",
-          "chg": "-0.22%",
+          "val": "1,333.4원",
+          "chg": "-0.34%",
           "up": false
         },
         {
@@ -313,8 +323,8 @@
       "change": 2.08
     },
     "usdkrw": {
-      "price": 1335.1,
-      "change": -0.22
+      "price": 1333.44,
+      "change": -0.34
     },
     "dxy": {
       "price": 101.88,
@@ -706,8 +716,8 @@
         "usdjpy": 157.83
       },
       {
-        "date": "10-31",
-        "usdkrw": 1335.1,
+        "date": "11-01",
+        "usdkrw": 1333.44,
         "dxy": 101.88,
         "usdjpy": 157.8
       }
@@ -817,7 +827,7 @@
   },
   "calendar_3w": {
     "w1": {
-      "title": "이번 주 (10/26 ~ 11/01)",
+      "title": "이번 주 (11/02 ~ 11/08)",
       "macro": [
         {
           "date": "11-02 3:00pm",
@@ -849,24 +859,40 @@
     }
   },
   "humanities": {
-    "history_date": "2026-11-01",
+    "history_date": "2026-11-02",
     "history": {
-      "era": "1076년 ~ 1455년 (1394년)",
-      "region": "한국",
-      "year": "1394년",
-      "title": "[1394년] [한국] 한양으로 도읍을 옮김.",
-      "summary": "1394년 - 한양으로 도읍을 옮김.",
+      "era": "1700년 ~ 1869년 (1868년)",
+      "region": "세계",
+      "year": "1868년",
+      "title": "[1868년] [세계] 일본의 메이지 유신",
+      "summary": "1868년 - 일본의 메이지 유신",
       "bullets": [
-        "발생 연대: 1394년 (한국사)",
-        "한양으로 도읍을 옮김.",
+        "발생 연대: 1868년 (세계사)",
+        "일본의 메이지 유신",
         "당대 세력 균형 및 정치·경제적 제도 변화 반영"
       ],
-      "insight": "1394년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
-      "ref_title": "위키백과 세계사 연표: 1076년 ~ 1455년 (1394년)",
-      "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1076%EB%85%84_~_1455%EB%85%84:~:text=1394",
+      "insight": "1868년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
+      "ref_title": "위키백과 세계사 연표: 1700년 ~ 1869년 (1868년)",
+      "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1700%EB%85%84_~_1869%EB%85%84:~:text=1868",
       "d_day": "오늘"
     },
     "history_5d": [
+      {
+        "era": "1700년 ~ 1869년 (1868년)",
+        "region": "세계",
+        "year": "1868년",
+        "title": "[1868년] [세계] 일본의 메이지 유신",
+        "summary": "1868년 - 일본의 메이지 유신",
+        "bullets": [
+          "발생 연대: 1868년 (세계사)",
+          "일본의 메이지 유신",
+          "당대 세력 균형 및 정치·경제적 제도 변화 반영"
+        ],
+        "insight": "1868년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
+        "ref_title": "위키백과 세계사 연표: 1700년 ~ 1869년 (1868년)",
+        "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1700%EB%85%84_~_1869%EB%85%84:~:text=1868",
+        "d_day": "오늘"
+      },
       {
         "era": "1076년 ~ 1455년 (1394년)",
         "region": "한국",
@@ -881,7 +907,7 @@
         "insight": "1394년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1076년 ~ 1455년 (1394년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1076%EB%85%84_~_1455%EB%85%84:~:text=1394",
-        "d_day": "오늘"
+        "d_day": "D-1"
       },
       {
         "era": "1973년 ~ 2020년 (1996년)",
@@ -897,7 +923,7 @@
         "insight": "1996년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1973년 ~ 2020년 (1996년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1973%EB%85%84_~_2020%EB%85%84:~:text=1996",
-        "d_day": "D-1"
+        "d_day": "D-2"
       },
       {
         "era": "1076년 ~ 1455년 (1429년)",
@@ -913,7 +939,7 @@
         "insight": "1429년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1076년 ~ 1455년 (1429년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1076%EB%85%84_~_1455%EB%85%84:~:text=1429",
-        "d_day": "D-2"
+        "d_day": "D-3"
       },
       {
         "era": "1870년 ~ 1923년 (1875년)",
@@ -929,91 +955,138 @@
         "insight": "1875년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1870년 ~ 1923년 (1875년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1870%EB%85%84_~_1923%EB%85%84:~:text=1875",
-        "d_day": "D-3"
-      },
-      {
-        "era": "1924년 ~ 1972년 (1963년)",
-        "region": "한국",
-        "year": "1963년",
-        "title": "[1963년] [한국] 박정희 정부 수립",
-        "summary": "1963년 - 박정희 정부 수립",
-        "bullets": [
-          "발생 연대: 1963년 (한국사)",
-          "박정희 정부 수립",
-          "당대 세력 균형 및 정치·경제적 제도 변화 반영"
-        ],
-        "insight": "1963년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
-        "ref_title": "위키백과 세계사 연표: 1924년 ~ 1972년 (1963년)",
-        "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1924%EB%85%84_~_1972%EB%85%84:~:text=1963",
         "d_day": "D-4"
       }
     ],
     "polyglot": {
-      "theme": "이해 여부 (Q&A)",
-      "type": "기초",
-      "meaning": "Q: 제 말 이해하셨나요? / A: 네, 완벽히 이해했어요.",
+      "theme": "입버릇 관용구: 비유 표현",
+      "meaning": "금상첨화 (더할 나위 없는 덤).",
       "translations": {
         "en": {
           "code": "en-US",
           "name": "영어",
           "flag": "🇺🇸",
-          "text": "Do you understand me? - Yes, I understand perfectly.",
-          "roman": "두 유 언더스탠드 미? - 예스, 아이 언더스탠드 퍼펙틀리."
+          "text": "Icing on the cake.",
+          "roman": ""
         },
         "ja": {
           "code": "ja-JP",
           "name": "일본어",
           "flag": "🇯🇵",
-          "text": "理解できましたか？ - はい、よく分かりました。",
-          "roman": "리카이 데키마시타 카? - 하이, 요쿠 와카리마시타."
+          "text": "鬼に金棒、錦上添花だね。",
+          "roman": "Oni ni kanabō, kinjōtōka da ne."
         },
         "zh": {
           "code": "zh-CN",
           "name": "중국어",
           "flag": "🇨🇳",
-          "text": "你听明白了吗？ - 是的，我完全明白了。",
-          "roman": "니 팅 밍바이 러 마? - 스더, 워 완췐 밍바이 러."
+          "text": "真是锦上添花的好事。",
+          "roman": "Zhēn shì jǐnshàngtiānhuā de hǎoshì."
         },
         "fr": {
           "code": "fr-FR",
           "name": "프랑스어",
           "flag": "🇫🇷",
-          "text": "Avez-vous compris ? - Oui, j'ai parfaitement compris.",
-          "roman": "아베 부 꽁프리? - 위, 제 파르페트망 꽁프리."
+          "text": "C'est la cerise sur le gâteau.",
+          "roman": ""
         },
         "de": {
           "code": "de-DE",
           "name": "독일어",
           "flag": "🇩🇪",
-          "text": "Haben Sie mich verstanden? - Ja, vollkommen verstanden.",
-          "roman": "하벤 지 미히 페어슈탄덴? - 야, 폴코멘 페어슈탄덴."
+          "text": "Das ist das Sahnehäubchen obendrauf.",
+          "roman": ""
         },
         "es": {
           "code": "es-ES",
           "name": "스페인어",
           "flag": "🇪🇸",
-          "text": "¿Me entiendes? - Sí, entiendo perfectamente.",
-          "roman": "메 엔티엔데스? - 시, 엔티엔도 페르펙타멘테."
+          "text": "Es la guinda del pastel.",
+          "roman": ""
         },
         "ar": {
           "code": "ar-SA",
           "name": "아랍어",
           "flag": "🇸🇦",
-          "text": "هل فهمتني؟ - نعم، فهمت تماماً.",
-          "roman": "할 파힘타니? - 나암, 파힘투 타마만."
+          "text": "مسك الختام والزيادة الأجمل.",
+          "roman": "Misku al-khitām waz-ziyādatu al-ajmal."
         },
         "ru": {
           "code": "ru-RU",
           "name": "러시아어",
           "flag": "🇷🇺",
-          "text": "Вы меня поняли? - Да, я всё понял.",
-          "roman": "브이 미냐 뽀냐리? - 다, 야 프쇼 뽀냘."
+          "text": "Вишенка на торте.",
+          "roman": "Vishenka na torte."
         }
       },
-      "pool_type": "기초",
+      "pool_type": "일상",
       "d_day": "오늘"
     },
     "polyglot_5d": [
+      {
+        "theme": "입버릇 관용구: 비유 표현",
+        "meaning": "금상첨화 (더할 나위 없는 덤).",
+        "translations": {
+          "en": {
+            "code": "en-US",
+            "name": "영어",
+            "flag": "🇺🇸",
+            "text": "Icing on the cake.",
+            "roman": ""
+          },
+          "ja": {
+            "code": "ja-JP",
+            "name": "일본어",
+            "flag": "🇯🇵",
+            "text": "鬼に金棒、錦上添花だね。",
+            "roman": "Oni ni kanabō, kinjōtōka da ne."
+          },
+          "zh": {
+            "code": "zh-CN",
+            "name": "중국어",
+            "flag": "🇨🇳",
+            "text": "真是锦上添花的好事。",
+            "roman": "Zhēn shì jǐnshàngtiānhuā de hǎoshì."
+          },
+          "fr": {
+            "code": "fr-FR",
+            "name": "프랑스어",
+            "flag": "🇫🇷",
+            "text": "C'est la cerise sur le gâteau.",
+            "roman": ""
+          },
+          "de": {
+            "code": "de-DE",
+            "name": "독일어",
+            "flag": "🇩🇪",
+            "text": "Das ist das Sahnehäubchen obendrauf.",
+            "roman": ""
+          },
+          "es": {
+            "code": "es-ES",
+            "name": "스페인어",
+            "flag": "🇪🇸",
+            "text": "Es la guinda del pastel.",
+            "roman": ""
+          },
+          "ar": {
+            "code": "ar-SA",
+            "name": "아랍어",
+            "flag": "🇸🇦",
+            "text": "مسك الختام والزيادة الأجمل.",
+            "roman": "Misku al-khitām waz-ziyādatu al-ajmal."
+          },
+          "ru": {
+            "code": "ru-RU",
+            "name": "러시아어",
+            "flag": "🇷🇺",
+            "text": "Вишенка на торте.",
+            "roman": "Vishenka na torte."
+          }
+        },
+        "pool_type": "일상",
+        "d_day": "오늘"
+      },
       {
         "theme": "이해 여부 (Q&A)",
         "type": "기초",
@@ -1077,7 +1150,7 @@
           }
         },
         "pool_type": "기초",
-        "d_day": "오늘"
+        "d_day": "D-1"
       },
       {
         "theme": "입버릇 관용구: 상황 묘사",
@@ -1141,7 +1214,7 @@
           }
         },
         "pool_type": "일상",
-        "d_day": "D-1"
+        "d_day": "D-2"
       },
       {
         "theme": "언어 소통 (Q&A)",
@@ -1206,7 +1279,7 @@
           }
         },
         "pool_type": "기초",
-        "d_day": "D-2"
+        "d_day": "D-3"
       },
       {
         "theme": "입버릇 관용구: 상황 묘사",
@@ -1270,85 +1343,20 @@
           }
         },
         "pool_type": "일상",
-        "d_day": "D-3"
-      },
-      {
-        "theme": "안부 확인 (Q&A)",
-        "type": "기초",
-        "meaning": "Q: 잘 지내세요? / A: 네, 아주 잘 지내요.",
-        "translations": {
-          "en": {
-            "code": "en-US",
-            "name": "영어",
-            "flag": "🇺🇸",
-            "text": "How are you doing? - I'm doing great, thank you.",
-            "roman": "하우 아 유 두잉? - 아임 두잉 그레이트, 땡큐."
-          },
-          "ja": {
-            "code": "ja-JP",
-            "name": "일본어",
-            "flag": "🇯🇵",
-            "text": "お元気ですか？ - はい、とても元気です。",
-            "roman": "오겐키 데스 카? - 하이, 토테모 겐키 데스."
-          },
-          "zh": {
-            "code": "zh-CN",
-            "name": "중국어",
-            "flag": "🇨🇳",
-            "text": "你最近好吗？ - 我很好，谢谢你。",
-            "roman": "니 쭈이진 하오 마? - 워 헌 하오, 셰셰 니."
-          },
-          "fr": {
-            "code": "fr-FR",
-            "name": "프랑스어",
-            "flag": "🇫🇷",
-            "text": "Comment allez-vous ? - Je vais très bien, merci.",
-            "roman": "코망 탈레 부? - 즈 베 트레 비앙, 메르시."
-          },
-          "de": {
-            "code": "de-DE",
-            "name": "독일어",
-            "flag": "🇩🇪",
-            "text": "Wie geht es Ihnen? - Mir geht es sehr gut, danke.",
-            "roman": "비 게트 에스 이넨? - 미어 게트 에스 제어 구트, 당케."
-          },
-          "es": {
-            "code": "es-ES",
-            "name": "스페인어",
-            "flag": "🇪🇸",
-            "text": "¿Cómo estás? - Estoy muy bien, gracias.",
-            "roman": "꼬모 에스따스? - 에스또이 무이 비엔, 그라시아스."
-          },
-          "ar": {
-            "code": "ar-SA",
-            "name": "아랍어",
-            "flag": "🇸🇦",
-            "text": "كيف حالك؟ - أنا بخير جداً، شكراً لك.",
-            "roman": "카이파 할룩? - 아나 비카이린 짓단, 슈크란 라크."
-          },
-          "ru": {
-            "code": "ru-RU",
-            "name": "러시아어",
-            "flag": "🇷🇺",
-            "text": "Как ваши дела? - У меня всё отлично, спасибо.",
-            "roman": "깍 바시 딜라? - 우 미냐 프쇼 아트리치나, 스파시바."
-          }
-        },
-        "pool_type": "기초",
         "d_day": "D-4"
       }
     ],
     "philosophy": {
-      "thinker": "니콜로 마키아벨리 (Niccolò Machiavelli)",
-      "era": "15~16세기 르네상스 이탈리아",
-      "concept": "비르투(Virtù)와 포르투나(Fortuna)",
-      "quote": "“군주는 사랑받는 존재가 되기보다 두려운 존재가 되는 편이 훨씬 안전하다.”",
+      "thinker": "투키디데스 (Thucydides)",
+      "era": "기원전 5세기 고대 그리스",
+      "concept": "투키디데스 함정 (Thucydides Trap)",
+      "quote": "“전쟁을 불가피하게 만든 것은 아테네의 부상과 그로 인해 스파르타에 심어진 두려움이었다.”",
       "bullets": [
-        "운명의 여신(포르투나)은 거친 강물과 같아, 평소 제방을 쌓아둔 역량(비르투) 있는 자만이 다스릴 수 있음",
-        "이상적 도덕주의를 탈피하여 권력과 인간 본성의 비정한 실재(Realpolitik)를 통찰",
-        "국가의 존립과 지속 가능성을 위해 냉철한 결단과 제도적 강제력을 중시"
+        "급부상하는 신흥 강국과 기존 지배 패권국 사이의 구조적 긴장과 충돌 역학 분석",
+        "국가 행동을 지배하는 3대 근본 동기: 공포(Fear), 명예(Honor), 이익(Interest)",
+        "동맹 네트워크의 확장과 오판이 국지적 갈등을 세계대전급 파국으로 확대시키는 경로 증명"
       ],
-      "application": "미·중 기술 패권 및 공급망 재편 속에서 명분보다 국가의 실익과 독점적 기술 안보를 우선시해야 하는 현대 지정학의 핵심 잣대를 제공합니다."
+      "application": "반도체·AI 인프라를 둘러싼 패권국 간의 배타적 경제 블록화와 전략적 수출 통제 조치의 기저에 깔린 근본 동기를 설명합니다."
     }
   },
   "trends": {
@@ -1407,53 +1415,53 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "7호선 운행 정상화",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=7%ED%98%B8%EC%84%A0%20%EC%9A%B4%ED%96%89%20%EC%A0%95%EC%83%81%ED%99%94"
+        "title": "삼성, KIA 꺾고 한국시리즈 진출",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%82%BC%EC%84%B1%2C%20KIA%20%EA%BA%BE%EA%B3%A0%20%ED%95%9C%EA%B5%AD%EC%8B%9C%EB%A6%AC%EC%A6%88%20%EC%A7%84%EC%B6%9C"
       },
       {
         "rank": 2,
-        "title": "김지찬 2타점 적시타",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%A7%80%EC%B0%AC%202%ED%83%80%EC%A0%90%20%EC%A0%81%EC%8B%9C%ED%83%80"
+        "title": "정애연, 화장 안 지우고 외출복 잠옷 차림",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A0%95%EC%95%A0%EC%97%B0%2C%20%ED%99%94%EC%9E%A5%20%EC%95%88%20%EC%A7%80%EC%9A%B0%EA%B3%A0%20%EC%99%B8%EC%B6%9C%EB%B3%B5%20%EC%9E%A0%EC%98%B7%20%EC%B0%A8%EB%A6%BC"
       },
       {
         "rank": 3,
-        "title": "트럼프 이란 재공격",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%8A%B8%EB%9F%BC%ED%94%84%20%EC%9D%B4%EB%9E%80%20%EC%9E%AC%EA%B3%B5%EA%B2%A9"
+        "title": "이란 미국 자산 타격 경고",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EB%9E%80%20%EB%AF%B8%EA%B5%AD%20%EC%9E%90%EC%82%B0%20%ED%83%80%EA%B2%A9%20%EA%B2%BD%EA%B3%A0"
       },
       {
         "rank": 4,
-        "title": "이재용, 일본 패키징 점검",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EC%9E%AC%EC%9A%A9%2C%20%EC%9D%BC%EB%B3%B8%20%ED%8C%A8%ED%82%A4%EC%A7%95%20%EC%A0%90%EA%B2%80"
+        "title": "너 말고 다른 연애",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%84%88%20%EB%A7%90%EA%B3%A0%20%EB%8B%A4%EB%A5%B8%20%EC%97%B0%EC%95%A0"
       },
       {
         "rank": 5,
-        "title": "바이낸스 북한 탈취",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B0%94%EC%9D%B4%EB%82%B8%EC%8A%A4%20%EB%B6%81%ED%95%9C%20%ED%83%88%EC%B7%A8"
+        "title": "이재용 일본 패키징 점검",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EC%9E%AC%EC%9A%A9%20%EC%9D%BC%EB%B3%B8%20%ED%8C%A8%ED%82%A4%EC%A7%95%20%EC%A0%90%EA%B2%80"
       },
       {
         "rank": 6,
-        "title": "탑",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%83%91"
+        "title": "이재명 다문화 정책 시정",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EC%9E%AC%EB%AA%85%20%EB%8B%A4%EB%AC%B8%ED%99%94%20%EC%A0%95%EC%B1%85%20%EC%8B%9C%EC%A0%95"
       },
       {
         "rank": 7,
-        "title": "fc 서울 대 인천",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=fc%20%EC%84%9C%EC%9A%B8%20%EB%8C%80%20%EC%9D%B8%EC%B2%9C"
+        "title": "故 최불암 빈소 조문 다녀옴",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%E6%95%85%20%EC%B5%9C%EB%B6%88%EC%95%94%20%EB%B9%88%EC%86%8C%20%EC%A1%B0%EB%AC%B8%20%EB%8B%A4%EB%85%80%EC%98%B4"
       },
       {
         "rank": 8,
-        "title": "주진우 총선 허위입력 기자회견",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A3%BC%EC%A7%84%EC%9A%B0%20%EC%B4%9D%EC%84%A0%20%ED%97%88%EC%9C%84%EC%9E%85%EB%A0%A5%20%EA%B8%B0%EC%9E%90%ED%9A%8C%EA%B2%AC"
+        "title": "우니온 베를린 대 쾰른",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9A%B0%EB%8B%88%EC%98%A8%20%EB%B2%A0%EB%A5%BC%EB%A6%B0%20%EB%8C%80%20%EC%BE%B0%EB%A5%B8"
       },
       {
         "rank": 9,
-        "title": "미국 중간선거 사전투표",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%AF%B8%EA%B5%AD%20%EC%A4%91%EA%B0%84%EC%84%A0%EA%B1%B0%20%EC%82%AC%EC%A0%84%ED%88%AC%ED%91%9C"
+        "title": "코리아 오픈",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%BD%94%EB%A6%AC%EC%95%84%20%EC%98%A4%ED%94%88"
       },
       {
         "rank": 10,
-        "title": "박재현 1타점 3루타",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B0%95%EC%9E%AC%ED%98%84%201%ED%83%80%EC%A0%90%203%EB%A3%A8%ED%83%80"
+        "title": "경찰관 흉기 위협",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B2%BD%EC%B0%B0%EA%B4%80%20%ED%9D%89%EA%B8%B0%20%EC%9C%84%ED%98%91"
       }
     ],
     "youtube_popular": [
@@ -1461,7 +1469,7 @@
         "rank": 1,
         "title": "ADDICTED",
         "channel": "JISOO - Topic",
-        "views": "82만회",
+        "views": "90만회",
         "thumb": "https://i.ytimg.com/vi/HlT6mxxt6Ek/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=HlT6mxxt6Ek"
       },
@@ -1469,7 +1477,7 @@
         "rank": 2,
         "title": "스위스 스테이지 Day 8 | 2026 월드 챔피언십",
         "channel": "LCK",
-        "views": "225만회",
+        "views": "226만회",
         "thumb": "https://i.ytimg.com/vi/07oz6ygOzr8/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=07oz6ygOzr8"
       },
@@ -1477,7 +1485,7 @@
         "rank": 3,
         "title": "Drunk (Feat. Coogie)",
         "channel": "BE'O - Topic",
-        "views": "20만회",
+        "views": "22만회",
         "thumb": "https://i.ytimg.com/vi/v3XAAzPOWyg/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=v3XAAzPOWyg"
       },
@@ -1485,57 +1493,57 @@
         "rank": 4,
         "title": "감스트 우리나라의 주적은 북한입니다",
         "channel": "감스트GAMST",
-        "views": "263만회",
+        "views": "307만회",
         "thumb": "https://i.ytimg.com/vi/5b_lkZ4KtXM/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=5b_lkZ4KtXM"
       },
       {
         "rank": 5,
-        "title": "【Ado】And July (Feat. DEAN, DJ Friz) cover (원곡：헤이즈 (Heize) )",
-        "channel": "Ado",
-        "views": "58만회",
-        "thumb": "https://i.ytimg.com/vi/BcjqWNViVU0/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=BcjqWNViVU0"
+        "title": "Hong Kong (feat. 王菲季候風)",
+        "channel": "The Weeknd - Topic",
+        "views": "19만회",
+        "thumb": "https://i.ytimg.com/vi/3QZOazpGIQc/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=3QZOazpGIQc"
       },
       {
         "rank": 6,
         "title": "혹한에서 살아남기",
         "channel": "괴물쥐 유튜브",
-        "views": "63만회",
+        "views": "76만회",
         "thumb": "https://i.ytimg.com/vi/_0UY8VPYQbY/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=_0UY8VPYQbY"
       },
       {
         "rank": 7,
-        "title": "Please Don't Love Me",
-        "channel": "Huh Gak - Topic",
-        "views": "9만회",
-        "thumb": "https://i.ytimg.com/vi/PYS0Y-zOsyE/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=PYS0Y-zOsyE"
+        "title": "【Ado】And July (Feat. DEAN, DJ Friz) cover (원곡：헤이즈 (Heize) )",
+        "channel": "Ado",
+        "views": "79만회",
+        "thumb": "https://i.ytimg.com/vi/BcjqWNViVU0/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=BcjqWNViVU0"
       },
       {
         "rank": 8,
-        "title": "도움이 필요한 친구",
-        "channel": "랄로",
-        "views": "103만회",
-        "thumb": "https://i.ytimg.com/vi/cq5dlj3lK3M/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=cq5dlj3lK3M"
+        "title": "탑신병자가 된 클리드와 분열된 상체 3인방ㅋㅋㅋㅋㅋ",
+        "channel": "튜브김민교",
+        "views": "46만회",
+        "thumb": "https://i.ytimg.com/vi/09dux5wNE_4/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=09dux5wNE_4"
       },
       {
         "rank": 9,
-        "title": "Fool",
-        "channel": "DaNTe′ - Topic",
-        "views": "15만회",
-        "thumb": "https://i.ytimg.com/vi/Qm6q2WES9rg/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=Qm6q2WES9rg"
+        "title": "장한별 ‘미야 (Miya)’ Official M/V",
+        "channel": "장한별 JANG HAN BYUL",
+        "views": "2만회",
+        "thumb": "https://i.ytimg.com/vi/diehHe3eN5s/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=diehHe3eN5s"
       },
       {
         "rank": 10,
-        "title": "탑신병자가 된 클리드와 분열된 상체 3인방ㅋㅋㅋㅋㅋ",
-        "channel": "튜브김민교",
-        "views": "39만회",
-        "thumb": "https://i.ytimg.com/vi/09dux5wNE_4/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=09dux5wNE_4"
+        "title": "해리케인 발롱 받고 잠수함 패치..? 이상호 잉글랜드가 달라진 이유",
+        "channel": "이상호",
+        "views": "34만회",
+        "thumb": "https://i.ytimg.com/vi/FQeq7rvPM7M/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=FQeq7rvPM7M"
       }
     ]
   }
