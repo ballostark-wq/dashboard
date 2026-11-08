@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09 03:43:00",
+  "updated_at": "2026-11-09 07:36:53",
   "us2y": {
     "value": 4.51,
     "change": 0.05
@@ -133,17 +133,27 @@
         "date": "11-06 19:35"
       },
       {
-        "title": "[전자신문] 남양주시, '청소년 AI 축제'…체험부스 23개·공연팀 16개 참여",
-        "link": "https://www.etnews.com/20261109000005",
-        "date": "11-09 01:12"
+        "title": "[전자신문] 젠슨 황, 中 스파이 연루 의혹 속 불륜 인정…엔비디아 이사회 조사 착수",
+        "link": "https://www.etnews.com/20261109000007",
+        "date": "11-09 07:01"
       },
       {
-        "title": "[전자신문] 남양주예술제, 진접읍 장승다담공원서 공연·전시·시민 체험까지 한마당",
-        "link": "https://www.etnews.com/20261109000004",
-        "date": "11-09 01:00"
+        "title": "[전자신문] 앤트로픽, 데이터센터 전력 직접 공급...가스 발전기 4.6조원에 확보",
+        "link": "https://www.etnews.com/20261109000006",
+        "date": "11-09 06:54"
       }
     ],
     "domestic": [
+      {
+        "title": "이란 외무 \"美 유권자 선택 끝나…종전·전쟁 결정은 백악관 몫\"(종합)",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4443654",
+        "date": "11-09 05:21"
+      },
+      {
+        "title": "트럼프 \"이란과 강력한 합의시 전쟁 재개 가능성 매우 작아\"",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4443653",
+        "date": "11-09 05:00"
+      },
       {
         "title": "이란군, 美 '이란 물류 봉쇄' TF 출범에 \"말장난 불과…대비 마쳐\"",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4443651",
@@ -158,16 +168,6 @@
         "title": "[뉴욕채권-주간] 12월 FOMC 전 마지막 CPI…임금發 물가 압력도 경계",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4443644",
         "date": "11-08 17:47"
-      },
-      {
-        "title": "[외환-주간] 블루웨이브 충격 지속…'美 CPI·커스터디·달러선물' 주시",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4443636",
-        "date": "11-08 13:00"
-      },
-      {
-        "title": "[채권-주간] AI 우려 어디까지…금통위 의사록도 강세 재료일까",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4443635",
-        "date": "11-08 13:00"
       }
     ]
   },
@@ -255,8 +255,8 @@
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,363원 | 엔/달러 ¥158.3",
-      "title": "원/달러 1,363.4원선과 엔/달러 ¥158.3",
+      "badge": "원/달러 1,363원 | 엔/달러 ¥158.4",
+      "title": "원/달러 1,363.4원선과 엔/달러 ¥158.4",
       "metrics": [
         {
           "id": "usdkrw",
@@ -275,14 +275,14 @@
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥158.32",
-          "chg": "+0.52%",
+          "val": "¥158.38",
+          "chg": "+0.56%",
           "up": true
         }
       ],
       "bullets": [
         "달러 인덱스 102.3pt - 미국 성장 우위 지속",
-        "엔/달러 158.32엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "엔/달러 158.38엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
@@ -323,7 +323,7 @@
       "change": 0.34
     },
     "usdkrw": {
-      "price": 1363.37,
+      "price": 1363.39,
       "change": 0.52
     },
     "dxy": {
@@ -331,8 +331,8 @@
       "change": 0.74
     },
     "usdjpy": {
-      "price": 158.32,
-      "change": 0.52
+      "price": 158.38,
+      "change": 0.56
     }
   },
   "history_20d": {
@@ -717,9 +717,9 @@
       },
       {
         "date": "11-08",
-        "usdkrw": 1363.37,
+        "usdkrw": 1363.39,
         "dxy": 102.3,
-        "usdjpy": 158.32
+        "usdjpy": 158.38
       }
     ],
     "oil": [
@@ -1375,13 +1375,13 @@
       },
       {
         "rank": 3,
-        "title": "제주 4·3 사건",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A0%9C%EC%A3%BC%204%C2%B73%20%EC%82%AC%EA%B1%B4"
+        "title": "빼빼로데이",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B9%BC%EB%B9%BC%EB%A1%9C%EB%8D%B0%EC%9D%B4"
       },
       {
         "rank": 4,
-        "title": "빼빼로데이",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B9%BC%EB%B9%BC%EB%A1%9C%EB%8D%B0%EC%9D%B4"
+        "title": "제주 4·3 사건",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A0%9C%EC%A3%BC%204%C2%B73%20%EC%82%AC%EA%B1%B4"
       },
       {
         "rank": 5,
@@ -1395,8 +1395,8 @@
       },
       {
         "rank": 7,
-        "title": "북마케도니아",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B6%81%EB%A7%88%EC%BC%80%EB%8F%84%EB%8B%88%EC%95%84"
+        "title": "치팅데이",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B9%98%ED%8C%85%EB%8D%B0%EC%9D%B4"
       },
       {
         "rank": 8,
@@ -1417,53 +1417,53 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "종부세 14억 강력 요구",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A2%85%EB%B6%80%EC%84%B8%2014%EC%96%B5%20%EA%B0%95%EB%A0%A5%20%EC%9A%94%EA%B5%AC"
+        "title": "젠슨황 불륜 조사",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A0%A0%EC%8A%A8%ED%99%A9%20%EB%B6%88%EB%A5%9C%20%EC%A1%B0%EC%82%AC"
       },
       {
         "rank": 2,
-        "title": "삼성 우승 약속",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%82%BC%EC%84%B1%20%EC%9A%B0%EC%8A%B9%20%EC%95%BD%EC%86%8D"
+        "title": "이집트 열차 추돌",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EC%A7%91%ED%8A%B8%20%EC%97%B4%EC%B0%A8%20%EC%B6%94%EB%8F%8C"
       },
       {
         "rank": 3,
-        "title": "테러리스트 김영빈 별세",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%85%8C%EB%9F%AC%EB%A6%AC%EC%8A%A4%ED%8A%B8%20%EA%B9%80%EC%98%81%EB%B9%88%20%EB%B3%84%EC%84%B8"
+        "title": "12년만의 한국시리즈 우승",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=12%EB%85%84%EB%A7%8C%EC%9D%98%20%ED%95%9C%EA%B5%AD%EC%8B%9C%EB%A6%AC%EC%A6%88%20%EC%9A%B0%EC%8A%B9"
       },
       {
         "rank": 4,
-        "title": "청주 아파트 여자친구 살해",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B2%AD%EC%A3%BC%20%EC%95%84%ED%8C%8C%ED%8A%B8%20%EC%97%AC%EC%9E%90%EC%B9%9C%EA%B5%AC%20%EC%82%B4%ED%95%B4"
+        "title": "100일의 거짓말",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=100%EC%9D%BC%EC%9D%98%20%EA%B1%B0%EC%A7%93%EB%A7%90"
       },
       {
         "rank": 5,
-        "title": "홈플러스 자금난 회생 위기",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%99%88%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EC%9E%90%EA%B8%88%EB%82%9C%20%ED%9A%8C%EC%83%9D%20%EC%9C%84%EA%B8%B0"
+        "title": "트럼프, 이란 재공격 가능성 낮음",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%8A%B8%EB%9F%BC%ED%94%84%2C%20%EC%9D%B4%EB%9E%80%20%EC%9E%AC%EA%B3%B5%EA%B2%A9%20%EA%B0%80%EB%8A%A5%EC%84%B1%20%EB%82%AE%EC%9D%8C"
       },
       {
         "rank": 6,
-        "title": "서울대 총장 최해천 선출",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%84%9C%EC%9A%B8%EB%8C%80%20%EC%B4%9D%EC%9E%A5%20%EC%B5%9C%ED%95%B4%EC%B2%9C%20%EC%84%A0%EC%B6%9C"
+        "title": "투자",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%88%AC%EC%9E%90"
       },
       {
         "rank": 7,
-        "title": "초등학교 입학생 감소",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B4%88%EB%93%B1%ED%95%99%EA%B5%90%20%EC%9E%85%ED%95%99%EC%83%9D%20%EA%B0%90%EC%86%8C"
+        "title": "아파트",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%84%ED%8C%8C%ED%8A%B8"
       },
       {
         "rank": 8,
-        "title": "사우디 금융지구 공격",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%82%AC%EC%9A%B0%EB%94%94%20%EA%B8%88%EC%9C%B5%EC%A7%80%EA%B5%AC%20%EA%B3%B5%EA%B2%A9"
+        "title": "김장훈 이소라와 열애설",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%9E%A5%ED%9B%88%20%EC%9D%B4%EC%86%8C%EB%9D%BC%EC%99%80%20%EC%97%B4%EC%95%A0%EC%84%A4"
       },
       {
         "rank": 9,
-        "title": "전력",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A0%84%EB%A0%A5"
+        "title": "종부세 14억 적용",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A2%85%EB%B6%80%EC%84%B8%2014%EC%96%B5%20%EC%A0%81%EC%9A%A9"
       },
       {
         "rank": 10,
-        "title": "김장훈 이소라 열애설 해명",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%9E%A5%ED%9B%88%20%EC%9D%B4%EC%86%8C%EB%9D%BC%20%EC%97%B4%EC%95%A0%EC%84%A4%20%ED%95%B4%EB%AA%85"
+        "title": "애틀랜타",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%A0%ED%8B%80%EB%9E%9C%ED%83%80"
       }
     ],
     "youtube_popular": [
@@ -1471,7 +1471,7 @@
         "rank": 1,
         "title": "With",
         "channel": "RESCENE - Topic",
-        "views": "423만회",
+        "views": "425만회",
         "thumb": "https://i.ytimg.com/vi/rodFpxo7wkE/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=rodFpxo7wkE"
       },
@@ -1479,7 +1479,7 @@
         "rank": 2,
         "title": "GEN vs IG | 녹아웃 스테이지 4강 Day5 | 2026 월드 챔피언십",
         "channel": "LCK",
-        "views": "224만회",
+        "views": "225만회",
         "thumb": "https://i.ytimg.com/vi/9-dgMb2EPKo/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=9-dgMb2EPKo"
       },
@@ -1487,7 +1487,7 @@
         "rank": 3,
         "title": "back number - 히로인 [ヒロイン] 🎵\"저 가수 입니다🎤\" by 강남",
         "channel": "동네친구 강나미 [Kangnami]",
-        "views": "197만회",
+        "views": "198만회",
         "thumb": "https://i.ytimg.com/vi/nd3hpJ4oMpU/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=nd3hpJ4oMpU"
       },
@@ -1495,7 +1495,7 @@
         "rank": 4,
         "title": "소개팅 나가서 1위 했습니다",
         "channel": "김재원의 즐거운 세상",
-        "views": "60만회",
+        "views": "61만회",
         "thumb": "https://i.ytimg.com/vi/_tFYEhMN_a0/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=_tFYEhMN_a0"
       },
@@ -1511,7 +1511,7 @@
         "rank": 6,
         "title": "드디어 만난 베컴과 케인",
         "channel": "이상호",
-        "views": "37만회",
+        "views": "41만회",
         "thumb": "https://i.ytimg.com/vi/P0AhjCX4onA/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=P0AhjCX4onA"
       },
@@ -1519,7 +1519,7 @@
         "rank": 7,
         "title": "プレイバック feat. 初音ミク, 雨衣 / “Playback” ft. Miku, Ui",
         "channel": "うちのボカロは様子がおかしい",
-        "views": "133만회",
+        "views": "136만회",
         "thumb": "https://i.ytimg.com/vi/8oiyutRI3nI/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=8oiyutRI3nI"
       },
@@ -1527,7 +1527,7 @@
         "rank": 8,
         "title": "🤣혜안져스 대환장 성대모사 게임🤣 20분 동안 웃겨드립니닼ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
         "channel": "혜안",
-        "views": "81만회",
+        "views": "82만회",
         "thumb": "https://i.ytimg.com/vi/jx28RyWwi7k/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=jx28RyWwi7k"
       },
@@ -1535,7 +1535,7 @@
         "rank": 9,
         "title": "[MV] ABM - '好きな隙間' (My Lovely Nook) feat. 音街ウナ",
         "channel": "AnythingBecomeMoe",
-        "views": "108만회",
+        "views": "112만회",
         "thumb": "https://i.ytimg.com/vi/OlprURqnZw8/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=OlprURqnZw8"
       },
@@ -1543,7 +1543,7 @@
         "rank": 10,
         "title": "💖200만 대형유튜버들을 설레게한 커플 소개팅 리뷰 [결말포함ㅋㅋㅋ]",
         "channel": "김블루",
-        "views": "68만회",
+        "views": "69만회",
         "thumb": "https://i.ytimg.com/vi/Eo_7emRrCkI/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=Eo_7emRrCkI"
       }
