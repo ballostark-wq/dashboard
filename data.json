@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08 22:59:44",
+  "updated_at": "2026-11-09 03:43:00",
   "us2y": {
     "value": 4.51,
     "change": 0.05
@@ -131,9 +131,29 @@
         "title": "[디일렉] LIG D&A, 3분기 영업익 676억…전년비 24.6% 감소",
         "link": "https://www.thelec.kr/news/articleView.html?idxno=65064",
         "date": "11-06 19:35"
+      },
+      {
+        "title": "[전자신문] 남양주시, '청소년 AI 축제'…체험부스 23개·공연팀 16개 참여",
+        "link": "https://www.etnews.com/20261109000005",
+        "date": "11-09 01:12"
+      },
+      {
+        "title": "[전자신문] 남양주예술제, 진접읍 장승다담공원서 공연·전시·시민 체험까지 한마당",
+        "link": "https://www.etnews.com/20261109000004",
+        "date": "11-09 01:00"
       }
     ],
     "domestic": [
+      {
+        "title": "이란군, 美 '이란 물류 봉쇄' TF 출범에 \"말장난 불과…대비 마쳐\"",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4443651",
+        "date": "11-09 01:37"
+      },
+      {
+        "title": "후티 반군 \"사우디 수도에 있는 국제공항·석유탱크·금융센터 공격\"",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4443650",
+        "date": "11-09 01:22"
+      },
       {
         "title": "[뉴욕채권-주간] 12월 FOMC 전 마지막 CPI…임금發 물가 압력도 경계",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4443644",
@@ -148,16 +168,6 @@
         "title": "[채권-주간] AI 우려 어디까지…금통위 의사록도 강세 재료일까",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4443635",
         "date": "11-08 13:00"
-      },
-      {
-        "title": "후티 반군 \"사우디 국제공항·아람코 석유 저장탱크 타격\"",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4443609",
-        "date": "11-08 03:03"
-      },
-      {
-        "title": "이란 대통령 \"전쟁도 평화도 아닌 상태 벗어나려고 노력\"",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4443608",
-        "date": "11-08 02:37"
       }
     ]
   },
@@ -245,14 +255,14 @@
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,356원 | 엔/달러 ¥158.4",
-      "title": "원/달러 1,356.3원선과 엔/달러 ¥158.4",
+      "badge": "원/달러 1,363원 | 엔/달러 ¥158.3",
+      "title": "원/달러 1,363.4원선과 엔/달러 ¥158.3",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,356.3원",
-          "chg": "+1.21%",
+          "val": "1,363.4원",
+          "chg": "+0.52%",
           "up": true
         },
         {
@@ -265,14 +275,14 @@
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥158.43",
-          "chg": "+0.59%",
+          "val": "¥158.32",
+          "chg": "+0.52%",
           "up": true
         }
       ],
       "bullets": [
         "달러 인덱스 102.3pt - 미국 성장 우위 지속",
-        "엔/달러 158.43엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "엔/달러 158.32엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
@@ -313,16 +323,16 @@
       "change": 0.34
     },
     "usdkrw": {
-      "price": 1356.34,
-      "change": 1.21
+      "price": 1363.37,
+      "change": 0.52
     },
     "dxy": {
       "price": 102.3,
       "change": 0.74
     },
     "usdjpy": {
-      "price": 158.43,
-      "change": 0.59
+      "price": 158.32,
+      "change": 0.52
     }
   },
   "history_20d": {
@@ -592,124 +602,124 @@
     ],
     "fx": [
       {
-        "date": "10-11",
-        "usdkrw": 1340.84,
+        "date": "10-12",
+        "usdkrw": 1334.13,
         "dxy": 102.58,
         "usdjpy": 158.52
       },
       {
-        "date": "10-12",
-        "usdkrw": 1334.13,
+        "date": "10-13",
+        "usdkrw": 1340.31,
         "dxy": 102.18,
         "usdjpy": 158.32
       },
       {
-        "date": "10-13",
-        "usdkrw": 1340.31,
+        "date": "10-14",
+        "usdkrw": 1339.35,
         "dxy": 102.55,
         "usdjpy": 157.96
       },
       {
-        "date": "10-14",
-        "usdkrw": 1339.35,
+        "date": "10-15",
+        "usdkrw": 1340.95,
         "dxy": 102.0,
         "usdjpy": 158.14
       },
       {
-        "date": "10-15",
-        "usdkrw": 1340.95,
+        "date": "10-18",
+        "usdkrw": 1333.43,
         "dxy": 101.84,
         "usdjpy": 157.81
       },
       {
-        "date": "10-18",
-        "usdkrw": 1333.43,
+        "date": "10-19",
+        "usdkrw": 1330.0,
         "dxy": 101.98,
         "usdjpy": 158.52
       },
       {
-        "date": "10-19",
-        "usdkrw": 1330.0,
+        "date": "10-20",
+        "usdkrw": 1323.94,
         "dxy": 101.73,
         "usdjpy": 158.27
       },
       {
-        "date": "10-20",
-        "usdkrw": 1323.94,
+        "date": "10-21",
+        "usdkrw": 1325.59,
         "dxy": 101.78,
         "usdjpy": 158.13
       },
       {
-        "date": "10-21",
-        "usdkrw": 1325.59,
+        "date": "10-22",
+        "usdkrw": 1325.99,
         "dxy": 101.61,
         "usdjpy": 156.49
       },
       {
-        "date": "10-22",
-        "usdkrw": 1325.99,
+        "date": "10-26",
+        "usdkrw": 1321.76,
         "dxy": 101.81,
         "usdjpy": 156.83
       },
       {
-        "date": "10-26",
-        "usdkrw": 1321.76,
+        "date": "10-27",
+        "usdkrw": 1324.77,
         "dxy": 101.96,
         "usdjpy": 157.53
       },
       {
-        "date": "10-27",
-        "usdkrw": 1324.77,
+        "date": "10-28",
+        "usdkrw": 1326.81,
         "dxy": 102.32,
         "usdjpy": 157.99
       },
       {
-        "date": "10-28",
-        "usdkrw": 1326.81,
+        "date": "10-29",
+        "usdkrw": 1340.34,
         "dxy": 102.19,
         "usdjpy": 157.83
       },
       {
-        "date": "10-29",
-        "usdkrw": 1340.34,
+        "date": "10-30",
+        "usdkrw": 1337.98,
         "dxy": 102.04,
         "usdjpy": 157.8
       },
       {
-        "date": "10-30",
-        "usdkrw": 1337.98,
+        "date": "11-02",
+        "usdkrw": 1325.52,
         "dxy": 101.88,
         "usdjpy": 157.68
       },
       {
-        "date": "11-02",
-        "usdkrw": 1325.52,
+        "date": "11-03",
+        "usdkrw": 1344.81,
         "dxy": 101.75,
         "usdjpy": 157.91
       },
       {
-        "date": "11-03",
-        "usdkrw": 1344.81,
+        "date": "11-04",
+        "usdkrw": 1342.9,
         "dxy": 101.87,
         "usdjpy": 158.47
       },
       {
-        "date": "11-04",
-        "usdkrw": 1342.9,
+        "date": "11-05",
+        "usdkrw": 1340.07,
         "dxy": 101.51,
         "usdjpy": 158.36
       },
       {
-        "date": "11-05",
-        "usdkrw": 1340.07,
+        "date": "11-06",
+        "usdkrw": 1356.34,
         "dxy": 101.55,
         "usdjpy": 157.5
       },
       {
-        "date": "11-06",
-        "usdkrw": 1356.34,
+        "date": "11-08",
+        "usdkrw": 1363.37,
         "dxy": 102.3,
-        "usdjpy": 158.43
+        "usdjpy": 158.32
       }
     ],
     "oil": [
@@ -817,7 +827,7 @@
   },
   "calendar_3w": {
     "w1": {
-      "title": "이번 주 (11/02 ~ 11/08)",
+      "title": "이번 주 (11/09 ~ 11/15)",
       "macro": [
         {
           "date": "11-10 9:00am",
@@ -849,24 +859,40 @@
     }
   },
   "humanities": {
-    "history_date": "2026-11-08",
+    "history_date": "2026-11-09",
     "history": {
-      "era": "1924년 ~ 1972년 (1957년)",
-      "region": "세계",
-      "year": "1957년",
-      "title": "[1957년] [세계] 베트남전쟁 시작(∼1975)",
-      "summary": "1957년 - 베트남전쟁 시작(∼1975)",
+      "era": "1076년 ~ 1455년 (1102년)",
+      "region": "한국",
+      "year": "1102년",
+      "title": "[1102년] [한국] 해동통보 주조",
+      "summary": "1102년 - 해동통보 주조",
       "bullets": [
-        "발생 연대: 1957년 (세계사)",
-        "베트남전쟁 시작(∼1975)",
+        "발생 연대: 1102년 (한국사)",
+        "해동통보 주조",
         "당대 세력 균형 및 정치·경제적 제도 변화 반영"
       ],
-      "insight": "1957년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
-      "ref_title": "위키백과 세계사 연표: 1924년 ~ 1972년 (1957년)",
-      "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1924%EB%85%84_~_1972%EB%85%84:~:text=1957",
+      "insight": "1102년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
+      "ref_title": "위키백과 세계사 연표: 1076년 ~ 1455년 (1102년)",
+      "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1076%EB%85%84_~_1455%EB%85%84:~:text=1102",
       "d_day": "오늘"
     },
     "history_5d": [
+      {
+        "era": "1076년 ~ 1455년 (1102년)",
+        "region": "한국",
+        "year": "1102년",
+        "title": "[1102년] [한국] 해동통보 주조",
+        "summary": "1102년 - 해동통보 주조",
+        "bullets": [
+          "발생 연대: 1102년 (한국사)",
+          "해동통보 주조",
+          "당대 세력 균형 및 정치·경제적 제도 변화 반영"
+        ],
+        "insight": "1102년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
+        "ref_title": "위키백과 세계사 연표: 1076년 ~ 1455년 (1102년)",
+        "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1076%EB%85%84_~_1455%EB%85%84:~:text=1102",
+        "d_day": "오늘"
+      },
       {
         "era": "1924년 ~ 1972년 (1957년)",
         "region": "세계",
@@ -881,7 +907,7 @@
         "insight": "1957년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1924년 ~ 1972년 (1957년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1924%EB%85%84_~_1972%EB%85%84:~:text=1957",
-        "d_day": "오늘"
+        "d_day": "D-1"
       },
       {
         "era": "1466년 ~ 1699년 (1567년)",
@@ -897,7 +923,7 @@
         "insight": "1567년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1466년 ~ 1699년 (1567년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1466%EB%85%84_~_1699%EB%85%84:~:text=1567",
-        "d_day": "D-1"
+        "d_day": "D-2"
       },
       {
         "era": "선사시대 ~ 384년 (4000년경)",
@@ -913,7 +939,7 @@
         "insight": "4000년경의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 선사시대 ~ 384년 (4000년경)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#%EC%84%A0%EC%82%AC%EC%8B%9C%EB%8C%80_~_384%EB%85%84:~:text=4000",
-        "d_day": "D-2"
+        "d_day": "D-3"
       },
       {
         "era": "1870년 ~ 1923년 (1886년)",
@@ -929,90 +955,140 @@
         "insight": "1886년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1870년 ~ 1923년 (1886년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1870%EB%85%84_~_1923%EB%85%84:~:text=1886",
-        "d_day": "D-3"
-      },
-      {
-        "era": "1870년 ~ 1923년 (1923년)",
-        "region": "세계",
-        "year": "1923년",
-        "title": "[1923년] [세계] 터키 공화국 창설",
-        "summary": "1923년 - 터키 공화국 창설",
-        "bullets": [
-          "발생 연대: 1923년 (세계사)",
-          "터키 공화국 창설",
-          "당대 세력 균형 및 정치·경제적 제도 변화 반영"
-        ],
-        "insight": "1923년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
-        "ref_title": "위키백과 세계사 연표: 1870년 ~ 1923년 (1923년)",
-        "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1870%EB%85%84_~_1923%EB%85%84:~:text=1923",
         "d_day": "D-4"
       }
     ],
     "polyglot": {
-      "theme": "입버릇 관용구: 숙달과 결의",
-      "meaning": "손바닥 보듯 훤히 꿰뚫고 있어.",
+      "theme": "결제 방식 (Q&A)",
+      "type": "기초",
+      "meaning": "Q: 카드 결제 되나요? / A: 네, 신용카드 가능합니다.",
       "translations": {
         "en": {
           "code": "en-US",
           "name": "영어",
           "flag": "🇺🇸",
-          "text": "At one's fingertips.",
-          "roman": ""
+          "text": "Can I pay by card? - Yes, we accept credit cards.",
+          "roman": "캔 아이 페이 바이 카드? - 예스, 위 억셉트 크레딧 카즈."
         },
         "ja": {
           "code": "ja-JP",
           "name": "일본어",
           "flag": "🇯🇵",
-          "text": "隅々まで完全に手中に収めているよ。",
-          "roman": "Sumizumi made kanzen ni shuchū ni osamete iru yo."
+          "text": "カードで支払えますか？ - はい、クレジットカードが使えます。",
+          "roman": "카-도데 시하라에마스 카? - 하이, 쿠레짓토 카-도가 츠카에마스."
         },
         "zh": {
           "code": "zh-CN",
           "name": "중국어",
           "flag": "🇨🇳",
-          "text": "了如指掌，熟练于心。",
-          "roman": "Liǎorúzhǐzhǎng, shúliàn yú xīn."
+          "text": "可以刷卡吗？ - 可以，支持信用卡支付。",
+          "roman": "커이 슈아카 마? - 커이, 즈츠 신융카 즈푸."
         },
         "fr": {
           "code": "fr-FR",
           "name": "프랑스어",
           "flag": "🇫🇷",
-          "text": "Connaître parfaitement sur le bout des doigts.",
-          "roman": ""
+          "text": "Puis-je payer par carte ? - Oui, nous acceptons les cartes.",
+          "roman": "퓌이-즈 페예 파르 카르트? - 위, 누 작셉통 레 카르트."
         },
         "de": {
           "code": "de-DE",
           "name": "독일어",
           "flag": "🇩🇪",
-          "text": "Etwas griffbereit im Kopf haben.",
-          "roman": ""
+          "text": "Kann ich mit Karte zahlen? - Ja, Kreditkarten sind möglich.",
+          "roman": "칸 이히 밋 카르테 찰렌? - 야, 크레딧카르텐 진트 뫼글리히."
         },
         "es": {
           "code": "es-ES",
           "name": "스페인어",
           "flag": "🇪🇸",
-          "text": "Conocerlo al dedillo.",
-          "roman": ""
+          "text": "¿Puedo pagar con tarjeta? - Sí, aceptamos tarjetas de crédito.",
+          "roman": "푸에도 파가르 콘 타르헤타? - 시, 아셉타모스 타르헤타스 데 크레디토."
         },
         "ar": {
           "code": "ar-SA",
           "name": "아랍어",
           "flag": "🇸🇦",
-          "text": "في متناول يده ويعرفه تمام المعرفة.",
-          "roman": "Fī mutanāwali yadihi wa-ya'rifuhu tamāma al-ma'rifah."
+          "text": "هل يمكنني الدفع بالبطاقة؟ - نعم، نقبل بطاقات الائتمان.",
+          "roman": "할 윰키누니 앗다프으 빌비타까? - 나암, 나끄발 비타까틸 이으티만."
         },
         "ru": {
           "code": "ru-RU",
           "name": "러시아어",
           "flag": "🇷🇺",
-          "text": "Знать как свои пять пальцев.",
-          "roman": "Znat' kak svoi pyat' pal'tsev."
+          "text": "Можно оплатить картой? - Да, мы принимаем кредитные карты.",
+          "roman": "모즈나 아플라티치 카르타이? - 다, 믜 프리니마옘 크레디트느예 카르트이."
         }
       },
-      "pool_type": "일상",
+      "pool_type": "기초",
       "d_day": "오늘"
     },
     "polyglot_5d": [
+      {
+        "theme": "결제 방식 (Q&A)",
+        "type": "기초",
+        "meaning": "Q: 카드 결제 되나요? / A: 네, 신용카드 가능합니다.",
+        "translations": {
+          "en": {
+            "code": "en-US",
+            "name": "영어",
+            "flag": "🇺🇸",
+            "text": "Can I pay by card? - Yes, we accept credit cards.",
+            "roman": "캔 아이 페이 바이 카드? - 예스, 위 억셉트 크레딧 카즈."
+          },
+          "ja": {
+            "code": "ja-JP",
+            "name": "일본어",
+            "flag": "🇯🇵",
+            "text": "カードで支払えますか？ - はい、クレジットカードが使えます。",
+            "roman": "카-도데 시하라에마스 카? - 하이, 쿠레짓토 카-도가 츠카에마스."
+          },
+          "zh": {
+            "code": "zh-CN",
+            "name": "중국어",
+            "flag": "🇨🇳",
+            "text": "可以刷卡吗？ - 可以，支持信用卡支付。",
+            "roman": "커이 슈아카 마? - 커이, 즈츠 신융카 즈푸."
+          },
+          "fr": {
+            "code": "fr-FR",
+            "name": "프랑스어",
+            "flag": "🇫🇷",
+            "text": "Puis-je payer par carte ? - Oui, nous acceptons les cartes.",
+            "roman": "퓌이-즈 페예 파르 카르트? - 위, 누 작셉통 레 카르트."
+          },
+          "de": {
+            "code": "de-DE",
+            "name": "독일어",
+            "flag": "🇩🇪",
+            "text": "Kann ich mit Karte zahlen? - Ja, Kreditkarten sind möglich.",
+            "roman": "칸 이히 밋 카르테 찰렌? - 야, 크레딧카르텐 진트 뫼글리히."
+          },
+          "es": {
+            "code": "es-ES",
+            "name": "스페인어",
+            "flag": "🇪🇸",
+            "text": "¿Puedo pagar con tarjeta? - Sí, aceptamos tarjetas de crédito.",
+            "roman": "푸에도 파가르 콘 타르헤타? - 시, 아셉타모스 타르헤타스 데 크레디토."
+          },
+          "ar": {
+            "code": "ar-SA",
+            "name": "아랍어",
+            "flag": "🇸🇦",
+            "text": "هل يمكنني الدفع بالبطاقة؟ - نعم، نقبل بطاقات الائتمان.",
+            "roman": "할 윰키누니 앗다프으 빌비타까? - 나암, 나끄발 비타까틸 이으티만."
+          },
+          "ru": {
+            "code": "ru-RU",
+            "name": "러시아어",
+            "flag": "🇷🇺",
+            "text": "Можно оплатить картой? - Да, мы принимаем кредитные карты.",
+            "roman": "모즈나 아플라티치 카르타이? - 다, 믜 프리니마옘 크레디트느예 카르트이."
+          }
+        },
+        "pool_type": "기초",
+        "d_day": "오늘"
+      },
       {
         "theme": "입버릇 관용구: 숙달과 결의",
         "meaning": "손바닥 보듯 훤히 꿰뚫고 있어.",
@@ -1075,7 +1151,7 @@
           }
         },
         "pool_type": "일상",
-        "d_day": "오늘"
+        "d_day": "D-1"
       },
       {
         "theme": "가격 문의 (Q&A)",
@@ -1140,7 +1216,7 @@
           }
         },
         "pool_type": "기초",
-        "d_day": "D-1"
+        "d_day": "D-2"
       },
       {
         "theme": "입버릇 관용구: 비유 표현",
@@ -1204,7 +1280,7 @@
           }
         },
         "pool_type": "일상",
-        "d_day": "D-2"
+        "d_day": "D-3"
       },
       {
         "theme": "현재 위치 (Q&A)",
@@ -1269,84 +1345,20 @@
           }
         },
         "pool_type": "기초",
-        "d_day": "D-3"
-      },
-      {
-        "theme": "입버릇 관용구: 비유 표현",
-        "meaning": "경험에 따른 대략적인 법칙 (어림짐작).",
-        "translations": {
-          "en": {
-            "code": "en-US",
-            "name": "영어",
-            "flag": "🇺🇸",
-            "text": "Rule of thumb.",
-            "roman": ""
-          },
-          "ja": {
-            "code": "ja-JP",
-            "name": "일본어",
-            "flag": "🇯🇵",
-            "text": "経験則に基づいた大まかな目安だよ。",
-            "roman": "Keikensoku ni motozuita ōmaka na meyasu da yo."
-          },
-          "zh": {
-            "code": "zh-CN",
-            "name": "중국어",
-            "flag": "🇨🇳",
-            "text": "凭经验得出的估算准则。",
-            "roman": "Píng jīngyàn dé chū de gūsuàn zhǔnzé."
-          },
-          "fr": {
-            "code": "fr-FR",
-            "name": "프랑스어",
-            "flag": "🇫🇷",
-            "text": "C'est une règle empirique pratique.",
-            "roman": ""
-          },
-          "de": {
-            "code": "de-DE",
-            "name": "독일어",
-            "flag": "🇩🇪",
-            "text": "Eine bewährte Faustregel.",
-            "roman": ""
-          },
-          "es": {
-            "code": "es-ES",
-            "name": "스페인어",
-            "flag": "🇪🇸",
-            "text": "Una regla general orientativa.",
-            "roman": ""
-          },
-          "ar": {
-            "code": "ar-SA",
-            "name": "아랍어",
-            "flag": "🇸🇦",
-            "text": "قاعدة عامة مجربة بالخبرة العملية.",
-            "roman": "Qā'idatun 'āmmah mujarrabatun bil-khibrah al-'amaliyyah."
-          },
-          "ru": {
-            "code": "ru-RU",
-            "name": "러시아어",
-            "flag": "🇷🇺",
-            "text": "Практическое правило (на глазок).",
-            "roman": "Prakticheskoye pravilo [na glazok]."
-          }
-        },
-        "pool_type": "일상",
         "d_day": "D-4"
       }
     ],
     "philosophy": {
-      "thinker": "한비자 (韓非子)",
-      "era": "기원전 3세기 전국시대 중국",
-      "concept": "법(法)·술(術)·세(勢)의 통치공학",
-      "quote": "“호랑이가 개를 굴복시킬 수 있는 까닭은 날카로운 발톱과 이빨(권세)을 쥐고 있기 때문이다.”",
+      "thinker": "토머스 홉스 (Thomas Hobbes)",
+      "era": "17세기 영국 내란기",
+      "concept": "리바이어던(Leviathan)과 자연상태",
+      "quote": "“공통의 권력이 없는 곳에는 법도 없고, 법이 없는 곳에는 불의도 없다.”",
       "bullets": [
-        "인간의 도덕적 선의(善意)에 의존하는 정치를 경계하고 명문화된 법(法)과 엄격한 신상필벌 강조",
-        "신하들의 사익 추구를 간파하고 조직을 장악하는 군주의 인사 관리 기법(術)",
-        "직위와 제도에서 나오는 구조적 권력(勢)의 중요성 역설"
+        "강력한 중앙 권력이 부재할 때 사회는 '만인에 대한 만인의 투쟁' 상태로 전락",
+        "자기 보존의 본능을 지닌 개인들이 평화와 안보를 위해 권력을 국가(리바이어던)에 양도하는 사회계약설",
+        "주권의 통일성과 질서 유지가 자유보다 선행하는 최고의 정치적 가치임을 규정"
       ],
-      "application": "거대 기업 조직의 거버넌스 설계, 시스템적 내부 통제 구축, 독점적 플랫폼의 구조적 지배력 분석에 유효합니다."
+      "application": "세계 정부가 없는 무정부적(Anarchic) 국제 질서에서 각국이 군사력과 경제 안보를 자급화하려는 자조(Self-help) 메커니즘을 규명합니다."
     }
   },
   "trends": {
@@ -1405,53 +1417,53 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "종부세 14억 요구",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A2%85%EB%B6%80%EC%84%B8%2014%EC%96%B5%20%EC%9A%94%EA%B5%AC"
+        "title": "종부세 14억 강력 요구",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A2%85%EB%B6%80%EC%84%B8%2014%EC%96%B5%20%EA%B0%95%EB%A0%A5%20%EC%9A%94%EA%B5%AC"
       },
       {
         "rank": 2,
-        "title": "서울대 총장 최해천 교수 후보",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%84%9C%EC%9A%B8%EB%8C%80%20%EC%B4%9D%EC%9E%A5%20%EC%B5%9C%ED%95%B4%EC%B2%9C%20%EA%B5%90%EC%88%98%20%ED%9B%84%EB%B3%B4"
+        "title": "삼성 우승 약속",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%82%BC%EC%84%B1%20%EC%9A%B0%EC%8A%B9%20%EC%95%BD%EC%86%8D"
       },
       {
         "rank": 3,
-        "title": "안세영, 2년 연속 11승!",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%88%EC%84%B8%EC%98%81%2C%202%EB%85%84%20%EC%97%B0%EC%86%8D%2011%EC%8A%B9%21"
-      },
-      {
-        "rank": 4,
-        "title": "박진만 감독과 강민호의 우승 기쁨",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B0%95%EC%A7%84%EB%A7%8C%20%EA%B0%90%EB%8F%85%EA%B3%BC%20%EA%B0%95%EB%AF%BC%ED%98%B8%EC%9D%98%20%EC%9A%B0%EC%8A%B9%20%EA%B8%B0%EC%81%A8"
-      },
-      {
-        "rank": 5,
-        "title": "초등학교 입학생 감소",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B4%88%EB%93%B1%ED%95%99%EA%B5%90%20%EC%9E%85%ED%95%99%EC%83%9D%20%EA%B0%90%EC%86%8C"
-      },
-      {
-        "rank": 6,
         "title": "테러리스트 김영빈 별세",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%85%8C%EB%9F%AC%EB%A6%AC%EC%8A%A4%ED%8A%B8%20%EA%B9%80%EC%98%81%EB%B9%88%20%EB%B3%84%EC%84%B8"
       },
       {
+        "rank": 4,
+        "title": "청주 아파트 여자친구 살해",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B2%AD%EC%A3%BC%20%EC%95%84%ED%8C%8C%ED%8A%B8%20%EC%97%AC%EC%9E%90%EC%B9%9C%EA%B5%AC%20%EC%82%B4%ED%95%B4"
+      },
+      {
+        "rank": 5,
+        "title": "홈플러스 자금난 회생 위기",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%99%88%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EC%9E%90%EA%B8%88%EB%82%9C%20%ED%9A%8C%EC%83%9D%20%EC%9C%84%EA%B8%B0"
+      },
+      {
+        "rank": 6,
+        "title": "서울대 총장 최해천 선출",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%84%9C%EC%9A%B8%EB%8C%80%20%EC%B4%9D%EC%9E%A5%20%EC%B5%9C%ED%95%B4%EC%B2%9C%20%EC%84%A0%EC%B6%9C"
+      },
+      {
         "rank": 7,
-        "title": "철도망",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B2%A0%EB%8F%84%EB%A7%9D"
+        "title": "초등학교 입학생 감소",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B4%88%EB%93%B1%ED%95%99%EA%B5%90%20%EC%9E%85%ED%95%99%EC%83%9D%20%EA%B0%90%EC%86%8C"
       },
       {
         "rank": 8,
-        "title": "제주항공",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A0%9C%EC%A3%BC%ED%95%AD%EA%B3%B5"
+        "title": "사우디 금융지구 공격",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%82%AC%EC%9A%B0%EB%94%94%20%EA%B8%88%EC%9C%B5%EC%A7%80%EA%B5%AC%20%EA%B3%B5%EA%B2%A9"
       },
       {
         "rank": 9,
-        "title": "시즈오카서 규모 5.7",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%8B%9C%EC%A6%88%EC%98%A4%EC%B9%B4%EC%84%9C%20%EA%B7%9C%EB%AA%A8%205.7"
+        "title": "전력",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A0%84%EB%A0%A5"
       },
       {
         "rank": 10,
-        "title": "홈플러스 자금난 회생 위기",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%99%88%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EC%9E%90%EA%B8%88%EB%82%9C%20%ED%9A%8C%EC%83%9D%20%EC%9C%84%EA%B8%B0"
+        "title": "김장훈 이소라 열애설 해명",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%9E%A5%ED%9B%88%20%EC%9D%B4%EC%86%8C%EB%9D%BC%20%EC%97%B4%EC%95%A0%EC%84%A4%20%ED%95%B4%EB%AA%85"
       }
     ],
     "youtube_popular": [
@@ -1459,7 +1471,7 @@
         "rank": 1,
         "title": "With",
         "channel": "RESCENE - Topic",
-        "views": "416만회",
+        "views": "423만회",
         "thumb": "https://i.ytimg.com/vi/rodFpxo7wkE/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=rodFpxo7wkE"
       },
@@ -1475,7 +1487,7 @@
         "rank": 3,
         "title": "back number - 히로인 [ヒロイン] 🎵\"저 가수 입니다🎤\" by 강남",
         "channel": "동네친구 강나미 [Kangnami]",
-        "views": "186만회",
+        "views": "197만회",
         "thumb": "https://i.ytimg.com/vi/nd3hpJ4oMpU/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=nd3hpJ4oMpU"
       },
@@ -1483,7 +1495,7 @@
         "rank": 4,
         "title": "소개팅 나가서 1위 했습니다",
         "channel": "김재원의 즐거운 세상",
-        "views": "51만회",
+        "views": "60만회",
         "thumb": "https://i.ytimg.com/vi/_tFYEhMN_a0/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=_tFYEhMN_a0"
       },
@@ -1491,49 +1503,49 @@
         "rank": 5,
         "title": "Question Mark",
         "channel": "HANRORO - Topic",
-        "views": "23만회",
+        "views": "24만회",
         "thumb": "https://i.ytimg.com/vi/vA5S5FsVz-c/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=vA5S5FsVz-c"
       },
       {
         "rank": 6,
-        "title": "🤣혜안져스 대환장 성대모사 게임🤣 20분 동안 웃겨드립니닼ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
-        "channel": "혜안",
-        "views": "76만회",
-        "thumb": "https://i.ytimg.com/vi/jx28RyWwi7k/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=jx28RyWwi7k"
+        "title": "드디어 만난 베컴과 케인",
+        "channel": "이상호",
+        "views": "37만회",
+        "thumb": "https://i.ytimg.com/vi/P0AhjCX4onA/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=P0AhjCX4onA"
       },
       {
         "rank": 7,
         "title": "プレイバック feat. 初音ミク, 雨衣 / “Playback” ft. Miku, Ui",
         "channel": "うちのボカロは様子がおかしい",
-        "views": "126만회",
+        "views": "133만회",
         "thumb": "https://i.ytimg.com/vi/8oiyutRI3nI/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=8oiyutRI3nI"
       },
       {
         "rank": 8,
-        "title": "💖200만 대형유튜버들을 설레게한 커플 소개팅 리뷰 [결말포함ㅋㅋㅋ]",
-        "channel": "김블루",
-        "views": "60만회",
-        "thumb": "https://i.ytimg.com/vi/Eo_7emRrCkI/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=Eo_7emRrCkI"
+        "title": "🤣혜안져스 대환장 성대모사 게임🤣 20분 동안 웃겨드립니닼ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+        "channel": "혜안",
+        "views": "81만회",
+        "thumb": "https://i.ytimg.com/vi/jx28RyWwi7k/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=jx28RyWwi7k"
       },
       {
         "rank": 9,
         "title": "[MV] ABM - '好きな隙間' (My Lovely Nook) feat. 音街ウナ",
         "channel": "AnythingBecomeMoe",
-        "views": "101만회",
+        "views": "108만회",
         "thumb": "https://i.ytimg.com/vi/OlprURqnZw8/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=OlprURqnZw8"
       },
       {
         "rank": 10,
-        "title": "[LIVE] 11월 8일 AION2 1st ANNIVERSARY 생중계",
-        "channel": "AION2",
-        "views": "18만회",
-        "thumb": "https://i.ytimg.com/vi/4uVJnglt8kk/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=4uVJnglt8kk"
+        "title": "💖200만 대형유튜버들을 설레게한 커플 소개팅 리뷰 [결말포함ㅋㅋㅋ]",
+        "channel": "김블루",
+        "views": "68만회",
+        "thumb": "https://i.ytimg.com/vi/Eo_7emRrCkI/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=Eo_7emRrCkI"
       }
     ]
   }
