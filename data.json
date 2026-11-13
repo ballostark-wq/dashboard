@@ -1,28 +1,28 @@
 {
-  "updated_at": "2026-11-14 01:56:25",
+  "updated_at": "2026-11-14 07:21:20",
   "us2y": {
-    "value": 4.86,
-    "change": 0.13
+    "value": 4.88,
+    "change": 0.02
   },
   "us5y": {
-    "value": 4.95,
-    "change": 0.0
+    "value": 4.98,
+    "change": 0.03
   },
   "us10y": {
-    "value": 5.13,
-    "change": 0.03
+    "value": 5.15,
+    "change": 0.05
   },
   "us30y": {
-    "value": 5.46,
-    "change": 0.03
+    "value": 5.48,
+    "change": 0.05
   },
   "spread": {
     "value": 27,
     "status": "정상화 (우상향)"
   },
   "vix": {
-    "value": 20.21,
-    "change": 8.07
+    "value": 19.3,
+    "change": 3.21
   },
   "tech_news": [
     {
@@ -91,6 +91,11 @@
     ],
     "global": [
       {
+        "title": "Lutnick faces questions over Nvidia spy scandal. His sons’ firm has deep ties to the chipmaker",
+        "link": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
+        "date": "11-13 19:11"
+      },
+      {
         "title": "Chicago Fed's Goolsbee says central bank 'has definitely got work to do' on inflation",
         "link": "https://www.cnbc.com/2026/11/13/chicago-feds-goolsbee-says-central-bank-has-definitely-got-work-to-do-on-inflation.html",
         "date": "11-13 14:22"
@@ -109,11 +114,6 @@
         "title": "Oil prices rise after Trump says no Iran deal needed: 'We've got their Strait'",
         "link": "https://www.cnbc.com/2026/11/12/oil-prices-jump-after-trump-says-no-iran-deal-needed-weve-got-their-strait.html",
         "date": "11-13 00:01"
-      },
-      {
-        "title": "China's Ministry of State Security thrust into the spotlight by Nvidia CEO affair",
-        "link": "https://www.cnbc.com/2026/11/12/china-ministry-state-security-nvidia-ceo.html",
-        "date": "11-12 07:28"
       }
     ],
     "tech": [
@@ -133,17 +133,32 @@
         "date": "11-13 22:17"
       },
       {
-        "title": "[전자신문] 캠핑하다 실종된 호주 10대 소년, 엿새만에 발견…“감자칩 1봉과 개울물로 버텨”",
-        "link": "https://www.etnews.com/20261113000127",
-        "date": "11-13 22:30"
+        "title": "[전자신문] 50대 청소부 외모가 배우급…“기억을 잃은 재벌 회장님 아니냐” SNS 난리",
+        "link": "https://www.etnews.com/20261113000282",
+        "date": "11-14 06:00"
       },
       {
-        "title": "[전자신문] AI 검색 시대 창작자 보상 어떻게…“직접 보상·기여 인정 필요”",
-        "link": "https://www.etnews.com/20261113000305",
-        "date": "11-13 20:49"
+        "title": "[전자신문] 우울증·골다골증 경고에도…日 2030 여성, 저체중에 목숨 거는 까닭",
+        "link": "https://www.etnews.com/20261113000176",
+        "date": "11-14 06:00"
       }
     ],
     "domestic": [
+      {
+        "title": "연준 RMP, 4개월 연속 중단…재투자 재정증권 매입만 하기로(상보)",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444755",
+        "date": "11-14 07:17"
+      },
+      {
+        "title": "분데스방크 총재 \"ECB, 추가 금리인상 필요성 매우 커\"",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444745",
+        "date": "11-14 04:38"
+      },
+      {
+        "title": "美 국채가, 여전히 높은 PPI에 낙폭 확대…'베어 스팁'",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444742",
+        "date": "11-14 01:56"
+      },
       {
         "title": "시카고 연은 총재 \"연준, 신뢰 유지 위해 분명히 해야 할 일 있어\"",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444740",
@@ -153,21 +168,6 @@
         "title": "美재무 \"과도한 금리 인상은 잡음 큰 수치에 대응하는 것…연준 오픈마인드 가져야\"",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444739",
         "date": "11-14 01:09"
-      },
-      {
-        "title": "미 달러화 강세…美 도매물가 대기 속 달러-엔 160엔 돌파",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444735",
-        "date": "11-13 23:36"
-      },
-      {
-        "title": "유로존 3분기 GDP 성장률 잠정치 0.4%…속보치 부합",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444734",
-        "date": "11-13 23:30"
-      },
-      {
-        "title": "[채권-마감] 美 금리 급등 속 코스피·外人 영향권…국고 10년 4% 넘겨",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444730",
-        "date": "11-13 18:40"
       }
     ]
   },
@@ -185,7 +185,7 @@
   "macro_reviews": {
     "bonds": {
       "badge": "스프레드 +27 bp",
-      "title": "미국채 10년물 5.13%선 공방과 정상화",
+      "title": "미국채 10년물 5.15%선 공방과 정상화",
       "metrics": [
         {
           "id": "spread",
@@ -197,109 +197,109 @@
         {
           "id": "us10y",
           "name": "10년물",
-          "val": "5.13%",
-          "chg": "+0.03%",
+          "val": "5.15%",
+          "chg": "+0.05%",
           "up": true
         },
         {
           "id": "us2y",
           "name": "2년물",
-          "val": "4.86%",
-          "chg": "+0.13%",
+          "val": "4.88%",
+          "chg": "+0.02%",
           "up": true
         },
         {
           "id": "us30y",
           "name": "30년물",
-          "val": "5.46%",
-          "chg": "+0.03%",
+          "val": "5.48%",
+          "chg": "+0.05%",
           "up": true
         }
       ],
       "bullets": [
-        "10년물 5.13%와 2년물 4.86% 형성으로 스프레드 +27 bp 유지",
-        "초장기 30년물 5.46%선 안착 속 재정 적자 발행에 따른 기간 프리미엄"
+        "10년물 5.15%와 2년물 4.88% 형성으로 스프레드 +27 bp 유지",
+        "초장기 30년물 5.48%선 안착 속 재정 적자 발행에 따른 기간 프리미엄"
       ],
       "detail": "10Y-2Y 스프레드가 +27 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.1",
-      "title": "닥터 코퍼 $6.1선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.06",
+      "title": "닥터 코퍼 $6.06선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.10",
-          "chg": "-1.29%",
+          "val": "$6.06",
+          "chg": "-1.94%",
           "up": false
         },
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$3,885.6",
-          "chg": "+0.01%",
+          "val": "$3,887.6",
+          "chg": "+0.06%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$49.02",
-          "chg": "-1.90%",
+          "val": "$48.65",
+          "chg": "-2.64%",
           "up": false
         }
       ],
       "bullets": [
-        "구리 $6.1/lb (-1.29%) - AI 전력망 설비 수요 반영",
-        "금 $3,886/oz, 은 $49.02/oz - 통화가치 헤지"
+        "구리 $6.06/lb (-1.94%) - AI 전력망 설비 수요 반영",
+        "금 $3,888/oz, 은 $48.65/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,337원 | 엔/달러 ¥159.9",
-      "title": "원/달러 1,336.7원선과 엔/달러 ¥159.9",
+      "badge": "원/달러 1,335원 | 엔/달러 ¥159.7",
+      "title": "원/달러 1,335.1원선과 엔/달러 ¥159.7",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,336.7원",
-          "chg": "+0.03%",
-          "up": true
+          "val": "1,335.1원",
+          "chg": "-0.09%",
+          "up": false
         },
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "103.37pt",
-          "chg": "+0.19%",
+          "val": "103.41pt",
+          "chg": "+0.23%",
           "up": true
         },
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥159.95",
-          "chg": "+0.14%",
-          "up": true
-        }
-      ],
-      "bullets": [
-        "달러 인덱스 103.37pt - 미국 성장 우위 지속",
-        "엔/달러 159.95엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
-      ],
-      "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
-    },
-    "oil": {
-      "badge": "WTI $88.67",
-      "title": "WTI 배럴당 $88.67선 박스권 안정",
-      "metrics": [
-        {
-          "id": "wti",
-          "name": "WTI 원유",
-          "val": "$88.67",
-          "chg": "-0.08%",
+          "val": "¥159.69",
+          "chg": "-0.03%",
           "up": false
         }
       ],
       "bullets": [
-        "WTI 선물 $88.67/배럴 - 에너지 원가 압박 경감",
+        "달러 인덱스 103.41pt - 미국 성장 우위 지속",
+        "엔/달러 159.69엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+      ],
+      "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
+    },
+    "oil": {
+      "badge": "WTI $88.92",
+      "title": "WTI 배럴당 $88.92선 박스권 안정",
+      "metrics": [
+        {
+          "id": "wti",
+          "name": "WTI 원유",
+          "val": "$88.92",
+          "chg": "+0.20%",
+          "up": true
+        }
+      ],
+      "bullets": [
+        "WTI 선물 $88.92/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -307,32 +307,32 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.1,
-      "change": -1.29
+      "price": 6.06,
+      "change": -1.94
     },
     "gold": {
-      "price": 3885.6,
-      "change": 0.01
+      "price": 3887.6,
+      "change": 0.06
     },
     "silver": {
-      "price": 49.02,
-      "change": -1.9
+      "price": 48.65,
+      "change": -2.64
     },
     "wti": {
-      "price": 88.67,
-      "change": -0.08
+      "price": 88.92,
+      "change": 0.2
     },
     "usdkrw": {
-      "price": 1336.68,
-      "change": 0.03
+      "price": 1335.11,
+      "change": -0.09
     },
     "dxy": {
-      "price": 103.37,
-      "change": 0.19
+      "price": 103.41,
+      "change": 0.23
     },
     "usdjpy": {
-      "price": 159.95,
-      "change": 0.14
+      "price": 159.69,
+      "change": -0.03
     }
   },
   "history_20d": {
@@ -472,9 +472,9 @@
       },
       {
         "date": "11-13",
-        "us10y": 5.13,
-        "us2y": 4.86,
-        "us30y": 5.46,
+        "us10y": 5.15,
+        "us2y": 4.88,
+        "us30y": 5.48,
         "spread": 27
       }
     ],
@@ -595,9 +595,9 @@
       },
       {
         "date": "11-13",
-        "copper": 6.1,
-        "gold": 3885.6,
-        "silver": 49.02
+        "copper": 6.06,
+        "gold": 3887.6,
+        "silver": 48.65
       }
     ],
     "fx": [
@@ -717,9 +717,9 @@
       },
       {
         "date": "11-13",
-        "usdkrw": 1336.68,
-        "dxy": 103.37,
-        "usdjpy": 159.95
+        "usdkrw": 1335.11,
+        "dxy": 103.41,
+        "usdjpy": 159.69
       }
     ],
     "oil": [
@@ -820,8 +820,8 @@
       },
       {
         "date": "11-13",
-        "wti": 88.67,
-        "change": -0.08
+        "wti": 88.92,
+        "change": 0.2
       }
     ]
   },
@@ -1415,53 +1415,53 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "젠슨 황 논란 속 엔비디아 존재감",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A0%A0%EC%8A%A8%20%ED%99%A9%20%EB%85%BC%EB%9E%80%20%EC%86%8D%20%EC%97%94%EB%B9%84%EB%94%94%EC%95%84%20%EC%A1%B4%EC%9E%AC%EA%B0%90"
+        "title": "엔비디아 젠슨 황 퇴진 후의 위기",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%97%94%EB%B9%84%EB%94%94%EC%95%84%20%EC%A0%A0%EC%8A%A8%20%ED%99%A9%20%ED%87%B4%EC%A7%84%20%ED%9B%84%EC%9D%98%20%EC%9C%84%EA%B8%B0"
       },
       {
         "rank": 2,
-        "title": "민희진 상대 손배소 패소",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%AF%BC%ED%9D%AC%EC%A7%84%20%EC%83%81%EB%8C%80%20%EC%86%90%EB%B0%B0%EC%86%8C%20%ED%8C%A8%EC%86%8C"
+        "title": "모레노호, 사우디에 2-3 패배",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%AA%A8%EB%A0%88%EB%85%B8%ED%98%B8%2C%20%EC%82%AC%EC%9A%B0%EB%94%94%EC%97%90%202-3%20%ED%8C%A8%EB%B0%B0"
       },
       {
         "rank": 3,
-        "title": "모두의 창업 또 유출 피해 818명",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%AA%A8%EB%91%90%EC%9D%98%20%EC%B0%BD%EC%97%85%20%EB%98%90%20%EC%9C%A0%EC%B6%9C%20%ED%94%BC%ED%95%B4%20818%EB%AA%85"
+        "title": "2026년 11월 14일 운세",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=2026%EB%85%84%2011%EC%9B%94%2014%EC%9D%BC%20%EC%9A%B4%EC%84%B8"
       },
       {
         "rank": 4,
-        "title": "미국 10월 생산자물가",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%AF%B8%EA%B5%AD%2010%EC%9B%94%20%EC%83%9D%EC%82%B0%EC%9E%90%EB%AC%BC%EA%B0%80"
-      },
-      {
-        "rank": 5,
-        "title": "구성환, 초콜릿과 러브레터",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B5%AC%EC%84%B1%ED%99%98%2C%20%EC%B4%88%EC%BD%9C%EB%A6%BF%EA%B3%BC%20%EB%9F%AC%EB%B8%8C%EB%A0%88%ED%84%B0"
-      },
-      {
-        "rank": 6,
-        "title": "김수현",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%88%98%ED%98%84"
-      },
-      {
-        "rank": 7,
-        "title": "대한민국",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD"
-      },
-      {
-        "rank": 8,
-        "title": "김진욱 5이닝 2실점 호투",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%A7%84%EC%9A%B1%205%EC%9D%B4%EB%8B%9D%202%EC%8B%A4%EC%A0%90%20%ED%98%B8%ED%88%AC"
-      },
-      {
-        "rank": 9,
         "title": "한중 외교장관 회담",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%9C%EC%A4%91%20%EC%99%B8%EA%B5%90%EC%9E%A5%EA%B4%80%20%ED%9A%8C%EB%8B%B4"
       },
       {
+        "rank": 5,
+        "title": "미국 10월 생산자물가",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%AF%B8%EA%B5%AD%2010%EC%9B%94%20%EC%83%9D%EC%82%B0%EC%9E%90%EB%AC%BC%EA%B0%80"
+      },
+      {
+        "rank": 6,
+        "title": "구성환 4대 천왕 인기 많아",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B5%AC%EC%84%B1%ED%99%98%204%EB%8C%80%20%EC%B2%9C%EC%99%95%20%EC%9D%B8%EA%B8%B0%20%EB%A7%8E%EC%95%84"
+      },
+      {
+        "rank": 7,
+        "title": "중앙일보",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A4%91%EC%95%99%EC%9D%BC%EB%B3%B4"
+      },
+      {
+        "rank": 8,
+        "title": "제네시스 gv90",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A0%9C%EB%84%A4%EC%8B%9C%EC%8A%A4%20gv90"
+      },
+      {
+        "rank": 9,
+        "title": "박정성 통상교섭본부장 면담",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B0%95%EC%A0%95%EC%84%B1%20%ED%86%B5%EC%83%81%EA%B5%90%EC%84%AD%EB%B3%B8%EB%B6%80%EC%9E%A5%20%EB%A9%B4%EB%8B%B4"
+      },
+      {
         "rank": 10,
-        "title": "조현 한반도 평화 공동이익",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A1%B0%ED%98%84%20%ED%95%9C%EB%B0%98%EB%8F%84%20%ED%8F%89%ED%99%94%20%EA%B3%B5%EB%8F%99%EC%9D%B4%EC%9D%B5"
+        "title": "디에고 시메오네",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%94%94%EC%97%90%EA%B3%A0%20%EC%8B%9C%EB%A9%94%EC%98%A4%EB%84%A4"
       }
     ],
     "youtube_popular": [
@@ -1469,7 +1469,7 @@
         "rank": 1,
         "title": "Crush (크러쉬) - 삐그덕 Live with 조이 (JOY)",
         "channel": "Crush",
-        "views": "310만회",
+        "views": "325만회",
         "thumb": "https://i.ytimg.com/vi/v_71o1VU28o/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=v_71o1VU28o"
       },
@@ -1477,7 +1477,7 @@
         "rank": 2,
         "title": "천천히 강렬하게 | 공식 티저 예고편 | 넷플릭스",
         "channel": "Netflix Korea 넷플릭스 코리아",
-        "views": "122만회",
+        "views": "129만회",
         "thumb": "https://i.ytimg.com/vi/iEmGtIh60DE/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=iEmGtIh60DE"
       },
@@ -1485,7 +1485,7 @@
         "rank": 3,
         "title": "진짜 위험한 게임 찾았습니다...≪그냥 무기 강화하는 게임≫ 중독성 미쳤다ㄷㄷ",
         "channel": "혜안",
-        "views": "31만회",
+        "views": "50만회",
         "thumb": "https://i.ytimg.com/vi/BXteshCoqc4/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=BXteshCoqc4"
       },
@@ -1493,23 +1493,23 @@
         "rank": 4,
         "title": "Darling",
         "channel": "D.O. - Topic",
-        "views": "48만회",
+        "views": "50만회",
         "thumb": "https://i.ytimg.com/vi/fV4uM0b3vmE/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=fV4uM0b3vmE"
       },
       {
         "rank": 5,
-        "title": "[메인 예고편] 고품격 코멘터리가 준비됐습니다 | 데블스플랜 B",
-        "channel": "TEO 테오",
-        "views": "24만회",
-        "thumb": "https://i.ytimg.com/vi/2GmevtVSi9E/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=2GmevtVSi9E"
+        "title": "[최종회 예고] ＂이제 의사 안 하실 거잖아요＂ 폐원 위기에 놓인 구서대학병원과 환자의 수술을 중단한 김지원?! | 닥터X : 하얀 마피아의 시대 | SBS",
+        "channel": "SBS ",
+        "views": "4만회",
+        "thumb": "https://i.ytimg.com/vi/_GdLSNdDVq8/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=_GdLSNdDVq8"
       },
       {
         "rank": 6,
         "title": "마린 vs 단단묵직",
         "channel": "괴물쥐 유튜브",
-        "views": "65만회",
+        "views": "69만회",
         "thumb": "https://i.ytimg.com/vi/xg9WSN42MGo/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=xg9WSN42MGo"
       },
@@ -1517,33 +1517,33 @@
         "rank": 7,
         "title": "saudade",
         "channel": "LUCY - Topic",
-        "views": "13만회",
+        "views": "14만회",
         "thumb": "https://i.ytimg.com/vi/FVnDxtfJrIU/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=FVnDxtfJrIU"
       },
       {
         "rank": 8,
-        "title": "진짜 *4시간* 동안 초거대 달걀 껍질을 깨고 비밀을 파헤치는 게임",
-        "channel": "YouTube지누",
-        "views": "24만회",
-        "thumb": "https://i.ytimg.com/vi/NMxeWsnL994/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=NMxeWsnL994"
+        "title": "[메인 예고편] 고품격 코멘터리가 준비됐습니다 | 데블스플랜 B",
+        "channel": "TEO 테오",
+        "views": "26만회",
+        "thumb": "https://i.ytimg.com/vi/2GmevtVSi9E/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=2GmevtVSi9E"
       },
       {
         "rank": 9,
-        "title": "ANEMIA",
-        "channel": "ATEEZ - Topic",
-        "views": "14만회",
-        "thumb": "https://i.ytimg.com/vi/UypoqaWcUZ8/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=UypoqaWcUZ8"
+        "title": "티젠한에서 모두 중국에게 탈락한 선수, 도란",
+        "channel": "정글선생 진 영준",
+        "views": "42만회",
+        "thumb": "https://i.ytimg.com/vi/JGqCedP4Fzc/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=JGqCedP4Fzc"
       },
       {
         "rank": 10,
-        "title": "연옥",
-        "channel": "PAKA",
-        "views": "54만회",
-        "thumb": "https://i.ytimg.com/vi/niItIHt47AY/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=niItIHt47AY"
+        "title": "ENHYPEN (엔하이픈) 'I Want You' Official MV",
+        "channel": "HYBE LABELS",
+        "views": "149만회",
+        "thumb": "https://i.ytimg.com/vi/dE_Ro8Sac2M/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=dE_Ro8Sac2M"
       }
     ]
   }
