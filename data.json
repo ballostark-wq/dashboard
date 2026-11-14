@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14 07:21:20",
+  "updated_at": "2026-11-14 11:49:49",
   "us2y": {
     "value": 4.88,
     "change": 0.02
@@ -69,6 +69,11 @@
   "feeds": {
     "fed": [
       {
+        "title": "[연설] Jefferson, New Technology, Old Questions: Productivity Puzzles  and the Macroeconomy",
+        "link": "https://www.federalreserve.gov/newsevents/speech/jefferson20261113a.htm",
+        "date": "11-14 00:00"
+      },
+      {
         "title": "[연설] Barr, American Inequality and the Future of AI",
         "link": "https://www.federalreserve.gov/newsevents/speech/barr20261112a.htm",
         "date": "11-12 15:00"
@@ -82,18 +87,13 @@
         "title": "[연설] Waller, The Economic Outlook and Some Thoughts on Labor Market Dynamism",
         "link": "https://www.federalreserve.gov/newsevents/speech/waller20261110a.htm",
         "date": "11-10 09:00"
-      },
-      {
-        "title": "[연설] Bowman, Supervisory Modernization After Silicon Valley Bank",
-        "link": "https://www.federalreserve.gov/newsevents/speech/bowman20261014a.htm",
-        "date": "10-15 02:55"
       }
     ],
     "global": [
       {
-        "title": "Lutnick faces questions over Nvidia spy scandal. His sons’ firm has deep ties to the chipmaker",
+        "title": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker",
         "link": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
-        "date": "11-13 19:11"
+        "date": "11-13 23:42"
       },
       {
         "title": "Chicago Fed's Goolsbee says central bank 'has definitely got work to do' on inflation",
@@ -118,6 +118,11 @@
     ],
     "tech": [
       {
+        "title": "[디일렉] 세미파이브, 3분기 신규 수주 1784억 '역대 최대'…매출도 첫 500억 돌파",
+        "link": "https://www.thelec.kr/news/articleView.html?idxno=65444",
+        "date": "11-14 10:21"
+      },
+      {
         "title": "[디일렉] 에코앤드림, 새만금 공장 가동 확대에 매출 회복세",
         "link": "https://www.thelec.kr/news/articleView.html?idxno=65432",
         "date": "11-13 22:18"
@@ -128,46 +133,41 @@
         "date": "11-13 22:18"
       },
       {
-        "title": "[디일렉] 삼성메디슨, 홍천 신공장 준공…2030년 생산능력 두 배",
-        "link": "https://www.thelec.kr/news/articleView.html?idxno=65442",
-        "date": "11-13 22:17"
+        "title": "[전자신문] 'AI 안경' 논란에 카메라 켠 세무사 차석 합격자… 해진 교재 보여주며 “안경 자체를 안 썼다”",
+        "link": "https://www.etnews.com/20261114000016",
+        "date": "11-14 11:29"
       },
       {
-        "title": "[전자신문] 50대 청소부 외모가 배우급…“기억을 잃은 재벌 회장님 아니냐” SNS 난리",
-        "link": "https://www.etnews.com/20261113000282",
-        "date": "11-14 06:00"
-      },
-      {
-        "title": "[전자신문] 우울증·골다골증 경고에도…日 2030 여성, 저체중에 목숨 거는 까닭",
-        "link": "https://www.etnews.com/20261113000176",
-        "date": "11-14 06:00"
+        "title": "[전자신문] 로이터 “엔비디아 의존 中 AI 프로젝트 규모 4조6000억원 이상”",
+        "link": "https://www.etnews.com/20261114000015",
+        "date": "11-14 11:20"
       }
     ],
     "domestic": [
       {
-        "title": "연준 RMP, 4개월 연속 중단…재투자 재정증권 매입만 하기로(상보)",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444755",
-        "date": "11-14 07:17"
+        "title": "NDF, 1,335.70/ 1,336.10원…0.20원↑",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444776",
+        "date": "11-14 10:06"
       },
       {
-        "title": "분데스방크 총재 \"ECB, 추가 금리인상 필요성 매우 커\"",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444745",
-        "date": "11-14 04:38"
+        "title": "[외환] 끈적한 美 PPI에 달러화 강세…1,330원 후반대 거래",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444775",
+        "date": "11-14 10:06"
       },
       {
-        "title": "美 국채가, 여전히 높은 PPI에 낙폭 확대…'베어 스팁'",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444742",
-        "date": "11-14 01:56"
+        "title": "글로벌 기관 韓 주식 비중 축소…환시 달러 매수는 잠잠",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444772",
+        "date": "11-14 09:05"
       },
       {
-        "title": "시카고 연은 총재 \"연준, 신뢰 유지 위해 분명히 해야 할 일 있어\"",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444740",
-        "date": "11-14 01:23"
+        "title": "국채선물, 거래 감소 속 혼조…10년물 4틱↑",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444771",
+        "date": "11-14 08:54"
       },
       {
-        "title": "美재무 \"과도한 금리 인상은 잡음 큰 수치에 대응하는 것…연준 오픈마인드 가져야\"",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444739",
-        "date": "11-14 01:09"
+        "title": "美 연방항공청, 전 공항에 지상 대기 명령…교통장관 \"통신 문제\"(상보)",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444769",
+        "date": "11-14 08:40"
       }
     ]
   },
@@ -255,14 +255,14 @@
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,335원 | 엔/달러 ¥159.7",
-      "title": "원/달러 1,335.1원선과 엔/달러 ¥159.7",
+      "badge": "원/달러 1,334원 | 엔/달러 ¥159.9",
+      "title": "원/달러 1,333.8원선과 엔/달러 ¥159.9",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,335.1원",
-          "chg": "-0.09%",
+          "val": "1,333.8원",
+          "chg": "-0.19%",
           "up": false
         },
         {
@@ -275,14 +275,14 @@
         {
           "id": "usdjpy",
           "name": "엔/달러",
-          "val": "¥159.69",
-          "chg": "-0.03%",
-          "up": false
+          "val": "¥159.88",
+          "chg": "+0.09%",
+          "up": true
         }
       ],
       "bullets": [
         "달러 인덱스 103.41pt - 미국 성장 우위 지속",
-        "엔/달러 159.69엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
+        "엔/달러 159.88엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
@@ -323,16 +323,16 @@
       "change": 0.2
     },
     "usdkrw": {
-      "price": 1335.11,
-      "change": -0.09
+      "price": 1333.78,
+      "change": -0.19
     },
     "dxy": {
       "price": 103.41,
       "change": 0.23
     },
     "usdjpy": {
-      "price": 159.69,
-      "change": -0.03
+      "price": 159.88,
+      "change": 0.09
     }
   },
   "history_20d": {
@@ -717,9 +717,9 @@
       },
       {
         "date": "11-13",
-        "usdkrw": 1335.11,
+        "usdkrw": 1333.78,
         "dxy": 103.41,
-        "usdjpy": 159.69
+        "usdjpy": 159.88
       }
     ],
     "oil": [
@@ -1373,8 +1373,8 @@
       },
       {
         "rank": 3,
-        "title": "블루 웨이브",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B8%94%EB%A3%A8%20%EC%9B%A8%EC%9D%B4%EB%B8%8C"
+        "title": "자유계약선수",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9E%90%EC%9C%A0%EA%B3%84%EC%95%BD%EC%84%A0%EC%88%98"
       },
       {
         "rank": 4,
@@ -1383,85 +1383,85 @@
       },
       {
         "rank": 5,
-        "title": "자유계약선수",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9E%90%EC%9C%A0%EA%B3%84%EC%95%BD%EC%84%A0%EC%88%98"
-      },
-      {
-        "rank": 6,
         "title": "태극기",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%83%9C%EA%B7%B9%EA%B8%B0"
       },
       {
-        "rank": 7,
-        "title": "숏커버링",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%88%8F%EC%BB%A4%EB%B2%84%EB%A7%81"
+        "rank": 6,
+        "title": "매월 14일 -데이",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%A7%A4%EC%9B%94%2014%EC%9D%BC%20-%EB%8D%B0%EC%9D%B4"
       },
       {
-        "rank": 8,
+        "rank": 7,
         "title": "북마케도니아",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B6%81%EB%A7%88%EC%BC%80%EB%8F%84%EB%8B%88%EC%95%84"
       },
       {
+        "rank": 8,
+        "title": "숏커버링",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%88%8F%EC%BB%A4%EB%B2%84%EB%A7%81"
+      },
+      {
         "rank": 9,
-        "title": "친족 호칭",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B9%9C%EC%A1%B1%20%ED%98%B8%EC%B9%AD"
+        "title": "블루 웨이브",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B8%94%EB%A3%A8%20%EC%9B%A8%EC%9D%B4%EB%B8%8C"
       },
       {
         "rank": 10,
-        "title": "매월 14일 -데이",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%A7%A4%EC%9B%94%2014%EC%9D%BC%20-%EB%8D%B0%EC%9D%B4"
+        "title": "동학농민혁명",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%8F%99%ED%95%99%EB%86%8D%EB%AF%BC%ED%98%81%EB%AA%85"
       }
     ],
     "namu_rank": [
       {
         "rank": 1,
-        "title": "엔비디아 젠슨 황 퇴진 후의 위기",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%97%94%EB%B9%84%EB%94%94%EC%95%84%20%EC%A0%A0%EC%8A%A8%20%ED%99%A9%20%ED%87%B4%EC%A7%84%20%ED%9B%84%EC%9D%98%20%EC%9C%84%EA%B8%B0"
+        "title": "엔비디아 젠슨 황 스캔들 여파 지속",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%97%94%EB%B9%84%EB%94%94%EC%95%84%20%EC%A0%A0%EC%8A%A8%20%ED%99%A9%20%EC%8A%A4%EC%BA%94%EB%93%A4%20%EC%97%AC%ED%8C%8C%20%EC%A7%80%EC%86%8D"
       },
       {
         "rank": 2,
-        "title": "모레노호, 사우디에 2-3 패배",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%AA%A8%EB%A0%88%EB%85%B8%ED%98%B8%2C%20%EC%82%AC%EC%9A%B0%EB%94%94%EC%97%90%202-3%20%ED%8C%A8%EB%B0%B0"
+        "title": "고경표, 만취 운전 사고로 신뢰 상실",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B3%A0%EA%B2%BD%ED%91%9C%2C%20%EB%A7%8C%EC%B7%A8%20%EC%9A%B4%EC%A0%84%20%EC%82%AC%EA%B3%A0%EB%A1%9C%20%EC%8B%A0%EB%A2%B0%20%EC%83%81%EC%8B%A4"
       },
       {
         "rank": 3,
-        "title": "2026년 11월 14일 운세",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=2026%EB%85%84%2011%EC%9B%94%2014%EC%9D%BC%20%EC%9A%B4%EC%84%B8"
+        "title": "미국 항공기 이륙 중단",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%AF%B8%EA%B5%AD%20%ED%95%AD%EA%B3%B5%EA%B8%B0%20%EC%9D%B4%EB%A5%99%20%EC%A4%91%EB%8B%A8"
       },
       {
         "rank": 4,
-        "title": "한중 외교장관 회담",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%9C%EC%A4%91%20%EC%99%B8%EA%B5%90%EC%9E%A5%EA%B4%80%20%ED%9A%8C%EB%8B%B4"
+        "title": "미중러 정상회담",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%AF%B8%EC%A4%91%EB%9F%AC%20%EC%A0%95%EC%83%81%ED%9A%8C%EB%8B%B4"
       },
       {
         "rank": 5,
-        "title": "미국 10월 생산자물가",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%AF%B8%EA%B5%AD%2010%EC%9B%94%20%EC%83%9D%EC%82%B0%EC%9E%90%EB%AC%BC%EA%B0%80"
+        "title": "전국스포츠클럽 교류전 탁구대회",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A0%84%EA%B5%AD%EC%8A%A4%ED%8F%AC%EC%B8%A0%ED%81%B4%EB%9F%BD%20%EA%B5%90%EB%A5%98%EC%A0%84%20%ED%83%81%EA%B5%AC%EB%8C%80%ED%9A%8C"
       },
       {
         "rank": 6,
-        "title": "구성환 4대 천왕 인기 많아",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B5%AC%EC%84%B1%ED%99%98%204%EB%8C%80%20%EC%B2%9C%EC%99%95%20%EC%9D%B8%EA%B8%B0%20%EB%A7%8E%EC%95%84"
+        "title": "광진구",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B4%91%EC%A7%84%EA%B5%AC"
       },
       {
         "rank": 7,
-        "title": "중앙일보",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A4%91%EC%95%99%EC%9D%BC%EB%B3%B4"
+        "title": "기내식",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B8%B0%EB%82%B4%EC%8B%9D"
       },
       {
         "rank": 8,
-        "title": "제네시스 gv90",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A0%9C%EB%84%A4%EC%8B%9C%EC%8A%A4%20gv90"
+        "title": "미시시피강 유람선 충돌",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%AF%B8%EC%8B%9C%EC%8B%9C%ED%94%BC%EA%B0%95%20%EC%9C%A0%EB%9E%8C%EC%84%A0%20%EC%B6%A9%EB%8F%8C"
       },
       {
         "rank": 9,
-        "title": "박정성 통상교섭본부장 면담",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B0%95%EC%A0%95%EC%84%B1%20%ED%86%B5%EC%83%81%EA%B5%90%EC%84%AD%EB%B3%B8%EB%B6%80%EC%9E%A5%20%EB%A9%B4%EB%8B%B4"
+        "title": "고용노동부",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B3%A0%EC%9A%A9%EB%85%B8%EB%8F%99%EB%B6%80"
       },
       {
         "rank": 10,
-        "title": "디에고 시메오네",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%94%94%EC%97%90%EA%B3%A0%20%EC%8B%9C%EB%A9%94%EC%98%A4%EB%84%A4"
+        "title": "장동혁 암살 협박",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9E%A5%EB%8F%99%ED%98%81%20%EC%95%94%EC%82%B4%20%ED%98%91%EB%B0%95"
       }
     ],
     "youtube_popular": [
@@ -1469,7 +1469,7 @@
         "rank": 1,
         "title": "Crush (크러쉬) - 삐그덕 Live with 조이 (JOY)",
         "channel": "Crush",
-        "views": "325만회",
+        "views": "333만회",
         "thumb": "https://i.ytimg.com/vi/v_71o1VU28o/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=v_71o1VU28o"
       },
@@ -1477,7 +1477,7 @@
         "rank": 2,
         "title": "천천히 강렬하게 | 공식 티저 예고편 | 넷플릭스",
         "channel": "Netflix Korea 넷플릭스 코리아",
-        "views": "129만회",
+        "views": "140만회",
         "thumb": "https://i.ytimg.com/vi/iEmGtIh60DE/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=iEmGtIh60DE"
       },
@@ -1485,7 +1485,7 @@
         "rank": 3,
         "title": "진짜 위험한 게임 찾았습니다...≪그냥 무기 강화하는 게임≫ 중독성 미쳤다ㄷㄷ",
         "channel": "혜안",
-        "views": "50만회",
+        "views": "62만회",
         "thumb": "https://i.ytimg.com/vi/BXteshCoqc4/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=BXteshCoqc4"
       },
@@ -1493,7 +1493,7 @@
         "rank": 4,
         "title": "Darling",
         "channel": "D.O. - Topic",
-        "views": "50만회",
+        "views": "52만회",
         "thumb": "https://i.ytimg.com/vi/fV4uM0b3vmE/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=fV4uM0b3vmE"
       },
@@ -1501,23 +1501,23 @@
         "rank": 5,
         "title": "[최종회 예고] ＂이제 의사 안 하실 거잖아요＂ 폐원 위기에 놓인 구서대학병원과 환자의 수술을 중단한 김지원?! | 닥터X : 하얀 마피아의 시대 | SBS",
         "channel": "SBS ",
-        "views": "4만회",
+        "views": "6만회",
         "thumb": "https://i.ytimg.com/vi/_GdLSNdDVq8/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=_GdLSNdDVq8"
       },
       {
         "rank": 6,
-        "title": "마린 vs 단단묵직",
-        "channel": "괴물쥐 유튜브",
-        "views": "69만회",
-        "thumb": "https://i.ytimg.com/vi/xg9WSN42MGo/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=xg9WSN42MGo"
+        "title": "티젠한에서 모두 중국에게 탈락한 선수, 도란",
+        "channel": "정글선생 진 영준",
+        "views": "48만회",
+        "thumb": "https://i.ytimg.com/vi/JGqCedP4Fzc/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=JGqCedP4Fzc"
       },
       {
         "rank": 7,
         "title": "saudade",
         "channel": "LUCY - Topic",
-        "views": "14만회",
+        "views": "15만회",
         "thumb": "https://i.ytimg.com/vi/FVnDxtfJrIU/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=FVnDxtfJrIU"
       },
@@ -1525,23 +1525,23 @@
         "rank": 8,
         "title": "[메인 예고편] 고품격 코멘터리가 준비됐습니다 | 데블스플랜 B",
         "channel": "TEO 테오",
-        "views": "26만회",
+        "views": "27만회",
         "thumb": "https://i.ytimg.com/vi/2GmevtVSi9E/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=2GmevtVSi9E"
       },
       {
         "rank": 9,
-        "title": "티젠한에서 모두 중국에게 탈락한 선수, 도란",
-        "channel": "정글선생 진 영준",
-        "views": "42만회",
-        "thumb": "https://i.ytimg.com/vi/JGqCedP4Fzc/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=JGqCedP4Fzc"
+        "title": "진짜 *4시간* 동안 초거대 달걀 껍질을 깨고 비밀을 파헤치는 게임",
+        "channel": "YouTube지누",
+        "views": "29만회",
+        "thumb": "https://i.ytimg.com/vi/NMxeWsnL994/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=NMxeWsnL994"
       },
       {
         "rank": 10,
         "title": "ENHYPEN (엔하이픈) 'I Want You' Official MV",
         "channel": "HYBE LABELS",
-        "views": "149만회",
+        "views": "337만회",
         "thumb": "https://i.ytimg.com/vi/dE_Ro8Sac2M/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=dE_Ro8Sac2M"
       }
