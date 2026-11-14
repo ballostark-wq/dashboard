@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14 11:49:49",
+  "updated_at": "2026-11-14 18:41:16",
   "us2y": {
     "value": 4.88,
     "change": 0.02
@@ -133,14 +133,14 @@
         "date": "11-13 22:18"
       },
       {
-        "title": "[전자신문] 'AI 안경' 논란에 카메라 켠 세무사 차석 합격자… 해진 교재 보여주며 “안경 자체를 안 썼다”",
-        "link": "https://www.etnews.com/20261114000016",
-        "date": "11-14 11:29"
+        "title": "[전자신문] [ET포토] 에스파, '폼 여전한 인기'",
+        "link": "https://www.etnews.com/20261114000043",
+        "date": "11-14 18:32"
       },
       {
-        "title": "[전자신문] 로이터 “엔비디아 의존 中 AI 프로젝트 규모 4조6000억원 이상”",
-        "link": "https://www.etnews.com/20261114000015",
-        "date": "11-14 11:20"
+        "title": "[전자신문] [ET포토] 오나라, '시원하게 드러낸 어깨'",
+        "link": "https://www.etnews.com/20261114000042",
+        "date": "11-14 18:27"
       }
     ],
     "domestic": [
@@ -223,47 +223,47 @@
       "detail": "10Y-2Y 스프레드가 +27 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $6.06",
-      "title": "닥터 코퍼 $6.06선 및 귀금속 헤지 수요",
+      "badge": "구리 $6.08",
+      "title": "닥터 코퍼 $6.08선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$6.06",
-          "chg": "-1.94%",
+          "val": "$6.08",
+          "chg": "-1.62%",
           "up": false
         },
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$3,887.6",
-          "chg": "+0.06%",
+          "val": "$3,886.3",
+          "chg": "+0.03%",
           "up": true
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$48.65",
-          "chg": "-2.64%",
+          "val": "$49.03",
+          "chg": "-1.88%",
           "up": false
         }
       ],
       "bullets": [
-        "구리 $6.06/lb (-1.94%) - AI 전력망 설비 수요 반영",
-        "금 $3,888/oz, 은 $48.65/oz - 통화가치 헤지"
+        "구리 $6.08/lb (-1.62%) - AI 전력망 설비 수요 반영",
+        "금 $3,886/oz, 은 $49.03/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,334원 | 엔/달러 ¥159.9",
-      "title": "원/달러 1,333.8원선과 엔/달러 ¥159.9",
+      "badge": "원/달러 1,336원 | 엔/달러 ¥159.9",
+      "title": "원/달러 1,336.2원선과 엔/달러 ¥159.9",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,333.8원",
-          "chg": "-0.19%",
-          "up": false
+          "val": "1,336.2원",
+          "chg": "+0.18%",
+          "up": true
         },
         {
           "id": "dxy",
@@ -287,19 +287,19 @@
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $88.92",
-      "title": "WTI 배럴당 $88.92선 박스권 안정",
+      "badge": "WTI $88.56",
+      "title": "WTI 배럴당 $88.56선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$88.92",
-          "chg": "+0.20%",
-          "up": true
+          "val": "$88.56",
+          "chg": "-0.20%",
+          "up": false
         }
       ],
       "bullets": [
-        "WTI 선물 $88.92/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $88.56/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -307,24 +307,24 @@
   },
   "indicators": {
     "copper": {
-      "price": 6.06,
-      "change": -1.94
+      "price": 6.08,
+      "change": -1.62
     },
     "gold": {
-      "price": 3887.6,
-      "change": 0.06
+      "price": 3886.3,
+      "change": 0.03
     },
     "silver": {
-      "price": 48.65,
-      "change": -2.64
+      "price": 49.03,
+      "change": -1.88
     },
     "wti": {
-      "price": 88.92,
-      "change": 0.2
+      "price": 88.56,
+      "change": -0.2
     },
     "usdkrw": {
-      "price": 1333.78,
-      "change": -0.19
+      "price": 1336.2,
+      "change": 0.18
     },
     "dxy": {
       "price": 103.41,
@@ -595,129 +595,129 @@
       },
       {
         "date": "11-13",
-        "copper": 6.06,
-        "gold": 3887.6,
-        "silver": 48.65
+        "copper": 6.08,
+        "gold": 3886.3,
+        "silver": 49.03
       }
     ],
     "fx": [
       {
-        "date": "10-18",
-        "usdkrw": 1333.43,
+        "date": "10-19",
+        "usdkrw": 1330.0,
         "dxy": 101.98,
         "usdjpy": 157.81
       },
       {
-        "date": "10-19",
-        "usdkrw": 1330.0,
+        "date": "10-20",
+        "usdkrw": 1323.94,
         "dxy": 101.73,
         "usdjpy": 158.52
       },
       {
-        "date": "10-20",
-        "usdkrw": 1323.94,
+        "date": "10-21",
+        "usdkrw": 1325.59,
         "dxy": 101.78,
         "usdjpy": 158.27
       },
       {
-        "date": "10-21",
-        "usdkrw": 1325.59,
+        "date": "10-22",
+        "usdkrw": 1325.99,
         "dxy": 101.61,
         "usdjpy": 158.13
       },
       {
-        "date": "10-22",
-        "usdkrw": 1325.99,
+        "date": "10-26",
+        "usdkrw": 1321.76,
         "dxy": 101.81,
         "usdjpy": 156.49
       },
       {
-        "date": "10-26",
-        "usdkrw": 1321.76,
+        "date": "10-27",
+        "usdkrw": 1324.77,
         "dxy": 101.96,
         "usdjpy": 156.83
       },
       {
-        "date": "10-27",
-        "usdkrw": 1324.77,
+        "date": "10-28",
+        "usdkrw": 1326.81,
         "dxy": 102.32,
         "usdjpy": 157.53
       },
       {
-        "date": "10-28",
-        "usdkrw": 1326.81,
+        "date": "10-29",
+        "usdkrw": 1340.34,
         "dxy": 102.19,
         "usdjpy": 157.99
       },
       {
-        "date": "10-29",
-        "usdkrw": 1340.34,
+        "date": "10-30",
+        "usdkrw": 1337.98,
         "dxy": 102.04,
         "usdjpy": 157.83
       },
       {
-        "date": "10-30",
-        "usdkrw": 1337.98,
+        "date": "11-02",
+        "usdkrw": 1325.52,
         "dxy": 101.88,
         "usdjpy": 157.8
       },
       {
-        "date": "11-02",
-        "usdkrw": 1325.52,
+        "date": "11-03",
+        "usdkrw": 1344.81,
         "dxy": 101.75,
         "usdjpy": 157.68
       },
       {
-        "date": "11-03",
-        "usdkrw": 1344.81,
+        "date": "11-04",
+        "usdkrw": 1342.9,
         "dxy": 101.87,
         "usdjpy": 157.91
       },
       {
-        "date": "11-04",
-        "usdkrw": 1342.9,
+        "date": "11-05",
+        "usdkrw": 1340.07,
         "dxy": 101.51,
         "usdjpy": 158.47
       },
       {
-        "date": "11-05",
-        "usdkrw": 1340.07,
+        "date": "11-06",
+        "usdkrw": 1356.34,
         "dxy": 101.55,
         "usdjpy": 158.36
       },
       {
-        "date": "11-06",
-        "usdkrw": 1356.34,
+        "date": "11-09",
+        "usdkrw": 1362.7,
         "dxy": 102.3,
         "usdjpy": 157.5
       },
       {
-        "date": "11-09",
-        "usdkrw": 1362.7,
+        "date": "11-10",
+        "usdkrw": 1343.84,
         "dxy": 101.65,
         "usdjpy": 158.29
       },
       {
-        "date": "11-10",
-        "usdkrw": 1343.84,
+        "date": "11-11",
+        "usdkrw": 1341.91,
         "dxy": 102.23,
         "usdjpy": 157.98
       },
       {
-        "date": "11-11",
-        "usdkrw": 1341.91,
+        "date": "11-12",
+        "usdkrw": 1336.26,
         "dxy": 102.91,
         "usdjpy": 158.71
       },
       {
-        "date": "11-12",
-        "usdkrw": 1336.26,
+        "date": "11-13",
+        "usdkrw": 1333.78,
         "dxy": 103.17,
         "usdjpy": 159.73
       },
       {
-        "date": "11-13",
-        "usdkrw": 1333.78,
+        "date": "11-14",
+        "usdkrw": 1336.2,
         "dxy": 103.41,
         "usdjpy": 159.88
       }
@@ -820,8 +820,8 @@
       },
       {
         "date": "11-13",
-        "wti": 88.92,
-        "change": 0.2
+        "wti": 88.56,
+        "change": -0.2
       }
     ]
   },
@@ -1415,53 +1415,53 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "엔비디아 젠슨 황 스캔들 여파 지속",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%97%94%EB%B9%84%EB%94%94%EC%95%84%20%EC%A0%A0%EC%8A%A8%20%ED%99%A9%20%EC%8A%A4%EC%BA%94%EB%93%A4%20%EC%97%AC%ED%8C%8C%20%EC%A7%80%EC%86%8D"
+        "title": "트럼프 엔비디아 주식 매수",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%8A%B8%EB%9F%BC%ED%94%84%20%EC%97%94%EB%B9%84%EB%94%94%EC%95%84%20%EC%A3%BC%EC%8B%9D%20%EB%A7%A4%EC%88%98"
       },
       {
         "rank": 2,
-        "title": "고경표, 만취 운전 사고로 신뢰 상실",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B3%A0%EA%B2%BD%ED%91%9C%2C%20%EB%A7%8C%EC%B7%A8%20%EC%9A%B4%EC%A0%84%20%EC%82%AC%EA%B3%A0%EB%A1%9C%20%EC%8B%A0%EB%A2%B0%20%EC%83%81%EC%8B%A4"
+        "title": "발언하는 장동혁 대표",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B0%9C%EC%96%B8%ED%95%98%EB%8A%94%20%EC%9E%A5%EB%8F%99%ED%98%81%20%EB%8C%80%ED%91%9C"
       },
       {
         "rank": 3,
-        "title": "미국 항공기 이륙 중단",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%AF%B8%EA%B5%AD%20%ED%95%AD%EA%B3%B5%EA%B8%B0%20%EC%9D%B4%EB%A5%99%20%EC%A4%91%EB%8B%A8"
+        "title": "노란우산 개인정보 유출 우려",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%85%B8%EB%9E%80%EC%9A%B0%EC%82%B0%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4%20%EC%9C%A0%EC%B6%9C%20%EC%9A%B0%EB%A0%A4"
       },
       {
         "rank": 4,
+        "title": "잠실 마지막 이닝 서군 승리",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9E%A0%EC%8B%A4%20%EB%A7%88%EC%A7%80%EB%A7%89%20%EC%9D%B4%EB%8B%9D%20%EC%84%9C%EA%B5%B0%20%EC%8A%B9%EB%A6%AC"
+      },
+      {
+        "rank": 5,
+        "title": "구성환",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B5%AC%EC%84%B1%ED%99%98"
+      },
+      {
+        "rank": 6,
+        "title": "미국 항공 운항 중단",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%AF%B8%EA%B5%AD%20%ED%95%AD%EA%B3%B5%20%EC%9A%B4%ED%95%AD%20%EC%A4%91%EB%8B%A8"
+      },
+      {
+        "rank": 7,
+        "title": "MMA2026 참가자들",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=MMA2026%20%EC%B0%B8%EA%B0%80%EC%9E%90%EB%93%A4"
+      },
+      {
+        "rank": 8,
+        "title": "웨이브",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9B%A8%EC%9D%B4%EB%B8%8C"
+      },
+      {
+        "rank": 9,
         "title": "미중러 정상회담",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%AF%B8%EC%A4%91%EB%9F%AC%20%EC%A0%95%EC%83%81%ED%9A%8C%EB%8B%B4"
       },
       {
-        "rank": 5,
-        "title": "전국스포츠클럽 교류전 탁구대회",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A0%84%EA%B5%AD%EC%8A%A4%ED%8F%AC%EC%B8%A0%ED%81%B4%EB%9F%BD%20%EA%B5%90%EB%A5%98%EC%A0%84%20%ED%83%81%EA%B5%AC%EB%8C%80%ED%9A%8C"
-      },
-      {
-        "rank": 6,
-        "title": "광진구",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B4%91%EC%A7%84%EA%B5%AC"
-      },
-      {
-        "rank": 7,
-        "title": "기내식",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B8%B0%EB%82%B4%EC%8B%9D"
-      },
-      {
-        "rank": 8,
-        "title": "미시시피강 유람선 충돌",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%AF%B8%EC%8B%9C%EC%8B%9C%ED%94%BC%EA%B0%95%20%EC%9C%A0%EB%9E%8C%EC%84%A0%20%EC%B6%A9%EB%8F%8C"
-      },
-      {
-        "rank": 9,
-        "title": "고용노동부",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B3%A0%EC%9A%A9%EB%85%B8%EB%8F%99%EB%B6%80"
-      },
-      {
         "rank": 10,
-        "title": "장동혁 암살 협박",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9E%A5%EB%8F%99%ED%98%81%20%EC%95%94%EC%82%B4%20%ED%98%91%EB%B0%95"
+        "title": "고경표 주량 4~5병 사고",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B3%A0%EA%B2%BD%ED%91%9C%20%EC%A3%BC%EB%9F%89%204~5%EB%B3%91%20%EC%82%AC%EA%B3%A0"
       }
     ],
     "youtube_popular": [
@@ -1469,81 +1469,81 @@
         "rank": 1,
         "title": "Crush (크러쉬) - 삐그덕 Live with 조이 (JOY)",
         "channel": "Crush",
-        "views": "333만회",
+        "views": "361만회",
         "thumb": "https://i.ytimg.com/vi/v_71o1VU28o/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=v_71o1VU28o"
       },
       {
         "rank": 2,
-        "title": "천천히 강렬하게 | 공식 티저 예고편 | 넷플릭스",
-        "channel": "Netflix Korea 넷플릭스 코리아",
-        "views": "140만회",
-        "thumb": "https://i.ytimg.com/vi/iEmGtIh60DE/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=iEmGtIh60DE"
+        "title": "[최종회 예고] ＂이제 의사 안 하실 거잖아요＂ 폐원 위기에 놓인 구서대학병원과 환자의 수술을 중단한 김지원?! | 닥터X : 하얀 마피아의 시대 | SBS",
+        "channel": "SBS ",
+        "views": "11만회",
+        "thumb": "https://i.ytimg.com/vi/_GdLSNdDVq8/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=_GdLSNdDVq8"
       },
       {
         "rank": 3,
         "title": "진짜 위험한 게임 찾았습니다...≪그냥 무기 강화하는 게임≫ 중독성 미쳤다ㄷㄷ",
         "channel": "혜안",
-        "views": "62만회",
+        "views": "91만회",
         "thumb": "https://i.ytimg.com/vi/BXteshCoqc4/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=BXteshCoqc4"
       },
       {
         "rank": 4,
-        "title": "Darling",
-        "channel": "D.O. - Topic",
-        "views": "52만회",
-        "thumb": "https://i.ytimg.com/vi/fV4uM0b3vmE/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=fV4uM0b3vmE"
+        "title": "ENHYPEN (엔하이픈) 'I Want You' Official MV",
+        "channel": "HYBE LABELS",
+        "views": "789만회",
+        "thumb": "https://i.ytimg.com/vi/dE_Ro8Sac2M/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=dE_Ro8Sac2M"
       },
       {
         "rank": 5,
-        "title": "[최종회 예고] ＂이제 의사 안 하실 거잖아요＂ 폐원 위기에 놓인 구서대학병원과 환자의 수술을 중단한 김지원?! | 닥터X : 하얀 마피아의 시대 | SBS",
-        "channel": "SBS ",
-        "views": "6만회",
-        "thumb": "https://i.ytimg.com/vi/_GdLSNdDVq8/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=_GdLSNdDVq8"
+        "title": "천천히 강렬하게 | 공식 티저 예고편 | 넷플릭스",
+        "channel": "Netflix Korea 넷플릭스 코리아",
+        "views": "163만회",
+        "thumb": "https://i.ytimg.com/vi/iEmGtIh60DE/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=iEmGtIh60DE"
       },
       {
         "rank": 6,
         "title": "티젠한에서 모두 중국에게 탈락한 선수, 도란",
         "channel": "정글선생 진 영준",
-        "views": "48만회",
+        "views": "56만회",
         "thumb": "https://i.ytimg.com/vi/JGqCedP4Fzc/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=JGqCedP4Fzc"
       },
       {
         "rank": 7,
-        "title": "saudade",
-        "channel": "LUCY - Topic",
-        "views": "15만회",
-        "thumb": "https://i.ytimg.com/vi/FVnDxtfJrIU/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=FVnDxtfJrIU"
+        "title": "Darling",
+        "channel": "D.O. - Topic",
+        "views": "57만회",
+        "thumb": "https://i.ytimg.com/vi/fV4uM0b3vmE/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=fV4uM0b3vmE"
       },
       {
         "rank": 8,
-        "title": "[메인 예고편] 고품격 코멘터리가 준비됐습니다 | 데블스플랜 B",
-        "channel": "TEO 테오",
+        "title": "Worlds 2026 Final Trailer | This Is Our Moment",
+        "channel": "LoL Esports",
         "views": "27만회",
-        "thumb": "https://i.ytimg.com/vi/2GmevtVSi9E/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=2GmevtVSi9E"
+        "thumb": "https://i.ytimg.com/vi/44oxy-v7CuY/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=44oxy-v7CuY"
       },
       {
         "rank": 9,
         "title": "진짜 *4시간* 동안 초거대 달걀 껍질을 깨고 비밀을 파헤치는 게임",
         "channel": "YouTube지누",
-        "views": "29만회",
+        "views": "34만회",
         "thumb": "https://i.ytimg.com/vi/NMxeWsnL994/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=NMxeWsnL994"
       },
       {
         "rank": 10,
-        "title": "ENHYPEN (엔하이픈) 'I Want You' Official MV",
-        "channel": "HYBE LABELS",
-        "views": "337만회",
-        "thumb": "https://i.ytimg.com/vi/dE_Ro8Sac2M/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=dE_Ro8Sac2M"
+        "title": "saudade",
+        "channel": "LUCY - Topic",
+        "views": "17만회",
+        "thumb": "https://i.ytimg.com/vi/FVnDxtfJrIU/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=FVnDxtfJrIU"
       }
     ]
   }
