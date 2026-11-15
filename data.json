@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15 17:40:56",
+  "updated_at": "2026-11-16 00:59:23",
   "us2y": {
     "value": 4.88,
     "change": 0.02
@@ -118,6 +118,11 @@
     ],
     "tech": [
       {
+        "title": "[디일렉] HD현대-안두릴, 600t급 무인수상함 진수",
+        "link": "https://www.thelec.kr/news/articleView.html?idxno=65453",
+        "date": "11-15 22:02"
+      },
+      {
         "title": "[디일렉] LG엔솔, 美 RE+서 차세대 배터리 전력 솔루션 공개",
         "link": "https://www.thelec.kr/news/articleView.html?idxno=65451",
         "date": "11-15 17:04"
@@ -128,22 +133,27 @@
         "date": "11-15 13:22"
       },
       {
-        "title": "[디일렉] 에코프로, 포항 배터리엑스포서 차세대 양극재 기술 공개",
-        "link": "https://www.thelec.kr/news/articleView.html?idxno=65448",
-        "date": "11-15 13:22"
+        "title": "[전자신문] 위성은 하나, 이름은 둘…김일중 경기도의원, 나라스페이스에 대응책 요구",
+        "link": "https://www.etnews.com/20261115000186",
+        "date": "11-15 23:39"
       },
       {
-        "title": "[전자신문] 靑 국가안보실, 민·관·군 시스템 중간점검…사이버 보안 사각지대 줄인다",
-        "link": "https://www.etnews.com/20261115000127",
-        "date": "11-15 17:18"
-      },
-      {
-        "title": "[전자신문] 번개장터 고객상담 위탁업체 침해사고…개인정보 유출 가능성",
-        "link": "https://www.etnews.com/20261115000126",
-        "date": "11-15 17:17"
+        "title": "[전자신문] 주택 개조하다 벽 뒤 숨겨진 '500년 된 르네상스 유적' 발견…“보상금만 15억”",
+        "link": "https://www.etnews.com/20261113000181",
+        "date": "11-15 22:30"
       }
     ],
     "domestic": [
+      {
+        "title": "[뉴욕환시-주간] 매파 연준 속 맥 못추는 유로…日 '160엔' 개입 경계감",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444829",
+        "date": "11-15 17:42"
+      },
+      {
+        "title": "[뉴욕채권-주간] 인플레 위기감 짙어진 연준…'AI 테마' 향방도 주목",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444828",
+        "date": "11-15 17:40"
+      },
       {
         "title": "[채권-주간] 11월 금통위 직전 글로벌·외국인·주가 주시",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444813",
@@ -158,16 +168,6 @@
         "title": "\"높아도 낮아도 걱정\"…1,330원대 환율 적정 수준은",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444789",
         "date": "11-15 08:05"
-      },
-      {
-        "title": "보스턴 연은 총재 \"현재까진 꾸준하고 점진적인 경로가 적절\"",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444783",
-        "date": "11-15 05:13"
-      },
-      {
-        "title": "NDF, 1,335.70/ 1,336.10원…0.20원↑",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444776",
-        "date": "11-14 10:06"
       }
     ]
   },
@@ -827,7 +827,7 @@
   },
   "calendar_3w": {
     "w1": {
-      "title": "이번 주 (11/09 ~ 11/15)",
+      "title": "이번 주 (11/16 ~ 11/22)",
       "macro": [
         {
           "date": "11-16 5:00pm",
@@ -859,24 +859,40 @@
     }
   },
   "humanities": {
-    "history_date": "2026-11-15",
+    "history_date": "2026-11-16",
     "history": {
-      "era": "1700년 ~ 1869년 (1791년)",
-      "region": "한국",
-      "year": "1791년",
-      "title": "[1791년] [한국] 신해통공(자유상업 허용)",
-      "summary": "1791년 - 신해통공(자유상업 허용)",
+      "era": "1700년 ~ 1869년 (1797년)",
+      "region": "세계",
+      "year": "1797년",
+      "title": "[1797년] [세계] 나폴레옹 이집트 원정",
+      "summary": "1797년 - 나폴레옹 이집트 원정",
       "bullets": [
-        "발생 연대: 1791년 (한국사)",
-        "신해통공(자유상업 허용)",
+        "발생 연대: 1797년 (세계사)",
+        "나폴레옹 이집트 원정",
         "당대 세력 균형 및 정치·경제적 제도 변화 반영"
       ],
-      "insight": "1791년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
-      "ref_title": "위키백과 세계사 연표: 1700년 ~ 1869년 (1791년)",
-      "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1700%EB%85%84_~_1869%EB%85%84:~:text=1791",
+      "insight": "1797년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
+      "ref_title": "위키백과 세계사 연표: 1700년 ~ 1869년 (1797년)",
+      "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1700%EB%85%84_~_1869%EB%85%84:~:text=1797",
       "d_day": "오늘"
     },
     "history_5d": [
+      {
+        "era": "1700년 ~ 1869년 (1797년)",
+        "region": "세계",
+        "year": "1797년",
+        "title": "[1797년] [세계] 나폴레옹 이집트 원정",
+        "summary": "1797년 - 나폴레옹 이집트 원정",
+        "bullets": [
+          "발생 연대: 1797년 (세계사)",
+          "나폴레옹 이집트 원정",
+          "당대 세력 균형 및 정치·경제적 제도 변화 반영"
+        ],
+        "insight": "1797년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
+        "ref_title": "위키백과 세계사 연표: 1700년 ~ 1869년 (1797년)",
+        "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1700%EB%85%84_~_1869%EB%85%84:~:text=1797",
+        "d_day": "오늘"
+      },
       {
         "era": "1700년 ~ 1869년 (1791년)",
         "region": "한국",
@@ -891,7 +907,7 @@
         "insight": "1791년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1700년 ~ 1869년 (1791년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1700%EB%85%84_~_1869%EB%85%84:~:text=1791",
-        "d_day": "오늘"
+        "d_day": "D-1"
       },
       {
         "era": "1700년 ~ 1869년 (1776년)",
@@ -907,7 +923,7 @@
         "insight": "1776년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1700년 ~ 1869년 (1776년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1700%EB%85%84_~_1869%EB%85%84:~:text=1776",
-        "d_day": "D-1"
+        "d_day": "D-2"
       },
       {
         "era": "395년 ~ 1071년 (992년)",
@@ -923,7 +939,7 @@
         "insight": "992년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 395년 ~ 1071년 (992년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#395%EB%85%84_~_1071%EB%85%84:~:text=992",
-        "d_day": "D-2"
+        "d_day": "D-3"
       },
       {
         "era": "1700년 ~ 1869년 (1756년)",
@@ -939,91 +955,138 @@
         "insight": "1756년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1700년 ~ 1869년 (1756년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1700%EB%85%84_~_1869%EB%85%84:~:text=1756",
-        "d_day": "D-3"
-      },
-      {
-        "era": "395년 ~ 1071년 (834년)",
-        "region": "한국",
-        "year": "834년",
-        "title": "[834년] [한국] 신라, 백관의 복색 제도를 공포",
-        "summary": "834년 - 신라, 백관의 복색 제도를 공포",
-        "bullets": [
-          "발생 연대: 834년 (한국사)",
-          "신라, 백관의 복색 제도를 공포",
-          "당대 세력 균형 및 정치·경제적 제도 변화 반영"
-        ],
-        "insight": "834년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
-        "ref_title": "위키백과 세계사 연표: 395년 ~ 1071년 (834년)",
-        "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#395%EB%85%84_~_1071%EB%85%84:~:text=834",
         "d_day": "D-4"
       }
     ],
     "polyglot": {
-      "theme": "물품 요청 (Q&A)",
-      "type": "기초",
-      "meaning": "Q: 물 한 잔 주시겠어요? / A: 네, 여기 있습니다.",
+      "theme": "입버릇 관용구: 단념과 태도",
+      "meaning": "너 정말 낯짝도 두껍다 (뻔뻔해).",
       "translations": {
         "en": {
           "code": "en-US",
           "name": "영어",
           "flag": "🇺🇸",
-          "text": "May I have a glass of water, please? - Sure, here you go.",
-          "roman": "메이 아이 해브 어 글래스 오브 워터, 플리즈? - 슈어, 히어 유 고."
+          "text": "You are brazen-faced.",
+          "roman": ""
         },
         "ja": {
           "code": "ja-JP",
           "name": "일본어",
           "flag": "🇯🇵",
-          "text": "お水を一杯いただけますか？ - はい、どうぞ。",
-          "roman": "오미즈오 잇파이 이타다케마스 카? - 하이, 도-조."
+          "text": "本当に厚かましくて図々しいね。",
+          "roman": "Hontō ni atsukamashikute zūzūshii ne."
         },
         "zh": {
           "code": "zh-CN",
           "name": "중국어",
           "flag": "🇨🇳",
-          "text": "可以给我一杯水吗？ - 好的，请用。",
-          "roman": "커이 게이 워 이베이 슈이 마? - 하오 더, 칭 융."
+          "text": "你的脸皮可真够厚的。",
+          "roman": "Nǐ de liǎnpí kě zhēn gòu hòu de."
         },
         "fr": {
           "code": "fr-FR",
           "name": "프랑스어",
           "flag": "🇫🇷",
-          "text": "Puis-je avoir un verre d'eau, s'il vous plaît ? - Bien sûr, voici.",
-          "roman": "퓌이-즈 아부아 앙 베르 도, 실 부 플레? - 비앙 쉬르, 부아시."
+          "text": "Tu es vraiment sans vergogne, quel culot !",
+          "roman": ""
         },
         "de": {
           "code": "de-DE",
           "name": "독일어",
           "flag": "🇩🇪",
-          "text": "Könnte ich bitte ein Glas Wasser haben? - Sicher, bitte sehr.",
-          "roman": "켠테 이히 비테 아인 글라스 바서 하벤? - 지허, 비테 제어."
+          "text": "Du bist ja unfassbar dreist und unverschämt.",
+          "roman": ""
         },
         "es": {
           "code": "es-ES",
           "name": "스페인어",
           "flag": "🇪🇸",
-          "text": "¿Me da un vaso de agua, por favor? - Claro, aquí tiene.",
-          "roman": "메 다 운 바소 데 아구아, 뽀르 파보르? - 클라로, 아키 티에네."
+          "text": "¡Qué cara más dura tienes!",
+          "roman": ""
         },
         "ar": {
           "code": "ar-SA",
           "name": "아랍어",
           "flag": "🇸🇦",
-          "text": "هل يمكنني الحصول على كوب ماء؟ - بالطبع، تفضل.",
-          "roman": "할 윰키누닐 후술 알라 쿠비 마? - 빗탑으, 타팟달."
+          "text": "أنت وقح ووجهك صفيق للغاية.",
+          "roman": "Anta waqiḥun wa-wajhuka ṣafīqun lil-ghāyah."
         },
         "ru": {
           "code": "ru-RU",
           "name": "러시아어",
           "flag": "🇷🇺",
-          "text": "Можно стакан воды, пожалуйста? - Конечно, вот, держите.",
-          "roman": "모즈나 스타칸 바듸, 빠잘루이스타? - 카녜시나, 보트, 제르지쩨."
+          "text": "Ну и наглец же ты, какая наглость!",
+          "roman": "Nu i naglets zhe ty, kakaya naglost'!"
         }
       },
-      "pool_type": "기초",
+      "pool_type": "일상",
       "d_day": "오늘"
     },
     "polyglot_5d": [
+      {
+        "theme": "입버릇 관용구: 단념과 태도",
+        "meaning": "너 정말 낯짝도 두껍다 (뻔뻔해).",
+        "translations": {
+          "en": {
+            "code": "en-US",
+            "name": "영어",
+            "flag": "🇺🇸",
+            "text": "You are brazen-faced.",
+            "roman": ""
+          },
+          "ja": {
+            "code": "ja-JP",
+            "name": "일본어",
+            "flag": "🇯🇵",
+            "text": "本当に厚かましくて図々しいね。",
+            "roman": "Hontō ni atsukamashikute zūzūshii ne."
+          },
+          "zh": {
+            "code": "zh-CN",
+            "name": "중국어",
+            "flag": "🇨🇳",
+            "text": "你的脸皮可真够厚的。",
+            "roman": "Nǐ de liǎnpí kě zhēn gòu hòu de."
+          },
+          "fr": {
+            "code": "fr-FR",
+            "name": "프랑스어",
+            "flag": "🇫🇷",
+            "text": "Tu es vraiment sans vergogne, quel culot !",
+            "roman": ""
+          },
+          "de": {
+            "code": "de-DE",
+            "name": "독일어",
+            "flag": "🇩🇪",
+            "text": "Du bist ja unfassbar dreist und unverschämt.",
+            "roman": ""
+          },
+          "es": {
+            "code": "es-ES",
+            "name": "스페인어",
+            "flag": "🇪🇸",
+            "text": "¡Qué cara más dura tienes!",
+            "roman": ""
+          },
+          "ar": {
+            "code": "ar-SA",
+            "name": "아랍어",
+            "flag": "🇸🇦",
+            "text": "أنت وقح ووجهك صفيق للغاية.",
+            "roman": "Anta waqiḥun wa-wajhuka ṣafīqun lil-ghāyah."
+          },
+          "ru": {
+            "code": "ru-RU",
+            "name": "러시아어",
+            "flag": "🇷🇺",
+            "text": "Ну и наглец же ты, какая наглость!",
+            "roman": "Nu i naglets zhe ty, kakaya naglost'!"
+          }
+        },
+        "pool_type": "일상",
+        "d_day": "오늘"
+      },
       {
         "theme": "물품 요청 (Q&A)",
         "type": "기초",
@@ -1087,7 +1150,7 @@
           }
         },
         "pool_type": "기초",
-        "d_day": "오늘"
+        "d_day": "D-1"
       },
       {
         "theme": "입버릇 관용구: 단념과 태도",
@@ -1151,7 +1214,7 @@
           }
         },
         "pool_type": "일상",
-        "d_day": "D-1"
+        "d_day": "D-2"
       },
       {
         "theme": "일치 확인 (Q&A)",
@@ -1216,7 +1279,7 @@
           }
         },
         "pool_type": "기초",
-        "d_day": "D-2"
+        "d_day": "D-3"
       },
       {
         "theme": "입버릇 관용구: 숙달과 결의",
@@ -1280,85 +1343,20 @@
           }
         },
         "pool_type": "일상",
-        "d_day": "D-3"
-      },
-      {
-        "theme": "준비 확인 (Q&A)",
-        "type": "기초",
-        "meaning": "Q: 지금 준비되셨나요? / A: 네, 다 준비됐어요. 바로 가요.",
-        "translations": {
-          "en": {
-            "code": "en-US",
-            "name": "영어",
-            "flag": "🇺🇸",
-            "text": "Are you ready now? - Yes, I'm all set. Let's go.",
-            "roman": "아 유 레디 나우? - 예스, 아임 올 셋. 렛츠 고."
-          },
-          "ja": {
-            "code": "ja-JP",
-            "name": "일본어",
-            "flag": "🇯🇵",
-            "text": "準備はできましたか？ - はい、準備完了です。行きましょう。",
-            "roman": "쥰비와 데키마시타 카? - 하이, 쥰비 칸료-데스. 이키마쇼-."
-          },
-          "zh": {
-            "code": "zh-CN",
-            "name": "중국어",
-            "flag": "🇨🇳",
-            "text": "你准备好了吗？ - 好了，都准备好了，走吧。",
-            "roman": "니 준베이 하오 러 마? - 하오 러, 더우 준베이 하오 러, 저우 바."
-          },
-          "fr": {
-            "code": "fr-FR",
-            "name": "프랑스어",
-            "flag": "🇫🇷",
-            "text": "Êtes-vous prêt maintenant ? - Oui, je suis prêt. Allons-y.",
-            "roman": "에트 부 프레 맹트낭? - 위, 즈 슈이 프레. 알롱-지."
-          },
-          "de": {
-            "code": "de-DE",
-            "name": "독일어",
-            "flag": "🇩🇪",
-            "text": "Sind Sie jetzt bereit? - Ja, alles bereit. Los geht's.",
-            "roman": "진트 지 제츠트 베라이트? - 야, 알레스 베라이트. 로스 게츠."
-          },
-          "es": {
-            "code": "es-ES",
-            "name": "스페인어",
-            "flag": "🇪🇸",
-            "text": "¿Estás listo ahora? - Sí, estoy listo. Vamos.",
-            "roman": "에스따스 리스토 아오라? - 시, 에스또이 리스토. 바모스."
-          },
-          "ar": {
-            "code": "ar-SA",
-            "name": "아랍어",
-            "flag": "🇸🇦",
-            "text": "هل أنت مستعد الآن؟ - نعم، أنا جاهز تماماً. هيا بنا.",
-            "roman": "할 안타 무스타잇둔 알-안? - 나암, 아나 자히준 타마만. 하이야 비나."
-          },
-          "ru": {
-            "code": "ru-RU",
-            "name": "러시아어",
-            "flag": "🇷🇺",
-            "text": "Вы готовы? - Да, всё готово. Поехали.",
-            "roman": "브이 가토븨? - 다, 프쇼 가토바. 빠예할리."
-          }
-        },
-        "pool_type": "기초",
         "d_day": "D-4"
       }
     ],
     "philosophy": {
-      "thinker": "손자 (孫子)",
-      "era": "기원전 6세기 춘추시대 중국",
-      "concept": "부전이굴인지병 (不戰而屈人之兵)",
-      "quote": "“백 번 싸워 백 번 이기는 것이 최선이 아니요, 싸우지 않고 적을 굴복시키는 것이 최선이다.”",
+      "thinker": "니콜로 마키아벨리 (Niccolò Machiavelli)",
+      "era": "15~16세기 르네상스 이탈리아",
+      "concept": "비르투(Virtù)와 포르투나(Fortuna)",
+      "quote": "“군주는 사랑받는 존재가 되기보다 두려운 존재가 되는 편이 훨씬 안전하다.”",
       "bullets": [
-        "국력의 전면적 소모를 초래하는 정면충돌(전쟁)을 피하고 지략과 외교로 승기를 굳히는 모공(謀攻)",
-        "적을 알고 나를 알면 백 번 싸워도 위태롭지 않다는 철저한 정보력(Intelligence) 우위",
-        "형세에 따라 물처럼 유연하게 형태를 바꾸는 비대칭 전략의 추구"
+        "운명의 여신(포르투나)은 거친 강물과 같아, 평소 제방을 쌓아둔 역량(비르투) 있는 자만이 다스릴 수 있음",
+        "이상적 도덕주의를 탈피하여 권력과 인간 본성의 비정한 실재(Realpolitik)를 통찰",
+        "국가의 존립과 지속 가능성을 위해 냉철한 결단과 제도적 강제력을 중시"
       ],
-      "application": "출혈 가격 경쟁을 피하고, 생태계 락인(Lock-in)과 우회 기술 개발을 통해 시장을 선점하는 기업 전략의 핵심 근거가 됩니다."
+      "application": "미·중 기술 패권 및 공급망 재편 속에서 명분보다 국가의 실익과 독점적 기술 안보를 우선시해야 하는 현대 지정학의 핵심 잣대를 제공합니다."
     }
   },
   "trends": {
@@ -1417,53 +1415,53 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "AI 부정행위 대책회의",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=AI%20%EB%B6%80%EC%A0%95%ED%96%89%EC%9C%84%20%EB%8C%80%EC%B1%85%ED%9A%8C%EC%9D%98"
+        "title": "청와대 AI 부정행위 전수조사",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B2%AD%EC%99%80%EB%8C%80%20AI%20%EB%B6%80%EC%A0%95%ED%96%89%EC%9C%84%20%EC%A0%84%EC%88%98%EC%A1%B0%EC%82%AC"
       },
       {
         "rank": 2,
-        "title": "고경표 만취 운전 사건",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B3%A0%EA%B2%BD%ED%91%9C%20%EB%A7%8C%EC%B7%A8%20%EC%9A%B4%EC%A0%84%20%EC%82%AC%EA%B1%B4"
+        "title": "한국 야구 APBC 준우승",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%9C%EA%B5%AD%20%EC%95%BC%EA%B5%AC%20APBC%20%EC%A4%80%EC%9A%B0%EC%8A%B9"
       },
       {
         "rank": 3,
-        "title": "박태환",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B0%95%ED%83%9C%ED%99%98"
-      },
-      {
-        "rank": 4,
-        "title": "스페이스X 우주선 회수",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4X%20%EC%9A%B0%EC%A3%BC%EC%84%A0%20%ED%9A%8C%EC%88%98"
-      },
-      {
-        "rank": 5,
         "title": "이란 미군기지 드론 공격",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B4%EB%9E%80%20%EB%AF%B8%EA%B5%B0%EA%B8%B0%EC%A7%80%20%EB%93%9C%EB%A1%A0%20%EA%B3%B5%EA%B2%A9"
       },
       {
+        "rank": 4,
+        "title": "김유정 100일 거짓말",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%9C%A0%EC%A0%95%20100%EC%9D%BC%20%EA%B1%B0%EC%A7%93%EB%A7%90"
+      },
+      {
+        "rank": 5,
+        "title": "젠슨 황 복귀 청원",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A0%A0%EC%8A%A8%20%ED%99%A9%20%EB%B3%B5%EA%B7%80%20%EC%B2%AD%EC%9B%90"
+      },
+      {
         "rank": 6,
-        "title": "구자욱",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B5%AC%EC%9E%90%EC%9A%B1"
+        "title": "고경표, 활동 중단",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B3%A0%EA%B2%BD%ED%91%9C%2C%20%ED%99%9C%EB%8F%99%20%EC%A4%91%EB%8B%A8"
       },
       {
         "rank": 7,
-        "title": "호르무즈 유조선 기뢰 화재",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%98%B8%EB%A5%B4%EB%AC%B4%EC%A6%88%20%EC%9C%A0%EC%A1%B0%EC%84%A0%20%EA%B8%B0%EB%A2%B0%20%ED%99%94%EC%9E%AC"
+        "title": "입양",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9E%85%EC%96%91"
       },
       {
         "rank": 8,
-        "title": "투모로우바이투게더 퍼펙트 스톰",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%88%AC%EB%AA%A8%EB%A1%9C%EC%9A%B0%EB%B0%94%EC%9D%B4%ED%88%AC%EA%B2%8C%EB%8D%94%20%ED%8D%BC%ED%8E%99%ED%8A%B8%20%EC%8A%A4%ED%86%B0"
+        "title": "퇴직금",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%87%B4%EC%A7%81%EA%B8%88"
       },
       {
         "rank": 9,
-        "title": "금오산",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B8%88%EC%98%A4%EC%82%B0"
+        "title": "김민석 최민희 윤리심판원 이첩",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EB%AF%BC%EC%84%9D%20%EC%B5%9C%EB%AF%BC%ED%9D%AC%20%EC%9C%A4%EB%A6%AC%EC%8B%AC%ED%8C%90%EC%9B%90%20%EC%9D%B4%EC%B2%A9"
       },
       {
         "rank": 10,
-        "title": "시험용 초소형 카메라",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%8B%9C%ED%97%98%EC%9A%A9%20%EC%B4%88%EC%86%8C%ED%98%95%20%EC%B9%B4%EB%A9%94%EB%9D%BC"
+        "title": "알렉산더 즈베레프",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%8C%EB%A0%89%EC%82%B0%EB%8D%94%20%EC%A6%88%EB%B2%A0%EB%A0%88%ED%94%84"
       }
     ],
     "youtube_popular": [
@@ -1471,23 +1469,23 @@
         "rank": 1,
         "title": "Crush (크러쉬) - 삐그덕 Live with 조이 (JOY)",
         "channel": "Crush",
-        "views": "428만회",
+        "views": "451만회",
         "thumb": "https://i.ytimg.com/vi/v_71o1VU28o/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=v_71o1VU28o"
       },
       {
         "rank": 2,
-        "title": "[최종회 예고] ＂이제 의사 안 하실 거잖아요＂ 폐원 위기에 놓인 구서대학병원과 환자의 수술을 중단한 김지원?! | 닥터X : 하얀 마피아의 시대 | SBS",
-        "channel": "SBS ",
-        "views": "16만회",
-        "thumb": "https://i.ytimg.com/vi/_GdLSNdDVq8/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=_GdLSNdDVq8"
+        "title": "천천히 강렬하게 | 공식 티저 예고편 | 넷플릭스",
+        "channel": "Netflix Korea 넷플릭스 코리아",
+        "views": "208만회",
+        "thumb": "https://i.ytimg.com/vi/iEmGtIh60DE/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=iEmGtIh60DE"
       },
       {
         "rank": 3,
         "title": "GEN vs BLG | 결승전 | 2026 월드 챔피언십",
         "channel": "LCK",
-        "views": "454만회",
+        "views": "459만회",
         "thumb": "https://i.ytimg.com/vi/qQ4QqT20Ibs/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=qQ4QqT20Ibs"
       },
@@ -1495,31 +1493,31 @@
         "rank": 4,
         "title": "ENHYPEN (엔하이픈) 'I Want You' Official MV",
         "channel": "HYBE LABELS",
-        "views": "1658만회",
+        "views": "1897만회",
         "thumb": "https://i.ytimg.com/vi/dE_Ro8Sac2M/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=dE_Ro8Sac2M"
       },
       {
         "rank": 5,
-        "title": "천천히 강렬하게 | 공식 티저 예고편 | 넷플릭스",
-        "channel": "Netflix Korea 넷플릭스 코리아",
-        "views": "198만회",
-        "thumb": "https://i.ytimg.com/vi/iEmGtIh60DE/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=iEmGtIh60DE"
+        "title": "[최종회 예고] ＂이제 의사 안 하실 거잖아요＂ 폐원 위기에 놓인 구서대학병원과 환자의 수술을 중단한 김지원?! | 닥터X : 하얀 마피아의 시대 | SBS",
+        "channel": "SBS ",
+        "views": "16만회",
+        "thumb": "https://i.ytimg.com/vi/_GdLSNdDVq8/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=_GdLSNdDVq8"
       },
       {
         "rank": 6,
-        "title": "푸짐하게 싸기",
-        "channel": "괴물쥐 유튜브",
-        "views": "54만회",
-        "thumb": "https://i.ytimg.com/vi/JfwYahPn-hk/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=JfwYahPn-hk"
+        "title": "정말 달콤해",
+        "channel": "랄로",
+        "views": "48만회",
+        "thumb": "https://i.ytimg.com/vi/vc9AWxS-cv4/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=vc9AWxS-cv4"
       },
       {
         "rank": 7,
         "title": "A2O LITE 'NEON' INFINITE Music Video",
         "channel": "A2O WORLD",
-        "views": "255만회",
+        "views": "268만회",
         "thumb": "https://i.ytimg.com/vi/G_ej20-QWng/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=G_ej20-QWng"
       },
@@ -1527,23 +1525,23 @@
         "rank": 8,
         "title": "둠스데이 전 예방접종! 마블 멀티버스 망작 TOP 10",
         "channel": "닥터수제의 나사빠진 영화채널",
-        "views": "7만회",
+        "views": "8만회",
         "thumb": "https://i.ytimg.com/vi/gnlxw40Epwk/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=gnlxw40Epwk"
       },
       {
         "rank": 9,
-        "title": "쵸비 이번엔 될 줄 알았다. l GEN vs BLG 롤드컵 결승 리뷰",
-        "channel": "정글선생 진 영준",
-        "views": "36만회",
-        "thumb": "https://i.ytimg.com/vi/nhM-rwtbnfg/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=nhM-rwtbnfg"
+        "title": "혼자하기 무서워서 멘파님 불렀는데, 둘 다 기절할 뻔했습니다. [DONT-SPLASH]",
+        "channel": "혜안",
+        "views": "27만회",
+        "thumb": "https://i.ytimg.com/vi/BPWrmuM_NKY/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=BPWrmuM_NKY"
       },
       {
         "rank": 10,
         "title": "너가 인스타를 안해서",
         "channel": "Yoon Korgi - Topic",
-        "views": "51만회",
+        "views": "52만회",
         "thumb": "https://i.ytimg.com/vi/Nf9NiNUPisE/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=Nf9NiNUPisE"
       }
