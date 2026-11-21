@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21 12:40:15",
+  "updated_at": "2026-11-21 20:56:32",
   "us2y": {
     "value": 4.63,
     "change": -0.13
@@ -91,6 +91,11 @@
     ],
     "global": [
       {
+        "title": "How China is using summits to expand its global influence",
+        "link": "https://www.cnbc.com/2026/11/21/china-xi-trump-putin-global-diplomacy-shenzhen.html",
+        "date": "11-21 06:00"
+      },
+      {
         "title": "Prediction markets outlook for stocks in 2026 dims amid AI sell-off",
         "link": "https://www.cnbc.com/2026/11/20/sp-500-8000-kalshi-odds-ai-selloff.html",
         "date": "11-20 19:59"
@@ -109,11 +114,6 @@
         "title": "U.S.-China trade, Taiwan and tech tensions remain unresolved as Trump returns from Asia",
         "link": "https://www.cnbc.com/2026/11/20/apec-summit-trump-xi-china-trade-taiwan.html",
         "date": "11-20 13:29"
-      },
-      {
-        "title": "Trump praises ‘great relationship’ with Putin after meeting, as Ukraine war takes center stage",
-        "link": "https://www.cnbc.com/2026/11/19/trump-xi-putin-china-apec-.html",
-        "date": "11-19 09:02"
       }
     ],
     "tech": [
@@ -133,17 +133,22 @@
         "date": "11-20 18:11"
       },
       {
-        "title": "[전자신문] [소부장 테크페어] SK파워텍, SiC 개방형 파운드리로 전력반도체 국산화",
-        "link": "https://www.etnews.com/20261120000259",
-        "date": "11-21 12:00"
+        "title": "[전자신문] 울산 SK AI데이터센터 찾은 李…“韓 AX는 AI 고속도로가 열 것”",
+        "link": "https://www.etnews.com/20261121000052",
+        "date": "11-21 18:08"
       },
       {
-        "title": "[전자신문] [소부장 테크페어]연구기관·산업계 기술상담…첨단 패키징부터 차량 광학 기술까지 사업화 논의",
-        "link": "https://www.etnews.com/20261120000243",
-        "date": "11-21 12:00"
+        "title": "[전자신문] 韓 조선업계 산재 사고 줄고 질병 늘었다…지난해 질병재해 1900명 육박",
+        "link": "https://www.etnews.com/20261120000253",
+        "date": "11-21 18:00"
       }
     ],
     "domestic": [
+      {
+        "title": "코스피와 따로 가는 달러-원…하반기 들어 역상관 약화",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4445857",
+        "date": "11-21 13:01"
+      },
       {
         "title": "\"듀레이션보다는 커브\"…노무라, 2·10년 스티프너 전략 제시",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4445855",
@@ -163,11 +168,6 @@
         "title": "수출 1조달러 시대…벌어들인 달러는 얼마나 서울환시로 돌아올까",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4445853",
         "date": "11-21 09:40"
-      },
-      {
-        "title": "\"올해 국내 ESG채권 발행 16% 증가…내년엔 일반기업 참여 확대가 관건\"",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4445852",
-        "date": "11-21 09:20"
       }
     ]
   },
@@ -223,34 +223,34 @@
       "detail": "10Y-2Y 스프레드가 +28 bp로 정상 우상향 흐름을 나타내며 침체 우려가 완화되고 있습니다."
     },
     "commodities": {
-      "badge": "구리 $5.47",
-      "title": "닥터 코퍼 $5.47선 및 귀금속 헤지 수요",
+      "badge": "구리 $5.48",
+      "title": "닥터 코퍼 $5.48선 및 귀금속 헤지 수요",
       "metrics": [
         {
           "id": "copper",
           "name": "구리(동)",
-          "val": "$5.47",
-          "chg": "-2.67%",
+          "val": "$5.48",
+          "chg": "-2.49%",
           "up": false
         },
         {
           "id": "gold",
           "name": "금(Gold)",
-          "val": "$3,539.0",
-          "chg": "-3.98%",
+          "val": "$3,515.4",
+          "chg": "-4.62%",
           "up": false
         },
         {
           "id": "silver",
           "name": "은(Silver)",
-          "val": "$41.08",
-          "chg": "-7.31%",
+          "val": "$41.03",
+          "chg": "-7.42%",
           "up": false
         }
       ],
       "bullets": [
-        "구리 $5.47/lb (-2.67%) - AI 전력망 설비 수요 반영",
-        "금 $3,539/oz, 은 $41.08/oz - 통화가치 헤지"
+        "구리 $5.48/lb (-2.49%) - AI 전력망 설비 수요 반영",
+        "금 $3,515/oz, 은 $41.03/oz - 통화가치 헤지"
       ],
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
@@ -268,8 +268,8 @@
         {
           "id": "dxy",
           "name": "달러인덱스",
-          "val": "103.84pt",
-          "chg": "-0.06%",
+          "val": "103.81pt",
+          "chg": "-0.09%",
           "up": false
         },
         {
@@ -281,25 +281,25 @@
         }
       ],
       "bullets": [
-        "달러 인덱스 103.84pt - 미국 성장 우위 지속",
+        "달러 인덱스 103.81pt - 미국 성장 우위 지속",
         "엔/달러 159.71엔 - 엔 캐리 트레이드 청산 리스크 모니터링"
       ],
       "detail": "엔화 및 원화의 변동성은 글로벌 유동성 흐름과 외국인 수급의 핵심 잣대입니다."
     },
     "oil": {
-      "badge": "WTI $83.62",
-      "title": "WTI 배럴당 $83.62선 박스권 안정",
+      "badge": "WTI $83.98",
+      "title": "WTI 배럴당 $83.98선 박스권 안정",
       "metrics": [
         {
           "id": "wti",
           "name": "WTI 원유",
-          "val": "$83.62",
-          "chg": "+0.49%",
+          "val": "$83.98",
+          "chg": "+0.93%",
           "up": true
         }
       ],
       "bullets": [
-        "WTI 선물 $83.62/배럴 - 에너지 원가 압박 경감",
+        "WTI 선물 $83.98/배럴 - 에너지 원가 압박 경감",
         "유가 안정세로 헤드라인 인플레이션 자극 제한"
       ],
       "detail": "유가 안정은 제조업 마진을 방어해주는 핵심 요인입니다."
@@ -307,28 +307,28 @@
   },
   "indicators": {
     "copper": {
-      "price": 5.47,
-      "change": -2.67
+      "price": 5.48,
+      "change": -2.49
     },
     "gold": {
-      "price": 3539.0,
-      "change": -3.98
+      "price": 3515.4,
+      "change": -4.62
     },
     "silver": {
-      "price": 41.08,
-      "change": -7.31
+      "price": 41.03,
+      "change": -7.42
     },
     "wti": {
-      "price": 83.62,
-      "change": 0.49
+      "price": 83.98,
+      "change": 0.93
     },
     "usdkrw": {
       "price": 1334.79,
       "change": 0.33
     },
     "dxy": {
-      "price": 103.84,
-      "change": -0.06
+      "price": 103.81,
+      "change": -0.09
     },
     "usdjpy": {
       "price": 159.71,
@@ -595,9 +595,9 @@
       },
       {
         "date": "11-20",
-        "copper": 5.47,
-        "gold": 3539.0,
-        "silver": 41.08
+        "copper": 5.48,
+        "gold": 3515.4,
+        "silver": 41.03
       }
     ],
     "fx": [
@@ -718,7 +718,7 @@
       {
         "date": "11-20",
         "usdkrw": 1334.79,
-        "dxy": 103.84,
+        "dxy": 103.81,
         "usdjpy": 159.71
       }
     ],
@@ -820,8 +820,8 @@
       },
       {
         "date": "11-20",
-        "wti": 83.62,
-        "change": 0.49
+        "wti": 83.98,
+        "change": 0.93
       }
     ]
   },
@@ -1417,53 +1417,53 @@
     "namu_rank": [
       {
         "rank": 1,
+        "title": "22일 첫차 경부선 운행",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=22%EC%9D%BC%20%EC%B2%AB%EC%B0%A8%20%EA%B2%BD%EB%B6%80%EC%84%A0%20%EC%9A%B4%ED%96%89"
+      },
+      {
+        "rank": 2,
+        "title": "코르티스, 1년 만에 대상 수상",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%BD%94%EB%A5%B4%ED%8B%B0%EC%8A%A4%2C%201%EB%85%84%20%EB%A7%8C%EC%97%90%20%EB%8C%80%EC%83%81%20%EC%88%98%EC%83%81"
+      },
+      {
+        "rank": 3,
+        "title": "수원 삼성 K리그2 우승 확정",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%88%98%EC%9B%90%20%EC%82%BC%EC%84%B1%20K%EB%A6%AC%EA%B7%B82%20%EC%9A%B0%EC%8A%B9%20%ED%99%95%EC%A0%95"
+      },
+      {
+        "rank": 4,
+        "title": "소정리역 화물열차 탈선",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%86%8C%EC%A0%95%EB%A6%AC%EC%97%AD%20%ED%99%94%EB%AC%BC%EC%97%B4%EC%B0%A8%20%ED%83%88%EC%84%A0"
+      },
+      {
+        "rank": 5,
         "title": "트럼프 한반도 논의",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%8A%B8%EB%9F%BC%ED%94%84%20%ED%95%9C%EB%B0%98%EB%8F%84%20%EB%85%BC%EC%9D%98"
       },
       {
-        "rank": 2,
-        "title": "코레일 천안~대전 버스 수송",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%BD%94%EB%A0%88%EC%9D%BC%20%EC%B2%9C%EC%95%88~%EB%8C%80%EC%A0%84%20%EB%B2%84%EC%8A%A4%20%EC%88%98%EC%86%A1"
-      },
-      {
-        "rank": 3,
-        "title": "다저스 루이스 영입",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%8B%A4%EC%A0%80%EC%8A%A4%20%EB%A3%A8%EC%9D%B4%EC%8A%A4%20%EC%98%81%EC%9E%85"
-      },
-      {
-        "rank": 4,
-        "title": "조희대 탄핵 공방 심화",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A1%B0%ED%9D%AC%EB%8C%80%20%ED%83%84%ED%95%B5%20%EA%B3%B5%EB%B0%A9%20%EC%8B%AC%ED%99%94"
-      },
-      {
-        "rank": 5,
-        "title": "알테오젠",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%8C%ED%85%8C%EC%98%A4%EC%A0%A0"
-      },
-      {
         "rank": 6,
-        "title": "논술 AI 부정행위 방지",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%85%BC%EC%88%A0%20AI%20%EB%B6%80%EC%A0%95%ED%96%89%EC%9C%84%20%EB%B0%A9%EC%A7%80"
+        "title": "추성훈 은퇴전 고척돔 2만 관중",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B6%94%EC%84%B1%ED%9B%88%20%EC%9D%80%ED%87%B4%EC%A0%84%20%EA%B3%A0%EC%B2%99%EB%8F%94%202%EB%A7%8C%20%EA%B4%80%EC%A4%91"
       },
       {
         "rank": 7,
-        "title": "굿파트너 2",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B5%BF%ED%8C%8C%ED%8A%B8%EB%84%88%202"
+        "title": "마타",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%A7%88%ED%83%80"
       },
       {
         "rank": 8,
-        "title": "재혼 황후 글로벌 1위 등극",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9E%AC%ED%98%BC%20%ED%99%A9%ED%9B%84%20%EA%B8%80%EB%A1%9C%EB%B2%8C%201%EC%9C%84%20%EB%93%B1%EA%B7%B9"
+        "title": "인도네시아 규모 6.8 지진",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9D%B8%EB%8F%84%EB%84%A4%EC%8B%9C%EC%95%84%20%EA%B7%9C%EB%AA%A8%206.8%20%EC%A7%80%EC%A7%84"
       },
       {
         "rank": 9,
-        "title": "경부선",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B2%BD%EB%B6%80%EC%84%A0"
+        "title": "김민석",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EB%AF%BC%EC%84%9D"
       },
       {
         "rank": 10,
-        "title": "소정리역 화물열차 탈선",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%86%8C%EC%A0%95%EB%A6%AC%EC%97%AD%20%ED%99%94%EB%AC%BC%EC%97%B4%EC%B0%A8%20%ED%83%88%EC%84%A0"
+        "title": "클로드 리만 가설 증명",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%81%B4%EB%A1%9C%EB%93%9C%20%EB%A6%AC%EB%A7%8C%20%EA%B0%80%EC%84%A4%20%EC%A6%9D%EB%AA%85"
       }
     ],
     "youtube_popular": [
@@ -1471,7 +1471,7 @@
         "rank": 1,
         "title": "GiiiRIP",
         "channel": "BIGBANG - Topic",
-        "views": "151만회",
+        "views": "199만회",
         "thumb": "https://i.ytimg.com/vi/IQI2qaqHFlg/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=IQI2qaqHFlg"
       },
@@ -1479,73 +1479,73 @@
         "rank": 2,
         "title": "추성훈 vs 크리스 리벤 [Official Trailer]",
         "channel": "블랙컴뱃",
-        "views": "68만회",
+        "views": "77만회",
         "thumb": "https://i.ytimg.com/vi/pVFdva-Ifns/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=pVFdva-Ifns"
       },
       {
         "rank": 3,
-        "title": "와...모두가 속았습니다...≪혜안져스 마인크래프트 크라임씬≫",
-        "channel": "혜안",
-        "views": "30만회",
-        "thumb": "https://i.ytimg.com/vi/T37qFqm9lvM/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=T37qFqm9lvM"
+        "title": "드디어 시작된 멸망전!! 우승 팀 짜보겠습니다｜멸망전EP.01",
+        "channel": "저라뎃 JUSTLIKETHAT",
+        "views": "24만회",
+        "thumb": "https://i.ytimg.com/vi/zHLQ0iITbdk/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=zHLQ0iITbdk"
       },
       {
         "rank": 4,
-        "title": "Do you know (2026 Version)",
-        "channel": "SOMEDAY - Topic",
-        "views": "55만회",
-        "thumb": "https://i.ytimg.com/vi/LOLXD85SThc/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=LOLXD85SThc"
-      },
-      {
-        "rank": 5,
-        "title": "얘로 메가봉크를 어떻게 해 【포케봉크】",
-        "channel": "근가놈",
-        "views": "34만회",
-        "thumb": "https://i.ytimg.com/vi/Ui8HrAe5Wjk/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=Ui8HrAe5Wjk"
-      },
-      {
-        "rank": 6,
         "title": "난 못해 (Feat. 이병철)",
         "channel": "Private Story - Topic",
-        "views": "28만회",
+        "views": "37만회",
         "thumb": "https://i.ytimg.com/vi/XKYp0bYquv4/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=XKYp0bYquv4"
       },
       {
+        "rank": 5,
+        "title": "와...모두가 속았습니다...≪혜안져스 마인크래프트 크라임씬≫",
+        "channel": "혜안",
+        "views": "44만회",
+        "thumb": "https://i.ytimg.com/vi/T37qFqm9lvM/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=T37qFqm9lvM"
+      },
+      {
+        "rank": 6,
+        "title": "Do you know (2026 Version)",
+        "channel": "SOMEDAY - Topic",
+        "views": "65만회",
+        "thumb": "https://i.ytimg.com/vi/LOLXD85SThc/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=LOLXD85SThc"
+      },
+      {
         "rank": 7,
-        "title": "제우스 호소인",
-        "channel": "괴물쥐 유튜브",
-        "views": "71만회",
-        "thumb": "https://i.ytimg.com/vi/wkg8kL5nx_4/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=wkg8kL5nx_4"
+        "title": "개발자 정신 상태가 궁금한 백룸 게임",
+        "channel": "김재원의 즐거운 세상",
+        "views": "18만회",
+        "thumb": "https://i.ytimg.com/vi/NVfyi_UkO2o/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=NVfyi_UkO2o"
       },
       {
         "rank": 8,
         "title": "베스티(BESTie) - 연애의 조건(Love Options) | Suit Dance | 수트댄스 | Performance | 4K",
         "channel": "1theK Originals - 원더케이 오리지널",
-        "views": "72만회",
+        "views": "101만회",
         "thumb": "https://i.ytimg.com/vi/FVNI7zBuk-4/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=FVNI7zBuk-4"
       },
       {
         "rank": 9,
-        "title": "팀원을 미치게 하는법",
-        "channel": "PAKA",
-        "views": "55만회",
-        "thumb": "https://i.ytimg.com/vi/VqogAfzqrmE/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=VqogAfzqrmE"
+        "title": "얘로 메가봉크를 어떻게 해 【포케봉크】",
+        "channel": "근가놈",
+        "views": "44만회",
+        "thumb": "https://i.ytimg.com/vi/Ui8HrAe5Wjk/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=Ui8HrAe5Wjk"
       },
       {
         "rank": 10,
-        "title": "WhOLLiN (홀린) '딱 1분만' Official MV",
-        "channel": "WhOLLiN 홀린",
-        "views": "9만회",
-        "thumb": "https://i.ytimg.com/vi/G-YQHFOU9_g/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=G-YQHFOU9_g"
+        "title": "ICONIC",
+        "channel": "CL (from 2NE1) - Topic",
+        "views": "4만회",
+        "thumb": "https://i.ytimg.com/vi/nnffnIqaTrk/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=nnffnIqaTrk"
       }
     ]
   }
