@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22 21:58:07",
+  "updated_at": "2026-11-23 05:10:10",
   "us2y": {
     "value": 4.63,
     "change": -0.13
@@ -91,6 +91,11 @@
     ],
     "global": [
       {
+        "title": "Employees at Eric Trump-backed robot startup lose health benefits as company's cash crunch deepens",
+        "link": "https://www.cnbc.com/2026/11/22/foundation-future-industries-health-benefits-payroll-base-group.html",
+        "date": "11-22 18:55"
+      },
+      {
         "title": "How China is using summits to expand its global influence",
         "link": "https://www.cnbc.com/2026/11/21/china-xi-trump-putin-global-diplomacy-shenzhen.html",
         "date": "11-21 06:00"
@@ -109,14 +114,14 @@
         "title": "The bull market has a new problem. The 'smart money' is selling",
         "link": "https://www.cnbc.com/2026/11/20/equity-issuance-bull-market-problem.html",
         "date": "11-20 14:15"
-      },
-      {
-        "title": "U.S.-China trade, Taiwan and tech tensions remain unresolved as Trump returns from Asia",
-        "link": "https://www.cnbc.com/2026/11/20/apec-summit-trump-xi-china-trade-taiwan.html",
-        "date": "11-20 13:29"
       }
     ],
     "tech": [
+      {
+        "title": "[디일렉] 정민재 시노펙스 부사장, 중견기업인의 날 대통령상",
+        "link": "https://www.thelec.kr/news/articleView.html?idxno=65719",
+        "date": "11-22 23:27"
+      },
       {
         "title": "[디일렉] LG U+, AI 인프라·플랫폼 중심 재편…김홍근 부사장 총괄",
         "link": "https://www.thelec.kr/news/articleView.html?idxno=65743",
@@ -128,22 +133,22 @@
         "date": "11-22 13:09"
       },
       {
-        "title": "[디일렉] HD건설기계, 인도네시아 통합 제품 센터 준공",
-        "link": "https://www.thelec.kr/news/articleView.html?idxno=65741",
-        "date": "11-22 11:49"
+        "title": "[전자신문] [테크 차이나] 선물가격을 지탱하는 창고…중국 구리 인도망 실체",
+        "link": "https://www.etnews.com/20261105000419",
+        "date": "11-23 05:00"
       },
       {
-        "title": "[전자신문] 정부, 증안펀드 가동 준비 착수…증시 변동성 확대 대응",
-        "link": "https://www.etnews.com/20261122000101",
-        "date": "11-22 20:54"
-      },
-      {
-        "title": "[전자신문] 수원서 만나는 일본 문화…'재팬위크' 26일까지 전시·공연 등 개최",
-        "link": "https://www.etnews.com/20261122000100",
-        "date": "11-22 20:01"
+        "title": "[전자신문] [ET포토] 김다현, '반가워요~'",
+        "link": "https://www.etnews.com/20261123000048",
+        "date": "11-23 03:11"
       }
     ],
     "domestic": [
+      {
+        "title": "美재무 \"연준 과잉 긴축 시 실수 가능성\"…증시 투매 이유로 지목",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4445907",
+        "date": "11-23 03:41"
+      },
       {
         "title": "[뉴욕환시-주간] 방향타는 증시에…도전받는 '테크노달러' 내러티브",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4445899",
@@ -163,11 +168,6 @@
         "title": "[채권-주간] 기술주 투매가 밀어붙인 강세…금통위가 브레이크 걸까",
         "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4445889",
         "date": "11-22 13:00"
-      },
-      {
-        "title": "이형일, 오늘 '긴급 F4회의' 소집…AI 투매發 증시 급락 점검",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4445881",
-        "date": "11-22 10:46"
       }
     ]
   },
@@ -255,14 +255,14 @@
       "detail": "구리 가격의 지지력은 실물 인프라 설비투자 사이클을 대변합니다."
     },
     "fx": {
-      "badge": "원/달러 1,338원 | 엔/달러 ¥159.7",
-      "title": "원/달러 1,337.8원선과 엔/달러 ¥159.7",
+      "badge": "원/달러 1,346원 | 엔/달러 ¥159.7",
+      "title": "원/달러 1,346.0원선과 엔/달러 ¥159.7",
       "metrics": [
         {
           "id": "usdkrw",
           "name": "원/달러",
-          "val": "1,337.8원",
-          "chg": "+0.23%",
+          "val": "1,346.0원",
+          "chg": "+0.84%",
           "up": true
         },
         {
@@ -323,8 +323,8 @@
       "change": 0.24
     },
     "usdkrw": {
-      "price": 1337.8,
-      "change": 0.23
+      "price": 1346.04,
+      "change": 0.84
     },
     "dxy": {
       "price": 103.81,
@@ -717,7 +717,7 @@
       },
       {
         "date": "11-22",
-        "usdkrw": 1337.8,
+        "usdkrw": 1346.04,
         "dxy": 103.81,
         "usdjpy": 159.71
       }
@@ -827,7 +827,7 @@
   },
   "calendar_3w": {
     "w1": {
-      "title": "이번 주 (11/16 ~ 11/22)",
+      "title": "이번 주 (11/23 ~ 11/29)",
       "macro": [
         {
           "date": "11-23 2:45pm",
@@ -859,24 +859,40 @@
     }
   },
   "humanities": {
-    "history_date": "2026-11-22",
+    "history_date": "2026-11-23",
     "history": {
-      "era": "1076년 ~ 1455년 (1358년)",
-      "region": "세계",
-      "year": "1358년",
-      "title": "[1358년] [세계] 프랑스 농민반란(자크리의 난)",
-      "summary": "1358년 - 프랑스 농민반란(자크리의 난)",
+      "era": "1973년 ~ 2020년 (1996년)",
+      "region": "한국",
+      "year": "1996년",
+      "title": "[1996년] [한국] OECD 가입(9월 12일)",
+      "summary": "1996년 - OECD 가입(9월 12일)",
       "bullets": [
-        "발생 연대: 1358년 (세계사)",
-        "프랑스 농민반란(자크리의 난)",
+        "발생 연대: 1996년 (한국사)",
+        "OECD 가입(9월 12일)",
         "당대 세력 균형 및 정치·경제적 제도 변화 반영"
       ],
-      "insight": "1358년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
-      "ref_title": "위키백과 세계사 연표: 1076년 ~ 1455년 (1358년)",
-      "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1076%EB%85%84_~_1455%EB%85%84:~:text=1358",
+      "insight": "1996년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
+      "ref_title": "위키백과 세계사 연표: 1973년 ~ 2020년 (1996년)",
+      "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1973%EB%85%84_~_2020%EB%85%84:~:text=1996",
       "d_day": "오늘"
     },
     "history_5d": [
+      {
+        "era": "1973년 ~ 2020년 (1996년)",
+        "region": "한국",
+        "year": "1996년",
+        "title": "[1996년] [한국] OECD 가입(9월 12일)",
+        "summary": "1996년 - OECD 가입(9월 12일)",
+        "bullets": [
+          "발생 연대: 1996년 (한국사)",
+          "OECD 가입(9월 12일)",
+          "당대 세력 균형 및 정치·경제적 제도 변화 반영"
+        ],
+        "insight": "1996년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
+        "ref_title": "위키백과 세계사 연표: 1973년 ~ 2020년 (1996년)",
+        "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1973%EB%85%84_~_2020%EB%85%84:~:text=1996",
+        "d_day": "오늘"
+      },
       {
         "era": "1076년 ~ 1455년 (1358년)",
         "region": "세계",
@@ -891,7 +907,7 @@
         "insight": "1358년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1076년 ~ 1455년 (1358년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1076%EB%85%84_~_1455%EB%85%84:~:text=1358",
-        "d_day": "오늘"
+        "d_day": "D-1"
       },
       {
         "era": "395년 ~ 1071년 (532년)",
@@ -907,7 +923,7 @@
         "insight": "532년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 395년 ~ 1071년 (532년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#395%EB%85%84_~_1071%EB%85%84:~:text=532",
-        "d_day": "D-1"
+        "d_day": "D-2"
       },
       {
         "era": "1700년 ~ 1869년 (1824년)",
@@ -923,7 +939,7 @@
         "insight": "1824년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1700년 ~ 1869년 (1824년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1700%EB%85%84_~_1869%EB%85%84:~:text=1824",
-        "d_day": "D-2"
+        "d_day": "D-3"
       },
       {
         "era": "1973년 ~ 2020년 (2019년)",
@@ -939,90 +955,140 @@
         "insight": "2019년 한국사의 전개는 한반도 내부 정세와 동아시아 대외 관계의 흐름을 결정지은 핵심 분기점입니다.",
         "ref_title": "위키백과 세계사 연표: 1973년 ~ 2020년 (2019년)",
         "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1973%EB%85%84_~_2020%EB%85%84:~:text=2019",
-        "d_day": "D-3"
-      },
-      {
-        "era": "1924년 ~ 1972년 (1933년)",
-        "region": "세계",
-        "year": "1933년",
-        "title": "[1933년] [세계] 히틀러 집권, 뉴딜정책 실시",
-        "summary": "1933년 - 히틀러 집권, 뉴딜정책 실시",
-        "bullets": [
-          "발생 연대: 1933년 (세계사)",
-          "히틀러 집권, 뉴딜정책 실시",
-          "당대 세력 균형 및 정치·경제적 제도 변화 반영"
-        ],
-        "insight": "1933년의 글로벌 사건은 당시 지역 경제와 문명 교류의 네트워크 구조를 변화시킨 중요한 분기점입니다.",
-        "ref_title": "위키백과 세계사 연표: 1924년 ~ 1972년 (1933년)",
-        "ref_url": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%82%AC_%EC%97%B0%ED%91%9C#1924%EB%85%84_~_1972%EB%85%84:~:text=1933",
         "d_day": "D-4"
       }
     ],
     "polyglot": {
-      "theme": "일상생활: 날씨",
-      "meaning": "날씨가 통 안 도와주네.",
+      "theme": "감사 표현",
+      "type": "기초",
+      "meaning": "정말 감사합니다.",
       "translations": {
         "en": {
           "code": "en-US",
           "name": "영어",
           "flag": "🇺🇸",
-          "text": "The weather is not cooperating.",
-          "roman": ""
+          "text": "Thank you very much.",
+          "roman": "땡큐 베리 머치."
         },
         "ja": {
           "code": "ja-JP",
           "name": "일본어",
           "flag": "🇯🇵",
-          "text": "天気がちっとも味方してくれないね。",
-          "roman": "Tenki ga chittomo mikata shite kurenai ne."
+          "text": "本当にありがとうございます。",
+          "roman": "혼토-니 아리가토- 고자이마스."
         },
         "zh": {
           "code": "zh-CN",
           "name": "중국어",
           "flag": "🇨🇳",
-          "text": "这天气一点儿也不作美。",
-          "roman": "Zhè tiānqì yīdiǎnr yě bù zuòměi."
+          "text": "非常感谢你。",
+          "roman": "페이창 간셰 니."
         },
         "fr": {
           "code": "fr-FR",
           "name": "프랑스어",
           "flag": "🇫🇷",
-          "text": "La météo n'est vraiment pas de notre côté.",
-          "roman": ""
+          "text": "Merci beaucoup.",
+          "roman": "메르시 보꾸."
         },
         "de": {
           "code": "de-DE",
           "name": "독일어",
           "flag": "🇩🇪",
-          "text": "Das Wetter spielt einfach nicht mit.",
-          "roman": ""
+          "text": "Vielen Dank.",
+          "roman": "필렌 당크."
         },
         "es": {
           "code": "es-ES",
           "name": "스페인어",
           "flag": "🇪🇸",
-          "text": "El tiempo no acompaña para nada.",
-          "roman": ""
+          "text": "Muchas gracias.",
+          "roman": "무차스 그라시아스."
         },
         "ar": {
           "code": "ar-SA",
           "name": "아랍어",
           "flag": "🇸🇦",
-          "text": "الطقس لا يساعدنا أبدًا اليوم.",
-          "roman": "Aṭ-ṭaqsu lā yusā'idunā abadan al-yawm."
+          "text": "شكراً جزيلاً لك.",
+          "roman": "슈크란 자질란 라크."
         },
         "ru": {
           "code": "ru-RU",
           "name": "러시아어",
           "flag": "🇷🇺",
-          "text": "Погода совсем не на нашей стороне.",
-          "roman": "Pogoda sovsem ne na nashey storone."
+          "text": "Большое спасибо.",
+          "roman": "발쇼예 스파시바."
         }
       },
-      "pool_type": "일상",
+      "pool_type": "기초",
       "d_day": "오늘"
     },
     "polyglot_5d": [
+      {
+        "theme": "감사 표현",
+        "type": "기초",
+        "meaning": "정말 감사합니다.",
+        "translations": {
+          "en": {
+            "code": "en-US",
+            "name": "영어",
+            "flag": "🇺🇸",
+            "text": "Thank you very much.",
+            "roman": "땡큐 베리 머치."
+          },
+          "ja": {
+            "code": "ja-JP",
+            "name": "일본어",
+            "flag": "🇯🇵",
+            "text": "本当にありがとうございます。",
+            "roman": "혼토-니 아리가토- 고자이마스."
+          },
+          "zh": {
+            "code": "zh-CN",
+            "name": "중국어",
+            "flag": "🇨🇳",
+            "text": "非常感谢你。",
+            "roman": "페이창 간셰 니."
+          },
+          "fr": {
+            "code": "fr-FR",
+            "name": "프랑스어",
+            "flag": "🇫🇷",
+            "text": "Merci beaucoup.",
+            "roman": "메르시 보꾸."
+          },
+          "de": {
+            "code": "de-DE",
+            "name": "독일어",
+            "flag": "🇩🇪",
+            "text": "Vielen Dank.",
+            "roman": "필렌 당크."
+          },
+          "es": {
+            "code": "es-ES",
+            "name": "스페인어",
+            "flag": "🇪🇸",
+            "text": "Muchas gracias.",
+            "roman": "무차스 그라시아스."
+          },
+          "ar": {
+            "code": "ar-SA",
+            "name": "아랍어",
+            "flag": "🇸🇦",
+            "text": "شكراً جزيلاً لك.",
+            "roman": "슈크란 자질란 라크."
+          },
+          "ru": {
+            "code": "ru-RU",
+            "name": "러시아어",
+            "flag": "🇷🇺",
+            "text": "Большое спасибо.",
+            "roman": "발쇼예 스파시바."
+          }
+        },
+        "pool_type": "기초",
+        "d_day": "오늘"
+      },
       {
         "theme": "일상생활: 날씨",
         "meaning": "날씨가 통 안 도와주네.",
@@ -1085,7 +1151,7 @@
           }
         },
         "pool_type": "일상",
-        "d_day": "오늘"
+        "d_day": "D-1"
       },
       {
         "theme": "작별 인사",
@@ -1150,7 +1216,7 @@
           }
         },
         "pool_type": "기초",
-        "d_day": "D-1"
+        "d_day": "D-2"
       },
       {
         "theme": "일상생활: 날씨",
@@ -1214,7 +1280,7 @@
           }
         },
         "pool_type": "일상",
-        "d_day": "D-2"
+        "d_day": "D-3"
       },
       {
         "theme": "덕담",
@@ -1279,84 +1345,20 @@
           }
         },
         "pool_type": "기초",
-        "d_day": "D-3"
-      },
-      {
-        "theme": "입버릇 관용구: 단념과 태도",
-        "meaning": "당분간 자중하고 몸을 사릴래 (엎드려 있을래).",
-        "translations": {
-          "en": {
-            "code": "en-US",
-            "name": "영어",
-            "flag": "🇺🇸",
-            "text": "I'm going to lie low for a while.",
-            "roman": ""
-          },
-          "ja": {
-            "code": "ja-JP",
-            "name": "일본어",
-            "flag": "🇯🇵",
-            "text": "当分の間はおとなしく身を潜めておくよ。",
-            "roman": "Tōbun no aida wa otonashiku mi o hisomete oku yo."
-          },
-          "zh": {
-            "code": "zh-CN",
-            "name": "중국어",
-            "flag": "🇨🇳",
-            "text": "这阵子我打算先低调行事，避避风头。",
-            "roman": "Zhè zhènzi wǒ dǎsuàn xiān dīdiào xíngshì, bìbifēngtou."
-          },
-          "fr": {
-            "code": "fr-FR",
-            "name": "프랑스어",
-            "flag": "🇫🇷",
-            "text": "Je vais me faire discret pendant quelque temps.",
-            "roman": ""
-          },
-          "de": {
-            "code": "de-DE",
-            "name": "독일어",
-            "flag": "🇩🇪",
-            "text": "Ich werde erst einmal die Füße stillhalten.",
-            "roman": ""
-          },
-          "es": {
-            "code": "es-ES",
-            "name": "스페인어",
-            "flag": "🇪🇸",
-            "text": "Voy a mantener un perfil bajo por un tiempo.",
-            "roman": ""
-          },
-          "ar": {
-            "code": "ar-SA",
-            "name": "아랍어",
-            "flag": "🇸🇦",
-            "text": "سأبتعد عن الأنظار وألتزم الهدوء لفترة.",
-            "roman": "Sa-abta'idu 'an al-anẓāri wa-altazimu al-hudū'a li-fatrah."
-          },
-          "ru": {
-            "code": "ru-RU",
-            "name": "러시아어",
-            "flag": "🇷🇺",
-            "text": "Я пока залягу на дно на некоторое время.",
-            "roman": "Ya poka zalyagu na dno na nekotoroye vremya."
-          }
-        },
-        "pool_type": "일상",
         "d_day": "D-4"
       }
     ],
     "philosophy": {
-      "thinker": "투키디데스 (Thucydides)",
-      "era": "기원전 5세기 고대 그리스",
-      "concept": "투키디데스 함정 (Thucydides Trap)",
-      "quote": "“전쟁을 불가피하게 만든 것은 아테네의 부상과 그로 인해 스파르타에 심어진 두려움이었다.”",
+      "thinker": "한비자 (韓非子)",
+      "era": "기원전 3세기 전국시대 중국",
+      "concept": "법(法)·술(術)·세(勢)의 통치공학",
+      "quote": "“호랑이가 개를 굴복시킬 수 있는 까닭은 날카로운 발톱과 이빨(권세)을 쥐고 있기 때문이다.”",
       "bullets": [
-        "급부상하는 신흥 강국과 기존 지배 패권국 사이의 구조적 긴장과 충돌 역학 분석",
-        "국가 행동을 지배하는 3대 근본 동기: 공포(Fear), 명예(Honor), 이익(Interest)",
-        "동맹 네트워크의 확장과 오판이 국지적 갈등을 세계대전급 파국으로 확대시키는 경로 증명"
+        "인간의 도덕적 선의(善意)에 의존하는 정치를 경계하고 명문화된 법(法)과 엄격한 신상필벌 강조",
+        "신하들의 사익 추구를 간파하고 조직을 장악하는 군주의 인사 관리 기법(術)",
+        "직위와 제도에서 나오는 구조적 권력(勢)의 중요성 역설"
       ],
-      "application": "반도체·AI 인프라를 둘러싼 패권국 간의 배타적 경제 블록화와 전략적 수출 통제 조치의 기저에 깔린 근본 동기를 설명합니다."
+      "application": "거대 기업 조직의 거버넌스 설계, 시스템적 내부 통제 구축, 독점적 플랫폼의 구조적 지배력 분석에 유효합니다."
     }
   },
   "trends": {
@@ -1415,53 +1417,53 @@
     "namu_rank": [
       {
         "rank": 1,
-        "title": "최교진 면직안 재가",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B5%9C%EA%B5%90%EC%A7%84%20%EB%A9%B4%EC%A7%81%EC%95%88%20%EC%9E%AC%EA%B0%80"
+        "title": "유엔기후총회 화석연료 합의 실패",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9C%A0%EC%97%94%EA%B8%B0%ED%9B%84%EC%B4%9D%ED%9A%8C%20%ED%99%94%EC%84%9D%EC%97%B0%EB%A3%8C%20%ED%95%A9%EC%9D%98%20%EC%8B%A4%ED%8C%A8"
       },
       {
         "rank": 2,
+        "title": "젤렌스키 3자 종전협상 동의",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A0%A4%EB%A0%8C%EC%8A%A4%ED%82%A4%203%EC%9E%90%20%EC%A2%85%EC%A0%84%ED%98%91%EC%83%81%20%EB%8F%99%EC%9D%98"
+      },
+      {
+        "rank": 3,
         "title": "100일의 거짓말",
         "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=100%EC%9D%BC%EC%9D%98%20%EA%B1%B0%EC%A7%93%EB%A7%90"
       },
       {
-        "rank": 3,
-        "title": "EU 빅테크 디지털세",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=EU%20%EB%B9%85%ED%85%8C%ED%81%AC%20%EB%94%94%EC%A7%80%ED%84%B8%EC%84%B8"
-      },
-      {
         "rank": 4,
-        "title": "트럼프 이란 합의 발언",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%8A%B8%EB%9F%BC%ED%94%84%20%EC%9D%B4%EB%9E%80%20%ED%95%A9%EC%9D%98%20%EB%B0%9C%EC%96%B8"
+        "title": "아시아모델어워즈 부문 수상",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%95%84%EC%8B%9C%EC%95%84%EB%AA%A8%EB%8D%B8%EC%96%B4%EC%9B%8C%EC%A6%88%20%EB%B6%80%EB%AC%B8%20%EC%88%98%EC%83%81"
       },
       {
         "rank": 5,
-        "title": "김도균 감독, 승격 아쉬움",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EB%8F%84%EA%B7%A0%20%EA%B0%90%EB%8F%85%2C%20%EC%8A%B9%EA%B2%A9%20%EC%95%84%EC%89%AC%EC%9B%80"
+        "title": "조희대 탄핵 연내 추진",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A1%B0%ED%9D%AC%EB%8C%80%20%ED%83%84%ED%95%B5%20%EC%97%B0%EB%82%B4%20%EC%B6%94%EC%A7%84"
       },
       {
         "rank": 6,
-        "title": "김정은 러시아 대사 신임장",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EC%A0%95%EC%9D%80%20%EB%9F%AC%EC%8B%9C%EC%95%84%20%EB%8C%80%EC%82%AC%20%EC%8B%A0%EC%9E%84%EC%9E%A5"
+        "title": "집",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A7%91"
       },
       {
         "rank": 7,
-        "title": "굿파트너 2",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B5%BF%ED%8C%8C%ED%8A%B8%EB%84%88%202"
+        "title": "리비아 러시아 군함 피격",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%A6%AC%EB%B9%84%EC%95%84%20%EB%9F%AC%EC%8B%9C%EC%95%84%20%EA%B5%B0%ED%95%A8%20%ED%94%BC%EA%B2%A9"
       },
       {
         "rank": 8,
-        "title": "정부 증안펀드 가동 준비",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%A0%95%EB%B6%80%20%EC%A6%9D%EC%95%88%ED%8E%80%EB%93%9C%20%EA%B0%80%EB%8F%99%20%EC%A4%80%EB%B9%84"
+        "title": "해광호 수색 부이 발견",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%ED%95%B4%EA%B4%91%ED%98%B8%20%EC%88%98%EC%83%89%20%EB%B6%80%EC%9D%B4%20%EB%B0%9C%EA%B2%AC"
       },
       {
         "rank": 9,
-        "title": "김동완 SNS 중단 선언",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EA%B9%80%EB%8F%99%EC%99%84%20SNS%20%EC%A4%91%EB%8B%A8%20%EC%84%A0%EC%96%B8"
+        "title": "북미회담 무산",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EB%B6%81%EB%AF%B8%ED%9A%8C%EB%8B%B4%20%EB%AC%B4%EC%82%B0"
       },
       {
         "rank": 10,
-        "title": "최소라 만삭 사진 공개",
-        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%B5%9C%EC%86%8C%EB%9D%BC%20%EB%A7%8C%EC%82%AD%20%EC%82%AC%EC%A7%84%20%EA%B3%B5%EA%B0%9C"
+        "title": "2026년 11월 23일 운세",
+        "link": "https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=2026%EB%85%84%2011%EC%9B%94%2023%EC%9D%BC%20%EC%9A%B4%EC%84%B8"
       }
     ],
     "youtube_popular": [
@@ -1469,7 +1471,7 @@
         "rank": 1,
         "title": "GiiiRIP",
         "channel": "BIGBANG - Topic",
-        "views": "281만회",
+        "views": "301만회",
         "thumb": "https://i.ytimg.com/vi/IQI2qaqHFlg/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=IQI2qaqHFlg"
       },
@@ -1477,7 +1479,7 @@
         "rank": 2,
         "title": "추성훈 vs 크리스 리벤 [Official Trailer]",
         "channel": "블랙컴뱃",
-        "views": "107만회",
+        "views": "109만회",
         "thumb": "https://i.ytimg.com/vi/pVFdva-Ifns/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=pVFdva-Ifns"
       },
@@ -1485,7 +1487,7 @@
         "rank": 3,
         "title": "≪무기 강화하는 게임≫ 드디어...전설의 검 강화성공!!!!!!!",
         "channel": "혜안",
-        "views": "117만회",
+        "views": "134만회",
         "thumb": "https://i.ytimg.com/vi/izlRpHOlgFE/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=izlRpHOlgFE"
       },
@@ -1493,57 +1495,57 @@
         "rank": 4,
         "title": "난 못해 (Feat. 이병철)",
         "channel": "Private Story - Topic",
-        "views": "56만회",
+        "views": "58만회",
         "thumb": "https://i.ytimg.com/vi/XKYp0bYquv4/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=XKYp0bYquv4"
       },
       {
         "rank": 5,
-        "title": "OFF THE RECORD | 예고편 TRAILER | I'll Win Over the Commander | Fantasy Romance",
-        "channel": "문베일 스튜디오 Moonveil Studio",
-        "views": "3만회",
-        "thumb": "https://i.ytimg.com/vi/AqxpOxdPBz8/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=AqxpOxdPBz8"
+        "title": "멸망전 팀 결정 마지막날 클리드에게 선수들 다 뺏긴 맵교ㅋㅋㅋ",
+        "channel": "튜브김민교",
+        "views": "30만회",
+        "thumb": "https://i.ytimg.com/vi/u201uSiHiko/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=u201uSiHiko"
       },
       {
         "rank": 6,
-        "title": "감스트 GTA6 오픈런!! 웃긴 장면 모음 ㅋㅋㅋ",
-        "channel": "감스트GAMST",
-        "views": "151만회",
-        "thumb": "https://i.ytimg.com/vi/utP5cFNvBs4/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=utP5cFNvBs4"
-      },
-      {
-        "rank": 7,
         "title": "베스티(BESTie) - 연애의 조건(Love Options) | Suit Dance | 수트댄스 | Performance | 4K",
         "channel": "1theK Originals - 원더케이 오리지널",
-        "views": "165만회",
+        "views": "180만회",
         "thumb": "https://i.ytimg.com/vi/FVNI7zBuk-4/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=FVNI7zBuk-4"
       },
       {
-        "rank": 8,
-        "title": "입단했습니다",
-        "channel": "괴물쥐 유튜브",
-        "views": "74만회",
-        "thumb": "https://i.ytimg.com/vi/ks4cTu5dNgM/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=ks4cTu5dNgM"
+        "rank": 7,
+        "title": "감스트 GTA6 오픈런!! 웃긴 장면 모음 ㅋㅋㅋ",
+        "channel": "감스트GAMST",
+        "views": "172만회",
+        "thumb": "https://i.ytimg.com/vi/utP5cFNvBs4/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=utP5cFNvBs4"
       },
       {
-        "rank": 9,
+        "rank": 8,
         "title": "Do you know (2026 Version)",
         "channel": "SOMEDAY - Topic",
-        "views": "89만회",
+        "views": "93만회",
         "thumb": "https://i.ytimg.com/vi/LOLXD85SThc/mqdefault.jpg",
         "link": "https://www.youtube.com/watch?v=LOLXD85SThc"
       },
       {
+        "rank": 9,
+        "title": "입단했습니다",
+        "channel": "괴물쥐 유튜브",
+        "views": "81만회",
+        "thumb": "https://i.ytimg.com/vi/ks4cTu5dNgM/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=ks4cTu5dNgM"
+      },
+      {
         "rank": 10,
-        "title": "팀나빠 멤버들 모두..병원에 입원 해 버렸습니다.",
-        "channel": "멜로우TV",
-        "views": "23만회",
-        "thumb": "https://i.ytimg.com/vi/boEyYn8RjDk/mqdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=boEyYn8RjDk"
+        "title": "ICONIC",
+        "channel": "CL (from 2NE1) - Topic",
+        "views": "8만회",
+        "thumb": "https://i.ytimg.com/vi/nnffnIqaTrk/mqdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=nnffnIqaTrk"
       }
     ]
   }
